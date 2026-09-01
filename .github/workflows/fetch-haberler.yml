@@ -28,8 +28,9 @@ jobs:
 
       - name: Değişiklik varsa commit'le ve push'la
         run: |
-          git config user.name "haber-bot"
-          git config user.email "haber-bot@users.noreply.github.com"
+          git config user.name "haber-botu"
+          git config user.email "haber-botu@users.noreply.github.com"
           git add haberler.json
-          git diff --cached --quiet || git commit -m "haberler.json güncellendi"
+          git diff --cached --quiet || git commit -m "Haber güncellemesi"
+          git pull --rebase origin main
           git push
