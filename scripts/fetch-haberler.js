@@ -1,88 +1,172 @@
-// scripts/fetch-haberler.js
-//
-// GitHub Actions tarafından 5 saatte bir otomatik çalıştırılır.
-// Yaptığı iş:
-//   1) Anadolu Ajansı'nın genel haber RSS beslemesini çeker.
-//   2) Başlığında veya özetinde akaryakıt ile ilgili anahtar kelimeler
-//      geçen haberleri süzer (yorum/analiz eklemez, sadece filtreler).
-//   3) Sonucu haberler.json'a yazar. Workflow dosyası bu değişikliği
-//      otomatik commit'leyip depoya gönderir.
-//
-// Not: Bu script paket kurmadan (npm install olmadan) çalışacak şekilde
-// RSS XML'ini basit regex ile ayrıştırır — besleme yapısı standart RSS 2.0
-// olduğu sürece yeterlidir.
+#!/usr/bin/env node
+/**
+ * fetch-haberler.js
+ * ---------------------------------------------------------------------
+ * Birden fazla haber ajansının RSS beslemesini çeker, akaryakıt/benzin/
+ * motorin/LPG/EPDK ile ilgili başlıkları süzer, tek bir haberler.json
+ * dosyasında birleştirir. GitHub Actions içinde günde birkaç kez
+ * çalıştırılıp repo'ya commit'lenmesi ve GitHub Pages'te yayınlanması
+ * için tasarlandı (bkz. dosya sonundaki örnek workflow).
+ *
+ * Kurulum:
+ *   npm init -y
+ *   npm install rss-parser
+ *
+ * Çalıştırma:
+ *   node scripts/fetch-haberler.js
+ *
+ * Çıktı:
+ *   ./haberler.json  (uygulamanın HABER_JSON_URL ile çektiği dosyayla aynı şema)
+ * ---------------------------------------------------------------------
+ */
 
 const fs = require("fs");
 const path = require("path");
+const Parser = require("rss-parser");
 
-const OUT_PATH = path.join(__dirname, "..", "haberler.json");
-const RSS_URL = "https://www.aa.com.tr/tr/rss/default?cat=guncel";
-const MAX_HABER = 20;
+const parser = new Parser({
+  timeout: 15000,
+  headers: { "User-Agent": "yakit-nabzi-haber-bot/1.0" },
+});
 
-// Akaryakıt ile ilgisiz genel "zam" haberlerini elemek için, kelimelerin
-// çoğu doğrudan yakıt bağlamına özgü; sadece "zam"/"indirim" tek başına
-// kullanılmıyor.
-const ANAHTAR_KELIMELER = [
-  "benzin", "motorin", "akaryakıt", "akaryakit", "mazot", "otogaz",
-  "lpg", "pompa fiyat", "ötv", "otv", "petrol fiyat", "yakıt fiyat", "yakit fiyat",
+/* ---------- kaynak tanımları ----------
+   Her kaynağın kısa kodu (kaynak), görünen adı ve RSS adresi burada
+   tanımlanır. Yeni bir ajans eklemek için bu listeye bir satır eklemek
+   yeterli — geri kalan kod otomatik olarak çoklu kaynağı işler.
+   NOT: Aşağıdaki URL'ler örnektir; her ajansın güncel, herkese açık RSS
+   adresini ve kullanım şartlarını kendiniz doğrulayın. */
+const KAYNAKLAR = [
+  {
+    kod: "AA",
+    ad: "Anadolu Ajansı",
+    rss: "https://www.aa.com.tr/tr/rss/default?cat=ekonomi",
+  },
+  {
+    kod: "İHA",
+    ad: "İhlas Haber Ajansı",
+    rss: "https://www.iha.com.tr/rss/ekonomi.xml",
+  },
+  {
+    kod: "DHA",
+    ad: "Demirören Haber Ajansı",
+    rss: "https://www.dha.com.tr/rss/ekonomi.xml",
+  },
 ];
 
-function decodeEntities(s) {
-  return String(s || "")
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/<[^>]+>/g, "")
-    .trim();
+/* Başlık/özet bu anahtar kelimelerden en az birini içermiyorsa
+   habere alınmaz — akaryakıt gündemine odaklanmak için. */
+const ANAHTAR_KELIMELER = [
+  "akaryakıt", "benzin", "motorin", "mazot", "lpg", "otogaz",
+  "epdk", "petrol", "pompa fiyat", "zam", "indirim",
+];
+
+const MAKS_HABER = 40; // dosyada tutulacak toplam üst sınır
+const MAKS_YAS_GUN = 10; // bu günden eski haberler elenir
+
+function icerirAnahtarKelime(metin) {
+  const t = (metin || "").toLocaleLowerCase("tr-TR");
+  return ANAHTAR_KELIMELER.some((k) => t.includes(k));
 }
 
-function extractTag(block, tag) {
-  const m = block.match(new RegExp("<" + tag + "[^>]*>([\\s\\S]*?)</" + tag + ">"));
-  return m ? decodeEntities(m[1]) : "";
+function temizleOzet(html) {
+  if (!html) return "";
+  const duz = html.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  return duz.length > 220 ? duz.slice(0, 217) + "…" : duz;
 }
 
-function parseItems(xml) {
-  const items = [];
-  const blocks = xml.split("<item>").slice(1);
-  for (const raw of blocks) {
-    const block = raw.split("</item>")[0];
-    items.push({
-      baslik: extractTag(block, "title"),
-      ozet: extractTag(block, "description"),
-      link: extractTag(block, "link"),
-      tarih: extractTag(block, "pubDate"),
-    });
+async function kaynaktanCek(kaynak) {
+  try {
+    const feed = await parser.parseURL(kaynak.rss);
+    return (feed.items || [])
+      .filter((item) => icerirAnahtarKelime(item.title) || icerirAnahtarKelime(item.contentSnippet))
+      .map((item) => ({
+        baslik: (item.title || "").trim(),
+        ozet: temizleOzet(item.contentSnippet || item.content),
+        link: item.link,
+        tarih: item.isoDate || item.pubDate || null,
+        kaynak: kaynak.kod,
+      }));
+  } catch (err) {
+    console.error(`[uyarı] ${kaynak.ad} (${kaynak.kod}) çekilemedi: ${err.message}`);
+    return []; // bir kaynak başarısız olursa diğerlerini etkilemesin
   }
-  return items;
 }
 
-function ilgiliMi(haber) {
-  const metin = (haber.baslik + " " + haber.ozet).toLocaleLowerCase("tr-TR");
-  return ANAHTAR_KELIMELER.some((k) => metin.includes(k));
+function tekillestir(haberler) {
+  const gorulen = new Set();
+  const sonuc = [];
+  for (const h of haberler) {
+    const anahtar = (h.link || h.baslik || "").trim().toLowerCase();
+    if (!anahtar || gorulen.has(anahtar)) continue;
+    gorulen.add(anahtar);
+    sonuc.push(h);
+  }
+  return sonuc;
 }
 
-function tarihToIso(pubDate) {
-  const d = new Date(pubDate);
-  return isNaN(d) ? null : d.toISOString();
+function eskimisMi(iso) {
+  if (!iso) return false;
+  const t = new Date(iso).getTime();
+  if (Number.isNaN(t)) return false;
+  return Date.now() - t > MAKS_YAS_GUN * 24 * 60 * 60 * 1000;
 }
 
 async function main() {
-  const res = await fetch(RSS_URL);
-  if (!res.ok) throw new Error("RSS çekilemedi: HTTP " + res.status);
-  const xml = await res.text();
+  console.log(`${KAYNAKLAR.length} kaynaktan haber çekiliyor: ${KAYNAKLAR.map((k) => k.kod).join(", ")}`);
 
-  const tumHaberler = parseItems(xml);
-  const filtreli = tumHaberler
-    .filter(ilgiliMi)
-    .slice(0, MAX_HABER)
-    .map((h) => ({ baslik: h.baslik, ozet: h.ozet, link: h.link, tarih: tarihToIso(h.tarih) }));
+  const tumSonuclar = await Promise.all(KAYNAKLAR.map(kaynaktanCek));
+  let haberler = tumSonuclar.flat();
 
-  const out = { guncelleme: new Date().toISOString(), haberler: filtreli };
-  fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2), "utf8");
-  console.log("haberler.json güncellendi: " + filtreli.length + " haber (" + tumHaberler.length + " taranan haber içinden).");
+  haberler = tekillestir(haberler).filter((h) => !eskimisMi(h.tarih));
+
+  // en yeni en üstte
+  haberler.sort((a, b) => new Date(b.tarih || 0) - new Date(a.tarih || 0));
+  haberler = haberler.slice(0, MAKS_HABER);
+
+  const cikti = {
+    guncelleme: new Date().toISOString(),
+    kaynaklar: Array.from(new Set(haberler.map((h) => h.kaynak))),
+    haberler,
+  };
+
+  const hedefYol = path.join(process.cwd(), "haberler.json");
+  fs.writeFileSync(hedefYol, JSON.stringify(cikti, null, 2), "utf-8");
+  console.log(`Yazıldı: ${hedefYol} — ${haberler.length} haber, ${cikti.kaynaklar.length} kaynak.`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+main().catch((err) => {
+  console.error("Beklenmeyen hata:", err);
+  process.exit(1);
+});
+
+/* ---------------------------------------------------------------------
+   Örnek GitHub Actions workflow (.github/workflows/haberler.yml):
+
+   name: Haberleri Güncelle
+   on:
+     schedule:
+       - cron: "0 */4 * * *"   # günde 6 kez
+     workflow_dispatch: {}      # elle tetiklemeye izin ver
+
+   jobs:
+     guncelle:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v4
+         - uses: actions/setup-node@v4
+           with:
+             node-version: "20"
+         - run: npm install rss-parser
+         - run: node scripts/fetch-haberler.js
+         - run: |
+             git config user.name "haber-bot"
+             git config user.email "haber-bot@users.noreply.github.com"
+             git add haberler.json
+             git diff --cached --quiet || git commit -m "haberler.json güncellendi"
+             git push
+
+   Not: Repo'da GitHub Pages "main" dalından yayın yapacak şekilde
+   ayarlıysa (Settings → Pages), push sonrası haberler.json otomatik
+   olarak https://<kullanıcı>.github.io/<repo>/haberler.json adresinde
+   güncellenmiş olur — uygulama tarafında ek bir işlem gerekmez.
+   --------------------------------------------------------------------- */
