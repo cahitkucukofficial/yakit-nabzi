@@ -1,1 +1,36 @@
+name: Haberleri Güncelle
+
+on:
+  schedule:
+    # Her 5 saatte bir (UTC) — günde 4-5 kez
+    - cron: "0 */5 * * *"
+  workflow_dispatch: {} # Settings > Actions > Run workflow ile elle de tetiklenebilir
+
+permissions:
+  contents: write
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Haberleri çek ve dosyayı güncelle
+        run: node scripts/fetch-haberler.js
+
+      - name: Değişiklik varsa commit'le ve gönder
+        run: |
+          git config user.name "haber-botu"
+          git config user.email "actions@github.com"
+          git add haberler.json
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "Haber güncellemesi"
+            git push
+          fi
 
