@@ -2,8 +2,9 @@ name: Fiyatları Güncelle
 
 on:
   schedule:
+    # Her gün 00:10 Türkiye saati (UTC+3) = 21:10 UTC (bir önceki gün)
     - cron: "10 21 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {} # Settings > Actions > Run workflow ile elle de tetiklenebilir
 
 permissions:
   contents: write
@@ -23,14 +24,17 @@ jobs:
           UCUZYAKITBUL_API_KEY: ${{ secrets.UCUZYAKITBUL_API_KEY }}
         run: node scripts/update-fiyatlar.js
 
+      - name: Haberleri çek ve dosyayı güncelle
+        run: node scripts/fetch-haberler.js
+
       - name: Değişiklik varsa commit'le ve gönder
         run: |
           git config user.name "fiyat-botu"
           git config user.email "actions@github.com"
-          git add fiyatlar.json
+          git add fiyatlar.json haberler.json
           if git diff --cached --quiet; then
             echo "Değişiklik yok."
           else
-            git commit -m "Günlük fiyat güncellemesi"
+            git commit -m "Günlük fiyat ve haber güncellemesi"
             git push
           fi
