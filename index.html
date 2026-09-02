@@ -49,7 +49,7 @@
           if (durumEl) durumEl.textContent = "app.tsx cekildi (" + kaynakKod.length + " karakter), derleniyor...";
           var derlenmis;
           try {
-            derlenmis = Babel.transform(kaynakKod, { presets: ["react"], filename: "app.tsx" }).code;
+            derlenmis = Babel.transform(kaynakKod, { presets: [["react", { runtime: "classic" }]], filename: "app.tsx" }).code;
           } catch (derlemeHatasi) {
             hataGoster("BABEL DERLEME HATASI:", derlemeHatasi.message);
             return;
