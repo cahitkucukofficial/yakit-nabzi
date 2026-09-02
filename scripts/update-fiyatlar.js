@@ -1,135 +1,176 @@
-
-// scripts/update-fiyatlar.js
-//
-// GitHub Actions tarafından günde bir kez otomatik çalıştırılır.
-// Yaptığı iş:
-//   1) Depodaki mevcut fiyatlar.json'u okur, her ilçenin "today" (bugün)
-//      değerlerini "yesterday" (dün) olarak saklar — çünkü fiyatlar
-//      gerçek hayatta da böyle karşılaştırılıyor: dünün bugünü.
-//   2) ucuzyakitbul.com.tr API'sinden 81 ilin istasyon fiyatlarını çeker,
-//      ilçelere göre gruplayıp ortalamasını alır (yeni "today" değeri olur).
-//   3) Sonucu fiyatlar.json'a yazar. Workflow dosyası bu değişikliği
-//      otomatik commit'leyip depoya gönderir.
-//
-// ÖNEMLİ: UCUZYAKITBUL_API_KEY tanımlı değilse script hiçbir şeyi
-// bozmadan sessizce çıkar (mevcut dosya olduğu gibi kalır).
+#!/usr/bin/env node
+/**
+ * update-fiyatlar.js
+ * ---------------------------------------------------------------------
+ * Turkiye genelinde il/ilce bazinda akaryakit fiyatlarini uretir.
+ *
+ * Kaynaklar:
+ *  1) Il/ilce listesi: TurkiyeAPI (https://api.turkiyeapi.dev) - ucretsiz,
+ *     anahtarsiz, resmi acik kaynak API. Gercek il/ilce isimlerini verir.
+ *  2) Fiyat: hasanadiguzel.com.tr/api/akaryakit - ucretsiz, anahtarsiz.
+ *     Bu API il bazinda fiyat verir (ilce kirilimi yok), bu yuzden bir
+ *     ilin tum ilcelerine o ilin ortalama fiyati uygulanir. Gercek ilce
+ *     bazli fiyat icin ucuzyakitbul.com.tr API anahtari alindiginda bu
+ *     script'in fiyat cekme kismi degistirilip il/ilce listesi aynen
+ *     korunabilir.
+ *
+ * Cikti: ./fiyatlar.json (uygulamanin FIYAT_JSON_URL ile cektigi dosya)
+ * ---------------------------------------------------------------------
+ */
 
 const fs = require("fs");
 const path = require("path");
 
-const OUT_PATH = path.join(__dirname, "..", "fiyatlar.json");
-const API_KEY = process.env.UCUZYAKITBUL_API_KEY || "";
-const BASE_URL = "https://ucuzyakitbul.com.tr/api";
+const CIKTI_YOLU = path.join(process.cwd(), "fiyatlar.json");
+const MAKS_GECMIS = 14; // ilce basina saklanacak gunluk fiyat sayisi
+const ISTEK_ARASI_MS = 250; // hasanadiguzel'e ardisik istekler arasi bekleme
 
-// Uygulamadaki 81 il ile birebir aynı liste.
-const ILLER = [
-  "Ankara", "İstanbul", "İzmir", "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Amasya",
-  "Antalya", "Artvin", "Aydın", "Balıkesir", "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur",
-  "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Edirne", "Elazığ",
-  "Erzincan", "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane", "Hakkari", "Hatay",
-  "Isparta", "Mersin", "Kars", "Kastamonu", "Kayseri", "Kırklareli", "Kırşehir", "Kocaeli",
-  "Konya", "Kütahya", "Malatya", "Manisa", "Kahramanmaraş", "Mardin", "Muğla", "Muş",
-  "Nevşehir", "Niğde", "Ordu", "Rize", "Sakarya", "Samsun", "Siirt", "Sinop", "Sivas",
-  "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Şanlıurfa", "Uşak", "Van", "Yozgat",
-  "Zonguldak", "Aksaray", "Bayburt", "Karaman", "Kırıkkale", "Batman", "Şırnak", "Bartın",
-  "Ardahan", "Iğdır", "Yalova", "Karabük", "Kilis", "Osmaniye", "Düzce",
-];
-
-async function fetchJSON(url) {
-  const res = await fetch(url, { headers: { "x-api-key": API_KEY } });
-  if (!res.ok) throw new Error(url + " -> HTTP " + res.status);
-  return res.json();
+function bekle(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// Resmî API dokümantasyonuna (ucuzyakitbul.com.tr/api-docs) göre doğrulanmış
-// şema: her istasyon {district, fuelPrices:[{fuelType, price}, ...]} içerir.
-// Şehir başına 500'lük sayfalarla, hasMore bitene kadar çekilir.
-async function fetchIlIstasyonlari(il) {
-  const all = [];
-  let offset = 0;
-  const limit = 500;
-  while (true) {
-    const url = BASE_URL + "/stations?city=" + encodeURIComponent(il) + "&limit=" + limit + "&offset=" + offset;
-    const data = await fetchJSON(url);
-    const batch = data.stations || data.data || data.results || [];
-    all.push(...batch);
-    if (!data.hasMore || batch.length === 0 || offset >= 1000) break;
-    offset += limit;
-  }
-  return all;
+function virgulluSayi(v) {
+  if (v === null || v === undefined) return null;
+  const s = String(v).trim();
+  if (!s) return null;
+  const n = parseFloat(s.replace(",", "."));
+  return Number.isFinite(n) ? n : null;
 }
 
-function groupByDistrict(il, stations) {
-  const byDistrict = new Map();
-  for (const s of stations) {
-    const ilce = s.district || s.ilce || s.county || "Merkez";
-    if (!byDistrict.has(ilce)) byDistrict.set(ilce, { benzin: [], motorin: [], lpg: [] });
-    const bucket = byDistrict.get(ilce);
-    // Her istasyonun fiyatları "fuelPrices" adlı alt dizide gelir:
-    // { fuelType: "Benzin", price: 74.29, ... }
-    for (const fp of s.fuelPrices || []) {
-      const fuel = String(fp.fuelType || "").toLowerCase();
-      const price = Number(fp.price);
-      if (!price) continue;
-      if (fuel.includes("benzin")) bucket.benzin.push(price);
-      else if (fuel.includes("motorin")) bucket.motorin.push(price);
-      else if (fuel.includes("lpg")) bucket.lpg.push(price);
+function ortalama(sayilar) {
+  const gecerli = sayilar.filter((n) => typeof n === "number" && Number.isFinite(n));
+  if (!gecerli.length) return null;
+  const toplam = gecerli.reduce((a, b) => a + b, 0);
+  return Math.round((toplam / gecerli.length) * 100) / 100;
+}
+
+// Turkce karakterleri hasanadiguzel API'sinin bekledigi sade Latin buyuk harfe cevirir.
+function ilAdiniApiFormatinaCevir(ad) {
+  const harfler = { ç: "c", Ç: "C", ğ: "g", Ğ: "G", ı: "i", İ: "I", ö: "o", Ö: "O", ş: "s", Ş: "S", ü: "u", Ü: "U" };
+  const sade = ad.replace(/[çÇğĞıİöÖşŞüÜ]/g, (h) => harfler[h] || h);
+  return sade.toLocaleUpperCase("en-US");
+}
+
+async function ilListesiniGetir() {
+  const res = await fetch("https://api.turkiyeapi.dev/v2/provinces?fields=id,name&limit=100");
+  if (!res.ok) throw new Error("TurkiyeAPI il listesi alinamadi (" + res.status + ")");
+  const gövde = await res.json();
+  return (gövde.data || []).map((p) => ({ id: p.id, ad: p.name }));
+}
+
+async function ilceListesiniGetir(ilId) {
+  const res = await fetch("https://api.turkiyeapi.dev/v2/districts?provinceId=" + ilId + "&fields=id,name&limit=100");
+  if (!res.ok) throw new Error("TurkiyeAPI ilce listesi alinamadi (il " + ilId + ", " + res.status + ")");
+  const gövde = await res.json();
+  return (gövde.data || []).map((d) => d.name);
+}
+
+async function ilFiyatiniGetir(ilAdi) {
+  const apiAdi = ilAdiniApiFormatinaCevir(ilAdi);
+  const res = await fetch("http://hasanadiguzel.com.tr/api/akaryakit/sehir=" + encodeURIComponent(apiAdi), {
+    headers: { "User-Agent": "yakit-nabzi-fiyat-botu/1.0" },
+  });
+  if (!res.ok) throw new Error("hasanadiguzel yaniti basarisiz (" + ilAdi + ", " + res.status + ")");
+  const gövde = await res.json();
+  const kayitlar = Object.values(gövde.data || {});
+  if (!kayitlar.length) return null;
+
+  const benzinler = kayitlar.map((k) => virgulluSayi(k["Kursunsuz_95(Excellium95)_TL/lt"]));
+  const motorinler = kayitlar.map((k) => virgulluSayi(k["Motorin(Eurodiesel)_TL/lt"]));
+  const lpgler = kayitlar.map((k) => virgulluSayi(k["Otogaz_TL/lt"]));
+
+  return {
+    benzin: ortalama(benzinler),
+    motorin: ortalama(motorinler),
+    lpg: ortalama(lpgler),
+  };
+}
+
+function eskiVeriyiOku() {
+  try {
+    const ham = fs.readFileSync(CIKTI_YOLU, "utf-8");
+    const veri = JSON.parse(ham);
+    const harita = new Map();
+    for (const d of veri.ilceler || []) {
+      harita.set(d.il + "|" + d.ilce, d);
     }
+    return harita;
+  } catch {
+    return new Map(); // dosya yok ya da bozuk - ilk calistirma gibi davran
   }
-  const avg = (arr) => (arr.length ? Math.round((arr.reduce((a, b) => a + b, 0) / arr.length) * 100) / 100 : null);
-  const out = [];
-  for (const [ilce, b] of byDistrict) {
-    out.push({ il, ilce, benzin: avg(b.benzin), motorin: avg(b.motorin), lpg: avg(b.lpg) });
+}
+
+function yakitAlaniOlustur(bugunFiyat, eskiKayit, yakitAdi) {
+  const eskiYakit = eskiKayit ? eskiKayit[yakitAdi] : null;
+  const dun = eskiYakit && typeof eskiYakit.today === "number" ? eskiYakit.today : bugunFiyat;
+  const eskiGecmis = eskiYakit && Array.isArray(eskiYakit.history) ? eskiYakit.history : [];
+
+  let gecmis = eskiGecmis.length ? eskiGecmis.slice() : [dun];
+  if (typeof bugunFiyat === "number") {
+    gecmis.push(bugunFiyat);
   }
-  return out;
+  gecmis = gecmis.slice(-MAKS_GECMIS);
+
+  return {
+    today: bugunFiyat,
+    yesterday: dun,
+    history: gecmis,
+  };
 }
 
 async function main() {
-  if (!API_KEY) {
-    console.log("UCUZYAKITBUL_API_KEY tanımlı değil — il/ilçe güncellemesi atlanıyor, dosya değiştirilmedi.");
-    return;
-  }
+  console.log("Il listesi cekiliyor (TurkiyeAPI)...");
+  const iller = await ilListesiniGetir();
+  console.log(iller.length + " il bulundu.");
 
-  let onceki = { ilceler: [] };
-  if (fs.existsSync(OUT_PATH)) {
-    try { onceki = JSON.parse(fs.readFileSync(OUT_PATH, "utf8")); } catch { /* bozuk dosya, boş say */ }
-  }
-  const dunMap = new Map();
-  for (const d of onceki.ilceler || []) dunMap.set(d.il + "|" + d.ilce, d);
+  const eskiVeri = eskiVeriyiOku();
+  const ilceler = [];
+  let basariliIl = 0;
 
-  const tumIlceler = [];
-  for (const il of ILLER) {
+  for (const il of iller) {
+    let ilceAdlari = [];
+    let ilFiyati = null;
+
     try {
-      const stations = await fetchIlIstasyonlari(il);
-      const gruplar = groupByDistrict(il, stations);
-      for (const g of gruplar) {
-        if (g.benzin == null && g.motorin == null && g.lpg == null) continue;
-        const key = g.il + "|" + g.ilce;
-        const dun = dunMap.get(key);
-        tumIlceler.push({
-          il: g.il,
-          ilce: g.ilce,
-          benzin: { today: g.benzin, yesterday: dun?.benzin?.today ?? g.benzin },
-          motorin: { today: g.motorin, yesterday: dun?.motorin?.today ?? g.motorin },
-          lpg: { today: g.lpg, yesterday: dun?.lpg?.today ?? g.lpg },
-        });
-      }
-      console.log(il + ": " + gruplar.length + " ilçe işlendi.");
-    } catch (e) {
-      console.error(il + " çekilemedi: " + e.message);
+      ilceAdlari = await ilceListesiniGetir(il.id);
+    } catch (err) {
+      console.error("[uyari] " + il.ad + " ilceleri alinamadi: " + err.message);
+      continue;
     }
-    // API'yi yormamak için istekler arasında kısa bir bekleme
-    await new Promise((r) => setTimeout(r, 150));
+
+    try {
+      ilFiyati = await ilFiyatiniGetir(il.ad);
+    } catch (err) {
+      console.error("[uyari] " + il.ad + " fiyati alinamadi: " + err.message);
+    }
+
+    if (ilFiyati) basariliIl++;
+
+    for (const ilceAdi of ilceAdlari) {
+      const eskiKayit = eskiVeri.get(il.ad + "|" + ilceAdi) || null;
+      ilceler.push({
+        il: il.ad,
+        ilce: ilceAdi,
+        benzin: yakitAlaniOlustur(ilFiyati ? ilFiyati.benzin : null, eskiKayit, "benzin"),
+        motorin: yakitAlaniOlustur(ilFiyati ? ilFiyati.motorin : null, eskiKayit, "motorin"),
+        lpg: yakitAlaniOlustur(ilFiyati ? ilFiyati.lpg : null, eskiKayit, "lpg"),
+      });
+    }
+
+    await bekle(ISTEK_ARASI_MS);
   }
 
-  if (!tumIlceler.length) {
-    console.log("Hiç veri çekilemedi, mevcut dosya korunuyor.");
-    return;
-  }
+  const cikti = {
+    guncelleme: new Date().toISOString(),
+    not: "Fiyatlar il bazinda ortalamadir; bir ildeki tum ilcelere ayni deger uygulanir.",
+    ilceler,
+  };
 
-  const out = { guncelleme: new Date().toISOString(), ilceler: tumIlceler };
-  fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2), "utf8");
-  console.log("fiyatlar.json güncellendi: " + tumIlceler.length + " ilçe.");
+  fs.writeFileSync(CIKTI_YOLU, JSON.stringify(cikti, null, 2), "utf-8");
+  console.log("Yazildi: " + CIKTI_YOLU + " - " + ilceler.length + " ilce, " + basariliIl + "/" + iller.length + " il icin fiyat bulundu.");
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+main().catch((err) => {
+  console.error("Beklenmeyen hata:", err);
+  process.exit(1);
+});
