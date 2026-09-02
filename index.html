@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
+  <title>Yakıt Nabzı</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #DCD3B8; }
+    #root { min-height: 100%; }
+    #hata-kutusu {
+      display: none; position: fixed; inset: 0; background: #1a1a1a; color: #ff6b6b;
+      font-family: monospace; font-size: 13px; padding: 16px; overflow: auto; z-index: 9999;
+      white-space: pre-wrap; word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <div id="hata-kutusu"></div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script>
+    function hataGoster(baslik, detay) {
+      var kutu = document.getElementById("hata-kutusu");
+      kutu.style.display = "block";
+      kutu.textContent = baslik + "\n\n" + detay;
+    }
+
+    fetch("app.tsx?nocache=" + Date.now())
+      .then(function (res) {
+        if (!res.ok) throw new Error("app.tsx getirilemedi, HTTP " + res.status);
+        return res.text();
+      })
+      .then(function (kaynakKod) {
+        var derlenmis;
+        try {
+          derlenmis = Babel.transform(kaynakKod, { presets: ["react"], filename: "app.tsx" }).code;
+        } catch (derlemeHatasi) {
+          hataGoster("BABEL DERLEME HATASI:", derlemeHatasi.message);
+          return;
+        }
+        try {
+          (0, eval)(derlenmis);
+        } catch (calismaHatasi) {
+          hataGoster("ÇALIŞMA ZAMANI HATASI:", (calismaHatasi && calismaHatasi.stack) || String(calismaHatasi));
+        }
+      })
+      .catch(function (agHatasi) {
+        hataGoster("DOSYA ÇEKME HATASI:", agHatasi.message);
+      });
+  </script>
+</body>
+</html>
