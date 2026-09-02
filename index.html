@@ -6,7 +6,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
-  <title>Yakıt Nabzı</title>
+  <title>Yakit Nabzi</title>
   <style>
     html, body { margin: 0; padding: 0; height: 100%; background: #DCD3B8; font-family: -apple-system, sans-serif; }
     #root { min-height: 100%; }
@@ -19,7 +19,7 @@
   </style>
 </head>
 <body>
-  <div id="root"><div id="durum">Yükleniyor... (sürüm 8)</div></div>
+  <div id="root"><div id="durum">YUKLENIYOR - SURUM ONBIR</div></div>
   <div id="hata-kutusu"></div>
 
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -36,9 +36,9 @@
     var durumEl = document.getElementById("durum");
 
     if (typeof React === "undefined" || typeof ReactDOM === "undefined" || typeof Babel === "undefined") {
-      hataGoster("KÜTÜPHANE YÜKLENEMEDİ:", "React, ReactDOM veya Babel CDN'den yüklenemedi. İnternet bağlantısını veya unpkg.com erişimini kontrol edin.");
+      hataGoster("KUTUPHANE YUKLENEMEDI:", "React, ReactDOM veya Babel CDN'den yuklenemedi.");
     } else {
-      if (durumEl) durumEl.textContent = "Kütüphaneler yüklendi, app.tsx çekiliyor... (sürüm 8)";
+      if (durumEl) durumEl.textContent = "Kutuphaneler yuklendi, app.tsx cekiliyor - SURUM ONBIR";
 
       fetch("app.tsx?nocache=" + Date.now())
         .then(function (res) {
@@ -46,7 +46,7 @@
           return res.text();
         })
         .then(function (kaynakKod) {
-          if (durumEl) durumEl.textContent = "app.tsx çekildi (" + kaynakKod.length + " karakter), derleniyor...";
+          if (durumEl) durumEl.textContent = "app.tsx cekildi (" + kaynakKod.length + " karakter), derleniyor...";
           var derlenmis;
           try {
             derlenmis = Babel.transform(kaynakKod, { presets: ["react"], filename: "app.tsx" }).code;
@@ -54,15 +54,18 @@
             hataGoster("BABEL DERLEME HATASI:", derlemeHatasi.message);
             return;
           }
-          if (durumEl) durumEl.textContent = "Derlendi, çalıştırılıyor...";
+          if (durumEl) durumEl.textContent = "Derlendi, calistiriliyor...";
           try {
             (0, eval)(derlenmis);
           } catch (calismaHatasi) {
-            hataGoster("ÇALIŞMA ZAMANI HATASI:", (calismaHatasi && calismaHatasi.stack) || String(calismaHatasi));
+            var isim = (calismaHatasi && calismaHatasi.name) || "Hata";
+            var mesaj = (calismaHatasi && calismaHatasi.message) || String(calismaHatasi);
+            var yigin = (calismaHatasi && calismaHatasi.stack) || "";
+            hataGoster("CALISMA ZAMANI HATASI:", isim + ": " + mesaj + "\n\n" + yigin);
           }
         })
         .catch(function (agHatasi) {
-          hataGoster("DOSYA ÇEKME HATASI:", agHatasi.message);
+          hataGoster("DOSYA CEKME HATASI:", agHatasi.message);
         });
     }
   </script>
