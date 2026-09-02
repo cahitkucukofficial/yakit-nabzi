@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
+  <title>Yakıt Nabzı</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #DCD3B8; }
+    #root { min-height: 100%; }
+    #hata-kutusu {
+      display: none; position: fixed; inset: 0; background: #1a1a1a; color: #ff6b6b;
+      font-family: monospace; font-size: 13px; padding: 16px; overflow: auto; z-index: 9999;
+      white-space: pre-wrap; word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <div id="hata-kutusu"></div>
+
+  <script>
+    // Sayfada oluşan her hatayı, konsola erişimimiz olmasa bile ekranda göster
+    window.onerror = function (mesaj, kaynak, satir, sutun, hata) {
+      var kutu = document.getElementById("hata-kutusu");
+      kutu.style.display = "block";
+      kutu.textContent = "HATA: " + mesaj + "\nKaynak: " + kaynak + "\nSatır: " + satir + ":" + sutun +
+        (hata && hata.stack ? "\n\n" + hata.stack : "");
+      return false;
+    };
+  </script>
+
+  <!-- React 18 (UMD) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!-- Tarayıcıda JSX derleme (build adımı gerektirmez) -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel" data-presets="react" src="app.jsx" onerror="document.getElementById('hata-kutusu').style.display='block'; document.getElementById('hata-kutusu').textContent='app.jsx dosyası YÜKLENEMEDİ (404 ya da yol hatası olabilir).';"></script>
+</body>
+</html>
