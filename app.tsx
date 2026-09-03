@@ -1583,8 +1583,8 @@ function App() {
           padding:18px 0; font-family:var(--font-body); -webkit-font-smoothing:antialiased;
           min-height:100vh; min-height:100dvh; box-sizing:border-box;
         }
-       .ios-card, .ios-btn, .ios-switch, .tab-btn, .sheet, .haber-card, .kaynak-chip, .pulse-widget{ transition:background-color .28s ease, color .28s ease, border-color .28s ease, box-shadow .28s ease;
-       .phone{ width:390px; max-width:100%; background:var(--sayfa); background-image:var(--bg-pattern, none); background-size:var(--bg-pattern-size, auto); border-radius:38px; overflow:hidden; box-shadow:0 24px 60px rgba(20,23,26,0.28); display:flex; flex-direction:column; height:calc(100vh - 36px); height:calc(100dvh - 36px); max-height:800px; border:1px solid #c8c9ce; position:relative; transition:background .28s ease; }
+        .ios-card, .ios-btn, .ios-switch, .tab-btn, .sheet, .haber-card, .kaynak-chip, .pulse-widget{ transition:background-color .28s ease, color .28s ease, border-color .28s ease, box-shadow .28s ease; }
+        .phone{ width:390px; max-width:100%; background:var(--sayfa); background-image:var(--bg-pattern, none); background-size:var(--bg-pattern-size, auto); border-radius:38px; overflow:hidden; box-shadow:0 24px 60px rgba(20,23,26,0.28); display:flex; flex-direction:column; height:calc(100vh - 36px); height:calc(100dvh - 36px); max-height:800px; border:1px solid #c8c9ce; position:relative; transition:background .28s ease; }
 
         .nav-bar{ padding:10px 16px 6px; background:var(--sayfa); flex-shrink:0; position:relative; z-index:2; }
         .nav-bar-row{ display:flex; align-items:center; min-height:22px; }
@@ -1791,5 +1791,34 @@ function App() {
   );
 }
 
+class HataSiniri extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hataVar: false };
+  }
+  static getDerivedStateFromError() {
+    return { hataVar: true };
+  }
+  componentDidCatch(hata, bilgi) {
+    var mesaj = (hata && hata.message) || String(hata);
+    var yigin = (hata && hata.stack) || "";
+    var bilesenYigin = (bilgi && bilgi.componentStack) || "";
+    if (window.hataGoster) {
+      window.hataGoster(
+        "UYGULAMA ÇÖKTÜ (render sırasında):",
+        mesaj + "\n\n" + yigin + "\n\n--- Bileşen yığını ---\n" + bilesenYigin
+      );
+    }
+  }
+  render() {
+    if (this.state.hataVar) return null;
+    return this.props.children;
+  }
+}
+
 const kokEleman = document.getElementById("root");
-ReactDOM.createRoot(kokEleman).render(<App />);
+ReactDOM.createRoot(kokEleman).render(
+  <HataSiniri>
+    <App />
+  </HataSiniri>
+);
