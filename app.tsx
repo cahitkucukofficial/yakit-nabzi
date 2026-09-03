@@ -1215,6 +1215,11 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent 
   );
 }
 
+/* Formspree'ye kaydolup (https://formspree.io) kendi form endpoint'ini
+   olusturduktan sonra asagidaki URL'yi kendi endpoint'inle degistir.
+   Ornek: "https://formspree.io/f/xxxxabcd" */
+const FORMSPREE_ENDPOINT_URL = "https://formspree.io/f/myeyjlvg";
+
 function RatingSheet({ open, onClose, onSubmitted, showToast }) {
   const [stars, setStars] = useState(0);
   const [title, setTitle] = useState("");
@@ -1229,6 +1234,27 @@ function RatingSheet({ open, onClose, onSubmitted, showToast }) {
     try {
       await window.storage.set("appRating", JSON.stringify({ stars, title, comment, ts: Date.now() }), false);
     } catch (e) { console.error(e); }
+
+    // E-postaya iletim: Formspree endpoint'i ayarlandıysa oraya da gönder.
+    if (FORMSPREE_ENDPOINT_URL && !FORMSPREE_ENDPOINT_URL.includes("BURAYA_")) {
+      try {
+        await fetch(FORMSPREE_ENDPOINT_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            uygulama: "Yakıt Nabzı",
+            puan: stars + " / 5",
+            baslik: title || "(başlık girilmedi)",
+            yorum: comment || "(yorum girilmedi)",
+            tarih: new Date().toLocaleString("tr-TR"),
+          }),
+        });
+      } catch (e) {
+        console.error("Formspree gönderimi başarısız:", e);
+        // Sessizce geç - kullanıcı deneyimini bozmasın, yorum yine de cihazda kayıtlı kaldı.
+      }
+    }
+
     onSubmitted();
     onClose();
     showToast("Değerlendirmen için teşekkürler!");
