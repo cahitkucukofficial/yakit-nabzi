@@ -1288,7 +1288,13 @@ function RatingSheet({ open, onClose, onSubmitted, showToast }) {
             <input className="rating-input" placeholder="Başlık (isteğe bağlı)" value={title} onChange={(e) => setTitle(e.target.value)} />
           </div>
           <div className="ios-row">
-            <input className="rating-input" placeholder="Yorum (isteğe bağlı)" value={comment} onChange={(e) => setComment(e.target.value)} />
+            <textarea
+              className="rating-input rating-textarea"
+              placeholder="Yorum (isteğe bağlı)"
+              rows={4}
+              value={comment}
+              onChange={(e) => setComment(e.target.value)}
+            />
           </div>
         </div>
       </div>
@@ -1814,7 +1820,8 @@ function App() {
         .star-btn{ background:none; border:none; color:var(--kenar); padding:0; cursor:pointer; }
         .star-btn.on{ color:var(--benzin); }
         .rating-fields{ margin:0 16px; }
-        .rating-input{ width:100%; border:none; outline:none; background:none; color:var(--metin); font-size:15px; font-family:var(--font-body); padding:2px 0; }
+        .rating-input{ width:100%; box-sizing:border-box; border:none; outline:none; background:none; color:var(--metin); font-size:15px; font-family:var(--font-body); padding:2px 0; }
+        .rating-textarea{ resize:vertical; min-height:96px; line-height:1.5; padding:10px 0; }
 
         .toast{ position:absolute; bottom:96px; left:50%; transform:translateX(-50%); background:var(--vurgu-panel); color:var(--vurgu-panel-metin); font-size:13px; font-weight:500; padding:10px 16px; border-radius:12px; z-index:20; white-space:nowrap; box-shadow:0 8px 20px rgba(0,0,0,0.25); }
       `}</style>
