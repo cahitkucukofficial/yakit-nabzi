@@ -1087,34 +1087,52 @@ function HaberlerView({ haberler, guncelleme, kaynaklar }) {
 function KaynakContent() {
   return (
     <>
-      <IosSection header="Birincil Kaynak">
+      <IosSection header="Fiyatlar Nereden Geliyor">
         <div className="ios-row text-row">
-          EPDK (Enerji Piyasası Düzenleme Kurumu), dağıtım şirketlerinin Bildirim Sistemi'ne
-          yaptığı beyanlara dayanarak illere göre akaryakıt bayi satış fiyatlarını günlük
-          yayınlıyor. Fiyat değişiklikleri gece yarısından sonra yürürlüğe girdiğinden, günde
-          bir kez (gece yarısından hemen sonra) güncellenmesi yeterlidir.
+          İl bazlı benzin ve motorin fiyatları hasanadiguzel.com.tr'nin herkese açık
+          akaryakıt API'sinden çekiliyor. LPG için il bazlı bir kaynak bulunmadığından,
+          tüm illere aynı ulusal ortalama uygulanıyor.
+        </div>
+        <div className="ios-row text-row">
+          Bir ildeki tüm ilçelere şu an için o ilin tek bir ortalama fiyatı uygulanıyor;
+          yani aynı ildeki ilçeler arasında henüz gerçek bir fark gösterilmiyor. Bu,
+          kullandığımız kaynağın ilçe kırılımı vermemesinden kaynaklanıyor — ilçe bazlı
+          gerçek veri sağlayan bir kaynağa (başvurusu yapılmış durumda) geçildiğinde bu
+          sınırlama kalkacak.
         </div>
       </IosSection>
-      <IosSection header="Tamamlayıcı Kaynaklar">
+      <IosSection header="Doğrulama / Kalibrasyon">
         <div className="ios-row text-row">
-          İlçe/istasyon kırılımını zenginleştirmek için dağıtıcı firmaların (Opet, Shell, BP,
-          Petrol Ofisi, Total, Aytemiz vb.) herkese açık fiyat sayfaları periyodik olarak
-          toplanıp EPDK verisiyle çapraz doğrulanabilir.
+          hasanadiguzel'in il bazlı rakamları zaman zaman piyasadan sapabildiği için,
+          ucuzyakitbul.com.tr'nin EPDK bazlı, doğrulanmış ulusal ortalama fiyatı bir
+          "kalibrasyon çapası" olarak kullanılıyor: hasanadiguzel'den gelen 81 ilin
+          ortalaması bu çapayla karşılaştırılıp bir düzeltme oranı hesaplanıyor, sonra
+          bu oran her ile uygulanıyor. Böylece iller arası göreceli fark korunurken genel
+          seviye gerçek piyasaya yakın tutuluyor.
+        </div>
+        <div className="ios-row text-row">
+          Bir il için o günkü veri hiç çekilemezse, o ilin son bilinen fiyatı korunur;
+          veri aniden kaybolmaz.
         </div>
       </IosSection>
-      <IosSection header="Bu Sürümde Veri Nasıl Çekiliyor">
+      <IosSection header="Nasıl Çalışıyor">
         <div className="ios-row text-row">
-          Uygulama artık fiyatları istemcide üretmiyor; açılışta tek bir JSON dosyasını
-          (fiyatlar.json) çekip gösteriyor. Bu dosya günde bir kez elle ya da küçük bir script
-          ile güncellenip barındırıldığı yere (ör. bir GitHub deposu) yüklenir; uygulama her
-          açılışta o dosyanın en güncel halini indirir.
-        </div>
-        <div className="ios-row text-row">
-          Daha büyük ölçekte otomatikleştirmek için: (1) EPDK/dağıtıcı verisini günde birkaç
-          kez çeken bir arka uç script'i, (2) bu script'in fiyatlar.json'ı otomatik yeniden
-          yayınlaması, (3) eşik aşıldığında push bildirimi gönderen bir bildirim servisi eklenebilir.
+          Uygulama fiyatları istemcide üretmiyor; açılışta tek bir JSON dosyasını
+          (fiyatlar.json) çekip gösteriyor. Bu dosya, GitHub Actions üzerinde otomatik
+          çalışan bir script tarafından günde birkaç kez yeniden üretilip yayınlanıyor;
+          uygulama her açılışta o dosyanın en güncel halini indirir.
         </div>
       </IosSection>
+      <IosSection header="Planlanan İyileştirme">
+        <div className="ios-row text-row">
+          Gerçek istasyon/ilçe bazlı fiyat veren bir API için başvuru yapıldı; onay
+          geldiğinde il ortalaması yerine gerçek ilçe bazlı fiyatlar gösterilecek ve
+          kalibrasyon adımına artık gerek kalmayacak.
+        </div>
+      </IosSection>
+    </>
+  );
+}
     </>
   );
 }
