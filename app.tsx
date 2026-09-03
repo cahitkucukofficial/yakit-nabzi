@@ -63,9 +63,11 @@ function round2(n) {
   return Math.round(n * 100) / 100;
 }
 function fmtTL(n) {
+  if (n === null || n === undefined || Number.isNaN(n)) return "—";
   return n.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 function fmtDelta(n) {
+  if (n === null || n === undefined || Number.isNaN(n)) return "veri yok";
   const v = Math.abs(round2(n));
   if (v < 0.02) return "sabit";
   return (n > 0 ? "+" : "−") + v.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -222,8 +224,14 @@ const ILLER = Object.keys(ILCE_MAP);
 const FIYAT_JSON_URL = "https://cahitkucukofficial.github.io/yakit-nabzi/fiyatlar.json";
 
 function normalizeFuel(f) {
-  const history = f.history && f.history.length ? f.history : [f.yesterday, f.today];
-  return { today: f.today, yesterday: f.yesterday, delta: round2(f.today - f.yesterday), history };
+  const veriVar = typeof f.today === "number" && typeof f.yesterday === "number";
+  const history = f.history && f.history.length ? f.history.filter((v) => typeof v === "number") : [f.yesterday, f.today].filter((v) => typeof v === "number");
+  return {
+    today: f.today,
+    yesterday: f.yesterday,
+    delta: veriVar ? round2(f.today - f.yesterday) : null,
+    history: history.length ? history : [0],
+  };
 }
 
 async function fetchFiyatlar() {
@@ -509,10 +517,11 @@ const Icon = {
 
 /* ---------- ortak parçalar ---------- */
 function DeltaTag({ delta }) {
-  const flat = Math.abs(delta) < 0.02;
-  const up = delta > 0;
-  const cls = flat ? "delta flat" : up ? "delta up" : "delta down";
-  const arrow = flat ? "•" : up ? "▲" : "▼";
+  const veriYok = delta === null || delta === undefined || Number.isNaN(delta);
+  const flat = !veriYok && Math.abs(delta) < 0.02;
+  const up = !veriYok && delta > 0;
+  const cls = veriYok ? "delta flat" : flat ? "delta flat" : up ? "delta up" : "delta down";
+  const arrow = veriYok ? "•" : flat ? "•" : up ? "▲" : "▼";
   return <span className={cls}>{arrow} {fmtDelta(delta)}</span>;
 }
 
@@ -596,7 +605,7 @@ function PulseWidget({ mode, onToggle, nat }) {
             <div className="pulse-cell" key={key}>
               <div className="pulse-fuel" style={{ color: meta.color }}>{meta.label}</div>
               <div className="pulse-price" style={{ color: meta.color }}>
-                <FlipNumber text={nat[key].toFixed(2)} />
+                <FlipNumber text={typeof nat[key] === "number" ? nat[key].toFixed(2) : "—"} />
                 <span className="pulse-cur">₺</span>
               </div>
             </div>
@@ -958,15 +967,20 @@ function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFi
   // Ulusal ortalama — "dün" il/ilçe verisinin ortalamasından hesaplanıyor;
   // "bugün" ise mevcutsa gerçek, anahtarsız ulusal API'den geliyor (daha güncel).
   const nat = useMemo(() => {
-    const sums = { benzin: [0, 0], motorin: [0, 0], lpg: [0, 0] };
+    const sums = { benzin: [0, 0, 0], motorin: [0, 0, 0], lpg: [0, 0, 0] }; // [todayToplam, yesterdayToplam, gecerliSayisi]
     for (const d of districts) {
-      for (const k of FUEL_ORDER) { sums[k][0] += d[k].today; sums[k][1] += d[k].yesterday; }
+      for (const k of FUEL_ORDER) {
+        const f = d[k];
+        if (typeof f.today === "number" && typeof f.yesterday === "number") {
+          sums[k][0] += f.today; sums[k][1] += f.yesterday; sums[k][2] += 1;
+        }
+      }
     }
-    const n = districts.length || 1;
     const today = {}, yesterday = {};
     for (const k of FUEL_ORDER) {
-      today[k] = ulusalBugun?.[k] ?? round2(sums[k][0] / n);
-      yesterday[k] = round2(sums[k][1] / n);
+      const n = sums[k][2] || 1;
+      today[k] = ulusalBugun?.[k] ?? (sums[k][2] ? round2(sums[k][0] / n) : null);
+      yesterday[k] = sums[k][2] ? round2(sums[k][1] / n) : null;
     }
     return { today, yesterday };
   }, [districts, ulusalBugun]);
