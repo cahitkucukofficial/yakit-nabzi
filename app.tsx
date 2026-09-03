@@ -1133,9 +1133,6 @@ function KaynakContent() {
     </>
   );
 }
-    </>
-  );
-}
 
 function PrivacyContent() {
   return (
