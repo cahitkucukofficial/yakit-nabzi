@@ -1,0 +1,36 @@
+name: EPDK Fiyatlarini Guncelle
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"   # gunde 6 kez
+  workflow_dispatch: {}       # Actions sekmesinden elle calistirmaya izin ver
+
+permissions:
+  contents: write
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu cek
+        uses: actions/checkout@v4
+
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Bagimliliklari kur
+        run: npm install puppeteer xlsx
+
+      - name: EPDK'dan fiyatlari cek
+        run: node scripts/fetch-epdk-fiyat.js
+
+      - name: Degisiklik varsa commit'le ve gonder
+        run: |
+          git config user.name "epdk-fiyat-botu"
+          git config user.email "epdk-fiyat-botu@users.noreply.github.com"
+          git add fiyatlar.json
+          git diff --cached --quiet || git commit -m "EPDK fiyat guncellemesi"
+          git pull --rebase origin main
+          git push
