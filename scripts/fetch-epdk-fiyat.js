@@ -62,7 +62,7 @@ async function xlsIndir(sayfa, indirmeKlasoru) {
   });
 
   // "Raporu Indir" butonuna metne gore tikla (id bilinmiyor, metinle arastir).
-  const butonlar = await sayfa.$x("//*[contains(text(), 'Raporu') and contains(text(), 'ndir')]");
+  const butonlar = await sayfa.$$("xpath/" + "//*[contains(text(), 'Raporu') and contains(text(), 'ndir')]");
   if (!butonlar.length) throw new Error("'Raporu Indir' butonu bulunamadi.");
   await butonlar[0].click();
 
@@ -96,7 +96,7 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih) {
     await tarihKutulari[1].click({ clickCount: 3 });
     await tarihKutulari[1].type(tarih, { delay: 30 });
 
-    const sorgulaButon = await sayfa.$x("//*[contains(text(), 'Sorgula')]");
+    const sorgulaButon = await sayfa.$$("xpath/" + "//*[contains(text(), 'Sorgula')]");
     if (!sorgulaButon.length) throw new Error("'Sorgula' butonu bulunamadi.");
     await sorgulaButon[0].click();
     await sayfa.waitForNetworkIdle({ idleTime: 1000, timeout: 30000 }).catch(() => {});
