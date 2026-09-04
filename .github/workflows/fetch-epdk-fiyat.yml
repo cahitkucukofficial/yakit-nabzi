@@ -21,7 +21,7 @@ jobs:
           node-version: "20"
 
       - name: Bagimliliklari kur
-        run: npm install puppeteer xlsx
+        run: npm install puppeteer@23 xlsx
 
       - name: EPDK'dan fiyatlari cek
         run: node scripts/fetch-epdk-fiyat.js
