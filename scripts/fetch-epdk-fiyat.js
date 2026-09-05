@@ -26,10 +26,20 @@ const CIKTI_YOLU = path.join(process.cwd(), "fiyatlar.json");
 const MAKS_GECMIS = 14;
 
 function bugunTarihGGAAYYYY() {
-  const d = new Date();
-  const gg = String(d.getDate()).padStart(2, "0");
-  const aa = String(d.getMonth() + 1).padStart(2, "0");
-  const yyyy = d.getFullYear();
+  // ONEMLI: GitHub Actions sunuculari UTC kullanir. Turkiye (UTC+3) ile arada
+  // fark oldugu icin, gece saatlerinde new Date().getDate() yanlis (bir onceki)
+  // gunu dondurebilir. Bunun onune gecmek icin tarihi acikca Europe/Istanbul
+  // saat dilimine gore hesapliyoruz.
+  const formatter = new Intl.DateTimeFormat("tr-TR", {
+    timeZone: "Europe/Istanbul",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  });
+  const parcalar = formatter.formatToParts(new Date());
+  const gg = parcalar.find((p) => p.type === "day").value;
+  const aa = parcalar.find((p) => p.type === "month").value;
+  const yyyy = parcalar.find((p) => p.type === "year").value;
   return gg + "." + aa + "." + yyyy;
 }
 
@@ -67,7 +77,10 @@ async function xlsIndir(sayfa, indirmeKlasoru) {
   await butonlar[0].click();
 
   // Dosyanin inmesini bekle (en fazla 30 sn).
-  const zamanAsimi = Date.now() + 30000;
+  // Petrol raporu buyuk (35.000+ satir) oldugundan sunucunun hazirlayip
+  // indirmeye baslamasi uzun surebilir; LPG'ye gore cok daha comert bir
+  // zaman asimi veriyoruz (2 dakika).
+  const zamanAsimi = Date.now() + 120000;
   let dosyaAdi = null;
   while (Date.now() < zamanAsimi) {
     const dosyalar = fs.readdirSync(indirmeKlasoru).filter((f) => !f.endsWith(".crdownload"));
@@ -99,7 +112,7 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih) {
     const sorgulaButon = await sayfa.$$("xpath/" + "//*[contains(text(), 'Sorgula')]");
     if (!sorgulaButon.length) throw new Error("'Sorgula' butonu bulunamadi.");
     await sorgulaButon[0].click();
-    await sayfa.waitForNetworkIdle({ idleTime: 1000, timeout: 30000 }).catch(() => {});
+    await sayfa.waitForNetworkIdle({ idleTime: 1000, timeout: 60000 }).catch(() => {});
     await bekle(2000);
 
     console.log("Rapor indiriliyor: " + url);
