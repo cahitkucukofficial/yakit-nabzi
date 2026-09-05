@@ -115,8 +115,33 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
 
     await baslangicKutusu.click({ clickCount: 3 });
     await baslangicKutusu.type(tarih, { delay: 30 });
+
+    // Sayfa, Baslangic Tarihi'nden odak ayrilinca Bitis Tarihi'ni OTOMATIK
+    // olarak (genelde bir gun once) dolduran bir JS calistiriyor. Bu yuzden
+    // once bu otomatik doldurmanin gerceklesmesini bekliyoruz, SONRA Bitis
+    // kutusunu biz yaziyoruz - boylece bizim yazdigimiz deger kalıcı olur.
+    await bekle(600);
     await bitisKutusu.click({ clickCount: 3 });
     await bitisKutusu.type(tarih, { delay: 30 });
+    await bekle(300);
+
+    // Guvenlik icin: Bitis kutusunun gercekten dogru degeri tasidigini
+    // dogrula, degilse DOM uzerinden zorla ayarla ve gerekli olaylari tetikle.
+    const bitisDegeri = await sayfa.evaluate((el) => el.value, bitisKutusu);
+    if (bitisDegeri !== tarih) {
+      console.log("Bitis Tarihi otomatik doldurma ile degisti (" + bitisDegeri + "), zorla duzeltiliyor...");
+      await sayfa.evaluate(
+        (el, deger) => {
+          el.value = deger;
+          el.dispatchEvent(new Event("input", { bubbles: true }));
+          el.dispatchEvent(new Event("change", { bubbles: true }));
+          el.dispatchEvent(new Event("blur", { bubbles: true }));
+        },
+        bitisKutusu,
+        tarih
+      );
+      await bekle(300);
+    }
 
     const sorgulaButon = await sayfa.$$("xpath/" + "//*[contains(text(), 'Sorgula')]");
     if (!sorgulaButon.length) throw new Error("'Sorgula' butonu bulunamadi.");
