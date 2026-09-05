@@ -94,7 +94,7 @@ async function xlsIndir(sayfa, indirmeKlasoru) {
   return path.join(indirmeKlasoru, dosyaAdi);
 }
 
-async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih) {
+async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAyiklamaAdi) {
   const sayfa = await browser.newPage();
   try {
     await sayfa.setViewport({ width: 1280, height: 900 });
@@ -115,10 +115,30 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih) {
     await sayfa.waitForNetworkIdle({ idleTime: 1000, timeout: 60000 }).catch(() => {});
     await bekle(2000);
 
+    // Sorgu sonrasi ekranda "Kayit Bulunamadi" mi yoksa gercek tablo mu var - logla.
+    const sayfaMetni = await sayfa.evaluate(() => document.body.innerText).catch(() => "");
+    const kayitYok = sayfaMetni.includes("Kayıt Bulunamadı") || sayfaMetni.includes("Kayit Bulunamadi");
+    console.log((hataAyiklamaAdi || url) + " - sorgu sonucu: " + (kayitYok ? "KAYIT BULUNAMADI (bos sonuc)" : "veri var gibi gorunuyor"));
+
+    // Sorgula sonrasi ekran goruntusu - her zaman al, sorun cikarsa repo'ya commit'lenip incelenebilir.
+    if (hataAyiklamaAdi) {
+      try {
+        await sayfa.screenshot({ path: path.join(process.cwd(), "debug-" + hataAyiklamaAdi + "-sorgu.png") });
+      } catch (ssErr) { console.error("Ekran goruntusu alinamadi: " + ssErr.message); }
+    }
+
     console.log("Rapor indiriliyor: " + url);
     const dosyaYolu = await xlsIndir(sayfa, indirmeKlasoru);
     console.log("Indirildi: " + dosyaYolu);
     return dosyaYolu;
+  } catch (hata) {
+    if (hataAyiklamaAdi) {
+      try {
+        await sayfa.screenshot({ path: path.join(process.cwd(), "debug-" + hataAyiklamaAdi + "-hata.png") });
+        console.log("Hata ekran goruntusu kaydedildi: debug-" + hataAyiklamaAdi + "-hata.png");
+      } catch (ssErr) { console.error("Hata ekran goruntusu alinamadi: " + ssErr.message); }
+    }
+    throw hata;
   } finally {
     await sayfa.close();
   }
@@ -138,12 +158,12 @@ async function main() {
 
   let petrolXlsYolu, lpgXlsYolu;
   try {
-    petrolXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_PETROL_URL, indirmeKlasoruPetrol, tarih);
+    petrolXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_PETROL_URL, indirmeKlasoruPetrol, tarih, "petrol");
   } catch (err) {
     console.error("[uyari] Petrol raporu cekilemedi: " + err.message);
   }
   try {
-    lpgXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_LPG_URL, indirmeKlasoruLpg, tarih);
+    lpgXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_LPG_URL, indirmeKlasoruLpg, tarih, "lpg");
   } catch (err) {
     console.error("[uyari] LPG raporu cekilemedi: " + err.message);
   }
