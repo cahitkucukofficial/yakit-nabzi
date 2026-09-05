@@ -101,13 +101,22 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
     console.log("Aciliyor: " + url);
     await sayfa.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
 
-    const tarihKutulari = await sayfa.$$("input[type='text']");
-    if (tarihKutulari.length < 2) throw new Error("Tarih kutulari bulunamadi (beklenen en az 2, bulunan " + tarihKutulari.length + ").");
+    // Index'e degil, kutunun yanindaki etiket metnine gore bul - sayfada aralarda
+    // gizli/baska metin kutulari (ornegin ozel acilir menu bilesenleri) olsa bile
+    // saglam calisir.
+    async function etiketeGoreTarihKutusuBul(etiket) {
+      const elemanlar = await sayfa.$$("xpath/" + "//*[contains(text(), '" + etiket + "')]/following::input[1]");
+      if (!elemanlar.length) throw new Error("'" + etiket + "' etiketine ait kutu bulunamadi.");
+      return elemanlar[0];
+    }
 
-    await tarihKutulari[0].click({ clickCount: 3 });
-    await tarihKutulari[0].type(tarih, { delay: 30 });
-    await tarihKutulari[1].click({ clickCount: 3 });
-    await tarihKutulari[1].type(tarih, { delay: 30 });
+    const baslangicKutusu = await etiketeGoreTarihKutusuBul("Başlangıç Tarihi");
+    const bitisKutusu = await etiketeGoreTarihKutusuBul("Bitiş Tarihi");
+
+    await baslangicKutusu.click({ clickCount: 3 });
+    await baslangicKutusu.type(tarih, { delay: 30 });
+    await bitisKutusu.click({ clickCount: 3 });
+    await bitisKutusu.type(tarih, { delay: 30 });
 
     const sorgulaButon = await sayfa.$$("xpath/" + "//*[contains(text(), 'Sorgula')]");
     if (!sorgulaButon.length) throw new Error("'Sorgula' butonu bulunamadi.");
