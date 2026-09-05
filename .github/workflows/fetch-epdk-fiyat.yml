@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "epdk-fiyat-botu"
           git config user.email "epdk-fiyat-botu@users.noreply.github.com"
-          git add fiyatlar.json
+          git add fiyatlar.json debug-*.png 2>/dev/null || git add fiyatlar.json
           git diff --cached --quiet || git commit -m "EPDK fiyat guncellemesi"
           git pull --rebase origin main
           git push
