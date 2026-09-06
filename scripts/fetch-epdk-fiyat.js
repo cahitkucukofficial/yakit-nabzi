@@ -115,13 +115,33 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
 
     await baslangicKutusu.click({ clickCount: 3 });
     await baslangicKutusu.type(tarih, { delay: 30 });
+    // Baslangic'ta bir takvim acilmis olabilir - baska bir yere tiklayip kapat.
+    await sayfa.keyboard.press("Escape").catch(() => {});
+    await bekle(400);
 
-    // Sayfa, Baslangic Tarihi'nden odak ayrilinca Bitis Tarihi'ni OTOMATIK
-    // olarak (genelde bir gun once) dolduran bir JS calistiriyor. Bu yuzden
-    // once bu otomatik doldurmanin gerceklesmesini bekliyoruz, SONRA Bitis
-    // kutusunu biz yaziyoruz - boylece bizim yazdigimiz deger kalıcı olur.
-    await bekle(600);
+    // Bitis Tarihi kutusu iki farkli sekilde calisabilir:
+    //  A) Duz metin kutusu (LPG sayfasi gibi) - direkt yazilabilir.
+    //  B) Tiklaninca acilan bir takvim widget'i (Petrol sayfasi gibi) -
+    //     yazi kabul etmez, gunun uzerine TIKLAMAK gerekir.
+    // Once takvim varsa gunu tiklamayi deniyoruz; yoksa yazma yontemine geciyoruz.
+    const gunSayisi = String(parseInt(tarih.split(".")[0], 10));
+
+    async function takvimdenGunuTikla() {
+      const gunLinkleri = await sayfa.$$("xpath/" + "//a[normalize-space(text())='" + gunSayisi + "']");
+      if (gunLinkleri.length) {
+        await gunLinkleri[0].click();
+        return true;
+      }
+      const gunHucreleri = await sayfa.$$("xpath/" + "//td[normalize-space(text())='" + gunSayisi + "']");
+      if (gunHucreleri.length) {
+        await gunHucreleri[0].click();
+        return true;
+      }
+      return false;
+    }
+
     await bitisKutusu.click({ clickCount: 3 });
+    await bekle(400);
 
     // TANI AMACLI: Bitis kutusuna tiklayinca bir takvim/tarih secici acilip
     // acilmadigini gormek icin ekran goruntusu al.
@@ -131,14 +151,21 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
       } catch (ssErr) { console.error("Tiklama sonrasi ekran goruntusu alinamadi: " + ssErr.message); }
     }
 
-    await bitisKutusu.type(tarih, { delay: 30 });
-    await bekle(300);
+    const takvimdenSecildi = await takvimdenGunuTikla();
+    if (takvimdenSecildi) {
+      console.log("Bitis Tarihi takvimden secildi (gun: " + gunSayisi + ").");
+      await bekle(400);
+    } else {
+      console.log("Takvimde tiklanacak gun bulunamadi, duz yazma yontemine geciliyor.");
+      await bitisKutusu.click({ clickCount: 3 });
+      await bitisKutusu.type(tarih, { delay: 30 });
+      await bekle(300);
+    }
 
-    // Guvenlik icin: Bitis kutusunun gercekten dogru degeri tasidigini
-    // dogrula, degilse DOM uzerinden zorla ayarla ve gerekli olaylari tetikle.
+    // Guvenlik icin: Bitis kutusunun gercekten dogru degeri tasidigini dogrula.
     const bitisDegeri = await sayfa.evaluate((el) => el.value, bitisKutusu);
     if (bitisDegeri !== tarih) {
-      console.log("Bitis Tarihi otomatik doldurma ile degisti (" + bitisDegeri + "), zorla duzeltiliyor...");
+      console.log("Bitis Tarihi hala yanlis (" + bitisDegeri + "), DOM uzerinden zorla duzeltiliyor...");
       await sayfa.evaluate(
         (el, deger) => {
           el.value = deger;
