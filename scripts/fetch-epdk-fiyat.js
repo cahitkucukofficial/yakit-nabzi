@@ -122,6 +122,15 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
     // kutusunu biz yaziyoruz - boylece bizim yazdigimiz deger kalıcı olur.
     await bekle(600);
     await bitisKutusu.click({ clickCount: 3 });
+
+    // TANI AMACLI: Bitis kutusuna tiklayinca bir takvim/tarih secici acilip
+    // acilmadigini gormek icin ekran goruntusu al.
+    if (hataAyiklamaAdi) {
+      try {
+        await sayfa.screenshot({ path: path.join(process.cwd(), "debug-" + hataAyiklamaAdi + "-bitis-tiklama.png") });
+      } catch (ssErr) { console.error("Tiklama sonrasi ekran goruntusu alinamadi: " + ssErr.message); }
+    }
+
     await bitisKutusu.type(tarih, { delay: 30 });
     await bekle(300);
 
@@ -142,6 +151,14 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
       );
       await bekle(300);
     }
+
+    // TANI AMACLI: Sorgula'ya basmadan HEMEN once, iki kutunun da o an
+    // gercekte ne deger tasidigini logla - eger burada dogruysa ama sonradan
+    // (Sorgula sonrasi ekran goruntusunde) yanlissa, sorun kesin olarak
+    // "Sorgula" tiklamasinin kendi ic mantiginda demektir.
+    const sorgulamadanOncekiBaslangic = await sayfa.evaluate((el) => el.value, baslangicKutusu);
+    const sorgulamadanOncekiBitis = await sayfa.evaluate((el) => el.value, bitisKutusu);
+    console.log("Sorgula'ya basmadan hemen once - Baslangic: " + sorgulamadanOncekiBaslangic + " | Bitis: " + sorgulamadanOncekiBitis);
 
     const sorgulaButon = await sayfa.$$("xpath/" + "//*[contains(text(), 'Sorgula')]");
     if (!sorgulaButon.length) throw new Error("'Sorgula' butonu bulunamadi.");
