@@ -25,23 +25,36 @@ const EPDK_LPG_URL = "https://bildirim.epdk.gov.tr/bildirim-portal/faces/pages/t
 const CIKTI_YOLU = path.join(process.cwd(), "fiyatlar.json");
 const MAKS_GECMIS = 14;
 
-function bugunTarihGGAAYYYY() {
+function tarihGGAAYYYY(gunFarki) {
   // ONEMLI: GitHub Actions sunuculari UTC kullanir. Turkiye (UTC+3) ile arada
   // fark oldugu icin, gece saatlerinde new Date().getDate() yanlis (bir onceki)
   // gunu dondurebilir. Bunun onune gecmek icin tarihi acikca Europe/Istanbul
-  // saat dilimine gore hesapliyoruz.
+  // saat dilimine gore hesapliyoruz. gunFarki negatifse gecmis bir gunu verir.
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() + (gunFarki || 0));
   const formatter = new Intl.DateTimeFormat("tr-TR", {
     timeZone: "Europe/Istanbul",
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
   });
-  const parcalar = formatter.formatToParts(new Date());
+  const parcalar = formatter.formatToParts(d);
   const gg = parcalar.find((p) => p.type === "day").value;
   const aa = parcalar.find((p) => p.type === "month").value;
   const yyyy = parcalar.find((p) => p.type === "year").value;
   return gg + "." + aa + "." + yyyy;
 }
+
+function bugunTarihGGAAYYYY() {
+  return tarihGGAAYYYY(0);
+}
+
+// EPDK bazen "bugunun" verisini henuz yayinlamamis oluyor (bildirimler gun
+// icinde/ertesi gun tamamlaniyor olabilir). Bu yuzden sorguyu tek gun yerine
+// SON 3 GUNLUK bir aralikla yapiyoruz, sonra veri islerken her il/yakit icin
+// o araliktaki EN GUNCEL tarihi otomatik seciyoruz - "bugun" bossa sessizce
+// "dun"e, o da bossa "evvelsi gune" duser.
+const SORGU_ARALIGI_GUN = 3;
 
 function bekle(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -94,7 +107,7 @@ async function xlsIndir(sayfa, indirmeKlasoru) {
   return path.join(indirmeKlasoru, dosyaAdi);
 }
 
-async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAyiklamaAdi) {
+async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, baslangicTarih, bitisTarih, hataAyiklamaAdi) {
   const sayfa = await browser.newPage();
   try {
     await sayfa.setViewport({ width: 1280, height: 900 });
@@ -114,7 +127,7 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
     const bitisKutusu = await etiketeGoreTarihKutusuBul("Bitiş Tarihi");
 
     await baslangicKutusu.click({ clickCount: 3 });
-    await baslangicKutusu.type(tarih, { delay: 30 });
+    await baslangicKutusu.type(baslangicTarih, { delay: 30 });
     // Baslangic'ta bir takvim acilmis olabilir - baska bir yere tiklayip kapat.
     await sayfa.keyboard.press("Escape").catch(() => {});
     await bekle(400);
@@ -124,7 +137,7 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
     //  B) Tiklaninca acilan bir takvim widget'i (Petrol sayfasi gibi) -
     //     yazi kabul etmez, gunun uzerine TIKLAMAK gerekir.
     // Once takvim varsa gunu tiklamayi deniyoruz; yoksa yazma yontemine geciyoruz.
-    const gunSayisi = String(parseInt(tarih.split(".")[0], 10));
+    const gunSayisi = String(parseInt(bitisTarih.split(".")[0], 10));
 
     async function takvimdenGunuTikla() {
       const gunLinkleri = await sayfa.$$("xpath/" + "//a[normalize-space(text())='" + gunSayisi + "']");
@@ -143,14 +156,6 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
     await bitisKutusu.click({ clickCount: 3 });
     await bekle(400);
 
-    // TANI AMACLI: Bitis kutusuna tiklayinca bir takvim/tarih secici acilip
-    // acilmadigini gormek icin ekran goruntusu al.
-    if (hataAyiklamaAdi) {
-      try {
-        await sayfa.screenshot({ path: path.join(process.cwd(), "debug-" + hataAyiklamaAdi + "-bitis-tiklama.png") });
-      } catch (ssErr) { console.error("Tiklama sonrasi ekran goruntusu alinamadi: " + ssErr.message); }
-    }
-
     const takvimdenSecildi = await takvimdenGunuTikla();
     if (takvimdenSecildi) {
       console.log("Bitis Tarihi takvimden secildi (gun: " + gunSayisi + ").");
@@ -158,13 +163,13 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
     } else {
       console.log("Takvimde tiklanacak gun bulunamadi, duz yazma yontemine geciliyor.");
       await bitisKutusu.click({ clickCount: 3 });
-      await bitisKutusu.type(tarih, { delay: 30 });
+      await bitisKutusu.type(bitisTarih, { delay: 30 });
       await bekle(300);
     }
 
     // Guvenlik icin: Bitis kutusunun gercekten dogru degeri tasidigini dogrula.
     const bitisDegeri = await sayfa.evaluate((el) => el.value, bitisKutusu);
-    if (bitisDegeri !== tarih) {
+    if (bitisDegeri !== bitisTarih) {
       console.log("Bitis Tarihi hala yanlis (" + bitisDegeri + "), DOM uzerinden zorla duzeltiliyor...");
       await sayfa.evaluate(
         (el, deger) => {
@@ -174,15 +179,11 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
           el.dispatchEvent(new Event("blur", { bubbles: true }));
         },
         bitisKutusu,
-        tarih
+        bitisTarih
       );
       await bekle(300);
     }
 
-    // TANI AMACLI: Sorgula'ya basmadan HEMEN once, iki kutunun da o an
-    // gercekte ne deger tasidigini logla - eger burada dogruysa ama sonradan
-    // (Sorgula sonrasi ekran goruntusunde) yanlissa, sorun kesin olarak
-    // "Sorgula" tiklamasinin kendi ic mantiginda demektir.
     const sorgulamadanOncekiBaslangic = await sayfa.evaluate((el) => el.value, baslangicKutusu);
     const sorgulamadanOncekiBitis = await sayfa.evaluate((el) => el.value, bitisKutusu);
     console.log("Sorgula'ya basmadan hemen once - Baslangic: " + sorgulamadanOncekiBaslangic + " | Bitis: " + sorgulamadanOncekiBitis);
@@ -223,8 +224,9 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, tarih, hataAy
 }
 
 async function main() {
-  const tarih = bugunTarihGGAAYYYY();
-  console.log("Sorgulanacak tarih: " + tarih);
+  const bitisTarih = bugunTarihGGAAYYYY();
+  const baslangicTarih = tarihGGAAYYYY(-(SORGU_ARALIGI_GUN - 1));
+  console.log("Sorgulanacak aralik: " + baslangicTarih + " - " + bitisTarih);
 
   const indirmeKlasoruPetrol = fs.mkdtempSync(path.join(os.tmpdir(), "epdk-petrol-"));
   const indirmeKlasoruLpg = fs.mkdtempSync(path.join(os.tmpdir(), "epdk-lpg-"));
@@ -236,12 +238,12 @@ async function main() {
 
   let petrolXlsYolu, lpgXlsYolu;
   try {
-    petrolXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_PETROL_URL, indirmeKlasoruPetrol, tarih, "petrol");
+    petrolXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_PETROL_URL, indirmeKlasoruPetrol, baslangicTarih, bitisTarih, "petrol");
   } catch (err) {
     console.error("[uyari] Petrol raporu cekilemedi: " + err.message);
   }
   try {
-    lpgXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_LPG_URL, indirmeKlasoruLpg, tarih, "lpg");
+    lpgXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_LPG_URL, indirmeKlasoruLpg, baslangicTarih, bitisTarih, "lpg");
   } catch (err) {
     console.error("[uyari] LPG raporu cekilemedi: " + err.message);
   }
@@ -258,6 +260,28 @@ async function main() {
     return satirlar;
   }
 
+  // GG.AA.YYYY formatindaki bir tarihi siralanabilir bir sayiya cevirir (YYYYAAGG).
+  function tarihSiraDegeri(ggaayyyy) {
+    const parcalar = String(ggaayyyy || "").split(".");
+    if (parcalar.length !== 3) return -1;
+    const [gg, aa, yyyy] = parcalar;
+    return parseInt(yyyy, 10) * 10000 + parseInt(aa, 10) * 100 + parseInt(gg, 10);
+  }
+
+  // Bir satir listesinde gecen EN GUNCEL tarihi bulur, sonra sadece o tarihe
+  // ait satirlari dondurur. Boylece "bugun" bossa otomatik olarak "dun"e,
+  // o da bossa "evvelsi gune" duser - EPDK'nin yayinlama gecikmesine karsi.
+  function enGuncelGuneGoreSuz(satirlar, tarihSutunAdi) {
+    let enBuyuk = -1;
+    for (const satir of satirlar) {
+      const deger = tarihSiraDegeri(satir[tarihSutunAdi]);
+      if (deger > enBuyuk) enBuyuk = deger;
+    }
+    if (enBuyuk === -1) return { satirlar: [], kullanilanTarih: null };
+    const suzulmus = satirlar.filter((s) => tarihSiraDegeri(s[tarihSutunAdi]) === enBuyuk);
+    return { satirlar: suzulmus, kullanilanTarih: enBuyuk };
+  }
+
   function sutunBul(sutunlar, icerenMetin) {
     return sutunlar.find((s) => s.toLocaleLowerCase("tr-TR").includes(icerenMetin));
   }
@@ -270,43 +294,53 @@ async function main() {
   }
 
   // ---- Petrol raporu (Benzin + Motorin) ----
-  const petrolSatirlari = xlsOku(petrolXlsYolu);
+  let petrolSatirlari = xlsOku(petrolXlsYolu);
   if (petrolSatirlari.length) {
     const sutunlar = Object.keys(petrolSatirlari[0]);
     const ilSutun = sutunBul(sutunlar, "il");
     const yakitSutun = sutunBul(sutunlar, "yak");
     const fiyatSutun = sutunBul(sutunlar, "fiyat");
+    const tarihSutun = sutunBul(sutunlar, "tarih");
     if (!ilSutun || !yakitSutun || !fiyatSutun) {
       console.error("[uyari] Petrol raporunda beklenen sutunlar bulunamadi: " + sutunlar.join(", "));
-    } else {
-      for (const satir of petrolSatirlari) {
-        const il = ilAdiniNormalize(String(satir[ilSutun] || "").trim());
-        const yakit = String(satir[yakitSutun] || "");
-        const fiyat = parseFloat(satir[fiyatSutun]);
-        if (!il || !Number.isFinite(fiyat)) continue;
-        if (yakit.includes("Kurşunsuz Benzin 95")) ekle(il, "benzin", fiyat);
-        else if (yakit.trim() === "Motorin" || yakit.includes("Motorin (Biodizel")) ekle(il, "motorin", fiyat);
-      }
+      petrolSatirlari = [];
+    } else if (tarihSutun) {
+      const { satirlar: suzulmus, kullanilanTarih } = enGuncelGuneGoreSuz(petrolSatirlari, tarihSutun);
+      console.log("Petrol: aralikta en guncel tarih = " + kullanilanTarih + " (" + suzulmus.length + " satir kullanilacak).");
+      petrolSatirlari = suzulmus;
+    }
+    for (const satir of petrolSatirlari) {
+      const il = ilAdiniNormalize(String(satir[ilSutun] || "").trim());
+      const yakit = String(satir[yakitSutun] || "");
+      const fiyat = parseFloat(satir[fiyatSutun]);
+      if (!il || !Number.isFinite(fiyat)) continue;
+      if (yakit.includes("Kurşunsuz Benzin 95")) ekle(il, "benzin", fiyat);
+      else if (yakit.trim() === "Motorin" || yakit.includes("Motorin (Biodizel")) ekle(il, "motorin", fiyat);
     }
   }
 
   // ---- LPG raporu (sadece Otogaz - tupluu/dokme LPG farkli birim, karistirilmaz) ----
-  const lpgSatirlari = xlsOku(lpgXlsYolu);
+  let lpgSatirlari = xlsOku(lpgXlsYolu);
   if (lpgSatirlari.length) {
     const sutunlar = Object.keys(lpgSatirlari[0]);
     const ilSutun = sutunBul(sutunlar, "il");
     const yakitSutun = sutunBul(sutunlar, "yak");
     const fiyatSutun = sutunBul(sutunlar, "fiyat");
+    const tarihSutun = sutunBul(sutunlar, "geçerlilik") || sutunBul(sutunlar, "tarih");
     if (!ilSutun || !yakitSutun || !fiyatSutun) {
       console.error("[uyari] LPG raporunda beklenen sutunlar bulunamadi: " + sutunlar.join(", "));
-    } else {
-      for (const satir of lpgSatirlari) {
-        const il = ilAdiniNormalize(String(satir[ilSutun] || "").trim());
-        const yakit = String(satir[yakitSutun] || "").trim();
-        const fiyat = parseFloat(satir[fiyatSutun]);
-        if (!il || !Number.isFinite(fiyat)) continue;
-        if (yakit === "Otogaz") ekle(il, "lpg", fiyat);
-      }
+      lpgSatirlari = [];
+    } else if (tarihSutun) {
+      const { satirlar: suzulmus, kullanilanTarih } = enGuncelGuneGoreSuz(lpgSatirlari, tarihSutun);
+      console.log("LPG: aralikta en guncel tarih = " + kullanilanTarih + " (" + suzulmus.length + " satir kullanilacak).");
+      lpgSatirlari = suzulmus;
+    }
+    for (const satir of lpgSatirlari) {
+      const il = ilAdiniNormalize(String(satir[ilSutun] || "").trim());
+      const yakit = String(satir[yakitSutun] || "").trim();
+      const fiyat = parseFloat(satir[fiyatSutun]);
+      if (!il || !Number.isFinite(fiyat)) continue;
+      if (yakit === "Otogaz") ekle(il, "lpg", fiyat);
     }
   }
 
