@@ -224,6 +224,33 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, baslangicTari
 }
 
 async function main() {
+  const { ILCE_MAP } = require("./ilce-map.js");
+
+  // EPDK'nin ham verisinde Turkce "I" harfleri bazen bozuk geliyor (ozellikle
+  // "Istanbul" - noktali "İ" yerine ASCII "I" kullanilmasi gibi). Bunu asmak
+  // icin, il adlarini I/İ/ı/i farkini yok sayarak GEVSEK esletiriyoruz, ama
+  // sonuc olarak HER ZAMAN ILCE_MAP'teki dogru/kanonik ismi kullaniyoruz.
+  function gevsekAnahtar(ad) {
+    return ad
+      .toLocaleUpperCase("tr-TR")
+      .replace(/[İI]/g, "I")
+      .replace(/Ç/g, "C")
+      .replace(/Ğ/g, "G")
+      .replace(/Ö/g, "O")
+      .replace(/Ş/g, "S")
+      .replace(/Ü/g, "U")
+      .trim();
+  }
+  const ilGevsekHarita = new Map();
+  for (const kanonikIl of Object.keys(ILCE_MAP)) {
+    ilGevsekHarita.set(gevsekAnahtar(kanonikIl), kanonikIl);
+  }
+  function kanonikIlAdiniBul(hamAd) {
+    const normalize = ilAdiniNormalize(String(hamAd || "").trim());
+    if (ILCE_MAP[normalize]) return normalize; // dogrudan eslesme - hizli yol
+    return ilGevsekHarita.get(gevsekAnahtar(hamAd || "")) || null;
+  }
+
   const bitisTarih = bugunTarihGGAAYYYY();
   const baslangicTarih = tarihGGAAYYYY(-(SORGU_ARALIGI_GUN - 1));
   console.log("Sorgulanacak aralik: " + baslangicTarih + " - " + bitisTarih);
@@ -310,7 +337,7 @@ async function main() {
       petrolSatirlari = suzulmus;
     }
     for (const satir of petrolSatirlari) {
-      const il = ilAdiniNormalize(String(satir[ilSutun] || "").trim());
+      const il = kanonikIlAdiniBul(satir[ilSutun]);
       const yakit = String(satir[yakitSutun] || "");
       const fiyat = parseFloat(satir[fiyatSutun]);
       if (!il || !Number.isFinite(fiyat)) continue;
@@ -336,7 +363,7 @@ async function main() {
       lpgSatirlari = suzulmus;
     }
     for (const satir of lpgSatirlari) {
-      const il = ilAdiniNormalize(String(satir[ilSutun] || "").trim());
+      const il = kanonikIlAdiniBul(satir[ilSutun]);
       const yakit = String(satir[yakitSutun] || "").trim();
       const fiyat = parseFloat(satir[fiyatSutun]);
       if (!il || !Number.isFinite(fiyat)) continue;
@@ -379,9 +406,6 @@ async function main() {
     gecmis = gecmis.slice(-MAKS_GECMIS);
     return { today: kullanilacakBugun, yesterday: dun, history: gecmis };
   }
-
-  // ILCE_MAP burada da lazim - onceki update-fiyatlar.js'deki ile birebir ayni.
-  const { ILCE_MAP } = require("./ilce-map.js");
 
   const ilceler = [];
   let basariliIl = 0;
