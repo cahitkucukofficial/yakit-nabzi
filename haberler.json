@@ -1,5 +1,22 @@
 {
-  "guncelleme": "2026-09-09T01:48:49.297Z",
-  "kaynaklar": [],
-  "haberler": []
+  "guncelleme": "2026-09-09T08:25:49.815Z",
+  "kaynaklar": [
+    "AA"
+  ],
+  "haberler": [
+    {
+      "baslik": "Petrol fiyatları jeopolitik gerilimlerin etkisiyle 100 doları aştı",
+      "ozet": "Petrol fiyatları, Orta Doğu'da tırmanan jeopolitik gerilimlerin küresel petrol arzına yönelik endişeleri artırmasıyla varil başına 100 dolar sınırını aştı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/petrol-fiyatlari-jeopolitik-gerilimlerin-etkisiyle-100-dolari-asti/4051699",
+      "tarih": "2026-09-09T07:45:03.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Küresel jeopolitik gerilimler akaryakıt piyasasında rafineri marjlarını yükseltti",
+      "ozet": "ABD/İsrail-İran Savaşı nedeniyle Hürmüz Boğazı'nda artan riskler ve Ukrayna'nın Rus rafinerilerine yönelik saldırıları, benzin ve motorin fiyatları üzerinde yukarı yönlü baskı oluştururken rafineri marjlarını da yükse...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-jeopolitik-gerilimler-akaryakit-piyasasinda-rafineri-marjlarini-yukseltti/4051641",
+      "tarih": "2026-09-09T06:46:58.000Z",
+      "kaynak": "AA"
+    }
+  ]
 }
