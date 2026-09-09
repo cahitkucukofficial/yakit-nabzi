@@ -56,6 +56,35 @@ function bugunTarihGGAAYYYY() {
 // "dun"e, o da bossa "evvelsi gune" duser.
 const SORGU_ARALIGI_GUN = 3;
 
+/* ---------- buyuk/ulusal dagitici filtresi ----------
+   Bazi illerde EPDK'ya sadece kucuk/bolgesel tek bir firma bildirim yapiyor
+   ve bu firmanin fiyati gercek rekabetci piyasayi yansitmayabilir (LPG'de
+   gozlemlendi). Bu yuzden, bir ildeki satirlar arasinda bilinen buyuk/ulusal
+   marka(lar) varsa medyani SADECE onlardan hesapliyoruz; hic yoksa (o ilde
+   sadece kucuk/bolgesel firma bildirim yapmissa) elimizdeki tum satirlari
+   kullanmaya devam ediyoruz - veri kaybetmemek icin.
+   Anahtar kelime esleme kullaniliyor (sirket unvanlari "ANONIM SIRKETI" gibi
+   eklerle uzun oldugu icin), buyuk/kucuk harf ve Turkce karakter farki
+   onemsiz olacak sekilde. */
+const BUYUK_DAGITICI_ANAHTAR_KELIMELERI = {
+  benzin: ["SHELL", "OPET", "BP ", "PETROL OFISI", "TP PETROL", "AYTEMIZ", "TOTAL", "ALPET", "GO ENERJI", "LUKOIL", "MOIL"],
+  motorin: ["SHELL", "OPET", "BP ", "PETROL OFISI", "TP PETROL", "AYTEMIZ", "TOTAL", "ALPET", "GO ENERJI", "LUKOIL", "MOIL"],
+  lpg: ["AYGAZ", "IPRAGAZ", "MILANGAZ", "TOTALGAZ", "TOTAL GAZ", "BP GAZ", "ALGAZ", "LIPET", "ENERYA", "YESILGAZ"],
+};
+
+function metniSadelestir(ad) {
+  return String(ad || "")
+    .toLocaleUpperCase("tr-TR")
+    .replace(/İ/g, "I").replace(/I/g, "I")
+    .replace(/Ç/g, "C").replace(/Ğ/g, "G").replace(/Ö/g, "O").replace(/Ş/g, "S").replace(/Ü/g, "U");
+}
+
+function buyukDagiticiMi(firmaAdi, yakitTuru) {
+  const sade = metniSadelestir(firmaAdi);
+  const anahtarlar = BUYUK_DAGITICI_ANAHTAR_KELIMELERI[yakitTuru] || [];
+  return anahtarlar.some((k) => sade.includes(metniSadelestir(k)));
+}
+
 function bekle(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -313,11 +342,11 @@ async function main() {
     return sutunlar.find((s) => s.toLocaleLowerCase("tr-TR").includes(icerenMetin));
   }
 
-  // Il bazinda, yakit tipine gore fiyatlari topla.
-  const ilVerisi = {}; // il -> { benzin: [fiyatlar], motorin: [fiyatlar], lpg: [fiyatlar] }
-  function ekle(il, anahtar, fiyat) {
+  // Il bazinda, yakit tipine gore fiyatlari (firma adiyla birlikte) topla.
+  const ilVerisi = {}; // il -> { benzin: [{fiyat, firma}], motorin: [...], lpg: [...] }
+  function ekle(il, anahtar, fiyat, firma) {
     if (!ilVerisi[il]) ilVerisi[il] = { benzin: [], motorin: [], lpg: [] };
-    ilVerisi[il][anahtar].push(fiyat);
+    ilVerisi[il][anahtar].push({ fiyat, firma });
   }
 
   // ---- Petrol raporu (Benzin + Motorin) ----
@@ -327,6 +356,7 @@ async function main() {
     const ilSutun = sutunBul(sutunlar, "il");
     const yakitSutun = sutunBul(sutunlar, "yak");
     const fiyatSutun = sutunBul(sutunlar, "fiyat");
+    const markaSutun = sutunBul(sutunlar, "marka");
     const tarihSutun = sutunBul(sutunlar, "tarih");
     if (!ilSutun || !yakitSutun || !fiyatSutun) {
       console.error("[uyari] Petrol raporunda beklenen sutunlar bulunamadi: " + sutunlar.join(", "));
@@ -340,9 +370,10 @@ async function main() {
       const il = kanonikIlAdiniBul(satir[ilSutun]);
       const yakit = String(satir[yakitSutun] || "");
       const fiyat = parseFloat(satir[fiyatSutun]);
+      const firma = markaSutun ? String(satir[markaSutun] || "") : "";
       if (!il || !Number.isFinite(fiyat)) continue;
-      if (yakit.includes("Kurşunsuz Benzin 95")) ekle(il, "benzin", fiyat);
-      else if (yakit.trim() === "Motorin" || yakit.includes("Motorin (Biodizel")) ekle(il, "motorin", fiyat);
+      if (yakit.includes("Kurşunsuz Benzin 95")) ekle(il, "benzin", fiyat, firma);
+      else if (yakit.trim() === "Motorin" || yakit.includes("Motorin (Biodizel")) ekle(il, "motorin", fiyat, firma);
     }
   }
 
@@ -353,6 +384,7 @@ async function main() {
     const ilSutun = sutunBul(sutunlar, "il");
     const yakitSutun = sutunBul(sutunlar, "yak");
     const fiyatSutun = sutunBul(sutunlar, "fiyat");
+    const firmaSutun = sutunBul(sutunlar, "firma");
     const tarihSutun = sutunBul(sutunlar, "geçerlilik") || sutunBul(sutunlar, "tarih");
     if (!ilSutun || !yakitSutun || !fiyatSutun) {
       console.error("[uyari] LPG raporunda beklenen sutunlar bulunamadi: " + sutunlar.join(", "));
@@ -366,16 +398,21 @@ async function main() {
       const il = kanonikIlAdiniBul(satir[ilSutun]);
       const yakit = String(satir[yakitSutun] || "").trim();
       const fiyat = parseFloat(satir[fiyatSutun]);
+      const firma = firmaSutun ? String(satir[firmaSutun] || "") : "";
       if (!il || !Number.isFinite(fiyat)) continue;
-      if (yakit === "Otogaz") ekle(il, "lpg", fiyat);
+      if (yakit === "Otogaz") ekle(il, "lpg", fiyat, firma);
     }
   }
 
-  function medyan(sayilar) {
-    if (!sayilar.length) return null;
-    const s = [...sayilar].sort((a, b) => a - b);
-    const orta = Math.floor(s.length / 2);
-    const v = s.length % 2 ? s[orta] : (s[orta - 1] + s[orta]) / 2;
+  // Bir kayit listesinden medyan hesaplar. Icinde bilinen buyuk/ulusal
+  // dagitici(lar) varsa SADECE onlari kullanir; yoksa elde ne varsa kullanir.
+  function medyanHesapla(kayitlar, yakitTuru) {
+    if (!kayitlar.length) return null;
+    const buyukler = kayitlar.filter((k) => buyukDagiticiMi(k.firma, yakitTuru));
+    const kullanilacaklar = buyukler.length ? buyukler : kayitlar;
+    const sayilar = kullanilacaklar.map((k) => k.fiyat).sort((a, b) => a - b);
+    const orta = Math.floor(sayilar.length / 2);
+    const v = sayilar.length % 2 ? sayilar[orta] : (sayilar[orta - 1] + sayilar[orta]) / 2;
     return Math.round(v * 100) / 100;
   }
 
@@ -411,9 +448,9 @@ async function main() {
   let basariliIl = 0;
   for (const il of Object.keys(ILCE_MAP)) {
     const veri = ilVerisi[il];
-    const benzinMedyan = veri ? medyan(veri.benzin) : null;
-    const motorinMedyan = veri ? medyan(veri.motorin) : null;
-    const lpgMedyan = veri ? medyan(veri.lpg) : null;
+    const benzinMedyan = veri ? medyanHesapla(veri.benzin, "benzin") : null;
+    const motorinMedyan = veri ? medyanHesapla(veri.motorin, "motorin") : null;
+    const lpgMedyan = veri ? medyanHesapla(veri.lpg, "lpg") : null;
     if (benzinMedyan !== null || motorinMedyan !== null) basariliIl++;
     else console.error("[uyari] " + il + " icin EPDK raporunda veri bulunamadi.");
 
