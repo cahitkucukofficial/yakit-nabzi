@@ -1,28 +1,21 @@
 {
-  "guncelleme": "2026-09-12T08:10:25.842Z",
+  "guncelleme": "2026-09-12T14:30:06.983Z",
   "kaynaklar": [
     "AA"
   ],
   "haberler": [
     {
+      "baslik": "AB'de benzin fiyatı yüzde 24, dizel fiyatı yüzde 33 arttı",
+      "ozet": "Orta Doğu'daki savaşın küresel petrol arzına yönelik endişeleri artırmasıyla, Avrupa Birliği (AB) genelinde benzinin litre fiyatı savaş öncesine kıyasla yüzde 24, dizel fiyatı ise yüzde 33 arttı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abde-benzin-fiyati-yuzde-24-dizel-fiyati-yuzde-33-artti/4054984",
+      "tarih": "2026-09-12T08:12:56.000Z",
+      "kaynak": "AA"
+    },
+    {
       "baslik": "ABD'de dizel fiyatı ilk kez galon başına 6 doları aştı",
       "ozet": "ABD'de dizel fiyatı, Orta Doğu'da devam eden gerilimlerin petrol fiyatlarını yükseltmesiyle ilk kez galon başına 6 doların üzerine çıktı.",
       "link": "https://www.aa.com.tr/tr/ekonomi/abdde-dizel-fiyati-ilk-kez-galon-basina-6-dolari-asti/4054214",
       "tarih": "2026-09-11T10:35:38.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Akdeniz'de petrol kaynaklı deniz kirliliğine müdahale tatbikatı gerçekleştirildi",
-      "ozet": "Ulaştırma ve Altyapı Bakanlığı Denizcilik Genel Müdürlüğü, Adana'nın Yumurtalık bölgesi açıklarında geniş katılımla petrol kaynaklı deniz kirliliğine müdahale tatbikatı gerçekleştirildiğini bildirdi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/akdenizde-petrol-kaynakli-deniz-kirliligine-mudahale-tatbikati-gerceklestirildi/4054095",
-      "tarih": "2026-09-11T08:45:52.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Küresel petrol arzı ağustosta günlük 1,6 milyon varil azaldı",
-      "ozet": "IEA, Hürmüz Boğazı ile Kızıldeniz'deki tanker ve enerji altyapısına yönelik saldırıların etkisiyle küresel petrol arzının, ağustosta önceki aya göre günlük 1 milyon 600 bin varil azalarak 100 milyon 100 bin varile ger...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-petrol-arzi-agustosta-gunluk-1-6-milyon-varil-azaldi/4054069",
-      "tarih": "2026-09-11T08:33:58.000Z",
       "kaynak": "AA"
     }
   ]
