@@ -26,11 +26,21 @@ jobs:
       - name: EPDK'dan fiyatlari cek
         run: node scripts/fetch-epdk-fiyat.js
 
+      - name: Hata ayiklama ekran goruntulerini yukle (varsa)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: epdk-debug-goruntuleri
+          path: debug-*.png
+          if-no-files-found: ignore
+          retention-days: 7
+
       - name: Degisiklik varsa commit'le ve gonder
         run: |
           git config user.name "epdk-fiyat-botu"
           git config user.email "epdk-fiyat-botu@users.noreply.github.com"
-          git add fiyatlar.json debug-*.png 2>/dev/null || git add fiyatlar.json
+          rm -f debug-*.png
+          git add fiyatlar.json
           git diff --cached --quiet || git commit -m "EPDK fiyat guncellemesi"
           git pull --rebase origin main
           git push
