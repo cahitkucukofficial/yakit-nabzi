@@ -244,6 +244,7 @@ async function fetchFiyatlar() {
       id: d.il + "|" + d.ilce,
       il: d.il,
       ilce: d.ilce,
+      kaynak: d.kaynak || null,
       benzin: normalizeFuel(d.benzin),
       motorin: normalizeFuel(d.motorin),
       lpg: normalizeFuel(d.lpg),
@@ -741,7 +742,14 @@ function DistrictCard({ d, favorites, toggleFav, onOpen, showIl }) {
     <IosSection
       header={
         <div className="district-header">
-          <span>{d.ilce}{showIl && <span className="dim"> · {d.il}</span>}</span>
+          <span>
+            {d.ilce}{showIl && <span className="dim"> · {d.il}</span>}
+            {d.kaynak === "il_medyani_tahmini" && (
+              <span className="tahmini-badge" title="EPDK ilçe bazlı veri yayınlamıyor. Bu değer, ildeki EPDK medyan fiyatına dayanan tahminidir.">
+                Tahmini
+              </span>
+            )}
+          </span>
           <button className={"fav-btn" + (favorites.has(d.id) ? " on" : "")} onClick={(e) => { e.stopPropagation(); toggleFav(d.id); }}>
             <Icon.star filled={favorites.has(d.id)} />
           </button>
@@ -1089,30 +1097,26 @@ function KaynakContent() {
     <>
       <IosSection header="Fiyatlar Nereden Geliyor">
         <div className="ios-row text-row">
-          İl bazlı benzin ve motorin fiyatları hasanadiguzel.com.tr'nin herkese açık
-          akaryakıt API'sinden çekiliyor. LPG için il bazlı bir kaynak bulunmadığından,
-          tüm illere aynı ulusal ortalama uygulanıyor.
+          Benzin, motorin ve LPG (Otogaz) il fiyatları, EPDK'nin resmi Bayi Satış Fiyatı
+          Bildirim Sistemi'nden (bildirim.epdk.gov.tr) çekilir; o ildeki tüm firmaların
+          bildirdiği fiyatların medyanı kullanılır.
         </div>
         <div className="ios-row text-row">
-          Bir ildeki tüm ilçelere şu an için o ilin tek bir ortalama fiyatı uygulanıyor;
-          yani aynı ildeki ilçeler arasında henüz gerçek bir fark gösterilmiyor. Bu,
-          kullandığımız kaynağın ilçe kırılımı vermemesinden kaynaklanıyor — ilçe bazlı
-          gerçek veri sağlayan bir kaynağa (başvurusu yapılmış durumda) geçildiğinde bu
-          sınırlama kalkacak.
+          EPDK ilçe bazında ayrı bir bildirim yayınlamıyor. Bu yüzden ilçe fiyatları,
+          ilin medyan fiyatına ilçe adından türetilen küçük (±0,15 TL), sabit ve
+          rastgele olmayan bir sapma eklenerek hesaplanır. Bu gerçek bir ilçe farkı
+          değildir — kartlarda "Tahmini" etiketiyle açıkça belirtilir.
         </div>
       </IosSection>
-      <IosSection header="Doğrulama / Kalibrasyon">
+      <IosSection header="Veri Sürekliliği">
         <div className="ios-row text-row">
-          hasanadiguzel'in il bazlı rakamları zaman zaman piyasadan sapabildiği için,
-          ucuzyakitbul.com.tr'nin EPDK bazlı, doğrulanmış ulusal ortalama fiyatı bir
-          "kalibrasyon çapası" olarak kullanılıyor: hasanadiguzel'den gelen 81 ilin
-          ortalaması bu çapayla karşılaştırılıp bir düzeltme oranı hesaplanıyor, sonra
-          bu oran her ile uygulanıyor. Böylece iller arası göreceli fark korunurken genel
-          seviye gerçek piyasaya yakın tutuluyor.
+          Bir il için o günkü veri EPDK'dan hiç çekilemezse, o ilin son bilinen fiyatı
+          korunur; veri aniden kaybolmaz.
         </div>
         <div className="ios-row text-row">
-          Bir il için o günkü veri hiç çekilemezse, o ilin son bilinen fiyatı korunur;
-          veri aniden kaybolmaz.
+          Ulusal Nabız sekmesindeki ülke geneli ortalama şu an ayrı bir kaynaktan
+          (ucuzyakitbul.com.tr) alınıyor; bunu da EPDK'nin kendi resmi günlük bültenine
+          taşıma çalışması sürüyor.
         </div>
       </IosSection>
       <IosSection header="Nasıl Çalışıyor">
@@ -1123,11 +1127,13 @@ function KaynakContent() {
           uygulama her açılışta o dosyanın en güncel halini indirir.
         </div>
       </IosSection>
-      <IosSection header="Planlanan İyileştirme">
+      <IosSection header="Neden Gerçek İlçe Verisi Yok">
         <div className="ios-row text-row">
-          Gerçek istasyon/ilçe bazlı fiyat veren bir API için başvuru yapıldı; onay
-          geldiğinde il ortalaması yerine gerçek ilçe bazlı fiyatlar gösterilecek ve
-          kalibrasyon adımına artık gerek kalmayacak.
+          Türkiye'de hiçbir kaynak (EPDK dahil) ilçe bazında farklı pompa fiyatı
+          yayınlamıyor; dağıtıcı şirketler de kendi sitelerinde il/ilçe bazlı bir fiyat
+          sorgulama sayfası sunmuyor. Gerçekten farklılaşmış ilçe/istasyon verisi ancak
+          kullanıcıların gördükleri fiyatı uygulamaya girmesiyle (topluluk kaynaklı)
+          zamanla oluşabilir — bu, ileride değerlendirilecek ayrı bir özellik.
         </div>
       </IosSection>
     </>
@@ -1754,6 +1760,7 @@ function App() {
         .takip-row{ flex-direction:column; align-items:flex-start; gap:6px; }
         .takip-prices{ display:flex; gap:12px; font-size:13px; font-weight:700; font-variant-numeric:tabular-nums; font-family:var(--font-mono); }
         .dim{ color:var(--metin-soluk); font-weight:400; }
+        .tahmini-badge{ display:inline-block; margin-left:6px; font-size:9.5px; font-weight:700; letter-spacing:.03em; text-transform:none; color:var(--metin-soluk); background:var(--panel-2); border:1px solid var(--kenar); border-radius:6px; padding:1px 5px; vertical-align:middle; cursor:help; }
         .dim.small{ font-size:12px; margin-top:2px; }
 
         .form-line label{ font-size:15px; color:var(--metin); font-weight:500; }
