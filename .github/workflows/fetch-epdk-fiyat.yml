@@ -39,7 +39,13 @@ jobs:
         run: |
           git config user.name "epdk-fiyat-botu"
           git config user.email "epdk-fiyat-botu@users.noreply.github.com"
-          rm -f debug-*.png
+          # rm -f DEGIL git rm kullaniyoruz: debug-*.png ister repo'da hala
+          # TAKIP EDILIYOR olsun (eski durum), ister zaten .gitignore'da olsun
+          # (yeni durum) - her iki durumda da hatasiz calisir. rm -f + sadece
+          # "git add fiyatlar.json" yapmak, dosyalar hala takip ediliyorsa
+          # "unstaged deletion" birakip bir sonraki `git pull --rebase`'i
+          # kirar (bu committe tam bunu yasadik).
+          git rm -f --ignore-unmatch debug-*.png >/dev/null 2>&1 || true
           git add fiyatlar.json
           git diff --cached --quiet || git commit -m "EPDK fiyat guncellemesi"
           git pull --rebase origin main
