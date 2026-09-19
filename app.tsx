@@ -240,6 +240,12 @@ async function fetchFiyatlar() {
   const data = await res.json();
   return {
     guncelleme: data.guncelleme || null,
+    // "Ulusal Nabız" artık ayrı bir üçüncü parti API'den değil, aynı statik
+    // JSON'ın içindeki "ulusal" alanından geliyor (EPDK'nin resmi günlük
+    // bültenine dayanıyor — bkz. scripts/fetch-epdk-fiyat.js).
+    ulusal: data.ulusal
+      ? { benzin: data.ulusal.benzin, motorin: data.ulusal.motorin, lpg: data.ulusal.lpg }
+      : null,
     districts: (data.ilceler || []).map((d) => ({
       id: d.il + "|" + d.ilce,
       il: d.il,
@@ -289,25 +295,8 @@ async function fetchHaberler() {
   return { guncelleme: data.guncelleme || null, haberler, kaynaklar };
 }
 
-/* "Ulusal Nabız" widget'ı için gerçek, anahtarsız Türkiye ortalaması.
-   Kaynak: ucuzyakitbul.com.tr — EPDK ve dağıtıcı şirket verilerine dayanıyor,
-   API anahtarı gerektirmez (günde 60 istek/IP sınırı yeterlidir).
-   Not: bu uç sadece "bugün" değerini verir, "dün" hâlâ il/ilçe verisinden
-   hesaplanan ortalamadan geliyor. */
-const ULUSAL_FIYAT_URL = "https://ucuzyakitbul.com.tr/api/prices/national";
-const FUEL_TYPE_TO_KEY = { "Benzin": "benzin", "Motorin": "motorin", "LPG": "lpg" };
-
-async function fetchUlusalFiyat() {
-  const res = await fetch(ULUSAL_FIYAT_URL);
-  if (!res.ok) throw new Error("Ulusal fiyat çekilemedi (" + res.status + ")");
-  const data = await res.json();
-  const out = {};
-  for (const p of data.prices || []) {
-    const key = FUEL_TYPE_TO_KEY[p.fuelType];
-    if (key) out[key] = p.price;
-  }
-  return out;
-}
+/* "Ulusal Nabız" widget'ı — artık ayrı bir fetch yok, fetchFiyatlar()'ın
+   döndürdüğü "ulusal" alanından besleniyor (bkz. yukarısı). */
 
 const FUEL_META = {
   motorin: { label: "Motorin", color: "var(--motorin)" },
@@ -1114,9 +1103,12 @@ function KaynakContent() {
           korunur; veri aniden kaybolmaz.
         </div>
         <div className="ios-row text-row">
-          Ulusal Nabız sekmesindeki ülke geneli ortalama şu an ayrı bir kaynaktan
-          (ucuzyakitbul.com.tr) alınıyor; bunu da EPDK'nin kendi resmi günlük bültenine
-          taşıma çalışması sürüyor.
+          Ulusal Nabız sekmesindeki ülke geneli rakam da EPDK'nin resmi günlük
+          "Bayi Satış Fiyatı Bülteni"nden geliyor. EPDK'nin kendi tanımına göre bu,
+          dağıtıcıların İstanbul İli Avrupa Yakası'ndaki bayileri adına beyan ettiği
+          fiyatların ortalaması — 81 ilin düz ortalaması değil, ama sektörde ve
+          basında "ulusal referans fiyat" olarak yaygın kullanılan resmi EPDK
+          rakamı. Bülten o gün çekilemezse, son bilinen değer korunur.
         </div>
       </IosSection>
       <IosSection header="Nasıl Çalışıyor">
@@ -1399,15 +1391,16 @@ function App() {
   const [districts, setDistricts] = useState([]);
   const [fiyatDurum, setFiyatDurum] = useState("yukleniyor"); // yukleniyor | hazir | hata
   const [fiyatGuncelleme, setFiyatGuncelleme] = useState(null);
-  const [ulusalBugun, setUlusalBugun] = useState(null); // gerçek API'den — yoksa il/ilçe ortalamasına düşülür
+  const [ulusalBugun, setUlusalBugun] = useState(null); // fiyatlar.json'daki "ulusal" alanından — yoksa il/ilçe ortalamasına düşülür
   const districtsMap = useMemo(() => Object.fromEntries(districts.map((d) => [d.id, d])), [districts]);
 
   const loadFiyatlar = useCallback(async () => {
     setFiyatDurum("yukleniyor");
     try {
-      const { districts: list, guncelleme } = await fetchFiyatlar();
+      const { districts: list, guncelleme, ulusal } = await fetchFiyatlar();
       setDistricts(list);
       setFiyatGuncelleme(guncelleme);
+      if (ulusal) setUlusalBugun(ulusal); // yoksa mevcut il/ilçe ortalamasına düşülür (aşağıda)
       setFiyatDurum("hazir");
     } catch (e) {
       console.error(e);
@@ -1416,9 +1409,6 @@ function App() {
   }, []);
 
   useEffect(() => { loadFiyatlar(); }, [loadFiyatlar]);
-  useEffect(() => {
-    fetchUlusalFiyat().then(setUlusalBugun).catch((e) => console.error(e));
-  }, []);
 
   const [haberler, setHaberler] = useState([]);
   const [haberDurum, setHaberDurum] = useState("yukleniyor"); // yukleniyor | hazir | hata
