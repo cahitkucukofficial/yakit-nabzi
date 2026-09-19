@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # veri 12+ saattir guncellenmiyorsa otomatik Issue acabilmek icin
 
 jobs:
   guncelle:
@@ -50,3 +51,59 @@ jobs:
           git diff --cached --quiet || git commit -m "EPDK fiyat guncellemesi"
           git pull --rebase origin main
           git push
+
+      - name: Veri tazeligini kontrol et, gerekirse uyari Issue'su ac
+        # always(): script yukarida throw etse ("ne petrol ne LPG cekilebildi")
+        # bile bu adim calissin - asil yakalamak istedigimiz durum bu zaten.
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const ESIK_SAAT = 12;
+
+            let guncelleme;
+            try {
+              const veri = JSON.parse(fs.readFileSync("fiyatlar.json", "utf-8"));
+              guncelleme = new Date(veri.guncelleme);
+              if (isNaN(guncelleme.getTime())) throw new Error("guncelleme alani gecersiz tarih");
+            } catch (e) {
+              core.warning("fiyatlar.json okunamadi/parse edilemedi, tazelik kontrolu atlaniyor: " + e.message);
+              return;
+            }
+
+            const farkSaat = (Date.now() - guncelleme.getTime()) / 3600000;
+            core.info("Son basarili guncelleme: " + guncelleme.toISOString() + " (" + farkSaat.toFixed(1) + " saat once)");
+            if (farkSaat < ESIK_SAAT) {
+              core.info("Veri taze (" + ESIK_SAAT + " saat esiginin altinda), Issue acilmiyor.");
+              return;
+            }
+
+            const baslik = "\u26a0\ufe0f EPDK verisi " + ESIK_SAAT + "+ saattir guncellenmiyor";
+            const { data: acikIssuelar } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "epdk-veri-uyarisi",
+            });
+            if (acikIssuelar.some((i) => i.title === baslik)) {
+              core.info("Ayni basliga sahip acik bir Issue zaten var, tekrar acilmiyor.");
+              return;
+            }
+
+            const runUrl = context.serverUrl + "/" + context.repo.owner + "/" + context.repo.repo + "/actions/runs/" + context.runId;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: baslik,
+              labels: ["epdk-veri-uyarisi"],
+              body:
+                "`fiyatlar.json` son **" + farkSaat.toFixed(1) + " saattir** guncellenmedi " +
+                "(son basarili guncelleme: " + guncelleme.toISOString() + ").\n\n" +
+                "Bu genellikle EPDK sitesindeki bir degisiklik (form/tablo selector'lari kirilmis olabilir) " +
+                "ya da surekli bir erisim sorunu anlamina gelir. Bu calistirmanin loglarina ve " +
+                "\"epdk-debug-goruntuleri\" artifact'indeki ekran goruntulerine bakin:\n\n" + runUrl + "\n\n" +
+                "Sorun cozulup veri tekrar akmaya basladiginda bu Issue'yu manuel kapatabilirsin " +
+                "(otomatik kapanmiyor).",
+            });
+            core.info("Uyari Issue'su acildi.");
