@@ -388,31 +388,61 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
+  // ---- Gecici hatalara (timeout, agirlasan sayfa, vb.) karsi 1 kez yeniden
+  // deneme sarmalayici. Ilk deneme patlarsa 5sn bekleyip bir kez daha dener;
+  // o da patlarsa gercek hatayi oldugu gibi disari firlatir (sonsuz donguye
+  // girmez, cagiran taraf zaten kendi try/catch'iyle bunu yakaliyor). ----
+  async function birKezYenidenDeneyerekCalistir(islev, aciklama) {
+    try {
+      return await islev();
+    } catch (ilkHata) {
+      console.error("[uyari] " + aciklama + " ilk denemede basarisiz: " + ilkHata.message + " - 5sn sonra tekrar denenecek.");
+      await bekle(5000);
+      try {
+        return await islev();
+      } catch (ikinciHata) {
+        console.error("[uyari] " + aciklama + " ikinci denemede de basarisiz: " + ikinciHata.message);
+        throw ikinciHata;
+      }
+    }
+  }
+
   let petrolXlsYolu, lpgXlsYolu;
   try {
-    petrolXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_PETROL_URL, indirmeKlasoruPetrol, baslangicTarih, bitisTarih, "petrol");
+    petrolXlsYolu = await birKezYenidenDeneyerekCalistir(
+      () => sayfayiSorgulaVeIndir(browser, EPDK_PETROL_URL, indirmeKlasoruPetrol, baslangicTarih, bitisTarih, "petrol"),
+      "Petrol raporu"
+    );
   } catch (err) {
-    console.error("[uyari] Petrol raporu cekilemedi: " + err.message);
+    console.error("[uyari] Petrol raporu cekilemedi (2 deneme sonrasi): " + err.message);
   }
   try {
-    lpgXlsYolu = await sayfayiSorgulaVeIndir(browser, EPDK_LPG_URL, indirmeKlasoruLpg, baslangicTarih, bitisTarih, "lpg");
+    lpgXlsYolu = await birKezYenidenDeneyerekCalistir(
+      () => sayfayiSorgulaVeIndir(browser, EPDK_LPG_URL, indirmeKlasoruLpg, baslangicTarih, bitisTarih, "lpg"),
+      "LPG raporu"
+    );
   } catch (err) {
-    console.error("[uyari] LPG raporu cekilemedi: " + err.message);
+    console.error("[uyari] LPG raporu cekilemedi (2 deneme sonrasi): " + err.message);
   }
 
   // ---- Ulusal bulten (Istanbul Avrupa Yakasi referans fiyati) ----
   // Tek gunluk sorgu oldugu icin, "bugun" bossa SORGU_ARALIGI_GUN kadar
-  // geriye giderek en guncel yayinlanmis raporu buluyoruz.
+  // geriye giderek en guncel yayinlanmis raporu buluyoruz. Her gun denemesi
+  // de kendi icinde 1 kez yeniden deneniyor.
   let bultenSonuc = null;
   for (let g = 0; g < SORGU_ARALIGI_GUN && !bultenSonuc; g++) {
     try {
-      bultenSonuc = await bultenSorgula(browser, -g, "bulten");
+      bultenSonuc = await birKezYenidenDeneyerekCalistir(
+        () => bultenSorgula(browser, -g, "bulten"),
+        "Bulten sorgusu (gun -" + g + ")"
+      );
     } catch (err) {
-      console.error("[uyari] Bulten sorgusu (gun -" + g + ") basarisiz: " + err.message);
+      console.error("[uyari] Bulten sorgusu (gun -" + g + ") 2 deneme sonrasi da basarisiz: " + err.message);
     }
   }
 
   await browser.close();
+
 
   if (!petrolXlsYolu && !lpgXlsYolu) throw new Error("Ne petrol ne LPG raporu indirilebildi - EPDK sitesi erisilemez olabilir.");
 
