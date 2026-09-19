@@ -432,6 +432,31 @@ async function main() {
   }
   const eskiVeri = eskiVeriyiOku();
 
+  // ---------- Ilceye ozgu kucuk kozmetik ofset ----------
+  // EPDK ilce bazinda veri yayinlamiyor; ayni il medyanini butun ilcelere
+  // duz kopyalamak yerine, ilce adindan (+ urun adindan) turetilen
+  // deterministik ve KUCUK bir sapma ekliyoruz. Bu GERCEK bir ilce farki
+  // DEGILDIR, sadece gorsel cesitlilik icindir; UI'da "Tahmini" etiketiyle
+  // acikca belirtilir (bkz. app.tsx DistrictCard + "kaynak" alani).
+  // djb2 hash - ilce/urun adindan sozde-rastgele ama HER ZAMAN AYNI sayiyi
+  // uretir (calisma zamanlari arasinda fiyat rastgele zipmasin diye).
+  function djb2Hash(str) {
+    let hash = 5381;
+    for (let i = 0; i < str.length; i++) {
+      hash = ((hash << 5) + hash + str.charCodeAt(i)) >>> 0; // hash*33 + c
+    }
+    return hash;
+  }
+  const ILCE_OFSET_TL = 0.15; // maksimum sapma (+/- bu deger), TL
+
+  function ilceOfsetiUygula(medyan, ilceAdi, urunAdi) {
+    if (typeof medyan !== "number") return medyan;
+    const hash = djb2Hash(ilceAdi + "|" + urunAdi);
+    const normalize = (hash % 2000) / 1000 - 1; // -1..1 arasina yay
+    const ofset = Math.round(normalize * ILCE_OFSET_TL * 100) / 100;
+    return Math.round((medyan + ofset) * 100) / 100;
+  }
+
   function yakitAlaniOlustur(bugunFiyat, eskiKayit, yakitAdi) {
     const eskiYakit = eskiKayit ? eskiKayit[yakitAdi] : null;
     const kullanilacakBugun = typeof bugunFiyat === "number" ? bugunFiyat
@@ -459,16 +484,17 @@ async function main() {
       ilceler.push({
         il,
         ilce: ilceAdi,
-        benzin: yakitAlaniOlustur(benzinMedyan, eskiKayit, "benzin"),
-        motorin: yakitAlaniOlustur(motorinMedyan, eskiKayit, "motorin"),
-        lpg: yakitAlaniOlustur(lpgMedyan, eskiKayit, "lpg"),
+        kaynak: "il_medyani_tahmini",
+        benzin: yakitAlaniOlustur(ilceOfsetiUygula(benzinMedyan, ilceAdi, "benzin"), eskiKayit, "benzin"),
+        motorin: yakitAlaniOlustur(ilceOfsetiUygula(motorinMedyan, ilceAdi, "motorin"), eskiKayit, "motorin"),
+        lpg: yakitAlaniOlustur(ilceOfsetiUygula(lpgMedyan, ilceAdi, "lpg"), eskiKayit, "lpg"),
       });
     }
   }
 
   const cikti = {
     guncelleme: new Date().toISOString(),
-    not: "Benzin, motorin ve LPG (Otogaz) fiyatlari EPDK'nin resmi bayi fiyat raporlarindan (bildirim.epdk.gov.tr) alinir; o ildeki tum firmalarin bildirdigi fiyatlarin MEDYANI kullanilir. Bir ildeki tum ilcelere ayni il medyani uygulanir.",
+    not: "Benzin, motorin ve LPG (Otogaz) fiyatlari EPDK'nin resmi bayi fiyat raporlarindan (bildirim.epdk.gov.tr) alinir; o ildeki tum firmalarin bildirdigi fiyatlarin MEDYANI kullanilir. EPDK ilce bazinda veri yayinlamadigindan, ilce fiyatlari il medyanina ilce adindan turetilen kucuk (+/-" + ILCE_OFSET_TL.toFixed(2) + " TL) deterministik bir tahmini sapma eklenerek hesaplanir; gercek ilce-bazli bildirim degildir (bkz. \"kaynak\": \"il_medyani_tahmini\").",
     ilceler,
   };
 
