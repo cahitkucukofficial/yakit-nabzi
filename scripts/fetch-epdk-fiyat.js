@@ -22,6 +22,13 @@ const XLSX = require("xlsx");
 
 const EPDK_PETROL_URL = "https://bildirim.epdk.gov.tr/bildirim-portal/faces/pages/tarife/petrol/illereGorePetrolAkaryakitFiyatSorgula.xhtml";
 const EPDK_LPG_URL = "https://bildirim.epdk.gov.tr/bildirim-portal/faces/pages/tarife/lpg/illereGoreLPGFiyatSorgula.xhtml";
+// EPDK'nin resmi GUNLUK BULTEN'i - il/ilce bazli DEGIL, tek bir rapor tarihiyle
+// sorgulanan, sonucu ayni sayfada AJAX ile tabloya basilan bir sayfa. EPDK'nin
+// kendi tanimina gore bu, "ilgili dagitici lisansi sahiplerince, Istanbul Ili
+// Avrupa Yakasi'nda bulunan bayileri adina beyan edilmis fiyatlarin
+// ortalamasidir" - yani DUZ 81 il ortalamasi DEGIL, ama sektorde ve basinda
+// "ulusal referans fiyat" olarak yaygin sekilde kullanilan resmi EPDK rakami.
+const EPDK_BULTEN_URL = "https://bildirim.epdk.gov.tr/bildirim-portal/faces/pages/tarife/petrol/yonetim/bultenSorgula.xhtml";
 const CIKTI_YOLU = path.join(process.cwd(), "fiyatlar.json");
 const MAKS_GECMIS = 14;
 
@@ -252,6 +259,95 @@ async function sayfayiSorgulaVeIndir(browser, url, indirmeKlasoru, baslangicTari
   }
 }
 
+// ---------- Ulusal bulten sorgusu (bultenSorgula.xhtml) ----------
+// Petrol/LPG per-il sayfalarindan farkli: TEK bir "Rapor Tarihi" alani var,
+// sonuc ayni sayfada bir tabloya AJAX ile basiliyor (indirme yok). O yuzden
+// xlsIndir kullanmiyoruz; sonucu sayfa metninden (innerText) regex ile okuyoruz.
+async function bultenSorgula(browser, gunFarki, hataAyiklamaAdi) {
+  const sayfa = await browser.newPage();
+  try {
+    await sayfa.setViewport({ width: 1280, height: 900 });
+    await sayfa.goto(EPDK_BULTEN_URL, { waitUntil: "networkidle2", timeout: 60000 });
+
+    const elemanlar = await sayfa.$$("xpath/" + "//*[contains(text(), 'Rapor Tarihi')]/following::input[1]");
+    if (!elemanlar.length) throw new Error("'Rapor Tarihi' kutusu bulunamadi.");
+    const tarihKutusu = elemanlar[0];
+
+    const hedefTarih = tarihGGAAYYYY(gunFarki);
+    const gunSayisi = String(parseInt(hedefTarih.split(".")[0], 10));
+
+    await tarihKutusu.click({ clickCount: 3 });
+    await bekle(300);
+
+    // Once takvimden gunu tiklamayi dene (petrol/illereGore sayfalarindaki
+    // "Bitis Tarihi" davranisinin ayni PrimeFaces bileseni) - olmazsa yazarak dene.
+    async function takvimdenGunuTikla() {
+      const gunLinkleri = await sayfa.$$("xpath/" + "//a[normalize-space(text())='" + gunSayisi + "']");
+      if (gunLinkleri.length) { await gunLinkleri[0].click(); return true; }
+      const gunHucreleri = await sayfa.$$("xpath/" + "//td[normalize-space(text())='" + gunSayisi + "']");
+      if (gunHucreleri.length) { await gunHucreleri[0].click(); return true; }
+      return false;
+    }
+
+    const takvimdenSecildi = await takvimdenGunuTikla();
+    if (!takvimdenSecildi) {
+      await tarihKutusu.click({ clickCount: 3 });
+      await tarihKutusu.type(hedefTarih, { delay: 30 });
+      await sayfa.keyboard.press("Escape").catch(() => {});
+    }
+    await bekle(400);
+
+    const sorgulaButon = await sayfa.$$("xpath/" + "//*[contains(text(), 'Sorgula')]");
+    if (!sorgulaButon.length) throw new Error("'Sorgula' butonu bulunamadi (bulten sayfasi).");
+    await sorgulaButon[0].click();
+    await sayfa.waitForNetworkIdle({ idleTime: 1000, timeout: 60000 }).catch(() => {});
+    await bekle(2000);
+
+    if (hataAyiklamaAdi) {
+      try {
+        await sayfa.screenshot({ path: path.join(process.cwd(), "debug-" + hataAyiklamaAdi + "-sorgu.png") });
+      } catch (ssErr) { console.error("Ekran goruntusu alinamadi: " + ssErr.message); }
+    }
+
+    const metin = await sayfa.evaluate(() => document.body.innerText).catch(() => "");
+    if (metin.includes("Kayıt Bulunamadı") || metin.includes("Kayit Bulunamadi") || !metin.trim()) {
+      console.log("Bulten (" + hedefTarih + "): kayit yok / bos sonuc.");
+      return null;
+    }
+
+    function fiyatBul(regex) {
+      const eslesme = metin.match(regex);
+      return eslesme ? parseFloat(eslesme[1].replace(",", ".")) : null;
+    }
+    // Turkce ondalik virgul kullanir (orn. "67,13"); binlik ayraci beklenmiyor
+    // (fiyatlar hep < 1000 TL), o yuzden basit \d+,\d{2} yeterli.
+    const benzin = fiyatBul(/Kurşunsuz\s*Benzin\s*95[^\d]*?(\d+,\d{2})/i);
+    const motorin = fiyatBul(/(?<!Bio ?dizel\s)\bMotorin\b(?!\s*\()[^\d]*?(\d+,\d{2})/i);
+    const lpg = fiyatBul(/Otogaz[^\d]*?(\d+,\d{2})/i);
+
+    if (benzin === null && motorin === null && lpg === null) {
+      console.log("Bulten (" + hedefTarih + "): sayfa doldu ama fiyat kalibi eslesmedi - selector/format degismis olabilir.");
+      return null;
+    }
+    console.log("Bulten (" + hedefTarih + "): benzin=" + benzin + " motorin=" + motorin + " lpg=" + lpg);
+    return { benzin, motorin, lpg, tarih: hedefTarih };
+  } catch (hata) {
+    if (hataAyiklamaAdi) {
+      try {
+        await sayfa.screenshot({ path: path.join(process.cwd(), "debug-" + hataAyiklamaAdi + "-hata.png") });
+        console.log("Hata ekran goruntusu kaydedildi: debug-" + hataAyiklamaAdi + "-hata.png");
+      } catch (ssErr) { console.error("Hata ekran goruntusu alinamadi: " + ssErr.message); }
+    }
+    console.error("[uyari] Bulten sorgusu basarisiz (" + hedefTarihGuvenli(gunFarki) + "): " + hata.message);
+    return null;
+  } finally {
+    await sayfa.close();
+  }
+}
+function hedefTarihGuvenli(gunFarki) {
+  try { return tarihGGAAYYYY(gunFarki); } catch { return "?"; }
+}
+
 async function main() {
   const { ILCE_MAP } = require("./ilce-map.js");
 
@@ -303,6 +399,19 @@ async function main() {
   } catch (err) {
     console.error("[uyari] LPG raporu cekilemedi: " + err.message);
   }
+
+  // ---- Ulusal bulten (Istanbul Avrupa Yakasi referans fiyati) ----
+  // Tek gunluk sorgu oldugu icin, "bugun" bossa SORGU_ARALIGI_GUN kadar
+  // geriye giderek en guncel yayinlanmis raporu buluyoruz.
+  let bultenSonuc = null;
+  for (let g = 0; g < SORGU_ARALIGI_GUN && !bultenSonuc; g++) {
+    try {
+      bultenSonuc = await bultenSorgula(browser, -g, "bulten");
+    } catch (err) {
+      console.error("[uyari] Bulten sorgusu (gun -" + g + ") basarisiz: " + err.message);
+    }
+  }
+
   await browser.close();
 
   if (!petrolXlsYolu && !lpgXlsYolu) throw new Error("Ne petrol ne LPG raporu indirilebildi - EPDK sitesi erisilemez olabilir.");
@@ -432,6 +541,16 @@ async function main() {
   }
   const eskiVeri = eskiVeriyiOku();
 
+  function eskiUlusalOku() {
+    try {
+      const ham = fs.readFileSync(CIKTI_YOLU, "utf-8");
+      const veri = JSON.parse(ham);
+      return veri.ulusal || null;
+    } catch {
+      return null;
+    }
+  }
+
   // ---------- Ilceye ozgu kucuk kozmetik ofset ----------
   // EPDK ilce bazinda veri yayinlamiyor; ayni il medyanini butun ilcelere
   // duz kopyalamak yerine, ilce adindan (+ urun adindan) turetilen
@@ -495,6 +614,10 @@ async function main() {
   const cikti = {
     guncelleme: new Date().toISOString(),
     not: "Benzin, motorin ve LPG (Otogaz) fiyatlari EPDK'nin resmi bayi fiyat raporlarindan (bildirim.epdk.gov.tr) alinir; o ildeki tum firmalarin bildirdigi fiyatlarin MEDYANI kullanilir. EPDK ilce bazinda veri yayinlamadigindan, ilce fiyatlari il medyanina ilce adindan turetilen kucuk (+/-" + ILCE_OFSET_TL.toFixed(2) + " TL) deterministik bir tahmini sapma eklenerek hesaplanir; gercek ilce-bazli bildirim degildir (bkz. \"kaynak\": \"il_medyani_tahmini\").",
+    ulusal: bultenSonuc
+      ? { ...bultenSonuc, kaynak: "epdk_resmi_bulten" }
+      : (eskiUlusalOku() || null),
+    ulusalNot: "EPDK'nin resmi Bayi Satis Fiyati Bulteni'nden alinir. EPDK'nin kendi tanimina gore bu, ilgili dagiticilarin Istanbul Ili Avrupa Yakasi'ndaki bayileri adina beyan ettikleri fiyatlarin ortalamasidir - 81 ilin duz ortalamasi DEGILDIR, ama sektorde ve basinda 'ulusal referans fiyat' olarak yaygin kullanilan resmi EPDK rakamidir.",
     ilceler,
   };
 
