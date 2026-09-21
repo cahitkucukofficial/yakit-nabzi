@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-09-21T17:32:18.115Z",
+  "guncelleme": "2026-09-21T23:03:34.813Z",
   "not": "Benzin, motorin ve LPG (Otogaz) fiyatlari EPDK'nin resmi bayi fiyat raporlarindan (bildirim.epdk.gov.tr) alinir; o ildeki tum firmalarin bildirdigi fiyatlarin MEDYANI kullanilir. EPDK ilce bazinda veri yayinlamadigindan, ilce fiyatlari il medyanina ilce adindan turetilen kucuk (+/-0.15 TL) deterministik bir tahmini sapma eklenerek hesaplanir; gercek ilce-bazli bildirim degildir (bkz. \"kaynak\": \"il_medyani_tahmini\").",
   "ulusal": null,
   "ulusalNot": "EPDK'nin resmi Bayi Satis Fiyati Bulteni'nden alinir. EPDK'nin kendi tanimina gore bu, ilgili dagiticilarin Istanbul Ili Avrupa Yakasi'ndaki bayileri adina beyan ettikleri fiyatlarin ortalamasidir - 81 ilin duz ortalamasi DEGILDIR, ama sektorde ve basinda 'ulusal referans fiyat' olarak yaygin kullanilan resmi EPDK rakamidir.",
