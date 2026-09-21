@@ -222,6 +222,10 @@ const ILLER = Object.keys(ILCE_MAP);
    "history" alanı opsiyoneldir; verilmezse sadece dün/bugün ile 2 noktalı
    bir çizgi gösterilir. */
 const FIYAT_JSON_URL = "https://cahitkucukofficial.github.io/yakit-nabzi/fiyatlar.json";
+// Play Store'un istediği barındırılan (hosted) gizlilik politikası sayfası — tek doğru
+// kaynak burası; uygulama içinde ayrıca bir gizlilik metni TUTULMUYOR ki iki metin
+// birbirinden sapıp Play Store incelemesinde tutarsızlık sorunu çıkarmasın.
+const GIZLILIK_URL = "https://cahitkucukofficial.github.io/yakit-nabzi/gizlilik.html";
 
 function normalizeFuel(f) {
   const veriVar = typeof f.today === "number" && typeof f.yesterday === "number";
@@ -1132,40 +1136,6 @@ function KaynakContent() {
   );
 }
 
-function PrivacyContent() {
-  return (
-    <IosSection header="Gizlilik İlkesi">
-      <div className="ios-row text-row">
-        Bu uygulama bir prototiptir ve kişisel hiçbir veriyi bir sunucuya göndermez. Takip
-        listen, kurduğun uyarılar, bildirim tercihin ve verdiğin puan yalnızca bu cihazda/
-        hesapta saklanır; bunlar hiçbir zaman bizimle veya üçüncü bir tarafla paylaşılmaz.
-      </div>
-      <div className="ios-row text-row">
-        Şehirler ve Değişim sekmelerindeki fiyat verileri ile Haberler sekmesindeki başlıklar,
-        GitHub Actions üzerinde otomatik çalışan script'lerle üretilip GitHub Pages'te herkese
-        açık, anonim JSON dosyaları (fiyatlar.json, haberler.json) olarak yayınlanır; uygulama
-        bu dosyaları sadece okur. Bu süreçte hangi cihazın, hangi kullanıcının ne zaman
-        baktığına dair hiçbir kayıt tutulmaz.
-      </div>
-      <div className="ios-row text-row">
-        Haberler sekmesindeki başlıklar, birden fazla haber ajansının (ör. AA, İHA, DHA)
-        herkese açık RSS beslemelerinden otomatik süzülür; her başlığın yanında hangi
-        ajanstan geldiği belirtilir. İçerik yorum ya da analiz eklenmeden, olduğu gibi
-        gösterilir.
-      </div>
-      <div className="ios-row text-row">
-        Adın, konumun veya kimliğini belirleyen herhangi bir bilgi toplanmaz. "Paylaş"
-        özelliği cihazının kendi paylaşım menüsünü kullanır; ayrı bir sunucuya veri iletmez.
-      </div>
-      <div className="ios-row text-row">
-        Gerçek bir yayına çıkmadan önce bu metnin, kullanılan gerçek altyapıya (özellikle
-        resmi/ücretli fiyat API'sine geçildiğinde) göre bir hukuk danışmanınca güncellenmesi
-        gerekir.
-      </div>
-    </IosSection>
-  );
-}
-
 /* ---------- tema seçici (açılır sayfa) ---------- */
 function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent }) {
   return (
@@ -1329,7 +1299,7 @@ function HakkindaView({ notifOn, setNotifOn, onOpenSub, onRate, onShare, showToa
       <IosSection header="Ayarlar" footer="Not: Bu prototip gerçek anlık işletim sistemi bildirimi gönderemez; anahtar yalnızca tercihini bu cihazda kaydeder.">
         <SettingsRow icon={<Icon.bell />} color="var(--zam)" label="Bildirimler" trailing={<IosSwitch checked={notifOn} onChange={setNotifOn} />} onClick={() => setNotifOn(!notifOn)} />
         <SettingsRow icon={<Icon.info />} color="var(--bilgi)" label="Veri Kaynağı" onClick={() => onOpenSub("kaynak")} />
-        <SettingsRow icon={<Icon.lock />} color="var(--notr)" label="Gizlilik İlkesi" onClick={() => onOpenSub("privacy")} />
+        <SettingsRow icon={<Icon.lock />} color="var(--notr)" label="Gizlilik İlkesi" onClick={() => window.open(GIZLILIK_URL, "_blank", "noopener")} />
       </IosSection>
 
       <div className="about-footer">Akaryakıt Alarm Programı bağımsız bir prototiptir; EPDK veya herhangi bir resmi kurumla bağlantılı değildir.</div>
@@ -1363,7 +1333,7 @@ function Toast({ message }) {
 }
 
 const TAB_TITLES = { sehirler: "Şehirler", degisim: "Değişim", haberler: "Haberler", hakkinda: "Hakkında" };
-const SUB_TITLES = { kaynak: "Veri Kaynağı", privacy: "Gizlilik İlkesi" };
+const SUB_TITLES = { kaynak: "Veri Kaynağı" };
 
 /* ---------- ana uygulama ---------- */
 function App() {
@@ -1611,7 +1581,7 @@ function App() {
     }
   } else {
     body = aboutSub ? (
-      <div className="push-in">{aboutSub === "kaynak" ? <KaynakContent /> : <PrivacyContent />}</div>
+      <div className="push-in"><KaynakContent /></div>
     ) : (
       <HakkindaView notifOn={notifOn} setNotifOn={changeNotif} onOpenSub={setAboutSub} onRate={() => setRatingOpen(true)} onShare={handleShare} showToast={showToast} theme={theme} onOpenTheme={() => setThemePickerOpen(true)} />
     );
@@ -1690,7 +1660,7 @@ function App() {
         .seg-btn{ flex:1; background:none; border:none; padding:6px 0; font-size:13px; font-weight:700; color:var(--metin); border-radius:7px; cursor:pointer; font-family:var(--font-body); }
         .seg-btn.active{ background:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.15); }
 
-        .ios-switch{ width:48px; height:29px; border-radius:15px; background:#E9E9EA; border:none; position:relative; cursor:pointer; padding:0; flex-shrink:0; transition:background .2s; }
+        .ios-switch{ width:48px; height:29px; border-radius:15px; background:var(--panel-3); border:none; position:relative; cursor:pointer; padding:0; flex-shrink:0; transition:background .2s; }
         .ios-switch.on{ background:var(--indirim); }
         .ios-switch .knob{ position:absolute; top:2px; left:2px; width:25px; height:25px; border-radius:50%; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.3); transition:left .2s; }
         .ios-switch.on .knob{ left:21px; }
@@ -1709,7 +1679,7 @@ function App() {
         .ios-row:active{ background:var(--panel-2); }
         .ios-row-title{ font-size:15px; font-weight:600; color:var(--metin); }
         .ios-row-value{ display:flex; align-items:center; gap:5px; font-size:15px; color:var(--metin-soluk); }
-        .text-row{ font-size:13.5px; line-height:1.55; color:#3C3C43; cursor:default; display:block; }
+        .text-row{ font-size:13.5px; line-height:1.55; color:var(--metin-soluk); cursor:default; display:block; }
 
         .three-col{ display:flex; padding:16px 14px; align-items:flex-start; }
         .fuel-col{ flex:1; text-align:center; }
@@ -1766,7 +1736,7 @@ function App() {
         .app-name{ font-size:17px; font-weight:800; color:var(--metin); font-family:var(--font-poster); line-height:1.25; }
         .app-tag{ font-size:12.5px; color:var(--metin-soluk); margin-top:3px; padding:0 24px; line-height:1.4; }
         .app-version{ font-size:11.5px; color:var(--metin-silik); margin-top:6px; font-family:var(--font-mono); }
-        .about-footer{ text-align:center; font-size:11.5px; color:#9AA0A6; padding:4px 20px 20px; line-height:1.5; }
+        .about-footer{ text-align:center; font-size:11.5px; color:var(--metin-silik); padding:4px 20px 20px; line-height:1.5; }
 
         .push-in{ animation: pushin .28s ease; }
         @keyframes pushin{ from{ opacity:0; transform:translateX(24px);} to{ opacity:1; transform:translateX(0);} }
