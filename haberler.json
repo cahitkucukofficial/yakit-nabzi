@@ -1,5 +1,16 @@
 {
-  "guncelleme": "2026-09-24T01:52:12.567Z",
+  "guncelleme": "2026-09-24T04:29:51.371Z",
   "kaynaklar": [],
+  "beklenti": {
+    "motorin": {
+      "expected": false
+    },
+    "benzin": {
+      "expected": false
+    },
+    "lpg": {
+      "expected": false
+    }
+  },
   "haberler": []
 }
