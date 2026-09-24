@@ -102,6 +102,100 @@ function eskimisMi(iso) {
   return Date.now() - t > MAKS_YAS_GUN * 24 * 60 * 60 * 1000;
 }
 
+/* ---------- "zam/indirim bekleniyor" haberlerinden yapisal beklenti cikarma ----------
+   EPDK, fiili degisikligi ancak yururlukten hemen once bildiriyor; ama basin, o gunku
+   ham petrol/kur hareketine bakarak saatler ONCESINDEN "X TL zam/indirim bekleniyor"
+   diye tahmin haberi yapiyor (rakip uygulamanin "Indirim beklentisi var!" kartinin
+   kaynagi da muhtemelen budur). Biz bunu ayni sekilde, ama SAHTE degil GERCEKTEN o
+   haberlerden regex ile cikararak yapiyoruz - eslesme yoksa "expected: false" kalir,
+   uydurma bir sey gostermeyiz. */
+const AY_ISIMLERI = {
+  "ocak": 1, "şubat": 2, "mart": 3, "nisan": 4, "mayıs": 5, "haziran": 6,
+  "temmuz": 7, "ağustos": 8, "eylül": 9, "ekim": 10, "kasım": 11, "aralık": 12,
+};
+
+function turkceTarihiCoz(metin) {
+  const m = metin.match(/(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)/i);
+  if (!m) return null;
+  const gun = parseInt(m[1], 10);
+  const ay = AY_ISIMLERI[m[2].toLocaleLowerCase("tr-TR")];
+  if (!ay || gun < 1 || gun > 31) return null;
+  const simdi = new Date();
+  let yil = simdi.getFullYear();
+  let aday = new Date(Date.UTC(yil, ay - 1, gun));
+  // Olusan tarih bugunden 5+ gun eskideyse muhtemelen gelecek yila ait bir tarih
+  // kastedilmis (yil donumu civarindaki haberler icin).
+  if (aday.getTime() < simdi.getTime() - 5 * 24 * 60 * 60 * 1000) {
+    aday = new Date(Date.UTC(yil + 1, ay - 1, gun));
+  }
+  return aday.toISOString().slice(0, 10);
+}
+
+const URUN_DESENLERI = {
+  motorin: [/motorin/i],
+  benzin: [/benzin/i],
+  lpg: [/\blpg\b/i, /otogaz/i],
+};
+
+function beklentiCikarBirHaberden(haber) {
+  const metin = (haber.baslik || "") + " " + (haber.ozet || "");
+
+  // "bekleniyor" turu bir belirsizlik ifadesi gecmiyorsa bu bir TAHMIN degil,
+  // kesinlesmis/gecmis bir haber olabilir - atla (yanlislikla "kesin" gibi sunmayalim).
+  if (!/bekleniyor|beklentisi|bekleniyor mu|gelebilir/i.test(metin)) return [];
+
+  let yon = null;
+  if (/indirim/i.test(metin)) yon = "dusus";
+  else if (/\bzam\b/i.test(metin)) yon = "artis";
+  if (!yon) return [];
+
+  const tutarEslesme = metin.match(/(\d+[,.]\d{1,2})\s*(?:TL|lira)/i);
+  const tutar = tutarEslesme ? parseFloat(tutarEslesme[1].replace(",", ".")) : null;
+  const tarih = turkceTarihiCoz(metin);
+  if (!tutar || !tarih) return []; // eksik bilgiyle gosterme
+
+  const sonuc = [];
+  for (const urun of Object.keys(URUN_DESENLERI)) {
+    if (URUN_DESENLERI[urun].some((d) => d.test(metin))) {
+      sonuc.push({ urun, yon, tutar, tarih, kaynakBaslik: haber.baslik, kaynakLink: haber.link, kaynak: haber.kaynak });
+    }
+  }
+  return sonuc;
+}
+
+function beklentileriBirlestir(haberler) {
+  const adaylar = { motorin: [], benzin: [], lpg: [] };
+  for (const h of haberler) {
+    for (const c of beklentiCikarBirHaberden(h)) {
+      if (adaylar[c.urun]) adaylar[c.urun].push(c);
+    }
+  }
+  const sonuc = {};
+  for (const urun of Object.keys(adaylar)) {
+    const liste = adaylar[urun];
+    if (!liste.length) { sonuc[urun] = { expected: false }; continue; }
+    // Ayni yon+tutar+tarihte kac farkli haber/kaynak var say (guven sinyali);
+    // en cok dogrulanan kombinasyonu goster.
+    const gruplu = {};
+    for (const a of liste) {
+      const anahtar = a.yon + "|" + a.tutar + "|" + a.tarih;
+      (gruplu[anahtar] = gruplu[anahtar] || []).push(a);
+    }
+    const enIyiGrup = Object.values(gruplu).sort((a, b) => b.length - a.length)[0];
+    const ornek = enIyiGrup[0];
+    sonuc[urun] = {
+      expected: true,
+      direction: ornek.yon,
+      amount: ornek.tutar,
+      tarih: ornek.tarih,
+      dogrulayanKaynakSayisi: new Set(enIyiGrup.map((e) => e.kaynak)).size,
+      kaynakBaslik: ornek.kaynakBaslik,
+      kaynakLink: ornek.kaynakLink,
+    };
+  }
+  return sonuc;
+}
+
 async function main() {
   console.log(KAYNAKLAR.length + " kaynaktan haber cekiliyor: " + KAYNAKLAR.map((k) => k.kod).join(", "));
 
@@ -113,9 +207,12 @@ async function main() {
   haberler.sort((a, b) => new Date(b.tarih || 0) - new Date(a.tarih || 0));
   haberler = haberler.slice(0, MAKS_HABER);
 
+  const beklenti = beklentileriBirlestir(haberler);
+
   const cikti = {
     guncelleme: new Date().toISOString(),
     kaynaklar: Array.from(new Set(haberler.map((h) => h.kaynak))),
+    beklenti,
     haberler: haberler,
   };
 
