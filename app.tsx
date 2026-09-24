@@ -73,42 +73,14 @@ function fmtDelta(n) {
   return (n > 0 ? "+" : "−") + v.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-/* ---------- deterministik sahte-rastgele yardımcılar (Sonraki Değişim kartı için) ---------- */
-function hashStr(s) {
-  let h = 0;
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
-  return h;
+/* ---------- "Sonraki Değişim" tarih biçimlendirme ---------- */
+// beklenti.tarih "YYYY-MM-DD" formatında geliyor (scripts/fetch-haberler.js).
+function fmtBeklentiTarih(isoTarih) {
+  if (!isoTarih) return "";
+  const [y, m, d] = isoTarih.split("-").map(Number);
+  const tarih = new Date(Date.UTC(y, m - 1, d));
+  return tarih.toLocaleDateString("tr-TR", { day: "numeric", month: "long", timeZone: "UTC" }) + " 00:00";
 }
-function rnd(seed) {
-  const x = Math.sin(seed * 999.77) * 10000;
-  return x - Math.floor(x);
-}
-function seededRange(seed, min, max) {
-  return min + rnd(seed) * (max - min);
-}
-function todayKey() {
-  const d = new Date();
-  return d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate();
-}
-function nextMidnight() {
-  const d = new Date();
-  d.setDate(d.getDate() + 1);
-  d.setHours(0, 0, 0, 0);
-  return d;
-}
-function fmtEffectiveDate(d) {
-  return d.toLocaleDateString("tr-TR", { day: "numeric", month: "long" }) + " 00:00";
-}
-function buildNextChange(fuelKey) {
-  const seed = hashStr(todayKey() + "|" + fuelKey);
-  const r = rnd(seed);
-  if (r < 0.6) return { expected: false };
-  const direction = rnd(seed + 1) < 0.5 ? "artis" : "dusus";
-  const amount = round2(seededRange(seed + 2, 0.25, 1.4));
-  return { expected: true, direction, amount };
-}
-const NEXT_CHANGE_DATE = nextMidnight();
-const NEXT_CHANGE = Object.fromEntries(["motorin", "benzin", "lpg"].map((k) => [k, buildNextChange(k)]));
 
 /* ---------- il / ilçe iskeleti (örnek kapsama alanı) ---------- */
 const ILCE_MAP = {
@@ -296,7 +268,7 @@ async function fetchHaberler() {
   const kaynaklar = data.kaynaklar && data.kaynaklar.length
     ? data.kaynaklar
     : Array.from(new Set(haberler.map((h) => h.kaynak).filter(Boolean)));
-  return { guncelleme: data.guncelleme || null, haberler, kaynaklar };
+  return { guncelleme: data.guncelleme || null, haberler, kaynaklar, beklenti: data.beklenti || null };
 }
 
 /* "Ulusal Nabız" widget'ı — artık ayrı bir fetch yok, fetchFiyatlar()'ın
@@ -519,9 +491,9 @@ function DeltaTag({ delta }) {
   return <span className={cls}>{arrow} {fmtDelta(delta)}</span>;
 }
 
-function NextChangeCard({ fuelKey }) {
+function NextChangeCard({ fuelKey, beklenti }) {
   const meta = FUEL_META[fuelKey];
-  const nc = NEXT_CHANGE[fuelKey];
+  const nc = beklenti?.[fuelKey] || { expected: false };
   let statusText;
   if (!nc.expected) {
     statusText = "Değişim beklenmiyor";
@@ -539,21 +511,27 @@ function NextChangeCard({ fuelKey }) {
         </span>
       </div>
       {nc.expected && (
-        <div className="next-change-date">Yürürlük: {fmtEffectiveDate(NEXT_CHANGE_DATE)}</div>
+        <div className="next-change-date">
+          Yürürlük: {fmtBeklentiTarih(nc.tarih)}
+          {nc.dogrulayanKaynakSayisi > 1 && " · " + nc.dogrulayanKaynakSayisi + " kaynak"}
+        </div>
       )}
     </div>
   );
 }
 
-function NextChangeSection() {
+function NextChangeSection({ beklenti }) {
+  const herhangiBeklentiVar = beklenti && FUEL_ORDER.some((k) => beklenti[k]?.expected);
   return (
     <div className="ios-section">
       <div className="ios-section-header">Sonraki Değişim</div>
       <div className="next-change-list">
-        {FUEL_ORDER.map((k) => <NextChangeCard key={k} fuelKey={k} />)}
+        {FUEL_ORDER.map((k) => <NextChangeCard key={k} fuelKey={k} beklenti={beklenti} />)}
       </div>
       <div className="ios-section-footer">
-        Fiyatlar günde bir kez, gece yarısından sonra yürürlüğe girer. Bir sonraki güncelleme: {fmtEffectiveDate(NEXT_CHANGE_DATE)}.
+        {herhangiBeklentiVar
+          ? "Haber kaynaklarından derlenen bir tahmindir, EPDK'nin resmi teyidi değildir."
+          : "Fiyatlar günde bir kez, gece yarısından sonra yürürlüğe girer."}
       </div>
     </div>
   );
@@ -959,7 +937,7 @@ function AlertsSection({ alerts, addAlert, removeAlert, prefill }) {
   );
 }
 
-function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFilter, favorites, districtsMap, toggleFav, onOpenDistrict, alerts, addAlert, removeAlert, alertPrefill, ulusalBugun }) {
+function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFilter, favorites, districtsMap, toggleFav, onOpenDistrict, alerts, addAlert, removeAlert, alertPrefill, ulusalBugun, beklenti }) {
   const sorted = [...districts].sort((a, b) => b[fuelFilter].delta - a[fuelFilter].delta);
   const gainers = sorted.filter((d) => d[fuelFilter].delta > 0.02).slice(0, 3);
   const losers = [...sorted].reverse().filter((d) => d[fuelFilter].delta < -0.02).slice(0, 3);
@@ -988,7 +966,7 @@ function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFi
 
   return (
     <>
-      <NextChangeSection />
+      <NextChangeSection beklenti={beklenti} />
       <PulseWidget mode={totemMode} nat={nat[totemMode]} onToggle={() => setTotemMode((m) => (m === "today" ? "yesterday" : "today"))} />
       <Segmented options={FUEL_ORDER.map((k) => ({ value: k, label: FUEL_META[k].label }))} value={fuelFilter} onChange={setFuelFilter} />
 
@@ -1384,14 +1362,16 @@ function App() {
   const [haberDurum, setHaberDurum] = useState("yukleniyor"); // yukleniyor | hazir | hata
   const [haberGuncelleme, setHaberGuncelleme] = useState(null);
   const [haberKaynaklar, setHaberKaynaklar] = useState([]);
+  const [beklenti, setBeklenti] = useState(null); // "Sonraki Değişim" — haberlerden çıkarılan gerçek zam/indirim tahmini
 
   const loadHaberler = useCallback(async () => {
     setHaberDurum("yukleniyor");
     try {
-      const { haberler: list, guncelleme, kaynaklar } = await fetchHaberler();
+      const { haberler: list, guncelleme, kaynaklar, beklenti: b } = await fetchHaberler();
       setHaberler(list);
       setHaberGuncelleme(guncelleme);
       setHaberKaynaklar(kaynaklar);
+      setBeklenti(b);
       setHaberDurum("hazir");
     } catch (e) {
       console.error(e);
@@ -1558,6 +1538,7 @@ function App() {
           onOpenDistrict={openDistrict}
           alerts={alerts} addAlert={addAlert} removeAlert={removeAlert} alertPrefill={alertPrefill}
           ulusalBugun={ulusalBugun}
+          beklenti={beklenti}
         />
       );
     }
