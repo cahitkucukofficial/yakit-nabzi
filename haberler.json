@@ -1,13 +1,12 @@
 {
-  "guncelleme": "2026-09-24T18:46:55.113Z",
+  "guncelleme": "2026-09-24T19:50:05.309Z",
   "kaynaklar": [
+    "MILLIYET",
     "CUMHURIYET",
     "YENISAFAK",
     "CNNTURK",
     "STAR",
     "AA",
-    "DUNYA",
-    "MILLIYET",
     "SABAH",
     "HABERTURK",
     "HURRIYET"
@@ -24,6 +23,18 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Netanyahu, Birleşmiş Milletler Genel Kurulu'na elinde bombayla geldi!",
+      "ozet": "İsrail Başbakanı Binyamin Netanyahu'nun protestolarla karşı karşıya kaldığı Birleşmiş Milletler Genel Kurulu konuşmasında dünyanın gözleri önünde skandal yaşandı. Adeta boş koltuklara konuşan Netanyahu, konuşmasında e...",
+      "tarih": "2026-09-24T19:44:33.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Yemen'deki Husiler: Suudi Arabistan'ın başkenti Riyad ve Yenbu'daki petrol şirketi Aramco hedef alındı",
+      "ozet": "Husilerin askeri sözcüsü Yahya Seri, ABD merkezli X şirketinin sosyal medya platformundaki hesabından yaptığı açıklamada, Suudi Arabistan'a yönelik yapılan saldırılara ilişkin bilgi verdi. Suudi Arabistan'ın Yemen'e y...",
+      "tarih": "2026-09-24T19:37:54.000Z",
+      "kaynak": "MILLIYET"
+    },
     {
       "baslik": "Altında düşüş devam edecek mi? Uzmanların beklentisi belli oldu",
       "ozet": "Altın fiyatlarında Fed’in faiz politikasına ilişkin beklentiler belirleyici olmaya devam ediyor. Güçlü ABD ekonomik verileri ve faizlerin yüksek tutulabileceği beklentisi değerli metal üzerinde baskı oluştururken, pet...",
@@ -58,13 +69,6 @@
       "link": "https://www.aa.com.tr/tr/ekonomi/suudi-aramconun-ust-yoneticisi-kesintiye-ugrayan-faaliyetleri-birkac-gun-icinde-baslatabileceklerini-soyledi/4067852",
       "tarih": "2026-09-24T13:00:33.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Fransa’da akaryakıt krizi büyüyor: İstasyonlarda pompalar boş kaldı",
-      "ozet": "Küresel petrol arzında yaşanan aksaklıklar Avrupa’yı vurmaya başladı. Fransa’da benzin veya motorin bulunamayan istasyonların oranı yüzde 11’e yükselirken, dizel fiyatları tarihi zirveye yaklaştı.",
-      "link": "https://www.dunya.com/enerji/fransada-akaryakit-krizi-buyuyor-istasyonlarda-pompalar-bos-kaldi-haberi-841308",
-      "tarih": "2026-09-24T12:57:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Petrol piyasasında büyük hamle: Suudi Arabistan'dan Asya'ya 100 milyon varillik satış",
@@ -294,13 +298,6 @@
       "ozet": "JP Morgan, ABD ve İsrail’in İran’a yönelik saldırılarıyla başlayan çatışmaların petrol piyasalarındaki öngörüleri zorlaştırdığını belirtti. Banka, savaşın başlamasından bu yana ilk kez petrol piyasası için net bir tem...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/jp-morgan-dan-petrol-icin-kritik-tahmin-brent-te-yeni-senaryo-ortaya-cikti-2538723",
       "tarih": "2026-09-18T07:39:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "İtalya’da petrol artışı sonrası sürpriz karar: Milyonlarca aracın vergisi kaldırıldı",
-      "ozet": "İtalya'da Giorgia Meloni liderliğindeki hükümet, 80 kilovat gücündeki otomobil ve motosikletler için alınan araç mülkiyet vergisini 2027 yılı için iptal etti. Kararı toplam 14,5 milyon aracı kapsıyor.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/italya-da-petrol-artisi-sonrasi-surpriz-karar-milyonlarca-aracin-vergisi-kaldirildi-2538515",
-      "tarih": "2026-09-17T13:37:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
