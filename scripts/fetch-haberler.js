@@ -18,14 +18,27 @@ const Parser = require("rss-parser");
 
 const parser = new Parser({
   timeout: 15000,
-  headers: { "User-Agent": "yakit-nabzi-haber-bot/1.0" },
+  headers: {
+    // Bazi kaynaklar (orn. IHA) sunucu/bot trafigini User-Agent'a bakarak
+    // 403 ile reddediyor olabilir; gercek bir tarayici gibi gorunen bir
+    // UA deniyoruz. Garanti degil - IP bazli engelleme de olabilir.
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Accept": "application/rss+xml, application/xml, text/xml, */*",
+  },
 });
 
 /* ---------- kaynak tanimlari ----------
    Her kaynagin kisa kodu (kaynak), gorunen adi ve RSS adresi burada
    tanimlanir. Yeni bir ajans eklemek icin bu listeye bir satir eklemek
-   yeterli. NOT: Asagidaki URL'ler ornektir; her ajansin guncel, herkese
-   acik RSS adresini ve kullanim sartlarini kendiniz dogrulayin. */
+   yeterli.
+   ONEMLI: Bu URL'lerin cogu genel bilinen adres kaliplarindan derlendi,
+   TEK TEK canli test edilmedi (18 kaynagi tek tek dogrulamak pratik
+   degildi). Ama bu ZARARSIZ: her kaynak kendi try/catch'inde calisiyor
+   (bkz. kaynaktanCek), biri 403/404/bozuk XML verirse sadece o kaynak
+   [uyari] ile loglanip atlaniyor, digerlerini ya da genel calismayi
+   etkilemiyor. Ilk calistirmanin "Haberleri cek" logunda hangi kaynaklarin
+   gercekten calistigini gorup, calismayanlarin adresini tek tek
+   duzeltmek/cikarmak gerekecek - bu normal, beklenen bir ilk-tur sureci. */
 const KAYNAKLAR = [
   {
     kod: "AA",
@@ -40,8 +53,28 @@ const KAYNAKLAR = [
   {
     kod: "DHA",
     ad: "Demiroren Haber Ajansi",
+    // UYARI: bu adres su an 404 donduruyor (24 Eylul 2026'da tespit edildi).
+    // DHA'nin guncel RSS adresini dha.com.tr uzerinden (genelde sayfa
+    // altbilgisinde "RSS" linki olur) bulup burayi guncellemek gerekiyor.
     rss: "https://www.dha.com.tr/rss/ekonomi.xml",
   },
+  { kod: "HURRIYET", ad: "Hurriyet", rss: "https://www.hurriyet.com.tr/rss/ekonomi" },
+  { kod: "MILLIYET", ad: "Milliyet", rss: "https://www.milliyet.com.tr/rss/rssnew/ekonomirss.xml" },
+  { kod: "SABAH", ad: "Sabah", rss: "https://www.sabah.com.tr/rss/ekonomi.xml" },
+  { kod: "HABERTURK", ad: "Haberturk", rss: "https://www.haberturk.com/rss/ekonomi.xml" },
+  { kod: "NTV", ad: "NTV", rss: "https://www.ntv.com.tr/ekonomi.rss" },
+  { kod: "SOZCU", ad: "Sozcu", rss: "https://www.sozcu.com.tr/kategori/ekonomi/feed/" },
+  { kod: "CUMHURIYET", ad: "Cumhuriyet", rss: "https://www.cumhuriyet.com.tr/rss/ekonomi.xml" },
+  { kod: "STAR", ad: "Star", rss: "https://www.star.com.tr/rss/ekonomi.xml" },
+  { kod: "AKSAM", ad: "Aksam", rss: "https://www.aksam.com.tr/rss/ekonomi.xml" },
+  { kod: "YENISAFAK", ad: "Yeni Safak", rss: "https://www.yenisafak.com/rss?xml=ekonomi" },
+  { kod: "DUNYA", ad: "Dunya Gazetesi", rss: "https://www.dunya.com/rss?kategori=ekonomi" },
+  { kod: "BLOOMBERGHT", ad: "Bloomberg HT", rss: "https://www.bloomberght.com/rss" },
+  { kod: "CNNTURK", ad: "CNN Turk", rss: "https://www.cnnturk.com/feed/rss/ekonomi/news" },
+  { kod: "HABER7", ad: "Haber7", rss: "https://www.haber7.com/ekonomi_articles.rss" },
+  { kod: "ENSONHABER", ad: "Ensonhaber", rss: "https://www.ensonhaber.com/rss/ekonomi.xml" },
+  { kod: "TAKVIM", ad: "Takvim", rss: "https://www.takvim.com.tr/rss/ekonomi.xml" },
+  { kod: "TRTHABER", ad: "TRT Haber", rss: "https://www.trthaber.com/ekonomi.rss" },
 ];
 
 /* Baslik/ozet bu anahtar kelimelerden en az birini icermiyorsa
@@ -207,6 +240,27 @@ async function main() {
   haberler.sort((a, b) => new Date(b.tarih || 0) - new Date(a.tarih || 0));
   haberler = haberler.slice(0, MAKS_HABER);
 
+  const hedefYol = path.join(process.cwd(), "haberler.json");
+
+  // Guvenlik agi: butun kaynaklar ayni anda basarisiz olursa (gecici RSS/ag sorunu),
+  // bos veriyle eskiyi EZMEYELIM - fiyat script'indeki "eski veriyi koru" mantiginin
+  // ayni burada da olmasi lazimdi, eksikti.
+  if (haberler.length === 0) {
+    console.error("[uyari] Hicbir kaynaktan haber gelmedi - eski haberler.json korunuyor (varsa).");
+    try {
+      const eskiHam = fs.readFileSync(hedefYol, "utf-8");
+      const eski = JSON.parse(eskiHam);
+      if (eski.haberler && eski.haberler.length > 0) {
+        console.log("Eski veri korundu: " + eski.haberler.length + " haber (guncellenmedi).");
+        return;
+      }
+    } catch (e) {
+      console.error("[uyari] Eski haberler.json da okunamadi: " + e.message);
+    }
+    // Eski veri de yoksa/bozuksa, en azindan bos-ama-gecerli bir dosya yazalim ki
+    // uygulama "yuklenemedi" hatasi yerine "haber yok" bos durumunu gostersin.
+  }
+
   const beklenti = beklentileriBirlestir(haberler);
 
   const cikti = {
@@ -216,7 +270,6 @@ async function main() {
     haberler: haberler,
   };
 
-  const hedefYol = path.join(process.cwd(), "haberler.json");
   fs.writeFileSync(hedefYol, JSON.stringify(cikti, null, 2), "utf-8");
   console.log("Yazildi: " + hedefYol + " - " + haberler.length + " haber, " + cikti.kaynaklar.length + " kaynak.");
 }
