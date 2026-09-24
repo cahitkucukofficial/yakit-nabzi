@@ -1,7 +1,16 @@
 {
-  "guncelleme": "2026-09-24T18:34:14.615Z",
+  "guncelleme": "2026-09-24T18:46:55.113Z",
   "kaynaklar": [
-    "AA"
+    "CUMHURIYET",
+    "YENISAFAK",
+    "CNNTURK",
+    "STAR",
+    "AA",
+    "DUNYA",
+    "MILLIYET",
+    "SABAH",
+    "HABERTURK",
+    "HURRIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -16,11 +25,283 @@
   },
   "haberler": [
     {
+      "baslik": "Altında düşüş devam edecek mi? Uzmanların beklentisi belli oldu",
+      "ozet": "Altın fiyatlarında Fed’in faiz politikasına ilişkin beklentiler belirleyici olmaya devam ediyor. Güçlü ABD ekonomik verileri ve faizlerin yüksek tutulabileceği beklentisi değerli metal üzerinde baskı oluştururken, pet...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altinda-dusus-devam-edecek-mi-uzmanlarin-beklentisi-belli-oldu-2540696",
+      "tarih": "2026-09-24T14:38:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Aramco’dan petrol piyasasına güven veren mesaj: Birkaç günde yeniden başlatabiliriz",
+      "ozet": "Suudi Aramco Üst Yöneticisi, olası kesintilere karşı şirket altyapısının dayanıklı olduğunu belirterek faaliyetlerin durması halinde birkaç gün içinde yeniden başlatılabileceğini söyledi. Nasır, alternatif petrol ihra...",
+      "link": "https://www.yenisafak.com/ekonomi/aramcodan-petrol-piyasasina-guven-veren-mesaj-birkac-gunde-yeniden-baslatabiliriz-4858729",
+      "tarih": "2026-09-24T14:35:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Bitcoin'de yükseliş sonrası satış baskısı: Gözler Fed ve tahvil faizlerinde",
+      "ozet": "Haftaya güçlü bir yükselişle başlayan Bitcoin, küresel piyasalarda artan risk baskısıyla kazançlarının bir bölümünü geri verdi. ABD tahvil faizlerinin 2007'den bu yana en yüksek seviyeye çıkması, Fed'in ekim ayında fa...",
+      "link": "https://www.cnnturk.com/ekonomi/bitcoinde-yukselis-sonrasi-satis-baskisi-gozler-fed-ve-tahvil-faizlerinde-3470795",
+      "tarih": "2026-09-24T13:44:50.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Suudi Arabistan'dan dünyayı rahatlatan açıklama: Birkaç gün içinde başlayabilir",
+      "ozet": "Suudi Arabistan'ın ulusal petrol şirketi Saudi Aramco'nun Üst Yönetcisi Emin Hasan en-Nasır, şirketin saldırı tehditlerinin arttığı dönemde kesintiye uğrayan faaliyetlerini birkaç gün içinde yeniden başlatabileceğini ...",
+      "link": "https://www.star.com.tr/ekonomi/suudi-arabistandan-dunyayi-rahatlatan-aciklama-birkac-gun-icinde-baslayabilir-haber-2042331/",
+      "tarih": "2026-09-24T13:15:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
       "baslik": "Suudi Aramco'nun Üst Yöneticisi, kesintiye uğrayan faaliyetleri birkaç gün içinde başlatabileceklerini söyledi",
       "ozet": "Suudi Arabistan'ın ulusal petrol şirketi Saudi Aramco'nun Üst Yöneticisi Nasır, şirketin saldırı tehditlerinin arttığı dönemde kesintiye uğrayan faaliyetlerini birkaç gün içinde yeniden başlatabileceğini söyledi.",
       "link": "https://www.aa.com.tr/tr/ekonomi/suudi-aramconun-ust-yoneticisi-kesintiye-ugrayan-faaliyetleri-birkac-gun-icinde-baslatabileceklerini-soyledi/4067852",
       "tarih": "2026-09-24T13:00:33.000Z",
       "kaynak": "AA"
+    },
+    {
+      "baslik": "Fransa’da akaryakıt krizi büyüyor: İstasyonlarda pompalar boş kaldı",
+      "ozet": "Küresel petrol arzında yaşanan aksaklıklar Avrupa’yı vurmaya başladı. Fransa’da benzin veya motorin bulunamayan istasyonların oranı yüzde 11’e yükselirken, dizel fiyatları tarihi zirveye yaklaştı.",
+      "link": "https://www.dunya.com/enerji/fransada-akaryakit-krizi-buyuyor-istasyonlarda-pompalar-bos-kaldi-haberi-841308",
+      "tarih": "2026-09-24T12:57:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Petrol piyasasında büyük hamle: Suudi Arabistan'dan Asya'ya 100 milyon varillik satış",
+      "ozet": "Suudi Arabistan, Asya pazarına yaklaşık 100 milyon varillik ham petrol satışı gerçekleştirerek sevkiyatlarını artırdı. Doğu-Batı boru hattındaki aksaklıkların ardından petrolün Hürmüz Boğazı üzerinden taşınması planla...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-piyasasinda-buyuk-hamle-suudi-arabistan-dan-asya-ya-100-milyon-varillik-satis-2540628",
+      "tarih": "2026-09-24T11:05:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Bakan Kacır, uluslararası yatırımlarda ileri teknolojinin öne çıkacağını söyledi",
+      "ozet": "Birleşmiş Milletler (BM) 81. Genel Kuruluna katılmak üzere New York'ta bulunan Cumhurbaşkanı Recep Tayyip Erdoğan'a eşlik eden Kacır, buradaki görüşmelerine ilişkin AA muhabirinin sorularını yanıtladı. Kacır, üç gün b...",
+      "tarih": "2026-09-24T08:19:28.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Brent petrol 103,65 dolardan işlem görüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 103,65 dolardan işlem görüyor.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/brent-petrol-10365-dolardan-islem-goruyor-7666912",
+      "tarih": "2026-09-24T07:15:34.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Motorin fiyatlarına yeni zam yolda: Litresi yeniden 90 liranın üzerine çıkacak",
+      "ozet": "Motorinin litre fiyatına yarından itibaren zam gelmesi bekleniyor. Petrol piyasalarında yaşanan hareketlilik akaryakıt fiyatlarına yansırken, zamla birlikte motorin fiyatlarının yeniden yükselmesi öngörülüyor. Yakın z...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-yeni-zam-yolda-litresi-yeniden-90-liranin-uzerine-cikacak-2540531",
+      "tarih": "2026-09-24T06:41:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıtta büyük indirim: Tabela bir kez daha değişti motorinin litresi kritik seviyenin altına indi",
+      "ozet": "Küresel piyasalarda brent petrol fiyatlarında yaşanan düşüş, uzun süredir yüksek seyreden akaryakıt tabelalarını bir kez daha hareketlendirdi. Son dönemde kritik eşikleri aşarak araç sahiplerinin bütçesini zorlayan mo...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-buyuk-indirim-tabela-bir-kez-daha-degisti-motorinin-litresi-kritik-seviyenin-altina-indi-4858566",
+      "tarih": "2026-09-24T06:39:15.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Küresel piyasalarda petrol ve faiz baskısı",
+      "ozet": "Küresel piyasalarda, ABD'de ekonomik aktivitenin gücünü koruduğuna işaret eden veriler ve Orta Doğu'da enerji arzına yönelik risklerin uzayabileceğine yönelik endişeler risk iştahını törpülüyor",
+      "link": "https://www.haberturk.com/ekonomi/petrol-100-dolari-asti-piyasalar-baski-altinda-3914703",
+      "tarih": "2026-09-24T06:34:25.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2540507",
+      "tarih": "2026-09-24T06:09:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "ABD'nin ticari ham petrol stokları 3 milyon varil arttı",
+      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta bir önceki haftaya göre yaklaşık 3 milyon varil arttı.",
+      "link": "https://www.yenisafak.com/ekonomi/abdnin-ticari-ham-petrol-stoklari-3-milyon-varil-artti-4858554",
+      "tarih": "2026-09-24T06:06:16.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "TPAO'dan yeni hamle: Şırnak'taki petrol arama ruhsatının süresi uzatıldı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Şırnak'ta sahip olduğu petrol arama ruhsatının süresi, 22 Ekim 2028'e kadar uzatıldı.",
+      "link": "https://www.yenisafak.com/ekonomi/tpaodan-yeni-hamle-sirnaktaki-petrol-arama-ruhsatinin-suresi-uzatildi-4858547",
+      "tarih": "2026-09-24T05:16:58.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "KYK BURS BAŞVURULARI NE ZAMAN BAŞLIYOR? KYK Burs Başvuru Ekranı Açıldı mı? 2026-2027 KYK Burs ve Kredi Başvuruları İçin Gözler GSB'de",
+      "ozet": "GSB KYK burs başvuruları ne zaman başlıyor, KYK burs başvuru ekranı, e-Devlet KYK burs başvurusu, 2026-2027 KYK burs başvuruları, KYK öğrenim kredisi, GSB burs başvurusu, KYK başvuru tarihleri, üniversite öğrencileri ...",
+      "link": "https://www.cnnturk.com/ekonomi/kyk-burs-basvurulari-ne-zaman-basliyor-kyk-burs-basvuru-ekrani-acildi-mi-2026-2027-kyk-burs-ve-kredi-basvurulari-icin-gozler-gsbde-3469845",
+      "tarih": "2026-09-23T16:37:29.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "MOTORİNE 5,57 İNDİRİM: Motorine ve Benzine İndirim Mi Geliyor, Ne Zaman? 23 Eylül Akaryakıt Fiyatları Son Durum! Bugün Benzin, Motorin (Mazot) ve LPG Litre Fiyatları Ne?",
+      "ozet": "Akaryakıt piyasasında motorin grubuna 24 Eylül 2026 Perşembe gününden itibaren geçerli olmak üzere indirim yapılması bekleniyor. Motorin indirimi, akaryakıt fiyatları, motorin fiyatı, akaryakıt indirimi son dakika, mo...",
+      "link": "https://www.cnnturk.com/ekonomi/motorine-indirim-benzine-ve-motorine-indirim-mi-geliyor-ne-kadar-23-eylul-akaryakit-fiyatlari-son-durum-bugun-benzin-motorin-3470288",
+      "tarih": "2026-09-23T16:37:02.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Hürmüz'de gemi vuruldu: Petrol yeniden yükseldi",
+      "ozet": "Brent petrol, Orta Doğu'daki çatışmalar nedeniyle petrol akışında yaşanan aksaklıkların yeniden değerlendirilmesiyle Çarşamba günü varil başına 100 dolar seviyesine yakın seyretti.",
+      "link": "https://www.cnnturk.com/ekonomi/hurmuzde-gemi-vuruldu-petrol-yeniden-yukseldi-3470424",
+      "tarih": "2026-09-23T16:27:18.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "New York borsası düşüşle açıldı",
+      "ozet": "ABD ile İran arasındaki diplomatik temaslardan gelen olumlu mesajlara rağmen petrol fiyatları ve tahvil faizlerindeki yükseliş, New York borsasında satış baskısını artırdı.",
+      "link": "https://www.yenisafak.com/ekonomi/new-york-borsasi-dususle-acildi-4858426",
+      "tarih": "2026-09-23T14:50:19.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "İsa Karakaş’tan emekli maaşları için dikkat çeken değerlendirme: Ocak ayında ne kadar zam yapılacak?",
+      "ozet": "Memur ve emeklilerin ocak ayında alacağı maaş güncellemesine ilişkin beklentiler gündemdeki yerini koruyor. Sosyal Güvenlik Uzmanı İsa Karakaş, toplu sözleşme nedeniyle memur ve emeklilerinin geçmiş dönemlerde resmi e...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/isa-karakas-tan-emekli-maaslari-icin-dikkat-ceken-degerlendirme-ocak-ayinda-ne-kadar-zam-yapilacak-2540191",
+      "tarih": "2026-09-23T07:57:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Türkiye Trafik Durum Raporu açıklandı: İstanbul trafiğinin maliyeti 10 milyar dolar",
+      "ozet": "Hazırlanan kapsamlı rapora göre, İstanbul'da trafik sıkışıklığı nedeniyle sürücüler yılda 288 saate varan zaman kaybederken, durumun yıllık ekonomik maliyeti 10 milyar doları buluyor. Uzmanlar, trafikteki en büyük sor...",
+      "link": "https://www.hurriyet.com.tr/gundem/turkiye-trafik-durum-raporu-aciklandi-istanbul-trafiginin-maliyeti-10-milyar-dolar-43316243",
+      "tarih": "2026-09-23T07:03:00.000Z",
+      "kaynak": "HURRIYET"
+    },
+    {
+      "baslik": "Petrolde gerileme hızlandı: ABD-İran teması fiyatları frenledi",
+      "ozet": "Brent petrolün varil fiyatı, ABD ile İran arasında diplomatik temas ihtimalinin güçlenmesi ve küresel arz endişelerinin hafiflemesiyle geriledi. ABD'deki ham petrol stoklarına ilişkin artış beklentisi de fiyatlar üzer...",
+      "link": "https://www.yenisafak.com/ekonomi/petrolde-gerileme-hizlandi-abd-iran-temasi-fiyatlari-frenledi-4858231",
+      "tarih": "2026-09-23T07:01:01.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Bank of America'dan petrolde korkutan senaryo: Fiyatlarda büyük sıçrama yaşanabilir",
+      "ozet": "Bank of America, İran savaşının uzaması ve petrol arzındaki kesintilerin derinleşmesi halinde Brent petrolün 150 doların üzerine çıkabileceği uyarısında bulundu. Banka, enerji altyapısındaki hasar ve Hürmüz Boğazı’nda...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/bank-of-america-dan-petrolde-korkutan-senaryo-fiyatlarda-buyuk-sicrama-yasanabilir-2540149",
+      "tarih": "2026-09-23T06:41:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorine gece yarısı indirimi geliyor: Litre fiyatı ne kadar olacak?",
+      "ozet": "Petrol fiyatlarında yaşanan hareketlilik akaryakıt fiyatlarını da etkilemeye devam ediyor. Brent petrolün 97 dolara gerilemesinin ardından motorin fiyatlarında indirim beklentisi oluşurken, sektör kaynaklarına göre bu...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-gece-yarisi-indirimi-geliyor-litre-fiyati-ne-kadar-olacak-2540132",
+      "tarih": "2026-09-23T06:22:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Deposu dolacaklar dikkat: Motorine 5,57 TL indirim bekleniyor",
+      "ozet": "Motorin fiyatlarında beklenen indirim için geri sayım başladı. Brent petrol ve kurdaki hareketliliğin ardından motorinin litre fiyatında 5,57 TL’lik düşüş bekleniyor. İndirimle birlikte akaryakıt istasyonlarındaki tab...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-fiyatlari-son-dakika-motorine-indirim-gelecek-mi-mazot-ne-kadar-oldu-4858204",
+      "tarih": "2026-09-23T06:05:01.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Altın fiyatlarında yön arayış sürüyor: Yükselişin önündeki engeller neler?",
+      "ozet": "Altın fiyatlarında yön arayışı sürerken Fed’in faiz politikası, petrol fiyatlarındaki hareketlilik ve jeopolitik gelişmeler piyasaların odağında yer alıyor. Faizlerin yüksek seyredeceği beklentisi altın üzerinde baskı...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-yon-arayis-suruyor-yukselisin-onundeki-engeller-neler-2539949",
+      "tarih": "2026-09-22T12:48:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "HSBC'den altın için dikkat çeken analiz: Uzun vadede üç unsur belirleyici olacak",
+      "ozet": "HSBC Asset Management, petrol piyasasında yaşanan son şokun boyutu ve kalıcılığının yatırımcılar tarafından yakından izlenmesi gerektiğini belirtti. Kurum, enerji ve jeopolitik kaynaklı arz şoklarının enflasyonu artır...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/hsbc-den-altin-icin-dikkat-ceken-analiz-uzun-vadede-uc-unsur-belirleyici-olacak-2539823",
+      "tarih": "2026-09-22T08:12:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorin fiyatlarının zamlanması ekonomiyi nasıl etkiliyor? Uzmanlar tek tek açıkladı",
+      "ozet": "Motorin fiyatının 100 Türk Lirası’nı aşması, ulaşım ve tarım başta olmak üzere farklı sektörlerde maliyet baskısını artırdı. Uzmanlar, motorinin traktör, kamyon ve tırlarda kullanılması nedeniyle zamların üretim ve na...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarinin-zamlanmasi-ekonomiyi-nasil-etkiliyor-uzmanlar-tek-tek-acikladi-2539816",
+      "tarih": "2026-09-22T08:06:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Çalışanların alacağı tazminatlar değişiyor: Kıdem ve ihbar ödemeleri ne kadar olacak?",
+      "ozet": "Özel sektör çalışanlarının kıdem ve ihbar tazminatlarında ocak ayında uygulanacak zamlarla birlikte yeni tutarlar ortaya çıkacak. Kıdem tazminatının tabanı asgari ücretteki artışa, tavanı ise memur maaş katsayısındaki...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/calisanlarin-alacagi-tazminatlar-degisiyor-kidem-ve-ihbar-odemeleri-ne-kadar-olacak-2539799",
+      "tarih": "2026-09-22T07:31:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2539741",
+      "tarih": "2026-09-22T06:03:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "SPK 131 fonun tasfiye süresini uzattı: Yatırımcıların parası ne zaman yatırılacak?",
+      "ozet": "Sermaye Piyasası Kurulu (SPK), tasfiye kararı verilen 131 yatırım fonuna ilişkin takvimde değişikliğe gitti. Fonların yatırımcılara ait varlıklarının nakde çevrilmesi için öngörülen 3 aylık süre 6 aya çıkarılırken, ka...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/spk-131-fonun-tasfiye-suresini-uzatti-yatirimcilarin-parasi-ne-zaman-yatirilacak-2539465",
+      "tarih": "2026-09-21T07:35:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Elektrik faturalarında zam yapmadan zam: Tüketim limitlerinde değişiklik yolda",
+      "ozet": "Elektrik faturalarında yüksek tüketimi daha yüksek maliyetle karşılaştıran son kaynak tedarik tarifesindeki yıllık tüketim limitinin düşürülmesi yeniden gündeme geldi. Elektrik Mühendisleri Odası (EMO) Genel Başkanı M...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/elektrik-faturalarinda-zam-yapmadan-zam-tuketim-limitlerinde-degisiklik-yolda-2539463",
+      "tarih": "2026-09-21T07:29:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "SPK'den kritik değişiklik: Tasfiye süresini 6 aya çıkardı",
+      "ozet": "Sermaye Piyasası Kurulu, daha önce tasfiyesine karar verilen yatırım fonları için belirlenen azami süreyi 3 aydan 6 aya uzattı.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/spk-den-kritik-degisiklik-tasfiye-suresini-6-aya-cikardi-2539395",
+      "tarih": "2026-09-20T21:20:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Emekliye ek zam yapılacak mı? 2026 SSK, Bağ-Kur, memur emeklisine seyyanen zam var mı?",
+      "ozet": "Emekli maaşlarına ek zam ve seyyanen artış yapılıp yapılmayacağı merak ediliyor. SSK, Bağ-Kur ve memur emeklilerinin yakından takip ettiği düzenleme konusunda son gelişmeler ve Anayasa Mahkemesi süreci gündemde.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/emekliye-ek-zam-yapilacak-mi-2026-ssk-bag-kur-memur-emeklisine-seyyanen-zam-var-mi-2539200",
+      "tarih": "2026-09-20T07:15:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2538957",
+      "tarih": "2026-09-19T07:03:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Ortadoğu krizi Avrupa'yı vurdu: Euro grubundan 'enerji fiyatları' uyarısı",
+      "ozet": "Euro Grubu Başkanı Kiryakos Pierrakakis, Ortadoğu'daki gerilimin petrol ve doğal gaz fiyatları üzerinde yeniden baskı yarattığını belirterek, olası enerji desteklerinin 'geçici ve hedefli' olması gerektiği konusunda u...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/ortadogu-krizi-avrupa-yi-vurdu-euro-grubundan-enerji-fiyatlari-uyarisi-2538954",
+      "tarih": "2026-09-19T07:00:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Tuna Portföy kimin? Tuna Portföy ne zaman kuruldu?",
+      "ozet": "Finans ve sermaye piyasalarında son dönemin en çok konuşulan başlıklarından biri olan Tuna Portföy araştırılıyor. Peki, Tuna Portföy kimin? Tuna Portföy ne zaman kuruldu?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/tuna-portfoy-kimin-tuna-portfoy-ne-zaman-kuruldu-2538832",
+      "tarih": "2026-09-18T13:20:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorine indirim yolda: Fiyatlar 100 liranın altına gerileyecek",
+      "ozet": "Motorinin litre fiyatında yarından itibaren geçerli olmak üzere indirim bekleniyor. Beklenen indirimin pompaya yansımasıyla birlikte motorinin litre fiyatının yeniden 100 Türk Lirası’nın altına gerilemesi öngörülüyor....",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-yolda-fiyatlar-100-liranin-altina-gerileyecek-2538741",
+      "tarih": "2026-09-18T08:46:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "JP Morgan'dan petrol için kritik tahmin: Brent'te yeni senaryo ortaya çıktı",
+      "ozet": "JP Morgan, ABD ve İsrail’in İran’a yönelik saldırılarıyla başlayan çatışmaların petrol piyasalarındaki öngörüleri zorlaştırdığını belirtti. Banka, savaşın başlamasından bu yana ilk kez petrol piyasası için net bir tem...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/jp-morgan-dan-petrol-icin-kritik-tahmin-brent-te-yeni-senaryo-ortaya-cikti-2538723",
+      "tarih": "2026-09-18T07:39:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "İtalya’da petrol artışı sonrası sürpriz karar: Milyonlarca aracın vergisi kaldırıldı",
+      "ozet": "İtalya'da Giorgia Meloni liderliğindeki hükümet, 80 kilovat gücündeki otomobil ve motosikletler için alınan araç mülkiyet vergisini 2027 yılı için iptal etti. Kararı toplam 14,5 milyon aracı kapsıyor.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/italya-da-petrol-artisi-sonrasi-surpriz-karar-milyonlarca-aracin-vergisi-kaldirildi-2538515",
+      "tarih": "2026-09-17T13:37:00.000Z",
+      "kaynak": "CUMHURIYET"
     }
   ]
 }
