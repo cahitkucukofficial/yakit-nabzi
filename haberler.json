@@ -1,6 +1,8 @@
 {
-  "guncelleme": "2026-09-24T08:48:36.309Z",
-  "kaynaklar": [],
+  "guncelleme": "2026-09-24T16:00:02.662Z",
+  "kaynaklar": [
+    "AA"
+  ],
   "beklenti": {
     "motorin": {
       "expected": false
@@ -12,5 +14,13 @@
       "expected": false
     }
   },
-  "haberler": []
+  "haberler": [
+    {
+      "baslik": "Suudi Aramco'nun Üst Yöneticisi, kesintiye uğrayan faaliyetleri birkaç gün içinde başlatabileceklerini söyledi",
+      "ozet": "Suudi Arabistan'ın ulusal petrol şirketi Saudi Aramco'nun Üst Yöneticisi Nasır, şirketin saldırı tehditlerinin arttığı dönemde kesintiye uğrayan faaliyetlerini birkaç gün içinde yeniden başlatabileceğini söyledi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/suudi-aramconun-ust-yoneticisi-kesintiye-ugrayan-faaliyetleri-birkac-gun-icinde-baslatabileceklerini-soyledi/4067852",
+      "tarih": "2026-09-24T13:00:33.000Z",
+      "kaynak": "AA"
+    }
+  ]
 }
