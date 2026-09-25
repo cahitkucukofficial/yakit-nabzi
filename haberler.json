@@ -1,15 +1,15 @@
 {
-  "guncelleme": "2026-09-25T07:02:28.677Z",
+  "guncelleme": "2026-09-25T09:08:51.787Z",
   "kaynaklar": [
+    "DUNYA",
+    "YENISAFAK",
+    "MILLIYET",
+    "SABAH",
     "CUMHURIYET",
     "HABERTURK",
     "AA",
-    "DUNYA",
-    "YENISAFAK",
     "STAR",
-    "MILLIYET",
-    "CNNTURK",
-    "SABAH"
+    "CNNTURK"
   ],
   "beklenti": {
     "motorin": {
@@ -23,6 +23,40 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "1000 kilometrenin maliyeti : Evde şarj 526 TL, benzin 5 bin 628 TL",
+      "ozet": "İstanbul Avrupa Yakası’ndaki güncel akaryakıt fiyatları ile mesken elektrik ve hızlı şarj tarifeleri üzerinden yapılan karşılaştırma, 1000 kilometrelik yolun faturasını ortaya koydu. Evde şarj ile benzinli araç arasın...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/1000-kilometrenin-maliyeti-evde-sarj-526-tl-benzin-5-bin-628-tl-galeri-841424",
+      "tarih": "2026-09-25T09:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Sınır değişti yeni model devrede: Tüm elektrikli araçlar için geçerli olacak",
+      "ozet": "Elektrikli araçların şarj altyapısında yeni bir dönem başlıyor. EPDK’nın yeni düzenlemesiyle şarj istasyonlarına entegre depolama tesisleri, istasyonun anlaşma gücünden daha yüksek şarj gücünde kurulabilecek. Böylece ...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/sinir-degisti-yeni-model-devrede-tum-elektrikli-araclar-icin-gecerli-olacak-4858887",
+      "tarih": "2026-09-25T07:32:54.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Fransa, Suudi Arabistan'ın Kızıldeniz'deki petrol limanını korumak için askeri güçlerini konuşlandıracak",
+      "ozet": "Fransız TF1 ve France 2 kanallarının ortak yayınına konuk olan Cumhurbaşkanı Emmanuel Macron, Fransa'nın İran savaşının etkisini sınırlama çabalarını artırmak amacıyla, Kızıldeniz'deki Yanbu limanında bulunan bir rafi...",
+      "tarih": "2026-09-25T07:29:43.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Elektrikli araç sahiplerini ilgilendiriyor! Yüksek hızlı şarj için kritik adım atıldı",
+      "ozet": "EPDK, elektrikli araç sahiplerini yakından ilgilendiren kritik bir karara imza attı. Yeni düzenlemeyle yüksek güçlü şarj istasyonlarında depolama sistemlerinin önünü açıldı.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/elektrikli-arac-sahiplerini-ilgilendiriyor-yuksek-hizli-sarj-icin-kritik-adim-atildi-7667510",
+      "tarih": "2026-09-25T06:56:06.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Hürmüz'de petrol trafiği hızlandı: Milyonlarca varil boğazdan geçti",
+      "ozet": "Hürmüz Boğazı'nda petrol trafiği yeniden hız kazandı. 20 Eylül'de başlayan haftada boğazdan yapılan ham petrol sevkiyatı 33,7 milyon varile ulaşırken, tankerlerin büyük bölümünün Suudi Arabistan ve Irak petrolü taşıdı...",
+      "link": "https://www.dunya.com/dunya/hurmuzde-petrol-trafigi-hizlandi-milyonlarca-varil-bogazdan-gecti-haberi-841405",
+      "tarih": "2026-09-25T06:56:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Motorine yeni zam! Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -45,13 +79,6 @@
       "kaynak": "AA"
     },
     {
-      "baslik": "Elektrikli araç sahiplerini ilgilendiriyor: Şarj istasyonlarında yeni dönem",
-      "ozet": "Elektrikli araçlarda hızlı şarj altyapısının yaygınlaştırılması için yeni bir adım atıldı. EPDK'nın düzenlemesiyle şarj istasyonlarında anlaşma gücünün üzerinde şarj imkanı sağlayabilecek depolama sistemlerinin önü aç...",
-      "link": "https://www.dunya.com/sektorler/otomotiv/elektrikli-arac-sahiplerini-ilgilendiriyor-sarj-istasyonlarinda-yeni-donem-haberi-841397",
-      "tarih": "2026-09-25T06:19:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "TPAO'dan Karadeniz'de petrol işletme ruhsatı için resmi başvuru",
       "ozet": "Türkiye Petrolleri Anonim Ortaklığı (TPAO), Karadeniz'de ikili sınırlandırma anlaşmalarıyla belirlenen deniz yetki alanları içerisinde Münhasır Ekonomik Bölge/kıta sahanlığında sahip olduğu petrol arama ruhsat sahasın...",
       "link": "https://www.yenisafak.com/ekonomi/tpaodan-karadenizde-petrol-isletme-ruhsati-icin-resmi-basvuru-4858851",
@@ -64,33 +91,6 @@
       "link": "https://www.star.com.tr/ekonomi/karadenizde-petrollu-arazi-kesfedildi-turkiyeden-resmi-basvuru-haber-2042438/",
       "tarih": "2026-09-25T05:51:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "Suudi petrolünde sigorta faturası üçe katlandı, tanker çıkışı zorlaştı",
-      "ozet": "Kızıldeniz üzerinden yapılan Suudi petrol sevkiyatında savaş riski sigortası sert yükseldi. Yanbu çıkışlı tankerlerde primin gemi değerinin yaklaşık yüzde 3’üne çıkması, alternatif rotanın da pahalandığını gösteriyor....",
-      "link": "https://www.dunya.com/ekonomi/suudi-petrolunde-sigorta-faturasi-uce-katlandi-tanker-cikisi-zorlasti-haberi-841386",
-      "tarih": "2026-09-25T05:30:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Rusya'nın dev petrol rafinerisine İHA saldırısı",
-      "ozet": "Rusya'nın Perm bölgesi sabah saatlerinden itibaren yoğun İHA saldırılarının hedefi oldu. Saldırılarda ülkenin en büyük petrol rafinerilerinden Permnefteorgsintez'in bulunduğu sanayi bölgesi hedef alınırken, hava savun...",
-      "link": "https://www.dunya.com/dunya/rusyanin-dev-petrol-rafinerisine-iha-saldirisi-haberi-841385",
-      "tarih": "2026-09-25T05:21:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "İran’ın 'gizli sahibi': Devrim Muhafızları! Tahran'ın 'demir yumruğu' nasıl ayakta kalıyor?",
-      "ozet": "Derleyen: Oğuzcan Atış / Milliyet.com.tr – İran, ABD veya İsrail arasındaki gerilim ve çatışma durumu söz konusu olduğunda bu denklemde adından muhakkak söz ettiren aktörlerden birisi de İran Devrim Muhafızları Ordusu...",
-      "tarih": "2026-09-25T04:45:54.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Küresel borsalarda faiz baskısı etkili",
-      "ozet": "Küresel piyasalar haftanın son işlem gününe yüksek faiz ve petrol baskısıyla giriyor. ABD 30 yıllık tahvil faizi 2004'ten beri en yüksek seviyeyi görürken Brent petrol 105 doların üzerinde. Asya'da ise Japonya yükseli...",
-      "link": "https://www.dunya.com/finans/haberler/kuresel-borsalarda-faiz-baskisi-etkili-haberi-841380",
-      "tarih": "2026-09-25T04:34:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Altında düşüş devam edecek mi? Uzmanların beklentisi belli oldu",
@@ -114,13 +114,6 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Suudi Arabistan'dan dünyayı rahatlatan açıklama: Birkaç gün içinde başlayabilir",
-      "ozet": "Suudi Arabistan'ın ulusal petrol şirketi Saudi Aramco'nun Üst Yönetcisi Emin Hasan en-Nasır, şirketin saldırı tehditlerinin arttığı dönemde kesintiye uğrayan faaliyetlerini birkaç gün içinde yeniden başlatabileceğini ...",
-      "link": "https://www.star.com.tr/ekonomi/suudi-arabistandan-dunyayi-rahatlatan-aciklama-birkac-gun-icinde-baslayabilir-haber-2042331/",
-      "tarih": "2026-09-24T13:15:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Suudi Aramco'nun Üst Yöneticisi, kesintiye uğrayan faaliyetleri birkaç gün içinde başlatabileceklerini söyledi",
       "ozet": "Suudi Arabistan'ın ulusal petrol şirketi Saudi Aramco'nun Üst Yöneticisi Nasır, şirketin saldırı tehditlerinin arttığı dönemde kesintiye uğrayan faaliyetlerini birkaç gün içinde yeniden başlatabileceğini söyledi.",
       "link": "https://www.aa.com.tr/tr/ekonomi/suudi-aramconun-ust-yoneticisi-kesintiye-ugrayan-faaliyetleri-birkac-gun-icinde-baslatabileceklerini-soyledi/4067852",
@@ -135,13 +128,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Brent petrol 103,65 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 103,65 dolardan işlem görüyor.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/brent-petrol-10365-dolardan-islem-goruyor-7666912",
-      "tarih": "2026-09-24T07:15:34.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Motorin fiyatlarına yeni zam yolda: Litresi yeniden 90 liranın üzerine çıkacak",
       "ozet": "Motorinin litre fiyatına yarından itibaren zam gelmesi bekleniyor. Petrol piyasalarında yaşanan hareketlilik akaryakıt fiyatlarına yansırken, zamla birlikte motorin fiyatlarının yeniden yükselmesi öngörülüyor. Yakın z...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-yeni-zam-yolda-litresi-yeniden-90-liranin-uzerine-cikacak-2540531",
@@ -154,13 +140,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-buyuk-indirim-tabela-bir-kez-daha-degisti-motorinin-litresi-kritik-seviyenin-altina-indi-4858566",
       "tarih": "2026-09-24T06:39:15.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalarda petrol ve faiz baskısı",
-      "ozet": "Küresel piyasalarda, ABD'de ekonomik aktivitenin gücünü koruduğuna işaret eden veriler ve Orta Doğu'da enerji arzına yönelik risklerin uzayabileceğine yönelik endişeler risk iştahını törpülüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-100-dolari-asti-piyasalar-baski-altinda-3914703",
-      "tarih": "2026-09-24T06:34:25.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
@@ -182,13 +161,6 @@
       "link": "https://www.yenisafak.com/ekonomi/tpaodan-yeni-hamle-sirnaktaki-petrol-arama-ruhsatinin-suresi-uzatildi-4858547",
       "tarih": "2026-09-24T05:16:58.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "MOTORİNE 5,57 İNDİRİM: Motorine ve Benzine İndirim Mi Geliyor, Ne Zaman? 23 Eylül Akaryakıt Fiyatları Son Durum! Bugün Benzin, Motorin (Mazot) ve LPG Litre Fiyatları Ne?",
-      "ozet": "Akaryakıt piyasasında motorin grubuna 24 Eylül 2026 Perşembe gününden itibaren geçerli olmak üzere indirim yapılması bekleniyor. Motorin indirimi, akaryakıt fiyatları, motorin fiyatı, akaryakıt indirimi son dakika, mo...",
-      "link": "https://www.cnnturk.com/ekonomi/motorine-indirim-benzine-ve-motorine-indirim-mi-geliyor-ne-kadar-23-eylul-akaryakit-fiyatlari-son-durum-bugun-benzin-motorin-3470288",
-      "tarih": "2026-09-23T16:37:02.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "New York borsası düşüşle açıldı",
