@@ -1,14 +1,13 @@
 {
-  "guncelleme": "2026-09-25T09:08:51.787Z",
+  "guncelleme": "2026-09-25T22:53:11.497Z",
   "kaynaklar": [
-    "DUNYA",
-    "YENISAFAK",
     "MILLIYET",
-    "SABAH",
+    "STAR",
     "CUMHURIYET",
+    "SABAH",
+    "YENISAFAK",
     "HABERTURK",
     "AA",
-    "STAR",
     "CNNTURK"
   ],
   "beklenti": {
@@ -24,11 +23,37 @@
   },
   "haberler": [
     {
-      "baslik": "1000 kilometrenin maliyeti : Evde şarj 526 TL, benzin 5 bin 628 TL",
-      "ozet": "İstanbul Avrupa Yakası’ndaki güncel akaryakıt fiyatları ile mesken elektrik ve hızlı şarj tarifeleri üzerinden yapılan karşılaştırma, 1000 kilometrelik yolun faturasını ortaya koydu. Evde şarj ile benzinli araç arasın...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/1000-kilometrenin-maliyeti-evde-sarj-526-tl-benzin-5-bin-628-tl-galeri-841424",
-      "tarih": "2026-09-25T09:00:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Yıllardır süren savaş bitiyor mu? Putin'den kritik 'Ukrayna' mesajı",
+      "ozet": "Rusya Devlet Başkanı Vladimir Putin, Ukrayna ile müzakerelerin yeniden başlaması ihtimaline ilişkin bir soruya cevabında, \"Eğer Ukrayna, Rusya seçimlerine saldırmasaydı seçimlerin ardından müzakerelere başlamayı planl...",
+      "tarih": "2026-09-25T19:16:53.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Gram altın ne kadar olacak? Yıl sonu tahmini ne? Uzman isim rakam verdi",
+      "ozet": "Petrol yükseldi, altın düştü. Gram altın bu hafta yüzde 2 değer kaybetti. Haftanın son işlem gününde gram altın 6 bin 749, çeyrek 10 bin 818, yarım 21 bin 602 ve tam da 43 bin 203 lirayı gördü. Piyasalarda gözler ABD ...",
+      "tarih": "2026-09-25T18:07:52.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Komşudan yeni petrol hazırlığı! Dünyaya açılan kapıları Türkiye olacak",
+      "ozet": "Irak Başbakanı Ali ez-Zeydi, ülkesinin petrol ihracat güzergahlarını çeşitlendirmeyi ve enerji hatlarını geliştirmeyi hedeflediğini belirterek, Türkiye, Ürdün ve Suriye üzerinden dünya pazarlarına uzanan enerji korido...",
+      "link": "https://www.star.com.tr/ekonomi/komsudan-yeni-petrol-hazirligi-dunyaya-acilan-kapilari-turkiye-olacak-haber-2042566/",
+      "tarih": "2026-09-25T14:43:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Eşel mobil bitiyor, benzine tarihi zam geliyor: Litre fiyatı 90 lirayı aşacak",
+      "ozet": "Eşel mobil uygulamasının 1 Ekim 2026’da sona ermesiyle akaryakıt fiyatlarında sert bir artış bekleniyor. Ekonomi muhabiri Olcay Aydilek, uygulamanın sona ermesiyle birlikte benzin fiyatlarında rekor bir artış yaşanabi...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-bitiyor-benzine-tarihi-zam-geliyor-litre-fiyati-90-lirayi-asacak-2540984",
+      "tarih": "2026-09-25T12:23:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Karadeniz'deki petrol sahası için kritik adım: TPAO başvurusu yaptı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığı, Karadeniz'de keşfedilen petrollü arazi için 56 bin 774 hektarlık alanda petrol işletme ruhsatı almak üzere başvuru yaptı. TPAO'nun Tekirdağ'daki petrol arama ruhsatının...Devamı iç...",
+      "link": "https://www.sabah.com.tr/ekonomi/karadenizdeki-petrol-sahasi-icin-kritik-adim-tpao-basvurusu-yapti-7667590",
+      "tarih": "2026-09-25T09:22:14.000Z",
+      "kaynak": "SABAH"
     },
     {
       "baslik": "Sınır değişti yeni model devrede: Tüm elektrikli araçlar için geçerli olacak",
@@ -36,26 +61,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/sinir-degisti-yeni-model-devrede-tum-elektrikli-araclar-icin-gecerli-olacak-4858887",
       "tarih": "2026-09-25T07:32:54.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Fransa, Suudi Arabistan'ın Kızıldeniz'deki petrol limanını korumak için askeri güçlerini konuşlandıracak",
-      "ozet": "Fransız TF1 ve France 2 kanallarının ortak yayınına konuk olan Cumhurbaşkanı Emmanuel Macron, Fransa'nın İran savaşının etkisini sınırlama çabalarını artırmak amacıyla, Kızıldeniz'deki Yanbu limanında bulunan bir rafi...",
-      "tarih": "2026-09-25T07:29:43.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Elektrikli araç sahiplerini ilgilendiriyor! Yüksek hızlı şarj için kritik adım atıldı",
-      "ozet": "EPDK, elektrikli araç sahiplerini yakından ilgilendiren kritik bir karara imza attı. Yeni düzenlemeyle yüksek güçlü şarj istasyonlarında depolama sistemlerinin önünü açıldı.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/elektrikli-arac-sahiplerini-ilgilendiriyor-yuksek-hizli-sarj-icin-kritik-adim-atildi-7667510",
-      "tarih": "2026-09-25T06:56:06.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Hürmüz'de petrol trafiği hızlandı: Milyonlarca varil boğazdan geçti",
-      "ozet": "Hürmüz Boğazı'nda petrol trafiği yeniden hız kazandı. 20 Eylül'de başlayan haftada boğazdan yapılan ham petrol sevkiyatı 33,7 milyon varile ulaşırken, tankerlerin büyük bölümünün Suudi Arabistan ve Irak petrolü taşıdı...",
-      "link": "https://www.dunya.com/dunya/hurmuzde-petrol-trafigi-hizlandi-milyonlarca-varil-bogazdan-gecti-haberi-841405",
-      "tarih": "2026-09-25T06:56:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Motorine yeni zam! Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -86,13 +91,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Karadeniz'de petrollü arazi keşfedildi! Türkiye'den resmi başvuru",
-      "ozet": "Türkiye, Karadeniz'de ikili sınırlandırma anlaşmalarıyla belirlenen deniz yetki alanları içerisinde petrollü arazi tespit etti. TPAO bölgedeki petrolün işletme ruhsatı için başvuruda bulundu.",
-      "link": "https://www.star.com.tr/ekonomi/karadenizde-petrollu-arazi-kesfedildi-turkiyeden-resmi-basvuru-haber-2042438/",
-      "tarih": "2026-09-25T05:51:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Altında düşüş devam edecek mi? Uzmanların beklentisi belli oldu",
       "ozet": "Altın fiyatlarında Fed’in faiz politikasına ilişkin beklentiler belirleyici olmaya devam ediyor. Güçlü ABD ekonomik verileri ve faizlerin yüksek tutulabileceği beklentisi değerli metal üzerinde baskı oluştururken, pet...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altinda-dusus-devam-edecek-mi-uzmanlarin-beklentisi-belli-oldu-2540696",
@@ -112,13 +110,6 @@
       "link": "https://www.cnnturk.com/ekonomi/bitcoinde-yukselis-sonrasi-satis-baskisi-gozler-fed-ve-tahvil-faizlerinde-3470795",
       "tarih": "2026-09-24T13:44:50.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Suudi Aramco'nun Üst Yöneticisi, kesintiye uğrayan faaliyetleri birkaç gün içinde başlatabileceklerini söyledi",
-      "ozet": "Suudi Arabistan'ın ulusal petrol şirketi Saudi Aramco'nun Üst Yöneticisi Nasır, şirketin saldırı tehditlerinin arttığı dönemde kesintiye uğrayan faaliyetlerini birkaç gün içinde yeniden başlatabileceğini söyledi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/suudi-aramconun-ust-yoneticisi-kesintiye-ugrayan-faaliyetleri-birkac-gun-icinde-baslatabileceklerini-soyledi/4067852",
-      "tarih": "2026-09-24T13:00:33.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Petrol piyasasında büyük hamle: Suudi Arabistan'dan Asya'ya 100 milyon varillik satış",
@@ -160,13 +151,6 @@
       "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Şırnak'ta sahip olduğu petrol arama ruhsatının süresi, 22 Ekim 2028'e kadar uzatıldı.",
       "link": "https://www.yenisafak.com/ekonomi/tpaodan-yeni-hamle-sirnaktaki-petrol-arama-ruhsatinin-suresi-uzatildi-4858547",
       "tarih": "2026-09-24T05:16:58.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "New York borsası düşüşle açıldı",
-      "ozet": "ABD ile İran arasındaki diplomatik temaslardan gelen olumlu mesajlara rağmen petrol fiyatları ve tahvil faizlerindeki yükseliş, New York borsasında satış baskısını artırdı.",
-      "link": "https://www.yenisafak.com/ekonomi/new-york-borsasi-dususle-acildi-4858426",
-      "tarih": "2026-09-23T14:50:19.000Z",
       "kaynak": "YENISAFAK"
     },
     {
@@ -251,13 +235,6 @@
       "ozet": "Goldman Sachs analistleri, rafinerilerin üretimlerini motorinden benzine kaydırmasının benzin piyasasında arzı sıkılaştırdığına dikkat çekti. Banka, motorin fiyatlarında yükseliş ihtimali sürmesine rağmen benzinin fiy...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-akaryakit-fiyatlari-icin-yeni-tahmin-2027-yili-isaret-edildi-2538487",
       "tarih": "2026-09-17T12:20:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Trafikte en çok tercih edilen marka belli oldu: Zirvede hangi firma var?",
-      "ozet": "Ağustos ayında trafiğe kaydı yapılan taşıt sayısı hem aylık hem de yıllık bazda geriledi. Yeni kayıtlarda motosiklet ve otomobil öne çıkarken, trafikteki toplam taşıt sayısı 34,9 milyona ulaştı. Ocak-ağustos döneminde...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/trafikte-en-cok-tercih-edilen-marka-belli-oldu-zirvede-hangi-firma-var-2538379",
-      "tarih": "2026-09-17T07:38:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
