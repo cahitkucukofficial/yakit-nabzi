@@ -79,17 +79,25 @@ const KAYNAKLAR = [
 
 /* Baslik/ozet bu anahtar kelimelerden en az birini icermiyorsa
    habere alinmaz. */
-const ANAHTAR_KELIMELER = [
+const KESIN_KELIMELER = [
   "akaryakit", "benzin", "motorin", "mazot", "lpg", "otogaz",
-  "epdk", "petrol", "pompa fiyat", "zam", "indirim",
+  "epdk", "petrol", "pompa fiyat",
 ];
+// "zam"/"indirim" tek basina belirsiz - baska her konuda (elektrik, dogalgaz,
+// maas, vergi vb.) da gecebilir. Bunlar ancak metinde KESIN_KELIMELER'den
+// biriyle BIRLIKTE geçtiginde akaryakit haberi sayilir.
+const BELIRSIZ_KELIMELER = ["zam", "indirim"];
 
 const MAKS_HABER = 40;
 const MAKS_YAS_GUN = 10;
 
-function icerirAnahtarKelime(metin) {
-  const t = (metin || "").toLocaleLowerCase("tr-TR");
-  return ANAHTAR_KELIMELER.some((k) => t.includes(k));
+function icerirAnahtarKelime(baslik, ozet) {
+  const t = ((baslik || "") + " " + (ozet || "")).toLocaleLowerCase("tr-TR");
+  const kesinVar = KESIN_KELIMELER.some((k) => t.includes(k));
+  if (kesinVar) return true;
+  // Kesin kelime yoksa, belirsiz kelimeler (zam/indirim) tek basina yeterli
+  // degil - onlari da saymayalim.
+  return false;
 }
 
 function temizleOzet(html) {
@@ -102,7 +110,7 @@ async function kaynaktanCek(kaynak) {
   try {
     const feed = await parser.parseURL(kaynak.rss);
     return (feed.items || [])
-      .filter((item) => icerirAnahtarKelime(item.title) || icerirAnahtarKelime(item.contentSnippet))
+      .filter((item) => icerirAnahtarKelime(item.title, item.contentSnippet))
       .map((item) => ({
         baslik: (item.title || "").trim(),
         ozet: temizleOzet(item.contentSnippet || item.content),
