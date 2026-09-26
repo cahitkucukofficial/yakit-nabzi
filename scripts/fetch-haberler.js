@@ -237,6 +237,129 @@ function beklentileriBirlestir(haberler) {
   return sonuc;
 }
 
+/* ---------- Seçenek A: sessiz çapraz-doğrulama (kullanıcıya gösterilmez) ----------
+   Haberlerde "X TL zam/indirim GELDİ/YAPILDI" gibi GEÇMİŞ ZAMAN, kesinleşmiş
+   ifadeleri ara (beklentiCikar'dan farkli - o "bekleniyor" gibi gelecek zaman
+   ifadelerini ariyordu). Bunu, ayni gunku fiyatlar.json'daki EPDK gunluk
+   farkiyla karsilastirip, uyusmuyorsa SADECE Actions logunda bir
+   [SAGLIK-UYARISI] birakiyoruz - uygulamaya/JSON ciktisina hicbir sey
+   yazilmiyor. Amac: EPDK scraping'imizde sessiz bir kirilma olursa (site
+   degisir, selector kirilir vb.) bunu erken fark etmek. */
+function sonDegisimCikarBirHaberden(haber) {
+  if (eskimisMi(haber.tarih)) return [];
+  const metin = (haber.baslik || "") + " " + (haber.ozet || "");
+
+  // "bekleniyor" turu ifadeler varsa bu henuz GERCEKLESMEMIS bir tahmin -
+  // onu zaten beklentiCikarBirHaberden isliyor, burada saymayalim.
+  if (/bekleniyor|beklentisi|gelebilir/i.test(metin)) return [];
+
+  let yon = null;
+  if (/indirim/i.test(metin)) yon = "dusus";
+  else if (/\bzam\b/i.test(metin)) yon = "artis";
+  if (!yon) return [];
+
+  // Kesinlesmis/gecmis zaman ifadesi ariyoruz. "indi"/"arttı" gibi kisa
+  // koklerden kacinildi (orn. "indi" -> "indirim" icinde de gecer, yanlis
+  // eslesir); daha uzun, daha az belirsiz ifadeler kullanildi.
+  if (!/geldi|yapildi|uyguland|yururluge gir|yururlukte|resmiyet kazandi|yansidi/i.test(metin)) return [];
+
+  const tutarEslesme = metin.match(/(\d+[,.]\d{1,2})\s*(?:TL|lira)/i);
+  const tutar = tutarEslesme ? parseFloat(tutarEslesme[1].replace(",", ".")) : null;
+  if (!tutar) return [];
+
+  const sonuc = [];
+  for (const urun of Object.keys(URUN_DESENLERI)) {
+    if (URUN_DESENLERI[urun].some((d) => d.test(metin))) {
+      sonuc.push({ urun, yon, tutar, kaynakBaslik: haber.baslik, kaynak: haber.kaynak });
+    }
+  }
+  return sonuc;
+}
+
+function sonDegisimleriBirlestir(haberler) {
+  const adaylar = { motorin: [], benzin: [], lpg: [] };
+  for (const h of haberler) {
+    for (const c of sonDegisimCikarBirHaberden(h)) {
+      if (adaylar[c.urun]) adaylar[c.urun].push(c);
+    }
+  }
+  const sonuc = {};
+  for (const urun of Object.keys(adaylar)) {
+    const liste = adaylar[urun];
+    if (!liste.length) { sonuc[urun] = { expected: false }; continue; }
+    const gruplu = {};
+    for (const a of liste) {
+      const anahtar = a.yon + "|" + a.tutar;
+      (gruplu[anahtar] = gruplu[anahtar] || []).push(a);
+    }
+    const enIyiGrup = Object.values(gruplu).sort((a, b) => b.length - a.length)[0];
+    const ornek = enIyiGrup[0];
+    sonuc[urun] = {
+      expected: true,
+      direction: ornek.yon,
+      amount: ornek.tutar,
+      dogrulayanKaynakSayisi: new Set(enIyiGrup.map((e) => e.kaynak)).size,
+      kaynakBaslik: ornek.kaynakBaslik,
+    };
+  }
+  return sonuc;
+}
+
+function eskiFiyatlariOku() {
+  try {
+    const ham = fs.readFileSync(path.join(process.cwd(), "fiyatlar.json"), "utf-8");
+    return JSON.parse(ham);
+  } catch (e) {
+    return null;
+  }
+}
+
+function epdkGunlukFarkHesapla(fiyatVerisi, urun) {
+  if (!fiyatVerisi || !Array.isArray(fiyatVerisi.ilceler)) return null;
+  const ornek = fiyatVerisi.ilceler.find(
+    (d) => d[urun] && typeof d[urun].today === "number" && typeof d[urun].yesterday === "number"
+  );
+  if (!ornek) return null;
+  return Math.round((ornek[urun].today - ornek[urun].yesterday) * 100) / 100;
+}
+
+function saglikKontroluYap(haberler) {
+  const teyitliDegisim = sonDegisimleriBirlestir(haberler);
+  const fiyatVerisi = eskiFiyatlariOku();
+  if (!fiyatVerisi) {
+    console.log("[saglik-kontrolu] fiyatlar.json bulunamadi/okunamadi, karsilastirma atlaniyor.");
+    return;
+  }
+  for (const urun of Object.keys(teyitliDegisim)) {
+    const h = teyitliDegisim[urun];
+    if (!h.expected) continue;
+    const epdkFark = epdkGunlukFarkHesapla(fiyatVerisi, urun);
+    if (epdkFark === null) {
+      console.log("[saglik-kontrolu] " + urun + ": EPDK gunluk farki hesaplanamadi (fiyatlar.json'da yeterli veri yok).");
+      continue;
+    }
+    const haberFark = h.direction === "artis" ? h.amount : -h.amount;
+    if ((haberFark > 0) !== (epdkFark > 0) && Math.abs(epdkFark) > 0.05 && Math.abs(haberFark) > 0.05) {
+      console.warn(
+        "[SAGLIK-UYARISI] " + urun + ": haberler '" + (h.direction === "artis" ? "+" : "-") + h.amount +
+        " TL' diyor (" + h.dogrulayanKaynakSayisi + " kaynak, orn: \"" + h.kaynakBaslik + "\"), " +
+        "ama EPDK verimiz TERS yonde bir fark gosteriyor (" + epdkFark.toFixed(2) + " TL). " +
+        "EPDK scraping'inde bir sorun olabilir, kontrol edilmeli."
+      );
+    } else {
+      const fark = Math.abs(haberFark - epdkFark);
+      if (fark > 0.5) {
+        console.warn(
+          "[SAGLIK-UYARISI] " + urun + ": haber tutari (" + haberFark.toFixed(2) + " TL) ile EPDK gunluk farki (" +
+          epdkFark.toFixed(2) + " TL) arasinda " + fark.toFixed(2) + " TL fark var. Kaynak: \"" + h.kaynakBaslik + "\""
+        );
+      } else {
+        console.log("[saglik-kontrolu] " + urun + ": haber (" + haberFark.toFixed(2) + " TL) ve EPDK (" + epdkFark.toFixed(2) + " TL) farki tutarli.");
+      }
+    }
+  }
+}
+
 async function main() {
   console.log(KAYNAKLAR.length + " kaynaktan haber cekiliyor: " + KAYNAKLAR.map((k) => k.kod).join(", "));
 
@@ -270,6 +393,7 @@ async function main() {
   }
 
   const beklenti = beklentileriBirlestir(haberler);
+  saglikKontroluYap(haberler); // sessiz caprazdogrulama - sadece log, JSON'a yazilmiyor
 
   const cikti = {
     guncelleme: new Date().toISOString(),
