@@ -1,11 +1,11 @@
 {
-  "guncelleme": "2026-09-25T22:53:11.497Z",
+  "guncelleme": "2026-09-26T02:14:15.349Z",
   "kaynaklar": [
+    "YENISAFAK",
     "MILLIYET",
     "STAR",
     "CUMHURIYET",
     "SABAH",
-    "YENISAFAK",
     "HABERTURK",
     "AA",
     "CNNTURK"
@@ -23,10 +23,11 @@
   },
   "haberler": [
     {
-      "baslik": "Yıllardır süren savaş bitiyor mu? Putin'den kritik 'Ukrayna' mesajı",
-      "ozet": "Rusya Devlet Başkanı Vladimir Putin, Ukrayna ile müzakerelerin yeniden başlaması ihtimaline ilişkin bir soruya cevabında, \"Eğer Ukrayna, Rusya seçimlerine saldırmasaydı seçimlerin ardından müzakerelere başlamayı planl...",
-      "tarih": "2026-09-25T19:16:53.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Şarj istasyonunda voltaj yükselecek",
+      "ozet": "EPDK yüksek güçlü şarj istasyonlarında depolama sistemlerinin önünü açtı.Yeni düzenlemeyle şarj istasyonlarına bütünleşik elektrik depolama tesisleri, şarj istasyonunun anlaşma gücünden daha yüksek araç şarj gücünde k...",
+      "link": "https://www.yenisafak.com/ekonomi/sarj-istasyonunda-voltaj-yukselecek-4859085",
+      "tarih": "2026-09-26T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Gram altın ne kadar olacak? Yıl sonu tahmini ne? Uzman isim rakam verdi",
@@ -144,13 +145,6 @@
       "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta bir önceki haftaya göre yaklaşık 3 milyon varil arttı.",
       "link": "https://www.yenisafak.com/ekonomi/abdnin-ticari-ham-petrol-stoklari-3-milyon-varil-artti-4858554",
       "tarih": "2026-09-24T06:06:16.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "TPAO'dan yeni hamle: Şırnak'taki petrol arama ruhsatının süresi uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Şırnak'ta sahip olduğu petrol arama ruhsatının süresi, 22 Ekim 2028'e kadar uzatıldı.",
-      "link": "https://www.yenisafak.com/ekonomi/tpaodan-yeni-hamle-sirnaktaki-petrol-arama-ruhsatinin-suresi-uzatildi-4858547",
-      "tarih": "2026-09-24T05:16:58.000Z",
       "kaynak": "YENISAFAK"
     },
     {
