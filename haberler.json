@@ -1,12 +1,13 @@
 {
-  "guncelleme": "2026-09-26T08:52:17.445Z",
+  "guncelleme": "2026-09-26T15:13:03.006Z",
   "kaynaklar": [
     "DUNYA",
+    "SABAH",
+    "HABERTURK",
     "AA",
     "CUMHURIYET",
     "YENISAFAK",
-    "STAR",
-    "CNNTURK"
+    "STAR"
   ],
   "beklenti": {
     "motorin": {
@@ -21,11 +22,32 @@
   },
   "haberler": [
     {
-      "baslik": "Hürmüz krizi enerji piyasasını sarstı: Dünyanın petrol açığı böyle kapatıldı",
-      "ozet": "Hürmüz Boğazı'ndaki kesinti küresel petrol ve doğal gaz arzının yüzde 14'ünü etkiledi. Günlük 15,5 milyon varile ulaşan petrol açığında alternatif boru hatları ve stratejik stoklar devreye girerken, tüketimdeki sert d...",
-      "link": "https://www.dunya.com/enerji/hurmuz-krizi-enerji-piyasasini-sarsti-dunyanin-petrol-acigi-boyle-kapatildi-haberi-841523",
-      "tarih": "2026-09-26T08:14:00.000Z",
+      "baslik": "Rusya'nın petrol damarına bir darbe daha: Rafineri alevlere teslim oldu",
+      "ozet": "Ukrayna, Rusya'nın Krasnodar bölgesindeki yıllık 6,6 milyon ton kapasiteli Ilsky Petrol Rafinerisi'ni vurduğunu açıkladı. Tesiste yangın çıkarken, saldırılarda 3 kişinin hayatını kaybettiği bildirildi.",
+      "link": "https://www.dunya.com/dunya/rusyanin-petrol-damarina-bir-darbe-daha-rafineri-alevlere-teslim-oldu-haberi-841546",
+      "tarih": "2026-09-26T12:43:00.000Z",
       "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Petrol piyasasında Hürmüz'e alternatif plan: 2030 için 13 milyon varillik kapasite",
+      "ozet": "Hürmüz Boğazı'ndaki kesintinin en yoğun döneminde küresel petrol ve doğal gaz arzının yüzde 14'ü sekteye uğradı. Uzmanlara göre Hürmüz'e alternatif planın 2030'a kadar hayata geçirilmesi halinde, olası...Devamı için t...",
+      "link": "https://www.sabah.com.tr/ekonomi/petrol-piyasasinda-hurmuze-alternatif-plan-2030-icin-13-milyon-varillik-kapasite-7668283",
+      "tarih": "2026-09-26T11:27:31.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Petrol için iki yönlü risk uyarısı! Morgan Stanley ve Goldman Sachs tahminini açıkladı",
+      "ozet": "ABD ile İran arasında savaştan çıkış için diplomatik temasların yoğunlaştığına yönelik haberlerle baskılanan petrol fiyatları için Morgan Stanley ve Goldman Sachs'tan yeni tahmin geldiDevamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/petrol-icin-iki-yonlu-risk-uyarisi-morgan-stanley-ve-goldman-sachs-tahminini-acikladi-7668262",
+      "tarih": "2026-09-26T10:45:30.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Hürmüz krizinde arz kesintisi yüzde 14'ü buldu",
+      "ozet": "Hürmüz Boğazı'nda yaşanan kesintinin zirvesinde küresel petrol ve doğal gaz arzının yüzde 14'ü etkilenirken, alternatif boru hatları, petrol stokları ve talepteki düşüş küresel enerji sisteminin şoku hafifletmesinde e...",
+      "link": "https://www.haberturk.com/ekonomi/hurmuz-krizinde-petrol-ve-gaz-arzi-kesintisi-yuzde-14-u-buldu-3915234",
+      "tarih": "2026-09-26T08:11:46.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "ABD/İsrail-İran ve Rusya-Ukrayna savaşları Riyad ile Moskova petrolünü sert vurdu",
@@ -42,25 +64,18 @@
       "kaynak": "AA"
     },
     {
+      "baslik": "ABD'nin petrol sondaj kulesi sayısı 3 arttı",
+      "ozet": "ABD'de petrol sondaj kulesi sayısı bu hafta 3 arttı.",
+      "link": "https://www.haberturk.com/ekonomi/abd-nin-petrol-sondaj-kulesi-sayisi-3-artti-3915227",
+      "tarih": "2026-09-26T07:26:43.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2541162",
       "tarih": "2026-09-26T07:00:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatlarında diplomasi freni: ABD-İran görüşmeleri piyasayı hareketlendirdi",
-      "ozet": "ABD ile İran arasında savaştan çıkış ve Hürmüz Boğazı'nın yeniden açılmasına yönelik görüşmeler petrol fiyatlarını aşağı çekti. Brent yüzde 2,1 düşerken, WTI haftayı yaklaşık yüzde 8 kayıpla tamamladı.",
-      "link": "https://www.dunya.com/ekonomi/petrol-fiyatlarinda-diplomasi-freni-abd-iran-gorusmeleri-piyasayi-hareketlendirdi-haberi-841504",
-      "tarih": "2026-09-26T04:21:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Microsoft Körfez'e 10 milyar dolar yatırıyor: Yapay zekâda para Orta Doğu'ya akıyor",
-      "ozet": "Microsoft, 2030’a kadar Körfez’de bulut ve yapay zekâ altyapısına 10 milyar doların üzerinde yatırım yapacak. BAE, Suudi Arabistan, Katar ve Kuveyt’i kapsayan plan, bölgenin petrol sonrası teknoloji merkezi olma yarış...",
-      "link": "https://www.dunya.com/is-dunyasi/microsoft-korfeze-10-milyar-dolar-yatiriyor-yapay-zekada-para-orta-doguya-akiyor-haberi-841501",
-      "tarih": "2026-09-26T03:49:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Şarj istasyonunda voltaj yükselecek",
@@ -117,13 +132,6 @@
       "link": "https://www.yenisafak.com/ekonomi/aramcodan-petrol-piyasasina-guven-veren-mesaj-birkac-gunde-yeniden-baslatabiliriz-4858729",
       "tarih": "2026-09-24T14:35:00.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Bitcoin'de yükseliş sonrası satış baskısı: Gözler Fed ve tahvil faizlerinde",
-      "ozet": "Haftaya güçlü bir yükselişle başlayan Bitcoin, küresel piyasalarda artan risk baskısıyla kazançlarının bir bölümünü geri verdi. ABD tahvil faizlerinin 2007'den bu yana en yüksek seviyeye çıkması, Fed'in ekim ayında fa...",
-      "link": "https://www.cnnturk.com/ekonomi/bitcoinde-yukselis-sonrasi-satis-baskisi-gozler-fed-ve-tahvil-faizlerinde-3470795",
-      "tarih": "2026-09-24T13:44:50.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Petrol piyasasında büyük hamle: Suudi Arabistan'dan Asya'ya 100 milyon varillik satış",
@@ -221,13 +229,6 @@
       "ozet": "İtalya'da Giorgia Meloni liderliğindeki hükümet, 80 kilovat gücündeki otomobil ve motosikletler için alınan araç mülkiyet vergisini 2027 yılı için iptal etti. Kararı toplam 14,5 milyon aracı kapsıyor.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/italya-da-petrol-artisi-sonrasi-surpriz-karar-milyonlarca-aracin-vergisi-kaldirildi-2538515",
       "tarih": "2026-09-17T13:37:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Goldman Sachs'tan akaryakıt fiyatları için yeni tahmin: 2027 yılı işaret edildi",
-      "ozet": "Goldman Sachs analistleri, rafinerilerin üretimlerini motorinden benzine kaydırmasının benzin piyasasında arzı sıkılaştırdığına dikkat çekti. Banka, motorin fiyatlarında yükseliş ihtimali sürmesine rağmen benzinin fiy...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-akaryakit-fiyatlari-icin-yeni-tahmin-2027-yili-isaret-edildi-2538487",
-      "tarih": "2026-09-17T12:20:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
