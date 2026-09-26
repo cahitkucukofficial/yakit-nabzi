@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-09-26T02:14:15.349Z",
+  "guncelleme": "2026-09-26T03:55:47.138Z",
   "kaynaklar": [
+    "DUNYA",
     "YENISAFAK",
     "MILLIYET",
     "STAR",
@@ -22,6 +23,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Microsoft Körfez'e 10 milyar dolar yatırıyor: Yapay zekâda para Orta Doğu'ya akıyor",
+      "ozet": "Microsoft, 2030’a kadar Körfez’de bulut ve yapay zekâ altyapısına 10 milyar doların üzerinde yatırım yapacak. BAE, Suudi Arabistan, Katar ve Kuveyt’i kapsayan plan, bölgenin petrol sonrası teknoloji merkezi olma yarış...",
+      "link": "https://www.dunya.com/is-dunyasi/microsoft-korfeze-10-milyar-dolar-yatiriyor-yapay-zekada-para-orta-doguya-akiyor-haberi-841501",
+      "tarih": "2026-09-26T03:49:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Şarj istasyonunda voltaj yükselecek",
       "ozet": "EPDK yüksek güçlü şarj istasyonlarında depolama sistemlerinin önünü açtı.Yeni düzenlemeyle şarj istasyonlarına bütünleşik elektrik depolama tesisleri, şarj istasyonunun anlaşma gücünden daha yüksek araç şarj gücünde k...",
