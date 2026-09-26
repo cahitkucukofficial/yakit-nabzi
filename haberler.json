@@ -1,14 +1,11 @@
 {
-  "guncelleme": "2026-09-26T03:55:47.138Z",
+  "guncelleme": "2026-09-26T08:52:17.445Z",
   "kaynaklar": [
     "DUNYA",
-    "YENISAFAK",
-    "MILLIYET",
-    "STAR",
-    "CUMHURIYET",
-    "SABAH",
-    "HABERTURK",
     "AA",
+    "CUMHURIYET",
+    "YENISAFAK",
+    "STAR",
     "CNNTURK"
   ],
   "beklenti": {
@@ -24,6 +21,41 @@
   },
   "haberler": [
     {
+      "baslik": "Hürmüz krizi enerji piyasasını sarstı: Dünyanın petrol açığı böyle kapatıldı",
+      "ozet": "Hürmüz Boğazı'ndaki kesinti küresel petrol ve doğal gaz arzının yüzde 14'ünü etkiledi. Günlük 15,5 milyon varile ulaşan petrol açığında alternatif boru hatları ve stratejik stoklar devreye girerken, tüketimdeki sert d...",
+      "link": "https://www.dunya.com/enerji/hurmuz-krizi-enerji-piyasasini-sarsti-dunyanin-petrol-acigi-boyle-kapatildi-haberi-841523",
+      "tarih": "2026-09-26T08:14:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD/İsrail-İran ve Rusya-Ukrayna savaşları Riyad ile Moskova petrolünü sert vurdu",
+      "ozet": "ABD/İsrail-İran ve Rusya-Ukrayna savaşlarının petrol arzına etkisiyle, Suudi Arabistan'ın ham petrol arzı son 30 yılın en dip seviyesini görürken, Rusya'nın üretimi ise 2003'ten bu yana en düşük seviyesine geriledi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abd-israil-iran-ve-rusya-ukrayna-savaslari-riyad-ile-moskova-petrolunu-sert-vurdu/4069931",
+      "tarih": "2026-09-26T08:09:03.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Hürmüz krizinde petrol ve gaz arzı kesintisi yüzde 14'ü buldu",
+      "ozet": "Hürmüz Boğazı'nda yaşanan kesintinin zirvesinde küresel petrol ve doğal gaz arzının yüzde 14'ü etkilenirken, alternatif boru hatları, petrol stokları ve talepteki düşüş küresel enerji sisteminin şoku hafifletmesinde e...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/hurmuz-krizinde-petrol-ve-gaz-arzi-kesintisi-yuzde-14u-buldu/4069923",
+      "tarih": "2026-09-26T08:04:32.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2541162",
+      "tarih": "2026-09-26T07:00:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrol fiyatlarında diplomasi freni: ABD-İran görüşmeleri piyasayı hareketlendirdi",
+      "ozet": "ABD ile İran arasında savaştan çıkış ve Hürmüz Boğazı'nın yeniden açılmasına yönelik görüşmeler petrol fiyatlarını aşağı çekti. Brent yüzde 2,1 düşerken, WTI haftayı yaklaşık yüzde 8 kayıpla tamamladı.",
+      "link": "https://www.dunya.com/ekonomi/petrol-fiyatlarinda-diplomasi-freni-abd-iran-gorusmeleri-piyasayi-hareketlendirdi-haberi-841504",
+      "tarih": "2026-09-26T04:21:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "Microsoft Körfez'e 10 milyar dolar yatırıyor: Yapay zekâda para Orta Doğu'ya akıyor",
       "ozet": "Microsoft, 2030’a kadar Körfez’de bulut ve yapay zekâ altyapısına 10 milyar doların üzerinde yatırım yapacak. BAE, Suudi Arabistan, Katar ve Kuveyt’i kapsayan plan, bölgenin petrol sonrası teknoloji merkezi olma yarış...",
       "link": "https://www.dunya.com/is-dunyasi/microsoft-korfeze-10-milyar-dolar-yatiriyor-yapay-zekada-para-orta-doguya-akiyor-haberi-841501",
@@ -36,12 +68,6 @@
       "link": "https://www.yenisafak.com/ekonomi/sarj-istasyonunda-voltaj-yukselecek-4859085",
       "tarih": "2026-09-26T01:00:00.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Gram altın ne kadar olacak? Yıl sonu tahmini ne? Uzman isim rakam verdi",
-      "ozet": "Petrol yükseldi, altın düştü. Gram altın bu hafta yüzde 2 değer kaybetti. Haftanın son işlem gününde gram altın 6 bin 749, çeyrek 10 bin 818, yarım 21 bin 602 ve tam da 43 bin 203 lirayı gördü. Piyasalarda gözler ABD ...",
-      "tarih": "2026-09-25T18:07:52.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "Komşudan yeni petrol hazırlığı! Dünyaya açılan kapıları Türkiye olacak",
@@ -58,13 +84,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Karadeniz'deki petrol sahası için kritik adım: TPAO başvurusu yaptı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı, Karadeniz'de keşfedilen petrollü arazi için 56 bin 774 hektarlık alanda petrol işletme ruhsatı almak üzere başvuru yaptı. TPAO'nun Tekirdağ'daki petrol arama ruhsatının...Devamı iç...",
-      "link": "https://www.sabah.com.tr/ekonomi/karadenizdeki-petrol-sahasi-icin-kritik-adim-tpao-basvurusu-yapti-7667590",
-      "tarih": "2026-09-25T09:22:14.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Sınır değişti yeni model devrede: Tüm elektrikli araçlar için geçerli olacak",
       "ozet": "Elektrikli araçların şarj altyapısında yeni bir dönem başlıyor. EPDK’nın yeni düzenlemesiyle şarj istasyonlarına entegre depolama tesisleri, istasyonun anlaşma gücünden daha yüksek şarj gücünde kurulabilecek. Böylece ...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/sinir-degisti-yeni-model-devrede-tum-elektrikli-araclar-icin-gecerli-olacak-4858887",
@@ -77,20 +96,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-yeni-zam-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2540854",
       "tarih": "2026-09-25T06:43:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorin fiyatlarına zam geldi",
-      "ozet": "Uluslararası ürün fiyatlarında yaşanan artışın ardından motorin fiyatlarına 2,66 TL zam geldi",
-      "link": "https://www.haberturk.com/ekonomi/motorin-fiyatlarina-zam-geldi-3914974",
-      "tarih": "2026-09-25T06:39:49.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "EPDK yüksek güçlü şarj istasyonlarında depolama sistemlerinin önünü açtı",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), şarj istasyonlarına bütünleşik elektrik depolama tesislerinin, şarj istasyonunun anlaşma gücünden daha yüksek araç şarj gücünde kurulabilmesine imkan sağlayan yeni bir düzenlem...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/epdk-yuksek-guclu-sarj-istasyonlarinda-depolama-sistemlerinin-onunu-acti/4068753",
-      "tarih": "2026-09-25T06:22:49.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "TPAO'dan Karadeniz'de petrol işletme ruhsatı için resmi başvuru",
@@ -135,25 +140,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Akaryakıtta büyük indirim: Tabela bir kez daha değişti motorinin litresi kritik seviyenin altına indi",
-      "ozet": "Küresel piyasalarda brent petrol fiyatlarında yaşanan düşüş, uzun süredir yüksek seyreden akaryakıt tabelalarını bir kez daha hareketlendirdi. Son dönemde kritik eşikleri aşarak araç sahiplerinin bütçesini zorlayan mo...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-buyuk-indirim-tabela-bir-kez-daha-degisti-motorinin-litresi-kritik-seviyenin-altina-indi-4858566",
-      "tarih": "2026-09-24T06:39:15.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2540507",
       "tarih": "2026-09-24T06:09:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "ABD'nin ticari ham petrol stokları 3 milyon varil arttı",
-      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta bir önceki haftaya göre yaklaşık 3 milyon varil arttı.",
-      "link": "https://www.yenisafak.com/ekonomi/abdnin-ticari-ham-petrol-stoklari-3-milyon-varil-artti-4858554",
-      "tarih": "2026-09-24T06:06:16.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Bank of America'dan petrolde korkutan senaryo: Fiyatlarda büyük sıçrama yaşanabilir",
