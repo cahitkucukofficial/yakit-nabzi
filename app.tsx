@@ -1023,36 +1023,15 @@ function HaberCard({ h }) {
   );
 }
 
-function HaberlerView({ haberler, guncelleme, kaynaklar }) {
-  const [aktifKaynak, setAktifKaynak] = useState("hepsi");
-  const gosterilen = aktifKaynak === "hepsi" ? haberler : haberler.filter((h) => h.kaynak === aktifKaynak);
+function HaberlerView({ haberler, guncelleme }) {
   return (
     <>
-      {kaynaklar && kaynaklar.length > 1 && (
-        <div className="kaynak-filtre">
-          <button
-            className={"kaynak-chip" + (aktifKaynak === "hepsi" ? " on" : "")}
-            onClick={() => setAktifKaynak("hepsi")}
-          >
-            Hepsi
-          </button>
-          {kaynaklar.map((k) => (
-            <button
-              key={k}
-              className={"kaynak-chip" + (aktifKaynak === k ? " on" : "")}
-              onClick={() => setAktifKaynak(k)}
-            >
-              {k}
-            </button>
-          ))}
-        </div>
-      )}
-      <IosSection header="Akaryakıt Gündemi">
-        {gosterilen.length === 0 ? (
+      <IosSection header="Petrol ve Akaryakıt Gündemi">
+        {haberler.length === 0 ? (
           <div className="empty">Şu anda gösterilecek bir haber yok.</div>
         ) : (
           <div className="haber-list">
-            {gosterilen.map((h) => <HaberCard key={h.id} h={h} />)}
+            {haberler.map((h) => <HaberCard key={h.id} h={h} />)}
           </div>
         )}
         {guncelleme && (
@@ -1558,7 +1537,7 @@ function App() {
         </div>
       );
     } else {
-      body = <HaberlerView haberler={haberler} guncelleme={haberGuncelleme} kaynaklar={haberKaynaklar} />;
+      body = <HaberlerView haberler={haberler} guncelleme={haberGuncelleme} />;
     }
   } else {
     body = aboutSub ? (
@@ -1591,7 +1570,7 @@ function App() {
           padding:18px 0; font-family:var(--font-body); -webkit-font-smoothing:antialiased;
           min-height:100vh; min-height:100dvh; box-sizing:border-box;
         }
-        .ios-card, .ios-btn, .ios-switch, .tab-btn, .sheet, .haber-card, .kaynak-chip, .pulse-widget{ transition:background-color .28s ease, color .28s ease, border-color .28s ease, box-shadow .28s ease; }
+        .ios-card, .ios-btn, .ios-switch, .tab-btn, .sheet, .haber-card, .pulse-widget{ transition:background-color .28s ease, color .28s ease, border-color .28s ease, box-shadow .28s ease; }
         .phone{ width:390px; max-width:100%; background:var(--sayfa); background-image:var(--bg-pattern, none); background-size:var(--bg-pattern-size, auto); border-radius:38px; overflow:hidden; box-shadow:0 24px 60px rgba(20,23,26,0.28); display:flex; flex-direction:column; height:calc(100vh - 36px); height:calc(100dvh - 36px); max-height:800px; border:1px solid #c8c9ce; position:relative; transition:background .28s ease; }
 
         .nav-bar{ padding:10px 16px 6px; background:var(--sayfa); flex-shrink:0; position:relative; z-index:2; }
@@ -1626,9 +1605,6 @@ function App() {
         .haber-tarih{ font-size:11.5px; color:var(--metin-silik); font-family:var(--font-mono); }
         .haber-devam{ display:flex; align-items:center; gap:2px; font-size:12px; font-weight:700; color:var(--aksan); white-space:nowrap; }
         .haber-devam .chev{ width:14px; height:14px; }
-        .kaynak-filtre{ display:flex; gap:8px; overflow-x:auto; padding:2px 16px 12px; }
-        .kaynak-chip{ flex-shrink:0; border:1px solid var(--kenar); background:var(--panel); color:var(--metin-soluk); font-size:12.5px; font-weight:700; font-family:var(--font-body); border-radius:999px; padding:6px 13px; cursor:pointer; }
-        .kaynak-chip.on{ background:var(--aksan); border-color:var(--aksan); color:#fff; }
         .next-change-card{ background:var(--panel); border-radius:var(--radius-card); border:var(--card-border); padding:18px 18px 16px; }
         .next-change-top{ display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:nowrap; }
         .next-change-fuel{ font-size:26px; font-weight:400; letter-spacing:0.2px; font-family:var(--font-poster); flex-shrink:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
