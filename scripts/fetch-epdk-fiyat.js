@@ -327,6 +327,11 @@ async function bultenSorgula(browser, gunFarki, hataAyiklamaAdi) {
 
     if (benzin === null && motorin === null && lpg === null) {
       console.log("Bulten (" + hedefTarih + "): sayfa doldu ama fiyat kalibi eslesmedi - selector/format degismis olabilir.");
+      // Sayfanin gercek metnini (en azindan bir kismini) log'a basalim ki
+      // regex'i gercek formata gore duzeltebilelim - simdiye kadar bunu
+      // tahmin ediyorduk, artik gercegini gorecegiz.
+      const temizMetin = metin.replace(/\s+/g, " ").trim();
+      console.log("Bulten (" + hedefTarih + ") HAM METIN (ilk 3000 karakter): " + temizMetin.slice(0, 3000));
       return null;
     }
     console.log("Bulten (" + hedefTarih + "): benzin=" + benzin + " motorin=" + motorin + " lpg=" + lpg);
