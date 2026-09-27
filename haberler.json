@@ -1,13 +1,13 @@
 {
-  "guncelleme": "2026-09-26T15:13:03.006Z",
+  "guncelleme": "2026-09-27T09:35:28.084Z",
   "kaynaklar": [
+    "CNNTURK",
+    "MILLIYET",
     "DUNYA",
-    "SABAH",
     "HABERTURK",
     "AA",
     "CUMHURIYET",
-    "YENISAFAK",
-    "STAR"
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -22,25 +22,24 @@
   },
   "haberler": [
     {
-      "baslik": "Rusya'nın petrol damarına bir darbe daha: Rafineri alevlere teslim oldu",
-      "ozet": "Ukrayna, Rusya'nın Krasnodar bölgesindeki yıllık 6,6 milyon ton kapasiteli Ilsky Petrol Rafinerisi'ni vurduğunu açıkladı. Tesiste yangın çıkarken, saldırılarda 3 kişinin hayatını kaybettiği bildirildi.",
-      "link": "https://www.dunya.com/dunya/rusyanin-petrol-damarina-bir-darbe-daha-rafineri-alevlere-teslim-oldu-haberi-841546",
-      "tarih": "2026-09-26T12:43:00.000Z",
+      "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
+      "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
+      "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
+      "tarih": "2026-09-27T11:03:46.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bakan Kurum: Dünya için 0’dan COP31’e",
+      "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan’ın eşi Emine Erdoğan Hanımefendi’nin himayelerinde, Çevre, Şehircilik ve İklim Değişikliği Bakanlığı koordinesinde 27 Eylül 2017’de başlatılan Sıfır Atık Hareketi, 9. yılını kutluyor...",
+      "tarih": "2026-09-27T08:51:47.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Emtia piyasalarında haftanın sürprizi: Altın düşerken onlar yükseldi",
+      "ozet": "Emtia piyasalarında haftanın dengesi değişti. ABD'de yeni faiz artışı beklentileri ve güçlenen dolar, değerli metalleri baskı altına alırken altın ve gümüşte kayıplar yaşandı. Orta Doğu'daki arz riskleri petrol fiyatl...",
+      "link": "https://www.dunya.com/finans/haberler/emtia-piyasalarinda-haftanin-surprizi-altin-duserken-onlar-yukseldi-haberi-841592",
+      "tarih": "2026-09-27T08:11:00.000Z",
       "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Petrol piyasasında Hürmüz'e alternatif plan: 2030 için 13 milyon varillik kapasite",
-      "ozet": "Hürmüz Boğazı'ndaki kesintinin en yoğun döneminde küresel petrol ve doğal gaz arzının yüzde 14'ü sekteye uğradı. Uzmanlara göre Hürmüz'e alternatif planın 2030'a kadar hayata geçirilmesi halinde, olası...Devamı için t...",
-      "link": "https://www.sabah.com.tr/ekonomi/petrol-piyasasinda-hurmuze-alternatif-plan-2030-icin-13-milyon-varillik-kapasite-7668283",
-      "tarih": "2026-09-26T11:27:31.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Petrol için iki yönlü risk uyarısı! Morgan Stanley ve Goldman Sachs tahminini açıkladı",
-      "ozet": "ABD ile İran arasında savaştan çıkış için diplomatik temasların yoğunlaştığına yönelik haberlerle baskılanan petrol fiyatları için Morgan Stanley ve Goldman Sachs'tan yeni tahmin geldiDevamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/petrol-icin-iki-yonlu-risk-uyarisi-morgan-stanley-ve-goldman-sachs-tahminini-acikladi-7668262",
-      "tarih": "2026-09-26T10:45:30.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "Hürmüz krizinde arz kesintisi yüzde 14'ü buldu",
@@ -85,13 +84,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Komşudan yeni petrol hazırlığı! Dünyaya açılan kapıları Türkiye olacak",
-      "ozet": "Irak Başbakanı Ali ez-Zeydi, ülkesinin petrol ihracat güzergahlarını çeşitlendirmeyi ve enerji hatlarını geliştirmeyi hedeflediğini belirterek, Türkiye, Ürdün ve Suriye üzerinden dünya pazarlarına uzanan enerji korido...",
-      "link": "https://www.star.com.tr/ekonomi/komsudan-yeni-petrol-hazirligi-dunyaya-acilan-kapilari-turkiye-olacak-haber-2042566/",
-      "tarih": "2026-09-25T14:43:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Eşel mobil bitiyor, benzine tarihi zam geliyor: Litre fiyatı 90 lirayı aşacak",
       "ozet": "Eşel mobil uygulamasının 1 Ekim 2026’da sona ermesiyle akaryakıt fiyatlarında sert bir artış bekleniyor. Ekonomi muhabiri Olcay Aydilek, uygulamanın sona ermesiyle birlikte benzin fiyatlarında rekor bir artış yaşanabi...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-bitiyor-benzine-tarihi-zam-geliyor-litre-fiyati-90-lirayi-asacak-2540984",
@@ -125,13 +117,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altinda-dusus-devam-edecek-mi-uzmanlarin-beklentisi-belli-oldu-2540696",
       "tarih": "2026-09-24T14:38:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Aramco’dan petrol piyasasına güven veren mesaj: Birkaç günde yeniden başlatabiliriz",
-      "ozet": "Suudi Aramco Üst Yöneticisi, olası kesintilere karşı şirket altyapısının dayanıklı olduğunu belirterek faaliyetlerin durması halinde birkaç gün içinde yeniden başlatılabileceğini söyledi. Nasır, alternatif petrol ihra...",
-      "link": "https://www.yenisafak.com/ekonomi/aramcodan-petrol-piyasasina-guven-veren-mesaj-birkac-gunde-yeniden-baslatabiliriz-4858729",
-      "tarih": "2026-09-24T14:35:00.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Petrol piyasasında büyük hamle: Suudi Arabistan'dan Asya'ya 100 milyon varillik satış",
