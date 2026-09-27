@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-09-27T19:21:31.107Z",
+  "guncelleme": "2026-09-27T22:37:50.807Z",
   "kaynaklar": [
-    "CNNTURK",
-    "MILLIYET",
     "DUNYA",
+    "MILLIYET",
+    "CNNTURK",
     "HABERTURK",
     "CUMHURIYET",
     "YENISAFAK"
@@ -20,6 +20,26 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Diplomasi trafiği sürüyor, enerjideki açık yüzde 14’e ulaştı",
+      "ozet": "İran, Hürmüz Boğazı’nın açılması için ABD’ye ilettiği şartlara arabulucular üzerinden gelecek yanıtı beklerken, Trump Tahran’ın 7 günlük ateşkes teklifini “kabul edilemez” diyerek reddetti. Krizin en yoğun döneminde k...",
+      "link": "https://www.dunya.com/ekonomi/diplomasi-trafigi-suruyor-enerjideki-acik-yuzde-14e-ulasti-haberi-841644",
+      "tarih": "2026-09-27T21:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Elektrikli araçların payı eşitlendi, voltaj benzini geçti",
+      "ozet": "AB otomobil pazarı yılın ilk sekiz ayında yüzde 5,3 büyüdü. Benzinli ve dizel araçlar 499 bin adet daralırken tam elektrikli otomobiller 509 bin adet büyüdü ve benzinlileri geçti. Yerleşik üreticilerin bir bölümü pay ...",
+      "link": "https://www.dunya.com/sektorler/otomotiv/elektrikli-araclarin-payi-esitlendi-voltaj-benzini-gecti-haberi-841654",
+      "tarih": "2026-09-27T21:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Sırbistan seçime gidiyor! Cumhurbaşkanı Vucic istifa etti",
+      "ozet": "Sırbistan Cumhurbaşkanı Aleksandar Vucic, görevinden istifa ettiğini duyurdu. Vucic, cumhurbaşkanlığı binasında halka sesleniş konuşmasında, istifa kararını imzaladığını, cumhurbaşkanlığına Ulusal Meclis Başkanı Ana B...",
+      "tarih": "2026-09-27T20:51:45.000Z",
+      "kaynak": "MILLIYET"
+    },
     {
       "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
       "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
