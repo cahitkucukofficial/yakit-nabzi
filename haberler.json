@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-09-27T22:37:50.807Z",
+  "guncelleme": "2026-09-28T18:50:23.678Z",
   "kaynaklar": [
-    "DUNYA",
-    "MILLIYET",
     "CNNTURK",
-    "HABERTURK",
+    "YENISAFAK",
+    "DUNYA",
+    "AA",
     "CUMHURIYET",
-    "YENISAFAK"
+    "HABERTURK"
   ],
   "beklenti": {
     "motorin": {
@@ -21,69 +21,73 @@
   },
   "haberler": [
     {
-      "baslik": "Diplomasi trafiği sürüyor, enerjideki açık yüzde 14’e ulaştı",
-      "ozet": "İran, Hürmüz Boğazı’nın açılması için ABD’ye ilettiği şartlara arabulucular üzerinden gelecek yanıtı beklerken, Trump Tahran’ın 7 günlük ateşkes teklifini “kabul edilemez” diyerek reddetti. Krizin en yoğun döneminde k...",
-      "link": "https://www.dunya.com/ekonomi/diplomasi-trafigi-suruyor-enerjideki-acik-yuzde-14e-ulasti-haberi-841644",
-      "tarih": "2026-09-27T21:00:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Elektrikli araçların payı eşitlendi, voltaj benzini geçti",
-      "ozet": "AB otomobil pazarı yılın ilk sekiz ayında yüzde 5,3 büyüdü. Benzinli ve dizel araçlar 499 bin adet daralırken tam elektrikli otomobiller 509 bin adet büyüdü ve benzinlileri geçti. Yerleşik üreticilerin bir bölümü pay ...",
-      "link": "https://www.dunya.com/sektorler/otomotiv/elektrikli-araclarin-payi-esitlendi-voltaj-benzini-gecti-haberi-841654",
-      "tarih": "2026-09-27T21:00:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Sırbistan seçime gidiyor! Cumhurbaşkanı Vucic istifa etti",
-      "ozet": "Sırbistan Cumhurbaşkanı Aleksandar Vucic, görevinden istifa ettiğini duyurdu. Vucic, cumhurbaşkanlığı binasında halka sesleniş konuşmasında, istifa kararını imzaladığını, cumhurbaşkanlığına Ulusal Meclis Başkanı Ana B...",
-      "tarih": "2026-09-27T20:51:45.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
       "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
       "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
       "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
-      "tarih": "2026-09-27T17:46:11.000Z",
+      "tarih": "2026-09-28T17:25:30.000Z",
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Trump'tan 'Hürmüz Boğazı' açıklaması! 'Rekor miktarda petrol taşıdık'",
-      "ozet": "ABD Başkanı Donald Trump, \"Dün gece Hürmüz Boğazı’ndan rekor miktarda petrol taşıdık. Bu miktar savaştan önce çıkardığımızdan daha fazla\" dedi. İlginizi Çekebilir SAVAŞIN ÖNCESİNDEN DAHA FAZLA ABD ile İran arasındaki ...",
-      "tarih": "2026-09-27T15:57:15.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "New York borsası düşüşle açıldı",
+      "ozet": "New York borsası, petrol fiyatlarındaki yükseliş ve tahvil faizlerindeki artışın etkisiyle haftanın ilk işlem gününe düşüşle başladı.",
+      "link": "https://www.yenisafak.com/ekonomi/new-york-borsasi-dususle-acildi-4859737",
+      "tarih": "2026-09-28T14:19:37.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Yunanistan'da Türkiye korkusu bitmiyor! İşte yeni senaryoları: Önleyici saldırı",
-      "ozet": "Ta Nea gazetesinin haberinde, Yunanistan Genelkurmay Başkanı Dimitrios Houpis'in Aralık 2025'te yaptığı açıklamada \"uzun menzilde stratejik darbe niteliğinde önleyici saldırılar\" düzenleme kabiliyetinden söz ettiği be...",
-      "tarih": "2026-09-27T15:56:26.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "ABD Başkanı Trump: Hürmüz Boğazı’ndan rekor miktarda petrol taşıdık",
-      "ozet": "ABD Başkanı Donald Trump, \"Dün gece Hürmüz Boğazı’ndan rekor miktarda petrol taşıdık. Bu miktar savaştan önce çıkardığımızdan daha fazla\" dedi.",
-      "link": "https://www.dunya.com/dunya/abd-baskani-trump-hurmuz-bogazindan-rekor-miktarda-petrol-tasidik-haberi-841637",
-      "tarih": "2026-09-27T15:34:00.000Z",
+      "baslik": "New York borsası düşüşle açıldı",
+      "ozet": "New York borsası, yükselen petrol fiyatları ve tahvil faizlerinin piyasalarda baskı oluşturmasıyla haftanın ilk işlem gününe düşüşle başladı.",
+      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-acildi-haberi-841764",
+      "tarih": "2026-09-28T14:04:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "Bakan Bayraktar: Akdeniz'de kazanılan zafer bize ilham veriyor",
-      "ozet": "Bakanlıktan yapılan açıklamaya göre, Preveze Deniz Zaferi'nin 488. yıl dönümü ve Deniz Kuvvetleri Günü kutlanırken Enerji ve Tabii Kaynaklar Bakanlığı da \"mavi vatan\"da yeni destanlar yazmak için çalışmalarını sürdürü...",
-      "tarih": "2026-09-27T11:27:19.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Akaryakıtta tabela sil baştan değişiyor: Araç sahipleri için kritik tarih netleşti",
+      "ozet": "Küresel petrol piyasalarındaki negatif yönlü hareketleri akaryakıt fiyatlarını minimumda etkilemesi amacıyla yürürlüğe giren eşel mobil sisteminin 1 Ekim itibarıyla sona ermesi, pompada yeni bir fiyatlamayı beraberind...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/son-3-gun-akaryakitta-tabela-sil-bastan-degisiyor-arac-sahipleri-icin-kritik-tarih-netlesti-iste-guncel-benzin-ve-motorin-fiyati-4859666",
+      "tarih": "2026-09-28T10:34:03.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Hürmüz krizinde arz kesintisi yüzde 14'ü buldu",
-      "ozet": "Hürmüz Boğazı'nda yaşanan kesintinin zirvesinde küresel petrol ve doğal gaz arzının yüzde 14'ü etkilenirken, alternatif boru hatları, petrol stokları ve talepteki düşüş küresel enerji sisteminin şoku hafifletmesinde e...",
-      "link": "https://www.haberturk.com/ekonomi/hurmuz-krizinde-petrol-ve-gaz-arzi-kesintisi-yuzde-14-u-buldu-3915234",
-      "tarih": "2026-09-26T08:11:46.000Z",
-      "kaynak": "HABERTURK"
+      "baslik": "İngiltere'de dizel fiyatında tarihi rekor",
+      "ozet": "İngiltere’de dizel fiyatları, Hürmüz Boğazı’ndaki tedarik kesintilerinin petrol arzını daraltmasıyla litre başına 1,99 sterlini aşarak tarihi zirveye çıktı.",
+      "link": "https://www.yenisafak.com/ekonomi/ingilterede-dizel-fiyatinda-tarihi-rekor-4859661",
+      "tarih": "2026-09-28T10:22:58.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "ABD'nin petrol sondaj kulesi sayısı 3 arttı",
-      "ozet": "ABD'de petrol sondaj kulesi sayısı bu hafta 3 arttı.",
-      "link": "https://www.haberturk.com/ekonomi/abd-nin-petrol-sondaj-kulesi-sayisi-3-artti-3915227",
-      "tarih": "2026-09-26T07:26:43.000Z",
+      "baslik": "Brent petrol İran'ın \"ABD ile müzakere planı olmadığı\" açıklamalarıyla 100 doları aştı",
+      "ozet": "Brent petrolün varil fiyatı, İran'ın ABD ile herhangi bir müzakere planının bulunmadığını açıklamasının ardından yüzde 3'ten fazla artarak 100 doların üzerine çıktı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrol-iranin-abd-ile-muzakere-plani-olmadigi-aciklamalariyla-100-dolari-asti/4071423",
+      "tarih": "2026-09-28T09:41:29.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarına yapılacak tarihi zam belli oldu: Eşel mobil sistemi sona eriyor",
+      "ozet": "Akaryakıt fiyatlarında milyonlarca araç sahibini ilgilendiren yeni dönem için geri sayım başladı. Eşel mobil uygulamasının sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında ciddi zamlar gündeme gelirken, ulu...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-yapilacak-tarihi-zam-belli-oldu-esel-mobil-sistemi-sona-eriyor-2541733",
+      "tarih": "2026-09-28T09:36:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Brent petrol İran'ın \"ABD ile müzakere planı olmadığı\" açıklamalarıyla 100 doları aştı",
+      "ozet": "Brent petrolün varil fiyatı, İran'ın ABD ile herhangi bir müzakere planının bulunmadığını açıklamasının ardından yüzde 3'ten fazla artarak 100 doların üzerine çıktı.",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrol-iranin-abd-ile-muzakere-plani-olmadigi-aciklamalariyla-100-dolari-asti-4859641",
+      "tarih": "2026-09-28T09:35:58.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Neden sert düştü? Altını zorlayan ikili: Petrol ve faiz",
+      "ozet": "Altın yeni haftaya sert düşüşle başladı. Spot altının ons fiyatı yüzde 2,1 gerileyerek 4.198 dolara kadar indi ve 1 Eylül’den bu yana en sert günlük düşüşünü yaşamaya yöneldi. Petrol fiyatlarındaki yükselişin enflasyo...",
+      "link": "https://www.cnnturk.com/ekonomi/neden-sert-dustu-altini-zorlayan-ikili-petrol-ve-faiz-3472268",
+      "tarih": "2026-09-28T08:47:57.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Altında sert düşüş",
+      "ozet": "Ons altın haftanın ilk işlem gününde sabah saatlerinde yüzde 3 değer kaybıyla 4 bin 154 dolar seviyesine geriledi. Gram altın da benzer şekilde 6 bin 542 liraya düştü. Petrol fiyatlarındaki yükseliş ve ABD tahvil faiz...",
+      "link": "https://www.haberturk.com/ekonomi/altin-fiyatlarinda-sert-dusus-3915569",
+      "tarih": "2026-09-28T08:04:14.000Z",
       "kaynak": "HABERTURK"
     },
     {
@@ -94,25 +98,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Şarj istasyonunda voltaj yükselecek",
-      "ozet": "EPDK yüksek güçlü şarj istasyonlarında depolama sistemlerinin önünü açtı.Yeni düzenlemeyle şarj istasyonlarına bütünleşik elektrik depolama tesisleri, şarj istasyonunun anlaşma gücünden daha yüksek araç şarj gücünde k...",
-      "link": "https://www.yenisafak.com/ekonomi/sarj-istasyonunda-voltaj-yukselecek-4859085",
-      "tarih": "2026-09-26T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Eşel mobil bitiyor, benzine tarihi zam geliyor: Litre fiyatı 90 lirayı aşacak",
       "ozet": "Eşel mobil uygulamasının 1 Ekim 2026’da sona ermesiyle akaryakıt fiyatlarında sert bir artış bekleniyor. Ekonomi muhabiri Olcay Aydilek, uygulamanın sona ermesiyle birlikte benzin fiyatlarında rekor bir artış yaşanabi...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-bitiyor-benzine-tarihi-zam-geliyor-litre-fiyati-90-lirayi-asacak-2540984",
       "tarih": "2026-09-25T12:23:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Sınır değişti yeni model devrede: Tüm elektrikli araçlar için geçerli olacak",
-      "ozet": "Elektrikli araçların şarj altyapısında yeni bir dönem başlıyor. EPDK’nın yeni düzenlemesiyle şarj istasyonlarına entegre depolama tesisleri, istasyonun anlaşma gücünden daha yüksek şarj gücünde kurulabilecek. Böylece ...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/sinir-degisti-yeni-model-devrede-tum-elektrikli-araclar-icin-gecerli-olacak-4858887",
-      "tarih": "2026-09-25T07:32:54.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Motorine yeni zam! Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -189,34 +179,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2539741",
       "tarih": "2026-09-22T06:03:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2538957",
-      "tarih": "2026-09-19T07:03:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Ortadoğu krizi Avrupa'yı vurdu: Euro grubundan 'enerji fiyatları' uyarısı",
-      "ozet": "Euro Grubu Başkanı Kiryakos Pierrakakis, Ortadoğu'daki gerilimin petrol ve doğal gaz fiyatları üzerinde yeniden baskı yarattığını belirterek, olası enerji desteklerinin 'geçici ve hedefli' olması gerektiği konusunda u...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/ortadogu-krizi-avrupa-yi-vurdu-euro-grubundan-enerji-fiyatlari-uyarisi-2538954",
-      "tarih": "2026-09-19T07:00:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine indirim yolda: Fiyatlar 100 liranın altına gerileyecek",
-      "ozet": "Motorinin litre fiyatında yarından itibaren geçerli olmak üzere indirim bekleniyor. Beklenen indirimin pompaya yansımasıyla birlikte motorinin litre fiyatının yeniden 100 Türk Lirası’nın altına gerilemesi öngörülüyor....",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-yolda-fiyatlar-100-liranin-altina-gerileyecek-2538741",
-      "tarih": "2026-09-18T08:46:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "JP Morgan'dan petrol için kritik tahmin: Brent'te yeni senaryo ortaya çıktı",
-      "ozet": "JP Morgan, ABD ve İsrail’in İran’a yönelik saldırılarıyla başlayan çatışmaların petrol piyasalarındaki öngörüleri zorlaştırdığını belirtti. Banka, savaşın başlamasından bu yana ilk kez petrol piyasası için net bir tem...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/jp-morgan-dan-petrol-icin-kritik-tahmin-brent-te-yeni-senaryo-ortaya-cikti-2538723",
-      "tarih": "2026-09-18T07:39:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
