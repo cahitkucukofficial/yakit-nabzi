@@ -1,33 +1,65 @@
 {
-  "guncelleme": "2026-09-29T10:11:00.686Z",
+  "guncelleme": "2026-09-29T13:31:40.923Z",
   "kaynaklar": [
-    "DUNYA",
-    "AA",
     "CNNTURK",
-    "YENISAFAK",
+    "DUNYA",
     "HABERTURK",
+    "AA",
+    "YENISAFAK",
     "SABAH",
     "MILLIYET",
     "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
-      "expected": false
+      "expected": true,
+      "direction": "artis",
+      "amount": 2.55,
+      "tarih": "2027-09-24",
+      "dogrulayanKaynakSayisi": 1,
+      "kaynakBaslik": "Motorin fiyatlarına yeni zam yolda: Litresi yeniden 90 liranın üzerine çıkacak",
+      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-yeni-zam-yolda-litresi-yeniden-90-liranin-uzerine-cikacak-2540531"
     },
     "benzin": {
-      "expected": false
+      "expected": true,
+      "direction": "artis",
+      "amount": 4.43,
+      "tarih": "2026-10-01",
+      "dogrulayanKaynakSayisi": 1,
+      "kaynakBaslik": "Eşel mobil bitiyor, benzine tarihi zam geliyor: Litre fiyatı 90 lirayı aşacak",
+      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-bitiyor-benzine-tarihi-zam-geliyor-litre-fiyati-90-lirayi-asacak-2540984"
     },
     "lpg": {
-      "expected": false
+      "expected": true,
+      "direction": "dusus",
+      "amount": 80.4,
+      "tarih": "2027-09-23",
+      "dogrulayanKaynakSayisi": 1,
+      "kaynakBaslik": "Motorine gece yarısı indirimi geliyor: Litre fiyatı ne kadar olacak?",
+      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/motorine-gece-yarisi-indirimi-geliyor-litre-fiyati-ne-kadar-olacak-2540132"
     }
   },
   "haberler": [
     {
-      "baslik": "Avrupa'nın enerji faturası kabardı: Fazladan 100 milyar euro",
-      "ozet": "Petrol ve doğal gaz fiyatlarındaki yükseliş, AB'nin tüketimini artırmamasına rağmen enerji için ödediği tutarı milyarlarca euro yukarı taşıdı. Doğal gaz depolarındaki düşük doluluk ve fiyatlardaki sert yükseliş ise ön...",
-      "link": "https://www.dunya.com/ekonomi/avrupanin-enerji-faturasi-kabardi-fazladan-100-milyar-euro-haberi-841876",
-      "tarih": "2026-09-29T09:50:00.000Z",
+      "baslik": "Bakan Bayraktar: Türkiye kendi kendine yeten bir ülke olacak",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, dünyanın küresel anlamda büyük bir enerji krizi yaşadığını belirterek, “Böyle bir dönemde kendi enerjine sahip olmak, çok kıymetli bir hale geldi. Türkiye Petrolle...",
+      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-turkiye-kendi-kendine-yeten-bir-ulke-olacak-3472815",
+      "tarih": "2026-09-29T13:18:33.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Hürmüz Boğazı’nda petrol tankeri vuruldu",
+      "ozet": "İngiltere Deniz Ticaret Operasyonları (UKMTO), Hürmüz Boğazı’ndan geçen bir petrol tankerinin kaynağı bilinmeyen mühimmatla vurulduğunu açıkladı. Tankerde çıkan yangın söndürülürken, olayda ölen ya da yaralanan olmadı.",
+      "link": "https://www.dunya.com/dunya/hurmuz-bogazinda-petrol-tankeri-vuruldu-haberi-841893",
+      "tarih": "2026-09-29T12:04:00.000Z",
       "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "AB'nin enerji faturası 100 milyar Euro arttı",
+      "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, AB'nin bu yıl aynı miktarda petrol ve doğal gaz için 100 milyar Euro'dan fazla ek ödeme yaptığını, ithal fosil yakıtlara bağımlılığın azaltılması...",
+      "link": "https://www.haberturk.com/ekonomi/ab-nin-enerji-faturasi-100-milyar-euro-artti-3915879",
+      "tarih": "2026-09-29T10:03:34.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "AB'nin enerji faturası bu yıl 100 milyar avrodan fazla arttı",
@@ -42,13 +74,6 @@
       "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
       "tarih": "2026-09-29T09:16:01.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Dev banka TCMB için tahminini açıkladı: Gözler ekim toplantısında",
-      "ozet": "HSBC, TCMB'nin faiz indirimlerinde piyasanın fiyatladığından daha ileri gidebileceğini öngördü. Piyasa tüm gevşeme sürecinde yaklaşık 300 baz puanlık indirim beklerken, HSBC ekonomistlerinin politika faizi tahmini yüz...",
-      "link": "https://www.dunya.com/ekonomi/dev-banka-tcmb-icin-tahminini-acikladi-gozler-ekim-toplantisinda-haberi-841864",
-      "tarih": "2026-09-29T08:59:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Hürmüz Boğazı krizi, Körfez ülkelerini petrol ve gaz ihracatında alternatif rota arayışlarına itiyor",
@@ -229,13 +254,6 @@
       "ozet": "Motorin fiyatının 100 Türk Lirası’nı aşması, ulaşım ve tarım başta olmak üzere farklı sektörlerde maliyet baskısını artırdı. Uzmanlar, motorinin traktör, kamyon ve tırlarda kullanılması nedeniyle zamların üretim ve na...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarinin-zamlanmasi-ekonomiyi-nasil-etkiliyor-uzmanlar-tek-tek-acikladi-2539816",
       "tarih": "2026-09-22T08:06:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2539741",
-      "tarih": "2026-09-22T06:03:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
