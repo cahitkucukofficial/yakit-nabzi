@@ -1,9 +1,10 @@
 {
-  "guncelleme": "2026-09-28T18:50:23.678Z",
+  "guncelleme": "2026-09-29T00:00:26.802Z",
   "kaynaklar": [
+    "MILLIYET",
+    "DUNYA",
     "CNNTURK",
     "YENISAFAK",
-    "DUNYA",
     "AA",
     "CUMHURIYET",
     "HABERTURK"
@@ -21,6 +22,37 @@
   },
   "haberler": [
     {
+      "baslik": "'İmamoğlu çıkar amaçlı suç örgütü' davasının 88. duruşması sona erdi",
+      "ozet": "İstanbul 33. Ağır Ceza Mahkemesince, Marmara Kapalı Ceza İnfaz Kurumu karşısındaki salonda yapılan duruşmaya tutuksuz sanık iş insanı Kemal Şahin, Ses ve Görüntü Bilişim Sistemi (SEGBİS) ile bağlandı. Sanık Şahin, sav...",
+      "tarih": "2026-09-28T21:41:27.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Son dakika haberleri: ABD Başkanı Trump açıklamaları! Savaş bitecek mi? Benzin fiyatları düşecek mi, ne zaman düşecek?",
+      "ozet": "ABD Başkanı Trump, Beyaz Saray’da düzenlediği bir basın toplantısının ardından dış politika gündemine ilişkin soruları yanıtladı. \"BENZİN FİYATLARI DÜŞECEK\" 3 Kasım'da yapılacak Kongre ara seçimlerine en iyi şekilde h...",
+      "tarih": "2026-09-28T21:34:33.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Borsada düşüş, petrolde artış, altında savaş baskısı",
+      "ozet": "BIST 100 dün yüzde 3’ü aşan kayıpla 12 bin 500 puanın altını test etti. İçeride fon soruşturmasının yeni gözaltıları ve tasfiye süreci piyasadaki risk iştahını baskılarken, dışarıda ABD-İran hattındaki gerilim petrolü...",
+      "link": "https://www.dunya.com/ekonomi/borsada-dusus-petrolde-artis-altinda-savas-baskisi-haberi-841783",
+      "tarih": "2026-09-28T21:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Dışişleri Bakanı Hakan Fidan, BAE Devlet Başkanı Al Nahyan tarafından kabul edildi",
+      "ozet": "Dışişleri Bakanı Hakan Fidan, NSosyal hesabından yaptığı paylaşımda, New York'ta Birleşmiş Milletler 81. Genel Kurulu çerçevesindeki etkinliklerin hemen ardından BAE'yi ziyaret ettiğini bildirdi. Abu Dabi'de BAE Devle...",
+      "tarih": "2026-09-28T20:55:04.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "BAE, Netanyahu ziyaretinin ve Bin Zayid ile görüşmesini doğruladı",
+      "ozet": "BAE resmi haber ajansı WAM'da yer alan haberde, İsrail Başbakanı Netanyahu'nun 27 Eylül'de BAE'yi ziyaret ettiği doğrulandı. Bin Zayid'in Netanyahu'yu karşıladığı belirtilen haberde, görüşmede ikili ilişkilerin güçlen...",
+      "tarih": "2026-09-28T20:15:13.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
       "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
       "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
       "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
@@ -33,13 +65,6 @@
       "link": "https://www.yenisafak.com/ekonomi/new-york-borsasi-dususle-acildi-4859737",
       "tarih": "2026-09-28T14:19:37.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "New York borsası düşüşle açıldı",
-      "ozet": "New York borsası, yükselen petrol fiyatları ve tahvil faizlerinin piyasalarda baskı oluşturmasıyla haftanın ilk işlem gününe düşüşle başladı.",
-      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-acildi-haberi-841764",
-      "tarih": "2026-09-28T14:04:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Akaryakıtta tabela sil baştan değişiyor: Araç sahipleri için kritik tarih netleşti",
