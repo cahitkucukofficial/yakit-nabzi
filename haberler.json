@@ -1,13 +1,14 @@
 {
-  "guncelleme": "2026-09-29T00:00:26.802Z",
+  "guncelleme": "2026-09-29T10:11:00.686Z",
   "kaynaklar": [
-    "MILLIYET",
     "DUNYA",
+    "AA",
     "CNNTURK",
     "YENISAFAK",
-    "AA",
-    "CUMHURIYET",
-    "HABERTURK"
+    "HABERTURK",
+    "SABAH",
+    "MILLIYET",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -22,42 +23,87 @@
   },
   "haberler": [
     {
-      "baslik": "'İmamoğlu çıkar amaçlı suç örgütü' davasının 88. duruşması sona erdi",
-      "ozet": "İstanbul 33. Ağır Ceza Mahkemesince, Marmara Kapalı Ceza İnfaz Kurumu karşısındaki salonda yapılan duruşmaya tutuksuz sanık iş insanı Kemal Şahin, Ses ve Görüntü Bilişim Sistemi (SEGBİS) ile bağlandı. Sanık Şahin, sav...",
-      "tarih": "2026-09-28T21:41:27.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Son dakika haberleri: ABD Başkanı Trump açıklamaları! Savaş bitecek mi? Benzin fiyatları düşecek mi, ne zaman düşecek?",
-      "ozet": "ABD Başkanı Trump, Beyaz Saray’da düzenlediği bir basın toplantısının ardından dış politika gündemine ilişkin soruları yanıtladı. \"BENZİN FİYATLARI DÜŞECEK\" 3 Kasım'da yapılacak Kongre ara seçimlerine en iyi şekilde h...",
-      "tarih": "2026-09-28T21:34:33.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Borsada düşüş, petrolde artış, altında savaş baskısı",
-      "ozet": "BIST 100 dün yüzde 3’ü aşan kayıpla 12 bin 500 puanın altını test etti. İçeride fon soruşturmasının yeni gözaltıları ve tasfiye süreci piyasadaki risk iştahını baskılarken, dışarıda ABD-İran hattındaki gerilim petrolü...",
-      "link": "https://www.dunya.com/ekonomi/borsada-dusus-petrolde-artis-altinda-savas-baskisi-haberi-841783",
-      "tarih": "2026-09-28T21:00:00.000Z",
+      "baslik": "Avrupa'nın enerji faturası kabardı: Fazladan 100 milyar euro",
+      "ozet": "Petrol ve doğal gaz fiyatlarındaki yükseliş, AB'nin tüketimini artırmamasına rağmen enerji için ödediği tutarı milyarlarca euro yukarı taşıdı. Doğal gaz depolarındaki düşük doluluk ve fiyatlardaki sert yükseliş ise ön...",
+      "link": "https://www.dunya.com/ekonomi/avrupanin-enerji-faturasi-kabardi-fazladan-100-milyar-euro-haberi-841876",
+      "tarih": "2026-09-29T09:50:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "Dışişleri Bakanı Hakan Fidan, BAE Devlet Başkanı Al Nahyan tarafından kabul edildi",
-      "ozet": "Dışişleri Bakanı Hakan Fidan, NSosyal hesabından yaptığı paylaşımda, New York'ta Birleşmiş Milletler 81. Genel Kurulu çerçevesindeki etkinliklerin hemen ardından BAE'yi ziyaret ettiğini bildirdi. Abu Dabi'de BAE Devle...",
-      "tarih": "2026-09-28T20:55:04.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "BAE, Netanyahu ziyaretinin ve Bin Zayid ile görüşmesini doğruladı",
-      "ozet": "BAE resmi haber ajansı WAM'da yer alan haberde, İsrail Başbakanı Netanyahu'nun 27 Eylül'de BAE'yi ziyaret ettiği doğrulandı. Bin Zayid'in Netanyahu'yu karşıladığı belirtilen haberde, görüşmede ikili ilişkilerin güçlen...",
-      "tarih": "2026-09-28T20:15:13.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "AB'nin enerji faturası bu yıl 100 milyar avrodan fazla arttı",
+      "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, AB'nin bu yıl aynı miktarda petrol ve doğal gaz için 100 milyar avrodan fazla ek ödeme yaptığını, ithal fosil yakıtlara bağımlılığın azaltılması ...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abnin-enerji-faturasi-bu-yil-100-milyar-avrodan-fazla-artti/4072411",
+      "tarih": "2026-09-29T09:38:53.000Z",
+      "kaynak": "AA"
     },
     {
       "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
       "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
       "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
-      "tarih": "2026-09-28T17:25:30.000Z",
+      "tarih": "2026-09-29T09:16:01.000Z",
       "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Dev banka TCMB için tahminini açıkladı: Gözler ekim toplantısında",
+      "ozet": "HSBC, TCMB'nin faiz indirimlerinde piyasanın fiyatladığından daha ileri gidebileceğini öngördü. Piyasa tüm gevşeme sürecinde yaklaşık 300 baz puanlık indirim beklerken, HSBC ekonomistlerinin politika faizi tahmini yüz...",
+      "link": "https://www.dunya.com/ekonomi/dev-banka-tcmb-icin-tahminini-acikladi-gozler-ekim-toplantisinda-haberi-841864",
+      "tarih": "2026-09-29T08:59:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Hürmüz Boğazı krizi, Körfez ülkelerini petrol ve gaz ihracatında alternatif rota arayışlarına itiyor",
+      "ozet": "ABD ve İsrail'in 28 Şubat'ta İran'a yönelik saldırıları sonrası Tahran'ın misilleme adımı olarak tek taraflı şekilde kapattığını ilan ettiği Hürmüz Boğazı'ndaki kapanma, Körfez ülkelerinin petrol ve doğal gaz ihracat ...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/hurmuz-bogazi-krizi-korfez-ulkelerini-petrol-ve-gaz-ihracatinda-alternatif-rota-arayislarina-itiyor/4072368",
+      "tarih": "2026-09-29T08:58:43.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Türkiye’nin büyük hedefinde yeni aşama: 2028 detayı dikkat çekti",
+      "ozet": "Bakan Bayraktar, Türkiye’nin enerji üretiminde hedeflerini açıkladı. Bayraktar, Türkiye Petrolleri’nin günlük üretimini 1 milyon varile çıkarmayı ve ülkenin petrol ile doğal gazda kendi kendine yetmesini hedefledikler...",
+      "link": "https://www.yenisafak.com/ekonomi/tarihi-hedef-icin-geri-sayim-basladi-2027-sonunda-turkiyeye-gelecek-4859926",
+      "tarih": "2026-09-29T08:45:11.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol 100 dolara yakın",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 99,39 dolardan işlem görüyor.",
+      "link": "https://www.haberturk.com/ekonomi/petrol-100-dolara-yakin-3915838",
+      "tarih": "2026-09-29T07:49:33.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Borsa İstanbul güne nasıl başladı? BİST100'de gözler kritik seviyelerde",
+      "ozet": "BIST 100 endeksi, dünkü yüzde 2,38'lik kaybın ardından yeni güne düşüşle başladı. Küresel piyasalarda petrol fiyatlarındaki yükseliş ve tahvil piyasasındaki satış baskısı risk iştahını baskıladı.Devamı için tıklayınız",
+      "link": "https://finans.sabah.com.tr/doviz-emtia/borsa-istanbul-gune-nasil-basladi-bist100de-gozler-kritik-seviyelerde-7670008",
+      "tarih": "2026-09-29T07:17:14.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Küresel piyasalarda petrol ve tahvil baskısı",
+      "ozet": "Küresel piyasalarda petrol fiyatları ve tahvil faizlerindeki yükseliş satış baskısını artırırken, ABD-İran gerilimi ve Fed'in faiz politikası beklentileri piyasaların odağında kalmayı sürdürüyor",
+      "link": "https://www.haberturk.com/ekonomi/piyasalarda-abd-iran-gerilimi-ve-faiz-endisesi-3915817",
+      "tarih": "2026-09-29T07:06:59.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Bakan Bayraktar: Türkiye kendi kendine yeten bir ülke olacak",
+      "ozet": "Ekim ayı sonunda Karadeniz’deki görevine uğurlanacak olan Osman Gazi Yüzer Üretim Platformu’nun içerisinde 21 ayrı tesis bulunduğunu anlatan Bakan Bayraktar, “Bunların 11'ini tamamen yeni yaptık, 10 tanesini yeniledik...",
+      "tarih": "2026-09-29T06:31:03.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Küresel piyasalarda petrol ve tahvil baskısı devam ediyor",
+      "ozet": "Küresel piyasalarda, petrol fiyatlarının yükselişini sürdürmesi ve tahvil piyasasındaki satış baskısının devam etmesiyle negatif bir seyir izleniyor.",
+      "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarda-petrol-ve-tahvil-baskisi-devam-ediyor-4859866",
+      "tarih": "2026-09-29T06:26:50.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Küresel piyasalarda petrol ve tahvil baskısı devam ediyor",
+      "ozet": "Küresel piyasalar, petrol fiyatlarının yükselişini sürdürmesi ve tahvil piyasasındaki satış baskısının devam etmesiyle negatif bir seyir izliyor.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalarda-petrol-ve-tahvil-baskisi-devam-ediyor/4072149",
+      "tarih": "2026-09-29T06:07:32.000Z",
+      "kaynak": "AA"
     },
     {
       "baslik": "New York borsası düşüşle açıldı",
@@ -81,13 +127,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Brent petrol İran'ın \"ABD ile müzakere planı olmadığı\" açıklamalarıyla 100 doları aştı",
-      "ozet": "Brent petrolün varil fiyatı, İran'ın ABD ile herhangi bir müzakere planının bulunmadığını açıklamasının ardından yüzde 3'ten fazla artarak 100 doların üzerine çıktı.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrol-iranin-abd-ile-muzakere-plani-olmadigi-aciklamalariyla-100-dolari-asti/4071423",
-      "tarih": "2026-09-28T09:41:29.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Akaryakıt fiyatlarına yapılacak tarihi zam belli oldu: Eşel mobil sistemi sona eriyor",
       "ozet": "Akaryakıt fiyatlarında milyonlarca araç sahibini ilgilendiren yeni dönem için geri sayım başladı. Eşel mobil uygulamasının sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında ciddi zamlar gündeme gelirken, ulu...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-yapilacak-tarihi-zam-belli-oldu-esel-mobil-sistemi-sona-eriyor-2541733",
@@ -107,13 +146,6 @@
       "link": "https://www.cnnturk.com/ekonomi/neden-sert-dustu-altini-zorlayan-ikili-petrol-ve-faiz-3472268",
       "tarih": "2026-09-28T08:47:57.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Altında sert düşüş",
-      "ozet": "Ons altın haftanın ilk işlem gününde sabah saatlerinde yüzde 3 değer kaybıyla 4 bin 154 dolar seviyesine geriledi. Gram altın da benzer şekilde 6 bin 542 liraya düştü. Petrol fiyatlarındaki yükseliş ve ABD tahvil faiz...",
-      "link": "https://www.haberturk.com/ekonomi/altin-fiyatlarinda-sert-dusus-3915569",
-      "tarih": "2026-09-28T08:04:14.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
