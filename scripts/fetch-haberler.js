@@ -178,21 +178,86 @@ const URUN_DESENLERI = {
   lpg: [/\blpg\b/i, /otogaz/i],
 };
 
-function beklentiCikarBirHaberden(haber) {
-  const metin = (haber.baslik || "") + " " + (haber.ozet || "");
+/* ---------- eksik tutar/tarih icin tam makaleyi cekme ----------
+   RSS ozetleri genelde kisa kesiliyor ("...rekor bir artis yasanabi...") -
+   asil TL tutari cogu zaman kesilen kismin hemen otesinde, makalenin
+   govdesinde oluyor. Baslik+ozette "zam/indirim...bekleniyor" gibi net bir
+   sinyal var ama tutar/tarih eksikse, tam makaleyi bir kez cekip orada
+   arıyoruz. Istek sayisini sinirliyoruz (TAM_METIN_SINIRI) ki calisma
+   suresi kontrolsuz uzamasin. */
+const TAM_METIN_SINIRI = 8;
+let tamMetinKullanilan = 0;
+
+async function tamMetniCek(url) {
+  if (!url) return null;
+  try {
+    const controller = new AbortController();
+    const zamanAsimi = setTimeout(() => controller.abort(), 10000);
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      },
+    });
+    clearTimeout(zamanAsimi);
+    if (!res.ok) return null;
+    const html = await res.text();
+    // Kaba ama yeterli HTML->duz metin donusumu: script/style'i at, etiketleri
+    // sok, bosluklari sadelestir. Tam bir HTML parser'a gerek yok, sadece
+    // fiyat/tarih regex'lerinin calisabilecegi duz bir metin lazim.
+    const metin = html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/gi, " ")
+      .replace(/&amp;/gi, "&")
+      .replace(/\s+/g, " ")
+      .trim();
+    return metin.slice(0, 20000);
+  } catch (e) {
+    return null;
+  }
+}
+
+async function beklentiCikarBirHaberden(haber) {
+  let metin = (haber.baslik || "") + " " + (haber.ozet || "");
 
   // "bekleniyor" turu bir belirsizlik ifadesi gecmiyorsa bu bir TAHMIN degil,
   // kesinlesmis/gecmis bir haber olabilir - atla (yanlislikla "kesin" gibi sunmayalim).
-  if (!/bekleniyor|beklentisi|bekleniyor mu|gelebilir/i.test(metin)) return [];
+  if (!/bekleniyor|beklentisi|bekleniyor mu|gelebilir|geliyor|gundeme gel/i.test(metin)) return [];
 
   let yon = null;
   if (/indirim/i.test(metin)) yon = "dusus";
   else if (/\bzam\b/i.test(metin)) yon = "artis";
   if (!yon) return [];
 
-  const tutarEslesme = metin.match(/(\d+[,.]\d{1,2})\s*(?:TL|lira)/i);
-  const tutar = tutarEslesme ? parseFloat(tutarEslesme[1].replace(",", ".")) : null;
-  const tarih = turkceTarihiCoz(metin);
+  // En az bir urun kelimesi gecmiyorsa tam makaleyi cekmeye bile deger
+  // degil - o zaman zaten alakasiz demektir.
+  const enAzBirUrunVar = Object.values(URUN_DESENLERI).some((desenler) => desenler.some((d) => d.test(metin)));
+  if (!enAzBirUrunVar) return [];
+
+  function tutarTarihCikar(kaynakMetin) {
+    const tutarEslesme = kaynakMetin.match(/(\d+[,.]\d{1,2})\s*(?:TL|lira)/i);
+    const tutar = tutarEslesme ? parseFloat(tutarEslesme[1].replace(",", ".")) : null;
+    const tarih = turkceTarihiCoz(kaynakMetin);
+    return { tutar, tarih };
+  }
+
+  let { tutar, tarih } = tutarTarihCikar(metin);
+
+  // Baslik+ozette eksikse VE hala istek hakkimiz varsa, tam makaleyi bir kez
+  // cekip oradan tamamlamayi deneyelim.
+  if ((!tutar || !tarih) && tamMetinKullanilan < TAM_METIN_SINIRI) {
+    tamMetinKullanilan++;
+    const tamMetin = await tamMetniCek(haber.link);
+    if (tamMetin) {
+      const tamSonuc = tutarTarihCikar(tamMetin);
+      if (!tutar) tutar = tamSonuc.tutar;
+      if (!tarih) tarih = tamSonuc.tarih;
+      metin = metin + " " + tamMetin; // urun eslestirmesi icin de kullanilabilir
+    }
+  }
+
   if (!tutar || !tarih) return []; // eksik bilgiyle gosterme
 
   const sonuc = [];
@@ -204,10 +269,11 @@ function beklentiCikarBirHaberden(haber) {
   return sonuc;
 }
 
-function beklentileriBirlestir(haberler) {
+async function beklentileriBirlestir(haberler) {
   const adaylar = { motorin: [], benzin: [], lpg: [] };
   for (const h of haberler) {
-    for (const c of beklentiCikarBirHaberden(h)) {
+    const cikanlar = await beklentiCikarBirHaberden(h);
+    for (const c of cikanlar) {
       if (adaylar[c.urun]) adaylar[c.urun].push(c);
     }
   }
@@ -392,7 +458,7 @@ async function main() {
     // uygulama "yuklenemedi" hatasi yerine "haber yok" bos durumunu gostersin.
   }
 
-  const beklenti = beklentileriBirlestir(haberler);
+  const beklenti = await beklentileriBirlestir(haberler);
   saglikKontroluYap(haberler); // sessiz caprazdogrulama - sadece log, JSON'a yazilmiyor
 
   const cikti = {
