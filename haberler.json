@@ -1,13 +1,14 @@
 {
-  "guncelleme": "2026-09-30T10:03:01.630Z",
+  "guncelleme": "2026-09-30T23:16:24.203Z",
   "kaynaklar": [
-    "CNNTURK",
-    "YENISAFAK",
+    "MILLIYET",
     "HABERTURK",
-    "DUNYA",
-    "SABAH",
     "CUMHURIYET",
-    "MILLIYET"
+    "SABAH",
+    "DUNYA",
+    "YENISAFAK",
+    "CNNTURK",
+    "STAR"
   ],
   "beklenti": {
     "motorin": {
@@ -40,11 +41,79 @@
   },
   "haberler": [
     {
-      "baslik": "1 EKİM'DE BENZİN, MOTORİN VE LPG'YE ZAM GELECEK Mİ? 30 Eylül 2026 güncel akaryakıt fiyatları ve piyasadaki son gelişmeler...",
+      "baslik": "Trump'tan akaryakıt açıklaması! 'Dizel ihracat yasağını değerlendiriyorum'",
+      "ozet": "Trump, Beyaz Saray'da Güney Kore'nin ABD'deki enerji projelerine yönelik yatırımlarına ilişkin yaptığı duyurunun ardından basın mensuplarının sorularını yanıtladı. Dizel ihracatının yasaklanmasına karar verip vermediğ...",
+      "tarih": "2026-09-30T23:14:03.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Benzinde eşel mobile kademeli sistem",
+      "ozet": "Benzinde uygulanan eşel mobil, Resmi Gazete'de yayınlanan kararla motorindeki gibi kademeli sisteme alındı. ÖTV düzenlemesi nedeniyle bugünden itibaren benzin pompa fiyatında yaklaşık 4,15 lira artış bekleniyor",
+      "link": "https://www.haberturk.com/ekonomi/son-dakika-benzindeki-esel-mobil-kademeli-sisteme-alindi-3916314",
+      "tarih": "2026-09-30T21:50:24.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Eşel mobil sistemi sona erdi... ÖTV tutarları yeniden belirlendi: Benzine 4.27 lira zam geldi",
+      "ozet": "ÖTV artışı nedeniyle benzinin satış fiyatına 4.27 lira zam geldi. Eşel mobil sisteminin sona ermesiyle başlayan yeni dönemde benzindeki ÖTV artışı Kasım ve Aralık aylarında da kademeli olarak uygulanacak, LPG fiyatınd...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-sistemi-sona-erdi-otv-tutarlari-yeniden-belirlendi-benzine-4-27-lira-zam-geldi-2542633",
+      "tarih": "2026-09-30T21:40:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıtta eşel mobil sistemi sona erdi",
+      "ozet": "Akaryakıt fiyatlarındaki küresel dalgalanmaları ve kur hareketlerini tüketiciye yansıtmamak amacıyla uygulanan eşel mobil sistemi, bugün itibarıyla sona erdi. Benzindeki vergi artışı, enflasyonla mücadele...Devamı içi...",
+      "link": "https://www.sabah.com.tr/ekonomi/akaryakitta-esel-mobil-sisteminin-uygulanmasi-sona-erdi-7671265",
+      "tarih": "2026-09-30T21:25:40.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "ÖTV tutarları yeniden belirlendi: Benzine zam geldi",
+      "ozet": "ÖTV artışı nedeniyle benzinin satış fiyatına 4,27 lira zam geldi. Eşel mobil sisteminin sona ermesiyle başlayan yeni dönemde benzindeki ÖTV artışı kasım ve aralık aylarında da kademeli olarak uygulanacak, LPG fiyatınd...",
+      "link": "https://www.dunya.com/gundem/otv-tutarlari-yeniden-belirlendi-benzine-zam-geldi-haberi-842127",
+      "tarih": "2026-09-30T21:17:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Eşel mobil sistemi sona erdi: Benzine ÖTV artışı nedeniyle 4,27 TL zam geldi",
+      "ozet": "Akaryakıt fiyatlarındaki küresel dalgalanmalar ve kur hareketlerinin tüketiciye yansımasını sınırlamak amacıyla uygulanan eşel mobil sistemi bugün itibarıyla sona erdi. Sistemin devreden çıkmasıyla birlikte ÖTV artışı...",
+      "link": "https://www.yenisafak.com/ekonomi/esel-mobil-sistemi-sona-erdi-benzine-otv-artisi-nedeniyle-427-tl-zam-geldi-4860473",
+      "tarih": "2026-09-30T21:12:21.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Prens Bin Selman: Bölgesel istikrar için 'Mekke Ortak Savunma Anlaşması'",
+      "ozet": "Suudi Arabistan Veliaht Prensi Muhammed bin Selman, bölgede güvenlik ve istikrarı sağlama konusundaki ortak çabaların bir sonucu olarak Suudi Arabistan, Türkiye ve Pakistan arasında \"Mekke Ortak Savunma Anlaşması\"nın ...",
+      "tarih": "2026-09-30T19:55:22.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "1 EKİM'DE BENZİN VE MOTORİNE ZAM GELECEK Mİ? Güncel akaryakıt fiyatları ve piyasadaki son gelişmeler...",
       "ozet": "Akaryakıt fiyatları, 1 Ekim 2026 öncesinde araç sahiplerinin en çok takip ettiği başlıklar arasında yer alıyor. Eşel Mobil sisteminin sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında nasıl bir değişiklik ya...",
       "link": "https://www.cnnturk.com/ekonomi/1-ekimde-benzin-motorin-ve-lpgye-zam-gelecek-mi-30-eylul-2026-guncel-akaryakit-fiyatlari-ve-piyasadaki-son-gelismeler-3473125",
-      "tarih": "2026-09-30T10:15:42.000Z",
+      "tarih": "2026-09-30T18:53:20.000Z",
       "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "TÜPRAŞ 2. TAKSİT TEMETTÜ ÖDEME TARİHİ BELLİ OLDU! TÜPRAŞ Temettü Ödemesi Ne Zaman Hesaplara Yatacak? TUPRS Temettü Takvimi",
+      "ozet": "TÜPRAŞ 2. taksit temettü ödeme tarihi, TUPRS temettü ne zaman yatacak, TÜPRAŞ temettü ödemesi, TUPRS kar payı, Borsa İstanbul temettü, TÜPRAŞ hisse başı temettü, TUPRS yatırımcıları, temettü takvimi yatırımcıların yak...",
+      "link": "https://www.cnnturk.com/ekonomi/tupras-2-taksit-temettu-odeme-tarihi-belli-oldu-tupras-temettu-odemesi-ne-zaman-hesaplara-yatacak-tuprs-temettu-takvimi-3473352",
+      "tarih": "2026-09-30T17:24:09.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
+      "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
+      "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
+      "tarih": "2026-09-30T14:24:27.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Türkiye'den Almanya'ya 4 alan için teklif! Bakan Bayraktar: Ortak geliştirelim",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Almanya ile doğal gaz ve yeşil hidrojenden modern elektrik şebekelerine ve kritik minerallere kadar uzanan yeni nesil ortak projeler geliştirilebileceğini söyledi....",
+      "link": "https://www.star.com.tr/ekonomi/turkiyeden-avrupanin-enerji-arzi-icin-stratejik-cagri-bakan-bayraktar-bu-hedefleri-gercekl-haber-2043546/",
+      "tarih": "2026-09-30T12:19:00.000Z",
+      "kaynak": "STAR"
     },
     {
       "baslik": "Akaryakıtta eşel mobil dönemi 1 Ekim'de sona eriyor: Pompaya yansıyacak 3 ayrı zam oranı belli oldu",
@@ -68,27 +137,6 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Piyasalar savaş endişesini ikinci plana attı: Teknoloji hisseleri sahneye çıktı",
-      "ozet": "İran savaşı, yükselen petrol fiyatları ve tahvil piyasasındaki baskıya rağmen küresel borsalarda alımlar öne çıktı. Piyasalardaki yükselişin arkasında ise teknoloji ve yapay zeka hisselerine yönelik güçlü ilgi yer aldı.",
-      "link": "https://www.dunya.com/ekonomi/piyasalar-savas-endisesini-ikinci-plana-atti-teknoloji-hisseleri-sahneye-cikti-haberi-842030",
-      "tarih": "2026-09-30T09:06:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
-      "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
-      "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
-      "tarih": "2026-09-30T09:04:26.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Enerji ithalatında dikkat çeken yükseliş: Fatura ağustosta kabardı",
-      "ozet": "Türkiye'nin enerji ithalatı için ödediği tutar, ağustosta geçen yılın aynı ayına göre yüzde 33,8 artarak 6 milyar 464 milyon 353 bin dolara yükseldi. Aynı dönemde ham petrol ithalatı ise yüzde 1,1 azaldı...Devamı için...",
-      "link": "https://finans.sabah.com.tr/ekonomi/enerji-ithalatinda-dikkat-ceken-yukselis-fatura-agustosta-kabardi-7670781",
-      "tarih": "2026-09-30T07:58:13.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Gram altın ne kadar oldu?",
       "ozet": "Altın fiyatları yeni güne hareketli başladı. Gram altın, 6 bin 609 liradan işlem görürken, ons altın yüzde 4 bin 183 dolara geriledi. Piyasalarda jeopolitik gelişmeler, petrol fiyatları ve tahvil faizlerindeki hareket...",
       "link": "https://www.haberturk.com/ekonomi/gram-altin-ne-kadar-oldu-3916099",
@@ -110,37 +158,10 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Günlük 1 milyon varil üretim",
-      "ozet": "Türkiye içi ve dışındaki üretimin bugün günlük 350 bin varil seviyesinde olduğunu belirten Bayraktar, bu rakamın 2028’de 550-600 bin varile çıkarılacağını kaydetti. Bayraktar, “Bizim nihai hedefimiz şudur; Türkiye, pe...",
-      "tarih": "2026-09-30T04:03:15.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Bakan Bayraktar: Türkiye kendi kendine yeten bir ülke olacak",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, dünyanın küresel anlamda büyük bir enerji krizi yaşadığını belirterek, “Böyle bir dönemde kendi enerjine sahip olmak, çok kıymetli bir hale geldi. Türkiye Petrolle...",
-      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-turkiye-kendi-kendine-yeten-bir-ulke-olacak-3472815",
-      "tarih": "2026-09-29T19:08:39.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
       "baslik": "Türkiye’nin büyük hedefinde yeni aşama: 2028 detayı dikkat çekti",
       "ozet": "Bakan Bayraktar, Türkiye’nin enerji üretiminde hedeflerini açıkladı. Bayraktar, Türkiye Petrolleri’nin günlük üretimini 1 milyon varile çıkarmayı ve ülkenin petrol ile doğal gazda kendi kendine yetmesini hedefledikler...",
       "link": "https://www.yenisafak.com/ekonomi/tarihi-hedef-icin-geri-sayim-basladi-2027-sonunda-turkiyeye-gelecek-4859926",
       "tarih": "2026-09-29T08:45:11.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalarda petrol ve tahvil baskısı devam ediyor",
-      "ozet": "Küresel piyasalarda, petrol fiyatlarının yükselişini sürdürmesi ve tahvil piyasasındaki satış baskısının devam etmesiyle negatif bir seyir izleniyor.",
-      "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarda-petrol-ve-tahvil-baskisi-devam-ediyor-4859866",
-      "tarih": "2026-09-29T06:26:50.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "New York borsası düşüşle açıldı",
-      "ozet": "New York borsası, petrol fiyatlarındaki yükseliş ve tahvil faizlerindeki artışın etkisiyle haftanın ilk işlem gününe düşüşle başladı.",
-      "link": "https://www.yenisafak.com/ekonomi/new-york-borsasi-dususle-acildi-4859737",
-      "tarih": "2026-09-28T14:19:37.000Z",
       "kaynak": "YENISAFAK"
     },
     {
@@ -211,13 +232,6 @@
       "ozet": "Petrol fiyatlarında yaşanan hareketlilik akaryakıt fiyatlarını da etkilemeye devam ediyor. Brent petrolün 97 dolara gerilemesinin ardından motorin fiyatlarında indirim beklentisi oluşurken, sektör kaynaklarına göre bu...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-gece-yarisi-indirimi-geliyor-litre-fiyati-ne-kadar-olacak-2540132",
       "tarih": "2026-09-23T06:22:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın fiyatlarında yön arayış sürüyor: Yükselişin önündeki engeller neler?",
-      "ozet": "Altın fiyatlarında yön arayışı sürerken Fed’in faiz politikası, petrol fiyatlarındaki hareketlilik ve jeopolitik gelişmeler piyasaların odağında yer alıyor. Faizlerin yüksek seyredeceği beklentisi altın üzerinde baskı...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-yon-arayis-suruyor-yukselisin-onundeki-engeller-neler-2539949",
-      "tarih": "2026-09-22T12:48:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
