@@ -1,86 +1,126 @@
 {
-  "guncelleme": "2026-09-29T13:31:40.923Z",
+  "guncelleme": "2026-09-30T10:03:01.630Z",
   "kaynaklar": [
     "CNNTURK",
-    "DUNYA",
-    "HABERTURK",
-    "AA",
     "YENISAFAK",
+    "HABERTURK",
+    "DUNYA",
     "SABAH",
-    "MILLIYET",
-    "CUMHURIYET"
+    "CUMHURIYET",
+    "MILLIYET"
   ],
   "beklenti": {
     "motorin": {
       "expected": true,
       "direction": "artis",
-      "amount": 2.55,
-      "tarih": "2027-09-24",
+      "amount": 12.47,
+      "tarih": "2026-10-01",
       "dogrulayanKaynakSayisi": 1,
-      "kaynakBaslik": "Motorin fiyatlarına yeni zam yolda: Litresi yeniden 90 liranın üzerine çıkacak",
-      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-yeni-zam-yolda-litresi-yeniden-90-liranin-uzerine-cikacak-2540531"
+      "kaynakBaslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
+      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355"
     },
     "benzin": {
       "expected": true,
       "direction": "artis",
-      "amount": 4.43,
+      "amount": 12.47,
       "tarih": "2026-10-01",
       "dogrulayanKaynakSayisi": 1,
-      "kaynakBaslik": "Eşel mobil bitiyor, benzine tarihi zam geliyor: Litre fiyatı 90 lirayı aşacak",
-      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-bitiyor-benzine-tarihi-zam-geliyor-litre-fiyati-90-lirayi-asacak-2540984"
+      "kaynakBaslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
+      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355"
     },
     "lpg": {
       "expected": true,
-      "direction": "dusus",
-      "amount": 80.4,
-      "tarih": "2027-09-23",
+      "direction": "artis",
+      "amount": 12.47,
+      "tarih": "2026-10-01",
       "dogrulayanKaynakSayisi": 1,
-      "kaynakBaslik": "Motorine gece yarısı indirimi geliyor: Litre fiyatı ne kadar olacak?",
-      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/motorine-gece-yarisi-indirimi-geliyor-litre-fiyati-ne-kadar-olacak-2540132"
+      "kaynakBaslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
+      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355"
     }
   },
   "haberler": [
     {
-      "baslik": "Bakan Bayraktar: Türkiye kendi kendine yeten bir ülke olacak",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, dünyanın küresel anlamda büyük bir enerji krizi yaşadığını belirterek, “Böyle bir dönemde kendi enerjine sahip olmak, çok kıymetli bir hale geldi. Türkiye Petrolle...",
-      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-turkiye-kendi-kendine-yeten-bir-ulke-olacak-3472815",
-      "tarih": "2026-09-29T13:18:33.000Z",
+      "baslik": "1 EKİM'DE BENZİN, MOTORİN VE LPG'YE ZAM GELECEK Mİ? 30 Eylül 2026 güncel akaryakıt fiyatları ve piyasadaki son gelişmeler...",
+      "ozet": "Akaryakıt fiyatları, 1 Ekim 2026 öncesinde araç sahiplerinin en çok takip ettiği başlıklar arasında yer alıyor. Eşel Mobil sisteminin sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında nasıl bir değişiklik ya...",
+      "link": "https://www.cnnturk.com/ekonomi/1-ekimde-benzin-motorin-ve-lpgye-zam-gelecek-mi-30-eylul-2026-guncel-akaryakit-fiyatlari-ve-piyasadaki-son-gelismeler-3473125",
+      "tarih": "2026-09-30T10:15:42.000Z",
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Hürmüz Boğazı’nda petrol tankeri vuruldu",
-      "ozet": "İngiltere Deniz Ticaret Operasyonları (UKMTO), Hürmüz Boğazı’ndan geçen bir petrol tankerinin kaynağı bilinmeyen mühimmatla vurulduğunu açıkladı. Tankerde çıkan yangın söndürülürken, olayda ölen ya da yaralanan olmadı.",
-      "link": "https://www.dunya.com/dunya/hurmuz-bogazinda-petrol-tankeri-vuruldu-haberi-841893",
-      "tarih": "2026-09-29T12:04:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Akaryakıtta eşel mobil dönemi 1 Ekim'de sona eriyor: Pompaya yansıyacak 3 ayrı zam oranı belli oldu",
+      "ozet": "Akaryakıt fiyatlarını küresel savaş gerilimlerinin etkisinden korumak amacıyla devreye alınan 'eşel mobil' uygulamasında tanınan süre doldu. 1 Ekim itibarıyla sistemin yürürlükten kalkmasıyla birlikte benzin, motorin ...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-esel-mobil-donemi-1-ekimde-sona-eriyor-pompaya-yansiyacak-3-ayri-zam-orani-belli-oldu-4860282",
+      "tarih": "2026-09-30T09:26:07.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "AB'nin enerji faturası 100 milyar Euro arttı",
-      "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, AB'nin bu yıl aynı miktarda petrol ve doğal gaz için 100 milyar Euro'dan fazla ek ödeme yaptığını, ithal fosil yakıtlara bağımlılığın azaltılması...",
-      "link": "https://www.haberturk.com/ekonomi/ab-nin-enerji-faturasi-100-milyar-euro-artti-3915879",
-      "tarih": "2026-09-29T10:03:34.000Z",
+      "baslik": "Yeni BMW 3 Serisi tanıtıldı",
+      "ozet": "BMW’nin 'neue klasse' anlayışının son temsilcisi olan yeni nesil 3 Serisi ortaya çıktı. Araçta benzinli motor seçenekleri elektrikli i3’ün yanında konumlanacak. Model, yenilenen tasarımı, hibrit destekli motorları ve ...",
+      "link": "https://www.haberturk.com/ekonomi/yeni-bmw-3-serisi-tanitildi-hem-elektrikli-hem-benzinli-olacak-3916138",
+      "tarih": "2026-09-30T09:11:19.000Z",
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "AB'nin enerji faturası bu yıl 100 milyar avrodan fazla arttı",
-      "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, AB'nin bu yıl aynı miktarda petrol ve doğal gaz için 100 milyar avrodan fazla ek ödeme yaptığını, ithal fosil yakıtlara bağımlılığın azaltılması ...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/abnin-enerji-faturasi-bu-yil-100-milyar-avrodan-fazla-artti/4072411",
-      "tarih": "2026-09-29T09:38:53.000Z",
-      "kaynak": "AA"
+      "baslik": "ALTIN FİYATLARI 30 EYLÜL| Gram altın, çeyrek altın ve ons altın ne kadar? Kapalıçarşı altın fiyatları ne durumda?",
+      "ozet": "Altın fiyatları, 30 Eylül 2026 Çarşamba günü yatırımcıların ve altın alım satımı yapan vatandaşların gündemindeki yerini koruyor. Gram altın, çeyrek altın ve Cumhuriyet altınının güncel değerleri takip edilirken, küre...",
+      "link": "https://www.cnnturk.com/ekonomi/altin-fiyatlari-30-eylul-gram-altin-ceyrek-altin-ve-ons-altin-ne-kadar-kapalicarsi-altin-fiyatlari-ne-durumda-3473098",
+      "tarih": "2026-09-30T09:08:50.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Piyasalar savaş endişesini ikinci plana attı: Teknoloji hisseleri sahneye çıktı",
+      "ozet": "İran savaşı, yükselen petrol fiyatları ve tahvil piyasasındaki baskıya rağmen küresel borsalarda alımlar öne çıktı. Piyasalardaki yükselişin arkasında ise teknoloji ve yapay zeka hisselerine yönelik güçlü ilgi yer aldı.",
+      "link": "https://www.dunya.com/ekonomi/piyasalar-savas-endisesini-ikinci-plana-atti-teknoloji-hisseleri-sahneye-cikti-haberi-842030",
+      "tarih": "2026-09-30T09:06:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
       "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
       "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
       "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
-      "tarih": "2026-09-29T09:16:01.000Z",
+      "tarih": "2026-09-30T09:04:26.000Z",
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Hürmüz Boğazı krizi, Körfez ülkelerini petrol ve gaz ihracatında alternatif rota arayışlarına itiyor",
-      "ozet": "ABD ve İsrail'in 28 Şubat'ta İran'a yönelik saldırıları sonrası Tahran'ın misilleme adımı olarak tek taraflı şekilde kapattığını ilan ettiği Hürmüz Boğazı'ndaki kapanma, Körfez ülkelerinin petrol ve doğal gaz ihracat ...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/hurmuz-bogazi-krizi-korfez-ulkelerini-petrol-ve-gaz-ihracatinda-alternatif-rota-arayislarina-itiyor/4072368",
-      "tarih": "2026-09-29T08:58:43.000Z",
-      "kaynak": "AA"
+      "baslik": "Enerji ithalatında dikkat çeken yükseliş: Fatura ağustosta kabardı",
+      "ozet": "Türkiye'nin enerji ithalatı için ödediği tutar, ağustosta geçen yılın aynı ayına göre yüzde 33,8 artarak 6 milyar 464 milyon 353 bin dolara yükseldi. Aynı dönemde ham petrol ithalatı ise yüzde 1,1 azaldı...Devamı için...",
+      "link": "https://finans.sabah.com.tr/ekonomi/enerji-ithalatinda-dikkat-ceken-yukselis-fatura-agustosta-kabardi-7670781",
+      "tarih": "2026-09-30T07:58:13.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Gram altın ne kadar oldu?",
+      "ozet": "Altın fiyatları yeni güne hareketli başladı. Gram altın, 6 bin 609 liradan işlem görürken, ons altın yüzde 4 bin 183 dolara geriledi. Piyasalarda jeopolitik gelişmeler, petrol fiyatları ve tahvil faizlerindeki hareket...",
+      "link": "https://www.haberturk.com/ekonomi/gram-altin-ne-kadar-oldu-3916099",
+      "tarih": "2026-09-30T07:33:18.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Petrol fiyatları yeniden 100 doların altında",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 95,80 dolardan işlem görüyor",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3916071",
+      "tarih": "2026-09-30T06:52:29.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
+      "ozet": "Akaryakıt fiyatlarında ÖTV artışları ve döviz kurundaki hareketlilik gündemdeki yerini korurken, yeni zam beklentisi de milyonlarca yurttaşı ilgilendiriyor. Benzin, motorin ve LPG fiyatlarında beklenen artışın nasıl u...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355",
+      "tarih": "2026-09-30T06:36:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Günlük 1 milyon varil üretim",
+      "ozet": "Türkiye içi ve dışındaki üretimin bugün günlük 350 bin varil seviyesinde olduğunu belirten Bayraktar, bu rakamın 2028’de 550-600 bin varile çıkarılacağını kaydetti. Bayraktar, “Bizim nihai hedefimiz şudur; Türkiye, pe...",
+      "tarih": "2026-09-30T04:03:15.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Bakan Bayraktar: Türkiye kendi kendine yeten bir ülke olacak",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, dünyanın küresel anlamda büyük bir enerji krizi yaşadığını belirterek, “Böyle bir dönemde kendi enerjine sahip olmak, çok kıymetli bir hale geldi. Türkiye Petrolle...",
+      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-turkiye-kendi-kendine-yeten-bir-ulke-olacak-3472815",
+      "tarih": "2026-09-29T19:08:39.000Z",
+      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Türkiye’nin büyük hedefinde yeni aşama: 2028 detayı dikkat çekti",
@@ -90,45 +130,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Petrol 100 dolara yakın",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 99,39 dolardan işlem görüyor.",
-      "link": "https://www.haberturk.com/ekonomi/petrol-100-dolara-yakin-3915838",
-      "tarih": "2026-09-29T07:49:33.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Borsa İstanbul güne nasıl başladı? BİST100'de gözler kritik seviyelerde",
-      "ozet": "BIST 100 endeksi, dünkü yüzde 2,38'lik kaybın ardından yeni güne düşüşle başladı. Küresel piyasalarda petrol fiyatlarındaki yükseliş ve tahvil piyasasındaki satış baskısı risk iştahını baskıladı.Devamı için tıklayınız",
-      "link": "https://finans.sabah.com.tr/doviz-emtia/borsa-istanbul-gune-nasil-basladi-bist100de-gozler-kritik-seviyelerde-7670008",
-      "tarih": "2026-09-29T07:17:14.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Küresel piyasalarda petrol ve tahvil baskısı",
-      "ozet": "Küresel piyasalarda petrol fiyatları ve tahvil faizlerindeki yükseliş satış baskısını artırırken, ABD-İran gerilimi ve Fed'in faiz politikası beklentileri piyasaların odağında kalmayı sürdürüyor",
-      "link": "https://www.haberturk.com/ekonomi/piyasalarda-abd-iran-gerilimi-ve-faiz-endisesi-3915817",
-      "tarih": "2026-09-29T07:06:59.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Bakan Bayraktar: Türkiye kendi kendine yeten bir ülke olacak",
-      "ozet": "Ekim ayı sonunda Karadeniz’deki görevine uğurlanacak olan Osman Gazi Yüzer Üretim Platformu’nun içerisinde 21 ayrı tesis bulunduğunu anlatan Bakan Bayraktar, “Bunların 11'ini tamamen yeni yaptık, 10 tanesini yeniledik...",
-      "tarih": "2026-09-29T06:31:03.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
       "baslik": "Küresel piyasalarda petrol ve tahvil baskısı devam ediyor",
       "ozet": "Küresel piyasalarda, petrol fiyatlarının yükselişini sürdürmesi ve tahvil piyasasındaki satış baskısının devam etmesiyle negatif bir seyir izleniyor.",
       "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarda-petrol-ve-tahvil-baskisi-devam-ediyor-4859866",
       "tarih": "2026-09-29T06:26:50.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalarda petrol ve tahvil baskısı devam ediyor",
-      "ozet": "Küresel piyasalar, petrol fiyatlarının yükselişini sürdürmesi ve tahvil piyasasındaki satış baskısının devam etmesiyle negatif bir seyir izliyor.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalarda-petrol-ve-tahvil-baskisi-devam-ediyor/4072149",
-      "tarih": "2026-09-29T06:07:32.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "New York borsası düşüşle açıldı",
@@ -138,39 +144,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Akaryakıtta tabela sil baştan değişiyor: Araç sahipleri için kritik tarih netleşti",
-      "ozet": "Küresel petrol piyasalarındaki negatif yönlü hareketleri akaryakıt fiyatlarını minimumda etkilemesi amacıyla yürürlüğe giren eşel mobil sisteminin 1 Ekim itibarıyla sona ermesi, pompada yeni bir fiyatlamayı beraberind...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-3-gun-akaryakitta-tabela-sil-bastan-degisiyor-arac-sahipleri-icin-kritik-tarih-netlesti-iste-guncel-benzin-ve-motorin-fiyati-4859666",
-      "tarih": "2026-09-28T10:34:03.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "İngiltere'de dizel fiyatında tarihi rekor",
-      "ozet": "İngiltere’de dizel fiyatları, Hürmüz Boğazı’ndaki tedarik kesintilerinin petrol arzını daraltmasıyla litre başına 1,99 sterlini aşarak tarihi zirveye çıktı.",
-      "link": "https://www.yenisafak.com/ekonomi/ingilterede-dizel-fiyatinda-tarihi-rekor-4859661",
-      "tarih": "2026-09-28T10:22:58.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Akaryakıt fiyatlarına yapılacak tarihi zam belli oldu: Eşel mobil sistemi sona eriyor",
       "ozet": "Akaryakıt fiyatlarında milyonlarca araç sahibini ilgilendiren yeni dönem için geri sayım başladı. Eşel mobil uygulamasının sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında ciddi zamlar gündeme gelirken, ulu...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-yapilacak-tarihi-zam-belli-oldu-esel-mobil-sistemi-sona-eriyor-2541733",
       "tarih": "2026-09-28T09:36:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrol İran'ın \"ABD ile müzakere planı olmadığı\" açıklamalarıyla 100 doları aştı",
-      "ozet": "Brent petrolün varil fiyatı, İran'ın ABD ile herhangi bir müzakere planının bulunmadığını açıklamasının ardından yüzde 3'ten fazla artarak 100 doların üzerine çıktı.",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrol-iranin-abd-ile-muzakere-plani-olmadigi-aciklamalariyla-100-dolari-asti-4859641",
-      "tarih": "2026-09-28T09:35:58.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Neden sert düştü? Altını zorlayan ikili: Petrol ve faiz",
-      "ozet": "Altın yeni haftaya sert düşüşle başladı. Spot altının ons fiyatı yüzde 2,1 gerileyerek 4.198 dolara kadar indi ve 1 Eylül’den bu yana en sert günlük düşüşünü yaşamaya yöneldi. Petrol fiyatlarındaki yükselişin enflasyo...",
-      "link": "https://www.cnnturk.com/ekonomi/neden-sert-dustu-altini-zorlayan-ikili-petrol-ve-faiz-3472268",
-      "tarih": "2026-09-28T08:47:57.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
@@ -240,20 +218,6 @@
       "ozet": "Altın fiyatlarında yön arayışı sürerken Fed’in faiz politikası, petrol fiyatlarındaki hareketlilik ve jeopolitik gelişmeler piyasaların odağında yer alıyor. Faizlerin yüksek seyredeceği beklentisi altın üzerinde baskı...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-yon-arayis-suruyor-yukselisin-onundeki-engeller-neler-2539949",
       "tarih": "2026-09-22T12:48:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "HSBC'den altın için dikkat çeken analiz: Uzun vadede üç unsur belirleyici olacak",
-      "ozet": "HSBC Asset Management, petrol piyasasında yaşanan son şokun boyutu ve kalıcılığının yatırımcılar tarafından yakından izlenmesi gerektiğini belirtti. Kurum, enerji ve jeopolitik kaynaklı arz şoklarının enflasyonu artır...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/hsbc-den-altin-icin-dikkat-ceken-analiz-uzun-vadede-uc-unsur-belirleyici-olacak-2539823",
-      "tarih": "2026-09-22T08:12:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorin fiyatlarının zamlanması ekonomiyi nasıl etkiliyor? Uzmanlar tek tek açıkladı",
-      "ozet": "Motorin fiyatının 100 Türk Lirası’nı aşması, ulaşım ve tarım başta olmak üzere farklı sektörlerde maliyet baskısını artırdı. Uzmanlar, motorinin traktör, kamyon ve tırlarda kullanılması nedeniyle zamların üretim ve na...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarinin-zamlanmasi-ekonomiyi-nasil-etkiliyor-uzmanlar-tek-tek-acikladi-2539816",
-      "tarih": "2026-09-22T08:06:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
