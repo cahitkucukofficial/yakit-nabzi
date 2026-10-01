@@ -75,11 +75,10 @@ function fmtDelta(n) {
 
 /* ---------- "Sonraki Değişim" tarih biçimlendirme ---------- */
 // beklenti.tarih "YYYY-MM-DD" formatında geliyor (scripts/fetch-haberler.js).
-function fmtBeklentiTarih(isoTarih) {
+function fmtBeklentiTarihKisa(isoTarih) {
   if (!isoTarih) return "";
   const [y, m, d] = isoTarih.split("-").map(Number);
-  const tarih = new Date(Date.UTC(y, m - 1, d));
-  return tarih.toLocaleDateString("tr-TR", { day: "numeric", month: "long", timeZone: "UTC" }) + " 00:00";
+  return String(d).padStart(2, "0") + "." + String(m).padStart(2, "0") + "." + y;
 }
 
 /* ---------- il / ilçe iskeleti (örnek kapsama alanı) ---------- */
@@ -415,6 +414,24 @@ const Icon = {
       <circle cx="12" cy="7.5" r="0.6" fill="currentColor" stroke="none" />
     </svg>
   ),
+  clock: (p) => (
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3.5 2" />
+    </svg>
+  ),
+  chevronUpCircle: (p) => (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M8.5 13.5L12 10l3.5 3.5" />
+    </svg>
+  ),
+  chevronDownCircle: (p) => (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M8.5 10.5L12 14l3.5-3.5" />
+    </svg>
+  ),
   chevronRight: (p) => (
     <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" {...p}>
       <path d="M9 5l7 7-7 7" />
@@ -494,26 +511,35 @@ function DeltaTag({ delta }) {
 function NextChangeCard({ fuelKey, beklenti }) {
   const meta = FUEL_META[fuelKey];
   const nc = beklenti?.[fuelKey] || { expected: false };
-  let statusText;
-  if (!nc.expected) {
-    statusText = "Değişim beklenmiyor";
-  } else {
-    const yon = nc.direction === "artis" ? "zam" : "indirim";
-    statusText = fmtTL(nc.amount) + " ₺ " + yon + " bekleniyor";
-  }
+  const yonRenk = nc.expected ? (nc.direction === "artis" ? "var(--zam)" : "var(--indirim)") : null;
+  const yonKelime = nc.direction === "artis" ? "Zam" : "İndirim";
   return (
     <div className="next-change-card">
       <div className="next-change-top">
         <span className="next-change-fuel" style={{ color: meta.color }}>{meta.label}</span>
-        <span className={"next-change-status" + (nc.expected ? " active" : "")}>
-          <Icon.info className="nc-info" />
-          {statusText}
-        </span>
+        {nc.expected && (
+          <span className="next-change-tutar" style={{ color: yonRenk }}>
+            <Icon.trend className={"nc-trend-icon" + (nc.direction === "dusus" ? " flip" : "")} />
+            ₺{fmtTL(nc.amount)}
+          </span>
+        )}
       </div>
-      {nc.expected && (
-        <div className="next-change-date">
-          Yürürlük: {fmtBeklentiTarih(nc.tarih)}
-          {nc.dogrulayanKaynakSayisi > 1 && " · " + nc.dogrulayanKaynakSayisi + " kaynak"}
+      {nc.expected ? (
+        <>
+          <div className="next-change-beklenti-row" style={{ color: yonRenk }}>
+            {nc.direction === "artis" ? <Icon.chevronUpCircle /> : <Icon.chevronDownCircle />}
+            {yonKelime} beklentisi var!
+          </div>
+          <div className="next-change-date-row">
+            <Icon.clock />
+            {yonKelime} tarihi {fmtBeklentiTarihKisa(nc.tarih)}
+            {nc.dogrulayanKaynakSayisi > 1 && " · " + nc.dogrulayanKaynakSayisi + " kaynak"}
+          </div>
+        </>
+      ) : (
+        <div className="next-change-status">
+          <Icon.info className="nc-info" />
+          Değişim beklenmiyor
         </div>
       )}
     </div>
@@ -1606,12 +1632,17 @@ function App() {
         .haber-devam{ display:flex; align-items:center; gap:2px; font-size:12px; font-weight:700; color:var(--aksan); white-space:nowrap; }
         .haber-devam .chev{ width:14px; height:14px; }
         .next-change-card{ background:var(--panel); border-radius:var(--radius-card); border:var(--card-border); padding:18px 18px 16px; }
-        .next-change-top{ display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:nowrap; }
+        .next-change-top{ display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:nowrap; margin-bottom:10px; }
         .next-change-fuel{ font-size:26px; font-weight:400; letter-spacing:0.2px; font-family:var(--font-poster); flex-shrink:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-        .next-change-status{ display:flex; align-items:center; gap:4px; font-size:11.5px; color:var(--metin-soluk); white-space:nowrap; font-family:var(--font-body); flex-shrink:0; }
-        .next-change-status.active{ color:var(--benzin); font-weight:700; }
-        .nc-info{ width:14px; height:14px; flex-shrink:0; color:inherit; }
-        .next-change-date{ font-size:12px; color:var(--metin-silik); margin-top:6px; font-family:var(--font-mono); }
+        .next-change-tutar{ display:flex; align-items:center; gap:5px; font-size:28px; font-weight:800; font-family:var(--font-mono); flex-shrink:0; white-space:nowrap; }
+        .nc-trend-icon{ width:19px; height:19px; flex-shrink:0; }
+        .nc-trend-icon.flip{ transform:scaleY(-1); }
+        .next-change-beklenti-row{ display:flex; align-items:center; gap:7px; font-size:16px; font-weight:700; font-family:var(--font-body); margin-bottom:6px; }
+        .next-change-beklenti-row svg{ flex-shrink:0; }
+        .next-change-date-row{ display:flex; align-items:center; gap:7px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
+        .next-change-date-row svg{ flex-shrink:0; color:var(--metin-silik); }
+        .next-change-status{ display:flex; align-items:center; gap:6px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
+        .nc-info{ width:16px; height:16px; flex-shrink:0; color:inherit; }
 
         .segmented{ display:flex; background:var(--panel-2); border-radius:9px; padding:2px; margin-bottom:16px; }
         .seg-btn{ flex:1; background:none; border:none; padding:6px 0; font-size:13px; font-weight:700; color:var(--metin); border-radius:7px; cursor:pointer; font-family:var(--font-body); }
