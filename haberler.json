@@ -1,13 +1,15 @@
 {
-  "guncelleme": "2026-10-01T10:31:08.115Z",
+  "guncelleme": "2026-10-01T17:36:02.839Z",
   "kaynaklar": [
-    "SABAH",
-    "CNNTURK",
-    "STAR",
+    "MILLIYET",
+    "DUNYA",
     "CUMHURIYET",
-    "YENISAFAK",
-    "HABERTURK",
-    "AA"
+    "SABAH",
+    "AA",
+    "CNNTURK",
+    "BLOOMBERGHT",
+    "STAR",
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -40,6 +42,26 @@
   },
   "haberler": [
     {
+      "baslik": "Son dakika… ABD Başkanı Donald Trump: İran anlaşmazsa yok olur",
+      "ozet": "ABD Başkanı Donald Trump seçim kampanyası kapsamında Texas’a gitmeden önce gazetecilerin sorularını yanıtladı. CNN Türk ABD Temsilcisi Yunus Paksoy da oradaydı. Detayları canlı yayında anlattı. İşte Paksoy'un açıklama...",
+      "tarih": "2026-10-01T17:33:22.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "IMF'den kritik uyarı: Manşet enflasyonu besleyen enerji şoku henüz bitmedi",
+      "ozet": "IMF Sözcüsü Julie Kozack, petrol ve gaz fiyatlarının yüksek seyretmeye devam ettiğini belirterek, manşet enflasyonu besleyen enerji şokunun henüz sona ermediğini ve bazı ülkelerde dezenflasyon sürecinin duraksadığını ...",
+      "link": "https://www.dunya.com/ekonomi/imfden-kritik-uyari-manset-enflasyonu-besleyen-enerji-soku-henuz-bitmedi-haberi-842259",
+      "tarih": "2026-10-01T17:25:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Motorinden sonra benzine de 'kaynayan kurbağa' modeli: Taksitli zam dönemi başladı",
+      "ozet": "Milyonlarca araç sahibini ve lojistik sektörünü doğrudan etkileyen akaryakıt fiyatlarında tüketicide yaşanacak şoku ötelemeyi hedefleyen \"kademeli zam\" modeli devreye girdi. Motorinde uygulanan parça parça ÖTV ayarlam...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorinden-sonra-benzine-de-kaynayan-kurbaga-modeli-taksitli-zam-donemi-basladi-2542780",
+      "tarih": "2026-10-01T13:20:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
       "baslik": "Brent petrol 100 doları aştı: İran-ABD müzakereleri fiyatları yükseltti",
       "ozet": "Brent petrolün varil fiyatı, ABD ile İran arasındaki müzakerelerin tıkandığına yönelik haber akışının çatışmaların süreceği ve petrol arzının sekteye uğrayabileceği endişelerini artırmasıyla yüzde 2'den...Devamı için ...",
       "link": "https://www.sabah.com.tr/ekonomi/brent-petrol-100-dolari-asti-iran-abd-muzakereleri-fiyatlari-yukseltti-7671606",
@@ -47,11 +69,25 @@
       "kaynak": "SABAH"
     },
     {
+      "baslik": "ABD-İran müzakerelerine ilişkin belirsizlik Brent petrolü 100 doların üzerine taşıdı",
+      "ozet": "Brent petrolün varil fiyatı, ABD ile İran arasındaki müzakerelerin tıkandığına yönelik haber akışının çatışmaların süreceği ve petrol arzının sekteye uğrayabileceği endişelerini artırmasıyla yüzde 2'den fazla yükseler...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abd-iran-muzakerelerine-iliskin-belirsizlik-brent-petrolu-100-dolarin-uzerine-tasidi/4074755",
+      "tarih": "2026-10-01T10:25:44.000Z",
+      "kaynak": "AA"
+    },
+    {
       "baslik": "Benzine kademeli ÖTV artışı",
       "ozet": "Eşel mobil sisteminin sona erdiği benzinde kademeli Özel Tüketim Vergisi'ne geçildi. Söz konusu Cumhurbaşkanı kararı, Resmi Gazete'de yayımlandı.",
       "link": "https://www.cnnturk.com/video/ekonomi/benzine-kademeli-otv-artisi-3473468",
       "tarih": "2026-10-01T08:47:50.000Z",
       "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Çin'den yakıt ihracatına kısıtlama",
+      "ozet": "Asya'nın en büyük enerji tüketicisi olan Çinli yakıt ihracatçıları, küresel enerji piyasalarındaki uzun süreli dalgalanma döneminde iç piyasaya öncelik vermesi nedeniyle, Ekim ayında ihraç edilmesi planlanan bazı petr...",
+      "link": "https://www.bloomberght.com/cin-den-yakit-ihracatina-kisitlama-3789959",
+      "tarih": "2026-10-01T08:21:09.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "5 ilde petrol ve doğalgaz adımı! TPAO'ya dev saha için\" tam yetki\" verildi",
@@ -75,18 +111,25 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Benzinde eşel mobile kademeli sistem",
-      "ozet": "Benzinde uygulanan eşel mobil, Resmi Gazete'de yayınlanan kararla motorindeki gibi kademeli sisteme alındı. ÖTV düzenlemesi nedeniyle bugünden itibaren benzin pompa fiyatında yaklaşık 4,15 lira artış bekleniyor",
-      "link": "https://www.haberturk.com/ekonomi/son-dakika-benzindeki-esel-mobil-kademeli-sisteme-alindi-3916314",
-      "tarih": "2026-10-01T07:26:13.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Akaryakıt fiyatlarına tarihi zam yolda: Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2542658",
       "tarih": "2026-10-01T06:51:00.000Z",
       "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrol yeniden 100 doların üstünü gördü",
+      "ozet": "Sabah saatlerinde yatay seyreden brent petrolün varil fiyatı, ABD ile İran arasındaki müzakerelerin tıkandığına yönelik haber akışının çatışmaların süreceği ve petrol arzının sekteye uğrayabileceği endişelerini artırm...",
+      "link": "https://www.bloomberght.com/petrol-yeniden-100-dolarin-ustunu-gordu-3789913",
+      "tarih": "2026-10-01T04:22:15.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Trump, dizel ihracat yasağını değerlendirdiğini söyledi",
+      "ozet": "ABD Başkanı Donald Trump, dizel ihracatının yasaklanması seçeneğini değerlendirdiğini ancak bunun benzin fiyatları üzerinde olumsuz etkisinin olabileceğini belirtti.",
+      "link": "https://www.bloomberght.com/trump-dizel-ihracat-yasagini-degerlendirdigini-soyledi-3789900",
+      "tarih": "2026-10-01T03:00:10.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Eşel mobil sistemi sona erdi... ÖTV tutarları yeniden belirlendi: Benzine 4.27 lira zam geldi",
@@ -101,13 +144,6 @@
       "link": "https://www.yenisafak.com/ekonomi/esel-mobil-sistemi-sona-erdi-benzine-otv-artisi-nedeniyle-427-tl-zam-geldi-4860473",
       "tarih": "2026-09-30T21:12:21.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Akaryakıtta eşel mobil sistemi sona ererken, benzinde de kademeli çıkış modeli uygulanacak",
-      "ozet": "Akaryakıt fiyatlarındaki küresel dalgalanmaları ve kur hareketlerini tüketiciye yansıtmamak amacıyla uygulanan eşel mobil sistemi bugün itibarıyla sona ererken, ÖTV miktarı motorindekine benzer şekilde benzin için de ...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/akaryakitta-esel-mobil-sistemi-sona-ererken-benzinde-de-kademeli-cikis-modeli-uygulanacak/4074312",
-      "tarih": "2026-09-30T21:11:46.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "1 EKİM'DE BENZİN VE MOTORİNE ZAM GELECEK Mİ? Güncel akaryakıt fiyatları ve piyasadaki son gelişmeler...",
@@ -136,27 +172,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-esel-mobil-donemi-1-ekimde-sona-eriyor-pompaya-yansiyacak-3-ayri-zam-orani-belli-oldu-4860282",
       "tarih": "2026-09-30T09:26:07.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Yeni BMW 3 Serisi tanıtıldı",
-      "ozet": "BMW’nin 'neue klasse' anlayışının son temsilcisi olan yeni nesil 3 Serisi ortaya çıktı. Araçta benzinli motor seçenekleri elektrikli i3’ün yanında konumlanacak. Model, yenilenen tasarımı, hibrit destekli motorları ve ...",
-      "link": "https://www.haberturk.com/ekonomi/yeni-bmw-3-serisi-tanitildi-hem-elektrikli-hem-benzinli-olacak-3916138",
-      "tarih": "2026-09-30T09:11:19.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "ALTIN FİYATLARI 30 EYLÜL| Gram altın, çeyrek altın ve ons altın ne kadar? Kapalıçarşı altın fiyatları ne durumda?",
-      "ozet": "Altın fiyatları, 30 Eylül 2026 Çarşamba günü yatırımcıların ve altın alım satımı yapan vatandaşların gündemindeki yerini koruyor. Gram altın, çeyrek altın ve Cumhuriyet altınının güncel değerleri takip edilirken, küre...",
-      "link": "https://www.cnnturk.com/ekonomi/altin-fiyatlari-30-eylul-gram-altin-ceyrek-altin-ve-ons-altin-ne-kadar-kapalicarsi-altin-fiyatlari-ne-durumda-3473098",
-      "tarih": "2026-09-30T09:08:50.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Gram altın ne kadar oldu?",
-      "ozet": "Altın fiyatları yeni güne hareketli başladı. Gram altın, 6 bin 609 liradan işlem görürken, ons altın yüzde 4 bin 183 dolara geriledi. Piyasalarda jeopolitik gelişmeler, petrol fiyatları ve tahvil faizlerindeki hareket...",
-      "link": "https://www.haberturk.com/ekonomi/gram-altin-ne-kadar-oldu-3916099",
-      "tarih": "2026-09-30T07:33:18.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
