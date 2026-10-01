@@ -1,13 +1,12 @@
 {
-  "guncelleme": "2026-10-01T17:36:02.839Z",
+  "guncelleme": "2026-10-01T23:30:53.164Z",
   "kaynaklar": [
-    "MILLIYET",
-    "DUNYA",
-    "CUMHURIYET",
-    "SABAH",
-    "AA",
     "CNNTURK",
+    "CUMHURIYET",
+    "DUNYA",
     "BLOOMBERGHT",
+    "MILLIYET",
+    "AA",
     "STAR",
     "YENISAFAK"
   ],
@@ -15,7 +14,7 @@
     "motorin": {
       "expected": true,
       "direction": "artis",
-      "amount": 12.47,
+      "amount": 3.6,
       "tarih": "2026-10-01",
       "dogrulayanKaynakSayisi": 1,
       "kaynakBaslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
@@ -31,28 +30,49 @@
       "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355"
     },
     "lpg": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 12.47,
-      "tarih": "2026-10-01",
-      "dogrulayanKaynakSayisi": 1,
-      "kaynakBaslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
-      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355"
+      "expected": false
     }
   },
   "haberler": [
     {
-      "baslik": "Son dakika… ABD Başkanı Donald Trump: İran anlaşmazsa yok olur",
-      "ozet": "ABD Başkanı Donald Trump seçim kampanyası kapsamında Texas’a gitmeden önce gazetecilerin sorularını yanıtladı. CNN Türk ABD Temsilcisi Yunus Paksoy da oradaydı. Detayları canlı yayında anlattı. İşte Paksoy'un açıklama...",
-      "tarih": "2026-10-01T17:33:22.000Z",
+      "baslik": "Benzine kademeli ÖTV artışı",
+      "ozet": "Eşel mobil sisteminin sona erdiği benzinde kademeli Özel Tüketim Vergisi'ne geçildi. Söz konusu Cumhurbaşkanı kararı, Resmi Gazete'de yayımlandı.",
+      "link": "https://www.cnnturk.com/video/ekonomi/benzine-kademeli-otv-artisi-3473468",
+      "tarih": "2026-10-02T00:26:27.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "24 saat içinde ikinci zam! LPG 40 lirayı aştı",
+      "ozet": "Eşel mobil sisteminin sona ermesiyle LPG’ye 1 Ekim’de 1,45 lira zam gelmişti. Otogaza ÖTV artışının ardından 4,65 lira daha zam geldi. Ankara, İstanbul ve İzmir’de otogaz fiyatları 40 lirayı geçti.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/24-saat-icinde-ikinci-zam-lpg-40-lirayi-asti-2542947",
+      "tarih": "2026-10-01T21:50:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "İran: Hürmüz Boğazı'nda son günlerde hedef alınan 3 petrol tankeri BAE bağlantılı",
+      "ozet": "İran'ın Hürmüz Boğazı'ndaki geçişleri düzenlemek amacıyla kurduğu \"Fars Körfezi Su Yolu İdaresi\", son günlerde bölgede hedef alınan 3 petrol tankerinin Birleşik Arap Emirlikleri (BAE) bağlantılı olduğunu açıkladı.",
+      "link": "https://www.dunya.com/dunya/iran-hurmuz-bogazinda-son-gunlerde-hedef-alinan-3-petrol-tankeri-bae-baglantili-haberi-842270",
+      "tarih": "2026-10-01T21:39:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "İran: Hürmüz'de hedef alınan 3 tanker BAE bağlantılı",
+      "ozet": "İran, Hürmüz Boğazı'nda hedef alınan BAE bağlantılı 3 petrol tankerinin, \"İran'ın onayı olmadan geçiş yapmaya çalıştıkları\" gerekçesiyle iki ay önce kara listeye alındığını açıkladı.",
+      "link": "https://www.bloomberght.com/iran-hurmuz-de-hedef-alinan-3-tanker-bae-baglantili-3790049",
+      "tarih": "2026-10-01T20:14:52.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Putin Avrupa'yı bir kez daha tehdit etti: Sahip olduğumuz silahlar kimsede yok",
+      "ozet": "Rusya Devlet Başkanı Vladimir Putin, Avrupa'ya saldırmayı planlamadıklarını belirterek, \"Rusya'ya Kaliningrad dahil doğrudan saldırı söz konusu olursa, ülkemizin sahip olduğu tüm silahların kullanılması meselesi kaçın...",
+      "tarih": "2026-10-01T19:47:55.000Z",
       "kaynak": "MILLIYET"
     },
     {
-      "baslik": "IMF'den kritik uyarı: Manşet enflasyonu besleyen enerji şoku henüz bitmedi",
-      "ozet": "IMF Sözcüsü Julie Kozack, petrol ve gaz fiyatlarının yüksek seyretmeye devam ettiğini belirterek, manşet enflasyonu besleyen enerji şokunun henüz sona ermediğini ve bazı ülkelerde dezenflasyon sürecinin duraksadığını ...",
-      "link": "https://www.dunya.com/ekonomi/imfden-kritik-uyari-manset-enflasyonu-besleyen-enerji-soku-henuz-bitmedi-haberi-842259",
-      "tarih": "2026-10-01T17:25:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Son dakika… ABD Başkanı Donald Trump: İran anlaşmazsa yok olur",
+      "ozet": "ABD Başkanı Donald Trump seçim kampanyası kapsamında Texas’a gitmeden önce gazetecilerin sorularını yanıtladı. CNN Türk ABD Temsilcisi Yunus Paksoy da oradaydı. Detayları canlı yayında anlattı. İşte Paksoy'un açıklama...",
+      "tarih": "2026-10-01T18:27:38.000Z",
+      "kaynak": "MILLIYET"
     },
     {
       "baslik": "Motorinden sonra benzine de 'kaynayan kurbağa' modeli: Taksitli zam dönemi başladı",
@@ -62,25 +82,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Brent petrol 100 doları aştı: İran-ABD müzakereleri fiyatları yükseltti",
-      "ozet": "Brent petrolün varil fiyatı, ABD ile İran arasındaki müzakerelerin tıkandığına yönelik haber akışının çatışmaların süreceği ve petrol arzının sekteye uğrayabileceği endişelerini artırmasıyla yüzde 2'den...Devamı için ...",
-      "link": "https://www.sabah.com.tr/ekonomi/brent-petrol-100-dolari-asti-iran-abd-muzakereleri-fiyatlari-yukseltti-7671606",
-      "tarih": "2026-10-01T10:29:12.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "ABD-İran müzakerelerine ilişkin belirsizlik Brent petrolü 100 doların üzerine taşıdı",
       "ozet": "Brent petrolün varil fiyatı, ABD ile İran arasındaki müzakerelerin tıkandığına yönelik haber akışının çatışmaların süreceği ve petrol arzının sekteye uğrayabileceği endişelerini artırmasıyla yüzde 2'den fazla yükseler...",
       "link": "https://www.aa.com.tr/tr/ekonomi/abd-iran-muzakerelerine-iliskin-belirsizlik-brent-petrolu-100-dolarin-uzerine-tasidi/4074755",
       "tarih": "2026-10-01T10:25:44.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Benzine kademeli ÖTV artışı",
-      "ozet": "Eşel mobil sisteminin sona erdiği benzinde kademeli Özel Tüketim Vergisi'ne geçildi. Söz konusu Cumhurbaşkanı kararı, Resmi Gazete'de yayımlandı.",
-      "link": "https://www.cnnturk.com/video/ekonomi/benzine-kademeli-otv-artisi-3473468",
-      "tarih": "2026-10-01T08:47:50.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Çin'den yakıt ihracatına kısıtlama",
@@ -116,20 +122,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2542658",
       "tarih": "2026-10-01T06:51:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol yeniden 100 doların üstünü gördü",
-      "ozet": "Sabah saatlerinde yatay seyreden brent petrolün varil fiyatı, ABD ile İran arasındaki müzakerelerin tıkandığına yönelik haber akışının çatışmaların süreceği ve petrol arzının sekteye uğrayabileceği endişelerini artırm...",
-      "link": "https://www.bloomberght.com/petrol-yeniden-100-dolarin-ustunu-gordu-3789913",
-      "tarih": "2026-10-01T04:22:15.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Trump, dizel ihracat yasağını değerlendirdiğini söyledi",
-      "ozet": "ABD Başkanı Donald Trump, dizel ihracatının yasaklanması seçeneğini değerlendirdiğini ancak bunun benzin fiyatları üzerinde olumsuz etkisinin olabileceğini belirtti.",
-      "link": "https://www.bloomberght.com/trump-dizel-ihracat-yasagini-degerlendirdigini-soyledi-3789900",
-      "tarih": "2026-10-01T03:00:10.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Eşel mobil sistemi sona erdi... ÖTV tutarları yeniden belirlendi: Benzine 4.27 lira zam geldi",
@@ -227,13 +219,6 @@
       "ozet": "Motorinin litre fiyatına yarından itibaren zam gelmesi bekleniyor. Petrol piyasalarında yaşanan hareketlilik akaryakıt fiyatlarına yansırken, zamla birlikte motorin fiyatlarının yeniden yükselmesi öngörülüyor. Yakın z...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-yeni-zam-yolda-litresi-yeniden-90-liranin-uzerine-cikacak-2540531",
       "tarih": "2026-09-24T06:41:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2540507",
-      "tarih": "2026-09-24T06:09:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
