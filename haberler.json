@@ -1,22 +1,17 @@
 {
-  "guncelleme": "2026-10-02T08:39:39.167Z",
+  "guncelleme": "2026-10-02T16:54:57.888Z",
   "kaynaklar": [
-    "CNNTURK",
-    "DUNYA",
-    "CUMHURIYET",
-    "YENISAFAK",
     "MILLIYET",
-    "BLOOMBERGHT"
+    "DUNYA",
+    "AA",
+    "BLOOMBERGHT",
+    "CNNTURK",
+    "CUMHURIYET",
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 2.22,
-      "tarih": "2026-10-03",
-      "dogrulayanKaynakSayisi": 1,
-      "kaynakBaslik": "Akaryakıtta tabela değişiyor: Bu kez indirim geliyor",
-      "kaynakLink": "https://www.dunya.com/ekonomi/akaryakitta-tabela-degisiyor-bu-kez-indirim-geliyor-haberi-842293"
+      "expected": false
     },
     "benzin": {
       "expected": false
@@ -27,6 +22,46 @@
   },
   "haberler": [
     {
+      "baslik": "Bakan Bayraktar Irak Petrol Bakanı Hüdeyir ile görüştü: Ceyhan küresel enerji üssü haline gelecek",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Petrol Bakanı Basim Muhammed Hüdeyir ve beraberindeki heyet ile Bakanlıkta görüştü. Görüşmeye ilişkin sosyal medya hesaplarından açıklama yapan Bakan Bayrakta...",
+      "tarih": "2026-10-02T16:17:15.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Son dakika... Trump: Avrupa 'çok büyük miktarda' dizel yakıt stoğunu serbest bırakmayı kabul etti",
+      "ozet": "ABD Başkanı Donald Trump, İran Savaşı nedeniyle baş gösteren akaryakıt krizi hakkında yeni bir açıklama yaptı. Trump, sosyal medyadan yaptığı paylaşımda \"Avrupa, stokladığı dizel yakıtın büyük bir kısmını serbest bıra...",
+      "tarih": "2026-10-02T16:12:15.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "G7’den petrol ve dizel kararı: 100 milyon varil petrol ve dizeli piyasaya sürecek",
+      "ozet": "G7 ülkeleri, küresel enerji piyasalarını istikrara kavuşturmak amacıyla IEA koordinasyonunda rezervlerindeki petrol ve dizelden toplam 100 milyon varili dört ay içinde piyasaya sürme kararı aldı.",
+      "link": "https://www.dunya.com/dunya/g7den-petrol-ve-dizel-karari-100-milyon-varil-petrol-ve-dizeli-piyasaya-surecek-haberi-842374",
+      "tarih": "2026-10-02T15:41:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "G7, rezervlerinden 100 milyon varil petrol ve dizeli piyasaya sürecek",
+      "ozet": "G7 ülkelerinin liderleri, küresel enerji piyasalarını istikrara kavuşturmak amacıyla Uluslararası Enerji Ajansı (IEA) koordinasyonunda dizel ve diğer petrol rezervlerinden toplam 100 milyon varilin 4 ay içinde serbest...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/g7-rezervlerinden-100-milyon-varil-petrol-ve-dizeli-piyasaya-surecek/4076373",
+      "tarih": "2026-10-02T15:25:48.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Mazota indirime geldi mi, benzine zam gelecek mi?",
+      "ozet": "Brent petrol bugün set düştü. Brent 103 dolardan 98 dolara inerken benzin ve mazota indirim gelip gelmeyeceği merak ediliyor. Araç sahipleri \"Mazota indirime geldi mi, benzine zam gelecek mi\" diye soruyor.",
+      "link": "https://www.dunya.com/ekonomi/mazota-indirime-geldi-mi-benzine-zam-gelecek-mi-haberi-842363",
+      "tarih": "2026-10-02T14:34:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "G7 piyasaya 100 milyon varil dizel ve petrol sürecek",
+      "ozet": "G7 ülkeleri, artan yakıt fiyatlarını dizginlemek amacıyla acil durum petrol ve dizel stoklarından 100 milyon varile varan miktarda serbest bırakacak.",
+      "link": "https://www.bloomberght.com/g7-piyasaya-100-milyon-varil-dizel-ve-petrol-surecek-3790219",
+      "tarih": "2026-10-02T14:12:09.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "SON DAKİKA | Akaryakıtta tabela değişiyor: Motorine indirim",
       "ozet": "Petrol fiyatlarındaki dalgalı seyir akaryakıt fiyatlarına da yansımaya devam ediyor.",
       "link": "https://www.cnnturk.com/ekonomi/son-dakika-akaryakitta-tabela-degisiyor-motorine-indirim-3473882",
@@ -34,11 +69,11 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Borsada çöküş gelirse ne yapmalı? 106 yıllık veriden dikkat çeken sonuç",
-      "ozet": "BIST 100 yükselişini sürdürürken küresel piyasalarda tahvil faizleri, petrol ve enflasyon kaynaklı riskler düşüş endişelerini canlı tutuyor. Peki sert bir satış dalgası gelirse yatırımcı ne yapmalı? S&P 500'ün 106 yıl...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/borsada-cokus-gelirse-ne-yapmali-106-yillik-veriden-dikkat-ceken-sonuc-galeri-842312",
-      "tarih": "2026-10-02T08:15:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Fransa'dan dizel rezervlerinin serbest bırakılması için yeni öneri",
+      "ozet": "Fransa'nın, artan ham petrol ve dizel fiyatlarını baskılamak amacıyla rezervlerin serbest bırakılması için yeni öneri sunduğu bildirildi.",
+      "link": "https://www.bloomberght.com/fransa-dan-dizel-rezervlerinin-serbest-birakilmasi-icin-yeni-oneri-3790151",
+      "tarih": "2026-10-02T09:05:58.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
@@ -55,45 +90,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Avrupa enerji şokuna 17,9 milyar euro harcadı: Türkiye’nin ana pazarında baskı büyüyor",
-      "ozet": "AB ülkeleri, yükselen petrol ve doğal gaz fiyatlarının hanehalkı ve şirketlere etkisini azaltmak için 17,9 milyar euroluk destek devreye aldı. Türkiye ihracatının yüzde 43’ünü yaptığı Avrupa’da enerji baskısı büyüme g...",
-      "link": "https://www.dunya.com/ekonomi/avrupa-enerji-sokuna-179-milyar-euro-harcadi-turkiyenin-ana-pazarinda-baski-buyuyor-haberi-842303",
-      "tarih": "2026-10-02T07:19:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Petrol fiyatları 102 doları aştı: Çin'in tek imzası vanaları kilitledi",
       "ozet": "Brent petrolün varil fiyatı yükselirken, küresel yakıt arzına ilişkin endişeler piyasaların odağında kalmayı sürdürüyor. Çin’in yakıt ihracatına yönelik kısıtlamaları ve ABD’nin Avrupa ülkelerinden acil durum dizel st...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-102-dolari-asti-cin-in-tek-imzasi-vanalari-kilitledi-2542992",
       "tarih": "2026-10-02T07:15:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Türkiye'nin LPG maliyetine dışarıdan baskı: Referans fiyat yüzde 23 arttı",
-      "ozet": "Cezayirli Sonatrach, ekim için propan fiyatını ton başına 670 dolara, bütanı 750 dolara çıkardı. Türkiye’nin temmuzda en fazla LPG ithal ettiği ülke olan Cezayir’in fiyatları Akdeniz ve Türkiye piyasasında referans ol...",
-      "link": "https://www.dunya.com/ekonomi/turkiyenin-lpg-maliyetine-disaridan-baski-referans-fiyat-yuzde-23-artti-haberi-842297",
-      "tarih": "2026-10-02T06:50:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "ABD'nin Orta Doğu'daki konuşlanması ilerliyor: 10 bin asker yolda",
-      "ozet": "ABD ordusu, Başkan Donald Trump’ın İran’a yönelik yeni saldırıların ufukta olabileceği uyarısında bulunmasının ardından, Ortadoğu’ya üçüncü bir uçak gemisi saldırı grubunu ve ek deniz piyadelerini gönderiyor. Uzman bi...",
-      "tarih": "2026-10-02T06:49:45.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Petrol piyasasında yeni kriz kapıda: İran’ın varilleri kayboluyor",
-      "ozet": "İran petrolünün en büyük alıcısı Çin'e sevkiyatlar sert biçimde gerilerken, Pekin'in toparlanan talebi küresel petrol piyasasında yeni bir rekabet başlattı. Çinli rafineriler alternatif tedarikçilere yönelirken, İran'...",
-      "link": "https://www.dunya.com/ekonomi/petrol-piyasasinda-yeni-kriz-kapida-iranin-varilleri-kayboluyor-haberi-842298",
-      "tarih": "2026-10-02T06:32:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Akaryakıtta tabela değişiyor: Bu kez indirim geliyor",
-      "ozet": "Petrol fiyatlarındaki dalgalanma akaryakıt fiyatlarına yansımaya devam ediyor. Sektör kaynaklarına göre motorinin litre fiyatında 3 Ekim Cumartesi (yarın) gününden itibaren indirim beklenirken, benzinde fiyat değişikl...",
-      "link": "https://www.dunya.com/ekonomi/akaryakitta-tabela-degisiyor-bu-kez-indirim-geliyor-haberi-842293",
-      "tarih": "2026-10-02T06:31:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Motorin fiyatında değişim beklentisi: İndirim gündemde",
@@ -145,13 +146,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "İran: Hürmüz'de hedef alınan 3 tanker BAE bağlantılı",
-      "ozet": "İran, Hürmüz Boğazı'nda hedef alınan BAE bağlantılı 3 petrol tankerinin, \"İran'ın onayı olmadan geçiş yapmaya çalıştıkları\" gerekçesiyle iki ay önce kara listeye alındığını açıkladı.",
-      "link": "https://www.bloomberght.com/iran-hurmuz-de-hedef-alinan-3-tanker-bae-baglantili-3790049",
-      "tarih": "2026-10-01T20:14:52.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Motorinden sonra benzine de 'kaynayan kurbağa' modeli: Taksitli zam dönemi başladı",
       "ozet": "Milyonlarca araç sahibini ve lojistik sektörünü doğrudan etkileyen akaryakıt fiyatlarında tüketicide yaşanacak şoku ötelemeyi hedefleyen \"kademeli zam\" modeli devreye girdi. Motorinde uygulanan parça parça ÖTV ayarlam...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorinden-sonra-benzine-de-kaynayan-kurbaga-modeli-taksitli-zam-donemi-basladi-2542780",
@@ -187,31 +181,10 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Eşel mobil sistemi sona erdi: Benzine ÖTV artışı nedeniyle 4,27 TL zam geldi",
-      "ozet": "Akaryakıt fiyatlarındaki küresel dalgalanmalar ve kur hareketlerinin tüketiciye yansımasını sınırlamak amacıyla uygulanan eşel mobil sistemi bugün itibarıyla sona erdi. Sistemin devreden çıkmasıyla birlikte ÖTV artışı...",
-      "link": "https://www.yenisafak.com/ekonomi/esel-mobil-sistemi-sona-erdi-benzine-otv-artisi-nedeniyle-427-tl-zam-geldi-4860473",
-      "tarih": "2026-09-30T21:12:21.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "1 EKİM'DE BENZİN VE MOTORİNE ZAM GELECEK Mİ? Güncel akaryakıt fiyatları ve piyasadaki son gelişmeler...",
       "ozet": "Akaryakıt fiyatları, 1 Ekim 2026 öncesinde araç sahiplerinin en çok takip ettiği başlıklar arasında yer alıyor. Eşel Mobil sisteminin sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında nasıl bir değişiklik ya...",
       "link": "https://www.cnnturk.com/ekonomi/1-ekimde-benzin-motorin-ve-lpgye-zam-gelecek-mi-30-eylul-2026-guncel-akaryakit-fiyatlari-ve-piyasadaki-son-gelismeler-3473125",
       "tarih": "2026-09-30T18:53:20.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "TÜPRAŞ 2. TAKSİT TEMETTÜ ÖDEME TARİHİ BELLİ OLDU! TÜPRAŞ Temettü Ödemesi Ne Zaman Hesaplara Yatacak? TUPRS Temettü Takvimi",
-      "ozet": "TÜPRAŞ 2. taksit temettü ödeme tarihi, TUPRS temettü ne zaman yatacak, TÜPRAŞ temettü ödemesi, TUPRS kar payı, Borsa İstanbul temettü, TÜPRAŞ hisse başı temettü, TUPRS yatırımcıları, temettü takvimi yatırımcıların yak...",
-      "link": "https://www.cnnturk.com/ekonomi/tupras-2-taksit-temettu-odeme-tarihi-belli-oldu-tupras-temettu-odemesi-ne-zaman-hesaplara-yatacak-tuprs-temettu-takvimi-3473352",
-      "tarih": "2026-09-30T17:24:09.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "BENZİNE NE ZAMAN ZAM GELECEK? Benzinde Çifte Zam Kapıda mı? Benzin Fiyatları Kaç TL Olacak? Eşel Mobil Sona Eriyor! İşte Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları",
-      "ozet": "Benzine ne zaman zam gelecek, benzin zammı 2026, güncel akaryakıt fiyatları, motorin fiyatları, LPG fiyatları, akaryakıt zammı, eşel mobil uygulaması, benzin litre fiyatı başlıkları araç sahiplerinin gündeminde ilk sı...",
-      "link": "https://www.cnnturk.com/ekonomi/benzine-ne-zaman-zam-gelecek-benzinde-cifte-zam-kapida-mi-benzin-fiyatlari-kac-tl-olacak-esel-mobil-sona-eriyor-iste-benzin-mazot-3472002",
-      "tarih": "2026-09-30T14:24:27.000Z",
       "kaynak": "CNNTURK"
     },
     {
