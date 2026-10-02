@@ -1,13 +1,14 @@
 {
-  "guncelleme": "2026-10-02T16:54:57.888Z",
+  "guncelleme": "2026-10-02T23:21:43.744Z",
   "kaynaklar": [
+    "YENISAFAK",
     "MILLIYET",
-    "DUNYA",
-    "AA",
     "BLOOMBERGHT",
     "CNNTURK",
-    "CUMHURIYET",
-    "YENISAFAK"
+    "AA",
+    "STAR",
+    "SABAH",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -22,6 +23,60 @@
   },
   "haberler": [
     {
+      "baslik": "Trump petrol fiyatlarına ilişkin konuştu: 'Eski seviyesine düşecek'",
+      "ozet": "ABD Başkanı Donald Trump, Tahran ile yaşanan gerilimin çözülmesinin uzun sürmeyeceğini belirterek, \"İran meselesi çözüldüğü anda petrol fiyatları eski seviyesine, hatta belki de daha aşağısına düşecek\" dedi.",
+      "link": "https://www.yenisafak.com/ekonomi/trump-petrol-fiyatlarina-iliskin-konustu-eski-seviyesine-dusecek-4861107",
+      "tarih": "2026-10-02T21:05:31.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Trump, CNN Türk'e konuştu: Erdoğan yakın dostum, CAATSA'da engel yok",
+      "ozet": "ABD Başkanı Donald Trump, geçtiğimiz Temmuz ayında NATO zirvesinde CAATSA yaptırımlarının kaldırılmasının zamanı geldiğinin altını çizerek \"Dostlarımıza yaptırım uygulamak istemiyoruz\" açıklamasında bulunmuştu. Bugün ...",
+      "tarih": "2026-10-02T21:03:37.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Trump: İran meselesi çözülünce petrol fiyatları düşecek",
+      "ozet": "ABD Başkanı Donald Trump, İran'la yaşanan sorunun çözülmesinin ardından petrol fiyatlarının eski seviyelerine, hatta daha aşağıya gerileyebileceğini belirterek, dizel ihracatına yasak getirilmeyeceğini söyledi.",
+      "link": "https://www.bloomberght.com/trump-iran-meselesi-cozulunce-petrol-fiyatlari-dusecek-3790263",
+      "tarih": "2026-10-02T20:58:36.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Yeni dünyada güçlü kalmanın şifresi ne? İşte savaşların seyrini değiştirecek 7 sektör",
+      "ozet": "Dünya bitmeyen savaşlar döneminde. Ülkelerin ayakta kalabilmeleri 7 alanda gösterdikleri gelişmeyle doğru orantılı olacak. SAVUNMA SANAYİİ O stratejik alanlardan ilki savunma sanayii. Kendi silah ve savunma sistemleri...",
+      "tarih": "2026-10-02T20:36:13.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Türkiye ile Irak arasında yoğun enerji diplomasisi: Bakan Bayraktar, Irak Petrol Bakanı Hüdeyir ile görüştü",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Petrol Bakanı Basim Muhammed Hüdeyir ve beraberindeki heyet ile Bakanlıkta görüştü. Görüşmeye ilişkin sosyal medya hesaplarından açıklama yapan Bakan Bayrakta...",
+      "link": "https://www.cnnturk.com/ekonomi/turkiye-ile-irak-arasinda-yogun-enerji-diplomasisi-bakan-bayraktar-irak-petrol-bakani-hudeyir-ile-gorustu-3474175",
+      "tarih": "2026-10-02T20:03:13.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Enerji Bakanı Bayraktar, Irak Petrol Bakanı Hüdeyir ile görüştü",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Petrol Bakanı Basim Muhammed Hüdeyir ve beraberindeki heyetle enerjide uzun dönemli ve kapsamlı işbirliği olanaklarını değerlendirdiklerini bildirdi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/enerji-bakani-bayraktar-irak-petrol-bakani-hudeyir-ile-gorustu/4076449",
+      "tarih": "2026-10-02T17:08:00.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Kerkük, Ankara'nın iştahını kabarttı! Türkiye, Irak'ın petrol sahalarına talip oldu: Ceyhan küresel enerji üssü olacak",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Petrol Bakanı Basim Muhammed Hüdeyir ve beraberindeki heyetle bir raya geldi. Kerkük-Ceyhan boru hattının Basra'ya kadar uzatılıp kapasitesinin artırılmasını ...",
+      "link": "https://www.star.com.tr/ekonomi/kerkuk-ankaranin-istahini-kabartti-turkiye-irakin-petrol-sahalarina-talip-oldu-ceyhan-kure-haber-2044053/",
+      "tarih": "2026-10-02T16:59:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Bakan Bayraktar, Irak Petrol Bakanı Hüdeyir ile görüştü",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Petrol Bakanı Basim Muhammed Hüdeyir ve beraberindeki heyetle enerjide uzun dönemli ve kapsamlı işbirliği olanaklarını değerlendirdiklerini bildirdi...Devamı ...",
+      "link": "https://www.sabah.com.tr/ekonomi/bakan-bayraktar-irak-petrol-bakani-hudeyir-ile-gorustu-7672472",
+      "tarih": "2026-10-02T16:50:38.000Z",
+      "kaynak": "SABAH"
+    },
+    {
       "baslik": "Bakan Bayraktar Irak Petrol Bakanı Hüdeyir ile görüştü: Ceyhan küresel enerji üssü haline gelecek",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Petrol Bakanı Basim Muhammed Hüdeyir ve beraberindeki heyet ile Bakanlıkta görüştü. Görüşmeye ilişkin sosyal medya hesaplarından açıklama yapan Bakan Bayrakta...",
       "tarih": "2026-10-02T16:17:15.000Z",
@@ -34,25 +89,11 @@
       "kaynak": "MILLIYET"
     },
     {
-      "baslik": "G7’den petrol ve dizel kararı: 100 milyon varil petrol ve dizeli piyasaya sürecek",
-      "ozet": "G7 ülkeleri, küresel enerji piyasalarını istikrara kavuşturmak amacıyla IEA koordinasyonunda rezervlerindeki petrol ve dizelden toplam 100 milyon varili dört ay içinde piyasaya sürme kararı aldı.",
-      "link": "https://www.dunya.com/dunya/g7den-petrol-ve-dizel-karari-100-milyon-varil-petrol-ve-dizeli-piyasaya-surecek-haberi-842374",
-      "tarih": "2026-10-02T15:41:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "G7, rezervlerinden 100 milyon varil petrol ve dizeli piyasaya sürecek",
       "ozet": "G7 ülkelerinin liderleri, küresel enerji piyasalarını istikrara kavuşturmak amacıyla Uluslararası Enerji Ajansı (IEA) koordinasyonunda dizel ve diğer petrol rezervlerinden toplam 100 milyon varilin 4 ay içinde serbest...",
       "link": "https://www.aa.com.tr/tr/ekonomi/g7-rezervlerinden-100-milyon-varil-petrol-ve-dizeli-piyasaya-surecek/4076373",
       "tarih": "2026-10-02T15:25:48.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Mazota indirime geldi mi, benzine zam gelecek mi?",
-      "ozet": "Brent petrol bugün set düştü. Brent 103 dolardan 98 dolara inerken benzin ve mazota indirim gelip gelmeyeceği merak ediliyor. Araç sahipleri \"Mazota indirime geldi mi, benzine zam gelecek mi\" diye soruyor.",
-      "link": "https://www.dunya.com/ekonomi/mazota-indirime-geldi-mi-benzine-zam-gelecek-mi-haberi-842363",
-      "tarih": "2026-10-02T14:34:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "G7 piyasaya 100 milyon varil dizel ve petrol sürecek",
@@ -109,13 +150,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-indirim-yolda-tabelalar-bu-gece-degisecek-2542962",
       "tarih": "2026-10-02T06:20:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol, Çin'in yakıt ihracatını kısıtlamasıyla yükseldi",
-      "ozet": "Petrol, Çin'in yakıt ihracatını durdurması ve ABD'nin Orta Doğu'ya daha fazla asker ile uçak gemisi göndermeye hazırlandığı haberlerinin etkisiyle Cuma günü hafif yükseldi.",
-      "link": "https://www.bloomberght.com/petrol-cinin-yakit-ihracatini-kisitlamasiyla-yukseldi-3790056",
-      "tarih": "2026-10-02T03:25:51.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Bir gecede 12.48 lira artış yapmak yerine 3 aylık döneme yayıldı: Alıştıra alıştıra zam",
