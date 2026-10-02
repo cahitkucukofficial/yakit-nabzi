@@ -307,12 +307,24 @@ async function beklentiCikarBirHaberden(haber) {
   return sonuc;
 }
 
+function tarihGecmisMi(isoTarih) {
+  // "Bugun" UTC gun basi ile karsilastiriyoruz (tarih alani zaten UTC
+  // gun-basi olarak uretiliyor, bkz. turkceTarihiCoz). Yururluk tarihi
+  // bugunden ONCEYSE, bu artik "beklenen" bir degisiklik degil - ya
+  // gerceklesti ya da haber eskidi, "bekleniyor" demek anlamsiz olur.
+  const [y, m, d] = isoTarih.split("-").map(Number);
+  const yururluk = Date.UTC(y, m - 1, d);
+  const bugun = new Date();
+  const bugunUTC = Date.UTC(bugun.getUTCFullYear(), bugun.getUTCMonth(), bugun.getUTCDate());
+  return yururluk < bugunUTC;
+}
+
 async function beklentileriBirlestir(haberler) {
   const adaylar = { motorin: [], benzin: [], lpg: [] };
   for (const h of haberler) {
     const cikanlar = await beklentiCikarBirHaberden(h);
     for (const c of cikanlar) {
-      if (adaylar[c.urun]) adaylar[c.urun].push(c);
+      if (adaylar[c.urun] && !tarihGecmisMi(c.tarih)) adaylar[c.urun].push(c);
     }
   }
   const sonuc = {};
