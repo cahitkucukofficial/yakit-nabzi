@@ -1634,10 +1634,11 @@ function App() {
         .next-change-card{ background:var(--panel); border-radius:var(--radius-card); border:var(--card-border); padding:18px 18px 16px; }
         .next-change-top{ display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:nowrap; margin-bottom:10px; }
         .next-change-fuel{ font-size:26px; font-weight:400; letter-spacing:0.2px; font-family:var(--font-poster); flex-shrink:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-        .next-change-tutar{ display:flex; align-items:center; gap:5px; font-size:28px; font-weight:800; font-family:var(--font-mono); flex-shrink:0; white-space:nowrap; }
-        .nc-trend-icon{ width:19px; height:19px; flex-shrink:0; }
+        .next-change-tutar{ display:flex; align-items:center; gap:4px; font-size:19px; font-weight:800; font-family:var(--font-mono); flex-shrink:0; white-space:nowrap; }
+        .nc-trend-icon{ width:14px; height:14px; flex-shrink:0; }
         .nc-trend-icon.flip{ transform:scaleY(-1); }
-        .next-change-beklenti-row{ display:flex; align-items:center; gap:7px; font-size:16px; font-weight:700; font-family:var(--font-body); margin-bottom:6px; }
+        .next-change-beklenti-row{ display:flex; align-items:center; gap:6px; font-size:13px; font-weight:700; font-family:var(--font-body); margin-bottom:5px; }
+        .next-change-beklenti-row svg{ width:15px; height:15px; }
         .next-change-beklenti-row svg{ flex-shrink:0; }
         .next-change-date-row{ display:flex; align-items:center; gap:7px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
         .next-change-date-row svg{ flex-shrink:0; color:var(--metin-silik); }
