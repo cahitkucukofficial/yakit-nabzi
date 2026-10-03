@@ -318,7 +318,7 @@ const THEMES = {
     vars: {
       "--sayfa": "#F2E4C8", "--panel": "#FFF7E6", "--panel-2": "#EAD9B0", "--panel-3": "#DEC98F",
       "--kenar": "#C9AE7C", "--aksan": "#B5432A",
-      "--motorin": "#3D2A17", "--benzin": "#E08B22", "--lpg": "#2E6E6E", "--zam": "#B5432A", "--indirim": "#2E6E6E",
+      "--motorin": "#3D2A17", "--benzin": "#E08B22", "--lpg": "#2E6E6E", "--zam": "#B5432A", "--indirim": "#2E7D52",
       "--bilgi": "#8B5E3C", "--notr": "#8a6640", "--metin": "#3D2A17", "--metin-soluk": "#8a6640", "--metin-silik": "#B79A6E",
       "--vurgu-panel": "#5A3212", "--vurgu-panel-alt": "#6E4420", "--vurgu-panel-metin": "#FFF3DD", "--vurgu-panel-metin-soluk": "#D9B98A",
       "--font-display": "'Fraunces',serif", "--font-body": "'Manrope',sans-serif",
@@ -346,7 +346,7 @@ const THEMES = {
     vars: {
       "--sayfa": "#DCD3B8", "--panel": "#F3ECD9", "--panel-2": "#DACD9F", "--panel-3": "#CBBB8C",
       "--kenar": "#BBAA78", "--aksan": "#F2C230",
-      "--motorin": "#0F1D3D", "--benzin": "#C08A34", "--lpg": "#5C7A67", "--zam": "#8C3B2E", "--indirim": "#5C7A67",
+      "--motorin": "#0F1D3D", "--benzin": "#C08A34", "--lpg": "#5C7A67", "--zam": "#8C3B2E", "--indirim": "#2F7A4F",
       "--bilgi": "#3E5C76", "--notr": "#8F8570", "--metin": "#0F1D3D", "--metin-soluk": "#5B5340", "--metin-silik": "#B7AC94",
       "--vurgu-panel": "#0F1D3D", "--vurgu-panel-alt": "#1C2F55", "--vurgu-panel-metin": "#F8F1DD", "--vurgu-panel-metin-soluk": "#B9C2D9",
       "--font-display": "'Fraunces',serif", "--font-body": "'Manrope',sans-serif",
@@ -1587,7 +1587,7 @@ function App() {
         .app-root{
           --sayfa:#DCD3B8; --panel:#F3ECD9; --panel-2:#DACD9F; --panel-3:#CBBB8C;
           --kenar:#BBAA78; --aksan:#F2C230;
-          --motorin:#0F1D3D; --benzin:#C08A34; --lpg:#5C7A67; --zam:#8C3B2E; --indirim:#5C7A67;
+          --motorin:#0F1D3D; --benzin:#C08A34; --lpg:#5C7A67; --zam:#8C3B2E; --indirim:#2F7A4F;
           --bilgi:#3E5C76; --notr:#8F8570; --metin:#0F1D3D; --metin-soluk:#5B5340; --metin-silik:#B7AC94;
           --vurgu-panel:#0F1D3D; --vurgu-panel-alt:#1C2F55; --vurgu-panel-metin:#F8F1DD; --vurgu-panel-metin-soluk:#B9C2D9;
           --font-display:'Fraunces',serif; --font-body:'Manrope',sans-serif; --font-mono:'JetBrains Mono',monospace; --font-poster:'Oswald',sans-serif;
