@@ -1079,7 +1079,7 @@ function KaynakContent() {
         </div>
         <div className="ios-row text-row">
           EPDK ilçe bazında ayrı bir bildirim yayınlamıyor. Bu yüzden ilçe fiyatları,
-          ilin medyan fiyatına ilçe adından türetilen küçük (±0,15 TL), sabit ve
+          ilin medyan fiyatına ilçe adından türetilen çok küçük (±0,01 TL), sabit ve
           rastgele olmayan bir sapma eklenerek hesaplanır. Bu gerçek bir ilçe farkı
           değildir — kartlarda "Tahmini" etiketiyle açıkça belirtilir.
         </div>
