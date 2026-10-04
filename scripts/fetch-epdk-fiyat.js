@@ -601,7 +601,10 @@ async function main() {
     }
     return hash;
   }
-  const ILCE_OFSET_TL = 0.15; // maksimum sapma (+/- bu deger), TL
+  // Maksimum sapma (+/- bu deger), TL. 0.01 = en fazla 1 kurus: ilce fiyatlari
+  // il medyaninin en fazla 1 kurus alti/ustunde olur (kullanici istegi: sapma az
+  // olsun, buyuk farklar yapay gorunmesin).
+  const ILCE_OFSET_TL = 0.01;
 
   function ilceOfsetiUygula(medyan, ilceAdi, urunAdi) {
     if (typeof medyan !== "number") return medyan;
