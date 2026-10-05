@@ -1,9 +1,10 @@
 {
-  "guncelleme": "2026-10-04T16:03:17.995Z",
+  "guncelleme": "2026-10-05T02:38:49.119Z",
   "kaynaklar": [
-    "CNNTURK",
-    "DUNYA",
     "YENISAFAK",
+    "MILLIYET",
+    "DUNYA",
+    "CNNTURK",
     "CUMHURIYET",
     "HABERTURK",
     "BLOOMBERGHT"
@@ -21,18 +22,44 @@
   },
   "haberler": [
     {
+      "baslik": "Irak ile enerjide yeni yol haritası",
+      "ozet": "Türkiye ile Irak, enerjide bir yıllık petrol taşıma anlaşmasının ötesine geçerek kapsamlı bir iş birliği için teknik çalışma başlatıyor. İki ülkenin oluşturacağı ortak çalışma grupları, petrol ve doğal gaz altyapısı, ...",
+      "link": "https://www.yenisafak.com/ekonomi/irak-ile-enerjide-yeni-yol-haritasi-4861528",
+      "tarih": "2026-10-05T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Pahalı yakıt LPG’ye ilgiyi artırdı",
+      "ozet": "Pahalı benzin ve dizel yakıtı vatandaşları LPG’li otomobillere yönlendiriyor. Pompa fiyatı şu an 35 lira civarında olan LPG yakıtının otomobillerdeki tasarrufuna dikkat çeken MAİS Genel Müdür Yardımcısı Levent Timur, ...",
+      "link": "https://www.yenisafak.com/ekonomi/pahali-yakit-lpgye-ilgiyi-artirdi-4861530",
+      "tarih": "2026-10-05T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Boşanma aşamasındaki eşini silahla vurdu",
+      "ozet": "Olay, akşam saatlerinde merkez Selçuklu ilçesi Yazır Mahallesi Tören Sokak'ta meydana geldi. İlginizi Çekebilir Edinilen bilgiye göre, İ.E. (55), boşanma aşamasındaki eşi V.E.'nin (50) evine gitti. Eşini evde bulamaya...",
+      "tarih": "2026-10-04T20:14:38.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "İran Petrol Bakanı Muhsin Paknejad istifa ettiğini duyurdu",
+      "ozet": "İran basınına göre Tabatabai, Paknejad’ın kişisel sebepleri gerekçe göstererek istifa ettiğini belirtti. Tabatabai, Paknejad’ın istifasının Cumhurbaşkanı Mesud Pezeşkiyan tarafından kabul edildiğini ve İran Ulusal Pet...",
+      "tarih": "2026-10-04T19:46:39.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "İran Petrol Bakanı Muhsin Paknejad görevinden istifa etti",
+      "ozet": "İran Cumhurbaşkanlığı Ofisi İletişim Dairesi Başkan Yardımcısı Mehdi Tabatabai, Petrol Bakanı Muhsin Paknejad’ın istifa ettiğini duyurdu.",
+      "link": "https://www.dunya.com/dunya/iran-petrol-bakani-muhsin-paknejad-gorevinden-istifa-etti-haberi-842556",
+      "tarih": "2026-10-04T17:59:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "MOTORİNE İNDİRİM GELDİ! 4 Ekim Akaryakıt Fiyatları Güncellendi: İşte Benzin, Motorin (Mazot) LPG Akaryakıt Fiyatlarında Son Durum",
       "ozet": "Motorine indirim geldi, güncel akaryakıt fiyatları, motorin fiyatı, akaryakıt indirimi, İstanbul akaryakıt fiyatları, Ankara akaryakıt fiyatları, İzmir akaryakıt fiyatları, motorin litre fiyatı araç sahiplerinin günde...",
       "link": "https://www.cnnturk.com/ekonomi/motorine-indirim-geldi-4-ekim-akaryakit-fiyatlari-guncellendi-iste-benzin-motorin-mazot-lpg-akaryakit-fiyatlarinda-son-durum-3474614",
       "tarih": "2026-10-04T16:09:01.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Yapay zekanın iklime maliyeti faydasını aşabilir",
-      "ozet": "Yapay zeka temiz enerjiye geçişi desteklerken, petrol ve doğal gaz üretimini artırarak iklim üzerindeki yükü de büyütebilir. Jefferies’in atıfta bulunduğu araştırmaya göre, bu teknolojinin fosil yakıt sektöründe kulla...",
-      "link": "https://www.dunya.com/sektorler/bilim-ve-teknoloji/yapay-zekanin-iklime-maliyeti-faydasini-asabilir-haberi-842524",
-      "tarih": "2026-10-04T13:02:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Akaryakıtta büyük indirim: Tabela pazartesi gece yarısı değişecek",
@@ -124,13 +151,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2543000",
       "tarih": "2026-10-02T07:39:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Borsa İstanbul güne yükselişle başladı: BIST 100 endeksi 12.271 puanda",
-      "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,19 artışla 12.271,92 puandan başladı. Küresel piyasalarda tahvil satışları ve yükselen petrol fiyatlarının oluşturduğu enflasyonist baskılar karışık bir seyre yol açark...",
-      "link": "https://www.yenisafak.com/ekonomi/borsa-istanbul-gune-yukselisle-basladi-bist-100-endeksi-12271-puanda-4860903",
-      "tarih": "2026-10-02T07:24:10.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Petrol fiyatları 102 doları aştı: Çin'in tek imzası vanaları kilitledi",
