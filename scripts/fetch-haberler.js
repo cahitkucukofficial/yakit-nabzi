@@ -185,7 +185,7 @@ const URUN_DESENLERI = {
    sinyal var ama tutar/tarih eksikse, tam makaleyi bir kez cekip orada
    arıyoruz. Istek sayisini sinirliyoruz (TAM_METIN_SINIRI) ki calisma
    suresi kontrolsuz uzamasin. */
-const TAM_METIN_SINIRI = 8;
+const TAM_METIN_SINIRI = 12;
 let tamMetinKullanilan = 0;
 
 async function tamMetniCek(url) {
@@ -200,7 +200,7 @@ async function tamMetniCek(url) {
       },
     });
     clearTimeout(zamanAsimi);
-    if (!res.ok) return null;
+    if (!res.ok) { console.log("[tam-metin] HTTP " + res.status + ": " + url); return null; }
     const html = await res.text();
     // Kaba ama yeterli HTML->duz metin donusumu: script/style'i at, etiketleri
     // sok, bosluklari sadelestir. Tam bir HTML parser'a gerek yok, sadece
@@ -215,96 +215,170 @@ async function tamMetniCek(url) {
       .trim();
     return metin.slice(0, 20000);
   } catch (e) {
+    console.log("[tam-metin] hata (" + (e && e.message) + "): " + url);
     return null;
   }
 }
 
-async function beklentiCikarBirHaberden(haber) {
-  const ozetMetin = (haber.baslik || "") + " " + (haber.ozet || "");
+/* ---------- tutar-merkezli beklenti cikarimi ----------
+   Eski yontem "urun kelimesini bul, yakinindaki ILK tutari al" diyordu. Iki
+   sorunu vardi: (1) tutar ozette olup tarih yoksa tam makaleyi hic cekmiyordu
+   (canli ornek: "Motorine indirim yolda: Tarih belli oldu" -> "...4,95 lira
+   indirim bekleniyor", tarih baslikta yok), (2) "2,22 TL indirim UYGULANDI"
+   gibi gecmis cumleyi "4,95 TL indirim BEKLENIYOR" ile karistirabiliyordu.
+   Yeni yontem her TL tutarini tek tek degerlendirir: o tutarin yakininda
+   (a) bir urun, (b) zam/indirim yonu, (c) "bekleniyor" gibi gelecek ifadesi,
+   (d) bugunden sonraki bir tarih varsa aday sayilir; gecmis-zaman cumleleri ve
+   fiyat SEVIYESI (orn. "Ankara'da 91,13 liraya") atlanir. */
+const BEKLENTI_IFADESI = /bekleniyor|beklentisi|beklenen|bekleyen|gelecek|yapılacak|olacak|öngörülüyor|geliyor|gelebilir|yolda|gündemde|gundemde|kesinleşirse|kesinlesirse/i;
+const BEKLENTI_KAPISI = /bekle|geliyor|yolda|gelecek|yapılacak|olacak|gündem|gundem|tarih belli|tabela|öngörül|kesinleş|kesinles|müjde|mujde/i;
+const YON_KAPISI = /indirim|\bzam|zamm|artış|artis|artacak|yükselecek|yukselecek|düşüş|dusus|düşecek|dusecek/i;
+const GECMIS_ZAMAN = /uygulan(?:dı|di|ırken|irken|mıştı|mistı|mıştır)|yapıldı|yapildi|yapılmıştı|yapilmisti|gerçekleşti|gerceklesti|geldi\b|oldu\b|edildi/i;
+const MAKS_DEGISIM_TL = 25; // yakit fiyat SEVIYELERI (28+ TL) tutar sanilmasin
 
-  // "bekleniyor" turu bir belirsizlik ifadesi gecmiyorsa bu bir TAHMIN degil,
-  // kesinlesmis/gecmis bir haber olabilir - atla (yanlislikla "kesin" gibi sunmayalim).
-  if (!/bekleniyor|beklentisi|bekleniyor mu|gelebilir|geliyor|gundeme gel/i.test(ozetMetin)) return [];
-
-  // En az bir urun kelimesi gecmiyorsa tam makaleyi cekmeye bile deger
-  // degil - o zaman zaten alakasiz demektir.
-  const enAzBirUrunVar = Object.values(URUN_DESENLERI).some((desenler) => desenler.some((d) => d.test(ozetMetin)));
-  if (!enAzBirUrunVar) return [];
-
-  // Hic "zam" veya "indirim" kelimesi gecmiyorsa (ozette) bosuna tam metin
-  // cekmeyelim - asil yon tespiti asagida urun bazinda yapilacak.
-  if (!/indirim|\bzam\b/i.test(ozetMetin)) return [];
-
-  // Ozette zaten bir TL tutari varsa tam makaleyi cekmeye gerek yok.
-  const ozetteTutarVar = /(\d+[,.]\d{1,2})\s*(?:TL|lira)/i.test(ozetMetin);
-  let tamMetin = null;
-  if (!ozetteTutarVar && tamMetinKullanilan < TAM_METIN_SINIRI) {
-    tamMetinKullanilan++;
-    tamMetin = await tamMetniCek(haber.link);
+function tarihleriBul(metin) {
+  const bulunanlar = [];
+  const simdi = new Date();
+  function normalize(gun, ay, yilVar) {
+    if (!ay || gun < 1 || gun > 31) return null;
+    let yil = yilVar || simdi.getFullYear();
+    let aday = new Date(Date.UTC(yil, ay - 1, gun));
+    if (!yilVar && aday.getTime() < simdi.getTime() - 5 * 24 * 60 * 60 * 1000) {
+      aday = new Date(Date.UTC(yil + 1, ay - 1, gun));
+    }
+    return aday.toISOString().slice(0, 10);
   }
-  const tumMetin = tamMetin ? ozetMetin + " " + tamMetin : ozetMetin;
+  const ayDeseni = /(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)(?:\s+(20\d{2}))?/gi;
+  let m;
+  while ((m = ayDeseni.exec(metin)) !== null) {
+    const iso = normalize(parseInt(m[1], 10), AY_ISIMLERI[m[2].toLocaleLowerCase("tr-TR")], m[3] ? parseInt(m[3], 10) : null);
+    if (iso) bulunanlar.push({ index: m.index, iso });
+  }
+  const sayisalDeseni = /\b(\d{1,2})[./](\d{1,2})[./](20\d{2})\b/g;
+  while ((m = sayisalDeseni.exec(metin)) !== null) {
+    const iso = normalize(parseInt(m[1], 10), parseInt(m[2], 10), parseInt(m[3], 10));
+    if (iso) bulunanlar.push({ index: m.index, iso });
+  }
+  return bulunanlar;
+}
 
-  // ONEMLI: yon (zam/indirim), tutar VE tarihi sayfanin HERHANGI bir yerinde
-  // degil, sadece o URUNE ait kelimenin YAKININDA ariyoruz. Tam makale metni
-  // ilgisiz bolumler (ilgili haberler, reklamlar, baska bir urunun rakami)
-  // icerebiliyor - once bunu yapmayinca "LPG'ye 80,40 TL indirim" gibi
-  // anlamsiz, sayfanin bambaska bir yerinden gelen eslesmeler cikiyordu; ayni
-  // sekilde "motorine zam, LPG'ye indirim bekleniyor" turu tek bir haberde
-  // yon de urune gore degisebiliyor, tum metne gore TEK bir yon almak yanlis
-  // sonuc veriyordu. Tarih genelde cumlenin basinda bir kez gecip birden
-  // fazla urun icin ortak kullanilabildigi icin, tarih penceresini tutar
-  // penceresinden biraz daha genis tutuyoruz.
-  const TUTAR_PENCERE_ONCESI = 8;
-  const TUTAR_PENCERE_SONRASI = 180;
-  const TARIH_PENCERE_ONCESI = 150;
-  const TARIH_PENCERE_SONRASI = 250;
-
-  const sonuc = [];
+function enYakinUrun(metin, tutarBas, tutarSon) {
+  // Once tutardan ONCE gelen en yakin urun kelimesi (140 karakter icinde);
+  // yoksa tutardan hemen SONRA gelen (50 karakter icinde, "5,5 TL'lik motorin indirimi").
+  let enIyi = null;
+  const onceki = metin.slice(Math.max(0, tutarBas - 140), tutarBas);
   for (const urun of Object.keys(URUN_DESENLERI)) {
-    let bulunanYon = null;
-    let bulunanTutar = null;
-    let bulunanTarih = null;
-    for (const temelDesen of URUN_DESENLERI[urun]) {
-      const globalDesen = new RegExp(temelDesen.source, "gi");
+    for (const d of URUN_DESENLERI[urun]) {
+      const g = new RegExp(d.source, "gi");
       let m;
-      while ((m = globalDesen.exec(tumMetin)) !== null) {
-        const tutarBaslangic = Math.max(0, m.index - TUTAR_PENCERE_ONCESI);
-        const tutarBitis = Math.min(tumMetin.length, m.index + m[0].length + TUTAR_PENCERE_SONRASI);
-        const tutarPenceresi = tumMetin.slice(tutarBaslangic, tutarBitis);
-        const tutarEslesme = tutarPenceresi.match(/(\d+[,.]\d{1,2})\s*(?:TL|lira)/i);
-
-        if (tutarEslesme) {
-          // Yonu de AYNI yakin pencereden belirle - "indirim" mi "zam" mi
-          // daha yakinsa o gecerli olsun.
-          const indirimKonum = tutarPenceresi.search(/indirim/i);
-          const zamKonum = tutarPenceresi.search(/\bzam\b/i);
-          let yon = null;
-          if (indirimKonum !== -1 && zamKonum !== -1) yon = indirimKonum < zamKonum ? "dusus" : "artis";
-          else if (indirimKonum !== -1) yon = "dusus";
-          else if (zamKonum !== -1) yon = "artis";
-          if (!yon) { if (globalDesen.lastIndex === m.index) globalDesen.lastIndex++; continue; }
-
-          const tarihBaslangic = Math.max(0, m.index - TARIH_PENCERE_ONCESI);
-          const tarihBitis = Math.min(tumMetin.length, m.index + m[0].length + TARIH_PENCERE_SONRASI);
-          const tarihPenceresi = tumMetin.slice(tarihBaslangic, tarihBitis);
-          const tarihAday = turkceTarihiCoz(tarihPenceresi);
-
-          if (tarihAday) {
-            bulunanYon = yon;
-            bulunanTutar = parseFloat(tutarEslesme[1].replace(",", "."));
-            bulunanTarih = tarihAday;
-            break;
-          }
-        }
-        if (globalDesen.lastIndex === m.index) globalDesen.lastIndex++; // sonsuz donguyu onle
+      while ((m = g.exec(onceki)) !== null) {
+        if (!enIyi || m.index > enIyi.konum) enIyi = { urun, konum: m.index };
+        if (g.lastIndex === m.index) g.lastIndex++;
       }
-      if (bulunanTutar) break;
     }
-    if (bulunanYon && bulunanTutar && bulunanTarih) {
-      sonuc.push({ urun, yon: bulunanYon, tutar: bulunanTutar, tarih: bulunanTarih, kaynakBaslik: haber.baslik, kaynakLink: haber.link, kaynak: haber.kaynak });
+  }
+  if (enIyi) return enIyi.urun;
+  const sonraki = metin.slice(tutarSon, tutarSon + 50);
+  let enYakin = null;
+  for (const urun of Object.keys(URUN_DESENLERI)) {
+    for (const d of URUN_DESENLERI[urun]) {
+      const m = new RegExp(d.source, "i").exec(sonraki);
+      if (m && (!enYakin || m.index < enYakin.konum)) enYakin = { urun, konum: m.index };
     }
+  }
+  return enYakin ? enYakin.urun : null;
+}
+
+function adaylariCikar(metin) {
+  const sonuc = [];
+  const tarihler = tarihleriBul(metin);
+  const tutarDeseni = /(\d{1,3}[.,]\d{1,2})\s*(?:TL|lira)/gi;
+  let m;
+  while ((m = tutarDeseni.exec(metin)) !== null) {
+    const tutar = parseFloat(m[1].replace(",", "."));
+    if (!(tutar >= 0.05 && tutar <= MAKS_DEGISIM_TL)) continue;
+    const bas = m.index;
+    const son = m.index + m[0].length;
+
+    // Fiyat SEVIYESI gibi gorunenleri ele: "...liraya/TL'ye/liradan" (hedef fiyat),
+    // "Ankara'da 91,13", "Benzin: 85,40".
+    const sonrasi3 = metin.slice(son, son + 4);
+    if (/^(?:['’]?(?:ya|ye|dan|den)\b|ya\b|ye\b|dan\b|den\b)/i.test(sonrasi3)) continue;
+    const oncesi = metin.slice(Math.max(0, bas - 22), bas);
+    if (/['’](?:da|de|ta|te)\s*$/i.test(oncesi) || /:\s*$/.test(oncesi)) continue;
+
+    // Gecmis zaman ("2,22 TL indirim uygulanirken/yapildi") -> zaten gerceklesmis.
+    const hemenSonra = metin.slice(son, son + 70);
+    if (GECMIS_ZAMAN.test(hemenSonra)) continue;
+
+    const yerel = metin.slice(Math.max(0, bas - 120), son + 160);
+    if (!BEKLENTI_IFADESI.test(yerel)) continue;
+
+    // Yon: tutara en yakin zam/indirim ifadesi (dar pencere).
+    const dar = metin.slice(Math.max(0, bas - 90), son + 90);
+    const merkez = bas - Math.max(0, bas - 90);
+    let enYakinYon = null;
+    const yonDeseni = /(indirim)|(\bzam)|(zamm)|(artış|artis|artacak|yükselecek|yukselecek)|(düşüş|dusus|düşecek|dusecek)/gi;
+    let ym;
+    while ((ym = yonDeseni.exec(dar)) !== null) {
+      const uzaklik = Math.abs(ym.index - merkez);
+      const yon = (ym[1] || ym[5]) ? "dusus" : "artis";
+      if (!enYakinYon || uzaklik < enYakinYon.uzaklik) enYakinYon = { yon, uzaklik };
+      if (yonDeseni.lastIndex === ym.index) yonDeseni.lastIndex++;
+    }
+    if (!enYakinYon) continue;
+
+    const urun = enYakinUrun(metin, bas, son);
+    if (!urun) continue;
+
+    // Tarih: tutara en yakin, BUGUNDEN SONRAKI (veya bugun) tarih (+-140 karakter).
+    let secilen = null;
+    for (const t of tarihler) {
+      if (t.index < bas - 140 || t.index > son + 140) continue;
+      if (tarihGecmisMi(t.iso)) continue;
+      const uzaklik = Math.abs(t.index - bas);
+      if (!secilen || uzaklik < secilen.uzaklik) secilen = { iso: t.iso, uzaklik };
+    }
+    // Tarih bulunamazsa aday tarihsiz (null) olarak tutulur; ancak baska bir
+    // kaynakta AYNI urun+yon+tutarla tarihli bir aday varsa birlestirme
+    // asamasinda tarihi oradan alir, yoksa elenir (tarih UYDURULMAZ).
+    sonuc.push({ urun, yon: enYakinYon.yon, tutar, tarih: secilen ? secilen.iso : null });
   }
   return sonuc;
+}
+
+async function beklentiCikarBirHaberden(haber) {
+  // 4 gunden eski haber artik "yaklasan" bir degisiklik haberi olamaz.
+  if (haber.tarih) {
+    const t = new Date(haber.tarih).getTime();
+    if (!Number.isNaN(t) && Date.now() - t > 4 * 24 * 60 * 60 * 1000) return [];
+  }
+  const ozetMetin = (haber.baslik || "") + " " + (haber.ozet || "");
+
+  // Ucuz on elemeler (tam makale cekmeden once): urun + yon + gelecek ifadesi.
+  const urunVar = Object.values(URUN_DESENLERI).some((ds) => ds.some((d) => d.test(ozetMetin)));
+  if (!urunVar || !YON_KAPISI.test(ozetMetin) || !BEKLENTI_KAPISI.test(ozetMetin)) return [];
+
+  const etiket = (c) => ({ ...c, kaynakBaslik: haber.baslik, kaynakLink: haber.link, kaynak: haber.kaynak });
+
+  // 1) Once sadece baslik+ozetten dene; TARIHLI aday varsa tamam.
+  let adaylar = adaylariCikar(ozetMetin);
+  if (adaylar.some((a) => a.tarih)) return adaylar.map(etiket);
+  let yedek = adaylar; // tutar+yon+urun var ama tarih yok
+
+  // 2) Tarihli aday yoksa (tutar YA DA tarih eksik olabilir) tam makaleyi cek.
+  if (tamMetinKullanilan < TAM_METIN_SINIRI) {
+    tamMetinKullanilan++;
+    const tamMetin = await tamMetniCek(haber.link);
+    if (tamMetin) {
+      const a2 = adaylariCikar(ozetMetin + " " + tamMetin);
+      if (a2.some((a) => a.tarih)) return a2.map(etiket);
+      if (a2.length) yedek = a2;
+    }
+  }
+  // 3) Tarih hala yok: tarihsiz adaylar birlestirme asamasinda baska
+  //    kaynaktaki ayni (urun+yon+tutar) tarihli adayla eslesirse kullanilir.
+  return yedek.map(etiket);
 }
 
 function tarihGecmisMi(isoTarih) {
@@ -324,8 +398,22 @@ async function beklentileriBirlestir(haberler) {
   for (const h of haberler) {
     const cikanlar = await beklentiCikarBirHaberden(h);
     for (const c of cikanlar) {
-      if (adaylar[c.urun] && !tarihGecmisMi(c.tarih)) adaylar[c.urun].push(c);
+      if (!adaylar[c.urun]) continue;
+      if (c.tarih && tarihGecmisMi(c.tarih)) continue;
+      adaylar[c.urun].push(c);
     }
+  }
+  // Tarihsiz adaylari, ayni urun+yon+tutarla TARIHLI baska bir adaydan tamamla;
+  // eslesme yoksa at (tarih uydurmuyoruz).
+  for (const urun of Object.keys(adaylar)) {
+    const tarihliler = adaylar[urun].filter((a) => a.tarih);
+    adaylar[urun] = adaylar[urun]
+      .map((a) => {
+        if (a.tarih) return a;
+        const es = tarihliler.find((b) => b.yon === a.yon && b.tutar === a.tutar);
+        return es ? { ...a, tarih: es.tarih } : null;
+      })
+      .filter(Boolean);
   }
   const sonuc = {};
   for (const urun of Object.keys(adaylar)) {
@@ -509,6 +597,7 @@ async function main() {
   }
 
   const beklenti = await beklentileriBirlestir(haberler);
+  console.log("[beklenti] " + Object.entries(beklenti).map(([u, v]) => v.expected ? (u + ": " + (v.direction === "dusus" ? "-" : "+") + v.amount + " @" + v.tarih + " (" + v.dogrulayanKaynakSayisi + " kaynak)") : (u + ": yok")).join(" | ") + " | tam makale istegi: " + tamMetinKullanilan);
   saglikKontroluYap(haberler); // sessiz caprazdogrulama - sadece log, JSON'a yazilmiyor
 
   const cikti = {
