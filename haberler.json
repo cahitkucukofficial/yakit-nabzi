@@ -1,14 +1,12 @@
 {
-  "guncelleme": "2026-10-05T10:55:17.631Z",
+  "guncelleme": "2026-10-07T02:57:03.026Z",
   "kaynaklar": [
     "MILLIYET",
-    "STAR",
     "DUNYA",
-    "SABAH",
-    "AA",
-    "CUMHURIYET",
-    "YENISAFAK",
     "BLOOMBERGHT",
+    "CUMHURIYET",
+    "AA",
+    "YENISAFAK",
     "CNNTURK"
   ],
   "beklenti": {
@@ -24,38 +22,115 @@
   },
   "haberler": [
     {
-      "baslik": "Bakan Bayraktar: Kalkınma Yolu 80 milyar dolarlık enerji koridoruna dönüşebilir",
-      "ozet": "Kalkınma Yolu Projesi, Basra Körfezi'nden kara ve demir yollarıyla Türkiye ve Avrupa'ya uzanıyor. Proje ile Irak ve Türkiye'nin enerji kaynakları açısından birbirine bağlanması planlanırken, küresel anlamda da önemli ...",
-      "tarih": "2026-10-05T09:47:36.000Z",
+      "baslik": "ABD Başkanı Trump'tan İran mesajı: Bu işi bitirmemiz gerekiyor",
+      "ozet": "Trump, Baltimore'da bulunan bir tersanede askeri teknoloji şirketi Anduril’in nükleer enerjiyle çalışan denizaltılara bileşenler üretilecek 3,7 milyar dolarlık yatırımı için düzenlenen törene katıldı. Konuşmasında, AB...",
+      "tarih": "2026-10-06T21:07:26.000Z",
       "kaynak": "MILLIYET"
     },
     {
-      "baslik": "Türkiye'nin öncü olduğu dev projede 80 milyar dolarlık doğal gaz planı",
-      "ozet": "Irak üzerinden Türkiye'yi Avrupa'ya bağlayacak Kalkınma Yolu Projesi'nde doğal gaz taşıma potansiyeli gündeme geldi. Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Katar'ın doğal gaz ihracatında Hürmüz Boğazı'n...",
-      "link": "https://www.star.com.tr/ekonomi/turkiyenin-oncu-oldugu-dev-projede-80-milyar-dolarlik-dogal-gaz-plani-haber-2044568/",
-      "tarih": "2026-10-05T09:39:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "Motorinde indirim bekleniyor: İşte indirim sonrası beklenen fiyatlar",
-      "ozet": "Petrol fiyatlarında yaşanan düşüşün akaryakıt fiyatlarına indirim olarak yansıması bekleniyor. Motorinin litre fiyatında yarından itibaren geçerli olmak üzere 4,95 liralık indirim öngörülürken, indirimin ardından İsta...",
-      "link": "https://www.dunya.com/enerji/motorinde-indirim-bekleniyor-iste-indirim-sonrasi-beklenen-fiyatlar-haberi-842616",
-      "tarih": "2026-10-05T08:50:00.000Z",
+      "baslik": "Trump: Hürmüz'den inanılmaz miktarda petrol sevkiyatı yapılıyor",
+      "ozet": "ABD Başkanı Donald Trump, Hürmüz Boğazı'ndan son dönemde \"inanılmaz\" miktarda petrol sevkiyatı yapıldığını ifade ederek petrol fiyatlarının düşmesini beklediğini söyledi.",
+      "link": "https://www.dunya.com/dunya/trump-hurmuzden-inanilmaz-miktarda-petrol-sevkiyati-yapiliyor-haberi-842865",
+      "tarih": "2026-10-06T20:20:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "\"Stratejik bir enerji yolu\" Bakan Bayraktar açıkladı: Kalkınma Yolu 80 milyar dolarlık ekonomik değer yaratabilir",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Türkiye olarak Kalkınma Yolu'nu yalnızca bir ulaştırma koridoru değil, petrol, doğal gaz ve güzergah boyunca elektrik iletim hatlarıyla desteklenen...Devamı için ...",
-      "link": "https://www.sabah.com.tr/ekonomi/stratejik-bir-enerji-yolu-bakan-bayraktar-acikladi-kalkinma-yolu-80-milyar-dolarlik-ekonomik-deger-yaratabilir-7674121",
-      "tarih": "2026-10-05T08:44:18.000Z",
-      "kaynak": "SABAH"
+      "baslik": "S&P 500 Ağustos ayından beri ilk rekorunu kırdı",
+      "ozet": "S&P 500, dirençli şirket kârları ve petrol fiyatlarındaki gerilemenin desteğiyle yüzde 0,5 yükselerek iki ayın ilk rekor seviyesine ulaştı.",
+      "link": "https://www.bloomberght.com/s-p-500-agustos-ayindan-beri-ilk-rekorunu-kirdi-3790505",
+      "tarih": "2026-10-06T13:47:22.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Hazine ve Maliye Bakanı Şimşek eylül ayı enflasyon verilerini değerlendirdi",
-      "ozet": "Hazine ve Maliye Bakanı Şimşek, yıllık enflasyonun 57 ay sonra yüzde 30'un altına indiğini, kira enflasyonunda düşüş beklendiğini, petrol fiyatlarının etkisini sınırlamak için mazottan sonra benzinde de eşel mobilden ...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/hazine-ve-maliye-bakani-simsek-eylul-ayi-enflasyon-verilerini-degerlendirdi/4078204",
-      "tarih": "2026-10-05T08:40:10.000Z",
+      "baslik": "ABD'nin ticaret açığı beklentileri aştı",
+      "ozet": "ABD'nin Ağustos ayında ticaret açığı, ham petrol ve sermaye ürünleri ithalatındaki artışın etkisiyle keskin bir şekilde artarak 2025'in başından bu yana en yüksek seviyeye ulaştı.",
+      "link": "https://www.bloomberght.com/abd-nin-ticaret-acigi-beklentileri-asti-3790482",
+      "tarih": "2026-10-06T12:44:48.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Vitol CEO'sundan Batı'daki petrol stokları için uyarı",
+      "ozet": "Dünyanın en büyük bağımsız petrol tüccarının patronu, İran savaşı nedeniyle Batı ülkelerindeki petrol stoklarının tükendiğini belirterek, kışa girerken yakıt piyasalarının sıkışık kalmaya devam edeceği uyarısında bulu...",
+      "link": "https://www.bloomberght.com/vitol-ceo-sundan-bati-daki-petrol-stoklari-icin-uyari-3790477",
+      "tarih": "2026-10-06T11:37:56.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Çinli rafineriler Irak petrolüne yöneldi",
+      "ozet": "Çin'in bağımsız rafinerileri, ABD ablukasının en büyük tedarikçi İran'dan gelen arzı kesmesinin ardından Irak ham petrolüne yöneliyor.",
+      "link": "https://www.bloomberght.com/cinli-rafineriler-irak-petrolune-yoneldi-3790473",
+      "tarih": "2026-10-06T11:19:19.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Suudi Arabistan'dan Doğu-Batı Petrol Boru Hattı açıklaması",
+      "ozet": "Suudi Arabistan Enerji Bakanı Abdülaziz bin Selman, ülkesinin, Hürmüz Boğazı'na alternatif olarak devreye aldığı \"Petroline\" adlı \"Doğu-Batı Petrol Boru Hattı\"nın Kızıldeniz'deki ihraç merkezine günlük 5,8 milyon vari...",
+      "link": "https://www.bloomberght.com/suudi-arabistan-dan-dogu-bati-petrol-boru-hatti-aciklamasi-3790471",
+      "tarih": "2026-10-06T10:53:59.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol neden 100 doların altına inmiyor? İşte fiyatları yüksek tutan 5 neden",
+      "ozet": "Batı Asya’dan petrol sevkiyatının toparlanmasına rağmen küresel fiyatlar yüksek seyrini koruyor. Jeopolitik riskler, artan taşıma maliyetleri, düşük stoklar ve güçlü talep, petrolün 100 doların üzerinde kalmasına nede...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-neden-100-dolarin-altina-inmiyor-iste-fiyatlari-yuksek-tutan-5-neden-2544155",
+      "tarih": "2026-10-06T09:33:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Hürmüz'de 5 katına çıkan navlun, Orta Doğu petrolünde rekabet için indirim baskısı yaratıyor",
+      "ozet": "Hürmüz Boğazı'ndaki durum nedeniyle Basra Körfezi'nden Çin'e ham petrol taşıma maliyetlerinin 5 katına çıkması, bölge petrolünün Asya pazarındaki rekabet gücünü aşındırarak satıcılar üzerindeki indirim baskısını artır...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/hurmuzde-5-katina-cikan-navlun-orta-dogu-petrolunde-rekabet-icin-indirim-baskisi-yaratiyor/4079351",
+      "tarih": "2026-10-06T08:18:21.000Z",
       "kaynak": "AA"
+    },
+    {
+      "baslik": "Akaryakıtta gece yarısı tabelalar değişti: İndirim pompaya yansıdı işte il il güncel benzin motorin LPG fiyatları",
+      "ozet": "Brent petroldeki geri çekilme ve döviz kurundaki yatay seyir sonrası akaryakıtta araç sahiplerini sevindiren gelişme yaşandı. Motorinin litre fiyatına bugünden itibaren geçerli olmak üzere 4,90 TL indirim yapıldı. İnd...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-gece-yarisi-tabelalar-degisti-indirim-pompaya-yansidi-iste-il-il-guncel-benzin-motorin-lpg-fiyatlari-4861898",
+      "tarih": "2026-10-06T06:55:42.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Motorine indirim sonrası tabela değişti: İşte güncel akaryakıt fiyatları",
+      "ozet": "Akaryakıt fiyatlarında yeni tarife pompaya yansırken motorin fiyatlarında dikkat çeken düşüş yaşandı. İndirimin ardından İstanbul, Ankara ve İzmir’de güncel benzin, motorin ve LPG fiyatları sürücüler tarafından yakınd...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-sonrasi-tabela-degisti-iste-guncel-akaryakit-fiyatlari-2544072",
+      "tarih": "2026-10-06T06:31:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorine indirim",
+      "ozet": "Motorinin litre fiyatına 6 Ekim tarihinden itibaren geçerli olmak üzere 4,90 TL indirim geldi.",
+      "link": "https://www.bloomberght.com/motorine-indirim-3790411",
+      "tarih": "2026-10-06T05:35:21.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol, artan Orta Doğu arzı ve G7 rezervleriyle geriledi",
+      "ozet": "Petrol, Orta Doğu'dan devam eden güçlü ham petrol ihracatı ve G7 ülkelerinin acil durum rezervlerini piyasaya sürme kararıyla arz endişelerinin azalması sonucu salı günü geriledi.",
+      "link": "https://www.bloomberght.com/petrol-artan-orta-dogu-arzi-ve-g7-rezervleriyle-geriledi-3790407",
+      "tarih": "2026-10-06T03:43:02.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "AB'den metan düzenlemesinde kritik erteleme gündemi",
+      "ozet": "Avrupa Birliği (AB) Komisyonu, küresel petrol ve doğal gaz piyasalarındaki gerilimler ile enerji fiyatlarına ilişkin endişeler nedeniyle metan düzenlemesinin ithalata yönelik hükümlerinin uygulanmasını bir yıl ertelem...",
+      "link": "https://www.cnnturk.com/ekonomi/abden-metan-duzenlemesinde-kritik-erteleme-gundemi-3475252",
+      "tarih": "2026-10-05T17:39:16.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Kalkınma Yolu'nda enerji hedefi: Yıllık 80 milyar dolarlık ekonomik büyüklük",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak üzerinden Türkiye'yi Avrupa'ya bağlayacak Kalkınma Yolu Projesi'nin petrol, doğal gaz ve elektrik iletim hatlarıyla desteklenerek kapsamlı bir “enerji yolu”na...",
+      "link": "https://www.cnnturk.com/ekonomi/kalkinma-yolunda-enerji-hedefi-yillik-80-milyar-dolarlik-ekonomik-buyukluk-3475148",
+      "tarih": "2026-10-05T14:45:03.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Rusya’nın enerji gelirlerinde dikkat çeken düşüş: 9 ayda yüzde 17,2 azaldı",
+      "ozet": "Rusya’nın petrol ve doğal gazdan elde ettiği bütçe geliri, ocak-eylül döneminde 5,47 trilyon rubleye geriledi. Enerji gelirlerindeki düşüşte üretimdeki gerileme ve rublenin değer kazanması etkili oldu.",
+      "link": "https://www.yenisafak.com/ekonomi/rusyanin-enerji-gelirlerinde-dikkat-ceken-dusus-9-ayda-yuzde-172-azaldi-4861759",
+      "tarih": "2026-10-05T14:26:44.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Eylül ayının zam şampiyonları belli oldu: TÜİK enflasyon verilerini açıkladı",
@@ -63,13 +138,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/eylul-ayinin-zam-sampiyonlari-belli-oldu-tuik-enflasyon-verilerini-acikladi-2543799",
       "tarih": "2026-10-05T08:23:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Kalkınma Yolu Projesi, \"enerji yolu\" ile yıllık 80 milyar dolarlık ekonomik değer yaratabilir",
-      "ozet": "Bakan Bayraktar, Kalkınma Yolu Projesi'nin petrol, doğal gaz ve elektrik hatlarıyla \"enerji yolu\"na dönüşebileceğini, güzergahta petrol ve doğal gaz taşımacılığının yıllık yaklaşık 80 milyar dolarlık ekonomik büyüklük...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/kalkinma-yolu-projesi-enerji-yolu-ile-yillik-80-milyar-dolarlik-ekonomik-deger-yaratabilir/4078158",
-      "tarih": "2026-10-05T08:12:47.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Dolar/TL'de yeni rekor: Haftanın ilk verileri açıklandı",
@@ -93,13 +161,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "İran Petrol Bakanı istifa etti",
-      "ozet": "İran Cumhurbaşkanlığı Ofisi İletişim Dairesi Başkan Yardımcısı Mehdi Tabatabai, Petrol Bakanı Muhsin Paknejad'ın istifa ettiğini duyurdu.",
-      "link": "https://www.bloomberght.com/iran-petrol-bakani-istifa-etti-3790310",
-      "tarih": "2026-10-05T06:57:25.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Altın fiyatları için kritik çarşamba: Gram ve onsta fırtına öncesi sessizlik",
       "ozet": "Küresel piyasalarda altın, ABD'den gelen veriler ve küresel baskılar arasında sıkışarak yeni bir yön arayışına girdi. Zayıf istihdam rakamları altın yatırımcısına kısa süreli bir nefes aldırırken, zirveye oynayan tahv...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/altin-fiyatlari-icin-kritik-carsamba-gram-ve-onsta-firtina-oncesi-sessizlik-4861602",
@@ -107,66 +168,10 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Küresel piyasalarda jeopolitik temalar öne çıkıyor",
-      "ozet": "Yemen hükümetinin, İran destekli Husilerin kontrolündeki tüm bölgeleri geri almak amacıyla geniş çaplı bir askeri harekat başlatmasının ardından petrol fiyatları ilk aşamada yükselse de sonradan dengelendi.",
-      "link": "https://www.bloomberght.com/kuresel-piyasalarda-jeopolitik-temalar-one-cikiyor-3790296",
-      "tarih": "2026-10-05T05:25:15.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Irak, Hürmüz Boğazı'ndan 2 milyon varil petrol taşıdı",
-      "ozet": "Irak'ın devlete ait Petrol Tanker Şirketi, 2 milyon varil Irak petrolünü çok büyük ham petrol taşıyıcısı (VLCC) ile Hürmüz Boğazı'ndan geçirdi.",
-      "link": "https://www.bloomberght.com/irak-hurmuz-bogazindan-2-milyon-varil-petrol-tasidi-3790295",
-      "tarih": "2026-10-05T05:17:22.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "OPEC+ Kasım ayı petrol üretim hedeflerini sabit tuttu",
-      "ozet": "OPEC+ grubu, pazar günü gerçekleştirdiği toplantıda kasım ayı petrol üretim hedeflerini değiştirmeme kararı aldı.",
-      "link": "https://www.bloomberght.com/opec-kasim-ayi-petrol-uretim-hedeflerini-sabit-tuttu-3790294",
-      "tarih": "2026-10-05T05:08:57.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Suudi Arabistan ve BAE, Asya'nın petrol rezervlerini artıracak",
-      "ozet": "Suudi Arabistan ve Birleşik Arap Emirlikleri (BAE), ithalata bağımlı olmasına rağmen yeterli petrol stoku bulundurmayan Asya'nın petrol rezervlerini artırmasına destek verecek.",
-      "link": "https://www.bloomberght.com/suudi-arabistan-ve-bae-asyanin-petrol-rezervlerini-artiracak-3790293",
-      "tarih": "2026-10-05T05:04:58.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol, artan Orta Doğu arzı ve G7 rezervleriyle geriledi",
-      "ozet": "Petrol, Orta Doğu'dan artan ham petrol ihracatı ve G7 ülkelerinin petrol stoklarını piyasaya sürme kararıyla Pazartesi günü geriledi.",
-      "link": "https://www.bloomberght.com/petrol-artan-orta-dogu-arzi-ve-g7-rezervleriyle-geriledi-3790289",
-      "tarih": "2026-10-05T03:30:05.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Irak ile enerjide yeni yol haritası",
       "ozet": "Türkiye ile Irak, enerjide bir yıllık petrol taşıma anlaşmasının ötesine geçerek kapsamlı bir iş birliği için teknik çalışma başlatıyor. İki ülkenin oluşturacağı ortak çalışma grupları, petrol ve doğal gaz altyapısı, ...",
       "link": "https://www.yenisafak.com/ekonomi/irak-ile-enerjide-yeni-yol-haritasi-4861528",
       "tarih": "2026-10-05T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Pahalı yakıt LPG’ye ilgiyi artırdı",
-      "ozet": "Pahalı benzin ve dizel yakıtı vatandaşları LPG’li otomobillere yönlendiriyor. Pompa fiyatı şu an 35 lira civarında olan LPG yakıtının otomobillerdeki tasarrufuna dikkat çeken MAİS Genel Müdür Yardımcısı Levent Timur, ...",
-      "link": "https://www.yenisafak.com/ekonomi/pahali-yakit-lpgye-ilgiyi-artirdi-4861530",
-      "tarih": "2026-10-05T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "MOTORİNE İNDİRİM GELDİ! 4 Ekim Akaryakıt Fiyatları Güncellendi: İşte Benzin, Motorin (Mazot) LPG Akaryakıt Fiyatlarında Son Durum",
-      "ozet": "Motorine indirim geldi, güncel akaryakıt fiyatları, motorin fiyatı, akaryakıt indirimi, İstanbul akaryakıt fiyatları, Ankara akaryakıt fiyatları, İzmir akaryakıt fiyatları, motorin litre fiyatı araç sahiplerinin günde...",
-      "link": "https://www.cnnturk.com/ekonomi/motorine-indirim-geldi-4-ekim-akaryakit-fiyatlari-guncellendi-iste-benzin-motorin-mazot-lpg-akaryakit-fiyatlarinda-son-durum-3474614",
-      "tarih": "2026-10-04T16:09:01.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Akaryakıtta büyük indirim: Tabela pazartesi gece yarısı değişecek",
-      "ozet": "Brent petrol fiyatlarındaki dalgalanmalar ve döviz kurundaki hareketlilik akaryakıt fiyatlarını etkilemeye devam ediyor. Araç sahiplerini sevindirecek haber motorin grubundan geldi. Motorine hafta başında tabelaları d...",
-      "link": "https://www.yenisafak.com/ekonomi/akaryakitta-buyuk-indirim-tabela-pazartesi-gece-yarisi-degisecek-4861391",
-      "tarih": "2026-10-04T08:28:20.000Z",
       "kaynak": "YENISAFAK"
     },
     {
@@ -196,20 +201,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-baskani-donald-trump-acikladi-avrupa-dizel-stoklarini-piyasaya-surecek-2543275",
       "tarih": "2026-10-03T07:07:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine indirim yolda: Tarih belli oldu",
-      "ozet": "Akaryakıt fiyatlarındaki dalgalanmaların ardından motorin grubuna 4,95 lira indirim bekleniyor.",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/1-litre-mazot-ne-kadar-1-lt-motorin-kac-tl-4861163",
-      "tarih": "2026-10-03T05:56:05.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "ABD'nin petrol sondaj kulesi sayısı 1 arttı",
-      "ozet": "Petrol sahası hizmetleri şirketi Baker Hughes'un açıkladığı haftalık verilere göre, ülkedeki petrol sondaj kulesi sayısı 26 Eylül - 2 Ekim haftasında bir önceki haftaya kıyasla 1 artarak 456'ya ulaştı.",
-      "link": "https://www.yenisafak.com/ekonomi/abdnin-petrol-sondaj-kulesi-sayisi-1-artti-4861162",
-      "tarih": "2026-10-03T05:54:22.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
@@ -272,20 +263,6 @@
       "ozet": "ÖTV artışı nedeniyle benzinin satış fiyatına 4.27 lira zam geldi. Eşel mobil sisteminin sona ermesiyle başlayan yeni dönemde benzindeki ÖTV artışı Kasım ve Aralık aylarında da kademeli olarak uygulanacak, LPG fiyatınd...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/esel-mobil-sistemi-sona-erdi-otv-tutarlari-yeniden-belirlendi-benzine-4-27-lira-zam-geldi-2542633",
       "tarih": "2026-09-30T21:40:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt fiyatlarına tarihi zam yolda: 1 Ekim'de üç üründe artış bekleniyor",
-      "ozet": "Akaryakıt fiyatlarında ÖTV artışları ve döviz kurundaki hareketlilik gündemdeki yerini korurken, yeni zam beklentisi de milyonlarca yurttaşı ilgilendiriyor. Benzin, motorin ve LPG fiyatlarında beklenen artışın nasıl u...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-tarihi-zam-yolda-1-ekim-de-uc-urunde-artis-bekleniyor-2542355",
-      "tarih": "2026-09-30T06:36:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt fiyatlarına yapılacak tarihi zam belli oldu: Eşel mobil sistemi sona eriyor",
-      "ozet": "Akaryakıt fiyatlarında milyonlarca araç sahibini ilgilendiren yeni dönem için geri sayım başladı. Eşel mobil uygulamasının sona ermesiyle birlikte benzin, motorin ve LPG fiyatlarında ciddi zamlar gündeme gelirken, ulu...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlarina-yapilacak-tarihi-zam-belli-oldu-esel-mobil-sistemi-sona-eriyor-2541733",
-      "tarih": "2026-09-28T09:36:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
