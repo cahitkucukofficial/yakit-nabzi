@@ -1,14 +1,13 @@
 {
-  "guncelleme": "2026-10-08T10:59:17.210Z",
+  "guncelleme": "2026-10-08T18:03:43.580Z",
   "kaynaklar": [
     "CNNTURK",
-    "DUNYA",
     "MILLIYET",
-    "YENISAFAK",
-    "HABERTURK",
-    "BLOOMBERGHT",
+    "DUNYA",
+    "CUMHURIYET",
     "AA",
-    "CUMHURIYET"
+    "YENISAFAK",
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -23,6 +22,39 @@
   },
   "haberler": [
     {
+      "baslik": "SON DAKİKA | Borsa perşembe gününü yükselişle tamamladı",
+      "ozet": "Borsa İstanbul'da BIST 100 endeksi, bankacılık hisselerindeki satışlara rağmen sanayi hisseleri öncülüğündeki alımlarla günü yüzde 0,75 yükselişle 12.213,58 puandan tamamladı. Küresel piyasalarda petrol fiyatları ve t...",
+      "link": "https://www.cnnturk.com/ekonomi/son-dakika-borsa-persembe-gununu-yukselisle-tamamladi-3476847",
+      "tarih": "2026-10-08T18:30:06.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "ABD Kongre ara seçimleri öncesinde İran'a saldıracak mı? Trump'tan açıklama!",
+      "ozet": "ABD Başkanı Trump, sosyal medya hesabından yaptığı paylaşımda, İran ile savaşın gidişatına ilişkin önemli bir duyuru yaptı. Tahran'la verimli görüşmeler yürütüklerini kaydeden Trump, İran'ın hem ekonomik hem de askeri...",
+      "tarih": "2026-10-08T16:55:53.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Brent petrol iki haftanın zirvesine çıktı",
+      "ozet": "Brent petrolün varil fiyatı, perşembe günü saat 13.30 itibarıyla yüzde 5'in üzerinde yükselerek 105 doların üzerine çıktı. Böylece Brent petrol iki haftanın en yüksek seviyesine ulaştı.",
+      "link": "https://www.cnnturk.com/ekonomi/brent-petrol-iki-haftanin-zirvesine-cikti-3476726",
+      "tarih": "2026-10-08T16:55:15.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "ABD'den yeni iddia: Maduro işkenceyle suçlanıyor!",
+      "ozet": "AP'nin haberine göre, daha önce ABD'ye kokain gönderme komplosuna katılmakla suçlanan Maduro, şimdi de petrol zengini Güney Amerika ülkesinin başkanlığı döneminde insan hakları ihlalleri iddialarıyla karşı karşıya. Oc...",
+      "tarih": "2026-10-08T14:56:50.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "New York borsası düşüşle açıldı",
+      "ozet": "New York borsası, petrol fiyatları ve tahvil faizlerindeki yükselişle güne düşüşle başladı. Açılışta Dow Jones endeksi yüzde 0,14 azalışla 51.105,04 puana geriledi. S&P 500 endeksi yüzde 0,29 azalarak 7.778,45 puana, ...",
+      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-acildi-haberi-843156",
+      "tarih": "2026-10-08T14:13:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "AKARYAKIT FİYATLARI SON DURUM! Benzine, motorine zam ya da indirim geldi mi? 8 Ekim İstanbul, Ankara, İzmir güncel akaryakıt fiyatı",
       "ozet": "8 Ekim 2026 Perşembe günü akaryakıt fiyatları, araç sahiplerinin gündemindeki yerini koruyor. Motorinin litre fiyatına yapılan ortalama 4,90 TL'lik indirimin pompa fiyatlarına yansımasının ardından gözler benzin, moto...",
       "link": "https://www.cnnturk.com/ekonomi/akaryakit-fiyatlari-son-durum-benzine-motorine-zam-ya-da-indirim-geldi-mi-8-ekim-istanbul-ankara-izmir-guncel-akaryakit-fiyati-3476651",
@@ -30,17 +62,18 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "İran gerilimi petrolü sıçrattı: Brent 104 doları aştı",
-      "ozet": "ABD’nin İran’a yönelik yeni saldırılar düzenleyebileceğine ilişkin haberler ve Hürmüz Boğazı’nda alternatif geçiş güzergahlarının kapatılabileceği açıklamaları petrol fiyatlarını yükseltti. Brent petrol yüzde 4,2 artı...",
-      "link": "https://www.dunya.com/dunya/iran-gerilimi-petrolu-sicratti-brent-104-dolari-asti-haberi-843118",
-      "tarih": "2026-10-08T10:25:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Petrol fiyatlarında sert yükseliş: Trump’ın İran hamlesi piyasaları sarstı",
+      "ozet": "Petrol fiyatları, ABD’nin İran’a yönelik olası yeni askeri seçenekleri değerlendirdiği yönündeki haberlerle sert yükseldi. Hürmüz Boğazı’ndaki tanker güvenliği, düşük stoklar ve stratejik rezervlerin sınırlı etkisi, k...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlarinda-sert-yukselis-trump-in-iran-hamlesi-piyasalari-sarsti-2544838",
+      "tarih": "2026-10-08T11:44:00.000Z",
+      "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "İzmir'de itfaiyeci, eski sevgilisinin evini kundakladı! Ağır yaralı kadın yaşam mücadelesi veriyor",
-      "ozet": "Olay, İzmir'in Seferihisar ilçesinde meydana geldi. İddiaya göre, Gümüldür İtfaiyesi’nde personel olarak görev yapan A.K., yaklaşık 10 yıl ilişki yaşadığı eski sevgilisi E.S.’nin evini hedef aldı. Bir akaryakıt istasy...",
-      "tarih": "2026-10-08T09:50:51.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "ABD'nin İran'a yeni saldırı hazırlığı iddiaları Brent petrol fiyatını yüzde 4'ten fazla yükseltti",
+      "ozet": "Brent petrolün varil fiyatı, ABD'nin İran'a yönelik saldırılar düzenleyebileceğine ilişkin haber akışı ve Hürmüz Boğazı'nda alternatif geçiş güzergahlarının kapatılabileceği açıklamalarının arz endişelerini artırmasıy...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abdnin-irana-yeni-saldiri-hazirligi-iddialari-brent-petrol-fiyatini-yuzde-4ten-fazla-yukseltti/4082118",
+      "tarih": "2026-10-08T10:56:24.000Z",
+      "kaynak": "AA"
     },
     {
       "baslik": "Trump'tan İran açıklaması: Petrol fiyatları hızla düşecek",
@@ -48,20 +81,6 @@
       "link": "https://www.yenisafak.com/ekonomi/trumptan-iran-aciklamasi-petrol-fiyatlari-hizla-dusecek-4862517",
       "tarih": "2026-10-08T08:14:19.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalar negatif seyirde",
-      "ozet": "Küresel piyasalar, Fed’in yıl sonuna kadar faiz artırabileceği beklentisi ve Orta Doğu’da artan jeopolitik gerilimle negatif seyrediyor; petrolün varil fiyatı 102 doları aşarken, ABD ve Avrupa borsalarında düşüşler ön...",
-      "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-fed-ve-jeopolitik-risklerle-geriledi-3918075",
-      "tarih": "2026-10-08T07:14:45.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Petrol fiyatları 100 doların üzerinde",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 102,73 dolardan işlem görüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlari-100-dolarin-uzerinde-3918058",
-      "tarih": "2026-10-08T06:47:13.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Küresel piyasalarda ralliye ara",
@@ -76,20 +95,6 @@
       "link": "https://www.bloomberght.com/petrol-hurmuzdeki-saldirilarin-arz-endiselerini-artirmasiyla-yukseldi-3790717",
       "tarih": "2026-10-08T03:29:31.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Trump'tan İran mesajı: Çok hızlı şekilde sona erecek",
-      "ozet": "ABD Başkanı Donald Trump, İran'ın nükleer silah edinmesini engelleme misyonunu esasen tamamladıklarını savunarak, savaşın çok hızlı şekilde sona ereceğini ve ardından petrol fiyatlarının hızla düşeceğini söyledi.",
-      "link": "https://www.bloomberght.com/trump-tan-iran-mesaji-cok-hizli-sekilde-sona-erecek-3790711",
-      "tarih": "2026-10-07T20:40:02.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "IEA üyeleri stratejik petrol rezervlerinin piyasaya sürülmesini hızlandıracak",
-      "ozet": "Uluslararası Enerji Ajansı (IEA) üyesi ülkeler, Hürmüz Boğazı krizinin enerji piyasaları üzerindeki etkilerinin devam etmesi nedeniyle stratejik petrol rezervlerinin piyasaya sürülmesini hızlandıracak.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/iea-uyeleri-stratejik-petrol-rezervlerinin-piyasaya-surulmesini-hizlandiracak/4081259",
-      "tarih": "2026-10-07T15:49:24.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Brent petrolün varili 101,49 dolardan işlem görüyor",
@@ -180,13 +185,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2543000",
       "tarih": "2026-10-02T07:39:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatları 102 doları aştı: Çin'in tek imzası vanaları kilitledi",
-      "ozet": "Brent petrolün varil fiyatı yükselirken, küresel yakıt arzına ilişkin endişeler piyasaların odağında kalmayı sürdürüyor. Çin’in yakıt ihracatına yönelik kısıtlamaları ve ABD’nin Avrupa ülkelerinden acil durum dizel st...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-102-dolari-asti-cin-in-tek-imzasi-vanalari-kilitledi-2542992",
-      "tarih": "2026-10-02T07:15:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
