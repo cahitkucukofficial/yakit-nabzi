@@ -1,13 +1,13 @@
 {
-  "guncelleme": "2026-10-09T00:01:14.365Z",
+  "guncelleme": "2026-10-09T23:38:30.127Z",
   "kaynaklar": [
-    "DUNYA",
-    "BLOOMBERGHT",
     "CNNTURK",
     "MILLIYET",
-    "CUMHURIYET",
     "AA",
-    "YENISAFAK"
+    "BLOOMBERGHT",
+    "YENISAFAK",
+    "HABERTURK",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -22,24 +22,71 @@
   },
   "haberler": [
     {
-      "baslik": "New York borsası karışık seyirle kapandı",
-      "ozet": "New York borsası, petrol fiyatlarındaki yükseliş ve teknoloji hisselerindeki düşüşün etkisiyle günü karışık seyirle tamamladı.",
-      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-karisik-seyirle-kapandi-haberi-843193",
-      "tarih": "2026-10-08T21:14:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Altında dipten dönüş başladı mı?",
+      "ozet": "İki aylık dip seviyesinin ardından yeniden yükselişe geçen altında gözler yıl sonu beklentilerine çevrildi. Ekonomist Muhammet Bayram, ABD Başkanı Donald Trump’ın savaşın sona ermesine yönelik açıklamalarının, petrol ...",
+      "link": "https://www.cnnturk.com/video/ekonomi/altin/altinda-dipten-donus-basladi-mi-3477263",
+      "tarih": "2026-10-09T21:50:38.000Z",
+      "kaynak": "CNNTURK"
     },
     {
-      "baslik": "ABD'den İran petrolüne yeni darbe: 17 gemi yaptırım listesine alındı",
-      "ozet": "ABD Hazine Bakanlığı, İran'ın milyarlarca dolar değerindeki petrol ve petrokimya ürünlerini dış pazarlara taşımada kullandığı gölge filo ağına yönelik yaptırım uyguladığını açıkladı.",
-      "link": "https://www.dunya.com/dunya/abdden-iran-petrolune-yeni-darbe-17-gemi-yaptirim-listesine-alindi-haberi-843186",
-      "tarih": "2026-10-08T18:52:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "'Akaryakıt fiyatlarıyla ilgili sürprizim var' diyen Trump'tan Putin ile anlaşma!",
+      "ozet": "ABD Başkanı Donald Trump, Amerika kıtasının​​​​​​​ İtalyan gezgin Kristof Kolomb tarafından keşfedilmesi vesilesiyle kutlanan Kolomb Günü dolayısıyla Beyaz Saray'da düzenlenen etkinlikte konuştu. Dizelle ilgili \"büyük...",
+      "tarih": "2026-10-09T21:43:59.000Z",
+      "kaynak": "MILLIYET"
     },
     {
-      "baslik": "ABD'den İran'ın gölge filosuna yeni yaptırımlar",
-      "ozet": "ABD Hazine Bakanlığı, İran'ın petrol ve petrokimya ürünlerini uluslararası pazarlara taşımak için kullandığı gölge filo ağına yönelik yeni yaptırımlar kapsamında 17 gemi ile çok sayıda şirketi yaptırım listesine aldı.",
-      "link": "https://www.bloomberght.com/abd-den-iran-in-golge-filosuna-yeni-yaptirimlar-3790882",
-      "tarih": "2026-10-08T18:37:29.000Z",
+      "baslik": "Putin, ABD'ye ve dünyaya petrol tedarik etmeye hazır olduklarını belirtti",
+      "ozet": "Rusya Devlet Başkanı Vladimir Putin, ABD ve küresel piyasalara petrol ve petrol ürünleri tedarik etmeye hazır olduklarını bildirdi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/putin-abdye-ve-dunyaya-petrol-tedarik-etmeye-hazir-olduklarini-belirtti/4084056",
+      "tarih": "2026-10-09T20:16:10.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Brezilya, yakıt fiyatlarına yönelik vergi önlemlerini bir ay uzattı",
+      "ozet": "Brezilya hükümeti, küresel petrol fiyatlarındaki artışın tüketiciler üzerindeki etkisini hafifletmek amacıyla yakıt fiyatlarına yönelik destekleri bir ay daha uzattı ve ek önlemler açıkladı.",
+      "link": "https://www.bloomberght.com/brezilya-yakit-fiyatlarina-yonelik-onlemlerini-bir-ay-uzatti-3791015",
+      "tarih": "2026-10-09T20:12:55.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Benzine 96 kuruş indirim bekleniyor: İşte yeni fiyatlar",
+      "ozet": "Petrol fiyatlarındaki gerilemenin ardından benzin fiyatlarında indirim yapılması bekleniyor. Benzinin litre fiyatına 96 kuruş indirim uygulanması öngörülüyor.",
+      "link": "https://www.cnnturk.com/ekonomi/benzine-96-kurus-indirim-bekleniyor-iste-yeni-fiyatlar-3477090",
+      "tarih": "2026-10-09T11:23:46.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bakan Kacır: Türkiye olarak yeryüzünde barış uzayda barış diyoruz",
+      "ozet": "Uluslararası Uzay Federasyonu tarafından düzenlenen IAC 2026, Sanayi ve Teknoloji Bakanlığının koordinasyonunda, Türkiye Uzay Ajansı ile SAHA İstanbul'un eş ev sahipliğinde Antalya NEST Kongre Merkezi'nde \"Halk Günü\" ...",
+      "tarih": "2026-10-09T10:31:14.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Akaryakıt pompalarında tabela bu gece değişiyor: Benzine indirim motorin için zam kapıda",
+      "ozet": "Küresel piyasalardaki sert dalgalanmalar ve döviz kurundaki hareketlilik, akaryakıt pompalarını bir kez daha hareketlendirdi. Araç sahiplerinin gözü kulağı bu gece yarısına çevrilirken, benzin ve motorin cephesinden p...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-pompalarinda-tabela-bu-gece-degisiyor-benzine-indirim-motorin-icin-zam-kapida-4862810",
+      "tarih": "2026-10-09T08:01:19.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol fiyatlarında son durum ne?",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 102,90 dolardan işlem görüyor",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3918343",
+      "tarih": "2026-10-09T06:41:24.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Akaryakıt masrafını düşürmenin formülü belli oldu: İndirim oranı yüzde 9'u buluyor",
+      "ozet": "Küresel piyasalarda brent petrolün hızlı yükselişiyle akaryakıt tabelalarındaki rakamlar katlanırken, artan ulaşım maliyetleri araç sahiplerini yeni çözüm arayışlarına yöneltti. Yılbaşından bu yana pompaya yansıyan ar...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/arac-sahipleri-dikkat-ucuz-akaryakit-formulu-belli-oldu-indirim-orani-yuzde-9u-buluyor-4862782",
+      "tarih": "2026-10-09T06:34:08.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol, ABD-İran görüşmeleriyle geriledi",
+      "ozet": "Petrol, ABD Başkanı Donald Trump'ın gelecek ayki seçimlerden önce İran'a saldırı düzenlemeyeceklerini açıklaması ve savaşın sona erdirilmesine yönelik görüşmelerin ilerleme kaydetmesiyle cuma günü geriledi.",
+      "link": "https://www.bloomberght.com/petrol-abd-iran-gorusmeleriyle-geriledi-3790892",
+      "tarih": "2026-10-09T03:29:49.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
@@ -50,23 +97,11 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "ABD Kongre ara seçimleri öncesinde İran'a saldıracak mı? Trump'tan açıklama!",
-      "ozet": "ABD Başkanı Trump, sosyal medya hesabından yaptığı paylaşımda, İran ile savaşın gidişatına ilişkin önemli bir duyuru yaptı. Tahran'la verimli görüşmeler yürütüklerini kaydeden Trump, İran'ın hem ekonomik hem de askeri...",
-      "tarih": "2026-10-08T16:55:53.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
       "baslik": "Brent petrol iki haftanın zirvesine çıktı",
       "ozet": "Brent petrolün varil fiyatı, perşembe günü saat 13.30 itibarıyla yüzde 5'in üzerinde yükselerek 105 doların üzerine çıktı. Böylece Brent petrol iki haftanın en yüksek seviyesine ulaştı.",
       "link": "https://www.cnnturk.com/ekonomi/brent-petrol-iki-haftanin-zirvesine-cikti-3476726",
       "tarih": "2026-10-08T16:55:15.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "ABD'den yeni iddia: Maduro işkenceyle suçlanıyor!",
-      "ozet": "AP'nin haberine göre, daha önce ABD'ye kokain gönderme komplosuna katılmakla suçlanan Maduro, şimdi de petrol zengini Güney Amerika ülkesinin başkanlığı döneminde insan hakları ihlalleri iddialarıyla karşı karşıya. Oc...",
-      "tarih": "2026-10-08T14:56:50.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "AKARYAKIT FİYATLARI SON DURUM! Benzine, motorine zam ya da indirim geldi mi? 8 Ekim İstanbul, Ankara, İzmir güncel akaryakıt fiyatı",
@@ -83,31 +118,10 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "ABD'nin İran'a yeni saldırı hazırlığı iddiaları Brent petrol fiyatını yüzde 4'ten fazla yükseltti",
-      "ozet": "Brent petrolün varil fiyatı, ABD'nin İran'a yönelik saldırılar düzenleyebileceğine ilişkin haber akışı ve Hürmüz Boğazı'nda alternatif geçiş güzergahlarının kapatılabileceği açıklamalarının arz endişelerini artırmasıy...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/abdnin-irana-yeni-saldiri-hazirligi-iddialari-brent-petrol-fiyatini-yuzde-4ten-fazla-yukseltti/4082118",
-      "tarih": "2026-10-08T10:56:24.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Trump'tan İran açıklaması: Petrol fiyatları hızla düşecek",
       "ozet": "ABD Başkanı Donald Trump, İran'ın nükleer silaha sahip olmasını engelleme misyonunu esasen tamamladıklarını belirterek, İran ordusunu yok ettiklerini ve savaşın sona ermesiyle birlikte petrol fiyatlarının hızla düşece...",
       "link": "https://www.yenisafak.com/ekonomi/trumptan-iran-aciklamasi-petrol-fiyatlari-hizla-dusecek-4862517",
       "tarih": "2026-10-08T08:14:19.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalarda ralliye ara",
-      "ozet": "ABD borsalarında rekor serisi sona ererken, S&P 500 tarihi zirvesinden geriledi. Satışlarda, yüksek seyreden petrol fiyatlarının enflasyon baskısını artırarak Fed'i yeni faiz artışlarına yöneltebileceği endişesi etkil...",
-      "link": "https://www.bloomberght.com/kuresel-piyasalarda-ralliye-ara-3790725",
-      "tarih": "2026-10-08T05:33:01.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Brent petrolün varili 101,49 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 101,49 dolardan işlem görüyor.",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-10149-dolardan-islem-goruyor-4862236",
-      "tarih": "2026-10-07T08:16:53.000Z",
       "kaynak": "YENISAFAK"
     },
     {
