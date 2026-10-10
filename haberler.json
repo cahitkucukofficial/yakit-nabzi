@@ -1,14 +1,12 @@
 {
-  "guncelleme": "2026-10-10T10:10:35.279Z",
+  "guncelleme": "2026-10-10T16:28:21.706Z",
   "kaynaklar": [
+    "YENISAFAK",
     "DUNYA",
     "HABERTURK",
-    "YENISAFAK",
-    "SABAH",
     "BLOOMBERGHT",
     "CNNTURK",
-    "AA",
-    "CUMHURIYET"
+    "AA"
   ],
   "beklenti": {
     "motorin": {
@@ -23,10 +21,17 @@
   },
   "haberler": [
     {
-      "baslik": "Deprem bölgesindeki elektrik şirketlerine ödeme kolaylığı",
-      "ozet": "Depremin etkilerinin sürdüğü dört elektrik dağıtım bölgesinde faaliyet gösteren belirli tedarik şirketlerine 2027 boyunca avans ödeme kolaylığı tanındı. EPDK kararı ödemeleri fatura son ödeme tarihine erteliyor; tüket...",
-      "link": "https://www.dunya.com/is-dunyasi/deprem-bolgesindeki-elektrik-sirketlerine-odeme-kolayligi-haberi-843344",
-      "tarih": "2026-10-10T09:51:00.000Z",
+      "baslik": "Küresel piyasaların gözü gelecek haftanın enflasyon verilerinde",
+      "ozet": "Orta Doğu’daki jeopolitik gerilimler, yüksek seyreden petrol fiyatları ve Fed’in faiz politikasına ilişkin belirsizlikler küresel piyasalarda yön arayışını öne çıkardı. Dünya genelinde açıklanacak enflasyon verileri i...",
+      "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarin-gozu-gelecek-haftanin-enflasyon-verilerinde-4863144",
+      "tarih": "2026-10-10T10:45:38.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Çin'de benzin pahalandı, elektrikli araç trafiği yüzde 35 arttı",
+      "ozet": "Çin'de benzin fiyatları yükselirken Ulusal Gün tatilinde yeni enerjili araç trafiği yüzde 35 arttı. Otoyollardaki günlük şarj tüketimi yüzde 51,42 yükseldi. Veriler, ulaşım tercihlerindeki değişimin petrol talebine et...",
+      "link": "https://www.dunya.com/ekonomi/cinde-benzin-pahalandi-elektrikli-arac-trafigi-yuzde-35-artti-haberi-843349",
+      "tarih": "2026-10-10T10:36:00.000Z",
       "kaynak": "DUNYA"
     },
     {
@@ -44,13 +49,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "EPDK avans ödemelerini erteledi: Hangi şirketleri kapsıyor?",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Akedaş Elektrik Dağıtım AŞ, Dicle Elektrik Dağıtım AŞ, Fırat Elektrik Dağıtım AŞ ve Toroslar Elektrik Dağıtım AŞ ile söz konusu dağıtım bölgelerinde faaliyet gösteren...Devamı ...",
-      "link": "https://www.sabah.com.tr/ekonomi/epdk-avans-odemelerini-erteledi-hangi-sirketleri-kapsiyor-7677642",
-      "tarih": "2026-10-10T07:46:21.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Motorinde zam, benzinde indirim",
       "ozet": "Motorinin litre fiyatına 10 Ekim tarihinden itibaren geçerli olmak üzere 6,36 TL zam yapıldı.",
       "link": "https://www.bloomberght.com/motorinde-zam-benzinde-indirim-3791025",
@@ -63,13 +61,6 @@
       "link": "https://www.bloomberght.com/petrol-tanker-ucretlerinde-yeni-rekorlar-uzaya-roket-firlatmaktan-daha-pahali-3791024",
       "tarih": "2026-10-10T07:31:02.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol devlerine ek vergide yeni adım: AB çalışma grubu kuruyor",
-      "ozet": "Avrupa Birliği, petrol ve enerji şirketlerinin yüksek kârlarından ek vergi alınmasını teknik incelemeye açtı. Altı ülkenin baskısıyla 9 Ekim'de çalışma grubu kararlaştırıldı. Ancak ortak vergi için henüz oran, takvim ...",
-      "link": "https://www.dunya.com/ekonomi/petrol-devlerine-ek-vergide-yeni-adim-ab-calisma-grubu-kuruyor-haberi-843332",
-      "tarih": "2026-10-10T07:28:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Dört elektrik dağıtım firmasının avans ödemeleri ertelendi",
@@ -133,90 +124,6 @@
       "link": "https://www.cnnturk.com/ekonomi/son-dakika-borsa-persembe-gununu-yukselisle-tamamladi-3476847",
       "tarih": "2026-10-08T18:30:06.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Brent petrol iki haftanın zirvesine çıktı",
-      "ozet": "Brent petrolün varil fiyatı, perşembe günü saat 13.30 itibarıyla yüzde 5'in üzerinde yükselerek 105 doların üzerine çıktı. Böylece Brent petrol iki haftanın en yüksek seviyesine ulaştı.",
-      "link": "https://www.cnnturk.com/ekonomi/brent-petrol-iki-haftanin-zirvesine-cikti-3476726",
-      "tarih": "2026-10-08T16:55:15.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Petrol fiyatlarında sert yükseliş: Trump’ın İran hamlesi piyasaları sarstı",
-      "ozet": "Petrol fiyatları, ABD’nin İran’a yönelik olası yeni askeri seçenekleri değerlendirdiği yönündeki haberlerle sert yükseldi. Hürmüz Boğazı’ndaki tanker güvenliği, düşük stoklar ve stratejik rezervlerin sınırlı etkisi, k...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlarinda-sert-yukselis-trump-in-iran-hamlesi-piyasalari-sarsti-2544838",
-      "tarih": "2026-10-08T11:44:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatları yeniden 100 doları aştı: Akaryakıtta artış yolda mı?",
-      "ozet": "Petrol fiyatları, Batı Asya’daki saldırı haberleri ve ABD’de enerji üretimini tehdit eden hava koşullarının etkisiyle yeniden yükselişe geçti. Brent petroldeki artış, Türkiye’de benzin ve motorin fiyatlarında yeni zam...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-yeniden-100-dolari-asti-akaryakitta-artis-yolda-mi-2544486",
-      "tarih": "2026-10-07T07:45:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol neden 100 doların altına inmiyor? İşte fiyatları yüksek tutan 5 neden",
-      "ozet": "Batı Asya’dan petrol sevkiyatının toparlanmasına rağmen küresel fiyatlar yüksek seyrini koruyor. Jeopolitik riskler, artan taşıma maliyetleri, düşük stoklar ve güçlü talep, petrolün 100 doların üzerinde kalmasına nede...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-neden-100-dolarin-altina-inmiyor-iste-fiyatlari-yuksek-tutan-5-neden-2544155",
-      "tarih": "2026-10-06T09:33:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine indirim sonrası tabela değişti: İşte güncel akaryakıt fiyatları",
-      "ozet": "Akaryakıt fiyatlarında yeni tarife pompaya yansırken motorin fiyatlarında dikkat çeken düşüş yaşandı. İndirimin ardından İstanbul, Ankara ve İzmir’de güncel benzin, motorin ve LPG fiyatları sürücüler tarafından yakınd...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-sonrasi-tabela-degisti-iste-guncel-akaryakit-fiyatlari-2544072",
-      "tarih": "2026-10-06T06:31:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Eylül ayının zam şampiyonları belli oldu: TÜİK enflasyon verilerini açıkladı",
-      "ozet": "Eylül enflasyonunun açıklanmasının ardından zam ve indirim şampiyonları belli oldu. TÜİK verilerine göre fiyatı en çok artan ürün yükseköğretim eğitimi olurken, motorin ve benzin de en fazla zamlanan kalemler arasında...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/eylul-ayinin-zam-sampiyonlari-belli-oldu-tuik-enflasyon-verilerini-acikladi-2543799",
-      "tarih": "2026-10-05T08:23:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dolar/TL'de yeni rekor: Haftanın ilk verileri açıklandı",
-      "ozet": "Dolar/TL haftanın ilk işlem gününde yükselişini sürdürürken, piyasalarda açıklanan eylül enflasyonu ve Fed’in faiz kararına ilişkin beklentiler izleniyor. Jeopolitik gerilimlerin petrol fiyatları ve enflasyon üzerinde...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/dolar-tl-de-yeni-rekor-haftanin-ilk-verileri-aciklandi-2543778",
-      "tarih": "2026-10-05T07:52:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorin fiyatlarına indirim yolda: Tabelalar bu gece değişecek",
-      "ozet": "Motorine gelen indirimin ardından akaryakıt fiyatlarında yeni bir indirim beklentisi oluştu. Gazeteci Cemil Cahit Saraçoğlu, motorin fiyatlarında yeni bir indirim yapılacağını duyurdu.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-indirim-yolda-tabelalar-bu-gece-degisecek-2543751",
-      "tarih": "2026-10-05T07:03:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yozgat'ta toplu taşıma ücretlerine zam geldi",
-      "ozet": "Yozgat’ta şehir içi toplu taşıma ücretlerine 6 lira zam yapıldı. Yeni tarifeyle tam biniş 41, öğrenci 33, banka veya kredi kartıyla biniş 46 liraya yükseldi. Zam talebinin gerekçesi ise artan mazot fiyatları oldu.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/yozgat-ta-toplu-tasima-ucretlerine-zam-geldi-2543327",
-      "tarih": "2026-10-03T10:30:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "G7 ülkelerinden fiyatları düşürecek tarihi karar: Piyasaya 100 milyon varil sürülecek",
-      "ozet": "G7 liderleri, küresel enerji piyasalarındaki dalgalanmaları ve artan fiyatları durdurmak amacıyla 100 milyon varil dizel ve petrol rezervini 4 ay içinde piyasaya sürme kararı aldı. Uluslararası Enerji Ajansı koordinas...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/g7-ulkelerinden-fiyatlari-dusurecek-tarihi-karar-piyasaya-100-milyon-varil-surulecek-2543293",
-      "tarih": "2026-10-03T07:47:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Tarih belli oldu... Motorinde tabela değişecek: Bir indirim daha bekleniyor",
-      "ozet": "Motorine bugün yapılan 2,22 TL’lik indirimin ardından salı günü 4,95 TL daha indirim bekleniyor. Küresel piyasalarda motorinin ton fiyatı düşerken Brent petrol 102-103 dolar seviyesinde işlem görüyor. Benzinde ise fiy...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarih-belli-oldu-motorinde-tabela-degisecek-bir-indirim-daha-bekleniyor-2543283",
-      "tarih": "2026-10-03T07:22:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "ABD Başkanı Donald Trump açıkladı: Avrupa, dizel stoklarını piyasaya sürecek",
-      "ozet": "ABD Başkanı Donald Trump, küresel çapta yükselen akaryakıt fiyatlarına karşı Avrupa'nın dizel stoklarını piyasaya sürmeyi kabul ettiğini duyurdu. Trump sürecin derhal başlayacağını belirtirken, bu kritik hamlenin ABD'...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-baskani-donald-trump-acikladi-avrupa-dizel-stoklarini-piyasaya-surecek-2543275",
-      "tarih": "2026-10-03T07:07:00.000Z",
-      "kaynak": "CUMHURIYET"
     }
   ]
 }
