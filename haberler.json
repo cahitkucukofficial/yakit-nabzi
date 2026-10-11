@@ -1,10 +1,12 @@
 {
-  "guncelleme": "2026-10-10T16:28:21.706Z",
+  "guncelleme": "2026-10-11T02:29:49.662Z",
   "kaynaklar": [
-    "YENISAFAK",
-    "DUNYA",
-    "HABERTURK",
+    "MILLIYET",
     "BLOOMBERGHT",
+    "DUNYA",
+    "CUMHURIYET",
+    "YENISAFAK",
+    "HABERTURK",
     "CNNTURK",
     "AA"
   ],
@@ -21,18 +23,51 @@
   },
   "haberler": [
     {
+      "baslik": "Sarıyer TEM Otoyolu’nda otomobil duran taksiye çarptı! 2 araç yandı, 5 kişi yaralandı",
+      "ozet": "Kaza, saat 00.45 sıralarında Sarıyer TEM Otoyolu’nda meydana geldi. İddiaya göre, Ankara istikametine seyir halinde olan otomobil, yol üzerinde duran taksiye arkadan çarptı. Çarpışmanın ardından taksinin LPG tankında ...",
+      "tarih": "2026-10-11T00:41:25.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "İngiltere Deniz Ticaret Operasyonları: Hürmüz Boğazı'nda bir tanker saldırıya uğradı",
+      "ozet": "UKMTO tarafından yapılan açıklamada, Hürmüz Boğazı'nda 10 Ekim TSİ 22.20 sularında bir geminin kaptanından vurulduklarına dair bilgi alındığı bildirildi. Açıklamada, Hürmüz Boğazı çıkışında saldırıya maruz kalan gemin...",
+      "tarih": "2026-10-10T22:58:38.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Trump: Bence Ukrayna'nın yeni bir başkan edinme vakti geldi",
+      "ozet": "ABD Başkanı Donald Trump, Ukrayna'nın, Rusya'daki petrol rafinerilerine saldırması ve anlaşma yanlısı olmaması nedeniyle Devlet Başkanı Volodimir Zelenskiy yerine \"yeni bir başkan edinmesi\" gerektiğini savundu.",
+      "link": "https://www.bloomberght.com/trump-bence-ukrayna-nin-yeni-bir-baskan-edinme-vakti-geldi-3791029",
+      "tarih": "2026-10-10T19:13:00.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Trump'tan Zelenski'ye sert çıkış: Ukrayna'nın yeni bir başkana ihtiyacı var",
+      "ozet": "ABD Başkanı Donald Trump, Ukrayna Devlet Başkanı Volodimir Zelenski'yi Rusya ile savaşı sona erdirecek bir anlaşmaya yanaşmamakla suçlayarak Ukrayna'nın yeni bir başkana ihtiyaç duyduğunu savundu. Kiev'in Rus petrol r...",
+      "link": "https://www.dunya.com/dunya/trumptan-zelenskiye-sert-cikis-ukraynanin-yeni-bir-baskana-ihtiyaci-var-haberi-843377",
+      "tarih": "2026-10-10T19:06:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Küresel piyasalarda yön arayışı: Gözler enflasyon verilerinde",
+      "ozet": "Küresel pay piyasaları, Ortadoğu'daki jeopolitik riskler ve Fed'in faiz politikası belirsizlikleriyle karışık bir seyir izliyor. Altın ve petrol haftayı yükselişle kapatırken, yeni haftada gözler ABD enflasyon veriler...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/kuresel-piyasalarda-yon-arayisi-gozler-enflasyon-verilerinde-2545422",
+      "tarih": "2026-10-10T15:43:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Şeker fiyatları Aralık 2024'ten bu yana zirvede: İşte yükselişin nedenleri",
+      "ozet": "Uluslararası piyasalarda şekerin libre fiyatı, arza yönelik endişeler ve üretim kısıtlamalarıyla bu yıl yüzde 35'in üzerinde artarak 0,2027 dolara yükseldi. Uzmanlar, artan petrol fiyatlarının şeker yerine etanol üret...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/seker-fiyatlari-aralik-2024-ten-bu-yana-zirvede-iste-yukselisin-nedenleri-2545405",
+      "tarih": "2026-10-10T14:30:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
       "baslik": "Küresel piyasaların gözü gelecek haftanın enflasyon verilerinde",
       "ozet": "Orta Doğu’daki jeopolitik gerilimler, yüksek seyreden petrol fiyatları ve Fed’in faiz politikasına ilişkin belirsizlikler küresel piyasalarda yön arayışını öne çıkardı. Dünya genelinde açıklanacak enflasyon verileri i...",
       "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarin-gozu-gelecek-haftanin-enflasyon-verilerinde-4863144",
       "tarih": "2026-10-10T10:45:38.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Çin'de benzin pahalandı, elektrikli araç trafiği yüzde 35 arttı",
-      "ozet": "Çin'de benzin fiyatları yükselirken Ulusal Gün tatilinde yeni enerjili araç trafiği yüzde 35 arttı. Otoyollardaki günlük şarj tüketimi yüzde 51,42 yükseldi. Veriler, ulaşım tercihlerindeki değişimin petrol talebine et...",
-      "link": "https://www.dunya.com/ekonomi/cinde-benzin-pahalandi-elektrikli-arac-trafigi-yuzde-35-artti-haberi-843349",
-      "tarih": "2026-10-10T10:36:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Motorine zam, benzine indirim geldi",
@@ -70,6 +105,13 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
+      "baslik": "Akaryakıtta gece yarısı sürprizi: Motorine dev zam, benzine indirim",
+      "ozet": "Akaryakıt fiyatlarında gece yarısı tabelalar bir kez daha değişti. Eşel mobil sisteminin sona ermesiyle motorine 6,39 TL'lik dev zam gelirken, benzinde 96 kuruş indirime gidildi. İşte İstanbul, Ankara ve İzmir'de 10 E...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-gece-yarisi-surprizi-motorine-dev-zam-benzine-indirim-2545301",
+      "tarih": "2026-10-10T06:41:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
       "baslik": "Altında dipten dönüş başladı mı?",
       "ozet": "İki aylık dip seviyesinin ardından yeniden yükselişe geçen altında gözler yıl sonu beklentilerine çevrildi. Ekonomist Muhammet Bayram, ABD Başkanı Donald Trump’ın savaşın sona ermesine yönelik açıklamalarının, petrol ...",
       "link": "https://www.cnnturk.com/video/ekonomi/altin/altinda-dipten-donus-basladi-mi-3477263",
@@ -98,6 +140,13 @@
       "kaynak": "CNNTURK"
     },
     {
+      "baslik": "Motorine zam, benzine indirim yolda: Tabelalar gece yarısı değişecek",
+      "ozet": "Akaryakıt fiyatlarında yeni değişiklik kapıda. Sektör kaynakları motorine zam, benzine ise indirim beklendiğini belirtirken, pompaya yansıyacak yeni tarife sürücülerin gündemine girdi.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-zam-benzine-indirim-yolda-tabelalar-gece-yarisi-degisecek-2545121",
+      "tarih": "2026-10-09T10:53:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
       "baslik": "Akaryakıt pompalarında tabela bu gece değişiyor: Benzine indirim motorin için zam kapıda",
       "ozet": "Küresel piyasalardaki sert dalgalanmalar ve döviz kurundaki hareketlilik, akaryakıt pompalarını bir kez daha hareketlendirdi. Araç sahiplerinin gözü kulağı bu gece yarısına çevrilirken, benzin ve motorin cephesinden p...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-pompalarinda-tabela-bu-gece-degisiyor-benzine-indirim-motorin-icin-zam-kapida-4862810",
@@ -124,6 +173,55 @@
       "link": "https://www.cnnturk.com/ekonomi/son-dakika-borsa-persembe-gununu-yukselisle-tamamladi-3476847",
       "tarih": "2026-10-08T18:30:06.000Z",
       "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Petrol fiyatlarında sert yükseliş: Trump’ın İran hamlesi piyasaları sarstı",
+      "ozet": "Petrol fiyatları, ABD’nin İran’a yönelik olası yeni askeri seçenekleri değerlendirdiği yönündeki haberlerle sert yükseldi. Hürmüz Boğazı’ndaki tanker güvenliği, düşük stoklar ve stratejik rezervlerin sınırlı etkisi, k...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlarinda-sert-yukselis-trump-in-iran-hamlesi-piyasalari-sarsti-2544838",
+      "tarih": "2026-10-08T11:44:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrol fiyatları yeniden 100 doları aştı: Akaryakıtta artış yolda mı?",
+      "ozet": "Petrol fiyatları, Batı Asya’daki saldırı haberleri ve ABD’de enerji üretimini tehdit eden hava koşullarının etkisiyle yeniden yükselişe geçti. Brent petroldeki artış, Türkiye’de benzin ve motorin fiyatlarında yeni zam...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-yeniden-100-dolari-asti-akaryakitta-artis-yolda-mi-2544486",
+      "tarih": "2026-10-07T07:45:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrol neden 100 doların altına inmiyor? İşte fiyatları yüksek tutan 5 neden",
+      "ozet": "Batı Asya’dan petrol sevkiyatının toparlanmasına rağmen küresel fiyatlar yüksek seyrini koruyor. Jeopolitik riskler, artan taşıma maliyetleri, düşük stoklar ve güçlü talep, petrolün 100 doların üzerinde kalmasına nede...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-neden-100-dolarin-altina-inmiyor-iste-fiyatlari-yuksek-tutan-5-neden-2544155",
+      "tarih": "2026-10-06T09:33:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorine indirim sonrası tabela değişti: İşte güncel akaryakıt fiyatları",
+      "ozet": "Akaryakıt fiyatlarında yeni tarife pompaya yansırken motorin fiyatlarında dikkat çeken düşüş yaşandı. İndirimin ardından İstanbul, Ankara ve İzmir’de güncel benzin, motorin ve LPG fiyatları sürücüler tarafından yakınd...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-sonrasi-tabela-degisti-iste-guncel-akaryakit-fiyatlari-2544072",
+      "tarih": "2026-10-06T06:31:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Eylül ayının zam şampiyonları belli oldu: TÜİK enflasyon verilerini açıkladı",
+      "ozet": "Eylül enflasyonunun açıklanmasının ardından zam ve indirim şampiyonları belli oldu. TÜİK verilerine göre fiyatı en çok artan ürün yükseköğretim eğitimi olurken, motorin ve benzin de en fazla zamlanan kalemler arasında...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/eylul-ayinin-zam-sampiyonlari-belli-oldu-tuik-enflasyon-verilerini-acikladi-2543799",
+      "tarih": "2026-10-05T08:23:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Dolar/TL'de yeni rekor: Haftanın ilk verileri açıklandı",
+      "ozet": "Dolar/TL haftanın ilk işlem gününde yükselişini sürdürürken, piyasalarda açıklanan eylül enflasyonu ve Fed’in faiz kararına ilişkin beklentiler izleniyor. Jeopolitik gerilimlerin petrol fiyatları ve enflasyon üzerinde...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/dolar-tl-de-yeni-rekor-haftanin-ilk-verileri-aciklandi-2543778",
+      "tarih": "2026-10-05T07:52:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorin fiyatlarına indirim yolda: Tabelalar bu gece değişecek",
+      "ozet": "Motorine gelen indirimin ardından akaryakıt fiyatlarında yeni bir indirim beklentisi oluştu. Gazeteci Cemil Cahit Saraçoğlu, motorin fiyatlarında yeni bir indirim yapılacağını duyurdu.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-indirim-yolda-tabelalar-bu-gece-degisecek-2543751",
+      "tarih": "2026-10-05T07:03:00.000Z",
+      "kaynak": "CUMHURIYET"
     }
   ]
 }
