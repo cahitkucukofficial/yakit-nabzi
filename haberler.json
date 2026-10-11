@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-10-11T02:29:49.662Z",
+  "guncelleme": "2026-10-11T23:16:32.736Z",
   "kaynaklar": [
+    "DUNYA",
     "MILLIYET",
     "BLOOMBERGHT",
-    "DUNYA",
     "CUMHURIYET",
     "YENISAFAK",
     "HABERTURK",
@@ -23,15 +23,47 @@
   },
   "haberler": [
     {
-      "baslik": "Sarıyer TEM Otoyolu’nda otomobil duran taksiye çarptı! 2 araç yandı, 5 kişi yaralandı",
-      "ozet": "Kaza, saat 00.45 sıralarında Sarıyer TEM Otoyolu’nda meydana geldi. İddiaya göre, Ankara istikametine seyir halinde olan otomobil, yol üzerinde duran taksiye arkadan çarptı. Çarpışmanın ardından taksinin LPG tankında ...",
-      "tarih": "2026-10-11T00:41:25.000Z",
+      "baslik": "ABD’li senatörlerden Trump’ın Rusya ile petrol anlaşmasına tepki",
+      "ozet": "ABD’de 4 Cumhuriyetçi ve 2 Demokrat senatör, Trump yönetimine Rusya’dan dizel yakıt satın alma planından derhal vazgeçme çağrısı yaptı. Senatörler, Rusya’nın Ukrayna’ya yönelik saldırıları sürerken Moskova’ya mali des...",
+      "link": "https://www.dunya.com/dunya/abdli-senatorlerden-trumpin-rusya-ile-petrol-anlasmasina-tepki-haberi-843468",
+      "tarih": "2026-10-11T21:30:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Husiler havalimanını vurdu! Suudi Arabistan'ın başkentinden korkunç görüntüler: Can kaybı artıyor, yüzlerce yaralı var",
+      "ozet": "Suudi Arabistan'daki Kral Halid Uluslararası Havalimanı'na düzenlenen saldırıda hayatını kaybedenlerin sayısının 13'e yükseldiği belirtildi. Hindistan'ın Riyad Büyükelçiliğinden yapılan yazılı açıklamaya göre, dün düz...",
+      "tarih": "2026-10-11T21:26:59.000Z",
       "kaynak": "MILLIYET"
     },
     {
-      "baslik": "İngiltere Deniz Ticaret Operasyonları: Hürmüz Boğazı'nda bir tanker saldırıya uğradı",
-      "ozet": "UKMTO tarafından yapılan açıklamada, Hürmüz Boğazı'nda 10 Ekim TSİ 22.20 sularında bir geminin kaptanından vurulduklarına dair bilgi alındığı bildirildi. Açıklamada, Hürmüz Boğazı çıkışında saldırıya maruz kalan gemin...",
-      "tarih": "2026-10-10T22:58:38.000Z",
+      "baslik": "İran’dan Hürmüz Boğazı’nda gemilere uyarı: Düşman sayılacaklar",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı’nda navigasyon ve keşif sistemlerini kapatarak ilerleyen gemilerin “düşman” olarak tanımlanacağını ve bu gemilere ağır müdahalede bulunulacağını duyurdu. Açıklamada, izins...",
+      "link": "https://www.dunya.com/dunya/irandan-hurmuz-bogazinda-gemilere-uyari-dusman-sayilacaklar-haberi-843467",
+      "tarih": "2026-10-11T20:38:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "İran Devrim Muhafızları duyurdu! 'Hürmüz Boğazı’nda süper tanker mayına çarptı'",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı’ndan geçmeye çalışan bir süper tankerin deniz mayınına çarptığını ve çarpma sonrası geminin makine dairesinde patlama meydana geldiğini duyurdu. Devrim Muhafızları Ordusun...",
+      "tarih": "2026-10-11T19:02:34.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Son dakika... Rusya-Ukrayna arasında enerji ateşkesi sağlandı!",
+      "ozet": "Başkan Trump,sosyal medya hesabından yaptığı paylaşımda, Rusya-Ukrayna arasında devam eden savaşla ilgili son gelişmeyi paylaştı. ABD Başkanı, \"Derhal geçerli olmak üzere, Rusya ve Ukrayna arasındaki savaşta enerji at...",
+      "tarih": "2026-10-11T16:34:19.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Sanayi ürünlerine sıkı denetim: 148 ürüne toplatma kararı",
+      "ozet": "Bakanlık, piyasa gözetimi ve denetimi faaliyetlerine bu yılın 9 aylık döneminde de devam etti. Denetimler, metroloji ve sanayi ürünleri olmak üzere iki alanda gerçekleştirildi. Bu kapsamda, asansörler, basınçlı ekipma...",
+      "tarih": "2026-10-11T11:24:33.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Türkiye ile KKTC arasında ödemelerde yeni dönem",
+      "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB) tarafından İstanbul Finans Merkezi'nde (İFM) düzenlenen İstanbul Ekonomi Forumu, 8-9 Ekim'de dünyanın dört bir yanından merkez bankası başkanları ile üst düzey politika yapıcıl...",
+      "tarih": "2026-10-11T11:12:21.000Z",
       "kaynak": "MILLIYET"
     },
     {
@@ -40,13 +72,6 @@
       "link": "https://www.bloomberght.com/trump-bence-ukrayna-nin-yeni-bir-baskan-edinme-vakti-geldi-3791029",
       "tarih": "2026-10-10T19:13:00.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Trump'tan Zelenski'ye sert çıkış: Ukrayna'nın yeni bir başkana ihtiyacı var",
-      "ozet": "ABD Başkanı Donald Trump, Ukrayna Devlet Başkanı Volodimir Zelenski'yi Rusya ile savaşı sona erdirecek bir anlaşmaya yanaşmamakla suçlayarak Ukrayna'nın yeni bir başkana ihtiyaç duyduğunu savundu. Kiev'in Rus petrol r...",
-      "link": "https://www.dunya.com/dunya/trumptan-zelenskiye-sert-cikis-ukraynanin-yeni-bir-baskana-ihtiyaci-var-haberi-843377",
-      "tarih": "2026-10-10T19:06:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Küresel piyasalarda yön arayışı: Gözler enflasyon verilerinde",
@@ -166,13 +191,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/arac-sahipleri-dikkat-ucuz-akaryakit-formulu-belli-oldu-indirim-orani-yuzde-9u-buluyor-4862782",
       "tarih": "2026-10-09T06:34:08.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "SON DAKİKA | Borsa perşembe gününü yükselişle tamamladı",
-      "ozet": "Borsa İstanbul'da BIST 100 endeksi, bankacılık hisselerindeki satışlara rağmen sanayi hisseleri öncülüğündeki alımlarla günü yüzde 0,75 yükselişle 12.213,58 puandan tamamladı. Küresel piyasalarda petrol fiyatları ve t...",
-      "link": "https://www.cnnturk.com/ekonomi/son-dakika-borsa-persembe-gununu-yukselisle-tamamladi-3476847",
-      "tarih": "2026-10-08T18:30:06.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Petrol fiyatlarında sert yükseliş: Trump’ın İran hamlesi piyasaları sarstı",
