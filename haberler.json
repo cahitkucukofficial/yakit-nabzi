@@ -1,14 +1,13 @@
 {
-  "guncelleme": "2026-10-11T23:16:32.736Z",
+  "guncelleme": "2026-10-12T11:23:48.520Z",
   "kaynaklar": [
-    "DUNYA",
-    "MILLIYET",
-    "BLOOMBERGHT",
-    "CUMHURIYET",
-    "YENISAFAK",
-    "HABERTURK",
     "CNNTURK",
-    "AA"
+    "MILLIYET",
+    "DUNYA",
+    "CUMHURIYET",
+    "HABERTURK",
+    "BLOOMBERGHT",
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -23,48 +22,86 @@
   },
   "haberler": [
     {
-      "baslik": "ABD’li senatörlerden Trump’ın Rusya ile petrol anlaşmasına tepki",
-      "ozet": "ABD’de 4 Cumhuriyetçi ve 2 Demokrat senatör, Trump yönetimine Rusya’dan dizel yakıt satın alma planından derhal vazgeçme çağrısı yaptı. Senatörler, Rusya’nın Ukrayna’ya yönelik saldırıları sürerken Moskova’ya mali des...",
-      "link": "https://www.dunya.com/dunya/abdli-senatorlerden-trumpin-rusya-ile-petrol-anlasmasina-tepki-haberi-843468",
-      "tarih": "2026-10-11T21:30:00.000Z",
+      "baslik": "Bakan Bayraktar: Enerji güvenliği bir numaralı öncelik",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Suudi Arabistan'da katıldığı Dünya Petrol Kongresi'nde yaptığı açıklamada, enerji güvenliğinin bir numaralı öncelik haline geleceğine dikkati çekerek, “Geniş kapsa...",
+      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-enerji-guvenligi-bir-numarali-oncelik-3478155",
+      "tarih": "2026-10-12T13:56:08.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Uludağ’da yeni dönem! Dört mevsim turizm için planlar yürürlükte",
+      "ozet": "Türkiye’nin en eski ve en önemli kış turizm merkezlerinden Uludağ’ın dört mevsim kullanılan, ulaşımı kolay, güvenli ve konforlu bir destinasyona dönüştürülmesine yönelik yeni dönem planlamasında önemli bir aşamaya gel...",
+      "tarih": "2026-10-12T10:41:45.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "GÜNCEL ALTIN FİYATLARI 12 EKİM 2026 | Gram, çeyrek, yarım, tam, cumhuriyet altını ne kadar? Kapalıçarşı’da pazartesi altın alış-satış son durum tablosu!",
+      "ozet": "12 Ekim 2026 Pazartesi güncel altın fiyatları, yeni haftanın ilk işlem gününde yatırımcıların ve altın alım satımı yapmayı planlayan vatandaşların gündeminde yer alıyor. Küresel piyasalardaki gelişmelerin etkisiyle ha...",
+      "link": "https://www.cnnturk.com/ekonomi/guncel-altin-fiyatlari-12-ekim-2026-gram-ceyrek-yarim-tam-cumhuriyet-altini-ne-kadar-kapalicarsida-pazartesi-altin-alis-satis-son-3477871",
+      "tarih": "2026-10-12T10:35:44.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bakan Bayraktar’dan COP31 mesajı: Artık harekete geçme zamanı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Suudi Arabistan'ın başkenti Riyad'da düzenlenen 25. Dünya Petrol Konseyi Enerji Kongresi'nde (WPC Energy Congress) yaptığı konuşmada, Türkiye'nin enerji politikala...",
+      "tarih": "2026-10-12T10:16:59.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Petrol devinden kritik arz sıkıntısı uyarısı: İki yıl sürebilir",
+      "ozet": "Küresel petrol piyasalarında arz sıkıntısı derinleşirken, Suudi petrol devi Aramco'dan dünyayı yakından ilgilendiren bir uyarı geldi. Aramco CEO'su Amin Hassan Nasser, petrol stoklarının kritik seviyelere gerilediğini...",
+      "link": "https://www.dunya.com/enerji/petrol-devinden-kritik-arz-sikintisi-uyarisi-iki-yil-surebilir-haberi-843536",
+      "tarih": "2026-10-12T09:50:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "Husiler havalimanını vurdu! Suudi Arabistan'ın başkentinden korkunç görüntüler: Can kaybı artıyor, yüzlerce yaralı var",
-      "ozet": "Suudi Arabistan'daki Kral Halid Uluslararası Havalimanı'na düzenlenen saldırıda hayatını kaybedenlerin sayısının 13'e yükseldiği belirtildi. Hindistan'ın Riyad Büyükelçiliğinden yapılan yazılı açıklamaya göre, dün düz...",
-      "tarih": "2026-10-11T21:26:59.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Akaryakıt depoları hızla bitiyor: UEA'den 32 ülkeye 'rezervleri açın' talimatı",
+      "ozet": "Küresel dizel arzındaki sıkıntı derinleşirken Uluslararası Enerji Ajansı, üye ülkelerden acil petrol rezervlerini daha hızlı piyasaya sürmelerini istedi. Ajans, özellikle dizel arzına öncelik verilmesini ve ek rezerv ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-depolari-hizla-bitiyor-uea-den-32-ulkeye-rezervleri-acin-talimati-2545838",
+      "tarih": "2026-10-12T08:22:00.000Z",
+      "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "İran’dan Hürmüz Boğazı’nda gemilere uyarı: Düşman sayılacaklar",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı’nda navigasyon ve keşif sistemlerini kapatarak ilerleyen gemilerin “düşman” olarak tanımlanacağını ve bu gemilere ağır müdahalede bulunulacağını duyurdu. Açıklamada, izins...",
-      "link": "https://www.dunya.com/dunya/irandan-hurmuz-bogazinda-gemilere-uyari-dusman-sayilacaklar-haberi-843467",
-      "tarih": "2026-10-11T20:38:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Goldman Sachs petrol tahminini yükseltti",
+      "ozet": "Goldman Sachs, Orta Doğu'daki arz riskleri ve çatışmaların yeniden tırmanma ihtimalini gerekçe göstererek aralık ayı Brent petrol fiyat tahminini varil başına 85 dolardan 90 dolara yükseltti",
+      "link": "https://www.haberturk.com/ekonomi/goldman-sachs-brent-petrol-tahminini-90-dolara-yukseltti-3918980",
+      "tarih": "2026-10-12T04:57:40.000Z",
+      "kaynak": "HABERTURK"
     },
     {
-      "baslik": "İran Devrim Muhafızları duyurdu! 'Hürmüz Boğazı’nda süper tanker mayına çarptı'",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı’ndan geçmeye çalışan bir süper tankerin deniz mayınına çarptığını ve çarpma sonrası geminin makine dairesinde patlama meydana geldiğini duyurdu. Devrim Muhafızları Ordusun...",
-      "tarih": "2026-10-11T19:02:34.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Altın, zayıflayan dolar ve düşen petrol fiyatlarıyla yükseldi",
+      "ozet": "Altın, doların zayıflaması ve petrol fiyatlarının gerilemesiyle haftaya yükselişle başladı.",
+      "link": "https://www.bloomberght.com/altin-zayiflayan-dolar-ve-dusen-petrol-fiyatlariyla-yukseldi-3791041",
+      "tarih": "2026-10-12T03:41:11.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Son dakika... Rusya-Ukrayna arasında enerji ateşkesi sağlandı!",
-      "ozet": "Başkan Trump,sosyal medya hesabından yaptığı paylaşımda, Rusya-Ukrayna arasında devam eden savaşla ilgili son gelişmeyi paylaştı. ABD Başkanı, \"Derhal geçerli olmak üzere, Rusya ve Ukrayna arasındaki savaşta enerji at...",
-      "tarih": "2026-10-11T16:34:19.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Goldman Sachs, Brent petrol tahminini yükseltti",
+      "ozet": "Goldman Sachs, Orta Doğu'daki arz riskleri ve çatışmaların yeniden tırmanma ihtimalini gerekçe göstererek aralık ayı Brent petrol fiyat tahminini varil başına 85 dolardan 90 dolara yükseltti.",
+      "link": "https://www.bloomberght.com/goldman-sachs-brent-petrol-tahminini-yukseltti-3791040",
+      "tarih": "2026-10-12T03:34:37.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Sanayi ürünlerine sıkı denetim: 148 ürüne toplatma kararı",
-      "ozet": "Bakanlık, piyasa gözetimi ve denetimi faaliyetlerine bu yılın 9 aylık döneminde de devam etti. Denetimler, metroloji ve sanayi ürünleri olmak üzere iki alanda gerçekleştirildi. Bu kapsamda, asansörler, basınçlı ekipma...",
-      "tarih": "2026-10-11T11:24:33.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Petrol, Rusya'nın arz artışı beklentisiyle geriledi",
+      "ozet": "Petrol, ABD Başkanı Donald Trump'ın Rusya ve Ukrayna'nın enerji tesislerine yönelik saldırıları durdurmayı kabul ettiğini açıklamasının ardından pazartesi günü geriledi.",
+      "link": "https://www.bloomberght.com/petrol-rusyanin-arz-artisi-beklentisiyle-geriledi-3791039",
+      "tarih": "2026-10-12T03:31:36.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Türkiye ile KKTC arasında ödemelerde yeni dönem",
-      "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB) tarafından İstanbul Finans Merkezi'nde (İFM) düzenlenen İstanbul Ekonomi Forumu, 8-9 Ekim'de dünyanın dört bir yanından merkez bankası başkanları ile üst düzey politika yapıcıl...",
-      "tarih": "2026-10-11T11:12:21.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Meclis'te dört aylık KİT mesaisi",
+      "ozet": "Kamu İktisadi Teşebbüslerinin (KİT) 2026 yılı için 679,2 milyar lirayı, 2027 yılı için ise 754,1 milyar lirayı bulan yatırım bütçeleri Meclis'te ele alınacak. İki yılda KİT'lerin yatırım ödenekleri toplamı 1,4 trilyon...",
+      "link": "https://www.yenisafak.com/ekonomi/mecliste-dort-aylik-kit-mesaisi-4863493",
+      "tarih": "2026-10-12T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Otomobilde yeni normal iki milyon lira",
+      "ozet": "Türkiye’de otomobil fiyatları artan maliyetlerle birlikte yeni eşiğe yükseldi. Petrol fiyatları, yeni teknolojiler ve Euro7 normlarının gelmesiyle fiyatların yukarı çıktığına işaret eden OSD Başkanı Cengiz Eroldu, “Ye...",
+      "link": "https://www.yenisafak.com/ekonomi/otomobilde-yeni-normal-iki-milyon-lira-4863499",
+      "tarih": "2026-10-12T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Trump: Bence Ukrayna'nın yeni bir başkan edinme vakti geldi",
@@ -93,13 +130,6 @@
       "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarin-gozu-gelecek-haftanin-enflasyon-verilerinde-4863144",
       "tarih": "2026-10-10T10:45:38.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Motorine zam, benzine indirim geldi",
-      "ozet": "Motorinin litre fiyatına 6,39 TL zam yapılırken benzinin litre fiyatına 96 kuruş indirim geldi. Yeni fiyatlar 10 Ekim Cumartesi itibarıyla pompa satış fiyatlarına yansıdı.",
-      "link": "https://www.haberturk.com/ekonomi/akaryakitta-fiyatlar-degisti-motorine-zam-benzine-indirim-geldi-3918680",
-      "tarih": "2026-10-10T09:36:37.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "En az yakıt harcayan otomobiller belli oldu! Ne Citroen ne Hyundai hepsini geride bıraktı",
@@ -144,13 +174,6 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Putin, ABD'ye ve dünyaya petrol tedarik etmeye hazır olduklarını belirtti",
-      "ozet": "Rusya Devlet Başkanı Vladimir Putin, ABD ve küresel piyasalara petrol ve petrol ürünleri tedarik etmeye hazır olduklarını bildirdi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/putin-abdye-ve-dunyaya-petrol-tedarik-etmeye-hazir-olduklarini-belirtti/4084056",
-      "tarih": "2026-10-09T20:16:10.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Brezilya, yakıt fiyatlarına yönelik vergi önlemlerini bir ay uzattı",
       "ozet": "Brezilya hükümeti, küresel petrol fiyatlarındaki artışın tüketiciler üzerindeki etkisini hafifletmek amacıyla yakıt fiyatlarına yönelik destekleri bir ay daha uzattı ve ek önlemler açıkladı.",
       "link": "https://www.bloomberght.com/brezilya-yakit-fiyatlarina-yonelik-onlemlerini-bir-ay-uzatti-3791015",
@@ -158,39 +181,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Benzine 96 kuruş indirim bekleniyor: İşte yeni fiyatlar",
-      "ozet": "Petrol fiyatlarındaki gerilemenin ardından benzin fiyatlarında indirim yapılması bekleniyor. Benzinin litre fiyatına 96 kuruş indirim uygulanması öngörülüyor.",
-      "link": "https://www.cnnturk.com/ekonomi/benzine-96-kurus-indirim-bekleniyor-iste-yeni-fiyatlar-3477090",
-      "tarih": "2026-10-09T11:23:46.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
       "baslik": "Motorine zam, benzine indirim yolda: Tabelalar gece yarısı değişecek",
       "ozet": "Akaryakıt fiyatlarında yeni değişiklik kapıda. Sektör kaynakları motorine zam, benzine ise indirim beklendiğini belirtirken, pompaya yansıyacak yeni tarife sürücülerin gündemine girdi.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-zam-benzine-indirim-yolda-tabelalar-gece-yarisi-degisecek-2545121",
       "tarih": "2026-10-09T10:53:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt pompalarında tabela bu gece değişiyor: Benzine indirim motorin için zam kapıda",
-      "ozet": "Küresel piyasalardaki sert dalgalanmalar ve döviz kurundaki hareketlilik, akaryakıt pompalarını bir kez daha hareketlendirdi. Araç sahiplerinin gözü kulağı bu gece yarısına çevrilirken, benzin ve motorin cephesinden p...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-pompalarinda-tabela-bu-gece-degisiyor-benzine-indirim-motorin-icin-zam-kapida-4862810",
-      "tarih": "2026-10-09T08:01:19.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Petrol fiyatlarında son durum ne?",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 102,90 dolardan işlem görüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3918343",
-      "tarih": "2026-10-09T06:41:24.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Akaryakıt masrafını düşürmenin formülü belli oldu: İndirim oranı yüzde 9'u buluyor",
-      "ozet": "Küresel piyasalarda brent petrolün hızlı yükselişiyle akaryakıt tabelalarındaki rakamlar katlanırken, artan ulaşım maliyetleri araç sahiplerini yeni çözüm arayışlarına yöneltti. Yılbaşından bu yana pompaya yansıyan ar...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/arac-sahipleri-dikkat-ucuz-akaryakit-formulu-belli-oldu-indirim-orani-yuzde-9u-buluyor-4862782",
-      "tarih": "2026-10-09T06:34:08.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Petrol fiyatlarında sert yükseliş: Trump’ın İran hamlesi piyasaları sarstı",
@@ -218,27 +213,6 @@
       "ozet": "Akaryakıt fiyatlarında yeni tarife pompaya yansırken motorin fiyatlarında dikkat çeken düşüş yaşandı. İndirimin ardından İstanbul, Ankara ve İzmir’de güncel benzin, motorin ve LPG fiyatları sürücüler tarafından yakınd...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-sonrasi-tabela-degisti-iste-guncel-akaryakit-fiyatlari-2544072",
       "tarih": "2026-10-06T06:31:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Eylül ayının zam şampiyonları belli oldu: TÜİK enflasyon verilerini açıkladı",
-      "ozet": "Eylül enflasyonunun açıklanmasının ardından zam ve indirim şampiyonları belli oldu. TÜİK verilerine göre fiyatı en çok artan ürün yükseköğretim eğitimi olurken, motorin ve benzin de en fazla zamlanan kalemler arasında...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/eylul-ayinin-zam-sampiyonlari-belli-oldu-tuik-enflasyon-verilerini-acikladi-2543799",
-      "tarih": "2026-10-05T08:23:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dolar/TL'de yeni rekor: Haftanın ilk verileri açıklandı",
-      "ozet": "Dolar/TL haftanın ilk işlem gününde yükselişini sürdürürken, piyasalarda açıklanan eylül enflasyonu ve Fed’in faiz kararına ilişkin beklentiler izleniyor. Jeopolitik gerilimlerin petrol fiyatları ve enflasyon üzerinde...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/dolar-tl-de-yeni-rekor-haftanin-ilk-verileri-aciklandi-2543778",
-      "tarih": "2026-10-05T07:52:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorin fiyatlarına indirim yolda: Tabelalar bu gece değişecek",
-      "ozet": "Motorine gelen indirimin ardından akaryakıt fiyatlarında yeni bir indirim beklentisi oluştu. Gazeteci Cemil Cahit Saraçoğlu, motorin fiyatlarında yeni bir indirim yapılacağını duyurdu.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-indirim-yolda-tabelalar-bu-gece-degisecek-2543751",
-      "tarih": "2026-10-05T07:03:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
