@@ -1,12 +1,14 @@
 {
-  "guncelleme": "2026-10-12T11:23:48.520Z",
+  "guncelleme": "2026-10-13T04:09:58.886Z",
   "kaynaklar": [
-    "CNNTURK",
     "MILLIYET",
+    "BLOOMBERGHT",
     "DUNYA",
     "CUMHURIYET",
+    "CNNTURK",
+    "SABAH",
+    "STAR",
     "HABERTURK",
-    "BLOOMBERGHT",
     "YENISAFAK"
   ],
   "beklenti": {
@@ -22,6 +24,59 @@
   },
   "haberler": [
     {
+      "baslik": "Ortadoğu diken üstünde",
+      "ozet": "İran’daki durumun ABD seçimlerine kadar nispeten sakin geçmesi beklenirken, gözler son haftalarda Yemen’e çevrilmiş durumda. İran destekli Husiler ile Suudi Arabistan destekli hükümet güçlerinin mücadelesi devam ederk...",
+      "tarih": "2026-10-13T04:01:41.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Bir mazot uğruna...",
+      "ozet": "ABD Başkanı Donald Trump, pazar günü Rusya ile Ukrayna arasında bir ‘enerji ateşkesi’ ilan ederek ve her iki tarafın da bunu kabul ettiğini söyledi. Ancak hem taraf ülkelerden gelen açıklamalar ve tutum, hem de Rusya’...",
+      "tarih": "2026-10-13T04:01:40.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Petrol, Rusya'dan dizel arzı beklentisiyle geriledi",
+      "ozet": "Petrol, önceki seansta varil başına yaklaşık 2 dolar yükselmesinin ardından salı günü geriledi.",
+      "link": "https://www.bloomberght.com/petrol-rusyadan-dizel-arzi-beklentisiyle-geriledi-3791145",
+      "tarih": "2026-10-13T03:40:42.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol 103 dolardan 106 dolara çıktı: Düşüş neden tutmadı?",
+      "ozet": "Brent petrol 12 Ekim sabahı 103 dolara kadar geriledikten sonra günü 106,65 dolardan tamamladı. Suudi Arabistan'a yönelik saldırılar ve artan taşıma maliyetleri, Rusya'dan motorin geleceği beklentisinin yarattığı raha...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/petrol-103-dolardan-106-dolara-cikti-dusus-neden-tutmadi-galeri-843609",
+      "tarih": "2026-10-13T03:24:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Küba, petrol sektörünü yabancı yatırımlara açmak için eski yasaları yürürlükten kaldırdı",
+      "ozet": "Derinleşen enerji krizi ve ABD'nin petrol kısıtlamalarıyla mücadele eden Küba yönetimi, petrol arama ve üretim sektörünü yabancı yatırımlara açmak amacıyla 1938 ve 1959 tarihli yasaları yürürlükten kaldırdı.",
+      "link": "https://www.bloomberght.com/kuba-petrol-sektorunu-yabanci-yatirimlara-acmak-icin-eski-yasalari-yururlukten-kaldirdi-3791143",
+      "tarih": "2026-10-13T03:18:02.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Suruç’ta çiftçiler eylemde: 'Hangi ürünü ekiyorsak zarar ediyoruz'",
+      "ozet": "Şanlıurfa'nın Suruç ilçesinde çiftçiler gübre, mazot, enerji ve sulama suyu fiyatlarının üretim maliyetleri üzerindeki yükünü protesto ettiler.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/suruc-ta-ciftciler-eylemde-hangi-urunu-ekiyorsak-zarar-ediyoruz-2546040",
+      "tarih": "2026-10-12T17:33:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Bakan Bayraktar Riyad'da mevkidaşlarıyla enerji iş birliğini görüştü",
+      "ozet": "Bakan Bayraktar, Suudi Arabistan'ın başkenti Riyad'da düzenlenen 25. Dünya Petrol Konseyi Enerji Kongresi (WPC Energy Congress) marjında gerçekleştirdiği görüşmelere ilişkin sosyal medya hesabından paylaşımlarda bulun...",
+      "tarih": "2026-10-12T16:52:52.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "GÜNCEL ALTIN FİYATLARI 12 EKİM 2026 | Gram, çeyrek, yarım, tam, cumhuriyet altını ne kadar? Kapalıçarşı’da pazartesi altın alış-satış son durum tablosu!",
+      "ozet": "12 Ekim 2026 Pazartesi güncel altın fiyatları, yeni haftanın ilk işlem gününde yatırımcıların ve altın alım satımı yapmayı planlayan vatandaşların gündeminde yer alıyor. Küresel piyasalardaki gelişmelerin etkisiyle ha...",
+      "link": "https://www.cnnturk.com/ekonomi/guncel-altin-fiyatlari-12-ekim-2026-gram-ceyrek-yarim-tam-cumhuriyet-altini-ne-kadar-kapalicarsida-pazartesi-altin-alis-satis-son-3477871",
+      "tarih": "2026-10-12T16:44:06.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
       "baslik": "Bakan Bayraktar: Enerji güvenliği bir numaralı öncelik",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Suudi Arabistan'da katıldığı Dünya Petrol Kongresi'nde yaptığı açıklamada, enerji güvenliğinin bir numaralı öncelik haline geleceğine dikkati çekerek, “Geniş kapsa...",
       "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-enerji-guvenligi-bir-numarali-oncelik-3478155",
@@ -29,30 +84,18 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Uludağ’da yeni dönem! Dört mevsim turizm için planlar yürürlükte",
-      "ozet": "Türkiye’nin en eski ve en önemli kış turizm merkezlerinden Uludağ’ın dört mevsim kullanılan, ulaşımı kolay, güvenli ve konforlu bir destinasyona dönüştürülmesine yönelik yeni dönem planlamasında önemli bir aşamaya gel...",
-      "tarih": "2026-10-12T10:41:45.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Bakan Bayraktar, Libyalı mevkidaşı Abdulsadek ile görüştü",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Libya Petrol ve Gaz Bakanı Khalifa Rajab Abdulsadek ile bir araya geldiklerini belirterek, “Libya ile hidrokarbon arama ve üretim faaliyetleri başta...Devamı için ...",
+      "link": "https://www.sabah.com.tr/ekonomi/bakan-bayraktar-libyali-mevkidasi-abdulsadek-ile-gorustu-7679034",
+      "tarih": "2026-10-12T12:04:12.000Z",
+      "kaynak": "SABAH"
     },
     {
-      "baslik": "GÜNCEL ALTIN FİYATLARI 12 EKİM 2026 | Gram, çeyrek, yarım, tam, cumhuriyet altını ne kadar? Kapalıçarşı’da pazartesi altın alış-satış son durum tablosu!",
-      "ozet": "12 Ekim 2026 Pazartesi güncel altın fiyatları, yeni haftanın ilk işlem gününde yatırımcıların ve altın alım satımı yapmayı planlayan vatandaşların gündeminde yer alıyor. Küresel piyasalardaki gelişmelerin etkisiyle ha...",
-      "link": "https://www.cnnturk.com/ekonomi/guncel-altin-fiyatlari-12-ekim-2026-gram-ceyrek-yarim-tam-cumhuriyet-altini-ne-kadar-kapalicarsida-pazartesi-altin-alis-satis-son-3477871",
-      "tarih": "2026-10-12T10:35:44.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Bakan Bayraktar’dan COP31 mesajı: Artık harekete geçme zamanı",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Suudi Arabistan'ın başkenti Riyad'da düzenlenen 25. Dünya Petrol Konseyi Enerji Kongresi'nde (WPC Energy Congress) yaptığı konuşmada, Türkiye'nin enerji politikala...",
-      "tarih": "2026-10-12T10:16:59.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Petrol devinden kritik arz sıkıntısı uyarısı: İki yıl sürebilir",
-      "ozet": "Küresel petrol piyasalarında arz sıkıntısı derinleşirken, Suudi petrol devi Aramco'dan dünyayı yakından ilgilendiren bir uyarı geldi. Aramco CEO'su Amin Hassan Nasser, petrol stoklarının kritik seviyelere gerilediğini...",
-      "link": "https://www.dunya.com/enerji/petrol-devinden-kritik-arz-sikintisi-uyarisi-iki-yil-surebilir-haberi-843536",
-      "tarih": "2026-10-12T09:50:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Bakan Bayraktar petrol zirvesinde duyurdu! Türkiye'den 4 ülkeyi birbirine bağlayacak mega proje",
+      "ozet": "Türkiye, enerji alanındaki güçlü altyapısı ve stratejik konumuyla bölgesel enerji işbirliğinde öncü rolünü güçlendirmeye hazırlanıyor. Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye, Suudi Arabistan, Ür...",
+      "link": "https://www.star.com.tr/ekonomi/bakan-bayraktar-petrol-zirvesinde-duyurdu-turkiyeden-4-ulkeyi-birbirine-baglayacak-mega-proje-haber-2046101/",
+      "tarih": "2026-10-12T11:56:00.000Z",
+      "kaynak": "STAR"
     },
     {
       "baslik": "Akaryakıt depoları hızla bitiyor: UEA'den 32 ülkeye 'rezervleri açın' talimatı",
@@ -104,13 +147,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Trump: Bence Ukrayna'nın yeni bir başkan edinme vakti geldi",
-      "ozet": "ABD Başkanı Donald Trump, Ukrayna'nın, Rusya'daki petrol rafinerilerine saldırması ve anlaşma yanlısı olmaması nedeniyle Devlet Başkanı Volodimir Zelenskiy yerine \"yeni bir başkan edinmesi\" gerektiğini savundu.",
-      "link": "https://www.bloomberght.com/trump-bence-ukrayna-nin-yeni-bir-baskan-edinme-vakti-geldi-3791029",
-      "tarih": "2026-10-10T19:13:00.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Küresel piyasalarda yön arayışı: Gözler enflasyon verilerinde",
       "ozet": "Küresel pay piyasaları, Ortadoğu'daki jeopolitik riskler ve Fed'in faiz politikası belirsizlikleriyle karışık bir seyir izliyor. Altın ve petrol haftayı yükselişle kapatırken, yeni haftada gözler ABD enflasyon veriler...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/kuresel-piyasalarda-yon-arayisi-gozler-enflasyon-verilerinde-2545422",
@@ -139,27 +175,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Motorinde zam, benzinde indirim",
-      "ozet": "Motorinin litre fiyatına 10 Ekim tarihinden itibaren geçerli olmak üzere 6,36 TL zam yapıldı.",
-      "link": "https://www.bloomberght.com/motorinde-zam-benzinde-indirim-3791025",
-      "tarih": "2026-10-10T07:43:27.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol tanker ücretlerinde yeni rekorlar: Uzaya roket fırlatmaktan daha pahalı",
-      "ozet": "Petrol taşımacılığında ABD'den Çin'e giden bir tankerin ücreti 80 milyon dolar seviyesine çıkarken, standart bir SpaceX Falcon 9'un uzaya fırlatılmasının maliyeti 74 milyon dolar civarında.",
-      "link": "https://www.bloomberght.com/petrol-tanker-ucretlerinde-yeni-rekorlar-uzaya-roket-firlatmaktan-daha-pahali-3791024",
-      "tarih": "2026-10-10T07:31:02.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Dört elektrik dağıtım firmasının avans ödemeleri ertelendi",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Akedaş Elektrik Dağıtım AŞ, Dicle Elektrik Dağıtım AŞ, Fırat Elektrik Dağıtım AŞ ve Toroslar Elektrik Dağıtım AŞ ile söz konusu dağıtım bölgelerinde faaliyet gösteren görevli t...",
-      "link": "https://www.bloomberght.com/dort-elektrik-dagitim-firmasinin-avans-odemeleri-ertelendi-3791023",
-      "tarih": "2026-10-10T07:24:34.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Akaryakıtta gece yarısı sürprizi: Motorine dev zam, benzine indirim",
       "ozet": "Akaryakıt fiyatlarında gece yarısı tabelalar bir kez daha değişti. Eşel mobil sisteminin sona ermesiyle motorine 6,39 TL'lik dev zam gelirken, benzinde 96 kuruş indirime gidildi. İşte İstanbul, Ankara ve İzmir'de 10 E...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-gece-yarisi-surprizi-motorine-dev-zam-benzine-indirim-2545301",
@@ -172,13 +187,6 @@
       "link": "https://www.cnnturk.com/video/ekonomi/altin/altinda-dipten-donus-basladi-mi-3477263",
       "tarih": "2026-10-09T21:50:38.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Brezilya, yakıt fiyatlarına yönelik vergi önlemlerini bir ay uzattı",
-      "ozet": "Brezilya hükümeti, küresel petrol fiyatlarındaki artışın tüketiciler üzerindeki etkisini hafifletmek amacıyla yakıt fiyatlarına yönelik destekleri bir ay daha uzattı ve ek önlemler açıkladı.",
-      "link": "https://www.bloomberght.com/brezilya-yakit-fiyatlarina-yonelik-onlemlerini-bir-ay-uzatti-3791015",
-      "tarih": "2026-10-09T20:12:55.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Motorine zam, benzine indirim yolda: Tabelalar gece yarısı değişecek",
@@ -206,13 +214,6 @@
       "ozet": "Batı Asya’dan petrol sevkiyatının toparlanmasına rağmen küresel fiyatlar yüksek seyrini koruyor. Jeopolitik riskler, artan taşıma maliyetleri, düşük stoklar ve güçlü talep, petrolün 100 doların üzerinde kalmasına nede...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-neden-100-dolarin-altina-inmiyor-iste-fiyatlari-yuksek-tutan-5-neden-2544155",
       "tarih": "2026-10-06T09:33:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine indirim sonrası tabela değişti: İşte güncel akaryakıt fiyatları",
-      "ozet": "Akaryakıt fiyatlarında yeni tarife pompaya yansırken motorin fiyatlarında dikkat çeken düşüş yaşandı. İndirimin ardından İstanbul, Ankara ve İzmir’de güncel benzin, motorin ve LPG fiyatları sürücüler tarafından yakınd...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-sonrasi-tabela-degisti-iste-guncel-akaryakit-fiyatlari-2544072",
-      "tarih": "2026-10-06T06:31:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
