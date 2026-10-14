@@ -1,16 +1,13 @@
 {
-  "guncelleme": "2026-10-14T09:05:22.016Z",
+  "guncelleme": "2026-10-14T22:45:54.329Z",
   "kaynaklar": [
     "CNNTURK",
     "YENISAFAK",
-    "DUNYA",
-    "AA",
-    "MILLIYET",
-    "HABERTURK",
+    "BLOOMBERGHT",
     "SABAH",
     "CUMHURIYET",
-    "BLOOMBERGHT",
-    "STAR"
+    "HABERTURK",
+    "AA"
   ],
   "beklenti": {
     "motorin": {
@@ -28,8 +25,106 @@
       "baslik": "Çin 23 aydır altın alıyor! Ülkeler altınlarını eve taşıyor: Küresel sistemde ne değişiyor?",
       "ozet": "Çin Merkez Bankası’nın 23 aydır sürdürdüğü altın alımları, küresel rezerv politikalarını yeniden gündeme getirdi. İstanbul Esenyurt Üniversitesi Öğretim Üyesi Dr. Zekeriya Şahin, Rusya’ya ait varlıkların dondurulmasın...",
       "link": "https://www.cnnturk.com/video/ekonomi/cin-23-aydir-altin-aliyor-ulkeler-altinlarini-eve-tasiyor-kuresel-sistemde-ne-degisiyor-3479022",
-      "tarih": "2026-10-14T11:52:00.000Z",
+      "tarih": "2026-10-14T15:50:45.000Z",
       "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Türkiye dünya devleri arasına girdi! Bakan Bayraktar 'milyonlarca araçta kullanılıyor' diyerek paylaştı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Günümüzde Türkiye, dünyanın en büyük ve en gelişmiş LPG pazarlarından birine sahiptir. Geçen yıl itibarıyla, toplam LPG tüketiminde Avrupa’da ikinci sırada yer al...",
+      "link": "https://www.yenisafak.com/ekonomi/turkiye-dunya-devleri-arasina-girdi-carpici-rakamlar-belli-oldu-turkiye-bakin-kacinci-sirada-4864272",
+      "tarih": "2026-10-14T14:39:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Bakan Bayraktar duyurdu! Türkiye LPG tüketiminde Avrupa ikincisi: 5,2 milyon araç LPG kullanıyor",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin geçen yıl toplam LPG tüketiminde Avrupa'da ikinci sırada yer aldığını açıkladı. Türkiye'de yaklaşık 10 bin otogaz istasyonu ve LPG ile çalışan 5,2 mily...",
+      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-duyurdu-turkiye-lpg-tuketiminde-avrupa-ikincisi-5-2-milyon-arac-lpg-kullaniyor-3479224",
+      "tarih": "2026-10-14T13:24:44.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "UEA Başkanı Birol: LPG arz güvenliğine ilişkin hükümetlerle görüşüyoruz",
+      "ozet": "Uluslararası Enerji Ajansı (UEA) Başkanı Fatih Birol, küresel LPG fiyatlarının ABD/İsrail-İran Savaşı öncesine kıyasla yüzde 60 arttığını belirterek, LPG arz güvenliğine yönelik bir mekanizma geliştirilmesine ihtiyaç ...",
+      "link": "https://www.bloomberght.com/uea-baskani-birol-lpg-arz-guvenligine-iliskin-hukumetlerle-gorusuyoruz-3791359",
+      "tarih": "2026-10-14T13:21:20.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Bor madeninde tarihi rekor: Berat Albayrak'ın hamleleri öncü oldu! Türkiye'nin hayalleri gerçeğe böyle dönüştü",
+      "ozet": "Türkiye, enerjide dünyanın önde gelen ülkeleri arasına girdi. Doğalgazdan petrol keşiflerine, Nadir Toprak Elementleri'nden (NTE) bor üretimi ve diğer birçok farklı kritik alana kadar geniş bir yelpazede...Devamı için...",
+      "link": "https://www.sabah.com.tr/ekonomi/bor-madeninde-tarihi-rekor-berat-albayrakin-hamleleri-oncu-oldu-turkiyenin-hayalleri-gercege-boyle-donustu-7680593",
+      "tarih": "2026-10-14T13:20:27.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "IEA'dan LPG arz güvenliği için yeni program hazırlığı",
+      "ozet": "Uluslararası Enerji Ajansı (IEA) Başkanı Fatih Birol, küresel LPG fiyatlarının ABD/İsrail-İran Savaşı öncesine kıyasla yüzde 60 arttığını belirterek, LPG arz güvenliğine yönelik bir mekanizma geliştirilmesine...Devamı...",
+      "link": "https://www.sabah.com.tr/ekonomi/ieadan-lpg-arz-guvenligi-icin-yeni-program-hazirligi-7680584",
+      "tarih": "2026-10-14T13:05:20.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "ABD enflasyonu beklentiyi aştı: Altın fiyatlarında sert düşüş",
+      "ozet": "ABD’de eylül ayı enflasyon verileri, fiyat baskılarının yeniden güçlendiğine işaret etti. Enerji ve özellikle benzin fiyatlarındaki sert artış manşet enflasyonu yukarı taşırken, çekirdek enflasyondaki yükseliş de Fed’...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-enflasyonu-beklentiyi-asti-altin-fiyatlarinda-sert-dusus-2546719",
+      "tarih": "2026-10-14T12:40:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "ABD'de enflasyon yükseldi",
+      "ozet": "ABD'de Tüketici Fiyat Endeksi (TÜFE), eylülde aylık bazda yüzde 0,6, yıllık bazda yüzde 3,7 arttı. Piyasa beklentileri aylık enflasyonun yüzde 0,6, yıllık enflasyonun yüzde 3,6 olması yönündeydi. Yıllık enflasyon ağus...",
+      "link": "https://www.haberturk.com/ekonomi/abd-enflasyonu-aciklandi-3919675",
+      "tarih": "2026-10-14T12:34:24.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Petrol fiyatları 106 doları aştı! Orta Doğu'daki çatışmalar piyasaları etkiliyor",
+      "ozet": "Brent petrolün varil fiyatı, Orta Doğu'da tırmanan çatışmaların arz kesintilerine yönelik endişeleri artırmasıyla haftanın üçüncü işlem gününde 106 doların üzerine çıktı. ABD Batı Teksas Tipi (WTI) ham petrolün varil ...",
+      "link": "https://www.cnnturk.com/ekonomi/petrol-fiyatlari-106-dolari-asti-orta-dogudaki-catismalar-piyasalari-etkiliyor-3479170",
+      "tarih": "2026-10-14T12:05:15.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Türkiye'nin petrol ithalatı ağustosta arttı",
+      "ozet": "Türkiye'nin toplam petrol ve petrol ürünleri ithalatı, ağustosta geçen yılın aynı ayına göre yüzde 2,33 artarak 4 milyon 487 bin 688 ton oldu.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/turkiyenin-petrol-ithalati-agustosta-artti-7680540",
+      "tarih": "2026-10-14T11:51:03.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Türkiye'nin petrol ithalatı ağustosta yüzde 2,33 arttı",
+      "ozet": "Türkiye'nin toplam petrol ve petrol ürünleri ithalatı, ağustosta geçen yılın aynı ayına göre yüzde 2,33 artarak 4 milyon 487 bin 688 ton oldu.",
+      "link": "https://www.yenisafak.com/ekonomi/turkiyenin-petrol-ithalati-agustosta-yuzde-233-artti-4864249",
+      "tarih": "2026-10-14T11:32:33.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Bakan Bayraktar: Türkiye, dünyanın en büyük ve en gelişmiş LPG pazarlarından birine sahip",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Türkiye, dünyanın en büyük ve en gelişmiş LPG pazarlarından birine sahip. Geçen yıl itibarıyla, toplam LPG tüketiminde Avrupa'da ikinci sırada yer aldık.\" dedi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktar-turkiye-dunyanin-en-buyuk-ve-en-gelismis-lpg-pazarlarindan-birine-sahip/4088292",
+      "tarih": "2026-10-14T09:33:34.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Bakan Bayraktar rakamlarla açıkladı: Türkiye, LPG tüketiminde Avrupa ikincisi!",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, küresel enerjideki zorluklara karşı kaynak çeşitlendirmenin önemine dikkati çekerek, \"Tek bir enerji kaynağına, tek bir tedarikçiye, teknolojiye veya...Devamı için...",
+      "link": "https://www.sabah.com.tr/ekonomi/bakan-bayraktar-rakamlarla-acikladi-turkiye-lpg-tuketiminde-avrupa-ikincisi-7680460",
+      "tarih": "2026-10-14T09:32:12.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Irak'ın petrol ihracatı Hürmüz Boğazı'ndaki krize rağmen günlük 2,7 milyon varile ulaştı",
+      "ozet": "Irak'ın ham petrol ihracatının, Hürmüz Boğazı'ndaki krize bağlı aksaklıklara rağmen günlük yaklaşık 2,7 milyon varile ulaştığı bildirildi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/irakin-petrol-ihracati-hurmuz-bogazindaki-krize-ragmen-gunluk-2-7-milyon-varile-ulasti/4088286",
+      "tarih": "2026-10-14T09:30:45.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Uluslararası Enerji Ajansı'ndan dizel krizi uyarısı",
+      "ozet": "Uluslararası Enerji Ajansı (UEA), petroldeki zayıf tüketim görünümüne rağmen, Orta Doğu ve Rusya'daki çatışmaların bir sonucu olarak motorin ve diğer yakıtların küresel arzının önümüzdeki yıl baskı altında kalmaya dev...",
+      "link": "https://www.bloomberght.com/uluslararasi-enerji-ajansi-ndan-dizel-krizi-uyarisi-3791332",
+      "tarih": "2026-10-14T08:47:16.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Brent petrol 106 dolar bandını aştı: Küresel kriz fiyatları tetikledi",
@@ -37,13 +132,6 @@
       "link": "https://www.yenisafak.com/ekonomi/brent-petrol-106-dolar-bandini-asti-kuresel-kriz-fiyatlari-tetikledi-4864192",
       "tarih": "2026-10-14T08:41:34.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Petrol üretimi arttı ama risk bitmedi: IEA raporunda dikkat çeken tablo",
-      "ozet": "Körfez ülkelerinin üretimi artırmasıyla küresel petrol arzı eylülde toparlandı. Ancak IEA'nın raporuna göre, bölgenin ihracatı savaş öncesindeki seviyelerin altında kalırken, petrol altyapısı ve tankerlere yönelik sal...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/petrol-uretimi-artti-ama-risk-bitmedi-iea-raporunda-dikkat-ceken-tablo-galeri-843830",
-      "tarih": "2026-10-14T08:31:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Küresel petrol arzı eylülde günlük 2,5 milyon varil arttı",
@@ -60,19 +148,6 @@
       "kaynak": "AA"
     },
     {
-      "baslik": "Petrolün geçiş yollarında baskı artıyor: Uzmanlardan eş zamanlı kesinti uyarısı",
-      "ozet": "Hürmüz Boğazı'nda gemilere yönelik saldırılar yoğunlaşırken, Husilerin Suudi Arabistan'ı hedef alması Kızıldeniz hattına ilişkin endişeleri artırdı. Orta Doğu’nun petrol ve petrol ürünleri ihracatı yeniden baskı altın...",
-      "link": "https://www.dunya.com/enerji/petrolun-gecis-yollarinda-baski-artiyor-uzmanlardan-es-zamanli-kesinti-uyarisi-haberi-843823",
-      "tarih": "2026-10-14T08:12:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Trump, Grönland'da ham madde arayışına başlıyor: Devasa miktarlarda kaynak var!",
-      "ozet": "ABD Başkanı Donald Trump, sanal medya hesabından yaptığı paylaşımda, Grönland'da büyük ölçekli petrol, doğal gaz ve maden arama faaliyetlerinin başlamak üzere olduğunu bildirdi. Uzmanların değerlendirmelerine değinen ...",
-      "tarih": "2026-10-14T07:52:36.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
       "baslik": "Piyasalarda gözler ABD enflasyon verisinde",
       "ozet": "Küresel piyasalarda, teknoloji şirketlerinin hisselerindeki dalgalanmalar, yükselen petrol fiyatları ve ABD'de bankaların açıkladığı bilançolardan gelen karışık sinyallerle yön arayışı öne çıkarken, gözler bugün ABD'd...",
       "link": "https://www.haberturk.com/ekonomi/piyasalarda-gozler-abd-enflasyon-verisinde-3919591",
@@ -80,39 +155,11 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "Kuzey Denizi'nde dev petrol ve doğal gaz keşfi!",
-      "ozet": "Norveçli enerji şirketi Equinor, Kuzey Denizi'nde 19 milyon ila 50 milyon varil petrol eşdeğeri büyüklüğünde yeni bir keşif duyurdu. Şirket, mevcut üretim altyapısını kullanarak maliyetleri düşürmeyi ve üç yıl içinde ...",
-      "link": "https://www.dunya.com/ekonomi/kuzey-denizinde-dev-petrol-ve-dogal-gaz-kesfi-haberi-843815",
-      "tarih": "2026-10-14T07:18:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Artan tanker saldırıları petrol fiyatlarını artırdı",
-      "ozet": "Petrol fiyatları, İran’nın Hürmüz Boğazı’ndan geçen tankerleri yeniden vurmaya başlamasıyla 106 doların üzerine çıktı. Sürekli artan petrol fiyatları ülke ekonomileri üzerinden ciddi baskılara neden olurken...Devamı i...",
-      "link": "https://www.sabah.com.tr/ekonomi/artan-tanker-saldirilari-petrol-fiyatlarini-artirdi-7680325",
-      "tarih": "2026-10-14T07:09:55.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Trump'ın Grönland planında yeni aşama: Arama faaliyetleri başlıyor",
-      "ozet": "ABD Başkanı Donald Trump, Grönland'da geniş çaplı petrol, doğal gaz ve maden arama faaliyetlerinin başlamak üzere olduğunu açıkladı. Bölgenin ABD ve Avrupa'nın savunması açısından kritik önemde olduğunu savunan Trump,...",
-      "link": "https://www.dunya.com/dunya/trumpin-gronland-planinda-yeni-asama-arama-faaliyetleri-basliyor-haberi-843807",
-      "tarih": "2026-10-14T06:42:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "14 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/14-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2546540",
       "tarih": "2026-10-14T06:15:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Küresel piyasalar ABD'de açıklanacak enflasyon verilerine odaklandı",
-      "ozet": "Küresel piyasalarda, teknoloji şirketlerinin hisselerindeki dalgalanmalar, yükselen petrol fiyatları öne çıkarken, gözler bugün ABD'de açıklanacak enflasyon verisine çevrildi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-abdde-aciklanacak-enflasyon-verilerine-odaklandi/4087976",
-      "tarih": "2026-10-14T06:08:20.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Çin, Kasım'dan itibaren petrol stoklarını yenileyecek",
@@ -143,34 +190,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "OPEC: Küresel petrol talebinin bu yıl günlük 0,2 milyon varil artması bekleniyor",
-      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, Eylül'de önceki aya göre 920 bin varil artarak 25 milyon 97 bin varile yükseldi.",
-      "link": "https://www.bloomberght.com/opec-kuresel-petrol-talebinin-bu-yil-gunluk-0-2-milyon-varil-artmasi-bekleniyor-3791234",
-      "tarih": "2026-10-13T12:18:27.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Suudilerin petrol üretiminde normalleşme sinyalleri",
-      "ozet": "Suudi Arabistan, OPEC'e petrol üretiminin yaklaşık 30 yılın en düşük seviyelerinden toparlandığını bildirdi.",
-      "link": "https://www.bloomberght.com/suudilerin-petrol-uretiminde-normallesme-sinyalleri-3791232",
-      "tarih": "2026-10-13T12:13:13.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "OPEC'in günlük ham petrol üretimi 25 milyon 97 bin varile yükseldi",
-      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, eylülde önceki aya göre 920 bin varil artarak 25 milyon 97 bin varile yükseldi.",
-      "link": "https://www.star.com.tr/ekonomi/opecin-gunluk-ham-petrol-uretimi-25-milyon-97-bin-varile-yukseldi-haber-2046331/",
-      "tarih": "2026-10-13T12:09:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "OPEC'in günlük ham petrol üretimi eylülde 920 bin varil arttı",
-      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, eylülde önceki aya göre 920 bin varil artarak 25 milyon 97 bin varile yükseldi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/opecin-gunluk-ham-petrol-uretimi-eylulde-920-bin-varil-artti/4087268",
-      "tarih": "2026-10-13T12:03:43.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Dolar endeksi 18 ayın zirvesine yaklaştı: Petrol, Fed ve Euro etkisi",
       "ozet": "Dolar endeksi, jeopolitik gerilimler, yüksek enerji fiyatları ve Fed’in yeniden sıkılaşabileceği beklentileriyle güçlü seyrini sürdürüyor. Euro’daki zayıflama ve yüksek ABD tahvil faizleri de dolara talebi desteklerke...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/dolar-endeksi-18-ayin-zirvesine-yaklasti-petrol-fed-ve-euro-etkisi-2546296",
@@ -182,13 +201,6 @@
       "ozet": "HABAŞ yeni yerli otomobil projesi 2026 yılında Türkiye otomotiv sektöründe merak edilen başlıklar arasında yer alıyor. Togg'un ardından yerli otomobil üretimine yönelik yeni bir proje için çalışmalar sürerken gözler H...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-yolda-benzinli-ve-hibrit-modelleri-olacak-4863853",
       "tarih": "2026-10-13T07:24:12.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Altın fiyatlarında rüzgar tersine döndü: Dolar ve petrol tırmandı gram altın düşüşe geçti",
-      "ozet": "Küresel piyasalarda altın fiyatları, ABD dolarının güçlenmesi ve petrol fiyatlarındaki ani yükselişle birlikte gerilemeye başladı. Fed’in faiz politikasına dair süregelen belirsizlikler kıymetli metal üzerindeki baskı...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-fiyatlarinda-ruzgar-tersine-dondu-dolar-ve-petrol-tirmandi-gram-altin-dususe-gecti-4863833",
-      "tarih": "2026-10-13T06:32:24.000Z",
       "kaynak": "YENISAFAK"
     },
     {
