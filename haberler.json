@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-10-13T20:51:53.562Z",
+  "guncelleme": "2026-10-14T02:23:19.098Z",
   "kaynaklar": [
+    "DUNYA",
     "MILLIYET",
     "CNNTURK",
     "CUMHURIYET",
@@ -23,6 +24,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Bir yanda elektrikli devrim, diğer yanda benzinli gelenek",
+      "ozet": "Otomotivde dönüşüm hız kesmiyor. Sadece bu hafta tanıtılan 7 otomobilin 4'ü elektrikli olurken içten yanmalı modellerden de vazgeçilmedi. Avrupa’da elektrikli otomobiller ilk kez benzinlileri geride bıraktı. Türkiye’d...",
+      "link": "https://www.dunya.com/sektorler/bir-yanda-elektrikli-devrim-diger-yanda-benzinli-gelenek-haberi-843745",
+      "tarih": "2026-10-13T21:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Son dakika... Suudi Arabistan'da Husi füzesi alarmı! Uyarı sonrası patlama",
       "ozet": "Suudi Arabistan Sivil Savunma Müdürlüğünün, ABD merkezli X şirketinin sosyal medya platformundaki hesabından yapılan açıklamada, erken uyarı sisteminin başkent genelinde devreye girdiği bildirildi. Kurum ayrıca vatand...",
@@ -127,13 +135,6 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "Petrol, Rusya'dan dizel arzı beklentisiyle geriledi",
-      "ozet": "Petrol, önceki seansta varil başına yaklaşık 2 dolar yükselmesinin ardından salı günü geriledi.",
-      "link": "https://www.bloomberght.com/petrol-rusyadan-dizel-arzi-beklentisiyle-geriledi-3791145",
-      "tarih": "2026-10-13T03:40:42.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Suruç’ta çiftçiler eylemde: 'Hangi ürünü ekiyorsak zarar ediyoruz'",
       "ozet": "Şanlıurfa'nın Suruç ilçesinde çiftçiler gübre, mazot, enerji ve sulama suyu fiyatlarının üretim maliyetleri üzerindeki yükünü protesto ettiler.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/suruc-ta-ciftciler-eylemde-hangi-urunu-ekiyorsak-zarar-ediyoruz-2546040",
@@ -194,13 +195,6 @@
       "ozet": "Petrol fiyatları, ABD’nin İran’a yönelik olası yeni askeri seçenekleri değerlendirdiği yönündeki haberlerle sert yükseldi. Hürmüz Boğazı’ndaki tanker güvenliği, düşük stoklar ve stratejik rezervlerin sınırlı etkisi, k...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlarinda-sert-yukselis-trump-in-iran-hamlesi-piyasalari-sarsti-2544838",
       "tarih": "2026-10-08T11:44:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatları yeniden 100 doları aştı: Akaryakıtta artış yolda mı?",
-      "ozet": "Petrol fiyatları, Batı Asya’daki saldırı haberleri ve ABD’de enerji üretimini tehdit eden hava koşullarının etkisiyle yeniden yükselişe geçti. Brent petroldeki artış, Türkiye’de benzin ve motorin fiyatlarında yeni zam...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-yeniden-100-dolari-asti-akaryakitta-artis-yolda-mi-2544486",
-      "tarih": "2026-10-07T07:45:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
