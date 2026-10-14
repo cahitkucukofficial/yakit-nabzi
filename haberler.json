@@ -1,16 +1,16 @@
 {
-  "guncelleme": "2026-10-14T02:23:19.098Z",
+  "guncelleme": "2026-10-14T09:05:22.016Z",
   "kaynaklar": [
-    "DUNYA",
-    "MILLIYET",
     "CNNTURK",
-    "CUMHURIYET",
-    "SABAH",
-    "BLOOMBERGHT",
-    "STAR",
-    "AA",
     "YENISAFAK",
-    "HABERTURK"
+    "DUNYA",
+    "AA",
+    "MILLIYET",
+    "HABERTURK",
+    "SABAH",
+    "CUMHURIYET",
+    "BLOOMBERGHT",
+    "STAR"
   ],
   "beklenti": {
     "motorin": {
@@ -25,17 +25,108 @@
   },
   "haberler": [
     {
-      "baslik": "Bir yanda elektrikli devrim, diğer yanda benzinli gelenek",
-      "ozet": "Otomotivde dönüşüm hız kesmiyor. Sadece bu hafta tanıtılan 7 otomobilin 4'ü elektrikli olurken içten yanmalı modellerden de vazgeçilmedi. Avrupa’da elektrikli otomobiller ilk kez benzinlileri geride bıraktı. Türkiye’d...",
-      "link": "https://www.dunya.com/sektorler/bir-yanda-elektrikli-devrim-diger-yanda-benzinli-gelenek-haberi-843745",
-      "tarih": "2026-10-13T21:00:00.000Z",
+      "baslik": "Çin 23 aydır altın alıyor! Ülkeler altınlarını eve taşıyor: Küresel sistemde ne değişiyor?",
+      "ozet": "Çin Merkez Bankası’nın 23 aydır sürdürdüğü altın alımları, küresel rezerv politikalarını yeniden gündeme getirdi. İstanbul Esenyurt Üniversitesi Öğretim Üyesi Dr. Zekeriya Şahin, Rusya’ya ait varlıkların dondurulmasın...",
+      "link": "https://www.cnnturk.com/video/ekonomi/cin-23-aydir-altin-aliyor-ulkeler-altinlarini-eve-tasiyor-kuresel-sistemde-ne-degisiyor-3479022",
+      "tarih": "2026-10-14T11:52:00.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Brent petrol 106 dolar bandını aştı: Küresel kriz fiyatları tetikledi",
+      "ozet": "Petrol fiyatları 14 Ekim sabahıyla beraber yeniden yukarı döndü. Brent petrolün varil fiyatı Asya işlemlerinde 106 doların üzerine çıkarken, ABD tipi ham petrol WTI da 95 dolara yaklaştı.",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrol-106-dolar-bandini-asti-kuresel-kriz-fiyatlari-tetikledi-4864192",
+      "tarih": "2026-10-14T08:41:34.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol üretimi arttı ama risk bitmedi: IEA raporunda dikkat çeken tablo",
+      "ozet": "Körfez ülkelerinin üretimi artırmasıyla küresel petrol arzı eylülde toparlandı. Ancak IEA'nın raporuna göre, bölgenin ihracatı savaş öncesindeki seviyelerin altında kalırken, petrol altyapısı ve tankerlere yönelik sal...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/petrol-uretimi-artti-ama-risk-bitmedi-iea-raporunda-dikkat-ceken-tablo-galeri-843830",
+      "tarih": "2026-10-14T08:31:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "Son dakika... Suudi Arabistan'da Husi füzesi alarmı! Uyarı sonrası patlama",
-      "ozet": "Suudi Arabistan Sivil Savunma Müdürlüğünün, ABD merkezli X şirketinin sosyal medya platformundaki hesabından yapılan açıklamada, erken uyarı sisteminin başkent genelinde devreye girdiği bildirildi. Kurum ayrıca vatand...",
-      "tarih": "2026-10-13T20:22:49.000Z",
+      "baslik": "Küresel petrol arzı eylülde günlük 2,5 milyon varil arttı",
+      "ozet": "Uluslararası Enerji Ajansı (IEA), Körfez'deki üreticilerin üretim ve ihracatını artırmasıyla küresel petrol arzının eylülde önceki aya göre günlük 2 milyon 500 bin varil artarak 102 milyon 320 bin varile yükseldiğini ...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-petrol-arzi-eylulde-gunluk-2-5-milyon-varil-artti/4088177",
+      "tarih": "2026-10-14T08:23:45.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Orta Doğu'nun petrol ve petrol ürünleri ihracatı son bir haftada sert düştü",
+      "ozet": "Hürmüz Boğazı'ndan günlük ticari gemi geçişlerinin yeniden keskin şekilde azalması ve Babülmendeb Boğazı'ndan geçişlere yönelik endişeler, Orta Doğu'nun petrol ve petrol ürünleri ihracatını yeniden baskı altına aldı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/orta-dogunun-petrol-ve-petrol-urunleri-ihracati-son-bir-haftada-sert-dustu/4088173",
+      "tarih": "2026-10-14T08:22:01.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Petrolün geçiş yollarında baskı artıyor: Uzmanlardan eş zamanlı kesinti uyarısı",
+      "ozet": "Hürmüz Boğazı'nda gemilere yönelik saldırılar yoğunlaşırken, Husilerin Suudi Arabistan'ı hedef alması Kızıldeniz hattına ilişkin endişeleri artırdı. Orta Doğu’nun petrol ve petrol ürünleri ihracatı yeniden baskı altın...",
+      "link": "https://www.dunya.com/enerji/petrolun-gecis-yollarinda-baski-artiyor-uzmanlardan-es-zamanli-kesinti-uyarisi-haberi-843823",
+      "tarih": "2026-10-14T08:12:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Trump, Grönland'da ham madde arayışına başlıyor: Devasa miktarlarda kaynak var!",
+      "ozet": "ABD Başkanı Donald Trump, sanal medya hesabından yaptığı paylaşımda, Grönland'da büyük ölçekli petrol, doğal gaz ve maden arama faaliyetlerinin başlamak üzere olduğunu bildirdi. Uzmanların değerlendirmelerine değinen ...",
+      "tarih": "2026-10-14T07:52:36.000Z",
       "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Piyasalarda gözler ABD enflasyon verisinde",
+      "ozet": "Küresel piyasalarda, teknoloji şirketlerinin hisselerindeki dalgalanmalar, yükselen petrol fiyatları ve ABD'de bankaların açıkladığı bilançolardan gelen karışık sinyallerle yön arayışı öne çıkarken, gözler bugün ABD'd...",
+      "link": "https://www.haberturk.com/ekonomi/piyasalarda-gozler-abd-enflasyon-verisinde-3919591",
+      "tarih": "2026-10-14T07:44:27.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Kuzey Denizi'nde dev petrol ve doğal gaz keşfi!",
+      "ozet": "Norveçli enerji şirketi Equinor, Kuzey Denizi'nde 19 milyon ila 50 milyon varil petrol eşdeğeri büyüklüğünde yeni bir keşif duyurdu. Şirket, mevcut üretim altyapısını kullanarak maliyetleri düşürmeyi ve üç yıl içinde ...",
+      "link": "https://www.dunya.com/ekonomi/kuzey-denizinde-dev-petrol-ve-dogal-gaz-kesfi-haberi-843815",
+      "tarih": "2026-10-14T07:18:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Artan tanker saldırıları petrol fiyatlarını artırdı",
+      "ozet": "Petrol fiyatları, İran’nın Hürmüz Boğazı’ndan geçen tankerleri yeniden vurmaya başlamasıyla 106 doların üzerine çıktı. Sürekli artan petrol fiyatları ülke ekonomileri üzerinden ciddi baskılara neden olurken...Devamı i...",
+      "link": "https://www.sabah.com.tr/ekonomi/artan-tanker-saldirilari-petrol-fiyatlarini-artirdi-7680325",
+      "tarih": "2026-10-14T07:09:55.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Trump'ın Grönland planında yeni aşama: Arama faaliyetleri başlıyor",
+      "ozet": "ABD Başkanı Donald Trump, Grönland'da geniş çaplı petrol, doğal gaz ve maden arama faaliyetlerinin başlamak üzere olduğunu açıkladı. Bölgenin ABD ve Avrupa'nın savunması açısından kritik önemde olduğunu savunan Trump,...",
+      "link": "https://www.dunya.com/dunya/trumpin-gronland-planinda-yeni-asama-arama-faaliyetleri-basliyor-haberi-843807",
+      "tarih": "2026-10-14T06:42:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "14 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/14-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2546540",
+      "tarih": "2026-10-14T06:15:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Küresel piyasalar ABD'de açıklanacak enflasyon verilerine odaklandı",
+      "ozet": "Küresel piyasalarda, teknoloji şirketlerinin hisselerindeki dalgalanmalar, yükselen petrol fiyatları öne çıkarken, gözler bugün ABD'de açıklanacak enflasyon verisine çevrildi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-abdde-aciklanacak-enflasyon-verilerine-odaklandi/4087976",
+      "tarih": "2026-10-14T06:08:20.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Çin, Kasım'dan itibaren petrol stoklarını yenileyecek",
+      "ozet": "Çin'in devlete ait rafinerilerinin, ABD-İran savaşının yol açtığı yüksek fiyatların etkisini hafifletmek için kullandıkları petrol stoklarını kasım ayından itibaren yeniden artırmaya başlaması bekleniyor.",
+      "link": "https://www.bloomberght.com/cin-kasim-dan-itibaren-petrol-stoklarini-yenileyecek-3791303",
+      "tarih": "2026-10-14T05:52:20.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol, Suudi Arabistan'a yönelik saldırılarla yükseldi",
+      "ozet": "Petrol, Yemen'deki İran destekli Husiler ile Suudi Arabistan arasındaki çatışmaların arz risklerini artırması ve Rusya'dan dizel ihracatının yükselmesi beklentisinin piyasadaki etkilerinin değerlendirilmesiyle çarşamb...",
+      "link": "https://www.bloomberght.com/petrol-suudi-arabistana-yonelik-saldirilarla-yukseldi-3791291",
+      "tarih": "2026-10-14T03:36:29.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "OPEC, 2026 petrol talebi tahminini düşürdü: 2027 beklentisi yükseldi",
@@ -45,24 +136,11 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Husilerden Suudi Aramco'ya tahliye çağrısı: 'Meşru bir hedef'",
-      "ozet": "AFP'nin haberine göre, Suudi liderliğindeki koalisyonun Sanaa'daki bir petrol şirketini hedef almayı planladığını açıklamasının ardından, Yemen'deki Husi güçleri bugün sivillere ve çalışanlara Suudi Aramco tesislerini...",
-      "tarih": "2026-10-13T13:22:24.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
       "baslik": "Petrol piyasasında yeni tablo: OPEC 2026 beklentisini revize etti",
       "ozet": "OPEC’in eylül ayı verileri, üretimde belirgin artış yaşanırken küresel petrol talebine ilişkin beklentilerin yeniden şekillendiğini ortaya koydu. Kuruluş, kısa vadeli talep görünümünü aşağı çekerken gelecek yıla ilişk...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-piyasasinda-yeni-tablo-opec-2026-beklentisini-revize-etti-2546325",
       "tarih": "2026-10-13T12:47:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "OPEC'in petrol üretimi 920 bin varil arttı",
-      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, eylülde önceki aya göre 920 bin varil artarak 25 milyon 97 bin varile yükseldi.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/opecin-petrol-uretimi-920-bin-varil-artti-7679769",
-      "tarih": "2026-10-13T12:23:26.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "OPEC: Küresel petrol talebinin bu yıl günlük 0,2 milyon varil artması bekleniyor",
@@ -100,20 +178,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "İran: Savaşa karşın 5 milyon tonun üzerinde petrol ihraç edildi",
-      "ozet": "İran'ın Hürmüzgan Denizcilik ve Limanlar Genel Müdürü Muhammed Rıza Muhammed Hüseynitahti, ABD saldırılarıyla başlayan savaş ve süregelen gerginliğin yanı sıra yoğunlaştırılan yaptırımlara rağmen, son 6 ayda ülkeden 5...",
-      "link": "https://www.bloomberght.com/iran-savasa-karsin-5-milyon-tonun-uzerinde-petrol-ihrac-edildi-3791187",
-      "tarih": "2026-10-13T08:34:08.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Japonya bağlantılı tankerler aylar sonra Orta Doğu'ya dönüyor",
-      "ozet": "Japonya bağlantılı petrol tankerlerinin, Orta Doğu yüklerini yeniden doğrudan bölgeden almaya başladığı belirtiliyor. Bu, Şubat ayında savaşın başlamasından bu yana bir ilk.",
-      "link": "https://www.bloomberght.com/japonya-baglantili-tankerler-aylar-sonra-orta-dogu-ya-donuyor-3791181",
-      "tarih": "2026-10-13T07:50:10.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "TOGG sonrası yeni yerli otomobil yolda! Benzinli ve hibrit modelleri olacak",
       "ozet": "HABAŞ yeni yerli otomobil projesi 2026 yılında Türkiye otomotiv sektöründe merak edilen başlıklar arasında yer alıyor. Togg'un ardından yerli otomobil üretimine yönelik yeni bir proje için çalışmalar sürerken gözler H...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-yolda-benzinli-ve-hibrit-modelleri-olacak-4863853",
@@ -126,13 +190,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/altin-fiyatlarinda-ruzgar-tersine-dondu-dolar-ve-petrol-tirmandi-gram-altin-dususe-gecti-4863833",
       "tarih": "2026-10-13T06:32:24.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küba'dan enerji hamlesi! Petrolünü dünyaya açıyor",
-      "ozet": "Derinleşen enerji krizi ve ABD'nin petrol kısıtlamalarıyla mücadele eden Küba yönetimi, petrol arama ve üretim sektörünü yabancı yatırımlara açmak amacıyla 1938 ve 1959 tarihli yasaları yürürlükten kaldırdı. Küba yöne...",
-      "link": "https://www.haberturk.com/ekonomi/kuba-dan-enerji-hamlesi-petrolunu-dunyaya-aciyor-3919261",
-      "tarih": "2026-10-13T06:18:56.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Suruç’ta çiftçiler eylemde: 'Hangi ürünü ekiyorsak zarar ediyoruz'",
