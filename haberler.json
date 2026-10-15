@@ -1,8 +1,9 @@
 {
-  "guncelleme": "2026-10-15T15:51:43.988Z",
+  "guncelleme": "2026-10-15T22:44:09.468Z",
   "kaynaklar": [
-    "YENISAFAK",
+    "MILLIYET",
     "BLOOMBERGHT",
+    "YENISAFAK",
     "CNNTURK",
     "CUMHURIYET",
     "AA",
@@ -16,7 +17,7 @@
       "expected": true,
       "direction": "dusus",
       "amount": 5.65,
-      "tarih": "2026-10-15",
+      "tarih": "2026-10-16",
       "dogrulayanKaynakSayisi": 1,
       "kaynakBaslik": "Benzine dev indirim bekleniyor: Tabelalar değişecek",
       "kaynakLink": "https://www.yenisafak.com/ekonomi/benzine-dev-indirim-bekleniyor-tabelalar-degisecek-4864599"
@@ -26,6 +27,26 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "ABD yönetimi İran'a yönelik yeni yaptırımlar açıkladı",
+      "ozet": "Bakanlıktan yapılan açıklamada, \"Ekonomik Dışlama Operasyonu\" kapsamında İran'ın uluslararası finans sistemine \"sızma\" girişimlerinin hedef alındığı, yaptırımların İran'a finansal aracılık hizmetleri ve ABD dolarına e...",
+      "tarih": "2026-10-15T21:08:07.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "ABD, Lukoil'e yönelik yaptırım muafiyetini uzattı",
+      "ozet": "ABD Hazine Bakanlığı, yaptırım uyguladığı Rus petrol şirketi Lukoil'in Rusya dışındaki akaryakıt istasyonlarının işletilmesi, bakımı ve faaliyetlerinin sonlandırılmasına yönelik belirli işlemlere tanınan izni 24 Nisan...",
+      "link": "https://www.bloomberght.com/abd-lukoil-e-yonelik-yaptirim-muafiyetini-uzatti-3791522",
+      "tarih": "2026-10-15T19:02:02.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Almanya ve Fransa, AB'nin 2035 motor yasağını esnetmek için anlaştı",
+      "ozet": "Almanya ve Fransa'nın, Avrupa Birliği'nin (AB) 2035'te yürürlüğe girmesi planlanan içten yanmalı motor yasağını esnetmek üzere uzlaştığı bildirildi. Anlaşma kapsamında, otomobil üreticilerinin emisyonlarını yüzde 90 a...",
+      "link": "https://www.bloomberght.com/almanya-ve-fransa-ab-nin-2035-motor-yasagini-esnetmek-icin-anlasti-3791517",
+      "tarih": "2026-10-15T17:41:53.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
     {
       "baslik": "Altın ve borsa yatırımcısı için hesaplar sil baştan: Uzman isim 'yıl sonu hedefi değişti' diyerek yeni rakamları açıkladı",
       "ozet": "Küresel piyasalarda artan jeopolitik gerilimler, tırmanan petrol fiyatları ve ABD enflasyon verileri yatırım araçlarının rotasını yeniden çiziyor. Ekonomist Mustafa Aşkın, altında yıl sonu hedefinin aşağı yönlü revize...",
@@ -118,13 +139,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Petrol, arz riskleri ve yaptırım hafifletme beklentileriyle geriledi",
-      "ozet": "Petrol, Hürmüz Boğazı çevresindeki gemilere yönelik saldırıların arz risklerini artırmasına karşın ABD'nin petrol taşımacılığı maliyetlerini düşürmek amacıyla bazı gemilere yönelik yaptırımları hafifletmeyi değerlendi...",
-      "link": "https://www.bloomberght.com/petrol-arz-riskleri-ve-yaptirim-hafifletme-beklentileriyle-geriledi-3791402",
-      "tarih": "2026-10-15T03:32:36.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Çin 23 aydır altın alıyor! Ülkeler altınlarını eve taşıyor: Küresel sistemde ne değişiyor?",
       "ozet": "Çin Merkez Bankası’nın 23 aydır sürdürdüğü altın alımları, küresel rezerv politikalarını yeniden gündeme getirdi. İstanbul Esenyurt Üniversitesi Öğretim Üyesi Dr. Zekeriya Şahin, Rusya’ya ait varlıkların dondurulmasın...",
       "link": "https://www.cnnturk.com/video/ekonomi/cin-23-aydir-altin-aliyor-ulkeler-altinlarini-eve-tasiyor-kuresel-sistemde-ne-degisiyor-3479022",
@@ -179,13 +193,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/14-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2546540",
       "tarih": "2026-10-14T06:15:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "OPEC, 2026 petrol talebi tahminini düşürdü: 2027 beklentisi yükseldi",
-      "ozet": "Petrol İhraç Eden Ülkeler Örgütü (OPEC), küresel petrol talebine ilişkin tahminlerini güncelledi. Örgüt, 2026 yılında petrol talebindeki artış beklentisini günlük 380 bin varilden 180 bin varile düşürürken, 2027 yılın...",
-      "link": "https://www.cnnturk.com/ekonomi/opec-2026-petrol-talebi-tahminini-dusurdu-2027-beklentisi-yukseldi-3478711",
-      "tarih": "2026-10-13T16:14:07.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Petrol piyasasında yeni tablo: OPEC 2026 beklentisini revize etti",
