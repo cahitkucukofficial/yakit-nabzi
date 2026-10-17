@@ -1,15 +1,14 @@
 {
-  "guncelleme": "2026-10-17T14:31:31.971Z",
+  "guncelleme": "2026-10-17T18:00:12.336Z",
   "kaynaklar": [
-    "MILLIYET",
+    "CUMHURIYET",
+    "HABERTURK",
     "CNNTURK",
     "AA",
-    "DUNYA",
     "SABAH",
     "YENISAFAK",
     "STAR",
-    "BLOOMBERGHT",
-    "CUMHURIYET"
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -30,16 +29,18 @@
   },
   "haberler": [
     {
-      "baslik": "Hürmüz Boğazı'nda patlama! Bir süper tanker daha mayına çarptı",
-      "ozet": "İran Devrim Muhafızları Ordusundan yapılan yazılı açıklamada 2 milyon varilden fazla petrol taşıyan bir süper tankerin sabah saatlerinde Hürmüz Boğazı'ndan geçmeye çalıştığı belirtildi. 'DENİZ MAYININA ÇARPTI' Açıklam...",
-      "tarih": "2026-10-17T12:39:58.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
+      "ozet": "Küresel piyasalarda Ortadoğu'da tırmanan jeopolitik gerilimler ve arz endişeleri, petrol fiyatlarında sert dalgalanmalara neden oldu. Güne sakin başlayan brent petrolün varil fiyatı, saatler içinde hızla değer kazanar...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-110-dolari-zorluyor-akaryakit-fiyatlarinda-zam-beklentisi-2547673",
+      "tarih": "2026-10-17T14:37:00.000Z",
+      "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Denizin üzerinde dev fabrika! Bakan Bayraktar: Osman Gazi deniz tabanına 20 zincirle sabitlenecek",
-      "ozet": "Osman Gazi Yüzer Üretim Platformu, Filyos’tan görev yerine uğurlandı. Uğurlama töreninde CNN Türk canlı yayınına katılan Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, platformun çalışma düzenini, teknik özelli...",
-      "tarih": "2026-10-17T11:45:30.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "\"Yakında yeni bir petrol müjdesi verebiliriz\"",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarının kararlılıkla sürdüğünü belirterek, yurt içindeki enerji kaynaklarının araştırılmasına yönelik faaliyetlerin de...",
+      "link": "https://www.haberturk.com/ekonomi/enerji-ve-tabii-kaynaklar-bakani-alparslan-bayraktar-gabar-dan-yakinda-yeni-bir-petrol-mujdesi-3920493",
+      "tarih": "2026-10-17T14:30:36.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Yeni petrol müjdesi mi geliyor? Bakan Bayraktar'dan Gabar açıklaması!",
@@ -54,13 +55,6 @@
       "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktar-gabardan-yakinda-yeni-petrol-mujdesi-verebileceklerini-soyledi/4091897",
       "tarih": "2026-10-17T10:47:02.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Gabar'da yeni petrol keşfi sinyali! Bakan Bayraktar duyurdu",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Gabar'daki petrol arama çalışmalarından yakın zamanda yeni bir keşif müjdesi gelebileceğini açıkladı. Karadeniz'deki doğal gaz üretiminin 2028'de dört katına çıkar...",
-      "link": "https://www.dunya.com/ekonomi/gabarda-yeni-petrol-kesfi-sinyali-bakan-bayraktar-duyurdu-haberi-844239",
-      "tarih": "2026-10-17T10:07:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Türkiye'nin enerji hamlesi sürüyor! Bakan Bayraktar'dan Gabar için yeni keşif sinyali: Yakında müjde verebiliriz",
@@ -89,13 +83,6 @@
       "link": "https://www.bloomberght.com/bakan-bayraktar-gabar-dan-yakinda-yeni-petrol-mujdesi-verebiliriz-3791724",
       "tarih": "2026-10-17T08:08:05.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol fiyatları alev aldı: Mayıs ayından bu yana bir ilk",
-      "ozet": "Orta Doğu'da tırmanan gerilim ve Rusya'daki petrol tesislerine yönelik saldırılar, küresel enerji piyasalarında arz endişelerini artırdı. Brent petrol mayıs ayından bu yana en yüksek seviyesine ulaşırken, ABD ve Ulusl...",
-      "link": "https://www.dunya.com/enerji/petrol-fiyatlari-alev-aldi-mayis-ayindan-bu-yana-bir-ilk-haberi-844230",
-      "tarih": "2026-10-17T08:07:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Araç sahiplerine müjde: Akaryakıta bir indirim daha geliyor",
