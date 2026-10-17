@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-10-17T18:00:12.336Z",
+  "guncelleme": "2026-10-17T21:48:50.806Z",
   "kaynaklar": [
+    "MILLIYET",
     "CUMHURIYET",
     "HABERTURK",
     "CNNTURK",
@@ -17,17 +18,29 @@
     "benzin": {
       "expected": true,
       "direction": "dusus",
-      "amount": 5.65,
-      "tarih": "2026-10-17",
+      "amount": 4.3,
+      "tarih": "2026-10-20",
       "dogrulayanKaynakSayisi": 2,
-      "kaynakBaslik": "Benzin fiyatlarına indirim yolda: Tarih belli oldu",
-      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/benzin-fiyatlarina-indirim-yolda-tarih-belli-oldu-2547298"
+      "kaynakBaslik": "Araç sahiplerine müjde: Akaryakıta bir indirim daha geliyor",
+      "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-bir-indirim-daha-iste-yeni-fiyatlar-4865035"
     },
     "lpg": {
       "expected": false
     }
   },
   "haberler": [
+    {
+      "baslik": "Trump: İran'da biraz daha uzun kalabiliriz",
+      "ozet": "Trump, 3 Kasım'da yapılacak ara seçim kampanyası için gittiği Kentucky eyaletinin Highlands Heights kentinde konuştu. ABD ile İsrail'in 28 Şubat'ta İran'a başlattığı saldırılara işaret eden Trump, \"Biliyorsunuz, güzel...",
+      "tarih": "2026-10-17T20:50:30.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "İçişleri Bakanı Çiftçi Batman'da: Huzurun ve kardeşliğin hakim olduğu bir Türkiye için çalışmaya devam edeceğiz",
+      "ozet": "Bakan Çiftçi, Tilmerç Mahallesi'ndeki Sivil Toplum Merkezi bahçesinde düzenlenen \"Yeni Hizmet Binaları Toplu Açılış Töreni\"nde yaptığı konuşmada, Batman'ın çalışkan insanıyla, üretim gücüyle, genç nüfusuyla ve her geç...",
+      "tarih": "2026-10-17T18:30:19.000Z",
+      "kaynak": "MILLIYET"
+    },
     {
       "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
       "ozet": "Küresel piyasalarda Ortadoğu'da tırmanan jeopolitik gerilimler ve arz endişeleri, petrol fiyatlarında sert dalgalanmalara neden oldu. Güne sakin başlayan brent petrolün varil fiyatı, saatler içinde hızla değer kazanar...",
@@ -159,20 +172,6 @@
       "ozet": "ABD'nin ticari ham petrol stokları, piyasa beklentilerinin aksine geçen hafta 8 milyon 600 bin varil azalarak 415 milyon 600 bin varile geriledi.",
       "link": "https://www.yenisafak.com/ekonomi/beklenti-artis-yonundeydi-abdnin-petrol-stoklari-sert-dustu-4864751",
       "tarih": "2026-10-16T06:26:38.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Altın ve borsa yatırımcısı için hesaplar sil baştan: Uzman isim 'yıl sonu hedefi değişti' diyerek yeni rakamları açıkladı",
-      "ozet": "Küresel piyasalarda artan jeopolitik gerilimler, tırmanan petrol fiyatları ve ABD enflasyon verileri yatırım araçlarının rotasını yeniden çiziyor. Ekonomist Mustafa Aşkın, altında yıl sonu hedefinin aşağı yönlü revize...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-ve-borsa-yatirimcisi-icin-hesaplar-sil-bastan-uzman-isim-yil-sonu-hedefi-degisti-diyerek-yeni-rakamlari-acikladi-4864609",
-      "tarih": "2026-10-15T14:08:02.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Benzine dev indirim bekleniyor: Tabelalar değişecek",
-      "ozet": "Brent petroldeki düşüşün ardından benzin fiyatlarında indirim beklentisi oluştu. Cuma gecesinden itibaren litre fiyatına 5,65 TL indirim yapılması öngörülüyor.",
-      "link": "https://www.yenisafak.com/ekonomi/benzine-dev-indirim-bekleniyor-tabelalar-degisecek-4864599",
-      "tarih": "2026-10-15T13:33:54.000Z",
       "kaynak": "YENISAFAK"
     },
     {
