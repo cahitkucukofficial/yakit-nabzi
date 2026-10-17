@@ -1,12 +1,15 @@
 {
-  "guncelleme": "2026-10-17T08:05:31.796Z",
+  "guncelleme": "2026-10-17T14:31:31.971Z",
   "kaynaklar": [
-    "YENISAFAK",
-    "CUMHURIYET",
-    "SABAH",
-    "STAR",
+    "MILLIYET",
+    "CNNTURK",
+    "AA",
     "DUNYA",
-    "CNNTURK"
+    "SABAH",
+    "YENISAFAK",
+    "STAR",
+    "BLOOMBERGHT",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -27,6 +30,74 @@
   },
   "haberler": [
     {
+      "baslik": "Hürmüz Boğazı'nda patlama! Bir süper tanker daha mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusundan yapılan yazılı açıklamada 2 milyon varilden fazla petrol taşıyan bir süper tankerin sabah saatlerinde Hürmüz Boğazı'ndan geçmeye çalıştığı belirtildi. 'DENİZ MAYININA ÇARPTI' Açıklam...",
+      "tarih": "2026-10-17T12:39:58.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Denizin üzerinde dev fabrika! Bakan Bayraktar: Osman Gazi deniz tabanına 20 zincirle sabitlenecek",
+      "ozet": "Osman Gazi Yüzer Üretim Platformu, Filyos’tan görev yerine uğurlandı. Uğurlama töreninde CNN Türk canlı yayınına katılan Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, platformun çalışma düzenini, teknik özelli...",
+      "tarih": "2026-10-17T11:45:30.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Yeni petrol müjdesi mi geliyor? Bakan Bayraktar'dan Gabar açıklaması!",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
+      "link": "https://www.cnnturk.com/ekonomi/yeni-petrol-mujdesi-mi-geliyor-bakan-bayraktardan-gabar-aciklamasi-3480680",
+      "tarih": "2026-10-17T11:03:56.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bakan Bayraktar, Gabar'dan yakında yeni petrol müjdesi verebileceklerini söyledi",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktar-gabardan-yakinda-yeni-petrol-mujdesi-verebileceklerini-soyledi/4091897",
+      "tarih": "2026-10-17T10:47:02.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Gabar'da yeni petrol keşfi sinyali! Bakan Bayraktar duyurdu",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Gabar'daki petrol arama çalışmalarından yakın zamanda yeni bir keşif müjdesi gelebileceğini açıkladı. Karadeniz'deki doğal gaz üretiminin 2028'de dört katına çıkar...",
+      "link": "https://www.dunya.com/ekonomi/gabarda-yeni-petrol-kesfi-sinyali-bakan-bayraktar-duyurdu-haberi-844239",
+      "tarih": "2026-10-17T10:07:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Türkiye'nin enerji hamlesi sürüyor! Bakan Bayraktar'dan Gabar için yeni keşif sinyali: Yakında müjde verebiliriz",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
+      "link": "https://www.sabah.com.tr/ekonomi/turkiyenin-enerji-hamlesi-suruyor-bakan-bayraktardan-gabar-icin-yeni-kesif-sinyali-yakinda-mujde-verebiliriz-7682635",
+      "tarih": "2026-10-17T10:02:25.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Bakan Bayraktar 'Yakın zamanda yeni bir müjde verebiliriz' diyerek duyurdu",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Rusya'nın başkenti Moskova'da düzenlenen Rusya Enerji Haftası kapsamında küresel enerji piyasalarını ve Türkiye'nin milli enerji hamlelerini değerlendirdi. Bakan B...",
+      "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktar-yakin-zamanda-yeni-bir-mujde-verebiliriz-diyerek-duyurdu-4865066",
+      "tarih": "2026-10-17T09:08:30.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Türkiye'de petrol heyecanı! Gabar'dan yeni müjde geliyor",
+      "ozet": "Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirten Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini aç...",
+      "link": "https://www.star.com.tr/ekonomi/turkiyede-petrol-heyecani-gabardan-yeni-mujde-geliyor-haber-2047135/",
+      "tarih": "2026-10-17T08:15:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Bakan Bayraktar: Gabar'dan yakında yeni petrol müjdesi verebiliriz",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğalgaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini ...",
+      "link": "https://www.bloomberght.com/bakan-bayraktar-gabar-dan-yakinda-yeni-petrol-mujdesi-verebiliriz-3791724",
+      "tarih": "2026-10-17T08:08:05.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol fiyatları alev aldı: Mayıs ayından bu yana bir ilk",
+      "ozet": "Orta Doğu'da tırmanan gerilim ve Rusya'daki petrol tesislerine yönelik saldırılar, küresel enerji piyasalarında arz endişelerini artırdı. Brent petrol mayıs ayından bu yana en yüksek seviyesine ulaşırken, ABD ve Ulusl...",
+      "link": "https://www.dunya.com/enerji/petrol-fiyatlari-alev-aldi-mayis-ayindan-bu-yana-bir-ilk-haberi-844230",
+      "tarih": "2026-10-17T08:07:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "Araç sahiplerine müjde: Akaryakıta bir indirim daha geliyor",
       "ozet": "Brent petrol fiyatlarındaki geri çekilme akaryakıt fiyatlarını etkilemeye devam ediyor. Uluslararası piyasalarda Brent petrolün varil fiyatının 104 dolara gerilemesiyle birlikte, salı gününden itibaren benzin grubunda...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-bir-indirim-daha-iste-yeni-fiyatlar-4865035",
@@ -46,27 +117,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/17-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2547544",
       "tarih": "2026-10-17T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "TPAO'nun 2 ilde petrol arama ruhsat süresi uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Batman ve Siirt illerini kapsayan petrol arama ruhsatının süresi 22 Ekim 2028'e kadar iki yıl uzatıldı.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/tpaonun-2-ilde-petrol-arama-ruhsat-suresi-uzatildi-7682518",
-      "tarih": "2026-10-17T06:22:51.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Bölgede petrol heyecanı devam ediyor: TPAO'nun arama ruhsatı süresi uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı'nın (TPAO) Batman ve Siirt illerindeki 14 bin 192 hektarlık alana sahip petrol arama ruhsatının süresi, Maden ve Petrol İşleri Genel Müdürlüğü kararıyla 22 Ekim 2028 tarihine kadar ...",
-      "link": "https://www.star.com.tr/ekonomi/bolgede-petrol-heyecani-devam-ediyor-tpaonun-arama-ruhsati-suresi-uzatildi-haber-2047107/",
-      "tarih": "2026-10-17T06:17:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "Altın haftayı kayıpla kapattı: Fed beklentileri ve petrol fiyatları etkili oldu",
-      "ozet": "Altın fiyatları, doların zayıflaması ve ABD tahvil getirilerindeki düşüşe rağmen haftayı kayıpla tamamladı. Ons altın 4 bin 165 dolar seviyesinde işlem görürken Fed'in faiz politikasına ilişkin değişen beklentiler ve ...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/altin-haftayi-kayipla-kapatti-fed-beklentileri-ve-petrol-fiyatlari-etkili-oldu-galeri-844211",
-      "tarih": "2026-10-17T04:16:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Piyasalarda şok dalga: İndirim yeni uygulanmıştı, petrol bir anda fırladı",
@@ -192,13 +242,6 @@
       "ozet": "Küresel dizel arzındaki sıkıntı derinleşirken Uluslararası Enerji Ajansı, üye ülkelerden acil petrol rezervlerini daha hızlı piyasaya sürmelerini istedi. Ajans, özellikle dizel arzına öncelik verilmesini ve ek rezerv ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakit-depolari-hizla-bitiyor-uea-den-32-ulkeye-rezervleri-acin-talimati-2545838",
       "tarih": "2026-10-12T08:22:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Küresel piyasalarda yön arayışı: Gözler enflasyon verilerinde",
-      "ozet": "Küresel pay piyasaları, Ortadoğu'daki jeopolitik riskler ve Fed'in faiz politikası belirsizlikleriyle karışık bir seyir izliyor. Altın ve petrol haftayı yükselişle kapatırken, yeni haftada gözler ABD enflasyon veriler...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/kuresel-piyasalarda-yon-arayisi-gozler-enflasyon-verilerinde-2545422",
-      "tarih": "2026-10-10T15:43:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
