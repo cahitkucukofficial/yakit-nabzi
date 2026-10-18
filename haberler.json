@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-10-18T14:58:22.716Z",
+  "guncelleme": "2026-10-18T18:19:20.778Z",
   "kaynaklar": [
+    "DUNYA",
     "BLOOMBERGHT",
     "MILLIYET",
     "STAR",
@@ -28,6 +29,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Bakan Bayraktar'dan enerji gündemi: Türkiye'nin 2040 hedefleri masaya yatırıldı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu'nun Karadeniz'e uğurlanmasının ardından TİGAD öncülüğünde bir araya gelen basın heyetiyle özel toplantıda buluştu. Türkiye'nin 20...",
+      "link": "https://www.dunya.com/ekonomi/bakan-bayraktardan-enerji-gundemi-turkiyenin-2040-hedefleri-masaya-yatirildi-haberi-844336",
+      "tarih": "2026-10-18T15:58:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Bakan Bayraktar'dan doğalgazda zam ve elektrikte limit açılaması",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu ile Türk petrol ve doğalgaz üretiminde bir ilki gerçekleştirdiklerini belirterek, \"Filyos'ta gazı karaya getirerek karada işleme ...",
@@ -173,13 +181,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-fiyatlarina-indirim-yolda-tarih-belli-oldu-2547298",
       "tarih": "2026-10-16T07:25:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta dev indirim: Tabelaya bu gece yansıyacak İşte benzin ve motorinde güncel fiyatlar",
-      "ozet": "Brent petrol fiyatlarındaki düşüşün ardından sürücüleri sevindirecek akaryakıt müjdesi geldi. Benzinin litre fiyatında yapılması öngörülen indirimin ardından pompa fiyatları 80 liralık psikolojik sınırın altına gerile...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-dev-indirim-tabelaya-bu-gece-yansiyacak-iste-benzin-ve-motorinde-guncel-fiyatlar-4864764",
-      "tarih": "2026-10-16T07:01:51.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Petrol geriledi, benzine indirim göründü: Tabelalar bu gece değişecek",
