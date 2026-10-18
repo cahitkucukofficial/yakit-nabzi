@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-10-18T18:19:20.778Z",
+  "guncelleme": "2026-10-18T21:59:01.109Z",
   "kaynaklar": [
+    "MILLIYET",
     "DUNYA",
     "BLOOMBERGHT",
-    "MILLIYET",
     "STAR",
     "HABERTURK",
     "CUMHURIYET",
@@ -29,6 +29,18 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Hürmüz'de sıcak gelişme! Mayına çarpan petrol tankerinde yangın çıktı",
+      "ozet": "İran Devrim Muhafızları Ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın güneyinde İran'ın belirlediği güzergah ve kuralları ihlal ettiği öne sürülen bir petrol tankerinin deniz mayınına çarptığını bildirdi. Devrim Muhafızl...",
+      "tarih": "2026-10-18T21:20:52.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Macron: Şehirlerimizin sokaklarını bu şekilde görmek dayanılır gibi değil",
+      "ozet": "Fransa'da dünkü sarı yeleklilerin gösterilerinin ardından Macron, başkent Paris'teki Elysee Sarayı'ndan ulusa seslendi. İlginizi Çekebilir Macron, \"Değerli vatandaşlarım, bu akşam sizlere son derece ciddi bir zamanda ...",
+      "tarih": "2026-10-18T20:20:35.000Z",
+      "kaynak": "MILLIYET"
+    },
     {
       "baslik": "Bakan Bayraktar'dan enerji gündemi: Türkiye'nin 2040 hedefleri masaya yatırıldı",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu'nun Karadeniz'e uğurlanmasının ardından TİGAD öncülüğünde bir araya gelen basın heyetiyle özel toplantıda buluştu. Türkiye'nin 20...",
