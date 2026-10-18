@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-10-18T08:22:48.680Z",
+  "guncelleme": "2026-10-18T14:58:22.716Z",
   "kaynaklar": [
+    "BLOOMBERGHT",
+    "MILLIYET",
     "STAR",
-    "DUNYA",
-    "CUMHURIYET",
     "HABERTURK",
+    "CUMHURIYET",
     "CNNTURK",
     "AA",
-    "YENISAFAK",
-    "BLOOMBERGHT"
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -29,46 +29,45 @@
   },
   "haberler": [
     {
+      "baslik": "Bakan Bayraktar'dan doğalgazda zam ve elektrikte limit açılaması",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu ile Türk petrol ve doğalgaz üretiminde bir ilki gerçekleştirdiklerini belirterek, \"Filyos'ta gazı karaya getirerek karada işleme ...",
+      "link": "https://www.bloomberght.com/bakan-bayraktar-dan-dogalgazda-zam-ve-elektrikte-limit-acilamasi-3791747",
+      "tarih": "2026-10-18T14:13:59.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Elektrik ve doğal gaza zam gelecek mi? Bakan Bayraktar açıkladı",
+      "ozet": "Bakan Bayraktar, bir televizyon kanalında açıklamalarda bulundu. Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Karadeniz'de doğal gaz üretiminin Osman Gazi Yüzer Üretim Platformu ile iki katına çıkarılarak gün...",
+      "tarih": "2026-10-18T14:12:46.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Doğal gaz ve petrolde bir ilk! Üretim 20 milyon metreküpe çıkaracak",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Karadeniz'de devreye alınacak Osman Gazi Yüzer Üretim Platformu ile doğal gaz üretiminin günlük 20 milyon metreküpe çıkarılacağını açıkladı. Türk petrol ve doğal g...",
+      "link": "https://www.star.com.tr/ekonomi/dogal-gaz-ve-petrolde-bir-ilk-uretim-20-milyon-metrekupe-cikaracak-haber-2047415/",
+      "tarih": "2026-10-18T13:53:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Doğalgaza zam var mı? Bakan Bayraktar açıkladı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu ile Türk petrol ve doğalgaz üretiminde bir ilki gerçekleştirdiklerini belirterek, “Filyos'ta gazı karaya getirerek karada işleme ...",
+      "link": "https://www.haberturk.com/ekonomi/osman-gazi-ile-turk-petrol-ve-dogalgaz-uretiminde-bir-ilk-3920643",
+      "tarih": "2026-10-18T13:32:19.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "İran'da devlet bankası, ulusal petrol şirketinin hesaplarını dondurdu",
+      "ozet": "İran'da devlete ait Sanayi ve Maden Bankası, İran Ulusal Petrol Şirketinin banka hesaplarını ikinci kez dondurdu.",
+      "link": "https://www.bloomberght.com/iran-da-devlet-bankasi-ulusal-petrol-sirketinin-hesaplarini-dondurdu-3791745",
+      "tarih": "2026-10-18T12:13:34.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Fed beklentileri emtia piyasasını sarstı! Altın ve gümüşte sert düşüş",
       "ozet": "Küresel emtia piyasalarında Fed'in şahin para politikası beklentileri ve küresel büyümeye ilişkin endişeler satış baskısını artırdı. Gümüş haftalık bazda yüzde 6,3, platin yüzde 3,4 ve altın yüzde 0,7 değer kaybetti. ...",
       "link": "https://www.star.com.tr/ekonomi/fed-beklentileri-emtia-piyasasini-sarsti-altin-ve-gumuste-sert-dusus-haber-2047344/",
       "tarih": "2026-10-18T08:06:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "Fed baskısı emtiayı vurdu: Değerli metallerde sert kayıp",
-      "ozet": "Emtia piyasalarında Fed'in sıkı para politikasını sürdüreceğine yönelik beklentiler ve küresel büyüme endişeleri satış baskısını artırdı. Gümüş ve platin 3 ayın, paladyum ise Ağustos 2025'ten bu yana en düşük seviyesi...",
-      "link": "https://www.dunya.com/finans/emtia/fed-baskisi-emtiayi-vurdu-degerli-metallerde-sert-kayip-haberi-844295",
-      "tarih": "2026-10-18T08:02:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Trump'tan küresel ekonomi için Rusya yaptırımlarına fren!",
-      "ozet": "ABD Başkanı Donald Trump'ın Rusya'ya yönelik kapsamlı yaptırımları ve gümrük vergilerini askıya alması Washington'da tartışma yarattı. ABD Dışişleri Bakanı Marco Rubio, 60 günlük sürenin ekonomik etkileri değerlendirm...",
-      "link": "https://www.dunya.com/ekonomi/trumptan-kuresel-ekonomi-icin-rusya-yaptirimlarina-fren-haberi-844287",
-      "tarih": "2026-10-18T06:01:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Trump'tan İran savaşı mesajı: Çok hızlı bitecek, benzin fiyatları düşecek",
-      "ozet": "ABD Başkanı Donald Trump, İran savaşının yakında biteceğini belirterek, \"Bu iş çok hızlı bir şekilde sona erecek. Sona erdiğinde benzin fiyatları düşecek; hatta eskisinden daha düşük seviyelere inecek\" dedi.",
-      "link": "https://www.dunya.com/dunya/trumptan-iran-savasi-mesaji-cok-hizli-bitecek-benzin-fiyatlari-dusecek-haberi-844283",
-      "tarih": "2026-10-18T05:19:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Petrol piyasasında savaşın faturası ağırlaşıyor! Yüksek fiyatlar 2027'ye uzanabilir",
-      "ozet": "ABD ve İsrail'in İran'la savaşının kısa sürede sona ereceğine yönelik beklentiler zayıflarken petrol piyasalarında yüksek fiyatların kalıcı hale gelme riski artıyor. Brent petrolün 2027 vadeli kontratları 100 doların ...",
-      "link": "https://www.dunya.com/ekonomi/petrol-piyasasinda-savasin-faturasi-agirlasiyor-yuksek-fiyatlar-2027ye-uzanabilir-haberi-844285",
-      "tarih": "2026-10-18T05:09:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (18 Ekim 2026)",
-      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. 18 Ekim 2026 benzin, motorin (mazot) fiyatları ne kadar, güncel akaryakıt fiyatları kaç T...",
-      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-18-ekim-2026-haberi-844278",
-      "tarih": "2026-10-18T04:16:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
@@ -180,13 +179,6 @@
       "ozet": "Brent petrol fiyatlarındaki düşüşün ardından sürücüleri sevindirecek akaryakıt müjdesi geldi. Benzinin litre fiyatında yapılması öngörülen indirimin ardından pompa fiyatları 80 liralık psikolojik sınırın altına gerile...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-dev-indirim-tabelaya-bu-gece-yansiyacak-iste-benzin-ve-motorinde-guncel-fiyatlar-4864764",
       "tarih": "2026-10-16T07:01:51.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Beklenti artış yönündeydi: ABD'nin petrol stokları sert düştü",
-      "ozet": "ABD'nin ticari ham petrol stokları, piyasa beklentilerinin aksine geçen hafta 8 milyon 600 bin varil azalarak 415 milyon 600 bin varile geriledi.",
-      "link": "https://www.yenisafak.com/ekonomi/beklenti-artis-yonundeydi-abdnin-petrol-stoklari-sert-dustu-4864751",
-      "tarih": "2026-10-16T06:26:38.000Z",
       "kaynak": "YENISAFAK"
     },
     {
