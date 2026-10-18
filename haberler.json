@@ -1,14 +1,13 @@
 {
-  "guncelleme": "2026-10-18T01:47:04.762Z",
+  "guncelleme": "2026-10-18T08:22:48.680Z",
   "kaynaklar": [
-    "MILLIYET",
+    "STAR",
+    "DUNYA",
     "CUMHURIYET",
     "HABERTURK",
     "CNNTURK",
     "AA",
-    "SABAH",
     "YENISAFAK",
-    "STAR",
     "BLOOMBERGHT"
   ],
   "beklenti": {
@@ -30,10 +29,46 @@
   },
   "haberler": [
     {
-      "baslik": "Trump: İran'da biraz daha uzun kalabiliriz",
-      "ozet": "Trump, 3 Kasım'da yapılacak ara seçim kampanyası için gittiği Kentucky eyaletinin Highlands Heights kentinde konuştu. ABD ile İsrail'in 28 Şubat'ta İran'a başlattığı saldırılara işaret eden Trump, \"Biliyorsunuz, güzel...",
-      "tarih": "2026-10-17T20:50:30.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Fed beklentileri emtia piyasasını sarstı! Altın ve gümüşte sert düşüş",
+      "ozet": "Küresel emtia piyasalarında Fed'in şahin para politikası beklentileri ve küresel büyümeye ilişkin endişeler satış baskısını artırdı. Gümüş haftalık bazda yüzde 6,3, platin yüzde 3,4 ve altın yüzde 0,7 değer kaybetti. ...",
+      "link": "https://www.star.com.tr/ekonomi/fed-beklentileri-emtia-piyasasini-sarsti-altin-ve-gumuste-sert-dusus-haber-2047344/",
+      "tarih": "2026-10-18T08:06:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Fed baskısı emtiayı vurdu: Değerli metallerde sert kayıp",
+      "ozet": "Emtia piyasalarında Fed'in sıkı para politikasını sürdüreceğine yönelik beklentiler ve küresel büyüme endişeleri satış baskısını artırdı. Gümüş ve platin 3 ayın, paladyum ise Ağustos 2025'ten bu yana en düşük seviyesi...",
+      "link": "https://www.dunya.com/finans/emtia/fed-baskisi-emtiayi-vurdu-degerli-metallerde-sert-kayip-haberi-844295",
+      "tarih": "2026-10-18T08:02:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Trump'tan küresel ekonomi için Rusya yaptırımlarına fren!",
+      "ozet": "ABD Başkanı Donald Trump'ın Rusya'ya yönelik kapsamlı yaptırımları ve gümrük vergilerini askıya alması Washington'da tartışma yarattı. ABD Dışişleri Bakanı Marco Rubio, 60 günlük sürenin ekonomik etkileri değerlendirm...",
+      "link": "https://www.dunya.com/ekonomi/trumptan-kuresel-ekonomi-icin-rusya-yaptirimlarina-fren-haberi-844287",
+      "tarih": "2026-10-18T06:01:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Trump'tan İran savaşı mesajı: Çok hızlı bitecek, benzin fiyatları düşecek",
+      "ozet": "ABD Başkanı Donald Trump, İran savaşının yakında biteceğini belirterek, \"Bu iş çok hızlı bir şekilde sona erecek. Sona erdiğinde benzin fiyatları düşecek; hatta eskisinden daha düşük seviyelere inecek\" dedi.",
+      "link": "https://www.dunya.com/dunya/trumptan-iran-savasi-mesaji-cok-hizli-bitecek-benzin-fiyatlari-dusecek-haberi-844283",
+      "tarih": "2026-10-18T05:19:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Petrol piyasasında savaşın faturası ağırlaşıyor! Yüksek fiyatlar 2027'ye uzanabilir",
+      "ozet": "ABD ve İsrail'in İran'la savaşının kısa sürede sona ereceğine yönelik beklentiler zayıflarken petrol piyasalarında yüksek fiyatların kalıcı hale gelme riski artıyor. Brent petrolün 2027 vadeli kontratları 100 doların ...",
+      "link": "https://www.dunya.com/ekonomi/petrol-piyasasinda-savasin-faturasi-agirlasiyor-yuksek-fiyatlar-2027ye-uzanabilir-haberi-844285",
+      "tarih": "2026-10-18T05:09:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (18 Ekim 2026)",
+      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. 18 Ekim 2026 benzin, motorin (mazot) fiyatları ne kadar, güncel akaryakıt fiyatları kaç T...",
+      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-18-ekim-2026-haberi-844278",
+      "tarih": "2026-10-18T04:16:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
       "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
@@ -64,25 +99,11 @@
       "kaynak": "AA"
     },
     {
-      "baslik": "Türkiye'nin enerji hamlesi sürüyor! Bakan Bayraktar'dan Gabar için yeni keşif sinyali: Yakında müjde verebiliriz",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
-      "link": "https://www.sabah.com.tr/ekonomi/turkiyenin-enerji-hamlesi-suruyor-bakan-bayraktardan-gabar-icin-yeni-kesif-sinyali-yakinda-mujde-verebiliriz-7682635",
-      "tarih": "2026-10-17T10:02:25.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Bakan Bayraktar 'Yakın zamanda yeni bir müjde verebiliriz' diyerek duyurdu",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Rusya'nın başkenti Moskova'da düzenlenen Rusya Enerji Haftası kapsamında küresel enerji piyasalarını ve Türkiye'nin milli enerji hamlelerini değerlendirdi. Bakan B...",
       "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktar-yakin-zamanda-yeni-bir-mujde-verebiliriz-diyerek-duyurdu-4865066",
       "tarih": "2026-10-17T09:08:30.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Türkiye'de petrol heyecanı! Gabar'dan yeni müjde geliyor",
-      "ozet": "Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirten Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini aç...",
-      "link": "https://www.star.com.tr/ekonomi/turkiyede-petrol-heyecani-gabardan-yeni-mujde-geliyor-haber-2047135/",
-      "tarih": "2026-10-17T08:15:00.000Z",
-      "kaynak": "STAR"
     },
     {
       "baslik": "Bakan Bayraktar: Gabar'dan yakında yeni petrol müjdesi verebiliriz",
