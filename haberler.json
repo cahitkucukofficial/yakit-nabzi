@@ -1,16 +1,11 @@
 {
-  "guncelleme": "2026-10-19T09:22:16.224Z",
+  "guncelleme": "2026-10-19T23:11:01.650Z",
   "kaynaklar": [
-    "CUMHURIYET",
-    "HABERTURK",
-    "DUNYA",
-    "SABAH",
-    "YENISAFAK",
-    "MILLIYET",
-    "STAR",
-    "BLOOMBERGHT",
     "CNNTURK",
-    "AA"
+    "MILLIYET",
+    "YENISAFAK",
+    "CUMHURIYET",
+    "HABERTURK"
   ],
   "beklenti": {
     "motorin": {
@@ -31,6 +26,39 @@
   },
   "haberler": [
     {
+      "baslik": "Altın alacaklar dikkat! Uzmandan kritik uyarı: 7.300 TL sinyali",
+      "ozet": "Altın ve Para Piyasaları Uzmanı Şirin Sarı, altın fiyatlarının haftaya yatay başladığını belirterek yılın son çeyreğinde yükseliş beklentisini paylaştı. Ons altında 4.500-4.600 dolar bandını direnç olarak gösteren Sar...",
+      "link": "https://www.cnnturk.com/video/ekonomi/altin/altin-alacaklar-dikkat-uzmandan-kritik-uyari-7-300-tl-sinyali-3481445",
+      "tarih": "2026-10-19T18:38:55.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Ankara'ya 4.1 milyar dolarlık veri merkezi! Bakan Kacır: Yapay Zeka Büyüme Bölgeleri geliyor",
+      "ozet": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Ankara Temelli Başkent Organize Sanayi Bölgesi'nde Rönesans Holding ve Digital Realty iş birliğiyle hayata geçirilecek Ankara Temelli Veri Merkezi'nin temel atma törenine...",
+      "tarih": "2026-10-19T16:46:52.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 19 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
+      "ozet": "Benzine dev indirim geliyor, benzin indirimi son dakika, 19 Ekim akaryakıt fiyatları gündemin en çok takip edilen başlıkları arasında yer alıyor. Petrol fiyatlarındaki hareketliliğin ardından akaryakıt piyasasında yen...",
+      "link": "https://www.cnnturk.com/ekonomi/son-dakika-benzin-indirimi-benzine-indirim-mi-geliyor-19-ekim-benzin-mazot-lpg-guncel-akaryakit-fiyatlari-ne-istanbul-ankara-3481384",
+      "tarih": "2026-10-19T16:39:47.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bakan Bayraktar’dan heyecanlandıran ‘Gabar’ açıklaması: Yeni bir müjde vereceğiz",
+      "ozet": "Şırnak Gabar’da petrol arama çalışmalarında gözler batı bölgesine çevrildi. Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar’ın \"Önemli rezervler keşfetmek üzereyiz\" açıklaması, bölgede yeni bir petrol müjdesi bek...",
+      "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktardan-heyecanlandiran-gabar-aciklamasi-yeni-bir-mujde-verecegiz-4865542",
+      "tarih": "2026-10-19T10:34:23.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Bakan Uraloğlu: Türkiye'siz koridor olmaz! Yeni bir lojistik omurga oluşturuyoruz",
+      "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Siyaset, Ekonomi ve Toplum Araştırmaları Vakfı (SETA) tarafından Ankara Ofisi'nde düzenlenen \"Değişen Küresel Ulaştırma Jeopolitiği ve Kalkınma Yolu Projesi Konferansı\"...",
+      "tarih": "2026-10-19T09:45:56.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
       "baslik": "EPDK’den elektrikte yeni düzenleme: Fazla teminatlar 10 iş gününde iade edilecek",
       "ozet": "EPDK, elektrik piyasasında teminat süreçlerinden depolama tesislerine ve lisanssız üretime kadar birçok başlığı kapsayan yeni düzenlemeleri duyurdu. Kullanıcılara fazla teminatların iadesi için süre sınırı getirilirke...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/epdk-den-elektrikte-yeni-duzenleme-fazla-teminatlar-10-is-gununde-iade-edilecek-2548134",
@@ -43,20 +71,6 @@
       "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-dusus-3920757",
       "tarih": "2026-10-19T07:46:02.000Z",
       "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Kanada'nın petrol merkezi Alberta ülkeden ayrılmayı oyluyor",
-      "ozet": "Kanada petrolünün yaklaşık yüzde 84'ünü üreten Alberta, ülkenin geleceğini etkileyebilecek referandum için sandığa gidiyor. Bugünkü oylamada doğrudan ayrılık değil, bağımsızlığa giden hukuki sürecin başlatılması karar...",
-      "link": "https://www.dunya.com/gundem/kanadanin-petrol-merkezi-alberta-ulkeden-ayrilmayi-oyluyor-haberi-844395",
-      "tarih": "2026-10-19T07:07:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "EPDK'den elektrik bağlantısı için yeni düzenleme: 30 gün şartı getirildi",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik piyasasında bağlantı ve sistem kullanımı başta olmak üzere çeşitli yönetmeliklerde değişikliğe gitti. Yeni düzenlemeyle, bağlantı anlaşmasının imzalanmasının...Devamı ...",
-      "link": "https://www.sabah.com.tr/ekonomi/epdkden-elektrik-baglantisi-icin-yeni-duzenleme-30-gun-sarti-getirildi-7683732",
-      "tarih": "2026-10-19T06:54:29.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "Benzin fiyatlarına indirim yolda: Tabelalar gece yarısı değişecek",
@@ -73,31 +87,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Elektrik piyasasında kurallar değişti: Talimata uymayana ödeme yok",
-      "ozet": "EPDK'nin konuya ilişkin yönetmelik değişiklikleri, Resmi Gazete'de yayımlanarak yürürlüğe girdi. Buna göre, Elektrik Piyasasında Lisanssız Elektrik Üretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik kapsamın...",
-      "tarih": "2026-10-19T06:20:54.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "EPDK düğmeye bastı! Elektrik depolama ve teminat kuralları değişti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik piyasasında bağlantı ve sistem kullanımı, lisans, yan hizmetler ve elektrik depolama faaliyetlerine ilişkin yönetmeliklerde değişikliğe gitti.",
-      "link": "https://www.star.com.tr/ekonomi/epdk-dugmeye-basti-elektrik-depolama-ve-teminat-kurallari-degisti-haber-2047505/",
-      "tarih": "2026-10-19T06:20:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Elektrik piyasasında kurallar değişti: EPDK’den yeni düzenleme",
       "ozet": "Elektrik depolamadan teminat şartlarına, lisans işlemlerinden ödeme kriterlerine kadar birçok başlıkta yeni düzenlemeler yürürlüğe girdi.",
       "link": "https://www.yenisafak.com/ekonomi/elektrik-piyasasinda-kurallar-degisti-epdkden-yeni-duzenleme-4865457",
       "tarih": "2026-10-19T06:16:02.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalarda yeni hafta hareketliliği! Gözler altın, petrol ve faiz kararlarında",
-      "ozet": "Küresel piyasalar, Orta Doğu'da yeni bir uzlaşı planı üzerinde çalışılması ve Çin'de açıklanan makroekonomik verilerden alınan olumlu sinyallerin risk iştahını desteklemesiyle haftaya toparlanma eğilimiyle başladı.",
-      "link": "https://www.star.com.tr/ekonomi/kuresel-piyasalarda-yeni-hafta-hareketliligi-gozler-altin-petrol-ve-faiz-kararlarinda-haber-2047502/",
-      "tarih": "2026-10-19T06:16:00.000Z",
-      "kaynak": "STAR"
     },
     {
       "baslik": "EPDK'dan yeni düzenlemeler",
@@ -107,55 +101,6 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "EPDK'den lisanssız elektrik üretimine ilişkin yeni düzenleme",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), lisanssız elektrik üretim tesislerinin acil durumlarda uzaktan kontrol edilmesi, talimatlara uyulmaması halinde uygulanacak yaptırımlar ve mahsuplaşma süreçlerine ilişkin düzen...",
-      "link": "https://www.bloomberght.com/epdkden-lisanssiz-elektrik-uretimine-iliskin-yeni-duzenleme-3791755",
-      "tarih": "2026-10-19T03:50:29.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Altın, petrol fiyatlarındaki gerilemeyle yükseldi",
-      "ozet": "Altın, petrol fiyatlarındaki düşüşün enflasyon baskılarını hafifletebileceği beklentisiyle haftaya yükselişle başladı.",
-      "link": "https://www.bloomberght.com/altin-petrol-fiyatlarindaki-gerilemeyle-yukseldi-3791754",
-      "tarih": "2026-10-19T03:36:19.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol, Rusya'ya yönelik yaptırımların hafifletilmesiyle geriledi",
-      "ozet": "Petrol, ABD Başkanı Donald Trump'ın Rusya'ya yönelik bazı yaptırım ve tarifeleri askıya alarak Rus yakıtı ihracatının artabileceği beklentisini güçlendirmesinin ardından pazartesi günü düştü.",
-      "link": "https://www.bloomberght.com/petrol-rusyaya-yonelik-yaptirimlarin-hafifletilmesiyle-geriledi-3791753",
-      "tarih": "2026-10-19T03:30:43.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Bakan Bayraktar'dan doğalgazda zam ve elektrikte limit açılaması",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu ile Türk petrol ve doğalgaz üretiminde bir ilki gerçekleştirdiklerini belirterek, \"Filyos'ta gazı karaya getirerek karada işleme ...",
-      "link": "https://www.bloomberght.com/bakan-bayraktar-dan-dogalgazda-zam-ve-elektrikte-limit-acilamasi-3791747",
-      "tarih": "2026-10-18T14:13:59.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Doğal gaz ve petrolde bir ilk! Üretim 20 milyon metreküpe çıkaracak",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Karadeniz'de devreye alınacak Osman Gazi Yüzer Üretim Platformu ile doğal gaz üretiminin günlük 20 milyon metreküpe çıkarılacağını açıkladı. Türk petrol ve doğal g...",
-      "link": "https://www.star.com.tr/ekonomi/dogal-gaz-ve-petrolde-bir-ilk-uretim-20-milyon-metrekupe-cikaracak-haber-2047415/",
-      "tarih": "2026-10-18T13:53:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "Doğalgaza zam var mı? Bakan Bayraktar açıkladı",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Osman Gazi Yüzer Üretim Platformu ile Türk petrol ve doğalgaz üretiminde bir ilki gerçekleştirdiklerini belirterek, “Filyos'ta gazı karaya getirerek karada işleme ...",
-      "link": "https://www.haberturk.com/ekonomi/osman-gazi-ile-turk-petrol-ve-dogalgaz-uretiminde-bir-ilk-3920643",
-      "tarih": "2026-10-18T13:32:19.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "İran'da devlet bankası, ulusal petrol şirketinin hesaplarını dondurdu",
-      "ozet": "İran'da devlete ait Sanayi ve Maden Bankası, İran Ulusal Petrol Şirketinin banka hesaplarını ikinci kez dondurdu.",
-      "link": "https://www.bloomberght.com/iran-da-devlet-bankasi-ulusal-petrol-sirketinin-hesaplarini-dondurdu-3791745",
-      "tarih": "2026-10-18T12:13:34.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
       "ozet": "Küresel piyasalarda Ortadoğu'da tırmanan jeopolitik gerilimler ve arz endişeleri, petrol fiyatlarında sert dalgalanmalara neden oldu. Güne sakin başlayan brent petrolün varil fiyatı, saatler içinde hızla değer kazanar...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-110-dolari-zorluyor-akaryakit-fiyatlarinda-zam-beklentisi-2547673",
@@ -163,25 +108,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "\"Yakında yeni bir petrol müjdesi verebiliriz\"",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarının kararlılıkla sürdüğünü belirterek, yurt içindeki enerji kaynaklarının araştırılmasına yönelik faaliyetlerin de...",
-      "link": "https://www.haberturk.com/ekonomi/enerji-ve-tabii-kaynaklar-bakani-alparslan-bayraktar-gabar-dan-yakinda-yeni-bir-petrol-mujdesi-3920493",
-      "tarih": "2026-10-17T14:30:36.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Yeni petrol müjdesi mi geliyor? Bakan Bayraktar'dan Gabar açıklaması!",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
       "link": "https://www.cnnturk.com/ekonomi/yeni-petrol-mujdesi-mi-geliyor-bakan-bayraktardan-gabar-aciklamasi-3480680",
       "tarih": "2026-10-17T11:03:56.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Bakan Bayraktar, Gabar'dan yakında yeni petrol müjdesi verebileceklerini söyledi",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktar-gabardan-yakinda-yeni-petrol-mujdesi-verebileceklerini-soyledi/4091897",
-      "tarih": "2026-10-17T10:47:02.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Bakan Bayraktar 'Yakın zamanda yeni bir müjde verebiliriz' diyerek duyurdu",
@@ -210,27 +141,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/17-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2547544",
       "tarih": "2026-10-17T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Piyasalarda şok dalga: İndirim yeni uygulanmıştı, petrol bir anda fırladı",
-      "ozet": "Küresel petrol piyasalarında gün içinde sert fiyat hareketleri yaşandı. Sabah saatlerinde 105,43 dolara kadar gerileyen Brent petrolün varil fiyatı, akşam saatlerinde ani bir yükselişle 110 dolar seviyesine ulaştı.",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/brent-petrol-110-dolari-gordu-petrol-fiyatlari-neden-yukseliyor-ieadan-kritik-rezerv-hamlesi-4864955",
-      "tarih": "2026-10-16T18:36:21.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Brent petrol 105,43 dolara geriledi",
-      "ozet": "Brent petrolün varil fiyatı, yatırımcıların kâr satışlarına yönelmesi ve küresel petrol arzının artacağı beklentisinin güçlenmesiyle yaklaşık yüzde 0,5 düşerek 105,43 dolara indi. Orta Doğu'daki jeopolitik gelişmeler,...",
-      "link": "https://www.cnnturk.com/ekonomi/brent-petrol-105-43-dolara-geriledi-3480438",
-      "tarih": "2026-10-16T17:21:05.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Yunanistan’da orduya ait boru hattından 300 bin litre petrol çalındı",
-      "ozet": "Yunanistan’ın Selanik kenti kırsalında, orduya ait boru hattından yaklaşık 300 bin litre petrol çalınmasıyla ilgili davada karar açıklandı. Olayla bağlantılı beş kişi suçlu bulunurken, eski bir asker beş yıl hapis cez...",
-      "link": "https://www.cnnturk.com/ekonomi/yunanistanda-orduya-ait-boru-hattindan-300-bin-litre-petrol-calindi-3480347",
-      "tarih": "2026-10-16T16:01:10.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "16 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
