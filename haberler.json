@@ -1,10 +1,14 @@
 {
-  "guncelleme": "2026-10-19T23:11:01.650Z",
+  "guncelleme": "2026-10-20T08:56:58.709Z",
   "kaynaklar": [
     "CNNTURK",
+    "STAR",
     "MILLIYET",
+    "BLOOMBERGHT",
+    "DUNYA",
     "YENISAFAK",
     "CUMHURIYET",
+    "SABAH",
     "HABERTURK"
   ],
   "beklenti": {
@@ -16,7 +20,7 @@
       "direction": "dusus",
       "amount": 4.3,
       "tarih": "2026-10-20",
-      "dogrulayanKaynakSayisi": 2,
+      "dogrulayanKaynakSayisi": 1,
       "kaynakBaslik": "Benzin fiyatlarına indirim yolda: Tabelalar gece yarısı değişecek",
       "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/benzin-fiyatlarina-indirim-yolda-tabelalar-gece-yarisi-degisecek-2548053"
     },
@@ -26,23 +30,72 @@
   },
   "haberler": [
     {
+      "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 20 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
+      "ozet": "Benzine dev indirim geliyor, benzin indirimi son dakika, 20 Ekim akaryakıt fiyatları gündemin en çok takip edilen başlıkları arasında yer alıyor. Petrol fiyatlarındaki hareketliliğin ardından akaryakıt piyasasında yen...",
+      "link": "https://www.cnnturk.com/ekonomi/son-dakika-benzin-indirimi-benzine-indirim-mi-geliyor-19-ekim-benzin-mazot-lpg-guncel-akaryakit-fiyatlari-ne-istanbul-ankara-3481384",
+      "tarih": "2026-10-20T09:19:44.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Benzine indirim geldi: Akaryakıt tabelaları yeniden değişti",
+      "ozet": "Benzinin litre satış fiyatına 4 lira 30 kuruş indirim yapıldı.",
+      "link": "https://www.star.com.tr/ekonomi/benzine-indirim-geldi-akaryakit-tabelalari-yeniden-degisti-haber-2047787/",
+      "tarih": "2026-10-20T07:47:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Kanada'dan bağımsızlık istiyorlardı: Ayrılıkçılar Alberta'da referandumu kaybetti",
+      "ozet": "CBS News'ün haberine göre, Kanada'nın Alberta eyaletindehalk Kanada'dan ayrılma sürecini başlatıp başlatmama konusunda bağlayıcı bir referandum yapılması önerisini reddetti. Pazartesi günü düzenlenen referandumda seçm...",
+      "tarih": "2026-10-20T07:40:54.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "ABD'li çiftçilere 8 milyar dolarlık mazot desteği",
+      "ozet": "Trump yönetimi, hasadın yoğunlaştığı dönemde artan motorin maliyetleriyle karşı karşıya kalan çiftçiler için 8 milyar dolarlık destek açıkladı. Ürün bazında ödeme tutarları kasım ayında duyurulacak.",
+      "link": "https://www.bloomberght.com/abd-li-ciftcilere-8-milyar-dolarlik-mazot-destegi-3791880",
+      "tarih": "2026-10-20T07:04:24.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "KİT'lerin 2027 yatırım programı açıklandı: Aslan payı TPAO'nun",
+      "ozet": "Kamu iktisadi teşebbüsleri (KİT) ve bağlı ortaklıklarının 2027 yılında toplam 754,2 milyar liralık yatırım yapması öngörülüyor. Resmi Gazete'de yayımlanan Cumhurbaşkanı Kararı'na göre en yüksek yatırım 353,8 milyar li...",
+      "link": "https://www.dunya.com/ekonomi/kitlerin-2027-yatirim-programi-aciklandi-aslan-payi-tpaonun-haberi-844529",
+      "tarih": "2026-10-20T06:47:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Benzine dev indirim pompaya yansıdı: Akaryakıtta tabelalar değişti işte il il güncel benzin motorin LPG fiyatları",
+      "ozet": "Brent petroldeki geri çekilme ve döviz kurundaki yatay seyir sonrası akaryakıtta araç sahiplerini sevindiren bir gelişme yaşandı. Benzinin litre fiyatına bugünden itibaren geçerli olmak üzere 4,30 TL indirim geldi. İn...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-dev-indirim-pompaya-yansidi-akaryakitta-tabelalar-degisti-iste-il-il-guncel-benzin-motorin-lpg-fiyatlari-4865733",
+      "tarih": "2026-10-20T06:46:18.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "20 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/20-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548413",
+      "tarih": "2026-10-20T06:35:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "EPDK'dan yeni karar: Elektrik ve doğal gaz piyasalarına şeffaflık düzenlemesi",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik, doğal gaz, emisyon ticaret sistemi (ETS) ve Yenilenebilir Enerji Kaynak Garanti Sistemi (YEK-G) piyasalarında kamuoyuna açıklanacak asgari verileri belirledi...Devamı...",
+      "link": "https://www.sabah.com.tr/ekonomi/epdkdan-yeni-karar-elektrik-ve-dogal-gaz-piyasalarina-yeni-seffaflik-duzenlemesi-7684381",
+      "tarih": "2026-10-20T05:40:58.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Petrol, Rusya yaptırımlarındaki esneklikle geriledi",
+      "ozet": "Petrol, ABD Başkanı Donald Trump'ın Rusya'nın enerji ihracatıyla bağlantılı bazı yaptırım ve tarifeleri kaldıran başkanlık kararnamesinin etkileri değerlendirilirken salı günü geriledi.",
+      "link": "https://www.bloomberght.com/petrol-rusya-yaptirimlarindaki-esneklikle-geriledi-3791851",
+      "tarih": "2026-10-20T03:29:53.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Altın alacaklar dikkat! Uzmandan kritik uyarı: 7.300 TL sinyali",
       "ozet": "Altın ve Para Piyasaları Uzmanı Şirin Sarı, altın fiyatlarının haftaya yatay başladığını belirterek yılın son çeyreğinde yükseliş beklentisini paylaştı. Ons altında 4.500-4.600 dolar bandını direnç olarak gösteren Sar...",
       "link": "https://www.cnnturk.com/video/ekonomi/altin/altin-alacaklar-dikkat-uzmandan-kritik-uyari-7-300-tl-sinyali-3481445",
       "tarih": "2026-10-19T18:38:55.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Ankara'ya 4.1 milyar dolarlık veri merkezi! Bakan Kacır: Yapay Zeka Büyüme Bölgeleri geliyor",
-      "ozet": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Ankara Temelli Başkent Organize Sanayi Bölgesi'nde Rönesans Holding ve Digital Realty iş birliğiyle hayata geçirilecek Ankara Temelli Veri Merkezi'nin temel atma törenine...",
-      "tarih": "2026-10-19T16:46:52.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 19 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
-      "ozet": "Benzine dev indirim geliyor, benzin indirimi son dakika, 19 Ekim akaryakıt fiyatları gündemin en çok takip edilen başlıkları arasında yer alıyor. Petrol fiyatlarındaki hareketliliğin ardından akaryakıt piyasasında yen...",
-      "link": "https://www.cnnturk.com/ekonomi/son-dakika-benzin-indirimi-benzine-indirim-mi-geliyor-19-ekim-benzin-mazot-lpg-guncel-akaryakit-fiyatlari-ne-istanbul-ankara-3481384",
-      "tarih": "2026-10-19T16:39:47.000Z",
       "kaynak": "CNNTURK"
     },
     {
@@ -51,12 +104,6 @@
       "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktardan-heyecanlandiran-gabar-aciklamasi-yeni-bir-mujde-verecegiz-4865542",
       "tarih": "2026-10-19T10:34:23.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Bakan Uraloğlu: Türkiye'siz koridor olmaz! Yeni bir lojistik omurga oluşturuyoruz",
-      "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Siyaset, Ekonomi ve Toplum Araştırmaları Vakfı (SETA) tarafından Ankara Ofisi'nde düzenlenen \"Değişen Küresel Ulaştırma Jeopolitiği ve Kalkınma Yolu Projesi Konferansı\"...",
-      "tarih": "2026-10-19T09:45:56.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "EPDK’den elektrikte yeni düzenleme: Fazla teminatlar 10 iş gününde iade edilecek",
@@ -94,39 +141,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "EPDK'dan yeni düzenlemeler",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), lisanssız elektrik üretim tesislerinin acil durumlarda uzaktan kontrol edilmesi, talimatlara uyulmaması halinde uygulanacak yaptırımlar ve mahsuplaşma süreçlerine ilişkin düzen...",
-      "link": "https://www.haberturk.com/ekonomi/epdk-dan-elektrik-piyasasinda-yeni-duzenleme-3920707",
-      "tarih": "2026-10-19T04:37:01.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
       "ozet": "Küresel piyasalarda Ortadoğu'da tırmanan jeopolitik gerilimler ve arz endişeleri, petrol fiyatlarında sert dalgalanmalara neden oldu. Güne sakin başlayan brent petrolün varil fiyatı, saatler içinde hızla değer kazanar...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-110-dolari-zorluyor-akaryakit-fiyatlarinda-zam-beklentisi-2547673",
       "tarih": "2026-10-17T14:37:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yeni petrol müjdesi mi geliyor? Bakan Bayraktar'dan Gabar açıklaması!",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin petrol ve doğal gaz arama çalışmalarını sürdürdüğünü belirterek, yakın zamanda Gabar'daki petrol üretim sahasından yeni keşif müjdesi verebileceklerini...",
-      "link": "https://www.cnnturk.com/ekonomi/yeni-petrol-mujdesi-mi-geliyor-bakan-bayraktardan-gabar-aciklamasi-3480680",
-      "tarih": "2026-10-17T11:03:56.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Bakan Bayraktar 'Yakın zamanda yeni bir müjde verebiliriz' diyerek duyurdu",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Rusya'nın başkenti Moskova'da düzenlenen Rusya Enerji Haftası kapsamında küresel enerji piyasalarını ve Türkiye'nin milli enerji hamlelerini değerlendirdi. Bakan B...",
-      "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktar-yakin-zamanda-yeni-bir-mujde-verebiliriz-diyerek-duyurdu-4865066",
-      "tarih": "2026-10-17T09:08:30.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Araç sahiplerine müjde: Akaryakıta bir indirim daha geliyor",
-      "ozet": "Brent petrol fiyatlarındaki geri çekilme akaryakıt fiyatlarını etkilemeye devam ediyor. Uluslararası piyasalarda Brent petrolün varil fiyatının 104 dolara gerilemesiyle birlikte, salı gününden itibaren benzin grubunda...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-bir-indirim-daha-iste-yeni-fiyatlar-4865035",
-      "tarih": "2026-10-17T06:59:57.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Tarih belli oldu: Benzine indirim geliyor",
@@ -182,20 +201,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/14-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2546540",
       "tarih": "2026-10-14T06:15:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol piyasasında yeni tablo: OPEC 2026 beklentisini revize etti",
-      "ozet": "OPEC’in eylül ayı verileri, üretimde belirgin artış yaşanırken küresel petrol talebine ilişkin beklentilerin yeniden şekillendiğini ortaya koydu. Kuruluş, kısa vadeli talep görünümünü aşağı çekerken gelecek yıla ilişk...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-piyasasinda-yeni-tablo-opec-2026-beklentisini-revize-etti-2546325",
-      "tarih": "2026-10-13T12:47:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dolar endeksi 18 ayın zirvesine yaklaştı: Petrol, Fed ve Euro etkisi",
-      "ozet": "Dolar endeksi, jeopolitik gerilimler, yüksek enerji fiyatları ve Fed’in yeniden sıkılaşabileceği beklentileriyle güçlü seyrini sürdürüyor. Euro’daki zayıflama ve yüksek ABD tahvil faizleri de dolara talebi desteklerke...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/dolar-endeksi-18-ayin-zirvesine-yaklasti-petrol-fed-ve-euro-etkisi-2546296",
-      "tarih": "2026-10-13T11:20:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
