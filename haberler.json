@@ -1,11 +1,11 @@
 {
-  "guncelleme": "2026-10-20T15:55:04.299Z",
+  "guncelleme": "2026-10-20T22:45:20.483Z",
   "kaynaklar": [
-    "CNNTURK",
+    "BLOOMBERGHT",
     "DUNYA",
+    "CNNTURK",
     "HABERTURK",
     "STAR",
-    "BLOOMBERGHT",
     "CUMHURIYET",
     "YENISAFAK"
   ],
@@ -28,32 +28,32 @@
   },
   "haberler": [
     {
+      "baslik": "Trump: İran ile savaş çok yakında sona erecek",
+      "ozet": "ABD Başkanı Donald Trump, İran ile savaşın çok yakında sona ereceğini ve savaşın bitmesiyle petrol fiyatlarının hızla düşeceğini savundu. İran'ın nükleer silah edinmesini engellemenin öncelikleri olduğunu belirten Tru...",
+      "link": "https://www.bloomberght.com/trump-iran-ile-savas-cok-yakinda-sona-erecek-3792031",
+      "tarih": "2026-10-20T21:51:01.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Trump'tan İran mesajı: Savaş çok yakında sona erecek",
+      "ozet": "ABD Başkanı Donald Trump, İran ile savaşın çok yakında sona ereceğini ve savaş biter bitmez petrol fiyatlarının hızla düşeceğini savundu. İran'ın gelecekte de nükleer silaha sahip olmayacağından emin olmak istedikleri...",
+      "link": "https://www.dunya.com/dunya/trumptan-iran-mesaji-savas-cok-yakinda-sona-erecek-haberi-844647",
+      "tarih": "2026-10-20T20:45:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "New York borsası karışık seyirle kapandı",
+      "ozet": "New York borsası, yapay zeka bağlantılı hisselerdeki zayıf seyre karşın güçlü şirket bilançoları ve petrol fiyatlarındaki gerilemenin etkisiyle günü karışık seyirle tamamladı.",
+      "link": "https://www.dunya.com/finans/borsa/new-york-borsasi-karisik-seyirle-kapandi-haberi-844646",
+      "tarih": "2026-10-20T20:39:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 20 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
       "ozet": "Benzine dev indirim geliyor, benzin indirimi son dakika, 20 Ekim akaryakıt fiyatları gündemin en çok takip edilen başlıkları arasında yer alıyor. Petrol fiyatlarındaki hareketliliğin ardından akaryakıt piyasasında yen...",
       "link": "https://www.cnnturk.com/ekonomi/son-dakika-benzin-indirimi-benzine-indirim-mi-geliyor-19-ekim-benzin-mazot-lpg-guncel-akaryakit-fiyatlari-ne-istanbul-ankara-3481384",
       "tarih": "2026-10-20T17:57:12.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "New York borsası karışık seyirle açıldı",
-      "ozet": "New York borsası, yapay zeka bağlantılı hisselerin yeniden satış baskısı altına girmesi ve petrol fiyatlarının yükselmesiyle güne karışık seyirle başladı.",
-      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-karisik-seyirle-acildi-haberi-844600",
-      "tarih": "2026-10-20T14:20:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Kripto para piyasasında alarm: Bitcoin 82 bin doların altına geriledi",
-      "ozet": "Bitcoin, petrol fiyatlarının beş ayın zirvesine çıkması ve Orta Doğu'daki gerilimin artmasıyla 82 bin doların altına geriledi. Yüksek enerji fiyatlarının enflasyonu artırabileceği endişesi kripto para piyasasını baskı...",
-      "link": "https://www.dunya.com/finans/haberler/kripto-para-piyasasinda-alarm-bitcoin-82-bin-dolarin-altina-geriledi-haberi-844595",
-      "tarih": "2026-10-20T13:15:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Savaş petrol devlerine yaradı: Kârları katlandı, faturayı tüketici ödedi",
-      "ozet": "ABD ve İran arasındaki savaşın enerji piyasalarında yarattığı dalgalanma, petrol şirketlerinin kazançlarını artırırken tüketicilerin bütçesini sarstı. Dünyanın önde gelen enerji şirketleri milyarlarca dolarlık kâr açı...",
-      "link": "https://www.dunya.com/enerji/savas-petrol-devlerine-yaradi-karlari-katlandi-faturayi-tuketici-odedi-haberi-844588",
-      "tarih": "2026-10-20T12:33:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Uzman isim anlattı: Altın yükseliyor, petrol baskı altında! Merkez Bankası ne yapacak?",
@@ -98,13 +98,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "ABD'li çiftçilere 8 milyar dolarlık mazot desteği",
-      "ozet": "Trump yönetimi, hasadın yoğunlaştığı dönemde artan motorin maliyetleriyle karşı karşıya kalan çiftçiler için 8 milyar dolarlık destek açıkladı. Ürün bazında ödeme tutarları kasım ayında duyurulacak.",
-      "link": "https://www.bloomberght.com/abd-li-ciftcilere-8-milyar-dolarlik-mazot-destegi-3791880",
-      "tarih": "2026-10-20T07:04:24.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Benzine dev indirim pompaya yansıdı: Akaryakıtta tabelalar değişti işte il il güncel benzin motorin LPG fiyatları",
       "ozet": "Brent petroldeki geri çekilme ve döviz kurundaki yatay seyir sonrası akaryakıtta araç sahiplerini sevindiren bir gelişme yaşandı. Benzinin litre fiyatına bugünden itibaren geçerli olmak üzere 4,30 TL indirim geldi. İn...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-dev-indirim-pompaya-yansidi-akaryakitta-tabelalar-degisti-iste-il-il-guncel-benzin-motorin-lpg-fiyatlari-4865733",
@@ -117,13 +110,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/20-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548413",
       "tarih": "2026-10-20T06:35:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol, Rusya yaptırımlarındaki esneklikle geriledi",
-      "ozet": "Petrol, ABD Başkanı Donald Trump'ın Rusya'nın enerji ihracatıyla bağlantılı bazı yaptırım ve tarifeleri kaldıran başkanlık kararnamesinin etkileri değerlendirilirken salı günü geriledi.",
-      "link": "https://www.bloomberght.com/petrol-rusya-yaptirimlarindaki-esneklikle-geriledi-3791851",
-      "tarih": "2026-10-20T03:29:53.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Altın alacaklar dikkat! Uzmandan kritik uyarı: 7.300 TL sinyali",
