@@ -1,15 +1,13 @@
 {
-  "guncelleme": "2026-10-20T08:56:58.709Z",
+  "guncelleme": "2026-10-20T15:55:04.299Z",
   "kaynaklar": [
     "CNNTURK",
-    "STAR",
-    "MILLIYET",
-    "BLOOMBERGHT",
     "DUNYA",
-    "YENISAFAK",
+    "HABERTURK",
+    "STAR",
+    "BLOOMBERGHT",
     "CUMHURIYET",
-    "SABAH",
-    "HABERTURK"
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -33,21 +31,71 @@
       "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 20 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
       "ozet": "Benzine dev indirim geliyor, benzin indirimi son dakika, 20 Ekim akaryakıt fiyatları gündemin en çok takip edilen başlıkları arasında yer alıyor. Petrol fiyatlarındaki hareketliliğin ardından akaryakıt piyasasında yen...",
       "link": "https://www.cnnturk.com/ekonomi/son-dakika-benzin-indirimi-benzine-indirim-mi-geliyor-19-ekim-benzin-mazot-lpg-guncel-akaryakit-fiyatlari-ne-istanbul-ankara-3481384",
-      "tarih": "2026-10-20T09:19:44.000Z",
+      "tarih": "2026-10-20T17:57:12.000Z",
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Benzine indirim geldi: Akaryakıt tabelaları yeniden değişti",
-      "ozet": "Benzinin litre satış fiyatına 4 lira 30 kuruş indirim yapıldı.",
-      "link": "https://www.star.com.tr/ekonomi/benzine-indirim-geldi-akaryakit-tabelalari-yeniden-degisti-haber-2047787/",
-      "tarih": "2026-10-20T07:47:00.000Z",
+      "baslik": "New York borsası karışık seyirle açıldı",
+      "ozet": "New York borsası, yapay zeka bağlantılı hisselerin yeniden satış baskısı altına girmesi ve petrol fiyatlarının yükselmesiyle güne karışık seyirle başladı.",
+      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-karisik-seyirle-acildi-haberi-844600",
+      "tarih": "2026-10-20T14:20:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Kripto para piyasasında alarm: Bitcoin 82 bin doların altına geriledi",
+      "ozet": "Bitcoin, petrol fiyatlarının beş ayın zirvesine çıkması ve Orta Doğu'daki gerilimin artmasıyla 82 bin doların altına geriledi. Yüksek enerji fiyatlarının enflasyonu artırabileceği endişesi kripto para piyasasını baskı...",
+      "link": "https://www.dunya.com/finans/haberler/kripto-para-piyasasinda-alarm-bitcoin-82-bin-dolarin-altina-geriledi-haberi-844595",
+      "tarih": "2026-10-20T13:15:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Savaş petrol devlerine yaradı: Kârları katlandı, faturayı tüketici ödedi",
+      "ozet": "ABD ve İran arasındaki savaşın enerji piyasalarında yarattığı dalgalanma, petrol şirketlerinin kazançlarını artırırken tüketicilerin bütçesini sarstı. Dünyanın önde gelen enerji şirketleri milyarlarca dolarlık kâr açı...",
+      "link": "https://www.dunya.com/enerji/savas-petrol-devlerine-yaradi-karlari-katlandi-faturayi-tuketici-odedi-haberi-844588",
+      "tarih": "2026-10-20T12:33:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Uzman isim anlattı: Altın yükseliyor, petrol baskı altında! Merkez Bankası ne yapacak?",
+      "ozet": "Savaş ve müzakere haberleri altın fiyatlarında dalgalanmaya neden olurken, Hürmüz Boğazı’ndaki gelişmeler petrol fiyatları üzerindeki baskıyı artırıyor. Ekonomist Dr. Elif Kaya, fiziki piyasada Brent petrolün varil fi...",
+      "link": "https://www.cnnturk.com/video/ekonomi/uzman-isim-anlatti-altin-yukseliyor-petrol-baski-altinda-merkez-bankasi-ne-yapacak-3481826",
+      "tarih": "2026-10-20T12:06:30.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Petrol fiyatlarında son 5 ayın zirvesi",
+      "ozet": "İran'ın Hürmüz Boğazı'na yönelik tehditleri ve küresel yakıt fiyatlarındaki yüksek seyir nedeniyle Brent petrol beş ayın en yüksek seviyesine tırmandı. Petrol, Mayıs ayından bu yana en yüksek seviyeye ulaşarak 111 dol...",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-5-ayin-zirvesi-3921130",
+      "tarih": "2026-10-20T11:55:58.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Petrol aramalarında yeni dönem! Türkiye rotayı iki ülkeye çevirdi",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin yurt dışındaki petrol ve doğal gaz arama faaliyetlerine ilişkin bilgi verdi. Somali açıklarında petrol arama çalışmalarının sürdüğünü belirten Bayrakta...",
+      "link": "https://www.star.com.tr/ekonomi/petrol-aramalarinda-yeni-donem-turkiye-rotayi-iki-ulkeye-cevirdi-haber-2047846/",
+      "tarih": "2026-10-20T10:56:00.000Z",
       "kaynak": "STAR"
     },
     {
-      "baslik": "Kanada'dan bağımsızlık istiyorlardı: Ayrılıkçılar Alberta'da referandumu kaybetti",
-      "ozet": "CBS News'ün haberine göre, Kanada'nın Alberta eyaletindehalk Kanada'dan ayrılma sürecini başlatıp başlatmama konusunda bağlayıcı bir referandum yapılması önerisini reddetti. Pazartesi günü düzenlenen referandumda seçm...",
-      "tarih": "2026-10-20T07:40:54.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Brent petrol beş ayın zirvesini gördü",
+      "ozet": "İran'ın Hürmüz Boğazı'na yönelik tehditleri ve küresel yakıt fiyatlarındaki yüksek seyir nedeniyle Brent petrol beş ayın en yüksek seviyesine tırmandı.",
+      "link": "https://www.bloomberght.com/brent-petrol-bes-ayin-zirvesini-gordu-3791955",
+      "tarih": "2026-10-20T10:21:54.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Brent petrol 111 doları aştı: Batı Asya’daki gerilim fiyatları yukarı taşıdı",
+      "ozet": "Petrol fiyatları, Batı Asya’da enerji tesisleri ve sevkiyat hatlarına yönelik artan tehditlerle yükselişini hızlandırdı. Bölgedeki yeni saldırı iddiaları ve İran’a yönelik askeri operasyon ihtimali, küresel arz endişe...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-111-dolari-asti-bati-asya-daki-gerilim-fiyatlari-yukari-tasidi-2548504",
+      "tarih": "2026-10-20T09:46:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Almanya'da ÜFE 3,5 yılın en hızlı artışını kaydetti",
+      "ozet": "Almanya'da Üretici Fiyat Endeksi (ÜFE), Orta Doğu'da tırmanan jeopolitik gerilimin tetiklediği petrol şokunun etkisiyle eylülde yıllık bazda yüzde 6,7 artarak Mart 2023'ten bu yana en hızlı yükselişini kaydetti.",
+      "link": "https://www.bloomberght.com/almanya-da-ufe-3-5-yilin-en-hizli-artisini-kaydetti-3791921",
+      "tarih": "2026-10-20T08:55:39.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "ABD'li çiftçilere 8 milyar dolarlık mazot desteği",
@@ -55,13 +103,6 @@
       "link": "https://www.bloomberght.com/abd-li-ciftcilere-8-milyar-dolarlik-mazot-destegi-3791880",
       "tarih": "2026-10-20T07:04:24.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "KİT'lerin 2027 yatırım programı açıklandı: Aslan payı TPAO'nun",
-      "ozet": "Kamu iktisadi teşebbüsleri (KİT) ve bağlı ortaklıklarının 2027 yılında toplam 754,2 milyar liralık yatırım yapması öngörülüyor. Resmi Gazete'de yayımlanan Cumhurbaşkanı Kararı'na göre en yüksek yatırım 353,8 milyar li...",
-      "link": "https://www.dunya.com/ekonomi/kitlerin-2027-yatirim-programi-aciklandi-aslan-payi-tpaonun-haberi-844529",
-      "tarih": "2026-10-20T06:47:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Benzine dev indirim pompaya yansıdı: Akaryakıtta tabelalar değişti işte il il güncel benzin motorin LPG fiyatları",
@@ -76,13 +117,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/20-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548413",
       "tarih": "2026-10-20T06:35:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "EPDK'dan yeni karar: Elektrik ve doğal gaz piyasalarına şeffaflık düzenlemesi",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik, doğal gaz, emisyon ticaret sistemi (ETS) ve Yenilenebilir Enerji Kaynak Garanti Sistemi (YEK-G) piyasalarında kamuoyuna açıklanacak asgari verileri belirledi...Devamı...",
-      "link": "https://www.sabah.com.tr/ekonomi/epdkdan-yeni-karar-elektrik-ve-dogal-gaz-piyasalarina-yeni-seffaflik-duzenlemesi-7684381",
-      "tarih": "2026-10-20T05:40:58.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "Petrol, Rusya yaptırımlarındaki esneklikle geriledi",
@@ -111,13 +145,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/epdk-den-elektrikte-yeni-duzenleme-fazla-teminatlar-10-is-gununde-iade-edilecek-2548134",
       "tarih": "2026-10-19T08:55:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatlarında düşüş",
-      "ozet": "Cuma günü 109,34 dolara kadar yükselen Brent petrolün aralık vadeli varil fiyatı, günü 108,14 dolardan tamamladı. Brent petrolün varili, uluslararası vadeli piyasalarda bugün saat 09.30 itibarıyla 107,34 dolardan işle...",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-dusus-3920757",
-      "tarih": "2026-10-19T07:46:02.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Benzin fiyatlarına indirim yolda: Tabelalar gece yarısı değişecek",
@@ -194,13 +221,6 @@
       "ozet": "ABD’de eylül ayı enflasyon verileri, fiyat baskılarının yeniden güçlendiğine işaret etti. Enerji ve özellikle benzin fiyatlarındaki sert artış manşet enflasyonu yukarı taşırken, çekirdek enflasyondaki yükseliş de Fed’...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-enflasyonu-beklentiyi-asti-altin-fiyatlarinda-sert-dusus-2546719",
       "tarih": "2026-10-14T12:40:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "14 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/14-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2546540",
-      "tarih": "2026-10-14T06:15:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
