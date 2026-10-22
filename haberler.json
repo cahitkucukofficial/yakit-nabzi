@@ -1,26 +1,19 @@
 {
-  "guncelleme": "2026-10-22T08:58:29.295Z",
+  "guncelleme": "2026-10-22T16:10:18.431Z",
   "kaynaklar": [
     "CNNTURK",
-    "CUMHURIYET",
     "DUNYA",
-    "YENISAFAK",
-    "HABERTURK",
+    "MILLIYET",
     "BLOOMBERGHT",
-    "MILLIYET"
+    "YENISAFAK",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
       "expected": false
     },
     "benzin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 7.65,
-      "tarih": "2026-10-22",
-      "dogrulayanKaynakSayisi": 2,
-      "kaynakBaslik": "Benzine bir indirim daha geliyor: Yeni fiyatlar ne kadar olacak?",
-      "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/benzine-bir-indirim-daha-geliyor-yeni-fiyatlar-ne-kadar-olacak-2548771"
+      "expected": false
     },
     "lpg": {
       "expected": false
@@ -31,8 +24,42 @@
       "baslik": "BENZİNE YENİ İNDİRİM GELDİ! Akaryakıt Fiyatları Güncellendi: 22 Ekim Güncel Benzin, Motorin, LPG Fiyatı Ne? Benzine İndirim Mi Geldi, Ne Kadar?",
       "ozet": "Benzine indirim, akaryakıt fiyatları, güncel benzin fiyatları araç sahiplerinin gündemindeki yerini koruyor. Akaryakıt sektöründe peş peşe gelen fiyat güncellemeleri sonrası benzine bir kez daha indirim uygulandı. Haf...",
       "link": "https://www.cnnturk.com/ekonomi/benzine-yeni-indirim-geldi-akaryakit-fiyatlari-guncellendi-22-ekim-guncel-benzin-motorin-lpg-fiyati-ne-benzine-indirim-mi-geldi-ne-kadar-3482890",
-      "tarih": "2026-10-22T10:59:50.000Z",
+      "tarih": "2026-10-22T17:34:49.000Z",
       "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "New York borsası düşüşle açıldı",
+      "ozet": "New York borsası, yapay zeka harcamalarına ilişkin endişelerin yeniden artması ve petrol fiyatlarındaki yükselişin etkisiyle güne düşüşle başladı.",
+      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-acildi-haberi-844905",
+      "tarih": "2026-10-22T14:18:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Denizde korkunç kaza: Tekne alabora oldu, can kaybı bildirildi",
+      "ozet": "Akuku-Toru bölgesinin yerel toplum lideri Jonah Joshua, Rivers eyaletine bağlı bölgede, petrol sızıntısına ilişkin protesto sırasında teknenin alabora olduğunu belirtti. Joshua, olayda 10 kişinin öldüğünü, 7 kişinin k...",
+      "tarih": "2026-10-22T14:11:18.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "İtalya'da mazot protestosu yolları tıkadı, rafları boş bıraktı",
+      "ozet": "Yüksek motorin fiyatlarını protesto eden kamyoncular, İtalya'nın güneyinde yolları kapattı. Mozzarella üretimindeki aksama meyve ve sebzeye yayıldı. Balıkçı filolaları faaliyetlerini durdurdu. Marketlerde raflar boş k...",
+      "link": "https://www.bloomberght.com/italya-da-mazot-protestosu-yollari-tikadi-raflari-bos-birakti-3792268",
+      "tarih": "2026-10-22T13:39:41.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Otomotiv devi fişi çekiyor: Benzinli araç üretimini durduracak",
+      "ozet": "Otomobil dünyasında bir dönem kapanıyor. Japon devi Subaru, Avrupa pazarında benzinli ve hibrit modellerine veda etmeye hazırlanıyor. 2027 sonuna kadar içten yanmalı motorlu araç satışlarını bitirmeyi planlayan marka,...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/otomotiv-devi-fisi-cekiyor-benzinli-arac-uretimini-durduracak-4866510",
+      "tarih": "2026-10-22T13:39:27.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrolde savaş öncesine dönüş sinyali: İhracat normale yaklaştı",
+      "ozet": "Orta Doğu'nun ham petrol ihracatı günlük 17 milyon varille savaş öncesi seviyelere yaklaşırken, rafine petrol ürünlerinde akış normalin yarısında kaldı. Morgan Stanley'nin raporuna göre, alternatif güzergahlardan sevk...",
+      "link": "https://www.dunya.com/enerji/petrolde-savas-oncesine-donus-sinyali-ihracat-normale-yaklasti-haberi-844903",
+      "tarih": "2026-10-22T13:28:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
       "baslik": "Doğalgazda zam ihtimali gündemde: 2027 için yüzde 21’lik senaryo",
@@ -42,32 +69,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Petrol daha da pahalanabilirdi: Aramco yükselişi sınırlayan hattı işaret etti",
-      "ozet": "Saudi Aramco Başkanı ve CEO'su Amin Nasser, kriz döneminde petrol fiyatlarının daha yüksek seviyelere çıkabileceğini belirterek, yükselişi sınırlayan unsurlardan biri olarak Doğu-Batı boru hattını gösterdi.",
-      "link": "https://www.dunya.com/enerji/petrol-daha-da-pahalanabilirdi-aramco-yukselisi-sinirlayan-hatti-isaret-etti-haberi-844849",
-      "tarih": "2026-10-22T07:38:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Benzine peş peşe indirim: Akaryakıt tabelaları gece yarısı değişti",
       "ozet": "Brent petroldeki dalgalanmanın ardından akaryakıt fiyatlarında indirimler peş peşe geldi. Benzinin litre fiyatına 3,30 TL’lik bir indirim daha yapıldı. İndirim gece yarısı pompa fiyatlarına yansıdı. Araç sahipleri ise...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-pes-pese-indirim-akaryakit-tabelalari-gece-yarisi-degisti-4866365",
       "tarih": "2026-10-22T07:02:09.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Petrol fiyatlarında son durum ne?",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 111,48 dolardan işlem görüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3921618",
-      "tarih": "2026-10-22T06:59:03.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Petrol fiyatları yükselişte: Brent petrol 111 doları aştı",
-      "ozet": "Brent petrolün varil fiyatı, Orta Doğu'da artan jeopolitik gerilim ve arz endişelerinin etkisiyle yüzde 2,4 yükselerek 111,48 dolara çıktı. İran'a yönelik yeni saldırı iddiaları, Suudi Arabistan'ın petrol tesislerinin...",
-      "link": "https://www.dunya.com/enerji/petrol-fiyatlari-yukseliste-brent-petrol-111-dolari-asti-haberi-844840",
-      "tarih": "2026-10-22T06:51:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Benzine indirim geldi! 22 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -105,13 +111,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Benzine indirim geldi",
-      "ozet": "Uluslararası ürün fiyatlarında yaşanan gelişmelerin ardından benzine 3 lira 30 kuruş indirim geldi. İndirimli fiyatlar pompaya yansıdı",
-      "link": "https://www.haberturk.com/ekonomi/son-dakika-arac-sahiplerini-sevindirecek-haber-benzine-indirim-geldi-iste-22-ekim-2026-guncel-benzin-motorin-lpg-fiyatlari-3921598",
-      "tarih": "2026-10-22T05:30:01.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Küresel piyasalarda teknoloji bilançoları iyimserliği destekleyemedi",
       "ozet": "Teknoloji bilançoları yapay zeka iyimserliğini güçlendiremezken, yatırımcıların odağı yeniden petrol fiyatlarına kayıyor.",
       "link": "https://www.bloomberght.com/kuresel-piyasalarda-teknoloji-bilancolari-iyimserligi-destekleyemedi-3792168",
@@ -120,16 +119,10 @@
     },
     {
       "baslik": "Altın, yükselen petrol ve faiz endişeleriyle geriledi",
-      "ozet": "Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve faizlerin daha uzun süre yüksek kalabileceği beklentisiyle perşembe günü yüzde 1'in üzerinde geriledi.",
+      "ozet": "Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve faizlerin daha uzun süre yüksek kalabileceği beklentisiyle perşembe günü yüzde 2'in üzerinde geriledi.",
       "link": "https://www.bloomberght.com/altin-yukselen-petrol-ve-faiz-endiseleriyle-geriledi-3792158",
       "tarih": "2026-10-22T04:37:47.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Benzin indirimi gıdayı teğet geçiyor! Roket gibi artıyor paraşütle iniyor",
-      "ozet": "Duygu Erdoğan - Akaryakıtta hızlı yükselen fiyatlar, market tezgahlarının nabzını belirler hale geldi. Gıda ürünleri başta olmak üzere yakıt fiyatlarına bağlı olarak ürünlerde haftalık hatta günlük fiyat artışları yaş...",
-      "tarih": "2026-10-22T04:01:52.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "Petrol, Suudi Arabistan'daki saldırılarla yükseldi",
@@ -167,13 +160,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Brent petrolün varili 110,34 dolardan işlem görüyor",
-      "ozet": "Dün 111,99 dolara kadar yükselen Brent petrolün aralık vadeli varil fiyatı, günü 108,79 dolardan tamamladı. Brent petrolün varil fiyatı, bugün saat 09.20 itibarıyla kapanışa göre yaklaşık yüzde 1,4 artarak 110,34 dola...",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-11034-dolardan-islem-goruyor-4866049",
-      "tarih": "2026-10-21T06:45:02.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Benzine bir indirim daha geliyor: Yeni fiyatlar ne kadar olacak?",
       "ozet": "Benzin fiyatlarında peş peşe gelen indirimlerin ardından sürücüler için yeni bir düşüş beklentisi oluştu. Yeni tarifenin pompaya yansımasıyla benzin fiyatlarında bu haftaki gerilemenin daha da belirginleşmesi bekleniyor.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-bir-indirim-daha-geliyor-yeni-fiyatlar-ne-kadar-olacak-2548771",
@@ -186,20 +172,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-yeni-indirim-21-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548770",
       "tarih": "2026-10-21T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine bir indirim daha geliyor: İki günde 7,65 liralık düşüş",
-      "ozet": "Akaryakıt fiyatlarında aşağı yönlü hareket sürüyor. Benzine dün uygulanan 4,30 liralık indirimin ardından yeni bir indirim daha gündeme geldi. Beklenen düzenlemenin yürürlüğe girmesiyle birlikte benzin fiyatlarında ik...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-bir-indirim-daha-geliyor-iki-gunde-765-liralik-dusus-4866027",
-      "tarih": "2026-10-21T06:07:21.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 20 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
-      "ozet": "Benzine dev indirim geliyor, benzin indirimi son dakika, 20 Ekim akaryakıt fiyatları gündemin en çok takip edilen başlıkları arasında yer alıyor. Petrol fiyatlarındaki hareketliliğin ardından akaryakıt piyasasında yen...",
-      "link": "https://www.cnnturk.com/ekonomi/son-dakika-benzin-indirimi-benzine-indirim-mi-geliyor-19-ekim-benzin-mazot-lpg-guncel-akaryakit-fiyatlari-ne-istanbul-ankara-3481384",
-      "tarih": "2026-10-20T17:57:12.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Brent petrol 111 doları aştı: Batı Asya’daki gerilim fiyatları yukarı taşıdı",
@@ -248,20 +220,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/17-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2547544",
       "tarih": "2026-10-17T06:32:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "16 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/16-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2547308",
-      "tarih": "2026-10-16T07:48:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzin fiyatlarına indirim yolda: Tarih belli oldu",
-      "ozet": "Benzin fiyatlarına yönelik indirim beklentisi yeniden gündeme gelirken, gazeteci Olcay Aydilek pazartesi gününü işaret etti. İddiaya göre indirim gerçekleşirse benzin litre fiyatı üç büyük şehirde de 80 TL’nin altına ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-fiyatlarina-indirim-yolda-tarih-belli-oldu-2547298",
-      "tarih": "2026-10-16T07:25:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
