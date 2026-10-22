@@ -1,13 +1,11 @@
 {
-  "guncelleme": "2026-10-21T08:56:23.152Z",
+  "guncelleme": "2026-10-22T02:08:25.194Z",
   "kaynaklar": [
     "CNNTURK",
-    "CUMHURIYET",
-    "DUNYA",
-    "HABERTURK",
-    "YENISAFAK",
     "BLOOMBERGHT",
-    "STAR"
+    "SABAH",
+    "CUMHURIYET",
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -17,7 +15,7 @@
       "expected": true,
       "direction": "dusus",
       "amount": 7.65,
-      "tarih": "2026-10-21",
+      "tarih": "2026-10-22",
       "dogrulayanKaynakSayisi": 2,
       "kaynakBaslik": "Benzine bir indirim daha geliyor: Yeni fiyatlar ne kadar olacak?",
       "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/benzine-bir-indirim-daha-geliyor-yeni-fiyatlar-ne-kadar-olacak-2548771"
@@ -27,6 +25,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "AKARYAKITA DEV İNDİRİM! Benzine İkinci İndirim Geliyor mu? 21 Ekim 2026 Güncel Benzin, Motorin ve LPG Fiyatları",
+      "ozet": "21 Ekim 2026 akaryakıt fiyatları, benzin fiyatları, motorin fiyatları, LPG fiyatları araç sahiplerinin gündemindeki yerini koruyor. Brent petrol fiyatlarındaki gerilemenin ardından akaryakıt piyasasında yeni bir indir...",
+      "link": "https://www.cnnturk.com/ekonomi/akaryakita-dev-indirim-benzine-ikinci-indirim-geliyor-mu-21-ekim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-3482356",
+      "tarih": "2026-10-21T17:33:19.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bundesbank: Alman ekonomisi geçici bir duraklama dönemine girdi",
+      "ozet": "Almanya Merkez Bankası (Bundesbank) tarafından yayımlanan raporda, ülke ekonomisinin bahar dönemindeki yüzde 0,3'lük büyümenin ardından yaz aylarında geçici bir duraklama dönemine girdiği ve Orta Doğu'daki krizin teti...",
+      "link": "https://www.bloomberght.com/bundesbank-alman-ekonomisi-gecici-bir-duraklama-donemine-girdi-3792106",
+      "tarih": "2026-10-21T11:48:01.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Morgan Stanley'den petrol arzı uyarısı",
+      "ozet": "Morgan Stanley rafinerilerdeki bakım çalışmalarının petrol arzında sıkıntıya neden olabileceğini ifade ederek piyasalarda sıkışıklığın ortaya çıkabileceğini açıkladı.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/morgan-stanleyden-petrol-arzi-uyarisi-7685398",
+      "tarih": "2026-10-21T11:41:27.000Z",
+      "kaynak": "SABAH"
+    },
     {
       "baslik": "Gram altın 8 bin TL olacak mı? Muhammet Bayram yıl sonu tahminini açıkladı",
       "ozet": "Ekonomist Muhammet Bayram, gram altının 2026 yıl sonunda 8 bin TL seviyesine ulaşabileceğini öngördü. Küresel çatışmaların sona ermesi, petrol fiyatlarının gerilemesi ve Fed’in faiz politikasındaki değişimlerin altın ...",
@@ -42,32 +61,11 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "AKARYAKITA DEV İNDİRİM! Benzine İkinci İndirim Geliyor mu? 21 Ekim 2026 Güncel Benzin, Motorin ve LPG Fiyatları",
-      "ozet": "21 Ekim 2026 akaryakıt fiyatları, benzin fiyatları, motorin fiyatları, LPG fiyatları araç sahiplerinin gündemindeki yerini koruyor. Brent petrol fiyatlarındaki gerilemenin ardından akaryakıt piyasasında yeni bir indir...",
-      "link": "https://www.cnnturk.com/ekonomi/akaryakita-dev-indirim-benzine-ikinci-indirim-geliyor-mu-21-ekim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-3482356",
-      "tarih": "2026-10-21T11:03:21.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
       "baslik": "Altın fiyatlarında düşüşün sebebi ne? Üç kritik gelişme öne çıktı",
       "ozet": "Altın fiyatlarında petrol ve faiz baskısı sürerken, gözler Fed’in ekim toplantısı ile ABD enflasyon verilerine çevrildi. Ons altındaki zayıf seyir gram altına da yansırken, yatırımcılar faiz beklentilerindeki değişimi...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dususun-sebebi-ne-uc-kritik-gelisme-one-cikti-2548834",
       "tarih": "2026-10-21T08:24:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dolara baskı üç koldan geliyor: Müzakereler düşüşü hızlandırabilir",
-      "ozet": "Dolar küresel piyasalarda zayıf seyrini sürdürürken, petrol fiyatları ve ABD-İran müzakereleri yeniden odağa yerleşti. ING'ye göre görüşmelerde somut ilerleme sağlanması, petrolde düşüş beklentisini güçlendirerek dola...",
-      "link": "https://www.dunya.com/finans/dolar/dolara-baski-uc-koldan-geliyor-muzakereler-dususu-hizlandirabilir-haberi-844698",
-      "tarih": "2026-10-21T07:33:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Küresel piyasalarda karışık seyir",
-      "ozet": "Küresel piyasalarda şirket bilançoları ve petrol fiyatlarındaki hareketlilik öne çıktı. ABD borsaları yükselirken Avrupa borsaları geriledi, Asya piyasalarında karışık seyir izlendi. BIST 100 endeksi ise günü yüzde 3,...",
-      "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-bilancolar-ve-petrolun-etkisinde-3921327",
-      "tarih": "2026-10-21T06:59:01.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Brent petrolün varili 110,34 dolardan işlem görüyor",
@@ -98,53 +96,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Küresel piyasalarda kritik gündem! Petrol yükseldi, gözler bilançolarda",
-      "ozet": "Küresel piyasalar, güçlü şirket bilançolarına karşın yapay zeka yatırımlarına ilişkin belirsizlikler ve jeopolitik risklerin etkisiyle karışık seyrediyor.",
-      "link": "https://www.star.com.tr/ekonomi/kuresel-piyasalarda-kritik-gundem-petrol-yukseldi-gozler-bilancolarda-haber-2047999/",
-      "tarih": "2026-10-21T06:14:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Benzine bir indirim daha geliyor: İki günde 7,65 liralık düşüş",
       "ozet": "Akaryakıt fiyatlarında aşağı yönlü hareket sürüyor. Benzine dün uygulanan 4,30 liralık indirimin ardından yeni bir indirim daha gündeme geldi. Beklenen düzenlemenin yürürlüğe girmesiyle birlikte benzin fiyatlarında ik...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-bir-indirim-daha-geliyor-iki-gunde-765-liralik-dusus-4866027",
       "tarih": "2026-10-21T06:07:21.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Goldman Sachs: Küresel petrol taşımacılığı maliyetlerini yediye katladı",
-      "ozet": "Goldman Sachs'a göre Orta Doğu'daki savaş, küresel petrol taşımacılığı maliyetlerini son bir yılda yaklaşık yedi kat artırdı.",
-      "link": "https://www.bloomberght.com/goldman-sachs-kuresel-petrol-tasimaciligi-maliyetlerini-yediye-katladi-3792041",
-      "tarih": "2026-10-21T04:47:56.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Morgan Stanley: Akaryakıt piyasasındaki sıkışıklık 2027 ortasına kadar sürebilir",
-      "ozet": "Morgan Stanley, mevcut savaş kaynaklı arz kesintileri hafiflese bile küresel petrol ürünleri piyasasındaki sıkışıklığın 2027 ortasına kadar devam edebileceğini öngördü.",
-      "link": "https://www.bloomberght.com/morgan-stanley-akaryakit-piyasasindaki-sikisiklik-2027-ortasina-kadar-surebilir-3792040",
-      "tarih": "2026-10-21T04:44:43.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Altın, yükselen petrol fiyatlarıyla geriledi",
-      "ozet": "Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve yatırımcıların gelecek haftaki ABD Merkez Bankası (Fed) toplantısına odaklanmasıyla çarşamba günü üst üste dördüncü seansta düşüş kaydetti.",
-      "link": "https://www.bloomberght.com/altin-yukselen-petrol-fiyatlariyla-geriledi-3792039",
-      "tarih": "2026-10-21T04:39:35.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol, Orta Doğu'daki arz endişeleriyle yükseldi",
-      "ozet": "Petrol, Kızıldeniz'deki deniz taşımacılığı riskleri ve Suudi Arabistan'ın petrol altyapısına yönelik saldırı tehditlerinin Orta Doğu'da arz kesintisi endişelerini artırmasıyla çarşamba günü yükseldi.",
-      "link": "https://www.bloomberght.com/petrol-orta-dogudaki-arz-endiseleriyle-yukseldi-3792038",
-      "tarih": "2026-10-21T03:28:43.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Trump: İran ile savaş çok yakında sona erecek",
-      "ozet": "ABD Başkanı Donald Trump, İran ile savaşın çok yakında sona ereceğini ve savaşın bitmesiyle petrol fiyatlarının hızla düşeceğini savundu. İran'ın nükleer silah edinmesini engellemenin öncelikleri olduğunu belirten Tru...",
-      "link": "https://www.bloomberght.com/trump-iran-ile-savas-cok-yakinda-sona-erecek-3792031",
-      "tarih": "2026-10-20T21:51:01.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "SON DAKİKA BENZİN İNDİRİMİ: Benzine İndirim Mi Geliyor? 20 Ekim Benzin, Mazot, LPG Güncel Akaryakıt Fiyatları Ne? İstanbul, Ankara, İzmir Benzin Fiyatları",
@@ -161,13 +117,6 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Petrol fiyatlarında son 5 ayın zirvesi",
-      "ozet": "İran'ın Hürmüz Boğazı'na yönelik tehditleri ve küresel yakıt fiyatlarındaki yüksek seyir nedeniyle Brent petrol beş ayın en yüksek seviyesine tırmandı. Petrol, Mayıs ayından bu yana en yüksek seviyeye ulaşarak 111 dol...",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-5-ayin-zirvesi-3921130",
-      "tarih": "2026-10-20T11:55:58.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Brent petrol 111 doları aştı: Batı Asya’daki gerilim fiyatları yukarı taşıdı",
       "ozet": "Petrol fiyatları, Batı Asya’da enerji tesisleri ve sevkiyat hatlarına yönelik artan tehditlerle yükselişini hızlandırdı. Bölgedeki yeni saldırı iddiaları ve İran’a yönelik askeri operasyon ihtimali, küresel arz endişe...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-111-dolari-asti-bati-asya-daki-gerilim-fiyatlari-yukari-tasidi-2548504",
@@ -175,32 +124,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Benzine dev indirim pompaya yansıdı: Akaryakıtta tabelalar değişti işte il il güncel benzin motorin LPG fiyatları",
-      "ozet": "Brent petroldeki geri çekilme ve döviz kurundaki yatay seyir sonrası akaryakıtta araç sahiplerini sevindiren bir gelişme yaşandı. Benzinin litre fiyatına bugünden itibaren geçerli olmak üzere 4,30 TL indirim geldi. İn...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-dev-indirim-pompaya-yansidi-akaryakitta-tabelalar-degisti-iste-il-il-guncel-benzin-motorin-lpg-fiyatlari-4865733",
-      "tarih": "2026-10-20T06:46:18.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "20 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/20-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548413",
       "tarih": "2026-10-20T06:35:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın alacaklar dikkat! Uzmandan kritik uyarı: 7.300 TL sinyali",
-      "ozet": "Altın ve Para Piyasaları Uzmanı Şirin Sarı, altın fiyatlarının haftaya yatay başladığını belirterek yılın son çeyreğinde yükseliş beklentisini paylaştı. Ons altında 4.500-4.600 dolar bandını direnç olarak gösteren Sar...",
-      "link": "https://www.cnnturk.com/video/ekonomi/altin/altin-alacaklar-dikkat-uzmandan-kritik-uyari-7-300-tl-sinyali-3481445",
-      "tarih": "2026-10-19T18:38:55.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Bakan Bayraktar’dan heyecanlandıran ‘Gabar’ açıklaması: Yeni bir müjde vereceğiz",
-      "ozet": "Şırnak Gabar’da petrol arama çalışmalarında gözler batı bölgesine çevrildi. Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar’ın \"Önemli rezervler keşfetmek üzereyiz\" açıklaması, bölgede yeni bir petrol müjdesi bek...",
-      "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktardan-heyecanlandiran-gabar-aciklamasi-yeni-bir-mujde-verecegiz-4865542",
-      "tarih": "2026-10-19T10:34:23.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "EPDK’den elektrikte yeni düzenleme: Fazla teminatlar 10 iş gününde iade edilecek",
@@ -256,13 +184,6 @@
       "ozet": "Brent petrol fiyatlarındaki gerileme, yurtiçi akaryakıt fiyatlarında indirim beklentisini beraberinde getirdi. Benzin fiyatlarında gece yarısından itibaren indirim öngörülürken motorin fiyatlarında şimdilik değişiklik...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-geriledi-benzine-indirim-gorundu-tabelalar-bu-gece-degisecek-2547051",
       "tarih": "2026-10-15T11:18:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Trafikte en çok hangi marka araçlar tercih edildi? TÜİK eylül verilerini açıkladı",
-      "ozet": "TÜİK’in eylül ayı verilerine göre trafiğe kaydı yapılan taşıt sayısı geçen yılın aynı ayına kıyasla gerilerken, yeni kayıtların en büyük bölümünü motosikletler oluşturdu. Ocak-eylül döneminde taşıt kayıtları azalırken...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/trafikte-en-cok-hangi-marka-araclar-tercih-edildi-tuik-eylul-verilerini-acikladi-2546958",
-      "tarih": "2026-10-15T07:12:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
