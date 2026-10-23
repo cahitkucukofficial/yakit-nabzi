@@ -1,11 +1,9 @@
 {
-  "guncelleme": "2026-10-22T16:10:18.431Z",
+  "guncelleme": "2026-10-23T02:13:50.836Z",
   "kaynaklar": [
-    "CNNTURK",
-    "DUNYA",
-    "MILLIYET",
-    "BLOOMBERGHT",
     "YENISAFAK",
+    "CNNTURK",
+    "BLOOMBERGHT",
     "CUMHURIYET"
   ],
   "beklenti": {
@@ -21,6 +19,13 @@
   },
   "haberler": [
     {
+      "baslik": "Günlük petrol üretimi 139 bin varile ulaştı",
+      "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, bütçe sunumunda yerli petrol ve doğal gaz üretimine ilişkin hedefleri açıkladı. Günlük petrol üretiminin 139 bin varile ulaştığını vurgulayan Yılmaz, 2027'de günlük gaz üretimin...",
+      "link": "https://www.yenisafak.com/ekonomi/gunluk-petrol-uretimi-139-bin-varile-ulasti-4866607",
+      "tarih": "2026-10-23T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
       "baslik": "BENZİNE YENİ İNDİRİM GELDİ! Akaryakıt Fiyatları Güncellendi: 22 Ekim Güncel Benzin, Motorin, LPG Fiyatı Ne? Benzine İndirim Mi Geldi, Ne Kadar?",
       "ozet": "Benzine indirim, akaryakıt fiyatları, güncel benzin fiyatları araç sahiplerinin gündemindeki yerini koruyor. Akaryakıt sektöründe peş peşe gelen fiyat güncellemeleri sonrası benzine bir kez daha indirim uygulandı. Haf...",
       "link": "https://www.cnnturk.com/ekonomi/benzine-yeni-indirim-geldi-akaryakit-fiyatlari-guncellendi-22-ekim-guncel-benzin-motorin-lpg-fiyati-ne-benzine-indirim-mi-geldi-ne-kadar-3482890",
@@ -28,17 +33,11 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "New York borsası düşüşle açıldı",
-      "ozet": "New York borsası, yapay zeka harcamalarına ilişkin endişelerin yeniden artması ve petrol fiyatlarındaki yükselişin etkisiyle güne düşüşle başladı.",
-      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-acildi-haberi-844905",
-      "tarih": "2026-10-22T14:18:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Denizde korkunç kaza: Tekne alabora oldu, can kaybı bildirildi",
-      "ozet": "Akuku-Toru bölgesinin yerel toplum lideri Jonah Joshua, Rivers eyaletine bağlı bölgede, petrol sızıntısına ilişkin protesto sırasında teknenin alabora olduğunu belirtti. Joshua, olayda 10 kişinin öldüğünü, 7 kişinin k...",
-      "tarih": "2026-10-22T14:11:18.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Trump: İran seçimler öncesi petrol fiyatlarını yükseltmeye çalışıyor",
+      "ozet": "ABD Başkanı Donald Trump, İran'ın ABD ara seçimleri öncesinde petrol fiyatlarını yükseltmeye çalıştığını öne sürerek, Hürmüz Boğazı'ndan geçen petrol miktarının çatışma öncesindeki seviyeyi aştığını iddia etti.",
+      "link": "https://www.bloomberght.com/trump-iran-secimler-oncesi-petrol-fiyatlarini-yukseltmeye-calisiyor-3792309",
+      "tarih": "2026-10-22T16:32:39.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "İtalya'da mazot protestosu yolları tıkadı, rafları boş bıraktı",
@@ -53,13 +52,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/otomotiv-devi-fisi-cekiyor-benzinli-arac-uretimini-durduracak-4866510",
       "tarih": "2026-10-22T13:39:27.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Petrolde savaş öncesine dönüş sinyali: İhracat normale yaklaştı",
-      "ozet": "Orta Doğu'nun ham petrol ihracatı günlük 17 milyon varille savaş öncesi seviyelere yaklaşırken, rafine petrol ürünlerinde akış normalin yarısında kaldı. Morgan Stanley'nin raporuna göre, alternatif güzergahlardan sevk...",
-      "link": "https://www.dunya.com/enerji/petrolde-savas-oncesine-donus-sinyali-ihracat-normale-yaklasti-haberi-844903",
-      "tarih": "2026-10-22T13:28:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Doğalgazda zam ihtimali gündemde: 2027 için yüzde 21’lik senaryo",
@@ -97,39 +89,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Benzinde yeni indirim",
-      "ozet": "Benzin fiyatlarına 22 Ekim tarihinden itibaren geçerli olmak üzere 3,35 TL indirim kararı alındı.",
-      "link": "https://www.bloomberght.com/benzinde-yeni-indirim-3792170",
-      "tarih": "2026-10-22T05:35:42.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "ABD’nin petrol stoklarında beklentileri aşan düşüş",
       "ozet": "ABD’nin ticari ham petrol stokları geçen hafta 3,1 milyon varil azalarak 412,5 milyon varile geriledi. Piyasa yalnızca 100 bin varillik düşüş beklerken benzin stokları ve günlük petrol üretiminde de gerileme kaydedildi.",
       "link": "https://www.yenisafak.com/ekonomi/abdnin-petrol-stoklarinda-beklentileri-asan-dusus-4866329",
       "tarih": "2026-10-22T05:33:06.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Küresel piyasalarda teknoloji bilançoları iyimserliği destekleyemedi",
-      "ozet": "Teknoloji bilançoları yapay zeka iyimserliğini güçlendiremezken, yatırımcıların odağı yeniden petrol fiyatlarına kayıyor.",
-      "link": "https://www.bloomberght.com/kuresel-piyasalarda-teknoloji-bilancolari-iyimserligi-destekleyemedi-3792168",
-      "tarih": "2026-10-22T05:20:51.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Altın, yükselen petrol ve faiz endişeleriyle geriledi",
-      "ozet": "Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve faizlerin daha uzun süre yüksek kalabileceği beklentisiyle perşembe günü yüzde 2'in üzerinde geriledi.",
-      "link": "https://www.bloomberght.com/altin-yukselen-petrol-ve-faiz-endiseleriyle-geriledi-3792158",
-      "tarih": "2026-10-22T04:37:47.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol, Suudi Arabistan'daki saldırılarla yükseldi",
-      "ozet": "Petrol, Yemen'deki Husilerin Suudi Arabistan'a yönelik saldırılarını artırması ve ABD'nin ülkedeki bazı diplomatik temsilciliklerinden personel yakınlarının ayrılmasını istemesiyle perşembe günü yükseldi.",
-      "link": "https://www.bloomberght.com/petrol-suudi-arabistandaki-saldirilarla-yukseldi-3792157",
-      "tarih": "2026-10-22T03:29:11.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "AKARYAKITA DEV İNDİRİM! Benzine İkinci İndirim Geliyor mu? 21 Ekim 2026 Güncel Benzin, Motorin ve LPG Fiyatları",
@@ -143,13 +107,6 @@
       "ozet": "Ekonomist Muhammet Bayram, gram altının 2026 yıl sonunda 8 bin TL seviyesine ulaşabileceğini öngördü. Küresel çatışmaların sona ermesi, petrol fiyatlarının gerilemesi ve Fed’in faiz politikasındaki değişimlerin altın ...",
       "link": "https://www.cnnturk.com/video/ekonomi/altin/gram-altin-8-bin-tl-olacak-mi-muhammet-bayram-yil-sonu-tahminini-acikladi-3482377",
       "tarih": "2026-10-21T11:17:39.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "EPDK'dan elektrik piyasasında yeni düzenleme: Borcunu ödemeyenlere kısıtlama",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik piyasasında temerrüde düşen katılımcılara yönelik teminat yükümlülüklerini sıkılaştırdı. Yeni düzenlemeyle, son ödeme tarihi geçmiş fatura borçlarının ödenmemesi de te...",
-      "link": "https://www.cnnturk.com/ekonomi/epdkdan-elektrik-piyasasinda-yeni-duzenleme-borcunu-odemeyenlere-kisitlama-3482410",
-      "tarih": "2026-10-21T11:14:36.000Z",
       "kaynak": "CNNTURK"
     },
     {
