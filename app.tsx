@@ -564,11 +564,11 @@ function NextChangeSection({ beklenti }) {
       <div className="next-change-list">
         {FUEL_ORDER.map((k) => <NextChangeCard key={k} fuelKey={k} beklenti={beklenti} />)}
       </div>
-      <div className="ios-section-footer">
-        {herhangiBeklentiVar
-          ? "Haber kaynaklarından derlenen bir tahmindir, EPDK'nin resmi teyidi değildir."
-          : "Fiyatlar günde bir kez, gece yarısından sonra yürürlüğe girer."}
-      </div>
+      {herhangiBeklentiVar ? (
+        <Uyari baslik="Bu bir tahmindir">Haber kaynaklarından derlenir, EPDK'nin resmi teyidi değildir. Kesin fiyat için istasyon tabelasına bakın.</Uyari>
+      ) : (
+        <div className="ios-section-footer">Fiyatlar günde bir kez, gece yarısından sonra yürürlüğe girer.</div>
+      )}
     </div>
   );
 }
@@ -807,6 +807,9 @@ function SehirlerView({ allDistricts, selectedIl, setPickerOpen, favorites, togg
         </div>
       )}
       {districts.length === 0 && <div className="empty">Eşleşen ilçe yok.</div>}
+      {districts.some((d) => d.kaynak === "il_medyani_tahmini") && (
+        <Uyari baslik="İlçe fiyatları tahminidir" className="ilce-uyari">EPDK ilçe bazında veri yayınlamaz; ilçe fiyatı, ilin medyan fiyatına ilçe adından türetilen ±0,01 TL'lik küçük bir sapma eklenerek hesaplanır. Gerçek ilçe farkı değildir.</Uyari>
+      )}
       {districts.map((d) => (
         <DistrictCard key={d.id} d={d} favorites={favorites} toggleFav={toggleFav} onOpen={onOpenDistrict} showIl={!!q} />
       ))}
@@ -859,6 +862,10 @@ function DistrictSheet({ open, d, favorites, toggleFav, goCreateAlert, onClose }
                 );
               })}
             </IosSection>
+
+            {shown.kaynak === "il_medyani_tahmini" && (
+              <Uyari baslik="Bu ilçe fiyatı tahminidir" className="ilce-uyari">İlin medyan fiyatına ±0,01 TL'lik küçük bir sapma eklenerek hesaplanmıştır. Kesin fiyat için istasyona bakın.</Uyari>
+            )}
 
             <div className="ios-btn-wrap">
               <button className="ios-btn" onClick={() => goCreateAlert(shown)}>Bu ilçe için uyarı kur</button>
@@ -1041,6 +1048,35 @@ function fmtHaberTarih(iso) {
   if (isNaN(d)) return "";
   return d.toLocaleDateString("tr-TR", { day: "numeric", month: "long" }) + " · " +
     d.toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" });
+}
+
+// Tek dokunuşla açılıp kapanan uyarı kutusu (varsayılan kapalı, yer kaplamaz)
+function Uyari({ baslik, className = "", children }) {
+  const [acik, setAcik] = useState(false);
+  return (
+    <div className={"nc-uyari " + className + (acik ? " acik" : "")}>
+      <button className="uyari-baslik" onClick={() => setAcik(!acik)} aria-expanded={acik}>
+        <Icon.info className="nc-info" />
+        <span className="uyari-b">{baslik}</span>
+        <Icon.chevronDown className="uyari-ok" />
+      </button>
+      {acik && <div className="uyari-metin">{children}</div>}
+    </div>
+  );
+}
+
+// Fiyat verisinin son güncelleme zamanı; 30 saatten eskiyse uyarı kutusuna döner
+function VeriDurumu({ guncelleme }) {
+  if (!guncelleme) return null;
+  const d = new Date(guncelleme);
+  if (isNaN(d)) return null;
+  const eski = (Date.now() - d.getTime()) / 36e5 > 30;
+  const zaman = fmtHaberTarih(guncelleme);
+  return eski ? (
+    <Uyari baslik="Fiyat verisi güncel olmayabilir" className="veri-eski">Son güncelleme: {zaman}.</Uyari>
+  ) : (
+    <div className="veri-durum">Fiyatlar son güncelleme: {zaman}</div>
+  );
 }
 
 function HaberCard({ h }) {
@@ -1232,7 +1268,7 @@ function RatingSheet({ open, onClose, onSubmitted, showToast }) {
         <div className="rating-app-row">
           <div className="rating-app-icon"><Icon.pump /></div>
           <div>
-            <div className="rating-app-name">Akaryakıt Alarm Programı</div>
+            <div className="rating-app-name">Yakıt Nabzı</div>
             <div className="rating-app-tag">Yakıt Zam ve İndirim Habercisi</div>
           </div>
         </div>
@@ -1268,7 +1304,7 @@ function HakkindaView({ notifOn, setNotifOn, onOpenSub, onRate, onShare, showToa
     <>
       <div className="app-header-card">
         <div className="app-icon"><Icon.pump /></div>
-        <div className="app-name">Akaryakıt Alarm Programı</div>
+        <div className="app-name">Yakıt Nabzı</div>
         <div className="app-tag">Türkiye geneli akaryakıt fiyat değişim takipçisi</div>
         <div className="app-version">Sürüm 1.0.0</div>
       </div>
@@ -1295,7 +1331,7 @@ function HakkindaView({ notifOn, setNotifOn, onOpenSub, onRate, onShare, showToa
         <SettingsRow icon={<Icon.lock />} color="var(--notr)" label="Gizlilik İlkesi" onClick={() => window.open(GIZLILIK_URL, "_blank", "noopener")} />
       </IosSection>
 
-      <div className="about-footer">Akaryakıt Alarm Programı bağımsız bir prototiptir; EPDK veya herhangi bir resmi kurumla bağlantılı değildir.</div>
+      <div className="about-footer">Yakıt Nabzı bağımsız bir prototiptir; EPDK veya herhangi bir resmi kurumla bağlantılı değildir.</div>
     </>
   );
 }
@@ -1510,10 +1546,10 @@ function App() {
   const openDistrict = (d) => setSelectedDistrict(d);
 
   const handleShare = async () => {
-    const text = "Akaryakıt Alarm Programı — Türkiye geneli akaryakıt fiyat değişim takipçisi";
+    const text = "Yakıt Nabzı — Türkiye geneli akaryakıt fiyat değişim takipçisi";
     try {
       if (navigator.share) {
-        await navigator.share({ title: "Akaryakıt Alarm Programı", text });
+        await navigator.share({ title: "Yakıt Nabzı", text });
       } else if (navigator.clipboard) {
         await navigator.clipboard.writeText(text);
         showToast("Panoya kopyalandı");
@@ -1541,10 +1577,15 @@ function App() {
       );
     } else if (tab === "sehirler") {
       body = (
-        <SehirlerView allDistricts={districts} selectedIl={selectedIl} setPickerOpen={setPickerOpen} favorites={favorites} toggleFav={toggleFav} onOpenDistrict={(d) => setSelectedDistrict(d)} />
+        <>
+          <VeriDurumu guncelleme={fiyatGuncelleme} />
+          <SehirlerView allDistricts={districts} selectedIl={selectedIl} setPickerOpen={setPickerOpen} favorites={favorites} toggleFav={toggleFav} onOpenDistrict={(d) => setSelectedDistrict(d)} />
+        </>
       );
     } else {
       body = (
+        <>
+        <VeriDurumu guncelleme={fiyatGuncelleme} />
         <DegisimView
           districts={districts}
           totemMode={totemMode} setTotemMode={setTotemMode}
@@ -1555,6 +1596,7 @@ function App() {
           ulusalBugun={ulusalBugun}
           beklenti={beklenti}
         />
+        </>
       );
     }
   } else if (tab === "haberler") {
@@ -1653,6 +1695,15 @@ function App() {
         .next-change-date-row{ display:flex; align-items:center; gap:7px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
         .next-change-date-row svg{ flex-shrink:0; color:var(--metin-silik); }
         .next-change-status{ display:flex; align-items:center; gap:6px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
+        .nc-uyari.ilce-uyari{ margin:4px 0 14px; }
+        .veri-durum{ font-size:12px; color:var(--metin-soluk); padding:8px 4px; font-family:var(--font-body); }
+        .nc-uyari.veri-eski{ margin:8px 0 12px; }
+        .nc-uyari{ display:block; margin-top:12px; padding:10px 12px; background:var(--panel-2); border:var(--card-border); border-radius:var(--radius-card); font-size:12.5px; line-height:1.45; color:var(--metin); font-family:var(--font-body); }
+        .uyari-baslik{ display:flex; align-items:center; gap:8px; width:100%; background:none; border:none; padding:0; margin:0; font:inherit; font-weight:700; color:inherit; text-align:left; cursor:pointer; }
+        .uyari-b{ flex:1; }
+        .uyari-ok{ width:16px; height:16px; flex-shrink:0; transition:transform .2s ease; }
+        .nc-uyari.acik .uyari-ok{ transform:rotate(180deg); }
+        .uyari-metin{ padding:8px 0 0 24px; }
         .nc-info{ width:16px; height:16px; flex-shrink:0; color:inherit; }
 
         .segmented{ display:flex; background:var(--panel-2); border-radius:9px; padding:2px; margin-bottom:16px; }
