@@ -1,13 +1,13 @@
 {
-  "guncelleme": "2026-10-23T08:53:24.368Z",
+  "guncelleme": "2026-10-23T15:59:57.279Z",
   "kaynaklar": [
-    "CNNTURK",
-    "SABAH",
-    "YENISAFAK",
-    "MILLIYET",
+    "CUMHURIYET",
     "DUNYA",
-    "BLOOMBERGHT",
-    "CUMHURIYET"
+    "HABERTURK",
+    "CNNTURK",
+    "YENISAFAK",
+    "SABAH",
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -22,6 +22,27 @@
   },
   "haberler": [
     {
+      "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
+      "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
+      "tarih": "2026-10-23T13:48:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Piyasada kesinti korkusu! Petrol 5 ayın zirvesine çıktı",
+      "ozet": "Petrol piyasasında arz endişeleri fiyatları yeniden yukarı taşıdı. Suudi Arabistan'a yönelik Husi saldırıları ve Libya'daki üretim kayıpları izlenirken, Brent petrol 115 doları aşarak beş ayın zirvesine çıktı. ABD ham...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/piyasada-kesinti-korkusu-petrol-5-ayin-zirvesine-cikti-galeri-845047",
+      "tarih": "2026-10-23T13:28:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Petrol fiyatları 115 doları gördü",
+      "ozet": "Petrol, Suudi Arabistan'a yönelik Husilerin saldırılarının enerji arzında yeni kesintilere yol açabileceği endişesiyle önceki seansta yüzde 4 yükselerek beş ayın zirvesine ulaşmasının ardından cuma günü de yükselişini...",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlari-115-dolari-gordu-3922051",
+      "tarih": "2026-10-23T13:10:06.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
       "baslik": "Petrol fiyatları beş ayın zirvesinde: Brent 114 dolara yaklaştı",
       "ozet": "Suudi Arabistan'a yönelik Husi saldırıları ve ABD'nin İran'a karşı yeni operasyonlar düzenleyebileceğine ilişkin haberler, küresel petrol piyasalarında arz endişelerini artırdı. Gelişmelerin etkisiyle Brent petrolün v...",
       "link": "https://www.cnnturk.com/ekonomi/petrol-fiyatlari-bes-ayin-zirvesinde-brent-114-dolara-yaklasti-3483519",
@@ -29,10 +50,17 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Trump'tan İran açıklaması: Petrol fiyatlarını yükseltmek için her yolu deniyor",
-      "ozet": "ABD Başkanı Donald Trump, İran'ın ABD ara seçimleri öncesinde petrol fiyatlarını yükseltmek için her yolu denediğini savundu.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/trumptan-iran-aciklamasi-petrol-fiyatlarini-yukseltmek-icin-her-yolu-deniyor-7686795",
-      "tarih": "2026-10-23T08:44:07.000Z",
+      "baslik": "En az yakıt tüketen otomobiller belli oldu! Hem benzin hem de dizelde listenin başına imza attı",
+      "ozet": "En az yakıt tüketen otomobiller, araç almayı planlayan sürücülerin gündeminde! 2026 yılının ilk 7 ayında otomobil sahibi olmak isteyen vatandaşlar, hem satın alma bütçelerine hem de kullanım maliyetlerine uygun modell...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/en-az-yakit-tuketen-otomobiller-belli-oldu-hem-benzin-hem-de-dizelde-listenin-basina-imza-atti-4866715",
+      "tarih": "2026-10-23T11:02:48.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Almanya'dan rafineri hamlesi: Enerji güvenliği için yeni strateji",
+      "ozet": "Alman hükümeti, petrol rafinerilerinin uzun vadeli sürdürülebilirliğini güvence altına almak ve yeşil enerji dönüşümünü hızlandırmak amacıyla kapsamlı bir eylem planı başlattığını duyurdu.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/almanyadan-rafineri-hamlesi-enerji-guvenligi-icin-yeni-strateji-7686825",
+      "tarih": "2026-10-23T10:21:04.000Z",
       "kaynak": "SABAH"
     },
     {
@@ -43,29 +71,16 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Petrol sızıntısı paniğe sebep oldu: Plajlar kapatıldı",
-      "ozet": "Birleşik Arap Emirlikleri (BAE) İklim Değişikliği ve Çevre Bakanlığı, teknik izleme ve çevre değerlendirme sisteminin Umm Al Quwain kentinin plajlarını etkileyen tanker petrol sızıntısı tespit ettiğini duyurdu. Şarika...",
-      "tarih": "2026-10-23T08:03:35.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Hürmüz Boğazı'nda kriz büyüyor: Petrole 'İran ve Libya' darbesi",
+      "ozet": "Hürmüz Boğazı'nda tırmanan güvenlik endişeleri ve Libya'daki boru hattı kesintisi, küresel arz risklerini tetikleyerek Brent petrolün varil fiyatını 114 dolar seviyesinin üzerine taşıdı.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/hurmuz-bogazi-nda-kriz-buyuyor-petrole-iran-ve-libya-darbesi-2549511",
+      "tarih": "2026-10-23T07:00:00.000Z",
+      "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Tankerden sızan yakıt kıyıya ulaştı: BAE'de plajlar kapatıldı",
-      "ozet": "Birleşik Arap Emirlikleri'nde bir petrol tankerinden sızan yakıt kıyıya ulaşınca Ümmü'l Kayveyn'de plaj ve sahiller geçici olarak kapatıldı. Temizlik ekipleri kirliliğe müdahale ederken, balıkçılara etkilenen alanlard...",
-      "link": "https://www.dunya.com/dunya/tankerden-sizan-yakit-kiyiya-ulasti-baede-plajlar-kapatildi-haberi-845001",
-      "tarih": "2026-10-23T07:53:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Trump'tan enerji güvenliği hamlesi: Petrol üretimi için yeni karar",
-      "ozet": "ABD Başkanı Donald Trump, ülkenin savunma kabiliyetini güçlendirmek ve yurt içi petrol üretim, rafinasyon ve lojistik kapasitesini artırmak amacıyla Savunma Üretim Yasası'nı devreye soktu.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/trumptan-enerji-guvenligi-hamlesi-petrol-uretimi-icin-yeni-karar-7686687",
-      "tarih": "2026-10-23T05:09:49.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Petrol beş ayın zirvesinin ardından yatay seyretti",
-      "ozet": "Petrol, Suudi Arabistan'a yönelik Husilerin saldırılarının enerji arzında yeni kesintilere yol açabileceği endişesiyle önceki seansta yüzde 4 yükselerek beş ayın zirvesine ulaşmasının ardından cuma günü Asya işlemleri...",
-      "link": "https://www.bloomberght.com/petrol-bes-ayin-zirvesinin-ardindan-yatay-seyretti-3792331",
+      "baslik": "Petrolde kritik seviye aşıldı",
+      "ozet": "Petrol, Suudi Arabistan'a yönelik Husilerin saldırılarının enerji arzında yeni kesintilere yol açabileceği endişesiyle önceki seansta yüzde 4 yükselerek beş ayın zirvesine ulaşmasının ardından cuma günü de yükselişini...",
+      "link": "https://www.bloomberght.com/petrolde-kritik-seviye-asildi-3792331",
       "tarih": "2026-10-23T03:32:36.000Z",
       "kaynak": "BLOOMBERGHT"
     },
@@ -89,20 +104,6 @@
       "link": "https://www.cnnturk.com/ekonomi/benzine-yeni-indirim-geldi-akaryakit-fiyatlari-guncellendi-22-ekim-guncel-benzin-motorin-lpg-fiyati-ne-benzine-indirim-mi-geldi-ne-kadar-3482890",
       "tarih": "2026-10-22T17:34:49.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Trump: İran seçimler öncesi petrol fiyatlarını yükseltmeye çalışıyor",
-      "ozet": "ABD Başkanı Donald Trump, İran'ın ABD ara seçimleri öncesinde petrol fiyatlarını yükseltmeye çalıştığını öne sürerek, Hürmüz Boğazı'ndan geçen petrol miktarının çatışma öncesindeki seviyeyi aştığını iddia etti.",
-      "link": "https://www.bloomberght.com/trump-iran-secimler-oncesi-petrol-fiyatlarini-yukseltmeye-calisiyor-3792309",
-      "tarih": "2026-10-22T16:32:39.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "İtalya'da mazot protestosu yolları tıkadı, rafları boş bıraktı",
-      "ozet": "Yüksek motorin fiyatlarını protesto eden kamyoncular, İtalya'nın güneyinde yolları kapattı. Mozzarella üretimindeki aksama meyve ve sebzeye yayıldı. Balıkçı filolaları faaliyetlerini durdurdu. Marketlerde raflar boş k...",
-      "link": "https://www.bloomberght.com/italya-da-mazot-protestosu-yollari-tikadi-raflari-bos-birakti-3792268",
-      "tarih": "2026-10-22T13:39:41.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Otomotiv devi fişi çekiyor: Benzinli araç üretimini durduracak",
@@ -145,13 +146,6 @@
       "link": "https://www.yenisafak.com/ekonomi/abdnin-petrol-stoklarinda-beklentileri-asan-dusus-4866329",
       "tarih": "2026-10-22T05:33:06.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "AKARYAKITA DEV İNDİRİM! Benzine İkinci İndirim Geliyor mu? 21 Ekim 2026 Güncel Benzin, Motorin ve LPG Fiyatları",
-      "ozet": "21 Ekim 2026 akaryakıt fiyatları, benzin fiyatları, motorin fiyatları, LPG fiyatları araç sahiplerinin gündemindeki yerini koruyor. Brent petrol fiyatlarındaki gerilemenin ardından akaryakıt piyasasında yeni bir indir...",
-      "link": "https://www.cnnturk.com/ekonomi/akaryakita-dev-indirim-benzine-ikinci-indirim-geliyor-mu-21-ekim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-3482356",
-      "tarih": "2026-10-21T17:33:19.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Altın fiyatlarında düşüşün sebebi ne? Üç kritik gelişme öne çıktı",
@@ -207,20 +201,6 @@
       "ozet": "Küresel piyasalarda Ortadoğu'da tırmanan jeopolitik gerilimler ve arz endişeleri, petrol fiyatlarında sert dalgalanmalara neden oldu. Güne sakin başlayan brent petrolün varil fiyatı, saatler içinde hızla değer kazanar...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-110-dolari-zorluyor-akaryakit-fiyatlarinda-zam-beklentisi-2547673",
       "tarih": "2026-10-17T14:37:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Tarih belli oldu: Benzine indirim geliyor",
-      "ozet": "Akaryakıt ürünlerinden benzinin litre fiyatına haftaya indirim yapılması bekleniyor. Benzinin litre başına 4,30 lira ucuzlaması öngörülüyor. İşte ayrıntılar...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarih-belli-oldu-benzine-indirim-geliyor-2547547",
-      "tarih": "2026-10-17T06:35:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "17 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/17-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2547544",
-      "tarih": "2026-10-17T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
