@@ -1,9 +1,10 @@
 {
-  "guncelleme": "2026-10-23T02:13:50.836Z",
+  "guncelleme": "2026-10-23T07:59:38.880Z",
   "kaynaklar": [
+    "SABAH",
+    "BLOOMBERGHT",
     "YENISAFAK",
     "CNNTURK",
-    "BLOOMBERGHT",
     "CUMHURIYET"
   ],
   "beklenti": {
@@ -18,6 +19,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Trump'tan enerji güvenliği hamlesi: Petrol üretimi için yeni karar",
+      "ozet": "ABD Başkanı Donald Trump, ülkenin savunma kabiliyetini güçlendirmek ve yurt içi petrol üretim, rafinasyon ve lojistik kapasitesini artırmak amacıyla Savunma Üretim Yasası'nı devreye soktu.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/trumptan-enerji-guvenligi-hamlesi-petrol-uretimi-icin-yeni-karar-7686687",
+      "tarih": "2026-10-23T05:09:49.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Petrol beş ayın zirvesinin ardından yatay seyretti",
+      "ozet": "Petrol, Suudi Arabistan'a yönelik Husilerin saldırılarının enerji arzında yeni kesintilere yol açabileceği endişesiyle önceki seansta yüzde 4 yükselerek beş ayın zirvesine ulaşmasının ardından cuma günü Asya işlemleri...",
+      "link": "https://www.bloomberght.com/petrol-bes-ayin-zirvesinin-ardindan-yatay-seyretti-3792331",
+      "tarih": "2026-10-23T03:32:36.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Trump, petrol kapasitesini artırmak için Savunma Üretim Yasası'nı devreye aldı",
+      "ozet": "ABD Başkanı Donald Trump, ülkenin savunma kabiliyetini güçlendirmek ve yurt içi petrol üretim, rafinasyon ve lojistik kapasitesini artırmak amacıyla Savunma Üretim Yasası'nı devreye soktu.",
+      "link": "https://www.bloomberght.com/trump-petrol-kapasitesini-artirmak-icin-savunma-uretim-yasasi-ni-devreye-aldi-3792330",
+      "tarih": "2026-10-23T03:21:58.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
     {
       "baslik": "Günlük petrol üretimi 139 bin varile ulaştı",
       "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, bütçe sunumunda yerli petrol ve doğal gaz üretimine ilişkin hedefleri açıkladı. Günlük petrol üretiminin 139 bin varile ulaştığını vurgulayan Yılmaz, 2027'de günlük gaz üretimin...",
@@ -82,13 +104,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "İran ordusu: Basra Körfezi'nde petrol transferi yapan 4 gemi vuruldu",
-      "ozet": "İran Devrim Muhafızları Ordusu Deniz Kuvvetleri, Basra Körfezi'nin kuzey kesiminde petrol yüklerini gemiden gemiye aktaran 4 geminin eş zamanlı vurulduğunu ve yanmaya devam ettiğini bildirdi.",
-      "link": "https://www.bloomberght.com/iran-ordusu-basra-korfezi-nde-petrol-transferi-yapan-4-gemi-vuruldu-3792172",
-      "tarih": "2026-10-22T06:07:07.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "ABD’nin petrol stoklarında beklentileri aşan düşüş",
       "ozet": "ABD’nin ticari ham petrol stokları geçen hafta 3,1 milyon varil azalarak 412,5 milyon varile geriledi. Piyasa yalnızca 100 bin varillik düşüş beklerken benzin stokları ve günlük petrol üretiminde de gerileme kaydedildi.",
       "link": "https://www.yenisafak.com/ekonomi/abdnin-petrol-stoklarinda-beklentileri-asan-dusus-4866329",
@@ -100,13 +115,6 @@
       "ozet": "21 Ekim 2026 akaryakıt fiyatları, benzin fiyatları, motorin fiyatları, LPG fiyatları araç sahiplerinin gündemindeki yerini koruyor. Brent petrol fiyatlarındaki gerilemenin ardından akaryakıt piyasasında yeni bir indir...",
       "link": "https://www.cnnturk.com/ekonomi/akaryakita-dev-indirim-benzine-ikinci-indirim-geliyor-mu-21-ekim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-3482356",
       "tarih": "2026-10-21T17:33:19.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Gram altın 8 bin TL olacak mı? Muhammet Bayram yıl sonu tahminini açıkladı",
-      "ozet": "Ekonomist Muhammet Bayram, gram altının 2026 yıl sonunda 8 bin TL seviyesine ulaşabileceğini öngördü. Küresel çatışmaların sona ermesi, petrol fiyatlarının gerilemesi ve Fed’in faiz politikasındaki değişimlerin altın ...",
-      "link": "https://www.cnnturk.com/video/ekonomi/altin/gram-altin-8-bin-tl-olacak-mi-muhammet-bayram-yil-sonu-tahminini-acikladi-3482377",
-      "tarih": "2026-10-21T11:17:39.000Z",
       "kaynak": "CNNTURK"
     },
     {
