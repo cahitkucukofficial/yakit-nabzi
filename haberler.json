@@ -1,8 +1,9 @@
 {
-  "guncelleme": "2026-10-23T15:59:57.279Z",
+  "guncelleme": "2026-10-23T19:48:56.518Z",
   "kaynaklar": [
-    "CUMHURIYET",
+    "MILLIYET",
     "DUNYA",
+    "CUMHURIYET",
     "HABERTURK",
     "CNNTURK",
     "YENISAFAK",
@@ -21,6 +22,26 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Çorum'da kaza: Ambulans ile otomobil çarpıştı! LPG tankı yola savruldu",
+      "ozet": "Kaza, saat 18.30 sıralarında Çorum Çevre Yolu İskilip Kavşağı’nda meydana geldi. İddiaya göre, E.Y. (24) yönetimindeki ambulans ile K.D. (19) yönetimindeki 19 AY 108 plakalı otomobil kavşakta çarpıştı. Çarpışmanın şid...",
+      "tarih": "2026-10-23T18:47:49.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Avrupa borsaları, İtalya hariç düşüşle kapandı",
+      "ozet": "Avrupa borsaları haftanın son işlem gününü Fransa'da devam eden protestolar ve artan petrol fiyatlarının etkisiyle İtalya hariç düşüşle tamamladı.",
+      "link": "https://www.dunya.com/finans/borsa/avrupa-borsalari-italya-haric-dususle-kapandi-haberi-845072",
+      "tarih": "2026-10-23T18:30:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "New York borsası düşüşle açıldı",
+      "ozet": "New York borsası, yapay zeka bağlantılı hisselerde yaşanan satış baskısı ve petrol fiyatlarındaki yükselişin etkisiyle haftanın son işlem gününe düşüşle başladı.",
+      "link": "https://www.dunya.com/finans/borsa/new-york-borsasi-dususle-acildi-haberi-845071",
+      "tarih": "2026-10-23T14:15:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
       "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
@@ -85,13 +106,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Trump, petrol kapasitesini artırmak için Savunma Üretim Yasası'nı devreye aldı",
-      "ozet": "ABD Başkanı Donald Trump, ülkenin savunma kabiliyetini güçlendirmek ve yurt içi petrol üretim, rafinasyon ve lojistik kapasitesini artırmak amacıyla Savunma Üretim Yasası'nı devreye soktu.",
-      "link": "https://www.bloomberght.com/trump-petrol-kapasitesini-artirmak-icin-savunma-uretim-yasasi-ni-devreye-aldi-3792330",
-      "tarih": "2026-10-23T03:21:58.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Günlük petrol üretimi 139 bin varile ulaştı",
       "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, bütçe sunumunda yerli petrol ve doğal gaz üretimine ilişkin hedefleri açıkladı. Günlük petrol üretiminin 139 bin varile ulaştığını vurgulayan Yılmaz, 2027'de günlük gaz üretimin...",
       "link": "https://www.yenisafak.com/ekonomi/gunluk-petrol-uretimi-139-bin-varile-ulasti-4866607",
@@ -138,13 +152,6 @@
       "ozet": "Küresel piyasalarda yükselen petrol fiyatlarının enflasyonist endişeleri körüklemesi ve faiz artırımı beklentilerini yeniden gündeme taşıması, altın fiyatlarında sert kayıplara yol açtı. Spot ons altın, 14 Ekim’den bu...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/petrol-soku-altini-vurdu-ons-altin-kritik-esigin-altina-indi-4866349",
       "tarih": "2026-10-22T06:32:58.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "ABD’nin petrol stoklarında beklentileri aşan düşüş",
-      "ozet": "ABD’nin ticari ham petrol stokları geçen hafta 3,1 milyon varil azalarak 412,5 milyon varile geriledi. Piyasa yalnızca 100 bin varillik düşüş beklerken benzin stokları ve günlük petrol üretiminde de gerileme kaydedildi.",
-      "link": "https://www.yenisafak.com/ekonomi/abdnin-petrol-stoklarinda-beklentileri-asan-dusus-4866329",
-      "tarih": "2026-10-22T05:33:06.000Z",
       "kaynak": "YENISAFAK"
     },
     {
