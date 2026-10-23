@@ -1,10 +1,12 @@
 {
-  "guncelleme": "2026-10-23T07:59:38.880Z",
+  "guncelleme": "2026-10-23T08:53:24.368Z",
   "kaynaklar": [
-    "SABAH",
-    "BLOOMBERGHT",
-    "YENISAFAK",
     "CNNTURK",
+    "SABAH",
+    "YENISAFAK",
+    "MILLIYET",
+    "DUNYA",
+    "BLOOMBERGHT",
     "CUMHURIYET"
   ],
   "beklenti": {
@@ -19,6 +21,40 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Petrol fiyatları beş ayın zirvesinde: Brent 114 dolara yaklaştı",
+      "ozet": "Suudi Arabistan'a yönelik Husi saldırıları ve ABD'nin İran'a karşı yeni operasyonlar düzenleyebileceğine ilişkin haberler, küresel petrol piyasalarında arz endişelerini artırdı. Gelişmelerin etkisiyle Brent petrolün v...",
+      "link": "https://www.cnnturk.com/ekonomi/petrol-fiyatlari-bes-ayin-zirvesinde-brent-114-dolara-yaklasti-3483519",
+      "tarih": "2026-10-23T11:24:59.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Trump'tan İran açıklaması: Petrol fiyatlarını yükseltmek için her yolu deniyor",
+      "ozet": "ABD Başkanı Donald Trump, İran'ın ABD ara seçimleri öncesinde petrol fiyatlarını yükseltmek için her yolu denediğini savundu.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/trumptan-iran-aciklamasi-petrol-fiyatlarini-yukseltmek-icin-her-yolu-deniyor-7686795",
+      "tarih": "2026-10-23T08:44:07.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Akaryakıt pompalarında yeni dönem: Peş peşe gelen indirimler motorin ve benzin fiyatlarında dengeleri değiştirdi",
+      "ozet": "Akaryakıt pompalarında son günlerde yaşanan hareketlilik, araç sahiplerini şaşırtan tarihi bir tablo ortaya çıkardı. Peş peşe gelen fiyat güncellemelerinin ardından iki yakıt türü arasındaki makas hiç olmadığı kadar a...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-pompalarinda-yeni-donem-pes-pese-gelen-indirimler-motorin-ve-benzin-fiyatlarinda-dengeleri-degistirdi-4866687",
+      "tarih": "2026-10-23T08:31:26.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol sızıntısı paniğe sebep oldu: Plajlar kapatıldı",
+      "ozet": "Birleşik Arap Emirlikleri (BAE) İklim Değişikliği ve Çevre Bakanlığı, teknik izleme ve çevre değerlendirme sisteminin Umm Al Quwain kentinin plajlarını etkileyen tanker petrol sızıntısı tespit ettiğini duyurdu. Şarika...",
+      "tarih": "2026-10-23T08:03:35.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Tankerden sızan yakıt kıyıya ulaştı: BAE'de plajlar kapatıldı",
+      "ozet": "Birleşik Arap Emirlikleri'nde bir petrol tankerinden sızan yakıt kıyıya ulaşınca Ümmü'l Kayveyn'de plaj ve sahiller geçici olarak kapatıldı. Temizlik ekipleri kirliliğe müdahale ederken, balıkçılara etkilenen alanlard...",
+      "link": "https://www.dunya.com/dunya/tankerden-sizan-yakit-kiyiya-ulasti-baede-plajlar-kapatildi-haberi-845001",
+      "tarih": "2026-10-23T07:53:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Trump'tan enerji güvenliği hamlesi: Petrol üretimi için yeni karar",
       "ozet": "ABD Başkanı Donald Trump, ülkenin savunma kabiliyetini güçlendirmek ve yurt içi petrol üretim, rafinasyon ve lojistik kapasitesini artırmak amacıyla Savunma Üretim Yasası'nı devreye soktu.Devamı için tıklayınız",
