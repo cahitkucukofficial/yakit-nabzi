@@ -1,7 +1,6 @@
 {
-  "guncelleme": "2026-10-23T19:48:56.518Z",
+  "guncelleme": "2026-10-23T22:41:56.401Z",
   "kaynaklar": [
-    "MILLIYET",
     "DUNYA",
     "CUMHURIYET",
     "HABERTURK",
@@ -23,10 +22,11 @@
   },
   "haberler": [
     {
-      "baslik": "Çorum'da kaza: Ambulans ile otomobil çarpıştı! LPG tankı yola savruldu",
-      "ozet": "Kaza, saat 18.30 sıralarında Çorum Çevre Yolu İskilip Kavşağı’nda meydana geldi. İddiaya göre, E.Y. (24) yönetimindeki ambulans ile K.D. (19) yönetimindeki 19 AY 108 plakalı otomobil kavşakta çarpıştı. Çarpışmanın şid...",
-      "tarih": "2026-10-23T18:47:49.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "New York borsası düşüşle kapandı",
+      "ozet": "New York borsası, yapay zeka yatırımlarına ilişkin endişelerle teknoloji hisselerinde görülen satış baskısının diğer sektörlere yayılması ve Orta Doğu'da süren jeopolitik gerilimin petrol fiyatlarını yükseltmesiyle ha...",
+      "link": "https://www.dunya.com/finans/borsa/new-york-borsasi-dususle-kapandi-haberi-845074",
+      "tarih": "2026-10-23T20:58:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
       "baslik": "Avrupa borsaları, İtalya hariç düşüşle kapandı",
