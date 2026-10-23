@@ -435,6 +435,7 @@ async function beklentileriBirlestir(haberler) {
       tarih: ornek.tarih,
       dogrulayanKaynakSayisi: new Set(enIyiGrup.map((e) => e.kaynak)).size,
       kaynakBaslik: ornek.kaynakBaslik,
+      kaynak: ornek.kaynak,
       kaynakLink: ornek.kaynakLink,
     };
   }
