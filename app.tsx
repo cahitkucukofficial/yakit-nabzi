@@ -2,15 +2,15 @@ const { useState, useEffect, useMemo, useCallback, useRef } = React;
 
 /* =========================================================================
    YAKIT NABZI — Türkiye geneli akaryakıt fiyat değişim takipçisi
-   3 sekme: Şehirler (il/ilçe seçimi) · Değişim (günlük takip + uyarılar)
-   · Hakkında (indir, puan ver, gizlilik, bildirimler, paylaş)
+   3 sekme: Şehirler (il/ilçe seçimi) · Değişim (günlük takip)
+   · Hakkında (indir, puan ver, gizlilik, paylaş)
    ========================================================================= */
 
 /* ---------- kalıcı depolama katmanı ----------
    window.storage sadece Claude.ai'nin artifact önizleyicisinde bulunur.
    Bağımsız/yayınlanmış uygulamada aynı arayüzü (get/set/delete/list) veren,
    localStorage tabanlı bir karşılık koyuyoruz — böylece geri kalan kod
-   (persistFavorites, persistAlerts, persistPrefs, vb.) değişmeden çalışır.
+   (persistFavorites, persistPrefs, vb.) değişmeden çalışır.
    Not: React Native / Capacitor'a taşırken bu bloğu AsyncStorage veya
    Capacitor Preferences ile değiştirmek yeterli, çağrı yapan kodun
    hiçbirine dokunmanıza gerek yok. */
@@ -508,6 +508,14 @@ function DeltaTag({ delta }) {
   return <span className={cls}>{arrow} {fmtDelta(delta)}</span>;
 }
 
+// Kaynak kodu → görünen ad
+const KAYNAK_ADLARI = {
+  YENISAFAK: "Yeni Şafak", CUMHURIYET: "Cumhuriyet", BLOOMBERGHT: "Bloomberg HT", AA: "AA", IHA: "İHA", DHA: "DHA",
+  HURRIYET: "Hürriyet", MILLIYET: "Milliyet", SABAH: "Sabah", HABERTURK: "Habertürk", SOZCU: "Sözcü", STAR: "Star",
+  AKSAM: "Akşam", DUNYA: "Dünya", HABER7: "Haber7", ENSONHABER: "Ensonhaber", TAKVIM: "Takvim", TRTHABER: "TRT Haber",
+  NTV: "NTV", CNNTURK: "CNN Türk",
+};
+
 // Yürürlük tarihi bugün veya geçmişse değişim gerçekleşmiştir → beklenti mesajı gösterilmez
 function aktifBeklenti(nc) {
   if (!nc || !nc.expected) return { expected: false };
@@ -545,6 +553,11 @@ function NextChangeCard({ fuelKey, beklenti }) {
             {yonKelime} tarihi {fmtBeklentiTarihKisa(nc.tarih)}
             {nc.dogrulayanKaynakSayisi > 1 && " · " + nc.dogrulayanKaynakSayisi + " kaynak"}
           </div>
+          {nc.kaynakLink && (
+            <a className="next-change-kaynak" href={nc.kaynakLink} target="_blank" rel="noopener noreferrer">
+              Kaynak: {KAYNAK_ADLARI[nc.kaynak] || nc.kaynak || "haber"} <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
+            </a>
+          )}
         </>
       ) : (
         <div className="next-change-status">
@@ -704,7 +717,7 @@ function CityPicker({ open, current, onClose, onSelect }) {
     <div className={"sheet-overlay" + (open ? " open" : "")} onClick={onClose}>
       <div className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-grabber" />
-        <div className="sheet-header">Şehir Seçin</div>
+        <div className="sheet-header">Şehir Seçin<SheetKapat onClose={onClose} /></div>
         <div className="ios-search">
           <Icon.search />
           <input placeholder="Şehir ara" value={query} onChange={(e) => setQuery(e.target.value)} />
@@ -817,7 +830,7 @@ function SehirlerView({ allDistricts, selectedIl, setPickerOpen, favorites, togg
   );
 }
 
-function DistrictSheet({ open, d, favorites, toggleFav, goCreateAlert, onClose }) {
+function DistrictSheet({ open, d, favorites, toggleFav, onClose }) {
   const lastRef = useRef(null);
   if (d) lastRef.current = d;
   const shown = d || lastRef.current;
@@ -827,7 +840,7 @@ function DistrictSheet({ open, d, favorites, toggleFav, goCreateAlert, onClose }
         <div className="sheet-grabber" />
         {shown && (
           <>
-            <div className="sheet-header">{shown.ilce} · {shown.il}</div>
+            <div className="sheet-header">{shown.ilce} · {shown.il}<SheetKapat onClose={onClose} /></div>
             <div className="sheet-list">
             <IosSection>
               <div className="detail-card">
@@ -839,7 +852,6 @@ function DistrictSheet({ open, d, favorites, toggleFav, goCreateAlert, onClose }
                   <button className={"fav-btn big" + (favorites.has(shown.id) ? " on" : "")} onClick={() => toggleFav(shown.id)}>
                     <Icon.star filled={favorites.has(shown.id)} />
                   </button>
-                  <button className="rating-close" onClick={onClose}><Icon.close /></button>
                 </div>
               </div>
             </IosSection>
@@ -867,9 +879,6 @@ function DistrictSheet({ open, d, favorites, toggleFav, goCreateAlert, onClose }
               <Uyari baslik="Bu ilçe fiyatı tahminidir" className="ilce-uyari">İlin medyan fiyatına ±0,01 TL'lik küçük bir sapma eklenerek hesaplanmıştır. Kesin fiyat için istasyona bakın.</Uyari>
             )}
 
-            <div className="ios-btn-wrap">
-              <button className="ios-btn" onClick={() => goCreateAlert(shown)}>Bu ilçe için uyarı kur</button>
-            </div>
             </div>
           </>
         )}
@@ -894,93 +903,7 @@ function LeaderRow({ d, fuelKey, onOpen }) {
   );
 }
 
-function AlertsSection({ alerts, addAlert, removeAlert, prefill }) {
-  const [il, setIl] = useState(prefill?.il || ILLER[0]);
-  const [ilce, setIlce] = useState(prefill?.ilce || ILCE_MAP[ILLER[0]][0]);
-  const [fuel, setFuel] = useState("motorin");
-  const [direction, setDirection] = useState("herhangi");
-  const [threshold, setThreshold] = useState("");
-
-  useEffect(() => {
-    if (prefill) { setIl(prefill.il); setIlce(prefill.ilce); }
-  }, [prefill]);
-
-  useEffect(() => {
-    if (!ILCE_MAP[il].includes(ilce)) setIlce(ILCE_MAP[il][0]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [il]);
-
-  return (
-    <>
-      <IosSection header="Yeni Uyarı">
-        <div className="ios-row form-line">
-          <label>Şehir</label>
-          <select value={il} onChange={(e) => setIl(e.target.value)}>
-            {ILLER.map((n) => <option key={n} value={n}>{n}</option>)}
-          </select>
-        </div>
-        <div className="ios-row form-line">
-          <label>İlçe</label>
-          <select value={ilce} onChange={(e) => setIlce(e.target.value)}>
-            {ILCE_MAP[il].map((n) => <option key={n} value={n}>{n}</option>)}
-          </select>
-        </div>
-        <div className="ios-row form-line">
-          <label>Yakıt</label>
-          <select value={fuel} onChange={(e) => setFuel(e.target.value)}>
-            {FUEL_ORDER.map((k) => <option key={k} value={k}>{FUEL_META[k].label}</option>)}
-          </select>
-        </div>
-        <div className="ios-row form-line">
-          <label>Yön</label>
-          <select value={direction} onChange={(e) => setDirection(e.target.value)}>
-            <option value="herhangi">Her değişim</option>
-            <option value="artis">Sadece zam</option>
-            <option value="dusus">Sadece indirim</option>
-          </select>
-        </div>
-        <div className="ios-row form-line">
-          <label>Eşik (₺, ops.)</label>
-          <input className="form-input" placeholder="örn. 1.00" inputMode="decimal" value={threshold} onChange={(e) => setThreshold(e.target.value)} />
-        </div>
-      </IosSection>
-
-      <div className="ios-btn-wrap">
-        <button
-          className="ios-btn"
-          onClick={() => {
-            addAlert({
-              id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
-              il, ilce, fuel, direction,
-              threshold: threshold ? parseFloat(threshold.replace(",", ".")) : null,
-            });
-            setThreshold("");
-          }}
-        >
-          Uyarı Oluştur
-        </button>
-      </div>
-
-      <IosSection header="Kurulu Uyarılar" footer="Uyarılar bu cihazda saklanır. Gerçek anlık bildirim için sunucu tarafında senkronizasyon ve push servisi gerekir — bkz. Hakkında › Veri Kaynağı.">
-        {alerts.length === 0 && <div className="ios-row"><span className="dim">Henüz kurulu uyarı yok.</span></div>}
-        {alerts.map((a) => (
-          <div className="ios-row alert-row" key={a.id}>
-            <div>
-              <div className="ios-row-title">{FUEL_META[a.fuel].label} · {a.ilce}, {a.il}</div>
-              <div className="dim small">
-                {a.direction === "artis" ? "Sadece zam" : a.direction === "dusus" ? "Sadece indirim" : "Her değişim"}
-                {a.threshold ? " · eşik " + a.threshold.toLocaleString("tr-TR") + " ₺" : ""}
-              </div>
-            </div>
-            <button className="del-btn" onClick={() => removeAlert(a.id)}>Sil</button>
-          </div>
-        ))}
-      </IosSection>
-    </>
-  );
-}
-
-function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFilter, favorites, districtsMap, toggleFav, onOpenDistrict, alerts, addAlert, removeAlert, alertPrefill, ulusalBugun, beklenti }) {
+function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFilter, favorites, districtsMap, toggleFav, onOpenDistrict, ulusalBugun, beklenti }) {
   const sorted = [...districts].sort((a, b) => b[fuelFilter].delta - a[fuelFilter].delta);
   const gainers = sorted.filter((d) => d[fuelFilter].delta > 0.02).slice(0, 3);
   const losers = [...sorted].reverse().filter((d) => d[fuelFilter].delta < -0.02).slice(0, 3);
@@ -1035,7 +958,6 @@ function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFi
         ))}
       </IosSection>
 
-      <AlertsSection alerts={alerts} addAlert={addAlert} removeAlert={removeAlert} prefill={alertPrefill} />
     </>
   );
 }
@@ -1048,6 +970,15 @@ function fmtHaberTarih(iso) {
   if (isNaN(d)) return "";
   return d.toLocaleDateString("tr-TR", { day: "numeric", month: "long" }) + " · " +
     d.toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" });
+}
+
+// iOS tarzı hap (kapsül) kapat düğmesi — tüm alt sayfalarda ortak
+function SheetKapat({ onClose }) {
+  return (
+    <button className="sheet-kapat" onClick={onClose} aria-label="Kapat">
+      <Icon.close width="14" height="14" strokeWidth="2.6" />
+    </button>
+  );
 }
 
 // Tek dokunuşla açılıp kapanan uyarı kutusu (varsayılan kapalı, yer kaplamaz)
@@ -1171,7 +1102,7 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent 
     <div className={"sheet-overlay" + (open ? " open" : "")} onClick={onClose}>
       <div className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-grabber" />
-        <div className="sheet-header">Görünüm</div>
+        <div className="sheet-header">Görünüm<SheetKapat onClose={onClose} /></div>
         <div className="sheet-list">
           <div className="ios-card">
             {THEME_ORDER.map((key) => {
@@ -1261,7 +1192,7 @@ function RatingSheet({ open, onClose, onSubmitted, showToast }) {
     <div className={"sheet-overlay" + (open ? " open" : "")} onClick={onClose}>
       <div className="sheet rating-sheet" onClick={(e) => e.stopPropagation()}>
         <div className="rating-top">
-          <button className="rating-close" onClick={onClose}><Icon.close /></button>
+          <SheetKapat onClose={onClose} />
           <span className="rating-top-title">Yorum Yaz</span>
           <button className="rating-send" onClick={submit}><Icon.send /></button>
         </div>
@@ -1299,7 +1230,7 @@ function RatingSheet({ open, onClose, onSubmitted, showToast }) {
   );
 }
 
-function HakkindaView({ notifOn, setNotifOn, onOpenSub, onRate, onShare, showToast, theme, onOpenTheme }) {
+function HakkindaView({ onOpenSub, onRate, onShare, showToast, theme, onOpenTheme }) {
   return (
     <>
       <div className="app-header-card">
@@ -1325,8 +1256,7 @@ function HakkindaView({ notifOn, setNotifOn, onOpenSub, onRate, onShare, showToa
         <SettingsRow icon={<Icon.share />} color="var(--indirim)" label="Paylaş" onClick={onShare} />
       </IosSection>
 
-      <IosSection header="Ayarlar" footer="Not: Bu prototip gerçek anlık işletim sistemi bildirimi gönderemez; anahtar yalnızca tercihini bu cihazda kaydeder.">
-        <SettingsRow icon={<Icon.bell />} color="var(--zam)" label="Bildirimler" trailing={<IosSwitch checked={notifOn} onChange={setNotifOn} />} onClick={() => setNotifOn(!notifOn)} />
+      <IosSection header="Ayarlar">
         <SettingsRow icon={<Icon.info />} color="var(--bilgi)" label="Veri Kaynağı" onClick={() => onOpenSub("kaynak")} />
         <SettingsRow icon={<Icon.lock />} color="var(--notr)" label="Gizlilik İlkesi" onClick={() => window.open(GIZLILIK_URL, "_blank", "noopener")} />
       </IosSection>
@@ -1371,11 +1301,8 @@ function App() {
   const [pickerOpen, setPickerOpen] = useState(false);
   const [selectedDistrict, setSelectedDistrict] = useState(null);
   const [favorites, setFavorites] = useState(new Set());
-  const [alerts, setAlerts] = useState([]);
   const [totemMode, setTotemMode] = useState("today");
   const [fuelFilter, setFuelFilter] = useState("motorin");
-  const [alertPrefill, setAlertPrefill] = useState(null);
-  const [notifOn, setNotifOn] = useState(true);
   const [aboutSub, setAboutSub] = useState(null);
   const [ratingOpen, setRatingOpen] = useState(false);
   const [theme, setTheme] = useState("saha");
@@ -1444,11 +1371,7 @@ function App() {
         const favRes = await window.storage.get("favorites", false);
         if (favRes?.value) setFavorites(new Set(JSON.parse(favRes.value)));
       } catch (e) {}
-      try {
-        const alertRes = await window.storage.get("alerts", false);
-        if (alertRes?.value) setAlerts(JSON.parse(alertRes.value));
-      } catch (e) {}
-      // Tema/vurgu rengi/bildirim tercihi tek bir "prefs" anahtarında birlikte tutulur
+      // Tema/vurgu rengi tercihi tek bir "prefs" anahtarında birlikte tutulur
       // (art arda değişikliklerde ayrı ayrı kayıt isteği göndermemek için).
       let loadedFromPrefs = false;
       try {
@@ -1457,7 +1380,6 @@ function App() {
           const p = JSON.parse(prefsRes.value);
           if (p.theme && THEMES[p.theme]) setTheme(p.theme);
           if (p.accent && ACCENTS[p.accent]) setAccent(p.accent);
-          if (typeof p.notifOn === "boolean") setNotifOn(p.notifOn);
           loadedFromPrefs = true;
         }
       } catch (e) {}
@@ -1471,10 +1393,6 @@ function App() {
           const accentRes = await window.storage.get("accent", false);
           if (accentRes?.value && ACCENTS[JSON.parse(accentRes.value)]) setAccent(JSON.parse(accentRes.value));
         } catch (e) {}
-        try {
-          const notifRes = await window.storage.get("notifOn", false);
-          if (notifRes?.value) setNotifOn(JSON.parse(notifRes.value));
-        } catch (e) {}
       }
       setReady(true);
     })();
@@ -1483,10 +1401,6 @@ function App() {
   const persistFavorites = useCallback(async (set) => {
     try { await window.storage.set("favorites", JSON.stringify([...set]), false); }
     catch (e) { console.error(e); showToast("Favoriler kaydedilemedi"); }
-  }, [showToast]);
-  const persistAlerts = useCallback(async (list) => {
-    try { await window.storage.set("alerts", JSON.stringify(list), false); }
-    catch (e) { console.error(e); showToast("Uyarı kaydedilemedi"); }
   }, [showToast]);
   const persistPrefs = useCallback((next) => {
     // Art arda hızlı değişikliklerde her dokunuşta ayrı kayıt isteği göndermemek için
@@ -1508,16 +1422,12 @@ function App() {
   }, []);
   const changeTheme = useCallback((key) => {
     setTheme(key);
-    persistPrefs({ theme: key, accent, notifOn });
-  }, [persistPrefs, accent, notifOn]);
+    persistPrefs({ theme: key, accent });
+  }, [persistPrefs, accent]);
   const changeAccent = useCallback((key) => {
     setAccent(key);
-    persistPrefs({ theme, accent: key, notifOn });
-  }, [persistPrefs, theme, notifOn]);
-  const changeNotif = useCallback((val) => {
-    setNotifOn(val);
-    persistPrefs({ theme, accent, notifOn: val });
-  }, [persistPrefs, theme, accent]);
+    persistPrefs({ theme, accent: key });
+  }, [persistPrefs, theme]);
 
   const toggleFav = useCallback((id) => {
     setFavorites((prev) => {
@@ -1527,21 +1437,6 @@ function App() {
       return next;
     });
   }, [persistFavorites]);
-
-  const addAlert = useCallback((a) => {
-    setAlerts((prev) => { const next = [a, ...prev]; persistAlerts(next); return next; });
-    showToast("Uyarı oluşturuldu");
-  }, [persistAlerts, showToast]);
-
-  const removeAlert = useCallback((id) => {
-    setAlerts((prev) => { const next = prev.filter((x) => x.id !== id); persistAlerts(next); return next; });
-  }, [persistAlerts]);
-
-  const goCreateAlert = (d) => {
-    setAlertPrefill({ il: d.il, ilce: d.ilce });
-    setSelectedDistrict(null);
-    setTab("degisim");
-  };
 
   const openDistrict = (d) => setSelectedDistrict(d);
 
@@ -1592,7 +1487,6 @@ function App() {
           fuelFilter={fuelFilter} setFuelFilter={setFuelFilter}
           favorites={favorites} districtsMap={districtsMap} toggleFav={toggleFav}
           onOpenDistrict={openDistrict}
-          alerts={alerts} addAlert={addAlert} removeAlert={removeAlert} alertPrefill={alertPrefill}
           ulusalBugun={ulusalBugun}
           beklenti={beklenti}
         />
@@ -1621,7 +1515,7 @@ function App() {
     body = aboutSub ? (
       <div className="push-in"><KaynakContent /></div>
     ) : (
-      <HakkindaView notifOn={notifOn} setNotifOn={changeNotif} onOpenSub={setAboutSub} onRate={() => setRatingOpen(true)} onShare={handleShare} showToast={showToast} theme={theme} onOpenTheme={() => setThemePickerOpen(true)} />
+      <HakkindaView onOpenSub={setAboutSub} onRate={() => setRatingOpen(true)} onShare={handleShare} showToast={showToast} theme={theme} onOpenTheme={() => setThemePickerOpen(true)} />
     );
   }
 
@@ -1704,6 +1598,9 @@ function App() {
         .uyari-ok{ width:16px; height:16px; flex-shrink:0; transition:transform .2s ease; }
         .nc-uyari.acik .uyari-ok{ transform:rotate(180deg); }
         .uyari-metin{ padding:8px 0 0 24px; }
+        .next-change-kaynak{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:10px; padding-top:10px; border-top:1px solid var(--kenar); font-size:12.5px; color:var(--metin-soluk); text-decoration:none; font-family:var(--font-body); }
+        .next-change-kaynak .nc-git{ display:flex; align-items:center; gap:2px; font-weight:700; color:var(--aksan); white-space:nowrap; }
+        .next-change-kaynak .chev{ width:14px; height:14px; }
         .nc-info{ width:16px; height:16px; flex-shrink:0; color:inherit; }
 
         .segmented{ display:flex; background:var(--panel-2); border-radius:9px; padding:2px; margin-bottom:16px; }
@@ -1806,7 +1703,7 @@ function App() {
         .sheet{ width:100%; max-height:82%; background:var(--sayfa); border-radius:20px 20px 0 0; display:flex; flex-direction:column; transform:translateY(100%); transition:transform .3s cubic-bezier(.2,.8,.2,1); }
         .sheet-overlay.open .sheet{ transform:translateY(0); }
         .sheet-grabber{ width:36px; height:5px; background:var(--panel-3); border-radius:3px; margin:9px auto 4px; }
-        .sheet-header{ font-size:17px; font-weight:800; text-align:center; padding:6px 0 10px; color:var(--aksan); font-family:var(--font-poster); }
+        .sheet-header{ position:relative; font-size:17px; font-weight:800; text-align:center; padding:6px 72px 10px; color:var(--aksan); font-family:var(--font-poster); }
         .ios-search{ display:flex; align-items:center; gap:6px; background:var(--panel-2); border-radius:11px; padding:8px 10px; margin:0 16px 10px; color:var(--metin-soluk); }
         .ios-search input{ border:none; background:none; outline:none; font-size:15px; width:100%; color:var(--metin); font-family:var(--font-body); }
         .ios-search.district-search{ margin:0 0 12px; }
@@ -1825,6 +1722,9 @@ function App() {
 
         .rating-sheet{ max-height:92%; padding-bottom:20px; }
         .rating-top{ display:flex; align-items:center; justify-content:space-between; padding:10px 14px 4px; }
+        .sheet-kapat{ display:inline-flex; align-items:center; justify-content:center; width:52px; height:30px; border-radius:999px; background:var(--panel-2); border:1px solid var(--kenar); color:var(--metin); cursor:pointer; padding:0; flex-shrink:0; transition:transform .12s ease, background .12s ease; -webkit-tap-highlight-color:transparent; }
+        .sheet-kapat:active{ transform:scale(.93); background:var(--panel-3); }
+        .sheet-header .sheet-kapat{ position:absolute; right:14px; top:5px; }
         .rating-close{ background:var(--panel-2); border:none; border-radius:50%; width:30px; height:30px; display:flex; align-items:center; justify-content:center; color:var(--metin); cursor:pointer; }
         .rating-top-title{ font-size:16px; font-weight:800; color:var(--aksan); font-family:var(--font-poster); }
         .rating-send{ background:var(--aksan); border:none; border-radius:50%; width:34px; height:34px; display:flex; align-items:center; justify-content:center; color:#fff; cursor:pointer; }
@@ -1861,7 +1761,7 @@ function App() {
         <TabBar tab={tab} setTab={(t) => { setTab(t); setSelectedDistrict(null); setAboutSub(null); }} />
 
         <CityPicker open={pickerOpen} current={selectedIl} onClose={() => setPickerOpen(false)} onSelect={setSelectedIl} />
-        <DistrictSheet open={!!selectedDistrict} d={selectedDistrict} favorites={favorites} toggleFav={toggleFav} goCreateAlert={goCreateAlert} onClose={() => setSelectedDistrict(null)} />
+        <DistrictSheet open={!!selectedDistrict} d={selectedDistrict} favorites={favorites} toggleFav={toggleFav} onClose={() => setSelectedDistrict(null)} />
         <RatingSheet open={ratingOpen} onClose={() => setRatingOpen(false)} onSubmitted={() => {}} showToast={showToast} />
         <ThemePicker open={themePickerOpen} current={theme} onClose={() => setThemePickerOpen(false)} onSelect={changeTheme} accent={accent} onSelectAccent={changeAccent} />
         <Toast message={toast} />
