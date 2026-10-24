@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-10-24T02:12:09.710Z",
+  "guncelleme": "2026-10-24T14:57:51.719Z",
   "kaynaklar": [
-    "DUNYA",
+    "CNNTURK",
+    "STAR",
+    "YENISAFAK",
+    "MILLIYET",
     "CUMHURIYET",
     "HABERTURK",
-    "CNNTURK",
-    "YENISAFAK",
-    "SABAH",
     "BLOOMBERGHT"
   ],
   "beklenti": {
@@ -22,25 +22,31 @@
   },
   "haberler": [
     {
-      "baslik": "New York borsası düşüşle kapandı",
-      "ozet": "New York borsası, yapay zeka yatırımlarına ilişkin endişelerle teknoloji hisselerinde görülen satış baskısının diğer sektörlere yayılması ve Orta Doğu'da süren jeopolitik gerilimin petrol fiyatlarını yükseltmesiyle ha...",
-      "link": "https://www.dunya.com/finans/borsa/new-york-borsasi-dususle-kapandi-haberi-845074",
-      "tarih": "2026-10-23T20:58:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Altın ve borsa neden düşüyor? Uzman isim perde arkasını anlattı",
+      "ozet": "Küresel piyasalarda haftanın kapanışı negatif oldu. Brent petrolün varil fiyatı 117 doların üzerine çıkarken ons altın 4 bin doların altına geriledi, gram altın 6 bin 300 lira seviyelerini gördü. Altın son 3 ayın en d...",
+      "link": "https://www.cnnturk.com/video/ekonomi/altin-ve-borsa-neden-dusuyor-uzman-isim-perde-arkasini-anlatti-3483811",
+      "tarih": "2026-10-24T09:16:42.000Z",
+      "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Avrupa borsaları, İtalya hariç düşüşle kapandı",
-      "ozet": "Avrupa borsaları haftanın son işlem gününü Fransa'da devam eden protestolar ve artan petrol fiyatlarının etkisiyle İtalya hariç düşüşle tamamladı.",
-      "link": "https://www.dunya.com/finans/borsa/avrupa-borsalari-italya-haric-dususle-kapandi-haberi-845072",
-      "tarih": "2026-10-23T18:30:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "100 yıllık rüya canlandı! Bir ilimizde petrol müjdesi için tarihi adım",
+      "ozet": "Bayburt'ta 1926 ve 1930 yıllarında petrol arama çalışmaları yapılan bölgede, 2023 yılında alınan su ve çamur numunelerinin olumlu çıktığı açıklandı. Kent Konseyi, Orta Çimağıl, Saruhan, Kurbanpınar ve Uluçayır köyleri...",
+      "link": "https://www.star.com.tr/ekonomi/100-yillik-ruya-canlandi-bir-ilimizde-petrol-mujdesi-icin-tarihi-adim-haber-2048748/",
+      "tarih": "2026-10-24T06:37:00.000Z",
+      "kaynak": "STAR"
     },
     {
-      "baslik": "New York borsası düşüşle açıldı",
-      "ozet": "New York borsası, yapay zeka bağlantılı hisselerde yaşanan satış baskısı ve petrol fiyatlarındaki yükselişin etkisiyle haftanın son işlem gününe düşüşle başladı.",
-      "link": "https://www.dunya.com/finans/borsa/new-york-borsasi-dususle-acildi-haberi-845071",
-      "tarih": "2026-10-23T14:15:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Altın son 3 ayın dibini gördü: İki dev bankadan piyasaları sallayacak uyarı ve 2027 tahmini",
+      "ozet": "Altın, haftayı yaklaşık yüzde 4 kayıpla tamamlayarak 3 bin 975 dolara kadar geriledi ve son 3 ayın en düşük seviyesini gördü. Ons altındaki bu sert geri çekilmeye rağmen küresel finans devleri Goldman Sachs ve UBS uzu...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-son-3-ayin-dibini-gordu-iki-dev-bankadan-piyasalari-sallayacak-uyari-ve-2027-tahmini-4866871",
+      "tarih": "2026-10-24T06:22:52.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Brent petrolde 117 $’lık endişe",
+      "ozet": "İran, Suudi Arabistan ve Yemen’deki Husi isyancılar arasındaki gerginliklerin tırmanmasıyla Brent, varil başına 117 dolara yakın bir seviyeye yükseldi. İran ile savaşın gidişatı, ABD’de 3 Kasım’da yapılacak ara seçiml...",
+      "tarih": "2026-10-24T04:01:39.000Z",
+      "kaynak": "MILLIYET"
     },
     {
       "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
@@ -48,13 +54,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
       "tarih": "2026-10-23T13:48:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Piyasada kesinti korkusu! Petrol 5 ayın zirvesine çıktı",
-      "ozet": "Petrol piyasasında arz endişeleri fiyatları yeniden yukarı taşıdı. Suudi Arabistan'a yönelik Husi saldırıları ve Libya'daki üretim kayıpları izlenirken, Brent petrol 115 doları aşarak beş ayın zirvesine çıktı. ABD ham...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/piyasada-kesinti-korkusu-petrol-5-ayin-zirvesine-cikti-galeri-845047",
-      "tarih": "2026-10-23T13:28:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Petrol fiyatları 115 doları gördü",
@@ -76,13 +75,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/en-az-yakit-tuketen-otomobiller-belli-oldu-hem-benzin-hem-de-dizelde-listenin-basina-imza-atti-4866715",
       "tarih": "2026-10-23T11:02:48.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Almanya'dan rafineri hamlesi: Enerji güvenliği için yeni strateji",
-      "ozet": "Alman hükümeti, petrol rafinerilerinin uzun vadeli sürdürülebilirliğini güvence altına almak ve yeşil enerji dönüşümünü hızlandırmak amacıyla kapsamlı bir eylem planı başlattığını duyurdu.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/almanyadan-rafineri-hamlesi-enerji-guvenligi-icin-yeni-strateji-7686825",
-      "tarih": "2026-10-23T10:21:04.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "Akaryakıt pompalarında yeni dönem: Peş peşe gelen indirimler motorin ve benzin fiyatlarında dengeleri değiştirdi",
@@ -113,13 +105,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "BENZİNE YENİ İNDİRİM GELDİ! Akaryakıt Fiyatları Güncellendi: 22 Ekim Güncel Benzin, Motorin, LPG Fiyatı Ne? Benzine İndirim Mi Geldi, Ne Kadar?",
-      "ozet": "Benzine indirim, akaryakıt fiyatları, güncel benzin fiyatları araç sahiplerinin gündemindeki yerini koruyor. Akaryakıt sektöründe peş peşe gelen fiyat güncellemeleri sonrası benzine bir kez daha indirim uygulandı. Haf...",
-      "link": "https://www.cnnturk.com/ekonomi/benzine-yeni-indirim-geldi-akaryakit-fiyatlari-guncellendi-22-ekim-guncel-benzin-motorin-lpg-fiyati-ne-benzine-indirim-mi-geldi-ne-kadar-3482890",
-      "tarih": "2026-10-22T17:34:49.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
       "baslik": "Otomotiv devi fişi çekiyor: Benzinli araç üretimini durduracak",
       "ozet": "Otomobil dünyasında bir dönem kapanıyor. Japon devi Subaru, Avrupa pazarında benzinli ve hibrit modellerine veda etmeye hazırlanıyor. 2027 sonuna kadar içten yanmalı motorlu araç satışlarını bitirmeyi planlayan marka,...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/otomotiv-devi-fisi-cekiyor-benzinli-arac-uretimini-durduracak-4866510",
@@ -132,13 +117,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/dogalgazda-zam-ihtimali-gundemde-2027-icin-yuzde-21-lik-senaryo-2549186",
       "tarih": "2026-10-22T08:12:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine peş peşe indirim: Akaryakıt tabelaları gece yarısı değişti",
-      "ozet": "Brent petroldeki dalgalanmanın ardından akaryakıt fiyatlarında indirimler peş peşe geldi. Benzinin litre fiyatına 3,30 TL’lik bir indirim daha yapıldı. İndirim gece yarısı pompa fiyatlarına yansıdı. Araç sahipleri ise...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/benzine-pes-pese-indirim-akaryakit-tabelalari-gece-yarisi-degisti-4866365",
-      "tarih": "2026-10-22T07:02:09.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Benzine indirim geldi! 22 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
