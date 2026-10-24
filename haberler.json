@@ -1,10 +1,10 @@
 {
-  "guncelleme": "2026-10-24T14:57:51.719Z",
+  "guncelleme": "2026-10-24T22:02:46.855Z",
   "kaynaklar": [
+    "MILLIYET",
     "CNNTURK",
     "STAR",
     "YENISAFAK",
-    "MILLIYET",
     "CUMHURIYET",
     "HABERTURK",
     "BLOOMBERGHT"
@@ -21,6 +21,12 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "'Mekke ve Medine hedef alındı' iddiası! Suudi Arabistan: Husilerin fırlattığı 2 balistik füze havada imha edildi",
+      "ozet": "Suudi Arabistan Sivil Savunma Müdürlüğünün ABD merkezli X şirketinin sosyal medya platformundaki hesabından yapılan açıklamada, Husiler tarafından Mekke ve Medine bölgelerine fırlatılan 2 balistik füzenin şarapnel par...",
+      "tarih": "2026-10-24T18:56:33.000Z",
+      "kaynak": "MILLIYET"
+    },
     {
       "baslik": "Altın ve borsa neden düşüyor? Uzman isim perde arkasını anlattı",
       "ozet": "Küresel piyasalarda haftanın kapanışı negatif oldu. Brent petrolün varil fiyatı 117 doların üzerine çıkarken ons altın 4 bin doların altına geriledi, gram altın 6 bin 300 lira seviyelerini gördü. Altın son 3 ayın en d...",
