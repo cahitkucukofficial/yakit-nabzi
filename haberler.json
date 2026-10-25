@@ -1,15 +1,11 @@
 {
-  "guncelleme": "2026-10-25T08:46:22.650Z",
+  "guncelleme": "2026-10-25T22:08:06.784Z",
   "kaynaklar": [
-    "SABAH",
-    "DUNYA",
-    "MILLIYET",
     "CNNTURK",
-    "STAR",
+    "BLOOMBERGHT",
+    "SABAH",
     "YENISAFAK",
-    "CUMHURIYET",
-    "HABERTURK",
-    "BLOOMBERGHT"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -24,38 +20,25 @@
   },
   "haberler": [
     {
+      "baslik": "Yeni haftada piyasada beklenti ne?",
+      "ozet": "Orta Doğu'da yaşanan gelişmeler, merkez bankalarının faiz politikalarıyla birlikte, altın, dolar, petrol yön değiştirmeye devam ediyor. Peki yeni haftada piyasaları ne bekliyor? Uzmanların beklentileri ne yönde?",
+      "link": "https://www.cnnturk.com/video/ekonomi/yeni-haftada-piyasada-beklenti-ne-3484390",
+      "tarih": "2026-10-25T21:48:53.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Emtia piyasasında sert dalgalanma: Altın ve gümüş geriledi, petrol ve doğalgaz yükseldi",
+      "ozet": "Emtia piyasası, ABD Merkez Bankası'nın (Fed) faizleri daha uzun süre yüksek tutabileceğine yönelik öngörüler, jeopolitik riskler ve arz kaynaklı faktörlerle sert dalgalanmaların olduğu bir haftayı geride bıraktı. Orta...",
+      "link": "https://www.bloomberght.com/emtia-piyasasinda-bu-hafta-dalga-boyu-yukseldi-3792470",
+      "tarih": "2026-10-25T10:20:19.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Değerli metallerde sert kayıp! Altın ve gümüş fiyatları düşüşe geçti",
-      "ozet": "Emtia piyasaları FED'in faiz indirimlerine bir süre daha devam edeceği beklentileri ile şekillendi. Değerli metallerde değer kayıpları dikkat çekerken petrol son 4 yılın zirvesine oturdu. Baz metaller...Devamı için tı...",
+      "ozet": "Emtia piyasaları FED'in faiz artışlarına bir süre daha devam edeceği beklentileri ile şekillendi. Değerli metallerde değer kayıpları dikkat çekerken petrol son 4 yılın zirvesine oturdu. Baz metaller arasında...Devamı ...",
       "link": "https://www.sabah.com.tr/ekonomi/degerli-metallerde-sert-kayip-altin-ve-gumus-fiyatlari-dususe-gecti-7687955",
       "tarih": "2026-10-25T08:30:46.000Z",
       "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Altın düştü, enerji fiyatları sıçradı: Piyasalarda dengeler değişti",
-      "ozet": "Emtia piyasasında fiyatlar bu hafta farklı yönlere savruldu. Altın ve gümüş sert kayıplar yaşarken, Orta Doğu'daki çatışmalar petrol ve doğal gaz fiyatlarını yukarı taşıdı. Altının onsu temmuzdan bu yana ilk kez 4 bin...",
-      "link": "https://www.dunya.com/ekonomi/altin-dustu-enerji-fiyatlari-sicradi-piyasalarda-dengeler-degisti-haberi-845168",
-      "tarih": "2026-10-25T08:06:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Musk: 'Starlink kapatılacak olursa Ukrayna'nın cephe hattı derhal çöker'",
-      "ozet": "Musk, sosyal medya üzerinden konuya ilişkin açıklama yaptı. Starlink'in, İHA operasyonlarında insanları öldürmek amacıyla saldırı için kullanılmasına hiçbir zaman izin verilmediğini ve verilmemesi gerektiğini ifade ed...",
-      "tarih": "2026-10-25T06:37:05.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Petrol piyasasında yeni kriz: Tanker bulmak zorlaştı, maliyetler fırladı",
-      "ozet": "İran savaşı, küresel petrol ticaretinde nakliye krizini derinleştirdi. ABD'den Çin'e ham petrol taşımanın maliyeti ekim başında 80 milyon dolara kadar çıkarak savaş öncesindeki ortalama seviyelerin 10 katına ulaştı. R...",
-      "link": "https://www.dunya.com/ekonomi/petrol-piyasasinda-yeni-kriz-tanker-bulmak-zorlasti-maliyetler-firladi-haberi-845164",
-      "tarih": "2026-10-25T06:37:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Orta Doğu'nun enerji haritası değişebilir: Suriye için kritik plan",
-      "ozet": "Hürmüz Boğazı'nda enerji ticaretini etkileyen kısıtlamalar, Orta Doğu'dan Avrupa'ya uzanabilecek alternatif güzergâhları gündeme taşıdı. Yıllarca süren çatışmaların ardından enerji altyapısını yeniden kurmaya çalışan ...",
-      "link": "https://www.dunya.com/ekonomi/orta-dogunun-enerji-haritasi-degisebilir-suriye-icin-kritik-plan-haberi-845157",
-      "tarih": "2026-10-25T06:08:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Trump: İran savaşı bitecek, petrol fiyatları düşecek",
@@ -65,32 +48,11 @@
       "kaynak": "SABAH"
     },
     {
-      "baslik": "Bitcoin'de düşüş bitti mi? Sert satışların ardından kritik bekleyiş",
-      "ozet": "Kripto para piyasasında hafta sonu yaşanan sert satışların ardından Bitcoin yeniden 80 bin doların üzerine çıktı. Bir günde 810 milyon doları aşan pozisyonun tasfiye edilmesi, özellikle yükseliş bekleyen yatırımcıları...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/bitcoinde-dusus-bitti-mi-sert-satislarin-ardindan-kritik-bekleyis-galeri-845150",
-      "tarih": "2026-10-25T05:24:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Trump'tan petrol fiyatları açıklaması: Savaş bitince dramatik şekilde düşecek",
-      "ozet": "ABD Başkanı Donald Trump, İran'la savaşın yakında sona ereceğini belirterek, petrol fiyatlarında sert düşüş yaşanacağını öne sürdü. İran'ın askeri kapasitesine büyük darbe vurduklarını savunan Trump, Hürmüz Boğazı'nda...",
-      "link": "https://www.dunya.com/dunya/trumptan-petrol-fiyatlari-aciklamasi-savas-bitince-dramatik-sekilde-dusecek-haberi-845149",
-      "tarih": "2026-10-25T04:46:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Altın ve borsa neden düşüyor? Uzman isim perde arkasını anlattı",
       "ozet": "Küresel piyasalarda haftanın kapanışı negatif oldu. Brent petrolün varil fiyatı 117 doların üzerine çıkarken ons altın 4 bin doların altına geriledi, gram altın 6 bin 300 lira seviyelerini gördü. Altın son 3 ayın en d...",
       "link": "https://www.cnnturk.com/video/ekonomi/altin-ve-borsa-neden-dusuyor-uzman-isim-perde-arkasini-anlatti-3483811",
       "tarih": "2026-10-24T09:16:42.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "100 yıllık rüya canlandı! Bir ilimizde petrol müjdesi için tarihi adım",
-      "ozet": "Bayburt'ta 1926 ve 1930 yıllarında petrol arama çalışmaları yapılan bölgede, 2023 yılında alınan su ve çamur numunelerinin olumlu çıktığı açıklandı. Kent Konseyi, Orta Çimağıl, Saruhan, Kurbanpınar ve Uluçayır köyleri...",
-      "link": "https://www.star.com.tr/ekonomi/100-yillik-ruya-canlandi-bir-ilimizde-petrol-mujdesi-icin-tarihi-adim-haber-2048748/",
-      "tarih": "2026-10-24T06:37:00.000Z",
-      "kaynak": "STAR"
     },
     {
       "baslik": "Altın son 3 ayın dibini gördü: İki dev bankadan piyasaları sallayacak uyarı ve 2027 tahmini",
@@ -105,20 +67,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
       "tarih": "2026-10-23T13:48:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatları 115 doları gördü",
-      "ozet": "Petrol, Suudi Arabistan'a yönelik Husilerin saldırılarının enerji arzında yeni kesintilere yol açabileceği endişesiyle önceki seansta yüzde 4 yükselerek beş ayın zirvesine ulaşmasının ardından cuma günü de yükselişini...",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlari-115-dolari-gordu-3922051",
-      "tarih": "2026-10-23T13:10:06.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Petrol fiyatları beş ayın zirvesinde: Brent 114 dolara yaklaştı",
-      "ozet": "Suudi Arabistan'a yönelik Husi saldırıları ve ABD'nin İran'a karşı yeni operasyonlar düzenleyebileceğine ilişkin haberler, küresel petrol piyasalarında arz endişelerini artırdı. Gelişmelerin etkisiyle Brent petrolün v...",
-      "link": "https://www.cnnturk.com/ekonomi/petrol-fiyatlari-bes-ayin-zirvesinde-brent-114-dolara-yaklasti-3483519",
-      "tarih": "2026-10-23T11:24:59.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "En az yakıt tüketen otomobiller belli oldu! Hem benzin hem de dizelde listenin başına imza attı",
@@ -147,13 +95,6 @@
       "link": "https://www.bloomberght.com/petrolde-kritik-seviye-asildi-3792331",
       "tarih": "2026-10-23T03:32:36.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Günlük petrol üretimi 139 bin varile ulaştı",
-      "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, bütçe sunumunda yerli petrol ve doğal gaz üretimine ilişkin hedefleri açıkladı. Günlük petrol üretiminin 139 bin varile ulaştığını vurgulayan Yılmaz, 2027'de günlük gaz üretimin...",
-      "link": "https://www.yenisafak.com/ekonomi/gunluk-petrol-uretimi-139-bin-varile-ulasti-4866607",
-      "tarih": "2026-10-23T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Doğalgazda zam ihtimali gündemde: 2027 için yüzde 21’lik senaryo",
