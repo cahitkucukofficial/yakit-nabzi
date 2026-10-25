@@ -1,6 +1,8 @@
 {
-  "guncelleme": "2026-10-25T01:58:28.771Z",
+  "guncelleme": "2026-10-25T08:46:22.650Z",
   "kaynaklar": [
+    "SABAH",
+    "DUNYA",
     "MILLIYET",
     "CNNTURK",
     "STAR",
@@ -22,10 +24,59 @@
   },
   "haberler": [
     {
-      "baslik": "'Mekke ve Medine hedef alındı' iddiası! Suudi Arabistan: Husilerin fırlattığı 2 balistik füze havada imha edildi",
-      "ozet": "Suudi Arabistan Sivil Savunma Müdürlüğünün ABD merkezli X şirketinin sosyal medya platformundaki hesabından yapılan açıklamada, Husiler tarafından Mekke ve Medine bölgelerine fırlatılan 2 balistik füzenin şarapnel par...",
-      "tarih": "2026-10-24T18:56:33.000Z",
+      "baslik": "Değerli metallerde sert kayıp! Altın ve gümüş fiyatları düşüşe geçti",
+      "ozet": "Emtia piyasaları FED'in faiz indirimlerine bir süre daha devam edeceği beklentileri ile şekillendi. Değerli metallerde değer kayıpları dikkat çekerken petrol son 4 yılın zirvesine oturdu. Baz metaller...Devamı için tı...",
+      "link": "https://www.sabah.com.tr/ekonomi/degerli-metallerde-sert-kayip-altin-ve-gumus-fiyatlari-dususe-gecti-7687955",
+      "tarih": "2026-10-25T08:30:46.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Altın düştü, enerji fiyatları sıçradı: Piyasalarda dengeler değişti",
+      "ozet": "Emtia piyasasında fiyatlar bu hafta farklı yönlere savruldu. Altın ve gümüş sert kayıplar yaşarken, Orta Doğu'daki çatışmalar petrol ve doğal gaz fiyatlarını yukarı taşıdı. Altının onsu temmuzdan bu yana ilk kez 4 bin...",
+      "link": "https://www.dunya.com/ekonomi/altin-dustu-enerji-fiyatlari-sicradi-piyasalarda-dengeler-degisti-haberi-845168",
+      "tarih": "2026-10-25T08:06:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Musk: 'Starlink kapatılacak olursa Ukrayna'nın cephe hattı derhal çöker'",
+      "ozet": "Musk, sosyal medya üzerinden konuya ilişkin açıklama yaptı. Starlink'in, İHA operasyonlarında insanları öldürmek amacıyla saldırı için kullanılmasına hiçbir zaman izin verilmediğini ve verilmemesi gerektiğini ifade ed...",
+      "tarih": "2026-10-25T06:37:05.000Z",
       "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Petrol piyasasında yeni kriz: Tanker bulmak zorlaştı, maliyetler fırladı",
+      "ozet": "İran savaşı, küresel petrol ticaretinde nakliye krizini derinleştirdi. ABD'den Çin'e ham petrol taşımanın maliyeti ekim başında 80 milyon dolara kadar çıkarak savaş öncesindeki ortalama seviyelerin 10 katına ulaştı. R...",
+      "link": "https://www.dunya.com/ekonomi/petrol-piyasasinda-yeni-kriz-tanker-bulmak-zorlasti-maliyetler-firladi-haberi-845164",
+      "tarih": "2026-10-25T06:37:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Orta Doğu'nun enerji haritası değişebilir: Suriye için kritik plan",
+      "ozet": "Hürmüz Boğazı'nda enerji ticaretini etkileyen kısıtlamalar, Orta Doğu'dan Avrupa'ya uzanabilecek alternatif güzergâhları gündeme taşıdı. Yıllarca süren çatışmaların ardından enerji altyapısını yeniden kurmaya çalışan ...",
+      "link": "https://www.dunya.com/ekonomi/orta-dogunun-enerji-haritasi-degisebilir-suriye-icin-kritik-plan-haberi-845157",
+      "tarih": "2026-10-25T06:08:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Trump: İran savaşı bitecek, petrol fiyatları düşecek",
+      "ozet": "Petrol fiyatları hakkında açıklamalarda bulunan ABD Başkanı Donald Trump, İran savaşının yakında biteceğini söyleyerek \"Petrol fiyatları geçici olarak yüksek seyretse de savaş biter bitmez çok kısa bir...Devamı için t...",
+      "link": "https://www.sabah.com.tr/ekonomi/trump-iran-savasi-bitecek-petrol-fiyatlari-dusecek-7687868",
+      "tarih": "2026-10-25T05:49:14.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Bitcoin'de düşüş bitti mi? Sert satışların ardından kritik bekleyiş",
+      "ozet": "Kripto para piyasasında hafta sonu yaşanan sert satışların ardından Bitcoin yeniden 80 bin doların üzerine çıktı. Bir günde 810 milyon doları aşan pozisyonun tasfiye edilmesi, özellikle yükseliş bekleyen yatırımcıları...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/bitcoinde-dusus-bitti-mi-sert-satislarin-ardindan-kritik-bekleyis-galeri-845150",
+      "tarih": "2026-10-25T05:24:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Trump'tan petrol fiyatları açıklaması: Savaş bitince dramatik şekilde düşecek",
+      "ozet": "ABD Başkanı Donald Trump, İran'la savaşın yakında sona ereceğini belirterek, petrol fiyatlarında sert düşüş yaşanacağını öne sürdü. İran'ın askeri kapasitesine büyük darbe vurduklarını savunan Trump, Hürmüz Boğazı'nda...",
+      "link": "https://www.dunya.com/dunya/trumptan-petrol-fiyatlari-aciklamasi-savas-bitince-dramatik-sekilde-dusecek-haberi-845149",
+      "tarih": "2026-10-25T04:46:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
       "baslik": "Altın ve borsa neden düşüyor? Uzman isim perde arkasını anlattı",
@@ -47,12 +98,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/altin-son-3-ayin-dibini-gordu-iki-dev-bankadan-piyasalari-sallayacak-uyari-ve-2027-tahmini-4866871",
       "tarih": "2026-10-24T06:22:52.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Brent petrolde 117 $’lık endişe",
-      "ozet": "İran, Suudi Arabistan ve Yemen’deki Husi isyancılar arasındaki gerginliklerin tırmanmasıyla Brent, varil başına 117 dolara yakın bir seviyeye yükseldi. İran ile savaşın gidişatı, ABD’de 3 Kasım’da yapılacak ara seçiml...",
-      "tarih": "2026-10-24T04:01:39.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
@@ -108,13 +153,6 @@
       "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, bütçe sunumunda yerli petrol ve doğal gaz üretimine ilişkin hedefleri açıkladı. Günlük petrol üretiminin 139 bin varile ulaştığını vurgulayan Yılmaz, 2027'de günlük gaz üretimin...",
       "link": "https://www.yenisafak.com/ekonomi/gunluk-petrol-uretimi-139-bin-varile-ulasti-4866607",
       "tarih": "2026-10-23T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Otomotiv devi fişi çekiyor: Benzinli araç üretimini durduracak",
-      "ozet": "Otomobil dünyasında bir dönem kapanıyor. Japon devi Subaru, Avrupa pazarında benzinli ve hibrit modellerine veda etmeye hazırlanıyor. 2027 sonuna kadar içten yanmalı motorlu araç satışlarını bitirmeyi planlayan marka,...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/otomotiv-devi-fisi-cekiyor-benzinli-arac-uretimini-durduracak-4866510",
-      "tarih": "2026-10-22T13:39:27.000Z",
       "kaynak": "YENISAFAK"
     },
     {
