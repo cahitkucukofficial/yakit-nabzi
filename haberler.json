@@ -1,11 +1,11 @@
 {
-  "guncelleme": "2026-10-25T22:08:06.784Z",
+  "guncelleme": "2026-10-26T02:00:03.289Z",
   "kaynaklar": [
+    "CUMHURIYET",
+    "YENISAFAK",
     "CNNTURK",
     "BLOOMBERGHT",
-    "SABAH",
-    "YENISAFAK",
-    "CUMHURIYET"
+    "SABAH"
   ],
   "beklenti": {
     "motorin": {
@@ -19,6 +19,20 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
+      "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
+      "tarih": "2026-10-26T01:00:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Altın çakıldı: Onsu yeniden 4 bin doların altında",
+      "ozet": "Altının onsu, haftalık yüzde 4 düşüşle temmuzdan bu yana ilk kez 4 bin doların altına geriledi. Yükselen petrol fiyatlarının enflasyonu besleyeceği beklentisi yatırımcıların altına olan talebini zayıflattı.",
+      "link": "https://www.yenisafak.com/ekonomi/altin-cakildi-onsu-yeniden-4-bin-dolarin-altinda-4867238",
+      "tarih": "2026-10-26T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
     {
       "baslik": "Yeni haftada piyasada beklenti ne?",
       "ozet": "Orta Doğu'da yaşanan gelişmeler, merkez bankalarının faiz politikalarıyla birlikte, altın, dolar, petrol yön değiştirmeye devam ediyor. Peki yeni haftada piyasaları ne bekliyor? Uzmanların beklentileri ne yönde?",
@@ -73,13 +87,6 @@
       "ozet": "En az yakıt tüketen otomobiller, araç almayı planlayan sürücülerin gündeminde! 2026 yılının ilk 7 ayında otomobil sahibi olmak isteyen vatandaşlar, hem satın alma bütçelerine hem de kullanım maliyetlerine uygun modell...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/en-az-yakit-tuketen-otomobiller-belli-oldu-hem-benzin-hem-de-dizelde-listenin-basina-imza-atti-4866715",
       "tarih": "2026-10-23T11:02:48.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Akaryakıt pompalarında yeni dönem: Peş peşe gelen indirimler motorin ve benzin fiyatlarında dengeleri değiştirdi",
-      "ozet": "Akaryakıt pompalarında son günlerde yaşanan hareketlilik, araç sahiplerini şaşırtan tarihi bir tablo ortaya çıkardı. Peş peşe gelen fiyat güncellemelerinin ardından iki yakıt türü arasındaki makas hiç olmadığı kadar a...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-pompalarinda-yeni-donem-pes-pese-gelen-indirimler-motorin-ve-benzin-fiyatlarinda-dengeleri-degistirdi-4866687",
-      "tarih": "2026-10-23T08:31:26.000Z",
       "kaynak": "YENISAFAK"
     },
     {
@@ -157,13 +164,6 @@
       "ozet": "Akaryakıt fiyatlarında yeni bir indirim beklentisi oluştu. Sektör kaynakları benzinin litre fiyatında dikkat çekici bir düşüş yaşanacağını belirtirken, yeni tarifenin İstanbul, Ankara ve İzmir başta olmak üzere pompa ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-fiyatlarina-indirim-yolda-tabelalar-gece-yarisi-degisecek-2548053",
       "tarih": "2026-10-19T06:32:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrol 110 doları zorluyor: Akaryakıt fiyatlarında zam beklentisi",
-      "ozet": "Küresel piyasalarda Ortadoğu'da tırmanan jeopolitik gerilimler ve arz endişeleri, petrol fiyatlarında sert dalgalanmalara neden oldu. Güne sakin başlayan brent petrolün varil fiyatı, saatler içinde hızla değer kazanar...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-110-dolari-zorluyor-akaryakit-fiyatlarinda-zam-beklentisi-2547673",
-      "tarih": "2026-10-17T14:37:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
