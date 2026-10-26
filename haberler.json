@@ -1,13 +1,14 @@
 {
-  "guncelleme": "2026-10-26T17:45:07.170Z",
+  "guncelleme": "2026-10-26T23:24:50.086Z",
   "kaynaklar": [
+    "AA",
     "MILLIYET",
+    "DUNYA",
     "CNNTURK",
     "BLOOMBERGHT",
     "SABAH",
     "CUMHURIYET",
-    "YENISAFAK",
-    "AA"
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -22,10 +23,24 @@
   },
   "haberler": [
     {
-      "baslik": "Cumhurbaşkanı Erdoğan: Türkiye sokağa teslim edilemez",
-      "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, Cumhurbaşkanlığı Külliyesi'ndeki Kabine Toplantısı'nın ardından millete seslendi. Zonguldak'ta özel bir maden ocağında geçen hafta meydana gelen grizu patlamasında hayatını kaybeden...",
-      "tarih": "2026-10-26T17:44:12.000Z",
+      "baslik": "CREA: Hürmüz kaynaklı petrol şokunda en ağır yakıt faturasını ABD ödedi",
+      "ozet": "Enerji ve Temiz Hava Araştırma Merkezinin (CREA) analizi, Hürmüz Boğazı kaynaklı küresel petrol şokunun ABD'yi yakıt maliyetlerindeki artıştan en fazla etkilenen ülke haline getirdiğini ortaya koydu.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/crea-hurmuz-kaynakli-petrol-sokunda-en-agir-yakit-faturasini-abd-odedi/4101832",
+      "tarih": "2026-10-26T21:50:33.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "İran'dan 'müzakere' açıklaması: ABD 7 şartı kabul etmeli",
+      "ozet": "İran devlet televizyonuna konuşan Bakıri, İran ile ABD arasındaki müzakerelerin son durumuna ilişkin açıklamalarda bulundu. Bakıri, \"ABD'nin müzakere ve adil bir anlaşmaya varma konusunda ciddi bir iradesi varsa, öne ...",
+      "tarih": "2026-10-26T21:07:12.000Z",
       "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Türkiye, Suudi Arabistan ve Pakistan’dan İran’a kritik ziyaret",
+      "ozet": "Türkiye, Suudi Arabistan ve Pakistan’dan üst düzey yetkililerin İran’da güvenlik görüşmeleri yapması bekleniyor. Suudi Arabistan’a yönelik saldırıların arttığı dönemde gündeme gelen temas, Körfez’deki enerji tesisleri...",
+      "link": "https://www.dunya.com/dunya/turkiye-suudi-arabistan-ve-pakistandan-irana-kritik-ziyaret-haberi-845352",
+      "tarih": "2026-10-26T21:00:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
       "baslik": "Elektrik faturasında yeni dönem: 7 milyon aboneyi ilgilendiriyor",
@@ -33,12 +48,6 @@
       "link": "https://www.cnnturk.com/ekonomi/elektrik-faturasinda-yeni-donem-7-milyon-aboneyi-ilgilendiriyor-3484672",
       "tarih": "2026-10-26T14:08:01.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Bakan Bolat: Dünyanın önde gelen çelik üreticileri arasındayız",
-      "ozet": "Ticaret Bakanı Ömer Bolat, Çelik İhracatçıları Birliği'nin (ÇİB) desteğiyle düzenlenen Steel Networking Summits 2026'da yaptığı konuşmada, çelik imalatının, sanayinin, ekonominin ve savunmanın ana girdisi sektörlerden...",
-      "tarih": "2026-10-26T12:37:44.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "EPDK'dan emisyon ticaretinde şeffaf ve etkin piyasa hedefi",
@@ -116,13 +125,6 @@
       "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-10958-dolardan-islem-goruyor-4867296",
       "tarih": "2026-10-26T06:37:03.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Altın, yüksek petrol fiyatlarının baskısıyla 3 ayın en düşük seviyesine yakın",
-      "ozet": "Altın, geçen hafta yüzde 4,1 gerilemesinin ardından pazartesi günü Asya işlemlerinde yatay seyretti.",
-      "link": "https://www.bloomberght.com/altin-yuksek-petrol-fiyatlarinin-baskisiyla-3-ayin-en-dusuk-seviyesine-yakin-3792484",
-      "tarih": "2026-10-26T05:09:04.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
