@@ -1,11 +1,13 @@
 {
-  "guncelleme": "2026-10-26T02:00:03.289Z",
+  "guncelleme": "2026-10-26T17:45:07.170Z",
   "kaynaklar": [
-    "CUMHURIYET",
-    "YENISAFAK",
+    "MILLIYET",
     "CNNTURK",
     "BLOOMBERGHT",
-    "SABAH"
+    "SABAH",
+    "CUMHURIYET",
+    "YENISAFAK",
+    "AA"
   ],
   "beklenti": {
     "motorin": {
@@ -19,6 +21,109 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Cumhurbaşkanı Erdoğan: Türkiye sokağa teslim edilemez",
+      "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, Cumhurbaşkanlığı Külliyesi'ndeki Kabine Toplantısı'nın ardından millete seslendi. Zonguldak'ta özel bir maden ocağında geçen hafta meydana gelen grizu patlamasında hayatını kaybeden...",
+      "tarih": "2026-10-26T17:44:12.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Elektrik faturasında yeni dönem: 7 milyon aboneyi ilgilendiriyor",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 7 milyon abonenin sayaçlarının uzaktan okuma kapsamına alınmasının hedeflendi...",
+      "link": "https://www.cnnturk.com/ekonomi/elektrik-faturasinda-yeni-donem-7-milyon-aboneyi-ilgilendiriyor-3484672",
+      "tarih": "2026-10-26T14:08:01.000Z",
+      "kaynak": "CNNTURK"
+    },
+    {
+      "baslik": "Bakan Bolat: Dünyanın önde gelen çelik üreticileri arasındayız",
+      "ozet": "Ticaret Bakanı Ömer Bolat, Çelik İhracatçıları Birliği'nin (ÇİB) desteğiyle düzenlenen Steel Networking Summits 2026'da yaptığı konuşmada, çelik imalatının, sanayinin, ekonominin ve savunmanın ana girdisi sektörlerden...",
+      "tarih": "2026-10-26T12:37:44.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "EPDK'dan emisyon ticaretinde şeffaf ve etkin piyasa hedefi",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Türkiye'de emisyon azaltımını teşvik ederken enerji ve sanayi sektörlerinin rekabet gücünü de gözeten, güvenilir, şeffaf ve etkin işleyen bir Emisyon Tic...",
+      "link": "https://www.bloomberght.com/epdk-dan-emisyon-ticaretinde-seffaf-ve-etkin-piyasa-hedefi-3792538",
+      "tarih": "2026-10-26T11:27:19.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "7 milyon abonenin sayacı uzaktan okunacak",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 2,7 milyon Akıllı Sayaç PRO modelinin kurulmasının planlandığını belirterek, ...",
+      "link": "https://www.bloomberght.com/7-milyon-abonenin-sayaci-uzaktan-okunacak-3792537",
+      "tarih": "2026-10-26T11:22:48.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "EPDK'den emisyon ticareti hamlesi! Türkiye'de yeni piyasa dönemi başlıyor",
+      "ozet": "EPDK Başkanı Mustafa Yılmaz, Türkiye'de emisyon azaltımını teşvik ederken enerji ve sanayi sektörlerinin rekabet gücünü koruyacak bir Emisyon Ticaret Sistemi piyasası oluşturmayı hedeflediklerini açıkladı...Devamı içi...",
+      "link": "https://www.sabah.com.tr/ekonomi/epdkden-emisyon-ticareti-hamlesi-turkiyede-yeni-piyasa-donemi-basliyor-7688602",
+      "tarih": "2026-10-26T09:49:40.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
+      "ozet": "Akaryakıtta ÖTV kaynaklı yeni zam beklentisi gündeme geldi. Beklenen artışın uygulanması halinde benzin ve motorin fiyatlarının yeni eşikleri aşması beklenirken, zamların pompaya hangi tarihte yansıtılacağına ilişkin ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
+      "tarih": "2026-10-26T09:13:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Japon otomotiv devinden flaş karar: Efsane modeller için yolun sonu göründü",
+      "ozet": "Subaru, 2028 yılı itibarıyla Avrupa pazarında benzinli araç satışını tamamen durdurarak radikal bir döneme geçiyor. Sıkı emisyon kuralları ve artan maliyetler nedeniyle alınan bu karar, Forester ve Crosstrek gibi simg...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/japon-otomotiv-devinden-flas-karar-efsane-modeller-icin-yolun-sonu-gorundu-4867337",
+      "tarih": "2026-10-26T09:04:14.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "EPDK, emisyon ticaretinde şeffaf ve etkin piyasa yapısı oluşturmayı hedefliyor",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Türkiye'de emisyon azaltımını teşvik ederken güvenilir, şeffaf ve etkin işleyen bir Emisyon Ticaret Sistemi (ETS) piyasası oluşturmayı hedeflediklerini b...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/epdk-emisyon-ticaretinde-seffaf-ve-etkin-piyasa-yapisi-olusturmayi-hedefliyor/4100839",
+      "tarih": "2026-10-26T08:20:11.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Yaklaşık 7 milyon abonenin sayacı 2027 sonuna kadar uzaktan okuma kapsamına alınacak",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 7 milyon abonenin sayaçlarının uzaktan okuma kapsamına alınmasının hedeflendi...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/yaklasik-7-milyon-abonenin-sayaci-2027-sonuna-kadar-uzaktan-okuma-kapsamina-alinacak/4100783",
+      "tarih": "2026-10-26T07:54:03.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Benzin ve motorin fiyatlarında indirim beklentisi",
+      "ozet": "Orta Doğu’da çatışmaların yeniden alevlenebileceği endişelerine rağmen petrol fiyatları yüksek seviyelerinden geriledi. WTI ham petrol 102 doların, Brent petrol ise 110 doların altına inerken, gözler Türkiye’de benzin...",
+      "link": "https://www.yenisafak.com/ekonomi/benzin-ve-motorin-fiyatlarinda-indirim-beklentisi-arac-sahiplerine-her-an-mujde-gelebilir-4867303",
+      "tarih": "2026-10-26T07:12:28.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
+      "ozet": "Altın fiyatlarında satış baskısı sürerken analistler, kısa vadede yeni dip seviyelerinin görülebileceği uyarısında bulunuyor. Petrol fiyatlarındaki yükseliş, enflasyon endişeleri ve Fed’in faiz politikası altını baskı...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
+      "tarih": "2026-10-26T06:57:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Goldman Sachs'a göre petrol ürünü arzındaki zayıflık 2027'ye kadar sürecek",
+      "ozet": "Goldman Sachs Group'a göre, rafinerilerin ertelenmiş bakım çalışmalarını tamamlamaya çalışmaları nedeniyle rafine yakıt arzındaki zayıflığın 2027'ye kadar sürmesi muhtemel ve bu durum ihracatı da kısıtlayabilir.",
+      "link": "https://www.bloomberght.com/goldman-sachs-a-gore-petrol-urunu-arzindaki-zayiflik-2027-ye-kadar-surecek-3792500",
+      "tarih": "2026-10-26T06:54:20.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Brent petrolün varili 109,58 dolardan işlem görüyor",
+      "ozet": "Cuma günü 112,45 dolara kadar yükselen Brent petrolün aralık vadeli varil fiyatı, günü 111,7 dolardan tamamladı. Brent petrolün varil fiyatı, bugün saat 09.21 itibarıyla kapanışa göre yaklaşık yüzde 1,9 azalarak 109,5...",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-10958-dolardan-islem-goruyor-4867296",
+      "tarih": "2026-10-26T06:37:03.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Altın, yüksek petrol fiyatlarının baskısıyla 3 ayın en düşük seviyesine yakın",
+      "ozet": "Altın, geçen hafta yüzde 4,1 gerilemesinin ardından pazartesi günü Asya işlemlerinde yatay seyretti.",
+      "link": "https://www.bloomberght.com/altin-yuksek-petrol-fiyatlarinin-baskisiyla-3-ayin-en-dusuk-seviyesine-yakin-3792484",
+      "tarih": "2026-10-26T05:09:04.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
     {
       "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
       "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
@@ -39,27 +144,6 @@
       "link": "https://www.cnnturk.com/video/ekonomi/yeni-haftada-piyasada-beklenti-ne-3484390",
       "tarih": "2026-10-25T21:48:53.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Emtia piyasasında sert dalgalanma: Altın ve gümüş geriledi, petrol ve doğalgaz yükseldi",
-      "ozet": "Emtia piyasası, ABD Merkez Bankası'nın (Fed) faizleri daha uzun süre yüksek tutabileceğine yönelik öngörüler, jeopolitik riskler ve arz kaynaklı faktörlerle sert dalgalanmaların olduğu bir haftayı geride bıraktı. Orta...",
-      "link": "https://www.bloomberght.com/emtia-piyasasinda-bu-hafta-dalga-boyu-yukseldi-3792470",
-      "tarih": "2026-10-25T10:20:19.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Değerli metallerde sert kayıp! Altın ve gümüş fiyatları düşüşe geçti",
-      "ozet": "Emtia piyasaları FED'in faiz artışlarına bir süre daha devam edeceği beklentileri ile şekillendi. Değerli metallerde değer kayıpları dikkat çekerken petrol son 4 yılın zirvesine oturdu. Baz metaller arasında...Devamı ...",
-      "link": "https://www.sabah.com.tr/ekonomi/degerli-metallerde-sert-kayip-altin-ve-gumus-fiyatlari-dususe-gecti-7687955",
-      "tarih": "2026-10-25T08:30:46.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Trump: İran savaşı bitecek, petrol fiyatları düşecek",
-      "ozet": "Petrol fiyatları hakkında açıklamalarda bulunan ABD Başkanı Donald Trump, İran savaşının yakında biteceğini söyleyerek \"Petrol fiyatları geçici olarak yüksek seyretse de savaş biter bitmez çok kısa bir...Devamı için t...",
-      "link": "https://www.sabah.com.tr/ekonomi/trump-iran-savasi-bitecek-petrol-fiyatlari-dusecek-7687868",
-      "tarih": "2026-10-25T05:49:14.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "Altın ve borsa neden düşüyor? Uzman isim perde arkasını anlattı",
@@ -83,25 +167,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "En az yakıt tüketen otomobiller belli oldu! Hem benzin hem de dizelde listenin başına imza attı",
-      "ozet": "En az yakıt tüketen otomobiller, araç almayı planlayan sürücülerin gündeminde! 2026 yılının ilk 7 ayında otomobil sahibi olmak isteyen vatandaşlar, hem satın alma bütçelerine hem de kullanım maliyetlerine uygun modell...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/en-az-yakit-tuketen-otomobiller-belli-oldu-hem-benzin-hem-de-dizelde-listenin-basina-imza-atti-4866715",
-      "tarih": "2026-10-23T11:02:48.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Hürmüz Boğazı'nda kriz büyüyor: Petrole 'İran ve Libya' darbesi",
       "ozet": "Hürmüz Boğazı'nda tırmanan güvenlik endişeleri ve Libya'daki boru hattı kesintisi, küresel arz risklerini tetikleyerek Brent petrolün varil fiyatını 114 dolar seviyesinin üzerine taşıdı.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/hurmuz-bogazi-nda-kriz-buyuyor-petrole-iran-ve-libya-darbesi-2549511",
       "tarih": "2026-10-23T07:00:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrolde kritik seviye aşıldı",
-      "ozet": "Petrol, Suudi Arabistan'a yönelik Husilerin saldırılarının enerji arzında yeni kesintilere yol açabileceği endişesiyle önceki seansta yüzde 4 yükselerek beş ayın zirvesine ulaşmasının ardından cuma günü de yükselişini...",
-      "link": "https://www.bloomberght.com/petrolde-kritik-seviye-asildi-3792331",
-      "tarih": "2026-10-23T03:32:36.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Doğalgazda zam ihtimali gündemde: 2027 için yüzde 21’lik senaryo",
@@ -157,13 +227,6 @@
       "ozet": "EPDK, elektrik piyasasında teminat süreçlerinden depolama tesislerine ve lisanssız üretime kadar birçok başlığı kapsayan yeni düzenlemeleri duyurdu. Kullanıcılara fazla teminatların iadesi için süre sınırı getirilirke...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/epdk-den-elektrikte-yeni-duzenleme-fazla-teminatlar-10-is-gununde-iade-edilecek-2548134",
       "tarih": "2026-10-19T08:55:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzin fiyatlarına indirim yolda: Tabelalar gece yarısı değişecek",
-      "ozet": "Akaryakıt fiyatlarında yeni bir indirim beklentisi oluştu. Sektör kaynakları benzinin litre fiyatında dikkat çekici bir düşüş yaşanacağını belirtirken, yeni tarifenin İstanbul, Ankara ve İzmir başta olmak üzere pompa ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-fiyatlarina-indirim-yolda-tabelalar-gece-yarisi-degisecek-2548053",
-      "tarih": "2026-10-19T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
