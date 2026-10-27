@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-10-26T23:24:50.086Z",
+  "guncelleme": "2026-10-27T09:23:51.687Z",
   "kaynaklar": [
-    "AA",
-    "MILLIYET",
     "DUNYA",
-    "CNNTURK",
     "BLOOMBERGHT",
     "SABAH",
-    "CUMHURIYET",
-    "YENISAFAK"
+    "AA",
+    "MILLIYET",
+    "YENISAFAK",
+    "CNNTURK",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -23,24 +23,94 @@
   },
   "haberler": [
     {
+      "baslik": "Hürmüz'de saldırı rekoru: Gemi trafiği normalin yüzde 60'ına geriledi",
+      "ozet": "Hürmüz Boğazı ve çevresinde ekim ayında ticari gemilere yönelik 28 saldırı kaydedildi. Bölgedeki gemi trafiği normal seviyenin yaklaşık yüzde 60'ına inerken Körfez'den ham petrol ihracatı dört haftadır geriliyor. Güve...",
+      "link": "https://www.dunya.com/gundem/hurmuzde-saldiri-rekoru-gemi-trafigi-normalin-yuzde-60ina-geriledi-haberi-845447",
+      "tarih": "2026-10-27T08:58:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Endonezya'nın 10 yıllık devlet tahvili getirisi 4 yılın zirvesinde",
+      "ozet": "Endonezya'nın 10 yıllık devlet tahvili getirisi dört yılın zirvesine tırmanırken, rupi de rekor düşük seviyeye doğru geriledi. Yüksek seyreden petrol fiyatları ve MSCI'in hisse senetlerini gelişmekte olan ülke statüsü...",
+      "link": "https://www.bloomberght.com/endonezyanin-10-yillik-devlet-tahvili-getirisi-dort-yilin-zirvesinde-3792651",
+      "tarih": "2026-10-27T08:34:12.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Rusya'nın enerji gelirlerinde 1,14 trilyon rublelik kayıp",
+      "ozet": "Yükselen petrol fiyatlarına rağmen Rusya'nın enerji gelirleri düşüşe geçti. Rusya'nın başlıca ihraç petrolü Ural'ın varil fiyatı eylülde yıllık bazda yüzde 62 artarak 92 doları aşarken, ülkenin enerji...Devamı için tı...",
+      "link": "https://www.sabah.com.tr/ekonomi/rusyanin-enerji-gelirlerinde-114-trilyon-rublelik-kayip-7689309",
+      "tarih": "2026-10-27T08:31:53.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Petrol ve gıda fiyatlarında küresel arz şokları enflasyonu yukarı yönlü baskılıyor",
+      "ozet": "Jeopolitik çatışmalar, lojistik krizler, Orta Doğu'daki savaş ve El Nino kaynaklı kuraklığın eş zamanlı vurduğu küresel ekonomide, petrol ve gıda arzında yaşanan kırılmalar çoklu bir şoka dönüşerek enflasyonu kalıcı ş...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/petrol-ve-gida-fiyatlarinda-kuresel-arz-soklari-enflasyonu-yukari-yonlu-baskiliyor/4102091",
+      "tarih": "2026-10-27T08:19:48.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Gıdadan enerjiye fiyat baskısı büyüyor: Enflasyon krizi 2027'ye uzayabilir",
+      "ozet": "Savaş, kuraklık ve lojistik krizleri, gıda ve enerji fiyatlarını aynı anda yükselterek küresel enflasyon baskısını artırıyor. Gıda fiyatları yaklaşık dört yılın zirvesine çıkarken Brent petrol 114 doları aştı. Fiyat b...",
+      "link": "https://www.dunya.com/ekonomi/gidadan-enerjiye-fiyat-baskisi-buyuyor-enflasyon-krizi-2027ye-uzayabilir-haberi-845440",
+      "tarih": "2026-10-27T08:19:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Petrol fiyatlarındaki artış Rusya'nın enerji gelirlerindeki düşüşü önleyemedi",
+      "ozet": "Rusya'nın petrol ve doğal gaz gelirleri, yükselen petrol fiyatlarına rağmen güçlü ruble ve akaryakıt sektörüne yönelik destek ödemelerinin etkisiyle gerilerken, Ukrayna'nın rafinerilere yönelik İHA saldırıları da üret...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/petrol-fiyatlarindaki-artis-rusyanin-enerji-gelirlerindeki-dususu-onleyemedi/4102086",
+      "tarih": "2026-10-27T08:15:35.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Petrol şokunun maliyeti 468 milyar dolar: En çok etkilenen ülkeler belli oldu",
+      "ozet": "Petrol fiyatlarındaki yükseliş ve dizel yakıt kıtlığının tüm dünyadaki tüketicilere yönelik ekonomik yükü belli oldu. Enerji ve Temiz Hava Araştırma Merkezinin (CREA) analizine göre akaryakıt piyasalarındaki...Devamı ...",
+      "link": "https://www.sabah.com.tr/ekonomi/petrol-sokunun-maliyeti-468-milyar-dolar-en-cok-etkilenen-ulkeler-belli-oldu-7689185",
+      "tarih": "2026-10-27T06:17:12.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Hürmüz Boğazı tamamen kapalı! İran'dan açıklama geldi",
+      "ozet": "Dünya petrol ticaretinin can damarı olan Hürmüz Boğazı hakkında İran'dan açıklama geldi. İran Genelkurmay Başkanı Tümgeneral Ali Abdullahi, “ABD Başkanı’nın Hürmüz Boğazı’nın açık olduğu iddiasının aksine...Devamı içi...",
+      "link": "https://www.sabah.com.tr/ekonomi/hurmuz-bogazi-tamamen-kapali-irandan-aciklama-geldi-7689179",
+      "tarih": "2026-10-27T06:01:32.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "‘Üretim kabiliyetimiz tasarım ile buluşmalı’",
+      "ozet": "İsmail Şahin -Güneydoğu Anadolu Tekstil ve Hammaddeleri İhracatçıları Birliği (GATHİB) tarafından, T.C. Ticaret Bakanlığı desteği ve Türkiye İhracatçılar Meclisi (TİM) koordinasyonuyla düzenlenen 6. Doku Kumaş Tasarım...",
+      "tarih": "2026-10-27T04:01:41.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Petrol, barış umuduyla geriledi",
+      "ozet": "Petrol, ABD ve İsrail'in İran'a karşı yürüttüğü savaşın sona erebileceğine yönelik umutların arz endişelerini hafifletmesiyle salı günü geriledi.",
+      "link": "https://www.bloomberght.com/petrol-baris-umuduyla-geriledi-3792618",
+      "tarih": "2026-10-27T03:33:23.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "CREA: Hürmüz kaynaklı petrol şokunda en ağır yakıt faturasını ABD ödedi",
+      "ozet": "Enerji ve Temiz Hava Araştırma Merkezinin (CREA) analizi, Hürmüz Boğazı kaynaklı küresel petrol şokunun ABD'yi yakıt maliyetlerindeki artıştan en fazla etkilenen ülke haline getirdiğini ortaya koydu.",
+      "link": "https://www.bloomberght.com/crea-hurmuz-kaynakli-petrol-sokunda-en-agir-yakit-faturasini-abd-odedi-3792617",
+      "tarih": "2026-10-27T03:19:33.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Akıllı sayaç 7 milyon aboneye ulaşacak",
+      "ozet": "EPDK, Milli Akıllı Sayaç Sistemi kapsamında 2027 sonuna kadar yaklaşık 2,7 milyon Akıllı Sayaç PRO kurmayı hedefliyor. Dönüşümle yaklaşık 7 milyon abonenin uzaktan sayaç okuma sistemine dahil edilmesi, 15 milyon abone...",
+      "link": "https://www.yenisafak.com/ekonomi/akilli-sayac-7-milyon-aboneye-ulasacak-4867509",
+      "tarih": "2026-10-27T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
       "baslik": "CREA: Hürmüz kaynaklı petrol şokunda en ağır yakıt faturasını ABD ödedi",
       "ozet": "Enerji ve Temiz Hava Araştırma Merkezinin (CREA) analizi, Hürmüz Boğazı kaynaklı küresel petrol şokunun ABD'yi yakıt maliyetlerindeki artıştan en fazla etkilenen ülke haline getirdiğini ortaya koydu.",
       "link": "https://www.aa.com.tr/tr/ekonomi/crea-hurmuz-kaynakli-petrol-sokunda-en-agir-yakit-faturasini-abd-odedi/4101832",
       "tarih": "2026-10-26T21:50:33.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "İran'dan 'müzakere' açıklaması: ABD 7 şartı kabul etmeli",
-      "ozet": "İran devlet televizyonuna konuşan Bakıri, İran ile ABD arasındaki müzakerelerin son durumuna ilişkin açıklamalarda bulundu. Bakıri, \"ABD'nin müzakere ve adil bir anlaşmaya varma konusunda ciddi bir iradesi varsa, öne ...",
-      "tarih": "2026-10-26T21:07:12.000Z",
-      "kaynak": "MILLIYET"
-    },
-    {
-      "baslik": "Türkiye, Suudi Arabistan ve Pakistan’dan İran’a kritik ziyaret",
-      "ozet": "Türkiye, Suudi Arabistan ve Pakistan’dan üst düzey yetkililerin İran’da güvenlik görüşmeleri yapması bekleniyor. Suudi Arabistan’a yönelik saldırıların arttığı dönemde gündeme gelen temas, Körfez’deki enerji tesisleri...",
-      "link": "https://www.dunya.com/dunya/turkiye-suudi-arabistan-ve-pakistandan-irana-kritik-ziyaret-haberi-845352",
-      "tarih": "2026-10-26T21:00:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Elektrik faturasında yeni dönem: 7 milyon aboneyi ilgilendiriyor",
@@ -64,13 +134,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "EPDK'den emisyon ticareti hamlesi! Türkiye'de yeni piyasa dönemi başlıyor",
-      "ozet": "EPDK Başkanı Mustafa Yılmaz, Türkiye'de emisyon azaltımını teşvik ederken enerji ve sanayi sektörlerinin rekabet gücünü koruyacak bir Emisyon Ticaret Sistemi piyasası oluşturmayı hedeflediklerini açıkladı...Devamı içi...",
-      "link": "https://www.sabah.com.tr/ekonomi/epdkden-emisyon-ticareti-hamlesi-turkiyede-yeni-piyasa-donemi-basliyor-7688602",
-      "tarih": "2026-10-26T09:49:40.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
       "ozet": "Akaryakıtta ÖTV kaynaklı yeni zam beklentisi gündeme geldi. Beklenen artışın uygulanması halinde benzin ve motorin fiyatlarının yeni eşikleri aşması beklenirken, zamların pompaya hangi tarihte yansıtılacağına ilişkin ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
@@ -85,20 +148,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "EPDK, emisyon ticaretinde şeffaf ve etkin piyasa yapısı oluşturmayı hedefliyor",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Türkiye'de emisyon azaltımını teşvik ederken güvenilir, şeffaf ve etkin işleyen bir Emisyon Ticaret Sistemi (ETS) piyasası oluşturmayı hedeflediklerini b...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/epdk-emisyon-ticaretinde-seffaf-ve-etkin-piyasa-yapisi-olusturmayi-hedefliyor/4100839",
-      "tarih": "2026-10-26T08:20:11.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Yaklaşık 7 milyon abonenin sayacı 2027 sonuna kadar uzaktan okuma kapsamına alınacak",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 7 milyon abonenin sayaçlarının uzaktan okuma kapsamına alınmasının hedeflendi...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/yaklasik-7-milyon-abonenin-sayaci-2027-sonuna-kadar-uzaktan-okuma-kapsamina-alinacak/4100783",
-      "tarih": "2026-10-26T07:54:03.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Benzin ve motorin fiyatlarında indirim beklentisi",
       "ozet": "Orta Doğu’da çatışmaların yeniden alevlenebileceği endişelerine rağmen petrol fiyatları yüksek seviyelerinden geriledi. WTI ham petrol 102 doların, Brent petrol ise 110 doların altına inerken, gözler Türkiye’de benzin...",
       "link": "https://www.yenisafak.com/ekonomi/benzin-ve-motorin-fiyatlarinda-indirim-beklentisi-arac-sahiplerine-her-an-mujde-gelebilir-4867303",
@@ -111,13 +160,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
       "tarih": "2026-10-26T06:57:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Goldman Sachs'a göre petrol ürünü arzındaki zayıflık 2027'ye kadar sürecek",
-      "ozet": "Goldman Sachs Group'a göre, rafinerilerin ertelenmiş bakım çalışmalarını tamamlamaya çalışmaları nedeniyle rafine yakıt arzındaki zayıflığın 2027'ye kadar sürmesi muhtemel ve bu durum ihracatı da kısıtlayabilir.",
-      "link": "https://www.bloomberght.com/goldman-sachs-a-gore-petrol-urunu-arzindaki-zayiflik-2027-ye-kadar-surecek-3792500",
-      "tarih": "2026-10-26T06:54:20.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Brent petrolün varili 109,58 dolardan işlem görüyor",
@@ -153,13 +195,6 @@
       "link": "https://www.cnnturk.com/video/ekonomi/altin-ve-borsa-neden-dusuyor-uzman-isim-perde-arkasini-anlatti-3483811",
       "tarih": "2026-10-24T09:16:42.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "Altın son 3 ayın dibini gördü: İki dev bankadan piyasaları sallayacak uyarı ve 2027 tahmini",
-      "ozet": "Altın, haftayı yaklaşık yüzde 4 kayıpla tamamlayarak 3 bin 975 dolara kadar geriledi ve son 3 ayın en düşük seviyesini gördü. Ons altındaki bu sert geri çekilmeye rağmen küresel finans devleri Goldman Sachs ve UBS uzu...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-son-3-ayin-dibini-gordu-iki-dev-bankadan-piyasalari-sallayacak-uyari-ve-2027-tahmini-4866871",
-      "tarih": "2026-10-24T06:22:52.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
@@ -222,13 +257,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/20-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548413",
       "tarih": "2026-10-20T06:35:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "EPDK’den elektrikte yeni düzenleme: Fazla teminatlar 10 iş gününde iade edilecek",
-      "ozet": "EPDK, elektrik piyasasında teminat süreçlerinden depolama tesislerine ve lisanssız üretime kadar birçok başlığı kapsayan yeni düzenlemeleri duyurdu. Kullanıcılara fazla teminatların iadesi için süre sınırı getirilirke...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/epdk-den-elektrikte-yeni-duzenleme-fazla-teminatlar-10-is-gununde-iade-edilecek-2548134",
-      "tarih": "2026-10-19T08:55:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
