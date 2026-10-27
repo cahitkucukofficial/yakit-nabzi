@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-10-27T09:23:51.687Z",
+  "guncelleme": "2026-10-27T23:17:39.753Z",
   "kaynaklar": [
-    "DUNYA",
+    "MILLIYET",
     "BLOOMBERGHT",
     "SABAH",
+    "STAR",
     "AA",
-    "MILLIYET",
+    "CUMHURIYET",
     "YENISAFAK",
-    "CNNTURK",
-    "CUMHURIYET"
+    "CNNTURK"
   ],
   "beklenti": {
     "motorin": {
@@ -23,11 +23,52 @@
   },
   "haberler": [
     {
-      "baslik": "Hürmüz'de saldırı rekoru: Gemi trafiği normalin yüzde 60'ına geriledi",
-      "ozet": "Hürmüz Boğazı ve çevresinde ekim ayında ticari gemilere yönelik 28 saldırı kaydedildi. Bölgedeki gemi trafiği normal seviyenin yaklaşık yüzde 60'ına inerken Körfez'den ham petrol ihracatı dört haftadır geriliyor. Güve...",
-      "link": "https://www.dunya.com/gundem/hurmuzde-saldiri-rekoru-gemi-trafigi-normalin-yuzde-60ina-geriledi-haberi-845447",
-      "tarih": "2026-10-27T08:58:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Trump'a göre Venezuela bir gün 'ABD'nin 51. eyaleti' olabilir",
+      "ozet": "ABD Başkanı Trump, 3 Kasım'da yapılacak Kongre ara seçimleri yaklaşırken Texas'ta düzenlediği seçim mitinginde, dış politika gündemini değerlendirdi. Trump, Venezuela ile \"harika\" bir ilişkiye sahip olduklarını ve bu ...",
+      "tarih": "2026-10-27T21:10:48.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Türkiye ile İtalyan enerji devi Eni arasında petrolde işbirliği hazırlığı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin İtalyan enerji şirketi Eni ile petrol alanında büyük bir proje üzerinde çalıştığını ve yakında önemli bir duyuru yapılacağını açıkladı.",
+      "link": "https://www.bloomberght.com/turkiye-ile-italyan-enerji-devi-eni-arasinda-petrolde-isbirligi-hazirligi-3792695",
+      "tarih": "2026-10-27T16:08:27.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Bakan Bayraktar’dan İtalyan enerji şirketi ile işbirliği mesajı: “Bu büyük bir proje”",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, “İtalya-Türkiye Enerji Ortaklığı ve İş Eşleştirme Etkinliği\"nde konuşma gerçekleştirdi. Türkiye'nin İtalyan enerji şirketi Eni ile petrolde işbirliği...Devamı için...",
+      "link": "https://www.sabah.com.tr/ekonomi/bakan-bayraktardan-italyan-enerji-sirketi-ile-isbirligi-mesaji-bu-buyuk-bir-proje-7689546",
+      "tarih": "2026-10-27T15:20:28.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "'Büyük bir proje' diyerek ilan etti! Bakan Bayraktar'dan petrol müjdesi: Yakında önemli bir duyuru yapacağız",
+      "ozet": "Türkiye'nin petrol arama çalışmalarına yatırım yaptığını kaydeden Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin İtalyan enerji şirketi Eni ile petrolde işbirliği hedeflediğini belirterek, \"Petrol ş...",
+      "link": "https://www.star.com.tr/ekonomi/buyuk-bir-proje-diyerek-ilan-etti-bakan-bayraktardan-petrol-mujdesi-yakinda-onemli-bir-duy-haber-2049525/",
+      "tarih": "2026-10-27T15:17:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Bakan Bayraktar'dan İtalyan enerji şirketi Eni ile işbirliği mesajı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin İtalyan enerji şirketi Eni ile petrolde işbirliği hedeflediğini belirterek, \"Yakında Eni ile önemli bir duyuru yapacağız.\" dedi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktardan-italyan-enerji-sirketi-eni-ile-isbirligi-mesaji/4102700",
+      "tarih": "2026-10-27T15:01:45.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
+      "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
+      "tarih": "2026-10-27T12:49:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "İran'dan dünyanın en büyük tanker şirketine tehdit",
+      "ozet": "İran, son haftalarda Hürmüz Boğazı'ndan milyonlarca varil petrol taşıyan dünyanın en büyük petrol tanker işletmecisi Sinokor'a karşı \"yasal işlem\" başlatacağını açıkladı.",
+      "link": "https://www.bloomberght.com/iran-dan-dunyanin-en-buyuk-tanker-sirketine-tehdit-3792668",
+      "tarih": "2026-10-27T11:06:33.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Endonezya'nın 10 yıllık devlet tahvili getirisi 4 yılın zirvesinde",
@@ -37,13 +78,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Rusya'nın enerji gelirlerinde 1,14 trilyon rublelik kayıp",
-      "ozet": "Yükselen petrol fiyatlarına rağmen Rusya'nın enerji gelirleri düşüşe geçti. Rusya'nın başlıca ihraç petrolü Ural'ın varil fiyatı eylülde yıllık bazda yüzde 62 artarak 92 doları aşarken, ülkenin enerji...Devamı için tı...",
-      "link": "https://www.sabah.com.tr/ekonomi/rusyanin-enerji-gelirlerinde-114-trilyon-rublelik-kayip-7689309",
-      "tarih": "2026-10-27T08:31:53.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Petrol ve gıda fiyatlarında küresel arz şokları enflasyonu yukarı yönlü baskılıyor",
       "ozet": "Jeopolitik çatışmalar, lojistik krizler, Orta Doğu'daki savaş ve El Nino kaynaklı kuraklığın eş zamanlı vurduğu küresel ekonomide, petrol ve gıda arzında yaşanan kırılmalar çoklu bir şoka dönüşerek enflasyonu kalıcı ş...",
       "link": "https://www.aa.com.tr/tr/ekonomi/petrol-ve-gida-fiyatlarinda-kuresel-arz-soklari-enflasyonu-yukari-yonlu-baskiliyor/4102091",
@@ -51,38 +85,11 @@
       "kaynak": "AA"
     },
     {
-      "baslik": "Gıdadan enerjiye fiyat baskısı büyüyor: Enflasyon krizi 2027'ye uzayabilir",
-      "ozet": "Savaş, kuraklık ve lojistik krizleri, gıda ve enerji fiyatlarını aynı anda yükselterek küresel enflasyon baskısını artırıyor. Gıda fiyatları yaklaşık dört yılın zirvesine çıkarken Brent petrol 114 doları aştı. Fiyat b...",
-      "link": "https://www.dunya.com/ekonomi/gidadan-enerjiye-fiyat-baskisi-buyuyor-enflasyon-krizi-2027ye-uzayabilir-haberi-845440",
-      "tarih": "2026-10-27T08:19:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Petrol fiyatlarındaki artış Rusya'nın enerji gelirlerindeki düşüşü önleyemedi",
       "ozet": "Rusya'nın petrol ve doğal gaz gelirleri, yükselen petrol fiyatlarına rağmen güçlü ruble ve akaryakıt sektörüne yönelik destek ödemelerinin etkisiyle gerilerken, Ukrayna'nın rafinerilere yönelik İHA saldırıları da üret...",
       "link": "https://www.aa.com.tr/tr/ekonomi/petrol-fiyatlarindaki-artis-rusyanin-enerji-gelirlerindeki-dususu-onleyemedi/4102086",
       "tarih": "2026-10-27T08:15:35.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Petrol şokunun maliyeti 468 milyar dolar: En çok etkilenen ülkeler belli oldu",
-      "ozet": "Petrol fiyatlarındaki yükseliş ve dizel yakıt kıtlığının tüm dünyadaki tüketicilere yönelik ekonomik yükü belli oldu. Enerji ve Temiz Hava Araştırma Merkezinin (CREA) analizine göre akaryakıt piyasalarındaki...Devamı ...",
-      "link": "https://www.sabah.com.tr/ekonomi/petrol-sokunun-maliyeti-468-milyar-dolar-en-cok-etkilenen-ulkeler-belli-oldu-7689185",
-      "tarih": "2026-10-27T06:17:12.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Hürmüz Boğazı tamamen kapalı! İran'dan açıklama geldi",
-      "ozet": "Dünya petrol ticaretinin can damarı olan Hürmüz Boğazı hakkında İran'dan açıklama geldi. İran Genelkurmay Başkanı Tümgeneral Ali Abdullahi, “ABD Başkanı’nın Hürmüz Boğazı’nın açık olduğu iddiasının aksine...Devamı içi...",
-      "link": "https://www.sabah.com.tr/ekonomi/hurmuz-bogazi-tamamen-kapali-irandan-aciklama-geldi-7689179",
-      "tarih": "2026-10-27T06:01:32.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "‘Üretim kabiliyetimiz tasarım ile buluşmalı’",
-      "ozet": "İsmail Şahin -Güneydoğu Anadolu Tekstil ve Hammaddeleri İhracatçıları Birliği (GATHİB) tarafından, T.C. Ticaret Bakanlığı desteği ve Türkiye İhracatçılar Meclisi (TİM) koordinasyonuyla düzenlenen 6. Doku Kumaş Tasarım...",
-      "tarih": "2026-10-27T04:01:41.000Z",
-      "kaynak": "MILLIYET"
     },
     {
       "baslik": "Petrol, barış umuduyla geriledi",
@@ -106,32 +113,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "CREA: Hürmüz kaynaklı petrol şokunda en ağır yakıt faturasını ABD ödedi",
-      "ozet": "Enerji ve Temiz Hava Araştırma Merkezinin (CREA) analizi, Hürmüz Boğazı kaynaklı küresel petrol şokunun ABD'yi yakıt maliyetlerindeki artıştan en fazla etkilenen ülke haline getirdiğini ortaya koydu.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/crea-hurmuz-kaynakli-petrol-sokunda-en-agir-yakit-faturasini-abd-odedi/4101832",
-      "tarih": "2026-10-26T21:50:33.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Elektrik faturasında yeni dönem: 7 milyon aboneyi ilgilendiriyor",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 7 milyon abonenin sayaçlarının uzaktan okuma kapsamına alınmasının hedeflendi...",
       "link": "https://www.cnnturk.com/ekonomi/elektrik-faturasinda-yeni-donem-7-milyon-aboneyi-ilgilendiriyor-3484672",
       "tarih": "2026-10-26T14:08:01.000Z",
       "kaynak": "CNNTURK"
-    },
-    {
-      "baslik": "EPDK'dan emisyon ticaretinde şeffaf ve etkin piyasa hedefi",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Türkiye'de emisyon azaltımını teşvik ederken enerji ve sanayi sektörlerinin rekabet gücünü de gözeten, güvenilir, şeffaf ve etkin işleyen bir Emisyon Tic...",
-      "link": "https://www.bloomberght.com/epdk-dan-emisyon-ticaretinde-seffaf-ve-etkin-piyasa-hedefi-3792538",
-      "tarih": "2026-10-26T11:27:19.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "7 milyon abonenin sayacı uzaktan okunacak",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 2,7 milyon Akıllı Sayaç PRO modelinin kurulmasının planlandığını belirterek, ...",
-      "link": "https://www.bloomberght.com/7-milyon-abonenin-sayaci-uzaktan-okunacak-3792537",
-      "tarih": "2026-10-26T11:22:48.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
@@ -190,13 +176,6 @@
       "kaynak": "CNNTURK"
     },
     {
-      "baslik": "Altın ve borsa neden düşüyor? Uzman isim perde arkasını anlattı",
-      "ozet": "Küresel piyasalarda haftanın kapanışı negatif oldu. Brent petrolün varil fiyatı 117 doların üzerine çıkarken ons altın 4 bin doların altına geriledi, gram altın 6 bin 300 lira seviyelerini gördü. Altın son 3 ayın en d...",
-      "link": "https://www.cnnturk.com/video/ekonomi/altin-ve-borsa-neden-dusuyor-uzman-isim-perde-arkasini-anlatti-3483811",
-      "tarih": "2026-10-24T09:16:42.000Z",
-      "kaynak": "CNNTURK"
-    },
-    {
       "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
       "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
@@ -250,13 +229,6 @@
       "ozet": "Petrol fiyatları, Batı Asya’da enerji tesisleri ve sevkiyat hatlarına yönelik artan tehditlerle yükselişini hızlandırdı. Bölgedeki yeni saldırı iddiaları ve İran’a yönelik askeri operasyon ihtimali, küresel arz endişe...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-111-dolari-asti-bati-asya-daki-gerilim-fiyatlari-yukari-tasidi-2548504",
       "tarih": "2026-10-20T09:46:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "20 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/20-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548413",
-      "tarih": "2026-10-20T06:35:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
