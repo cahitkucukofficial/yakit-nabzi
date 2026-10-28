@@ -1,13 +1,11 @@
 {
-  "guncelleme": "2026-10-28T02:46:33.007Z",
+  "guncelleme": "2026-10-28T10:05:29.982Z",
   "kaynaklar": [
-    "MILLIYET",
-    "BLOOMBERGHT",
-    "SABAH",
-    "STAR",
+    "DUNYA",
     "AA",
-    "CUMHURIYET",
     "YENISAFAK",
+    "BLOOMBERGHT",
+    "CUMHURIYET",
     "CNNTURK"
   ],
   "beklenti": {
@@ -23,10 +21,46 @@
   },
   "haberler": [
     {
-      "baslik": "Trump'a göre Venezuela bir gün 'ABD'nin 51. eyaleti' olabilir",
-      "ozet": "ABD Başkanı Trump, 3 Kasım'da yapılacak Kongre ara seçimleri yaklaşırken Texas'ta düzenlediği seçim mitinginde, dış politika gündemini değerlendirdi. Trump, Venezuela ile \"harika\" bir ilişkiye sahip olduklarını ve bu ...",
-      "tarih": "2026-10-27T21:10:48.000Z",
-      "kaynak": "MILLIYET"
+      "baslik": "Suudi petrol tesislerine saldırılarda Rus uydu izi",
+      "ozet": "Suudi Arabistan'ın petrol tesislerini hedef alan saldırılarla Rus keşif uydularının hareketleri arasında dikkat çekici bağlantılar belirlendi. Temmuz-ekim dönemindeki 40 saldırıyı inceleyen araştırma, petrol arz güven...",
+      "link": "https://www.dunya.com/gundem/suudi-petrol-tesislerine-saldirilarda-rus-uydu-izi-haberi-845598",
+      "tarih": "2026-10-28T09:48:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Avrupa borsaları negatif seyrediyor",
+      "ozet": "Avrupa borsaları, Avrupa Merkez Bankasının (ECB) faiz kararı öncesi yatırımcıların temkinli hareket etmesi ve petrol fiyatlarındaki yükselişin etkisiyle negatif seyrediyor.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/avrupa-borsalari-negatif-seyrediyor/4103473",
+      "tarih": "2026-10-28T08:38:14.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Araç sahipleri depoları doldurmak için acele edin: Akaryakıtta tabela değişecek",
+      "ozet": "Suudi Arabistan’daki petrol rafinerisine yönelik saldırı, küresel arz endişelerini artırarak petrol fiyatlarını yukarı çekti. Brent petrolün varil fiyatı 115 doları aşarken, akaryakıtta yeni zam beklentisi oluştu. ÖTV...",
+      "link": "https://www.yenisafak.com/ekonomi/arac-sahipleri-depolari-doldurmak-icin-acele-edin-akaryakitta-tabela-degisecek-4867856",
+      "tarih": "2026-10-28T06:48:19.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Küresel piyasalarda gözler Fed'in faiz kararında: İşte piyasalarda son durum",
+      "ozet": "Küresel piyasaların merakla beklediği gün geldi; tüm gözler bugün açıklanacak ABD Merkez Bankası (Fed) faiz kararına ve sonrasında verilecek kritik mesajlara çevrildi. Yapay zeka yatırımlarının rüzgarını arkasına alan...",
+      "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarda-gozler-fedin-faiz-kararinda-iste-piyasalarda-son-durum-4867851",
+      "tarih": "2026-10-28T06:33:34.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Trump, petrol ve gaz sektöründe metan kurallarını gevşetmeyi önerdi",
+      "ozet": "ABD Başkanı Donald Trump, petrol ve doğalgaz sektöründeki metan emisyonu düzenlemelerinin gevşetilmesini önerdi.",
+      "link": "https://www.bloomberght.com/trump-petrol-ve-gaz-sektorunde-metan-kurallarini-gevsetmeyi-onerdi-3792712",
+      "tarih": "2026-10-28T04:59:41.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol Suudi Arabistan'daki rafineri saldırısıyla yükseldi",
+      "ozet": "Petrol, dünyanın en büyük ham petrol ihracatçısı Suudi Arabistan'daki bir rafineriye yönelik saldırının Orta Doğu'daki arz risklerine ilişkin endişeleri artırmasıyla çarşamba günü yükseldi.",
+      "link": "https://www.bloomberght.com/petrol-suudi-arabistandaki-rafineri-saldirisiyla-yukseltti-3792709",
+      "tarih": "2026-10-28T02:49:58.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Türkiye ile İtalyan enerji devi Eni arasında petrolde işbirliği hazırlığı",
@@ -34,20 +68,6 @@
       "link": "https://www.bloomberght.com/turkiye-ile-italyan-enerji-devi-eni-arasinda-petrolde-isbirligi-hazirligi-3792695",
       "tarih": "2026-10-27T16:08:27.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Bakan Bayraktar’dan İtalyan enerji şirketi ile işbirliği mesajı: “Bu büyük bir proje”",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, “İtalya-Türkiye Enerji Ortaklığı ve İş Eşleştirme Etkinliği\"nde konuşma gerçekleştirdi. Türkiye'nin İtalyan enerji şirketi Eni ile petrolde işbirliği...Devamı için...",
-      "link": "https://www.sabah.com.tr/ekonomi/bakan-bayraktardan-italyan-enerji-sirketi-ile-isbirligi-mesaji-bu-buyuk-bir-proje-7689546",
-      "tarih": "2026-10-27T15:20:28.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "'Büyük bir proje' diyerek ilan etti! Bakan Bayraktar'dan petrol müjdesi: Yakında önemli bir duyuru yapacağız",
-      "ozet": "Türkiye'nin petrol arama çalışmalarına yatırım yaptığını kaydeden Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin İtalyan enerji şirketi Eni ile petrolde işbirliği hedeflediğini belirterek, \"Petrol ş...",
-      "link": "https://www.star.com.tr/ekonomi/buyuk-bir-proje-diyerek-ilan-etti-bakan-bayraktardan-petrol-mujdesi-yakinda-onemli-bir-duy-haber-2049525/",
-      "tarih": "2026-10-27T15:17:00.000Z",
-      "kaynak": "STAR"
     },
     {
       "baslik": "Bakan Bayraktar'dan İtalyan enerji şirketi Eni ile işbirliği mesajı",
@@ -75,27 +95,6 @@
       "ozet": "Endonezya'nın 10 yıllık devlet tahvili getirisi dört yılın zirvesine tırmanırken, rupi de rekor düşük seviyeye doğru geriledi. Yüksek seyreden petrol fiyatları ve MSCI'in hisse senetlerini gelişmekte olan ülke statüsü...",
       "link": "https://www.bloomberght.com/endonezyanin-10-yillik-devlet-tahvili-getirisi-dort-yilin-zirvesinde-3792651",
       "tarih": "2026-10-27T08:34:12.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol ve gıda fiyatlarında küresel arz şokları enflasyonu yukarı yönlü baskılıyor",
-      "ozet": "Jeopolitik çatışmalar, lojistik krizler, Orta Doğu'daki savaş ve El Nino kaynaklı kuraklığın eş zamanlı vurduğu küresel ekonomide, petrol ve gıda arzında yaşanan kırılmalar çoklu bir şoka dönüşerek enflasyonu kalıcı ş...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/petrol-ve-gida-fiyatlarinda-kuresel-arz-soklari-enflasyonu-yukari-yonlu-baskiliyor/4102091",
-      "tarih": "2026-10-27T08:19:48.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Petrol fiyatlarındaki artış Rusya'nın enerji gelirlerindeki düşüşü önleyemedi",
-      "ozet": "Rusya'nın petrol ve doğal gaz gelirleri, yükselen petrol fiyatlarına rağmen güçlü ruble ve akaryakıt sektörüne yönelik destek ödemelerinin etkisiyle gerilerken, Ukrayna'nın rafinerilere yönelik İHA saldırıları da üret...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/petrol-fiyatlarindaki-artis-rusyanin-enerji-gelirlerindeki-dususu-onleyemedi/4102086",
-      "tarih": "2026-10-27T08:15:35.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Petrol, barış umuduyla geriledi",
-      "ozet": "Petrol, ABD ve İsrail'in İran'a karşı yürüttüğü savaşın sona erebileceğine yönelik umutların arz endişelerini hafifletmesiyle salı günü geriledi.",
-      "link": "https://www.bloomberght.com/petrol-baris-umuduyla-geriledi-3792618",
-      "tarih": "2026-10-27T03:33:23.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
@@ -127,13 +126,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Benzin ve motorin fiyatlarında indirim beklentisi",
-      "ozet": "Orta Doğu’da çatışmaların yeniden alevlenebileceği endişelerine rağmen petrol fiyatları yüksek seviyelerinden geriledi. WTI ham petrol 102 doların, Brent petrol ise 110 doların altına inerken, gözler Türkiye’de benzin...",
-      "link": "https://www.yenisafak.com/ekonomi/benzin-ve-motorin-fiyatlarinda-indirim-beklentisi-arac-sahiplerine-her-an-mujde-gelebilir-4867303",
-      "tarih": "2026-10-26T07:12:28.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
       "ozet": "Altın fiyatlarında satış baskısı sürerken analistler, kısa vadede yeni dip seviyelerinin görülebileceği uyarısında bulunuyor. Petrol fiyatlarındaki yükseliş, enflasyon endişeleri ve Fed’in faiz politikası altını baskı...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
@@ -141,25 +133,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Brent petrolün varili 109,58 dolardan işlem görüyor",
-      "ozet": "Cuma günü 112,45 dolara kadar yükselen Brent petrolün aralık vadeli varil fiyatı, günü 111,7 dolardan tamamladı. Brent petrolün varil fiyatı, bugün saat 09.21 itibarıyla kapanışa göre yaklaşık yüzde 1,9 azalarak 109,5...",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-10958-dolardan-islem-goruyor-4867296",
-      "tarih": "2026-10-26T06:37:03.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
       "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
       "tarih": "2026-10-26T01:00:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın çakıldı: Onsu yeniden 4 bin doların altında",
-      "ozet": "Altının onsu, haftalık yüzde 4 düşüşle temmuzdan bu yana ilk kez 4 bin doların altına geriledi. Yükselen petrol fiyatlarının enflasyonu besleyeceği beklentisi yatırımcıların altına olan talebini zayıflattı.",
-      "link": "https://www.yenisafak.com/ekonomi/altin-cakildi-onsu-yeniden-4-bin-dolarin-altinda-4867238",
-      "tarih": "2026-10-26T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Yeni haftada piyasada beklenti ne?",
@@ -215,13 +193,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-yeni-indirim-21-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548770",
       "tarih": "2026-10-21T06:32:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrol 111 doları aştı: Batı Asya’daki gerilim fiyatları yukarı taşıdı",
-      "ozet": "Petrol fiyatları, Batı Asya’da enerji tesisleri ve sevkiyat hatlarına yönelik artan tehditlerle yükselişini hızlandırdı. Bölgedeki yeni saldırı iddiaları ve İran’a yönelik askeri operasyon ihtimali, küresel arz endişe...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-111-dolari-asti-bati-asya-daki-gerilim-fiyatlari-yukari-tasidi-2548504",
-      "tarih": "2026-10-20T09:46:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
