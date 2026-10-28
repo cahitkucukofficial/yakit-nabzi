@@ -1,7 +1,6 @@
 {
-  "guncelleme": "2026-10-28T17:30:05.800Z",
+  "guncelleme": "2026-10-28T23:40:45.529Z",
   "kaynaklar": [
-    "DUNYA",
     "AA",
     "HABERTURK",
     "YENISAFAK",
@@ -21,27 +20,6 @@
     }
   },
   "haberler": [
-    {
-      "baslik": "Dünya Bankası'ndan altın ve gümüş için heyecanlandıran tahmin",
-      "ozet": "Altındaki sert çakılma yatırımcıyı sarsarken, Dünya Bankası'ndan piyasaları altüst edecek yeni rapor geldi! Petrol için 'son 40 yılın' en kritik uyarısı yapılırken, gıda krizini tetikleyecek yüzde 18'lik tırmanışın de...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/dunya-bankasindan-altin-ve-gumus-icin-heyecanlandiran-tahmin-galeri-845632",
-      "tarih": "2026-10-28T14:31:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "UBS petrolde tahminleri yükseltti! 2026 ve 2027 beklentileri değişti",
-      "ozet": "Brent petrolün varil fiyatı, Suudi Arabistan'daki rafineri saldırısının ardından 115 doları aştı. UBS ise 2026 sonu beklentisini 100 dolardan 110 dolara çıkarırken 2027 tahminlerini de yükseltti. Banka, Orta Doğu'daki...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/ubs-petrolde-tahminleri-yukseltti-2026-ve-2027-beklentileri-degisti-galeri-845626",
-      "tarih": "2026-10-28T13:32:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Motorin fiyatları için 2027 uyarısı! Yüksek fiyatlar sürebilir",
-      "ozet": "AB Komisyonu'nun Enerjiden Sorumlu Üyesi Dan Jorgensen, motorin piyasasındaki arz sıkışıklığının 2027'nin ilerleyen dönemlerine kadar sürmesini ve fiyatların yüksek kalmasını beklediklerini açıkladı. Artan yakıt fatur...",
-      "link": "https://www.dunya.com/enerji/motorin-fiyatlari-icin-2027-uyarisi-yuksek-fiyatlar-surebilir-haberi-845623",
-      "tarih": "2026-10-28T12:45:00.000Z",
-      "kaynak": "DUNYA"
-    },
     {
       "baslik": "AB, dizel piyasasındaki sıkışıklığın gelecek yıl sürmesini bekliyor",
       "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, küresel motorin piyasasındaki arz sıkışıklığının 2027'nin ilerleyen dönemlerine kadar sürmesini ve fiyatların yüksek kalmasını beklediklerini bil...",
@@ -111,13 +89,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
       "tarih": "2026-10-27T12:49:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "İran'dan dünyanın en büyük tanker şirketine tehdit",
-      "ozet": "İran, son haftalarda Hürmüz Boğazı'ndan milyonlarca varil petrol taşıyan dünyanın en büyük petrol tanker işletmecisi Sinokor'a karşı \"yasal işlem\" başlatacağını açıkladı.",
-      "link": "https://www.bloomberght.com/iran-dan-dunyanin-en-buyuk-tanker-sirketine-tehdit-3792668",
-      "tarih": "2026-10-27T11:06:33.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Akıllı sayaç 7 milyon aboneye ulaşacak",
