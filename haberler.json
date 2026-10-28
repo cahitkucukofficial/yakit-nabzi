@@ -1,8 +1,9 @@
 {
-  "guncelleme": "2026-10-28T10:05:29.982Z",
+  "guncelleme": "2026-10-28T17:30:05.800Z",
   "kaynaklar": [
     "DUNYA",
     "AA",
+    "HABERTURK",
     "YENISAFAK",
     "BLOOMBERGHT",
     "CUMHURIYET",
@@ -21,17 +22,52 @@
   },
   "haberler": [
     {
-      "baslik": "Suudi petrol tesislerine saldırılarda Rus uydu izi",
-      "ozet": "Suudi Arabistan'ın petrol tesislerini hedef alan saldırılarla Rus keşif uydularının hareketleri arasında dikkat çekici bağlantılar belirlendi. Temmuz-ekim dönemindeki 40 saldırıyı inceleyen araştırma, petrol arz güven...",
-      "link": "https://www.dunya.com/gundem/suudi-petrol-tesislerine-saldirilarda-rus-uydu-izi-haberi-845598",
-      "tarih": "2026-10-28T09:48:00.000Z",
+      "baslik": "Dünya Bankası'ndan altın ve gümüş için heyecanlandıran tahmin",
+      "ozet": "Altındaki sert çakılma yatırımcıyı sarsarken, Dünya Bankası'ndan piyasaları altüst edecek yeni rapor geldi! Petrol için 'son 40 yılın' en kritik uyarısı yapılırken, gıda krizini tetikleyecek yüzde 18'lik tırmanışın de...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/dunya-bankasindan-altin-ve-gumus-icin-heyecanlandiran-tahmin-galeri-845632",
+      "tarih": "2026-10-28T14:31:00.000Z",
       "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "UBS petrolde tahminleri yükseltti! 2026 ve 2027 beklentileri değişti",
+      "ozet": "Brent petrolün varil fiyatı, Suudi Arabistan'daki rafineri saldırısının ardından 115 doları aştı. UBS ise 2026 sonu beklentisini 100 dolardan 110 dolara çıkarırken 2027 tahminlerini de yükseltti. Banka, Orta Doğu'daki...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/ubs-petrolde-tahminleri-yukseltti-2026-ve-2027-beklentileri-degisti-galeri-845626",
+      "tarih": "2026-10-28T13:32:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Motorin fiyatları için 2027 uyarısı! Yüksek fiyatlar sürebilir",
+      "ozet": "AB Komisyonu'nun Enerjiden Sorumlu Üyesi Dan Jorgensen, motorin piyasasındaki arz sıkışıklığının 2027'nin ilerleyen dönemlerine kadar sürmesini ve fiyatların yüksek kalmasını beklediklerini açıkladı. Artan yakıt fatur...",
+      "link": "https://www.dunya.com/enerji/motorin-fiyatlari-icin-2027-uyarisi-yuksek-fiyatlar-surebilir-haberi-845623",
+      "tarih": "2026-10-28T12:45:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "AB, dizel piyasasındaki sıkışıklığın gelecek yıl sürmesini bekliyor",
+      "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, küresel motorin piyasasındaki arz sıkışıklığının 2027'nin ilerleyen dönemlerine kadar sürmesini ve fiyatların yüksek kalmasını beklediklerini bil...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/ab-dizel-piyasasindaki-sikisikligin-gelecek-yil-surmesini-bekliyor/4103821",
+      "tarih": "2026-10-28T12:42:11.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Petrol fiyatlarında yükseliş sürüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 115,81 dolardan işlem görüyor",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-yukselis-suruyor-3923172",
+      "tarih": "2026-10-28T11:32:56.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Avrupa borsaları negatif seyrediyor",
       "ozet": "Avrupa borsaları, Avrupa Merkez Bankasının (ECB) faiz kararı öncesi yatırımcıların temkinli hareket etmesi ve petrol fiyatlarındaki yükselişin etkisiyle negatif seyrediyor.",
       "link": "https://www.aa.com.tr/tr/ekonomi/avrupa-borsalari-negatif-seyrediyor/4103473",
       "tarih": "2026-10-28T08:38:14.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Türkiye'nin elektrik sektöründe son 50 yılda köklü dönüşüm yaşandı",
+      "ozet": "Türkiye'nin elektrik kurulu gücü, Cumhuriyet'in ilk yıllarındaki 33 megavattan yaklaşık 127 bin megavata yükselirken, son 50 yılda petrol krizleri, piyasa reformları ve yenilenebilir enerji yatırımları sektörün dönüşü...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/turkiyenin-elektrik-sektorunde-son-50-yilda-koklu-donusum-yasandi/4103451",
+      "tarih": "2026-10-28T08:23:23.000Z",
       "kaynak": "AA"
     },
     {
@@ -70,13 +106,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Bakan Bayraktar'dan İtalyan enerji şirketi Eni ile işbirliği mesajı",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin İtalyan enerji şirketi Eni ile petrolde işbirliği hedeflediğini belirterek, \"Yakında Eni ile önemli bir duyuru yapacağız.\" dedi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktardan-italyan-enerji-sirketi-eni-ile-isbirligi-mesaji/4102700",
-      "tarih": "2026-10-27T15:01:45.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
       "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
@@ -88,13 +117,6 @@
       "ozet": "İran, son haftalarda Hürmüz Boğazı'ndan milyonlarca varil petrol taşıyan dünyanın en büyük petrol tanker işletmecisi Sinokor'a karşı \"yasal işlem\" başlatacağını açıkladı.",
       "link": "https://www.bloomberght.com/iran-dan-dunyanin-en-buyuk-tanker-sirketine-tehdit-3792668",
       "tarih": "2026-10-27T11:06:33.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Endonezya'nın 10 yıllık devlet tahvili getirisi 4 yılın zirvesinde",
-      "ozet": "Endonezya'nın 10 yıllık devlet tahvili getirisi dört yılın zirvesine tırmanırken, rupi de rekor düşük seviyeye doğru geriledi. Yüksek seyreden petrol fiyatları ve MSCI'in hisse senetlerini gelişmekte olan ülke statüsü...",
-      "link": "https://www.bloomberght.com/endonezyanin-10-yillik-devlet-tahvili-getirisi-dort-yilin-zirvesinde-3792651",
-      "tarih": "2026-10-27T08:34:12.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
@@ -117,13 +139,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
       "tarih": "2026-10-26T09:13:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Japon otomotiv devinden flaş karar: Efsane modeller için yolun sonu göründü",
-      "ozet": "Subaru, 2028 yılı itibarıyla Avrupa pazarında benzinli araç satışını tamamen durdurarak radikal bir döneme geçiyor. Sıkı emisyon kuralları ve artan maliyetler nedeniyle alınan bu karar, Forester ve Crosstrek gibi simg...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/japon-otomotiv-devinden-flas-karar-efsane-modeller-icin-yolun-sonu-gorundu-4867337",
-      "tarih": "2026-10-26T09:04:14.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
@@ -179,20 +194,6 @@
       "ozet": "Altın fiyatlarında petrol ve faiz baskısı sürerken, gözler Fed’in ekim toplantısı ile ABD enflasyon verilerine çevrildi. Ons altındaki zayıf seyir gram altına da yansırken, yatırımcılar faiz beklentilerindeki değişimi...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dususun-sebebi-ne-uc-kritik-gelisme-one-cikti-2548834",
       "tarih": "2026-10-21T08:24:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine bir indirim daha geliyor: Yeni fiyatlar ne kadar olacak?",
-      "ozet": "Benzin fiyatlarında peş peşe gelen indirimlerin ardından sürücüler için yeni bir düşüş beklentisi oluştu. Yeni tarifenin pompaya yansımasıyla benzin fiyatlarında bu haftaki gerilemenin daha da belirginleşmesi bekleniyor.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-bir-indirim-daha-geliyor-yeni-fiyatlar-ne-kadar-olacak-2548771",
-      "tarih": "2026-10-21T06:35:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine yeni indirim: 21 Ekim Akaryakıt fiyatları ne kadar? Benzine, mazota, motorine zam veya indirim var mı? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-yeni-indirim-21-ekim-akaryakit-fiyatlari-ne-kadar-benzine-mazota-motorine-zam-veya-indirim-var-mi-guncel-yakit-fiyatlari-kac-tl-2548770",
-      "tarih": "2026-10-21T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
