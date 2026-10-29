@@ -393,6 +393,28 @@ const ACCENTS = {
   adacayi: { name: "Adaçayı", hex: "#4C8C6B" },
 };
 const ACCENT_ORDER = ["terrakota", "altin", "turkuaz", "gul", "adacayi"];
+
+// Serbest palet: 8 renk ailesi × 5 ton + 8 gri = 48 hücre (vurgu rengi olarak okunaklı tonlar)
+function hslHex(h, s, l) {
+  s /= 100; l /= 100;
+  const k = (n) => (n + h / 30) % 12;
+  const a = s * Math.min(l, 1 - l);
+  const f = (n) => l - a * Math.max(-1, Math.min(k(n) - 3, Math.min(9 - k(n), 1)));
+  const x = (v) => Math.round(v * 255).toString(16).padStart(2, "0");
+  return ("#" + x(f(0)) + x(f(8)) + x(f(4))).toUpperCase();
+}
+const SERBEST_PALET = (() => {
+  const tonlar = [30, 38, 46, 54, 62];
+  const liste = [];
+  tonlar.forEach((l) => [0, 24, 45, 125, 175, 210, 270, 325].forEach((h) => liste.push(hslHex(h, 62, l))));
+  [14, 22, 30, 38, 46, 54, 62, 70].forEach((l) => liste.push(hslHex(215, 8, l)));
+  return liste;
+})();
+const HEX_GECERLI = /^#[0-9a-f]{6}$/i;
+function accentHex(accent, ozel) {
+  if (accent === "ozel" && HEX_GECERLI.test(ozel || "")) return ozel;
+  return (ACCENTS[accent] || ACCENTS.terrakota).hex;
+}
 const FUEL_ORDER = ["motorin", "benzin", "lpg"];
 
 
@@ -1128,13 +1150,20 @@ function KaynakContent() {
 }
 
 /* ---------- tema seçici (açılır sayfa) ---------- */
-function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent }) {
+function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent, ozelRenk, onSelectOzel }) {
+  const [paletAcik, setPaletAcik] = useState(false); // serbest palet varsayılan kapalı, V ile açılır
+  const listeRef = useRef(null);
+  const paletiDegistir = () => {
+    const yeni = !paletAcik;
+    setPaletAcik(yeni);
+    if (yeni) setTimeout(() => { if (listeRef.current) listeRef.current.scrollTo({ top: listeRef.current.scrollHeight, behavior: "smooth" }); }, 60);
+  };
   return (
     <div className={"sheet-overlay" + (open ? " open" : "")} onClick={onClose}>
       <div className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-grabber" />
         <div className="sheet-header">Görünüm<SheetKapat onClose={onClose} /></div>
-        <div className="sheet-list">
+        <div className="sheet-list" ref={listeRef}>
           <div className="ios-card">
             {THEME_ORDER.map((key) => {
               const t = THEMES[key];
@@ -1167,6 +1196,26 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent 
               );
             })}
           </div>
+
+          <button className="ios-section-header sticky palet-baslik" onClick={paletiDegistir} aria-expanded={paletAcik}>
+            <span>Serbest Palet</span>
+            <span className="palet-baslik-sag">
+              {!paletAcik && accent === "ozel" && ozelRenk && <span className="accent-dot palet-mini" style={{ background: ozelRenk }} />}
+              <Icon.chevronDown className={"palet-ok" + (paletAcik ? " acik" : "")} />
+            </span>
+          </button>
+          {paletAcik && <div className="ios-card palet-kart">
+            <div className="palet-grid">
+              {SERBEST_PALET.map((hex) => {
+                const secili = accent === "ozel" && ozelRenk === hex;
+                return (
+                  <button key={hex} className={"palet-hucre" + (secili ? " secili" : "")} style={{ background: hex }} onClick={() => onSelectOzel(hex)} aria-label={hex}>
+                    {secili && <Icon.check className="palet-tik" />}
+                  </button>
+                );
+              })}
+            </div>
+          </div>}
           <div className="ios-section-footer">Seçtiğin görünüm bu cihazda kaydedilir.</div>
         </div>
       </div>
@@ -1286,6 +1335,7 @@ function App() {
   const [aboutSub, setAboutSub] = useState(null);
   const [theme, setTheme] = useState("saha");
   const [accent, setAccent] = useState("terrakota");
+  const [ozelRenk, setOzelRenk] = useState(null); // serbest paletten seçilen vurgu rengi (accent === "ozel")
   const [themePickerOpen, setThemePickerOpen] = useState(false);
   const [ready, setReady] = useState(false);
   const [toast, setToast] = useState("");
@@ -1369,7 +1419,8 @@ function App() {
         if (prefsRes?.value) {
           const p = JSON.parse(prefsRes.value);
           if (p.theme && THEMES[p.theme]) setTheme(p.theme);
-          if (p.accent && ACCENTS[p.accent]) setAccent(p.accent);
+          if (p.accent === "ozel" && HEX_GECERLI.test(p.ozelRenk || "")) { setAccent("ozel"); setOzelRenk(p.ozelRenk); }
+          else if (p.accent && ACCENTS[p.accent]) setAccent(p.accent);
           loadedFromPrefs = true;
         }
       } catch (e) {}
@@ -1412,11 +1463,16 @@ function App() {
   }, []);
   const changeTheme = useCallback((key) => {
     setTheme(key);
-    persistPrefs({ theme: key, accent });
-  }, [persistPrefs, accent]);
+    persistPrefs({ theme: key, accent, ozelRenk });
+  }, [persistPrefs, accent, ozelRenk]);
   const changeAccent = useCallback((key) => {
     setAccent(key);
-    persistPrefs({ theme, accent: key });
+    persistPrefs({ theme, accent: key, ozelRenk });
+  }, [persistPrefs, theme, ozelRenk]);
+  const changeOzelRenk = useCallback((hex) => {
+    setOzelRenk(hex);
+    setAccent("ozel");
+    persistPrefs({ theme, accent: "ozel", ozelRenk: hex });
   }, [persistPrefs, theme]);
 
   const toggleFav = useCallback((id) => {
@@ -1533,7 +1589,7 @@ function App() {
   const backLabel = "Hakkında";
   const backAction = () => setAboutSub(null);
   const titleText = tab === "hakkinda" && aboutSub ? SUB_TITLES[aboutSub] : TAB_TITLES[tab];
-  const themeVars = { ...THEMES[theme].vars, "--aksan": ACCENTS[accent].hex };
+  const themeVars = { ...THEMES[theme].vars, "--aksan": accentHex(accent, ozelRenk) };
 
   return (
     <div className="app-root" style={themeVars} data-theme={theme}>
@@ -1724,6 +1780,17 @@ function App() {
         .check-icon{ color:var(--aksan); }
         .theme-row-left{ display:flex; align-items:center; gap:11px; }
         .theme-swatch{ display:flex; width:26px; height:26px; border-radius:8px; overflow:hidden; flex-shrink:0; border:1px solid rgba(0,0,0,0.08); }
+        .palet-baslik{ display:flex; align-items:center; justify-content:space-between; width:100%; background:none; border:none; margin:0; cursor:pointer; text-align:left; box-sizing:border-box; }
+        .palet-baslik-sag{ display:flex; align-items:center; gap:8px; }
+        .accent-dot.palet-mini{ width:16px; height:16px; }
+        .palet-ok{ width:16px; height:16px; transition:transform .2s ease; }
+        .palet-ok.acik{ transform:rotate(180deg); }
+        .palet-kart{ padding:12px; }
+        .palet-grid{ display:grid; grid-template-columns:repeat(8, 1fr); gap:6px; }
+        .palet-hucre{ aspect-ratio:1; border-radius:10px; border:1px solid rgba(0,0,0,0.12); padding:0; cursor:pointer; display:flex; align-items:center; justify-content:center; -webkit-tap-highlight-color:transparent; }
+        .palet-hucre:active{ transform:scale(.92); }
+        .palet-hucre.secili{ outline:2px solid var(--metin); outline-offset:2px; }
+        .palet-tik{ width:16px; height:16px; color:#fff; filter:drop-shadow(0 0 2px rgba(0,0,0,0.7)); }
         .accent-dot{ width:22px; height:22px; border-radius:50%; flex-shrink:0; border:1px solid rgba(0,0,0,0.08); }
         .theme-swatch span{ flex:1; }
         .empty{ text-align:center; color:var(--metin-soluk); font-size:13px; padding:24px 0; }
@@ -1778,7 +1845,7 @@ function App() {
 
         <CityPicker open={pickerOpen} current={selectedIl} onClose={() => setPickerOpen(false)} onSelect={setSelectedIl} />
         <DistrictSheet open={!!selectedDistrict} d={selectedDistrict} favorites={favorites} toggleFav={toggleFav} onClose={() => setSelectedDistrict(null)} />
-        <ThemePicker open={themePickerOpen} current={theme} onClose={() => setThemePickerOpen(false)} onSelect={changeTheme} accent={accent} onSelectAccent={changeAccent} />
+        <ThemePicker open={themePickerOpen} current={theme} onClose={() => setThemePickerOpen(false)} onSelect={changeTheme} accent={accent} onSelectAccent={changeAccent} ozelRenk={ozelRenk} onSelectOzel={changeOzelRenk} />
         <Toast message={toast} />
       </div>
     </div>
