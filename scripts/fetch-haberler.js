@@ -106,7 +106,10 @@ function temizleOzet(html) {
 
 async function kaynaktanCek(kaynak) {
   try {
-    const feed = await parser.parseURL(kaynak.rss);
+    const feed = await Promise.race([
+      parser.parseURL(kaynak.rss),
+      new Promise((_, reddet) => setTimeout(() => reddet(new Error("zaman aşımı (20 sn)")), 20000)),
+    ]);
     return (feed.items || [])
       .filter((item) => icerirAnahtarKelime(item.title, item.contentSnippet))
       .map((item) => ({
@@ -184,20 +187,25 @@ const URUN_DESENLERI = {
    arıyoruz. Istek sayisini sinirliyoruz (TAM_METIN_SINIRI) ki calisma
    suresi kontrolsuz uzamasin. */
 const TAM_METIN_SINIRI = 12;
+const TAM_METIN_ZAMAN_ASIMI_MS = 8000;      // tek makale: istek + gövde dahil en fazla 8 sn
+const TAM_METIN_TOPLAM_BUTCE_MS = 90000;    // tüm tam-metin işleri için toplam 90 sn
+const BASLANGIC_ZAMANI = Date.now();
 let tamMetinKullanilan = 0;
 
 async function tamMetniCek(url) {
   if (!url) return null;
+  if (Date.now() - BASLANGIC_ZAMANI > TAM_METIN_TOPLAM_BUTCE_MS) return null; // bütçe bitti, atla
+  const controller = new AbortController();
+  // Zaman aşımı sayfa gövdesi okunana kadar AKTİF kalır (eskiden başlıklar gelince iptal ediliyordu,
+  // gövdesi takılan bir site çalışmayı dakikalarca bekletebiliyordu)
+  const zamanAsimi = setTimeout(() => controller.abort(), TAM_METIN_ZAMAN_ASIMI_MS);
   try {
-    const controller = new AbortController();
-    const zamanAsimi = setTimeout(() => controller.abort(), 10000);
     const res = await fetch(url, {
       signal: controller.signal,
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
       },
     });
-    clearTimeout(zamanAsimi);
     if (!res.ok) { console.log("[tam-metin] HTTP " + res.status + ": " + url); return null; }
     const html = await res.text();
     // Kaba ama yeterli HTML->duz metin donusumu: script/style'i at, etiketleri
@@ -215,6 +223,8 @@ async function tamMetniCek(url) {
   } catch (e) {
     console.log("[tam-metin] hata (" + (e && e.message) + "): " + url);
     return null;
+  } finally {
+    clearTimeout(zamanAsimi);
   }
 }
 
