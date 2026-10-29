@@ -1770,7 +1770,11 @@ function App() {
           {ready && body}
         </div>
 
-        <TabBar haberlerAcik={haberlerAcik} tab={tab} setTab={(t) => { setTab(t); setSelectedDistrict(null); setAboutSub(null); }} />
+        <TabBar haberlerAcik={haberlerAcik} tab={tab} setTab={(t) => {
+          // Açık sekmeye ikinci kez basılınca liste en üste kayar (iOS alışkanlığı)
+          if (t === tab && scrollRef.current) scrollRef.current.scrollTo({ top: 0, behavior: "smooth" });
+          setTab(t); setSelectedDistrict(null); setAboutSub(null);
+        }} />
 
         <CityPicker open={pickerOpen} current={selectedIl} onClose={() => setPickerOpen(false)} onSelect={setSelectedIl} />
         <DistrictSheet open={!!selectedDistrict} d={selectedDistrict} favorites={favorites} toggleFav={toggleFav} onClose={() => setSelectedDistrict(null)} />
