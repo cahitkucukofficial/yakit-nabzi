@@ -1,13 +1,11 @@
 {
-  "guncelleme": "2026-10-29T10:29:40.833Z",
+  "guncelleme": "2026-10-29T16:31:37.821Z",
   "kaynaklar": [
-    "DUNYA",
     "BLOOMBERGHT",
     "YENISAFAK",
     "CUMHURIYET",
     "HABERTURK",
-    "AA",
-    "CNNTURK"
+    "AA"
   ],
   "beklenti": {
     "motorin": {
@@ -21,13 +19,6 @@
     }
   },
   "haberler": [
-    {
-      "baslik": "Vergi, motorin, çip... Otomotivde hesaplar değişiyor",
-      "ozet": "ABD’de otomobil devlerinin gelirleri yükselirken, artan üretim ve taşıma giderleri kârlılığı zorluyor. Yeni araçların ortalama fiyatı 50 bin doları aşarken, gümrük vergileri, pahalı motorin ve çip maliyetleri şirketle...",
-      "link": "https://www.dunya.com/foto-galeri/otomotiv/vergi-motorin-cip-otomotivde-hesaplar-degisiyor-galeri-845715",
-      "tarih": "2026-10-29T09:24:00.000Z",
-      "kaynak": "DUNYA"
-    },
     {
       "baslik": "ABD'nin ticari ham petrol stokları geriledi",
       "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 900 bin varil azaldı.",
@@ -106,25 +97,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Petrol Suudi Arabistan'daki rafineri saldırısıyla yükseldi",
-      "ozet": "Petrol, dünyanın en büyük ham petrol ihracatçısı Suudi Arabistan'daki bir rafineriye yönelik saldırının Orta Doğu'daki arz risklerine ilişkin endişeleri artırmasıyla çarşamba günü yükseldi.",
-      "link": "https://www.bloomberght.com/petrol-suudi-arabistandaki-rafineri-saldirisiyla-yukseltti-3792709",
-      "tarih": "2026-10-28T02:49:58.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
       "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
       "tarih": "2026-10-27T12:49:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Elektrik faturasında yeni dönem: 7 milyon aboneyi ilgilendiriyor",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Milli Akıllı Sayaç Sistemi (MASS) kapsamında 2027'nin sonuna kadar yaklaşık 7 milyon abonenin sayaçlarının uzaktan okuma kapsamına alınmasının hedeflendi...",
-      "link": "https://www.cnnturk.com/ekonomi/elektrik-faturasinda-yeni-donem-7-milyon-aboneyi-ilgilendiriyor-3484672",
-      "tarih": "2026-10-26T14:08:01.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
@@ -146,13 +123,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
       "tarih": "2026-10-26T01:00:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yeni haftada piyasada beklenti ne?",
-      "ozet": "Orta Doğu'da yaşanan gelişmeler, merkez bankalarının faiz politikalarıyla birlikte, altın, dolar, petrol yön değiştirmeye devam ediyor. Peki yeni haftada piyasaları ne bekliyor? Uzmanların beklentileri ne yönde?",
-      "link": "https://www.cnnturk.com/video/ekonomi/yeni-haftada-piyasada-beklenti-ne-3484390",
-      "tarih": "2026-10-25T21:48:53.000Z",
-      "kaynak": "CNNTURK"
     },
     {
       "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
