@@ -1605,12 +1605,13 @@ function App() {
           --font-display:'Fraunces',serif; --font-body:'Manrope',sans-serif; --font-mono:'JetBrains Mono',monospace; --font-poster:'Oswald',sans-serif;
           --radius-card:10px; --card-border:1px solid rgba(15,29,61,0.16); --tabbar-bg:rgba(220,211,184,0.94);
           display:flex; justify-content:center; background:#D3D3D6; transition:background .2s ease;
-          padding:18px 0; font-family:var(--font-body); -webkit-font-smoothing:antialiased;
+          padding:6px 0; font-family:var(--font-body); -webkit-font-smoothing:antialiased;
           min-height:100vh; min-height:100dvh; box-sizing:border-box;
         }
         .ios-card, .ios-btn, .ios-switch, .tab-btn, .sheet, .haber-card, .pulse-widget{ transition:background-color .28s ease, color .28s ease, border-color .28s ease, box-shadow .28s ease; }
-        .phone{ width:390px; max-width:100%; background:var(--sayfa); background-image:var(--bg-pattern, none); background-size:var(--bg-pattern-size, auto); border-radius:38px; overflow:hidden; box-shadow:0 24px 60px rgba(20,23,26,0.28); display:flex; flex-direction:column; height:calc(100vh - 36px); height:calc(100dvh - 36px); max-height:800px; border:1px solid #c8c9ce; position:relative; transition:background .28s ease; }
+        .phone{ width:390px; max-width:100%; background:var(--sayfa); background-image:var(--bg-pattern, none); background-size:var(--bg-pattern-size, auto); border-radius:16px; overflow:hidden; box-shadow:0 24px 60px rgba(20,23,26,0.28); display:flex; flex-direction:column; height:calc(100vh - 12px); height:calc(100dvh - 12px); max-height:800px; border:1px solid #c8c9ce; position:relative; transition:background .28s ease; }
 
+        @media (max-width:500px){ .phone{ max-height:none; } }
         .nav-bar{ padding:10px 16px 6px; background:var(--sayfa); flex-shrink:0; position:relative; z-index:2; }
         .nav-bar-row{ display:flex; align-items:center; min-height:22px; }
         .nav-back{ display:flex; align-items:center; gap:2px; background:none; border:none; color:var(--aksan); font-size:16px; font-weight:600; padding:0; cursor:pointer; font-family:var(--font-body); }
