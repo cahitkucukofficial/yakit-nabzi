@@ -1,14 +1,15 @@
 {
-  "guncelleme": "2026-10-30T13:59:39.669Z",
+  "guncelleme": "2026-10-30T17:19:57.358Z",
   "kaynaklar": [
+    "AKSAM",
+    "HABER7",
+    "BIRGUN",
+    "AA",
     "CUMHURIYET",
     "SOZCU",
     "YENISAFAK",
     "DUNYA",
     "SABAH",
-    "HABER7",
-    "AKSAM",
-    "BIRGUN",
     "BLOOMBERGHT",
     "TRTHABER",
     "HABERTURK"
@@ -85,6 +86,34 @@
   },
   "haberler": [
     {
+      "baslik": "Rusya: Ukrayna üç petrol rafinerisi ve gaz kimya tesisine saldırdı",
+      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, Ukrayna'nın Rusya'daki üç petrol rafinerisi ile bir gaz kimya tesisine insansız hava araçlarıyla (İHA) saldırı düzenlediğini, tesislerden birinde küçük çaplı hasar meydana ge...",
+      "link": "https://www.aksam.com.tr/dunya/rusya-ukrayna-uc-petrol-rafinerisi-ve-gaz-kimya-tesisine-saldirdi/haber-1710507",
+      "tarih": "2026-10-30T14:44:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "İran'dan Hürmüz açıklaması: Petrol tankeri mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu (DMO) Deniz Kuvvetleri, Hürmüz Boğazı'nın alternatif güney rotasından geçmeye çalışan 2 milyon varil petrol kapasiteli bir süper tankerin deniz mayınına çarparak patladığını açıkladı.",
+      "link": "https://www.haber7.com/dunya/haber/3672871-irandan-hurmuz-aciklamasi-petrol-tankeri-mayina-carpti",
+      "tarih": "2026-10-30T14:40:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Son 1 yılın en düşük seviyesi: Altın fiyatları çakıldı!",
+      "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD'de güçlenen faiz artırımı beklentilerinin etkisiyle sert geriledi. Ons altın 3 bin 937 dolara gerileyerek yaklaşık bir yılın en düşük seviyesini görürken, gram altın d...",
+      "link": "https://www.birgun.net/haber/son-1-yilin-en-dusuk-seviyesi-altin-fiyatlari-cakildi-743545",
+      "tarih": "2026-10-30T14:22:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "EPDK elektrikte Son Kaynak Tedarik Tarifesi limitinde değişikliğe gitti",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesi kapsamında mesken aboneleri için 2027'de uygulanacak yıllık elektrik tüketim limitini 3 bin kilovatsaat olarak belirledi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/epdk-elektrikte-son-kaynak-tedarik-tarifesi-limitinde-degisiklige-gitti/4106616",
+      "tarih": "2026-10-30T14:00:32.000Z",
+      "kaynak": "AA"
+    },
+    {
       "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
       "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD’de faiz artırımı beklentilerinin güçlenmesiyle sert düşüş yaşadı. Ons ve gram altın son ayların en düşük seviyelerine gerilerken, UBS’den gelecek yıl için yükseliş tah...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-son-1-yilin-en-dusuk-seviyesi-gram-altin-6-321-tl-ye-geriledi-2551750",
@@ -141,14 +170,7 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Kremlin'den Trump çıkışı: Ukrayna yine sözünü dinlemedi",
-      "ozet": "Kremlin Dış Politika Danışmanı Yuriy Uşakov, Kiev yönetiminin, ABD Başkanı Donald Trump'ın petrol rafinerilerine saldırıların durdurulması yönündeki talebini görmezden geldiğini belirterek \"Trump'ın sözünü yine dinlem...",
-      "link": "https://www.aksam.com.tr/dunya/kremlinden-trump-cikisi-ukrayna-yine-sozunu-dinlemedi/haber-1710483",
-      "tarih": "2026-10-30T13:06:00.000Z",
-      "kaynak": "AKSAM"
-    },
-    {
-      "baslik": "Milyonları ilgilendiriyor. Elektrik faturalarına gizli zam",
+      "baslik": "Milyonları ilgilendiriyor: Elektrik faturalarına gizli zam",
       "ozet": "EPDK konutlarda kullanılan elektrik için 4.000 kWh olan sınırı 3.000 kWh'ye düşürdü. Böylece 820 TL'yi aşanların faturaları zamlı gelmeye başlayacak. Düzenleme 1 Ocak'ta başlayacak. Uygulamadan 6,5 milyon mesken abone...",
       "link": "https://www.birgun.net/haber/milyonlari-ilgilendiriyor-elektrik-faturalarina-gizli-zam-743530",
       "tarih": "2026-10-30T13:04:00.000Z",
@@ -232,13 +254,6 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "Brent petrolün varili 111,57 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 111,57 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-11157-dolardan-islem-goruyor-961706.html",
-      "tarih": "2026-10-30T06:49:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Savaş akaryakıt devlerinin kasasına yaradı: Enerji şirketlerinin milyarlarca dolarlık kazancı ortaya çıktı",
       "ozet": "İran savaşının küresel enerji arzına vurduğu darbe, dünya genelinde petrol ve doğalgaz fiyatlarını uçururken bu durum akaryakıt şirketlerine yaradı. Tüketiciler artan faturalarla boğuşurken, Shell, TotalEnergies ve Re...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/savas-akaryakit-devlerinin-kasasina-yaradi-enerji-sirketlerinin-milyarlarca-dolarlik-kazanci-ortaya-cikti-4868351",
@@ -247,7 +262,7 @@
     },
     {
       "baslik": "Altın ve gümüşte hızlı düşüş",
-      "ozet": "Altın ve gümüş, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve ABD'den gelen güçlü enflasyon verilerinin Fed'in yıl içinde yeniden faiz artırabileceği beklentisini güçlendirmesiyle cuma günü geriledi.",
+      "ozet": "Altın ve gümüş, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve ABD'den gelen güçlü enflasyon verilerinin Fed'in yıl içinde yeniden faiz artırabileceği beklentisini güçlendirmesiyle keskin şekilde ger...",
       "link": "https://www.bloomberght.com/altin-ve-gumuste-hizli-dusus-3792821",
       "tarih": "2026-10-30T03:51:43.000Z",
       "kaynak": "BLOOMBERGHT"
