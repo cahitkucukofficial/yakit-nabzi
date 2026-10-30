@@ -561,27 +561,71 @@ const YASAKLI_KAYNAKLAR = ["CNNTURK", "NTV", "MILLIYET"];
 const KAYNAK_ADLARI = {
   YENISAFAK: "Yeni Şafak", CUMHURIYET: "Cumhuriyet", BLOOMBERGHT: "Bloomberg HT", AA: "AA", IHA: "İHA", DHA: "DHA",
   HURRIYET: "Hürriyet", SABAH: "Sabah", HABERTURK: "Habertürk", SOZCU: "Sözcü", STAR: "Star",
-  AKSAM: "Akşam", BIRGUN: "BirGün", DUVAR: "Gazete Duvar", DUNYA: "Dünya", HABER7: "Haber7", ENSONHABER: "Ensonhaber", TAKVIM: "Takvim", TRTHABER: "TRT Haber",
+  AKSAM: "Akşam", BIRGUN: "BirGün", DUVAR: "Gazete Duvar", EKONOMIM: "Ekonomim", DUNYA: "Dünya", HABER7: "Haber7", ENSONHABER: "Ensonhaber", TAKVIM: "Takvim", TRTHABER: "TRT Haber",
 };
 
 // Yürürlük tarihi bugün veya geçmişse değişim gerçekleşmiştir → beklenti mesajı gösterilmez
-function aktifBeklenti(nc) {
-  if (!nc || !nc.expected || YASAKLI_KAYNAKLAR.includes(nc.kaynak)) return { expected: false };
-  if (nc.tarih) {
-    const bugun = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Istanbul" });
-    if (nc.tarih <= bugun) return { expected: false };
-  }
-  return nc;
+function istanbulBugun() {
+  return new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Istanbul" });
 }
 
-function NextChangeCard({ fuelKey, beklenti }) {
+// gerceklesti: fiyatlara yansıdığı (EPDK verisinde) görüldüyse true → beklenti, hangi tarih söylenmiş olursa olsun geçersiz
+function aktifBeklenti(nc, gerceklesti) {
+  if (!nc || !nc.expected || YASAKLI_KAYNAKLAR.includes(nc.kaynak)) return { expected: false };
+  if (gerceklesti) return { expected: false };
+  const bugun = istanbulBugun();
+  const tumTarihler = nc.tarihAdaylari && nc.tarihAdaylari.length ? nc.tarihAdaylari : nc.tarih ? [nc.tarih] : [];
+  if (!tumTarihler.length) return nc;
+  // Yürürlük günü gelen/geçen tarihler artık "beklenen" değil; hepsi geçtiyse beklenti kalkar
+  const kalan = tumTarihler.filter((t) => t > bugun);
+  if (!kalan.length) return { expected: false };
+  if (kalan.length === tumTarihler.length) return nc;
+  // Bazı adaylar geldi ama fiyat değişmedi → yalnızca kalan tarih(ler) gösterilir, teyit durumu yeniden hesaplanır
+  const kalanKaynaklar = (nc.kaynaklar || []).filter((k) => !k.tarih || kalan.includes(k.tarih));
+  const kalanSayi = kalanKaynaklar.length || 1;
+  return {
+    ...nc,
+    tarih: kalan.includes(nc.tarih) ? nc.tarih : kalan[0],
+    tarihAdaylari: kalan,
+    kaynaklar: kalanKaynaklar.length ? kalanKaynaklar : nc.kaynaklar,
+    dogrulayanKaynakSayisi: kalanKaynaklar.length ? kalanSayi : nc.dogrulayanKaynakSayisi,
+    tarihDurumu: kalan.length > 1 ? "belirsiz" : kalanSayi >= 2 ? "teyitli" : "tek-kaynak",
+  };
+}
+
+// Beklenen fiyat değişimi EPDK verisine yansıdı mı? İlk aday tarihten bir gün önceki fiyatla bugünü karşılaştırır (ilçe medyanı).
+function degisimGerceklestiMi(districts, urun, nc) {
+  if (!nc || !nc.expected || !districts || !districts.length || !(nc.amount > 0)) return false;
+  const tarihler = (nc.tarihAdaylari && nc.tarihAdaylari.length ? nc.tarihAdaylari : nc.tarih ? [nc.tarih] : []).slice().sort();
+  if (!tarihler.length) return false;
+  const gun = Math.round((Date.parse(istanbulBugun()) - Date.parse(tarihler[0])) / 864e5); // ilk aday tarihten bu yana
+  const pencere = Math.min(13, Math.max(2, gun + 1)); // kaç gün geriye bakılacak (en az 2: bir gün erken gerçekleşme de yakalansın)
+  const farklar = [];
+  for (const d of districts) {
+    const f = d[urun];
+    if (!f || !f.history || f.history.length < 3 || typeof f.today !== "number") continue;
+    const taban = f.history[Math.max(0, f.history.length - 1 - pencere)];
+    if (typeof taban === "number") farklar.push(f.today - taban);
+  }
+  if (farklar.length < 5) return false;
+  farklar.sort((a, b) => a - b);
+  const orta = farklar.length % 2 ? farklar[(farklar.length - 1) / 2] : (farklar[farklar.length / 2 - 1] + farklar[farklar.length / 2]) / 2;
+  return nc.direction === "dusus" ? orta <= -0.6 * nc.amount : orta >= 0.6 * nc.amount;
+}
+
+function NextChangeCard({ fuelKey, beklenti, gerceklesti }) {
   const [kaynakAcik, setKaynakAcik] = useState(false); // "3 kaynak" düğmesi: kaynak adlarını aç/kapat
   const meta = FUEL_META[fuelKey];
-  const nc = aktifBeklenti(beklenti?.[fuelKey]);
+  const nc = aktifBeklenti(beklenti?.[fuelKey], gerceklesti);
   // Doğrulayan kaynaklar (eski veride yalnızca ana kaynak olabilir)
   const kaynakListesi = (nc.kaynaklar && nc.kaynaklar.length ? nc.kaynaklar : (nc.kaynakLink ? [{ kaynak: nc.kaynak, kaynakLink: nc.kaynakLink }] : []))
     .filter((k) => !YASAKLI_KAYNAKLAR.includes(k.kaynak));
   const cokKaynak = nc.dogrulayanKaynakSayisi > 1;
+  // Tarih teyidi: yalnızca en az 2 kaynak aynı tarihte birleşirse "teyitli" (eski veride alan yoksa eskisi gibi göster)
+  const tarihTeyitsiz = !!nc.tarihDurumu && nc.tarihDurumu !== "teyitli";
+  const tarihMetni = tarihTeyitsiz && nc.tarihAdaylari && nc.tarihAdaylari.length > 1
+    ? nc.tarihAdaylari.map(fmtBeklentiTarihKisa).join(" / ")
+    : fmtBeklentiTarihKisa(nc.tarih);
   const yonRenk = nc.expected ? (nc.direction === "artis" ? "#EE2D3A" : "#2A9421") : null; // zam: Türk bayrağı kırmızısı, indirim: okunaklı canlı yeşil
   const yonKelime = nc.direction === "artis" ? "Zam" : "İndirim";
   return (
@@ -603,7 +647,8 @@ function NextChangeCard({ fuelKey, beklenti }) {
           </div>
           <div className="next-change-date-row">
             <Icon.clock />
-            {yonKelime} tarihi {fmtBeklentiTarihKisa(nc.tarih)}
+            {tarihTeyitsiz ? "Tahmini " + yonKelime.toLocaleLowerCase("tr-TR") + " tarihi " : yonKelime + " tarihi "}{tarihMetni}
+            {tarihTeyitsiz && <span className="nc-teyitsiz">{nc.tarihDurumu === "tek-kaynak" ? "tek kaynak" : "kaynaklar ayrışıyor"}</span>}
             {cokKaynak && (
               <button className={"nc-kaynak-dugme" + (kaynakAcik ? " acik" : "")} onClick={() => setKaynakAcik(!kaynakAcik)} aria-expanded={kaynakAcik}>
                 {nc.dogrulayanKaynakSayisi} kaynak <Icon.chevronDown className="nc-kaynak-ok" />
@@ -614,7 +659,7 @@ function NextChangeCard({ fuelKey, beklenti }) {
             <div className="nc-kaynak-liste">
               {kaynakListesi.map((k) => (
                 <a key={k.kaynak} className="nc-kaynak-satir" href={k.kaynakLink} target="_blank" rel="noopener noreferrer">
-                  {KAYNAK_ADLARI[k.kaynak] || k.kaynak} <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
+                  <span>{KAYNAK_ADLARI[k.kaynak] || k.kaynak}{k.tarih && <span className="nc-kaynak-tarih"> · {fmtBeklentiTarihKisa(k.tarih)}</span>}</span> <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
                 </a>
               ))}
             </div>
@@ -635,13 +680,13 @@ function NextChangeCard({ fuelKey, beklenti }) {
   );
 }
 
-function NextChangeSection({ beklenti }) {
-  const herhangiBeklentiVar = beklenti && FUEL_ORDER.some((k) => aktifBeklenti(beklenti[k]).expected);
+function NextChangeSection({ beklenti, gerceklesti }) {
+  const herhangiBeklentiVar = beklenti && FUEL_ORDER.some((k) => aktifBeklenti(beklenti[k], gerceklesti && gerceklesti[k]).expected);
   return (
     <div className="ios-section">
       <div className="ios-section-header">Sonraki Değişim</div>
       <div className="next-change-list">
-        {FUEL_ORDER.map((k) => <NextChangeCard key={k} fuelKey={k} beklenti={beklenti} />)}
+        {FUEL_ORDER.map((k) => <NextChangeCard key={k} fuelKey={k} beklenti={beklenti} gerceklesti={gerceklesti && gerceklesti[k]} />)}
       </div>
       {herhangiBeklentiVar ? (
         <Uyari baslik="Bu bir tahmindir">Haber kaynaklarından derlenir, EPDK'nin resmi teyidi değildir. Kesin fiyat için istasyon tabelasına bakın.</Uyari>
@@ -970,6 +1015,12 @@ function LeaderRow({ d, fuelKey, onOpen }) {
 }
 
 function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFilter, favorites, districtsMap, toggleFav, onOpenDistrict, ulusalBugun, beklenti }) {
+  // Beklenen zam/indirim fiyatlara yansıdıysa beklenti notu kalkar (söylenen tarih ne olursa olsun)
+  const gerceklesti = useMemo(() => {
+    const sonuc = {};
+    FUEL_ORDER.forEach((k) => { sonuc[k] = degisimGerceklestiMi(districts, k, beklenti && beklenti[k]); });
+    return sonuc;
+  }, [districts, beklenti]);
   const sorted = [...districts].sort((a, b) => b[fuelFilter].delta - a[fuelFilter].delta);
   const gainers = sorted.filter((d) => d[fuelFilter].delta > 0.02).slice(0, 3);
   const losers = [...sorted].reverse().filter((d) => d[fuelFilter].delta < -0.02).slice(0, 3);
@@ -998,7 +1049,7 @@ function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFi
 
   return (
     <>
-      <NextChangeSection beklenti={beklenti} />
+      <NextChangeSection beklenti={beklenti} gerceklesti={gerceklesti} />
       <PulseWidget mode={totemMode} nat={nat[totemMode]} onToggle={() => setTotemMode((m) => (m === "today" ? "yesterday" : "today"))} />
       <Segmented options={FUEL_ORDER.map((k) => ({ value: k, label: FUEL_META[k].label }))} value={fuelFilter} onChange={setFuelFilter} />
 
@@ -1671,7 +1722,7 @@ function App() {
         .next-change-beklenti-row{ display:flex; align-items:center; gap:6px; font-size:13px; font-weight:700; font-family:var(--font-body); margin-bottom:5px; }
         .next-change-beklenti-row svg{ width:15px; height:15px; }
         .next-change-beklenti-row svg{ flex-shrink:0; }
-        .next-change-date-row{ display:flex; align-items:center; gap:7px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
+        .next-change-date-row{ flex-wrap:wrap; row-gap:6px; display:flex; align-items:center; gap:7px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
         .next-change-date-row svg{ flex-shrink:0; color:var(--metin-silik); }
         .next-change-status{ display:flex; align-items:center; gap:6px; font-size:13.5px; color:var(--metin-soluk); font-family:var(--font-body); }
         .nc-uyari.ilce-uyari{ margin:4px 0 14px; }
@@ -1684,7 +1735,9 @@ function App() {
         .uyari-ok{ width:16px; height:16px; flex-shrink:0; transition:transform .2s ease; }
         .nc-uyari.acik .uyari-ok{ transform:rotate(180deg); }
         .uyari-metin{ padding:8px 0 0 24px; }
-        .nc-kaynak-dugme{ display:inline-flex; align-items:center; gap:4px; margin-left:6px; padding:3px 9px; border-radius:999px; background:var(--panel-2); border:var(--card-border); color:var(--metin); font-family:var(--font-body); font-size:12.5px; font-weight:700; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+        .nc-teyitsiz{ white-space:nowrap; display:inline-block; margin-left:6px; padding:1px 7px; border-radius:999px; border:1px solid var(--zam); color:var(--zam); font-size:11px; font-weight:700; vertical-align:middle; }
+        .nc-kaynak-tarih{ font-weight:400; color:var(--metin-soluk); }
+        .nc-kaynak-dugme{ white-space:nowrap; display:inline-flex; align-items:center; gap:4px; margin-left:6px; padding:3px 9px; border-radius:999px; background:var(--panel-2); border:var(--card-border); color:var(--metin); font-family:var(--font-body); font-size:12.5px; font-weight:700; cursor:pointer; -webkit-tap-highlight-color:transparent; }
         .nc-kaynak-dugme:active{ transform:scale(.95); }
         .nc-kaynak-ok{ width:12px; height:12px; transition:transform .2s ease; }
         .nc-kaynak-dugme.acik .nc-kaynak-ok{ transform:rotate(180deg); }
