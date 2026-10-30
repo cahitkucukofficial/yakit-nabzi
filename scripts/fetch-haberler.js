@@ -64,6 +64,7 @@ const KAYNAKLAR = [
   { kod: "SOZCU", ad: "Sozcu", rss: "https://www.sozcu.com.tr/feeds-rss-category-ekonomi" },
   { kod: "BIRGUN", ad: "BirGun", rss: "https://www.birgun.net/rss/home" },
   { kod: "DUVAR", ad: "Gazete Duvar", rss: "https://www.gazeteduvar.com.tr/export/rss" },
+  { kod: "EKONOMIM", ad: "Ekonomim", rss: "https://www.ekonomim.com/export/rss" },
   { kod: "CUMHURIYET", ad: "Cumhuriyet", rss: "https://www.cumhuriyet.com.tr/rss/ekonomi.xml" },
   { kod: "STAR", ad: "Star", rss: "https://www.star.com.tr/rss/ekonomi.xml" },
   { kod: "AKSAM", ad: "Aksam", rss: "https://www.aksam.com.tr/rss/rss.asp" },
@@ -261,7 +262,19 @@ function tarihleriBul(metin) {
   let m;
   while ((m = ayDeseni.exec(metin)) !== null) {
     const iso = normalize(parseInt(m[1], 10), AY_ISIMLERI[m[2].toLocaleLowerCase("tr-TR")], m[3] ? parseInt(m[3], 10) : null);
-    if (iso) bulunanlar.push({ index: m.index, iso });
+    if (!iso) continue;
+    const sonrasi = metin.slice(m.index + m[0].length, m.index + m[0].length + 140);
+    // Teyit 1: tarihin hemen yanında gün adı varsa ("1 Kasım Pazar") takvimle uyuşmalı; uyuşmuyorsa yanlış okunmuştur.
+    const gunAdi = /^\s*,?\s*(pazartesi|salı|sali|çarşamba|carsamba|perşembe|persembe|cuma|cumartesi|pazar)(?![a-zçğıöşü])/i.exec(sonrasi);
+    if (gunAdi) {
+      const ad = gunAdi[1].toLocaleLowerCase("tr-TR").replace("ı", "i");
+      const beklenen = { pazar: 0, pazartesi: 1, sali: 2, salı: 2, carsamba: 3, çarşamba: 3, persembe: 4, perşembe: 4, cuma: 5, cumartesi: 6 }[ad];
+      const gercek = new Date(iso + "T00:00:00Z").getUTCDay();
+      if (beklenen !== undefined && beklenen !== gercek) continue;
+    }
+    // Teyit 2: "30 Ekim itibarıyla ... litre fiyatı / satılan" gibi GÜNCEL FİYAT tarihleri zam tarihi değildir.
+    if (/^[^.]{0,40}itibar[ıi]yla/i.test(sonrasi) && /fiyat|satıl|satil|güncel|guncel|litre/i.test(sonrasi.slice(0, 120))) continue;
+    bulunanlar.push({ index: m.index, iso });
   }
   const sayisalDeseni = /\b(\d{1,2})[./](\d{1,2})[./](20\d{2})\b/g;
   while ((m = sayisalDeseni.exec(metin)) !== null) {
@@ -466,19 +479,37 @@ async function beklentileriBirlestir(haberler) {
     // en cok dogrulanan kombinasyonu goster.
     const gruplu = {};
     for (const a of liste) {
-      const anahtar = a.yon + "|" + a.tutar + "|" + a.tarih;
+      const anahtar = a.yon + "|" + a.tutar;
       (gruplu[anahtar] = gruplu[anahtar] || []).push(a);
     }
-    const enIyiGrup = Object.values(gruplu).sort((a, b) => b.length - a.length)[0];
-    const ornek = enIyiGrup[0];
+    const kaynakSay = (g) => new Set(g.map((e) => e.kaynak)).size;
+    const enIyiGrup = Object.values(gruplu).sort((a, b) => kaynakSay(b) - kaynakSay(a) || b.length - a.length)[0];
+    // TARİH TEYİDİ: her tarihi kaç FARKLI kaynak söylüyor? En çok kaynağın söylediği tarih seçilir;
+    // en az 2 kaynak aynı tarihte birleşmediyse ya da kaynaklar ayrışıyorsa "teyitli" sayılmaz.
+    const oylar = new Map();
+    for (const e of enIyiGrup) {
+      if (!oylar.has(e.tarih)) oylar.set(e.tarih, new Set());
+      oylar.get(e.tarih).add(e.kaynak);
+    }
+    const siraliTarihler = Array.from(oylar.entries()).sort((a, b) => b[1].size - a[1].size || (a[0] < b[0] ? -1 : 1));
+    const [kazananTarih, kazananKaynaklar] = siraliTarihler[0];
+    const rakipVarMi = siraliTarihler.length > 1 && siraliTarihler[1][1].size === kazananKaynaklar.size;
+    const toplamKaynak = kaynakSay(enIyiGrup);
+    let tarihDurumu = "teyitli";
+    if (toplamKaynak === 1) tarihDurumu = "tek-kaynak";
+    else if (kazananKaynaklar.size < 2 || rakipVarMi) tarihDurumu = "belirsiz";
+    const ornek = enIyiGrup.find((e) => e.tarih === kazananTarih) || enIyiGrup[0];
     sonuc[urun] = {
       expected: true,
       direction: ornek.yon,
       amount: ornek.tutar,
-      tarih: ornek.tarih,
-      dogrulayanKaynakSayisi: new Set(enIyiGrup.map((e) => e.kaynak)).size,
-      // Doğrulayan her kaynak için bir haber bağlantısı (uygulamada "3 kaynak" düğmesine basınca listelenir)
-      kaynaklar: Array.from(new Map(enIyiGrup.map((e) => [e.kaynak, { kaynak: e.kaynak, kaynakLink: e.kaynakLink }])).values()),
+      tarih: kazananTarih,
+      tarihDurumu,
+      tarihDogrulayanSayisi: kazananKaynaklar.size,
+      tarihAdaylari: siraliTarihler.map((x) => x[0]).sort(),
+      dogrulayanKaynakSayisi: toplamKaynak,
+      // Doğrulayan her kaynak: bağlantısı + o kaynağın söylediği tarih (uygulamada "3 kaynak" düğmesine basınca listelenir)
+      kaynaklar: Array.from(new Map(enIyiGrup.map((e) => [e.kaynak, { kaynak: e.kaynak, kaynakLink: e.kaynakLink, tarih: e.tarih }])).values()),
       kaynakBaslik: ornek.kaynakBaslik,
       kaynak: ornek.kaynak,
       kaynakLink: ornek.kaynakLink,
@@ -643,7 +674,7 @@ async function main() {
   }
 
   const beklenti = await beklentileriBirlestir(haberler);
-  console.log("[beklenti] " + Object.entries(beklenti).map(([u, v]) => v.expected ? (u + ": " + (v.direction === "dusus" ? "-" : "+") + v.amount + " @" + v.tarih + " (" + v.dogrulayanKaynakSayisi + " kaynak)") : (u + ": yok")).join(" | ") + " | tam makale istegi: " + tamMetinKullanilan);
+  console.log("[beklenti] " + Object.entries(beklenti).map(([u, v]) => v.expected ? (u + ": " + (v.direction === "dusus" ? "-" : "+") + v.amount + " @" + v.tarih + " [" + v.tarihDurumu + ", tarihi " + v.tarihDogrulayanSayisi + " kaynak soyluyor; adaylar: " + (v.tarihAdaylari || []).join("/") + "] (" + v.dogrulayanKaynakSayisi + " kaynak)") : (u + ": yok")).join(" | ") + " | tam makale istegi: " + tamMetinKullanilan);
   saglikKontroluYap(haberler); // sessiz caprazdogrulama - sadece log, JSON'a yazilmiyor
 
   const cikti = {
