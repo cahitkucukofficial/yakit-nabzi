@@ -1,18 +1,19 @@
 {
-  "guncelleme": "2026-10-30T17:19:57.358Z",
+  "guncelleme": "2026-10-30T18:50:24.601Z",
   "kaynaklar": [
+    "CUMHURIYET",
+    "HABERTURK",
     "AKSAM",
+    "BLOOMBERGHT",
+    "EKONOMIM",
     "HABER7",
     "BIRGUN",
     "AA",
-    "CUMHURIYET",
     "SOZCU",
     "YENISAFAK",
     "DUNYA",
     "SABAH",
-    "BLOOMBERGHT",
-    "TRTHABER",
-    "HABERTURK"
+    "TRTHABER"
   ],
   "beklenti": {
     "motorin": {
@@ -20,19 +21,27 @@
       "direction": "artis",
       "amount": 3.6,
       "tarih": "2026-10-31",
+      "tarihDurumu": "teyitli",
+      "tarihDogrulayanSayisi": 3,
+      "tarihAdaylari": [
+        "2026-10-31"
+      ],
       "dogrulayanKaynakSayisi": 3,
       "kaynaklar": [
         {
           "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464"
+          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
+          "tarih": "2026-10-31"
         },
         {
           "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
+          "tarih": "2026-10-31"
         },
         {
           "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497"
+          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497",
+          "tarih": "2026-10-31"
         }
       ],
       "kaynakBaslik": "Araç sahipleri bu tarihe dikkat: Tabela yeniden değişiyor",
@@ -44,19 +53,28 @@
       "direction": "artis",
       "amount": 4.15,
       "tarih": "2026-10-31",
+      "tarihDurumu": "teyitli",
+      "tarihDogrulayanSayisi": 3,
+      "tarihAdaylari": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
       "dogrulayanKaynakSayisi": 3,
       "kaynaklar": [
         {
           "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464"
+          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
+          "tarih": "2026-10-31"
         },
         {
           "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
+          "tarih": "2026-10-31"
         },
         {
           "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497"
+          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497",
+          "tarih": "2026-10-31"
         }
       ],
       "kaynakBaslik": "Araç sahipleri bu tarihe dikkat: Tabela yeniden değişiyor",
@@ -68,15 +86,22 @@
       "direction": "artis",
       "amount": 9,
       "tarih": "2026-11-01",
+      "tarihDurumu": "teyitli",
+      "tarihDogrulayanSayisi": 2,
+      "tarihAdaylari": [
+        "2026-11-01"
+      ],
       "dogrulayanKaynakSayisi": 2,
       "kaynaklar": [
         {
           "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
+          "tarih": "2026-11-01"
         },
         {
           "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497"
+          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497",
+          "tarih": "2026-11-01"
         }
       ],
       "kaynakBaslik": "Akaryakıta büyük zam geliyor: Benzin, motorin ve LPG için yeni fiyatlar belli oldu",
@@ -86,11 +111,39 @@
   },
   "haberler": [
     {
-      "baslik": "Rusya: Ukrayna üç petrol rafinerisi ve gaz kimya tesisine saldırdı",
-      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, Ukrayna'nın Rusya'daki üç petrol rafinerisi ile bir gaz kimya tesisine insansız hava araçlarıyla (İHA) saldırı düzenlediğini, tesislerden birinde küçük çaplı hasar meydana ge...",
-      "link": "https://www.aksam.com.tr/dunya/rusya-ukrayna-uc-petrol-rafinerisi-ve-gaz-kimya-tesisine-saldirdi/haber-1710507",
-      "tarih": "2026-10-30T14:44:00.000Z",
+      "baslik": "BOTAŞ, kasım ve aralık ayları için doğal gaz tüketim limitlerini güncelledi",
+      "ozet": "Boru Hatları ile Petrol Taşıma AŞ (BOTAŞ), konutlarda uygulanan kademeli doğal gaz tarifesi kapsamında kasım ve aralık aylarına ilişkin il bazlı tüketim limitlerini güncelledi.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/botas-kasim-ve-aralik-aylari-icin-dogal-gaz-tuketim-limitlerini-guncelledi-2551809",
+      "tarih": "2026-10-30T18:23:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Doğal gazda yeni dönem",
+      "ozet": "Boru Hatları ile Petrol Taşıma AŞ (BOTAŞ), konutlarda uygulanan kademeli doğal gaz tarifesi kapsamında kasım ve aralık aylarına ilişkin tüketim limitlerini güncelledi. İstanbul, Ankara ve İzmir'in de aralarında bulund...",
+      "link": "https://www.haberturk.com/ekonomi/botas-81-ilde-kasim-ve-aralik-aylarinin-tuketim-limitlerini-guncelledi-3923815",
+      "tarih": "2026-10-30T18:08:39.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Trump açıkladı... ABD-İran savaşı bitecek mi?",
+      "ozet": "ABD Başkanı Donald Trump, İran'la savaşın yakında sona ereceğini belirterek Tahran'dan nükleer silah edinmeyeceğine dair garanti istediklerini açıkladı. Trump, savaşın bitmesiyle birlikte petrol fiyatlarının da hızla ...",
+      "link": "https://www.aksam.com.tr/dunya/trump-acikladi-abd-iran-savasi-bitecek-mi/haber-1710531",
+      "tarih": "2026-10-30T17:47:00.000Z",
       "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "BOTAŞ, Kasım ve Aralık ayları için doğalgaz tüketim limitlerini güncelledi",
+      "ozet": "Boru Hatları ile Petrol Taşıma A.Ş. (BOTAŞ), konutlarda uygulanan kademeli doğalgaz tarifesi kapsamında Kasım ve Aralık aylarına ilişkin 81 ildeki tüketim limitlerini güncelledi.",
+      "link": "https://www.bloomberght.com/botas-kasim-ve-aralik-aylari-icin-dogalgaz-tuketim-limitlerini-guncelledi-3792968",
+      "tarih": "2026-10-30T17:35:21.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Altın fiyatlarında sert düşüş: Son 1 yılın en düşük seviyesinde",
+      "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD'de güçlenen faiz artırımı beklentilerinin etkisiyle sert geriledi. Ons altın yaklaşık bir yılın en düşük seviyesini görerek 3900 doların altına kadar indi. Gram altın ...",
+      "link": "https://www.ekonomim.com/finans/haberler/altin/altin-fiyatlarinda-sert-dusus-son-1-yilin-en-dusuk-seviyesinde-haberi-928087",
+      "tarih": "2026-10-30T17:00:00.000Z",
+      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "İran'dan Hürmüz açıklaması: Petrol tankeri mayına çarptı",
@@ -177,6 +230,13 @@
       "kaynak": "BIRGUN"
     },
     {
+      "baslik": "EPDK elektrikte tüketim limitini düşürdü!",
+      "ozet": "EPDK, son kaynak tedarik tarifesi kapsamında yıllık elektrik tüketim limitini 2027 yılı için 3.000 kWh olarak belirledi. Daha önce 2025’te 5.000 kWh, 2026’da ise 4.000 kWh olarak uygulanan sınır, yeni kararla düşürülm...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/epdk-duyurdu-elektrikte-subvansiyon-limiti-dusuruldu-haberi-928083",
+      "tarih": "2026-10-30T13:04:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Elektrikte sübvansiyon limiti düşürüldü",
       "ozet": "EPDK, son kaynak tedarik tarifesinde 2025 yılı için 5.000 kWh/yıl, 2026 yılı için 4.000 kWh/yıl olarak belirlenen son kaynak tedarik tarifesini 2027 için 3.000 kWh/yıl olarak belirledi.",
       "link": "https://www.bloomberght.com/epdk-son-kaynak-tedarik-tarifesinde-limiti-dusurdu-3792931",
@@ -196,13 +256,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
       "tarih": "2026-10-30T12:02:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "BP'nin kârı 4 kat artışla 8,46 milyar dolara çıktı",
-      "ozet": "Petrol devi BP'nin üçüncü çeyrekte düzeltilmiş kârı 8,46 milyar dolara yükselerek beklentileri aştı. Net borcunu üç ayda 8,4 milyar dolar azaltan şirket, 2010'daki Deepwater Horizon felaketinden kalan 5,94 milyar dola...",
-      "link": "https://www.dunya.com/finans/haberler/bpnin-kari-4-kat-artisla-846-milyar-dolara-cikti-haberi-845857",
-      "tarih": "2026-10-30T11:53:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "İran Devrim Muhafızları, Hürmüz Boğazı'nın güneyinde 2 petrol tankerini durdurdu",
@@ -335,20 +388,6 @@
       "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
       "tarih": "2026-10-26T01:00:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
-      "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
-      "tarih": "2026-10-23T13:48:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Hürmüz Boğazı'nda kriz büyüyor: Petrole 'İran ve Libya' darbesi",
-      "ozet": "Hürmüz Boğazı'nda tırmanan güvenlik endişeleri ve Libya'daki boru hattı kesintisi, küresel arz risklerini tetikleyerek Brent petrolün varil fiyatını 114 dolar seviyesinin üzerine taşıdı.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/hurmuz-bogazi-nda-kriz-buyuyor-petrole-iran-ve-libya-darbesi-2549511",
-      "tarih": "2026-10-23T07:00:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
