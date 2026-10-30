@@ -1,11 +1,10 @@
 {
-  "guncelleme": "2026-10-29T16:31:37.821Z",
+  "guncelleme": "2026-10-30T03:11:21.060Z",
   "kaynaklar": [
-    "BLOOMBERGHT",
     "YENISAFAK",
-    "CUMHURIYET",
-    "HABERTURK",
-    "AA"
+    "DUNYA",
+    "BLOOMBERGHT",
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -19,6 +18,20 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Hedef 15 bin varil üretim",
+      "ozet": "Şırnak'taki Gabar sahasında üretim artarken, Diyarbakır'da kaya petrolü için yürütülen çalışmaların ardından gözler şimdi Adıyaman'a çevrildi. Bir dönem petrolün kalelerinden biri olan kentte, yeni keşiflerle günlük ü...",
+      "link": "https://www.yenisafak.com/ekonomi/hedef-15-bin-varil-uretim-4868300",
+      "tarih": "2026-10-30T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "AB’den enerji hamlesi: 42,6 milyon varil petrol piyasaya sürülecek",
+      "ozet": "Avrupa Birliği üyesi 12 ülke, enerji arzına ilişkin kaygıları azaltmak ve dizel piyasasını istikrara kavuşturmak amacıyla Ocak 2027 sonuna kadar stratejik rezervlerinden 42,6 milyon varil petrolü piyasaya sürmeyi taah...",
+      "link": "https://www.dunya.com/dunya/abden-enerji-hamlesi-426-milyon-varil-petrol-piyasaya-surulecek-haberi-845771",
+      "tarih": "2026-10-29T18:50:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "ABD'nin ticari ham petrol stokları geriledi",
       "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 900 bin varil azaldı.",
@@ -48,32 +61,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Petrol fiyatlarında son durum ne?",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 110,22 dolardan işlem görüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3923379",
-      "tarih": "2026-10-29T06:59:46.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "ABD'nin ticari ham petrol stokları 1,9 milyon varil geriledi",
       "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 900 bin varil azaldı.",
       "link": "https://www.yenisafak.com/ekonomi/abdnin-ticari-ham-petrol-stoklari-19-milyon-varil-geriledi-4868126",
       "tarih": "2026-10-29T06:17:15.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "AB, dizel piyasasındaki sıkışıklığın gelecek yıl sürmesini bekliyor",
-      "ozet": "Avrupa Birliği (AB) Komisyonunun Enerjiden Sorumlu Üyesi Dan Jorgensen, küresel motorin piyasasındaki arz sıkışıklığının 2027'nin ilerleyen dönemlerine kadar sürmesini ve fiyatların yüksek kalmasını beklediklerini bil...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/ab-dizel-piyasasindaki-sikisikligin-gelecek-yil-surmesini-bekliyor/4103821",
-      "tarih": "2026-10-28T12:42:11.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Türkiye'nin elektrik sektöründe son 50 yılda köklü dönüşüm yaşandı",
-      "ozet": "Türkiye'nin elektrik kurulu gücü, Cumhuriyet'in ilk yıllarındaki 33 megavattan yaklaşık 127 bin megavata yükselirken, son 50 yılda petrol krizleri, piyasa reformları ve yenilenebilir enerji yatırımları sektörün dönüşü...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/turkiyenin-elektrik-sektorunde-son-50-yilda-koklu-donusum-yasandi/4103451",
-      "tarih": "2026-10-28T08:23:23.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Araç sahipleri depoları doldurmak için acele edin: Akaryakıtta tabela değişecek",
@@ -88,13 +80,6 @@
       "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalarda-gozler-fedin-faiz-kararinda-iste-piyasalarda-son-durum-4867851",
       "tarih": "2026-10-28T06:33:34.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Trump, petrol ve gaz sektöründe metan kurallarını gevşetmeyi önerdi",
-      "ozet": "ABD Başkanı Donald Trump, petrol ve doğalgaz sektöründeki metan emisyonu düzenlemelerinin gevşetilmesini önerdi.",
-      "link": "https://www.bloomberght.com/trump-petrol-ve-gaz-sektorunde-metan-kurallarini-gevsetmeyi-onerdi-3792712",
-      "tarih": "2026-10-28T04:59:41.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
