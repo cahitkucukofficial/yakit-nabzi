@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-10-30T13:51:23.754Z",
+  "guncelleme": "2026-10-30T13:59:39.669Z",
   "kaynaklar": [
+    "CUMHURIYET",
     "SOZCU",
     "YENISAFAK",
     "DUNYA",
@@ -10,7 +11,6 @@
     "BIRGUN",
     "BLOOMBERGHT",
     "TRTHABER",
-    "CUMHURIYET",
     "HABERTURK"
   ],
   "beklenti": {
@@ -20,6 +20,20 @@
       "amount": 3.6,
       "tarih": "2026-10-31",
       "dogrulayanKaynakSayisi": 3,
+      "kaynaklar": [
+        {
+          "kaynak": "YENISAFAK",
+          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464"
+        },
+        {
+          "kaynak": "CUMHURIYET",
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
+        },
+        {
+          "kaynak": "BIRGUN",
+          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497"
+        }
+      ],
       "kaynakBaslik": "Araç sahipleri bu tarihe dikkat: Tabela yeniden değişiyor",
       "kaynak": "YENISAFAK",
       "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464"
@@ -30,6 +44,20 @@
       "amount": 4.15,
       "tarih": "2026-10-31",
       "dogrulayanKaynakSayisi": 3,
+      "kaynaklar": [
+        {
+          "kaynak": "YENISAFAK",
+          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464"
+        },
+        {
+          "kaynak": "CUMHURIYET",
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
+        },
+        {
+          "kaynak": "BIRGUN",
+          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497"
+        }
+      ],
       "kaynakBaslik": "Araç sahipleri bu tarihe dikkat: Tabela yeniden değişiyor",
       "kaynak": "YENISAFAK",
       "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464"
@@ -40,12 +68,29 @@
       "amount": 9,
       "tarih": "2026-11-01",
       "dogrulayanKaynakSayisi": 2,
+      "kaynaklar": [
+        {
+          "kaynak": "CUMHURIYET",
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
+        },
+        {
+          "kaynak": "BIRGUN",
+          "kaynakLink": "https://www.birgun.net/haber/arac-sahiplerine-yeni-zam-yuku-depo-maliyeti-artiyor-743497"
+        }
+      ],
       "kaynakBaslik": "Akaryakıta büyük zam geliyor: Benzin, motorin ve LPG için yeni fiyatlar belli oldu",
       "kaynak": "CUMHURIYET",
       "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711"
     }
   },
   "haberler": [
+    {
+      "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
+      "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD’de faiz artırımı beklentilerinin güçlenmesiyle sert düşüş yaşadı. Ons ve gram altın son ayların en düşük seviyelerine gerilerken, UBS’den gelecek yıl için yükseliş tah...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-son-1-yilin-en-dusuk-seviyesi-gram-altin-6-321-tl-ye-geriledi-2551750",
+      "tarih": "2026-10-30T13:51:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
     {
       "baslik": "Benzinli motorları rafa kaldırmadı, şimdi rakiplerine satacak",
       "ozet": "Toyota, benzinli motor teknolojisinden vazgeçmek yerine yeni bir satış hamlesine hazırlanıyor. Japon üretici, geliştirdi...",
@@ -201,9 +246,9 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Altın petrol ve enflasyon baskısıyla 4 bin doların altına geriledi",
-      "ozet": "Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve ABD'den gelen güçlü enflasyon verilerinin Fed'in yıl içinde yeniden faiz artırabileceği beklentisini güçlendirmesiyle cuma günü geriledi.",
-      "link": "https://www.bloomberght.com/altin-petrol-ve-enflasyon-baskisiyla-4-bin-dolarin-altina-geriledi-3792821",
+      "baslik": "Altın ve gümüşte hızlı düşüş",
+      "ozet": "Altın ve gümüş, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve ABD'den gelen güçlü enflasyon verilerinin Fed'in yıl içinde yeniden faiz artırabileceği beklentisini güçlendirmesiyle cuma günü geriledi.",
+      "link": "https://www.bloomberght.com/altin-ve-gumuste-hizli-dusus-3792821",
       "tarih": "2026-10-30T03:51:43.000Z",
       "kaynak": "BLOOMBERGHT"
     },
@@ -247,13 +292,6 @@
       "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 900 bin varil azaldı.",
       "link": "https://www.yenisafak.com/ekonomi/abdnin-ticari-ham-petrol-stoklari-19-milyon-varil-geriledi-4868126",
       "tarih": "2026-10-29T06:17:15.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Araç sahipleri depoları doldurmak için acele edin: Akaryakıtta tabela değişecek",
-      "ozet": "Suudi Arabistan’daki petrol rafinerisine yönelik saldırı, küresel arz endişelerini artırarak petrol fiyatlarını yukarı çekti. Brent petrolün varil fiyatı 115 doları aşarken, akaryakıtta yeni zam beklentisi oluştu. ÖTV...",
-      "link": "https://www.yenisafak.com/ekonomi/arac-sahipleri-depolari-doldurmak-icin-acele-edin-akaryakitta-tabela-degisecek-4867856",
-      "tarih": "2026-10-28T06:48:19.000Z",
       "kaynak": "YENISAFAK"
     },
     {
