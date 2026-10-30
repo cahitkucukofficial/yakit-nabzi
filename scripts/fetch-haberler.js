@@ -297,16 +297,45 @@ function enYakinUrun(metin, tutarBas, tutarSon) {
   return enYakin ? enYakin.urun : null;
 }
 
+function tutarlariBul(metin) {
+  const bulunan = [];
+  let m;
+  // "4 lira 27 kuruş(luk)" / "4 TL 27 kuruş"
+  const liraKurus = /(\d{1,2})\s*(?:TL|lira)\s*(\d{1,2})\s*kuruş(?:luk)?/gi;
+  while ((m = liraKurus.exec(metin)) !== null) {
+    bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseInt(m[1], 10) + parseInt(m[2], 10) / 100 });
+  }
+  // "2,50 TL" / "2.5 lira"
+  const ondalik = /(\d{1,3}[.,]\d{1,2})\s*(?:TL|lira)/gi;
+  while ((m = ondalik.exec(metin)) !== null) {
+    bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseFloat(m[1].replace(",", ".")) });
+  }
+  // "65 kuruş(luk)"
+  const kurus = /(\d{1,3})\s*kuruş(?:luk)?/gi;
+  while ((m = kurus.exec(metin)) !== null) {
+    bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseInt(m[1], 10) / 100 });
+  }
+  // "2 lira" (tam sayı; "2 lira 50 kuruş" yukarıda zaten yakalandı)
+  const tam = /(?<![\d.,])(\d{1,2})\s*(?:TL|lira)(?!\s*\d{1,2}\s*kuruş)/gi;
+  while ((m = tam.exec(metin)) !== null) {
+    bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseInt(m[1], 10) });
+  }
+  // Çakışanlarda en geniş olan kalsın ("4 lira 27 kuruş" içindeki "27 kuruş" tekrar sayılmasın)
+  bulunan.sort((a, b) => a.bas - b.bas || (b.son - b.bas) - (a.son - a.bas));
+  const sonuc = [];
+  let sonSon = -1;
+  for (const b of bulunan) {
+    if (b.bas >= sonSon) { sonuc.push(b); sonSon = b.son; }
+  }
+  return sonuc;
+}
+
 function adaylariCikar(metin) {
   const sonuc = [];
   const tarihler = tarihleriBul(metin);
-  const tutarDeseni = /(\d{1,3}[.,]\d{1,2})\s*(?:TL|lira)/gi;
-  let m;
-  while ((m = tutarDeseni.exec(metin)) !== null) {
-    const tutar = parseFloat(m[1].replace(",", "."));
+  for (const ta of tutarlariBul(metin)) {
+    const { bas, son, tutar } = ta;
     if (!(tutar >= 0.05 && tutar <= MAKS_DEGISIM_TL)) continue;
-    const bas = m.index;
-    const son = m.index + m[0].length;
 
     // Fiyat SEVIYESI gibi gorunenleri ele: "...liraya/TL'ye/liradan" (hedef fiyat),
     // "Ankara'da 91,13", "Benzin: 85,40".
@@ -371,7 +400,12 @@ async function beklentiCikarBirHaberden(haber) {
 
   // 1) Once sadece baslik+ozetten dene; TARIHLI aday varsa tamam.
   let adaylar = adaylariCikar(ozetMetin);
-  if (adaylar.some((a) => a.tarih)) return adaylar.map(etiket);
+  // Özet "..." ile kesilmişse ve metinde geçen bir ürün (ör. LPG) için aday bulunamadıysa,
+  // o ürünün cümlesi kesilen kısımda olabilir: tam makaleye de bak.
+  const gecenUrunler = Object.keys(URUN_DESENLERI).filter((u) => URUN_DESENLERI[u].some((d) => d.test(ozetMetin)));
+  const ozetKesik = /(\.\.\.|…)\s*$/.test((haber.ozet || "").trim());
+  const eksikUrunVar = gecenUrunler.some((u) => !adaylar.some((a) => a.urun === u));
+  if (adaylar.some((a) => a.tarih) && !(ozetKesik && eksikUrunVar)) return adaylar.map(etiket);
   let yedek = adaylar; // tutar+yon+urun var ama tarih yok
 
   // 2) Tarihli aday yoksa (tutar YA DA tarih eksik olabilir) tam makaleyi cek.
