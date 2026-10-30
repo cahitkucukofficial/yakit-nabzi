@@ -555,13 +555,13 @@ function DeltaTag({ delta }) {
 }
 
 // Gösterilmeyen kaynaklar (yayındaki eski JSON'da kalmış olabilir)
-const YASAKLI_KAYNAKLAR = ["CNNTURK", "NTV"];
+const YASAKLI_KAYNAKLAR = ["CNNTURK", "NTV", "MILLIYET"];
 
 // Kaynak kodu → görünen ad
 const KAYNAK_ADLARI = {
   YENISAFAK: "Yeni Şafak", CUMHURIYET: "Cumhuriyet", BLOOMBERGHT: "Bloomberg HT", AA: "AA", IHA: "İHA", DHA: "DHA",
-  HURRIYET: "Hürriyet", MILLIYET: "Milliyet", SABAH: "Sabah", HABERTURK: "Habertürk", SOZCU: "Sözcü", STAR: "Star",
-  AKSAM: "Akşam", DUNYA: "Dünya", HABER7: "Haber7", ENSONHABER: "Ensonhaber", TAKVIM: "Takvim", TRTHABER: "TRT Haber",
+  HURRIYET: "Hürriyet", SABAH: "Sabah", HABERTURK: "Habertürk", SOZCU: "Sözcü", STAR: "Star",
+  AKSAM: "Akşam", BIRGUN: "BirGün", DUVAR: "Gazete Duvar", DUNYA: "Dünya", HABER7: "Haber7", ENSONHABER: "Ensonhaber", TAKVIM: "Takvim", TRTHABER: "TRT Haber",
 };
 
 // Yürürlük tarihi bugün veya geçmişse değişim gerçekleşmiştir → beklenti mesajı gösterilmez
