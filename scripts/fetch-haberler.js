@@ -477,6 +477,8 @@ async function beklentileriBirlestir(haberler) {
       amount: ornek.tutar,
       tarih: ornek.tarih,
       dogrulayanKaynakSayisi: new Set(enIyiGrup.map((e) => e.kaynak)).size,
+      // Doğrulayan her kaynak için bir haber bağlantısı (uygulamada "3 kaynak" düğmesine basınca listelenir)
+      kaynaklar: Array.from(new Map(enIyiGrup.map((e) => [e.kaynak, { kaynak: e.kaynak, kaynakLink: e.kaynakLink }])).values()),
       kaynakBaslik: ornek.kaynakBaslik,
       kaynak: ornek.kaynak,
       kaynakLink: ornek.kaynakLink,
