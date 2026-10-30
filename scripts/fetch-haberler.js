@@ -61,19 +61,19 @@ const KAYNAKLAR = [
   { kod: "HURRIYET", ad: "Hurriyet", rss: "https://www.hurriyet.com.tr/rss/ekonomi" },
   { kod: "SABAH", ad: "Sabah", rss: "https://www.sabah.com.tr/rss/ekonomi.xml" },
   { kod: "HABERTURK", ad: "Haberturk", rss: "https://www.haberturk.com/rss/ekonomi.xml" },
-  { kod: "SOZCU", ad: "Sozcu", rss: "https://www.sozcu.com.tr/kategori/ekonomi/feed/" },
+  { kod: "SOZCU", ad: "Sozcu", rss: "https://www.sozcu.com.tr/feeds-rss-category-ekonomi" },
   { kod: "BIRGUN", ad: "BirGun", rss: "https://www.birgun.net/rss/home" },
   { kod: "DUVAR", ad: "Gazete Duvar", rss: "https://www.gazeteduvar.com.tr/export/rss" },
   { kod: "CUMHURIYET", ad: "Cumhuriyet", rss: "https://www.cumhuriyet.com.tr/rss/ekonomi.xml" },
   { kod: "STAR", ad: "Star", rss: "https://www.star.com.tr/rss/ekonomi.xml" },
-  { kod: "AKSAM", ad: "Aksam", rss: "https://www.aksam.com.tr/rss/ekonomi.xml" },
+  { kod: "AKSAM", ad: "Aksam", rss: "https://www.aksam.com.tr/rss/rss.asp" },
   { kod: "YENISAFAK", ad: "Yeni Safak", rss: "https://www.yenisafak.com/rss?xml=ekonomi" },
   { kod: "DUNYA", ad: "Dunya Gazetesi", rss: "https://www.dunya.com/rss?kategori=ekonomi" },
   { kod: "BLOOMBERGHT", ad: "Bloomberg HT", rss: "https://www.bloomberght.com/rss" },
-  { kod: "HABER7", ad: "Haber7", rss: "https://www.haber7.com/ekonomi_articles.rss" },
-  { kod: "ENSONHABER", ad: "Ensonhaber", rss: "https://www.ensonhaber.com/rss/ekonomi.xml" },
+  { kod: "HABER7", ad: "Haber7", rss: "https://i12.haber7.net/sondakika/newsstand/latest.xml" },
+  { kod: "ENSONHABER", ad: "Ensonhaber", rss: "https://www.ensonhaber.com/rss/ensonhaber.xml" },
   { kod: "TAKVIM", ad: "Takvim", rss: "https://www.takvim.com.tr/rss/ekonomi.xml" },
-  { kod: "TRTHABER", ad: "TRT Haber", rss: "https://www.trthaber.com/ekonomi.rss" },
+  { kod: "TRTHABER", ad: "TRT Haber", rss: "https://www.trthaber.com/sondakika.rss" },
 ];
 
 /* Baslik/ozet bu anahtar kelimelerden en az birini icermiyorsa
@@ -655,7 +655,17 @@ async function main() {
   console.log("Yazildi: " + hedefYol + " - " + haberler.length + " haber, " + cikti.kaynaklar.length + " kaynak.");
 }
 
-main().catch((err) => {
-  console.error("Beklenmeyen hata:", err);
+// Bekçi: bir şey takılırsa 4 dakikada kendiliğinden çık (unref: kendisi süreci açık tutmaz)
+setTimeout(() => {
+  console.error("Zaman asimi: script 4 dakikada bitmedi, cikiliyor.");
   process.exit(1);
-});
+}, 4 * 60 * 1000).unref();
+
+main()
+  // Dosya yazildiktan sonra acik kalan baglantilar sureci dakikalarca bekletebiliyordu
+  // (GitHub'da isin zaman asimina ugrayip commit adimini atlamasina yol aciyordu): hemen cik.
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error("Beklenmeyen hata:", err);
+    process.exit(1);
+  });
