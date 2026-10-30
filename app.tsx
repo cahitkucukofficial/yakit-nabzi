@@ -575,8 +575,13 @@ function aktifBeklenti(nc) {
 }
 
 function NextChangeCard({ fuelKey, beklenti }) {
+  const [kaynakAcik, setKaynakAcik] = useState(false); // "3 kaynak" düğmesi: kaynak adlarını aç/kapat
   const meta = FUEL_META[fuelKey];
   const nc = aktifBeklenti(beklenti?.[fuelKey]);
+  // Doğrulayan kaynaklar (eski veride yalnızca ana kaynak olabilir)
+  const kaynakListesi = (nc.kaynaklar && nc.kaynaklar.length ? nc.kaynaklar : (nc.kaynakLink ? [{ kaynak: nc.kaynak, kaynakLink: nc.kaynakLink }] : []))
+    .filter((k) => !YASAKLI_KAYNAKLAR.includes(k.kaynak));
+  const cokKaynak = nc.dogrulayanKaynakSayisi > 1;
   const yonRenk = nc.expected ? (nc.direction === "artis" ? "#EE2D3A" : "#2A9421") : null; // zam: Türk bayrağı kırmızısı, indirim: okunaklı canlı yeşil
   const yonKelime = nc.direction === "artis" ? "Zam" : "İndirim";
   return (
@@ -599,9 +604,22 @@ function NextChangeCard({ fuelKey, beklenti }) {
           <div className="next-change-date-row">
             <Icon.clock />
             {yonKelime} tarihi {fmtBeklentiTarihKisa(nc.tarih)}
-            {nc.dogrulayanKaynakSayisi > 1 && " · " + nc.dogrulayanKaynakSayisi + " kaynak"}
+            {cokKaynak && (
+              <button className={"nc-kaynak-dugme" + (kaynakAcik ? " acik" : "")} onClick={() => setKaynakAcik(!kaynakAcik)} aria-expanded={kaynakAcik}>
+                {nc.dogrulayanKaynakSayisi} kaynak <Icon.chevronDown className="nc-kaynak-ok" />
+              </button>
+            )}
           </div>
-          {nc.kaynakLink && (
+          {cokKaynak && kaynakAcik && (
+            <div className="nc-kaynak-liste">
+              {kaynakListesi.map((k) => (
+                <a key={k.kaynak} className="nc-kaynak-satir" href={k.kaynakLink} target="_blank" rel="noopener noreferrer">
+                  {KAYNAK_ADLARI[k.kaynak] || k.kaynak} <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
+                </a>
+              ))}
+            </div>
+          )}
+          {!cokKaynak && nc.kaynakLink && (
             <a className="next-change-kaynak" href={nc.kaynakLink} target="_blank" rel="noopener noreferrer">
               Kaynak: {KAYNAK_ADLARI[nc.kaynak] || nc.kaynak || "haber"} <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
             </a>
@@ -1666,6 +1684,15 @@ function App() {
         .uyari-ok{ width:16px; height:16px; flex-shrink:0; transition:transform .2s ease; }
         .nc-uyari.acik .uyari-ok{ transform:rotate(180deg); }
         .uyari-metin{ padding:8px 0 0 24px; }
+        .nc-kaynak-dugme{ display:inline-flex; align-items:center; gap:4px; margin-left:6px; padding:3px 9px; border-radius:999px; background:var(--panel-2); border:var(--card-border); color:var(--metin); font-family:var(--font-body); font-size:12.5px; font-weight:700; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+        .nc-kaynak-dugme:active{ transform:scale(.95); }
+        .nc-kaynak-ok{ width:12px; height:12px; transition:transform .2s ease; }
+        .nc-kaynak-dugme.acik .nc-kaynak-ok{ transform:rotate(180deg); }
+        .nc-kaynak-liste{ margin-top:10px; border-top:1px solid var(--kenar); }
+        .nc-kaynak-satir{ display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px 0; border-bottom:1px solid var(--kenar); font-size:13px; font-weight:700; color:var(--metin); text-decoration:none; font-family:var(--font-body); }
+        .nc-kaynak-satir:last-child{ border-bottom:0; padding-bottom:0; }
+        .nc-kaynak-satir .nc-git{ display:flex; align-items:center; gap:2px; color:var(--aksan); white-space:nowrap; }
+        .nc-kaynak-satir .chev{ width:14px; height:14px; }
         .next-change-kaynak{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:10px; padding-top:10px; border-top:1px solid var(--kenar); font-size:12.5px; color:var(--metin-soluk); text-decoration:none; font-family:var(--font-body); }
         .next-change-kaynak .nc-git{ display:flex; align-items:center; gap:2px; font-weight:700; color:var(--aksan); white-space:nowrap; }
         .next-change-kaynak .chev{ width:14px; height:14px; }
