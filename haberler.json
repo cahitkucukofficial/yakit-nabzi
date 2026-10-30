@@ -1,17 +1,33 @@
 {
-  "guncelleme": "2026-10-30T03:11:21.060Z",
+  "guncelleme": "2026-10-30T10:30:27.117Z",
   "kaynaklar": [
-    "YENISAFAK",
     "DUNYA",
+    "MILLIYET",
     "BLOOMBERGHT",
-    "CUMHURIYET"
+    "CUMHURIYET",
+    "HABERTURK",
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
-      "expected": false
+      "expected": true,
+      "direction": "artis",
+      "amount": 3.6,
+      "tarih": "2026-11-03",
+      "dogrulayanKaynakSayisi": 1,
+      "kaynakBaslik": "Akaryakıta büyük zam kapıda! Motorin 100, benzin 80 lirayı aşacak",
+      "kaynak": "DUNYA",
+      "kaynakLink": "https://www.dunya.com/ekonomi/akaryakita-buyuk-zam-kapida-motorin-100-benzin-80-lirayi-asacak-haberi-845838"
     },
     "benzin": {
-      "expected": false
+      "expected": true,
+      "direction": "artis",
+      "amount": 4.15,
+      "tarih": "2026-11-03",
+      "dogrulayanKaynakSayisi": 1,
+      "kaynakBaslik": "Akaryakıta büyük zam kapıda! Motorin 100, benzin 80 lirayı aşacak",
+      "kaynak": "DUNYA",
+      "kaynakLink": "https://www.dunya.com/ekonomi/akaryakita-buyuk-zam-kapida-motorin-100-benzin-80-lirayi-asacak-haberi-845838"
     },
     "lpg": {
       "expected": false
@@ -19,32 +35,66 @@
   },
   "haberler": [
     {
+      "baslik": "Akaryakıta büyük zam kapıda! Motorin 100, benzin 80 lirayı aşacak",
+      "ozet": "Akaryakıt fiyatlarında kasım ayıyla birlikte yeni zamlar gündemde. Sektör kaynaklarına göre, ÖTV düzenlemesinin etkisiyle benzinin litre fiyatına 4,15 TL, motorine ise 3,60 TL zam bekleniyor. LPG'de ise 3 Kasım'dan it...",
+      "link": "https://www.dunya.com/ekonomi/akaryakita-buyuk-zam-kapida-motorin-100-benzin-80-lirayi-asacak-haberi-845838",
+      "tarih": "2026-10-30T09:52:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "COP31 CEO'su Varank: Dünyaya köprü olacağız",
+      "ozet": "COP31 CEO'suFatma Varank, Türkiye'nin 9-20 Kasım'da Antalya'da ev sahipliği ve başkanlığını üstleneceği COP31'in hazırlıklarını, uluslararası müzakere sürecini ve Türkiye'nin küresel iklim değişikliğiyle mücadelede or...",
+      "tarih": "2026-10-30T08:33:34.000Z",
+      "kaynak": "MILLIYET"
+    },
+    {
+      "baslik": "Rus rafinerilerinde savaş hasarı bitmiyor",
+      "ozet": "NASA uydu görüntüleri, Ukrayna'nın iki hafta içinde Rusya'daki yakıt tesislerine düzenlediği ilk saldırı olarak değerlendirilen eyleminin ardından, ülkedeki büyük bir petrol rafinerisinin yakınlarında yangın çıktığına...",
+      "link": "https://www.bloomberght.com/rus-rafinerilerinde-savas-hasari-bitmiyor-3792882",
+      "tarih": "2026-10-30T08:02:24.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Yüksek petrol ve doğalgaz fiyatları şirketlere yaradı: Kârlar rekor seviyede",
+      "ozet": "Küresel enerji şirketleri, yükselen petrol ve doğalgaz fiyatları ile rekor rafineri marjlarının etkisiyle kârlarını güçlü biçimde artırdı. Shell, TotalEnergies ve Repsol’un bilançolarında belirgin yükseliş görülürken,...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/yuksek-petrol-ve-dogalgaz-fiyatlari-sirketlere-yaradi-karlar-rekor-seviyede-2551636",
+      "tarih": "2026-10-30T06:54:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Brent petrol yükselişte",
+      "ozet": "ABD'nin İran'a yönelik olası saldırı planları ve Hürmüz Boğazı'nda yaşanan tanker olayları, petrol arzına ilişkin endişeleri artırırken Brent petrolün varil fiyatı yüzde 0,7 yükselişle 111,57 dolara çıktı",
+      "link": "https://www.haberturk.com/ekonomi/brent-petrolun-varili-111-57-dolardan-islem-goruyor-3923643",
+      "tarih": "2026-10-30T06:52:28.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Savaş akaryakıt devlerinin kasasına yaradı: Enerji şirketlerinin milyarlarca dolarlık kazancı ortaya çıktı",
+      "ozet": "İran savaşının küresel enerji arzına vurduğu darbe, dünya genelinde petrol ve doğalgaz fiyatlarını uçururken bu durum akaryakıt şirketlerine yaradı. Tüketiciler artan faturalarla boğuşurken, Shell, TotalEnergies ve Re...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/savas-akaryakit-devlerinin-kasasina-yaradi-enerji-sirketlerinin-milyarlarca-dolarlik-kazanci-ortaya-cikti-4868351",
+      "tarih": "2026-10-30T06:41:31.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Altın petrol ve enflasyon baskısıyla 4 bin doların altına geriledi",
+      "ozet": "Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve ABD'den gelen güçlü enflasyon verilerinin Fed'in yıl içinde yeniden faiz artırabileceği beklentisini güçlendirmesiyle cuma günü geriledi.",
+      "link": "https://www.bloomberght.com/altin-petrol-ve-enflasyon-baskisiyla-4-bin-dolarin-altina-geriledi-3792821",
+      "tarih": "2026-10-30T03:51:43.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol Hürmüz Boğazı ve Suudi Arabistan'daki saldırılarla yükseldi",
+      "ozet": "Petrol, Yemen'deki İran destekli Husilerin Suudi Arabistan'daki enerji tesislerine yönelik saldırıları ve Orta Doğu'da arz kesintisi endişelerinin etkisiyle cuma günü yükseldi.",
+      "link": "https://www.bloomberght.com/petrol-hurmuz-bogazi-ve-suudi-arabistandaki-saldirilarla-yukseldi-3792820",
+      "tarih": "2026-10-30T03:49:20.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Hedef 15 bin varil üretim",
       "ozet": "Şırnak'taki Gabar sahasında üretim artarken, Diyarbakır'da kaya petrolü için yürütülen çalışmaların ardından gözler şimdi Adıyaman'a çevrildi. Bir dönem petrolün kalelerinden biri olan kentte, yeni keşiflerle günlük ü...",
       "link": "https://www.yenisafak.com/ekonomi/hedef-15-bin-varil-uretim-4868300",
       "tarih": "2026-10-30T01:00:00.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "AB’den enerji hamlesi: 42,6 milyon varil petrol piyasaya sürülecek",
-      "ozet": "Avrupa Birliği üyesi 12 ülke, enerji arzına ilişkin kaygıları azaltmak ve dizel piyasasını istikrara kavuşturmak amacıyla Ocak 2027 sonuna kadar stratejik rezervlerinden 42,6 milyon varil petrolü piyasaya sürmeyi taah...",
-      "link": "https://www.dunya.com/dunya/abden-enerji-hamlesi-426-milyon-varil-petrol-piyasaya-surulecek-haberi-845771",
-      "tarih": "2026-10-29T18:50:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "ABD'nin ticari ham petrol stokları geriledi",
-      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 900 bin varil azaldı.",
-      "link": "https://www.bloomberght.com/abd-nin-ticari-ham-petrol-stoklari-geriledi-3792792",
-      "tarih": "2026-10-29T08:09:02.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrolde müzakere etkisi",
-      "ozet": "Brent petrolün varil fiyatı, bugün saat 09.30 itibarıyla kapanışa göre yaklaşık yüzde 1,3 azalarak 110,22 dolara geriledi. Fiyatlardaki düşüşte, ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomat...",
-      "link": "https://www.bloomberght.com/petrolde-muzakere-etkisi-3792789",
-      "tarih": "2026-10-29T07:27:15.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Brent petrolün varili 110,22 dolardan işlem görüyor",
@@ -121,20 +171,6 @@
       "ozet": "Hürmüz Boğazı'nda tırmanan güvenlik endişeleri ve Libya'daki boru hattı kesintisi, küresel arz risklerini tetikleyerek Brent petrolün varil fiyatını 114 dolar seviyesinin üzerine taşıdı.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/hurmuz-bogazi-nda-kriz-buyuyor-petrole-iran-ve-libya-darbesi-2549511",
       "tarih": "2026-10-23T07:00:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Doğalgazda zam ihtimali gündemde: 2027 için yüzde 21’lik senaryo",
-      "ozet": "Küresel petrol ve doğalgaz fiyatlarındaki yükseliş, Türkiye’nin enerji ithalat maliyetleri üzerindeki baskıyı artırdı. BOTAŞ’ın sermayesi yükseltilirken, kış aylarında doğalgaz ve elektrik tarifelerinde yeni zam ihtim...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/dogalgazda-zam-ihtimali-gundemde-2027-icin-yuzde-21-lik-senaryo-2549186",
-      "tarih": "2026-10-22T08:12:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine indirim geldi! 22 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-indirim-geldi-22-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2549145",
-      "tarih": "2026-10-22T06:39:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
