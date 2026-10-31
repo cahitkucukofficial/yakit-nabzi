@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-10-31T16:25:04.450Z",
+  "guncelleme": "2026-10-31T22:53:24.357Z",
   "kaynaklar": [
+    "EKONOMIM",
+    "HABER7",
     "DUNYA",
     "BIRGUN",
     "YENISAFAK",
     "SOZCU",
-    "HABER7",
     "BLOOMBERGHT",
     "STAR",
-    "SABAH",
     "AA",
     "HABERTURK",
     "CUMHURIYET"
@@ -18,34 +18,23 @@
       "expected": true,
       "direction": "artis",
       "amount": 3.6,
-      "tarih": "2026-11-01",
+      "tarih": "2026-10-31",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 5,
+      "tarihDogrulayanSayisi": 3,
       "tarihAdaylari": [
-        "2026-10-31",
-        "2026-11-01"
+        "2026-10-31"
       ],
-      "dogrulayanKaynakSayisi": 5,
+      "dogrulayanKaynakSayisi": 3,
       "kaynaklar": [
-        {
-          "kaynak": "HABER7",
-          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor",
-          "tarih": "2026-11-01"
-        },
         {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-          "tarih": "2026-11-01"
+          "tarih": "2026-10-31"
         },
         {
           "kaynak": "CUMHURIYET",
           "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-          "tarih": "2026-11-01"
-        },
-        {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/akaryakita-otv-zammi-geliyor-yarin-pompaya-yansiyacak-743616",
-          "tarih": "2026-11-01"
+          "tarih": "2026-10-31"
         },
         {
           "kaynak": "YENISAFAK",
@@ -53,9 +42,9 @@
           "tarih": "2026-10-31"
         }
       ],
-      "kaynakBaslik": "Günler öncesinden duyurulmuştu: Akaryakıtta tabela bu gece değişiyor",
-      "kaynak": "HABER7",
-      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor"
+      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
+      "kaynak": "SOZCU",
+      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
     },
     "benzin": {
       "expected": true,
@@ -63,18 +52,13 @@
       "amount": 4.15,
       "tarih": "2026-11-01",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 5,
+      "tarihDogrulayanSayisi": 3,
       "tarihAdaylari": [
         "2026-10-31",
         "2026-11-01"
       ],
-      "dogrulayanKaynakSayisi": 5,
+      "dogrulayanKaynakSayisi": 3,
       "kaynaklar": [
-        {
-          "kaynak": "HABER7",
-          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor",
-          "tarih": "2026-11-01"
-        },
         {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
@@ -86,19 +70,14 @@
           "tarih": "2026-11-01"
         },
         {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/akaryakita-otv-zammi-geliyor-yarin-pompaya-yansiyacak-743616",
-          "tarih": "2026-11-01"
-        },
-        {
           "kaynak": "YENISAFAK",
           "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
           "tarih": "2026-10-31"
         }
       ],
-      "kaynakBaslik": "Günler öncesinden duyurulmuştu: Akaryakıtta tabela bu gece değişiyor",
-      "kaynak": "HABER7",
-      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor"
+      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
+      "kaynak": "SOZCU",
+      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
     },
     "lpg": {
       "expected": true,
@@ -130,6 +109,27 @@
   },
   "haberler": [
     {
+      "baslik": "A101 5 KASIM AKTÜEL ÜRÜNLER KATALOĞU YAYINLANDI: İŞTE İNDİRİMLİ ÜRÜNLER (A101 5-11 KASIM)",
+      "ozet": "A101 5-11 Kasım aktüel kataloğu yayınlandı, raflarda adeta fırsat şöleni yaşanıyor! Kataloğun öne çıkan yıldızları benzinli motosiklet, elektrikli bisiklet, televizyonlar ve dayanıklı beyaz eşya grupları oluyor. Mutfa...",
+      "link": "https://www.ekonomim.com/foto-galeri/aktuel/a101-5-kasim-aktuel-urunler-katalogu-yayinlandi-iste-indirimli-urunler-a101-5-11-kasim-s1-galeri-928314",
+      "tarih": "2026-10-31T22:43:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Libya’da petrol sabotajı: Dev boru hattı kapatıldı",
+      "ozet": "Libya Ulusal Petrol Kurumu (NOC), silahlı bir grubun Hamada petrol sahasını Zaviye Rafinerisi'ne bağlayan ana ham petrol boru hattının vanasını kapattığını ve üretimde günlük 15 bin varillik kayıp yaşandığını duyurdu.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673156-libyada-petrol-sabotaji-dev-boru-hatti-kapatildi",
+      "tarih": "2026-10-31T20:20:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "OPEC+ petrol üretiminde kararını verdi: Aralık ayı için değişiklik beklenmiyor",
+      "ozet": "OPEC+ ülkelerinin aralık ayı petrol üretim hedeflerini değiştirmeme konusunda prensipte anlaştığı bildirildi. İran savaşı nedeniyle Körfez ülkelerinin üretimi kotaların altında kalırken, grubun gelecek yılın arz polit...",
+      "link": "https://www.dunya.com/ekonomi/opec-petrol-uretiminde-kararini-verdi-aralik-ayi-icin-degisiklik-beklenmiyor-haberi-845963",
+      "tarih": "2026-10-31T20:08:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "Mazota zam mı gelecek, benzine zam var mı? Akaryakıt fiyatları artacak mı?",
       "ozet": "Brent petrol 113 dolardan işlem görürken bu ay yaşanan artışlar nedeniyle akaryakıta da zamlar geldi. Vatandaşlar Kasım ayına girilirken planlı ÖTV zamları da devreye girecek. Şimdi sıkça gelen soru \"Mazota zam mı gel...",
       "link": "https://www.dunya.com/ekonomi/mazota-zam-mi-gelecek-benzine-zam-var-mi-akaryakit-fiyatlari-artacak-mi-haberi-845941",
@@ -158,13 +158,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Günler öncesinden duyurulmuştu: Akaryakıtta tabela bu gece değişiyor",
-      "ozet": "1 Kasım 2026 Pazar gününden itibaren geçerli olmak üzere benzine 4,15 TL, motorine 3,60 TL zam yapılacak.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor",
-      "tarih": "2026-10-31T10:16:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "EPDK meskenlere yönelik elektrik tüketim limitinde değişikliğe gitti",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesinin Düzenlenmesi Hakkında Tebliğ'de değişikliğe gitti.",
       "link": "https://www.bloomberght.com/epdk-meskenlere-yonelik-elektrik-tuketim-limitinde-degisiklige-gitti-3792986",
@@ -177,13 +170,6 @@
       "link": "https://www.star.com.tr/ekonomi/elektrik-faturalarini-ilgilendiren-karar-1-ocaktan-itibaren-gecerli-olacak-haber-2050292/",
       "tarih": "2026-10-31T09:39:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "EPDK'dan kritik karar! Elektrik tüketiminde yeni kurallar",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesi'nde değişikliğe gitti. 1 Ocak 2027'den itibaren mesken tüketicileri için yıllık elektrik tüketim miktarı 3 bin kilovatsaat olarak uygulanacak....Dev...",
-      "link": "https://www.sabah.com.tr/ekonomi/epdkdan-kritik-karar-elektrik-tuketiminde-yeni-kurallar-7692171",
-      "tarih": "2026-10-31T09:25:16.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "EPDK meskenlere yönelik elektrik tüketim limitinde değişikliğe gitti",
@@ -214,13 +200,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "31 Ekim 2026 Benzin ve Motorin Fiyatlarında İndirim, Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "31 Ekim 2026 güncel akaryakıt fiyatları araç sahiplerinin gündeminde ilk sıralarda yer alıyor. Benzin, motorin ve LPG litre fiyatlarını takip eden sürücüler, 1 Kasım'da beklenen ÖTV artışının pompaya nasıl yansıyacağı...",
-      "link": "https://www.birgun.net/haber/31-ekim-2026-benzin-ve-motorin-fiyatlarinda-indirim-zam-var-mi-guncel-akaryakit-fiyatlari-743634",
-      "tarih": "2026-10-31T07:35:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Doğal gaz toptan satış piyasasında teknik ve idari esaslarda değişiklik yapıldı",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla teknik ve idari esaslarda düzenleme yaptı.",
       "link": "https://www.aa.com.tr/tr/ekonomi/dogal-gaz-toptan-satis-piyasasinda-teknik-ve-idari-esaslarda-degisiklik-yapildi/4107080",
@@ -233,13 +212,6 @@
       "link": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
       "tarih": "2026-10-31T07:20:55.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Limonun fiyatı 10 katına çıktı: Yüzde 999’luk fiyat uçurumu",
-      "ozet": "TZOB’nin ekim ayı raporu, üretici ile market arasındaki fiyat uçurumunu gözler önüne serdi. Limon yüzde 999,2 ile fiyat farkının en yüksek olduğu ürün olurken, üreticide 3,90 lira olan limon markette 42,87 liraya satı...",
-      "link": "https://www.birgun.net/haber/limonun-fiyati-10-katina-cikti-yuzde-999luk-fiyat-ucurumu-743630",
-      "tarih": "2026-10-31T07:12:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Marketlerin zam şampiyonu belli oldu",
@@ -270,13 +242,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Akaryakıta ÖTV zammı geliyor: Yarın pompaya yansıyacak",
-      "ozet": "Kasım ayında yürürlüğe girmesi beklenen ÖTV artışı kapsamında benzine 4,15, motorine 3,60 TL zam yapılması bekleniyor. Öngörülen artışlar gerçekleşirse LPG'nin litre fiyatı 50, benzinin litre fiyatı 80, motorinin litr...",
-      "link": "https://www.birgun.net/haber/akaryakita-otv-zammi-geliyor-yarin-pompaya-yansiyacak-743616",
-      "tarih": "2026-10-31T05:10:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Doğal gazda tüketim limitleri güncellendi",
       "ozet": "Boru Hatları ile Petrol Taşıma AŞ (BOTAŞ), konutlarda uygulanan kademeli doğal gaz tarifesi kapsamında kasım ve aralık aylarına ilişkin il bazlı tüketim limitlerini güncelledi.",
       "link": "https://www.star.com.tr/ekonomi/dogal-gazda-tuketim-limitleri-guncellendi-haber-2050204/",
@@ -296,13 +261,6 @@
       "link": "https://www.bloomberght.com/botas-kasim-ve-aralik-aylari-icin-dogalgaz-tuketim-limitlerini-guncelledi-3792968",
       "tarih": "2026-10-30T17:35:21.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "EPDK elektrikte Son Kaynak Tedarik Tarifesi limitinde değişikliğe gitti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesi kapsamında mesken aboneleri için 2027'de uygulanacak yıllık elektrik tüketim limitini 3 bin kilovatsaat olarak belirledi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/epdk-elektrikte-son-kaynak-tedarik-tarifesi-limitinde-degisiklige-gitti/4106616",
-      "tarih": "2026-10-30T14:00:32.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
@@ -361,13 +319,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Rus rafinerilerinde savaş hasarı bitmiyor",
-      "ozet": "NASA uydu görüntüleri, Ukrayna'nın iki hafta içinde Rusya'daki yakıt tesislerine düzenlediği ilk saldırı olarak değerlendirilen eyleminin ardından, ülkedeki büyük bir petrol rafinerisinin yakınlarında yangın çıktığına...",
-      "link": "https://www.bloomberght.com/rus-rafinerilerinde-savas-hasari-bitmiyor-3792882",
-      "tarih": "2026-10-30T08:02:24.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Yüksek petrol ve doğalgaz fiyatları şirketlere yaradı: Kârlar rekor seviyede",
       "ozet": "Küresel enerji şirketleri, yükselen petrol ve doğalgaz fiyatları ile rekor rafineri marjlarının etkisiyle kârlarını güçlü biçimde artırdı. Shell, TotalEnergies ve Repsol’un bilançolarında belirgin yükseliş görülürken,...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/yuksek-petrol-ve-dogalgaz-fiyatlari-sirketlere-yaradi-karlar-rekor-seviyede-2551636",
@@ -396,17 +347,45 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Brent petrolün varili 110,22 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 110,22 dolardan işlem görüyor.",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-11022-dolardan-islem-goruyor-4868148",
-      "tarih": "2026-10-29T07:18:42.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Petrol fiyatları geriledi: ABD-İran görüşmeleri için yeni adım",
       "ozet": "ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomatik girişimler, petrol fiyatlarında düşüşe yol açtı. Katar öncülüğündeki arabuluculuk çabalarının bölgedeki arz endişelerini hafifletmesiyle Brent...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-geriledi-abd-iran-gorusmeleri-icin-yeni-adim-2551305",
       "tarih": "2026-10-29T07:14:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
+      "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
+      "tarih": "2026-10-27T12:49:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
+      "ozet": "Akaryakıtta ÖTV kaynaklı yeni zam beklentisi gündeme geldi. Beklenen artışın uygulanması halinde benzin ve motorin fiyatlarının yeni eşikleri aşması beklenirken, zamların pompaya hangi tarihte yansıtılacağına ilişkin ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
+      "tarih": "2026-10-26T09:13:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
+      "ozet": "Altın fiyatlarında satış baskısı sürerken analistler, kısa vadede yeni dip seviyelerinin görülebileceği uyarısında bulunuyor. Petrol fiyatlarındaki yükseliş, enflasyon endişeleri ve Fed’in faiz politikası altını baskı...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
+      "tarih": "2026-10-26T06:57:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
+      "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
+      "tarih": "2026-10-26T01:00:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
+      "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
+      "tarih": "2026-10-23T13:48:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
