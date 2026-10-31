@@ -1,47 +1,51 @@
 {
-  "guncelleme": "2026-10-31T10:00:23.794Z",
+  "guncelleme": "2026-10-31T16:25:04.450Z",
   "kaynaklar": [
-    "AKSAM",
+    "DUNYA",
+    "BIRGUN",
+    "YENISAFAK",
+    "SOZCU",
+    "HABER7",
+    "BLOOMBERGHT",
     "STAR",
     "SABAH",
     "AA",
-    "YENISAFAK",
-    "BLOOMBERGHT",
-    "EKONOMIM",
-    "SOZCU",
-    "BIRGUN",
-    "HABER7",
     "HABERTURK",
-    "CUMHURIYET",
-    "DUNYA"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
       "expected": true,
       "direction": "artis",
       "amount": 3.6,
-      "tarih": "2026-10-31",
+      "tarih": "2026-11-01",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 4,
+      "tarihDogrulayanSayisi": 5,
       "tarihAdaylari": [
-        "2026-10-31"
+        "2026-10-31",
+        "2026-11-01"
       ],
-      "dogrulayanKaynakSayisi": 4,
+      "dogrulayanKaynakSayisi": 5,
       "kaynaklar": [
+        {
+          "kaynak": "HABER7",
+          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor",
+          "tarih": "2026-11-01"
+        },
         {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-          "tarih": "2026-10-31"
+          "tarih": "2026-11-01"
         },
         {
           "kaynak": "CUMHURIYET",
           "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-          "tarih": "2026-10-31"
+          "tarih": "2026-11-01"
         },
         {
           "kaynak": "BIRGUN",
           "kaynakLink": "https://www.birgun.net/haber/akaryakita-otv-zammi-geliyor-yarin-pompaya-yansiyacak-743616",
-          "tarih": "2026-10-31"
+          "tarih": "2026-11-01"
         },
         {
           "kaynak": "YENISAFAK",
@@ -49,9 +53,9 @@
           "tarih": "2026-10-31"
         }
       ],
-      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
+      "kaynakBaslik": "Günler öncesinden duyurulmuştu: Akaryakıtta tabela bu gece değişiyor",
+      "kaynak": "HABER7",
+      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor"
     },
     "benzin": {
       "expected": true,
@@ -59,13 +63,18 @@
       "amount": 4.15,
       "tarih": "2026-11-01",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 4,
+      "tarihDogrulayanSayisi": 5,
       "tarihAdaylari": [
         "2026-10-31",
         "2026-11-01"
       ],
-      "dogrulayanKaynakSayisi": 4,
+      "dogrulayanKaynakSayisi": 5,
       "kaynaklar": [
+        {
+          "kaynak": "HABER7",
+          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor",
+          "tarih": "2026-11-01"
+        },
         {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
@@ -87,9 +96,9 @@
           "tarih": "2026-10-31"
         }
       ],
-      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
+      "kaynakBaslik": "Günler öncesinden duyurulmuştu: Akaryakıtta tabela bu gece değişiyor",
+      "kaynak": "HABER7",
+      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor"
     },
     "lpg": {
       "expected": true,
@@ -121,11 +130,46 @@
   },
   "haberler": [
     {
-      "baslik": "Elektrikte yeni sınır 3 bin kilovatsaat: 1 Ocak'ta uygulanacak",
-      "ozet": "EPDK, elektrikte son kaynak tedarik tarifesi kapsamında meskenler için yıllık tüketim limitini 3 bin kilovatsaat olarak belirledi. Konutlar ve apartmanların ortak kullanım alanlarını da kapsayan düzenleme, 1 Ocak 2027...",
-      "link": "https://www.aksam.com.tr/ekonomi/elektrikte-yeni-sinir-3-bin-kilovatsaat-1-ocakta-uygulanacak/haber-1710674",
-      "tarih": "2026-10-31T09:40:00.000Z",
-      "kaynak": "AKSAM"
+      "baslik": "Mazota zam mı gelecek, benzine zam var mı? Akaryakıt fiyatları artacak mı?",
+      "ozet": "Brent petrol 113 dolardan işlem görürken bu ay yaşanan artışlar nedeniyle akaryakıta da zamlar geldi. Vatandaşlar Kasım ayına girilirken planlı ÖTV zamları da devreye girecek. Şimdi sıkça gelen soru \"Mazota zam mı gel...",
+      "link": "https://www.dunya.com/ekonomi/mazota-zam-mi-gelecek-benzine-zam-var-mi-akaryakit-fiyatlari-artacak-mi-haberi-845941",
+      "tarih": "2026-10-31T12:43:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Manisa FK - Batman Petrolspor Maçı Ne Zaman, Saat Kaçta, Hangi Kanalda?",
+      "ozet": "Trendyol 1. Lig'in 13. haftasında Manisa FK ile Batman Petrolspor karşı karşıya geliyor. 31 Ekim 2026 Cumartesi günü saat 19.00'da Manisa 19 Mayıs Stadyumu'nda oynanacak mücadele, TRT Spor ve beIN SPORTS 2 ekranlarınd...",
+      "link": "https://www.birgun.net/haber/manisa-fk-batman-petrolspor-maci-ne-zaman-saat-kacta-hangi-kanalda-743645",
+      "tarih": "2026-10-31T12:06:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Akaryakıtta yeni tarife belli oldu: Benzin ve motorinde fiyatlar güncelleniyor",
+      "ozet": "ABD-İran savaşı sonrasında küresel petrol fiyatlarında yaşanan dalgalanmaların iç piyasaya etkisini hafifletmek amacıyla uygulanan \"eşel mobil\" sisteminden kademeli çıkılması kararı alınmıştı. Alınan yeni kararla birl...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-yeni-tarife-belli-oldu-gece-yarisi-tabelalar-degisecek-iste-il-il-benzin-ve-motorin-fiyat-listesi-4868651",
+      "tarih": "2026-10-31T11:16:05.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Bugün resmileşti: Elektrikte tüketim limitleri değişti",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesinin Düzenlenmesi Hakkında Tebliğ'de değişikliğe gitt...",
+      "link": "https://www.sozcu.com.tr/bugun-resmilesti-elektrikte-tuketim-limitleri-degisti-p374585",
+      "tarih": "2026-10-31T10:26:28.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Günler öncesinden duyurulmuştu: Akaryakıtta tabela bu gece değişiyor",
+      "ozet": "1 Kasım 2026 Pazar gününden itibaren geçerli olmak üzere benzine 4,15 TL, motorine 3,60 TL zam yapılacak.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673049-gunler-oncesinden-duyurulmustu-akaryakitta-tabela-bu-gece-degisiyor",
+      "tarih": "2026-10-31T10:16:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "EPDK meskenlere yönelik elektrik tüketim limitinde değişikliğe gitti",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesinin Düzenlenmesi Hakkında Tebliğ'de değişikliğe gitti.",
+      "link": "https://www.bloomberght.com/epdk-meskenlere-yonelik-elektrik-tuketim-limitinde-degisiklige-gitti-3792986",
+      "tarih": "2026-10-31T10:13:52.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Elektrik faturalarını ilgilendiren karar! 1 Ocak'tan itibaren geçerli olacak",
@@ -163,13 +207,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Trump yine tarih vermedi! İran savaşı için aynı mesajı tekrarladı",
-      "ozet": "ABD Başkanı Donald Trump, İran'la devam eden savaşın yakında sona ereceğini öne sürdü. Tahran yönetiminden nükleer silah edinmeyeceğine dair güvence istediklerini belirten Trump, savaşın bitmesiyle petrol fiyatlarının...",
-      "link": "https://www.ekonomim.com/dunya/trump-yine-tarih-vermedi-iran-savasi-icin-ayni-mesaji-tekrarladi-haberi-928199",
-      "tarih": "2026-10-31T08:09:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "Doğal gaz toptan satış piyasasında teknik ve idari esaslarda değişiklik yapıldı",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla ...",
       "link": "https://www.sozcu.com.tr/dogal-gaz-toptan-satis-piyasasinda-teknik-ve-idari-esaslarda-degisiklik-yapildi-p374531",
@@ -177,39 +214,11 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "EPDK'dan doğal gaz piyasasında yeni düzenleme! Fiyat hesaplaması ve işlem limitleri değişti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasının işleyişine yönelik yeni düzenlemeleri hayata geçirdi. Resmi Gazete'de yayımlanan kararla günlük referans fiyatı hesaplamasına...Deva...",
-      "link": "https://www.sabah.com.tr/ekonomi/epdkdan-dogal-gaz-piyasasinda-yeni-duzenleme-fiyat-hesaplamasi-ve-islem-limitleri-degisti-7692117",
-      "tarih": "2026-10-31T07:39:55.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "31 Ekim 2026 Benzin ve Motorin Fiyatlarında İndirim, Zam Var mı? Güncel Akaryakıt Fiyatları",
       "ozet": "31 Ekim 2026 güncel akaryakıt fiyatları araç sahiplerinin gündeminde ilk sıralarda yer alıyor. Benzin, motorin ve LPG litre fiyatlarını takip eden sürücüler, 1 Kasım'da beklenen ÖTV artışının pompaya nasıl yansıyacağı...",
       "link": "https://www.birgun.net/haber/31-ekim-2026-benzin-ve-motorin-fiyatlarinda-indirim-zam-var-mi-guncel-akaryakit-fiyatlari-743634",
       "tarih": "2026-10-31T07:35:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "EPDK'dan doğal gazda yeni düzenleme! Fiyat hesaplaması ve işlem limitleri değişti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla teknik ve idari esaslarda düzenleme yaptı.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673008-epdkdan-dogal-gazda-yeni-duzenleme-fiyat-hesaplamasi-ve-islem-limitleri-degisti",
-      "tarih": "2026-10-31T07:31:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "İlk sondaj vuruldu! Doğal gaz ve petrol fışkırdı",
-      "ozet": "Mısır Petrol Bakanlığı, Doğu Çölü'ndeki Lorcan-6 kuyusunda günlük 1.500 varil ham petrol ve 8 milyon metreküp doğal gaz kapasiteli yeni bir rezerv keşfetti. Uluslararası yatırımlarla açılan kuyu, doğrudan ulusal üreti...",
-      "link": "https://www.haber7.com/dunya/haber/3673007-ilk-sondaj-vuruldu-dogal-gaz-ve-petrol-fiskirdi",
-      "tarih": "2026-10-31T07:29:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Altında ibre tersine döndü: Kritik eşik kırıldı!",
-      "ozet": "Ons altının ekim ayındaki kaybı yüzde 6,8'e ulaşırken spot fiyat 3 bin 875 dolara çekildi. ABD Merkez Bankasının faiz adımları ve yükselen petrol fiyatları değerli metallerdeki satış baskısını derinleştiriyor.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673003-altinda-ibre-tersine-dondu-kritik-esik-kirildi",
-      "tarih": "2026-10-31T07:24:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Doğal gaz toptan satış piyasasında teknik ve idari esaslarda değişiklik yapıldı",
@@ -247,13 +256,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "ABD'nin petrol sondaj kulesi sayısı arttı",
-      "ozet": "ABD'de petrol sondaj kulesi sayısı bu hafta 2 arttı.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3672989-abdnin-petrol-sondaj-kulesi-sayisi-artti",
-      "tarih": "2026-10-31T06:25:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Akaryakıta dev zam geliyor: Motorinin litresi 100 TL'yi aşacak!",
       "ozet": "Kasımda yürürlüğe girmesi beklenen ÖTV artışı kapsamında benzine 4,15, motorine 3,60 TL zam yapılması bekleniyor. Öngörülen artışlar gerçekleşirse LPG'nin litre fiyatı 50, benzinin litre fiyatı 80, motorinin litre fiy...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-geliyor-motorinin-litresi-100-tl-yi-asacak-2551878",
@@ -273,20 +275,6 @@
       "link": "https://www.birgun.net/haber/akaryakita-otv-zammi-geliyor-yarin-pompaya-yansiyacak-743616",
       "tarih": "2026-10-31T05:10:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Altın ve petrol fiyatlarında son ayların en büyük hareketi!",
-      "ozet": "Ortadoğu'da devam eden savaş ve Hürmüz Boğazı'ndaki hareketlilik küresel petrol fiyatlarını yükseltti. Altın fiyatları ise büyük düşüş yaşadı. İşte altın, petrol ve gümüşte son durum",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3672943-altin-ve-petrol-fiyatlarinda-son-aylarin-en-buyuk-hareketi",
-      "tarih": "2026-10-31T04:53:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Altında dengeler değişti: Sert düşüşün ardından gözler bu seviyede",
-      "ozet": "Spot altın, ekim ayının son işlem gününde yüzde 3,6 değer kaybederek 3 bin 875 dolara kadar geriledi ve bir yılı aşkın sürenin en düşük seviyesini gördü. ABD'de faiz artışı beklentilerinin güçlenmesi, yükselen petrol ...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/altinda-dengeler-degisti-sert-dususun-ardindan-gozler-bu-seviyede-galeri-845908",
-      "tarih": "2026-10-31T04:16:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Doğal gazda tüketim limitleri güncellendi",
@@ -399,6 +387,27 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/savas-akaryakit-devlerinin-kasasina-yaradi-enerji-sirketlerinin-milyarlarca-dolarlik-kazanci-ortaya-cikti-4868351",
       "tarih": "2026-10-30T06:41:31.000Z",
       "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Hedef 15 bin varil üretim",
+      "ozet": "Şırnak'taki Gabar sahasında üretim artarken, Diyarbakır'da kaya petrolü için yürütülen çalışmaların ardından gözler şimdi Adıyaman'a çevrildi. Bir dönem petrolün kalelerinden biri olan kentte, yeni keşiflerle günlük ü...",
+      "link": "https://www.yenisafak.com/ekonomi/hedef-15-bin-varil-uretim-4868300",
+      "tarih": "2026-10-30T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Brent petrolün varili 110,22 dolardan işlem görüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 110,22 dolardan işlem görüyor.",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-11022-dolardan-islem-goruyor-4868148",
+      "tarih": "2026-10-29T07:18:42.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol fiyatları geriledi: ABD-İran görüşmeleri için yeni adım",
+      "ozet": "ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomatik girişimler, petrol fiyatlarında düşüşe yol açtı. Katar öncülüğündeki arabuluculuk çabalarının bölgedeki arz endişelerini hafifletmesiyle Brent...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-geriledi-abd-iran-gorusmeleri-icin-yeni-adim-2551305",
+      "tarih": "2026-10-29T07:14:00.000Z",
+      "kaynak": "CUMHURIYET"
     }
   ]
 }
