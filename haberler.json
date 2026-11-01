@@ -1,10 +1,9 @@
 {
-  "guncelleme": "2026-11-01T17:18:55.056Z",
+  "guncelleme": "2026-11-01T23:11:00.204Z",
   "kaynaklar": [
+    "HABER7",
     "EKONOMIM",
     "YENISAFAK",
-    "DUNYA",
-    "HABER7",
     "SOZCU",
     "BLOOMBERGHT",
     "AA",
@@ -106,6 +105,13 @@
   },
   "haberler": [
     {
+      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
+      "ozet": "İran Devrim Muhafızları, Hürmüz Boğazı'nın güneyinde Tahran yönetiminin \"yasak\" ilan ettiği güzergahı kullanmaya çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını açıkladı.",
+      "link": "https://www.haber7.com/guncel/haber/3673362-iran-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti",
+      "tarih": "2026-11-01T21:05:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
       "baslik": "Suriye'de petrol rafinerisine saldırı girişimi engellendi",
       "ozet": "Suriye'de ülkenin ham petrol işleme kapasitesi açısından kritik öneme sahip iki ana rafinerisinden birine yönelik terör saldırısı girişiminin güvenlik güçlerince engellendi.",
       "link": "https://www.ekonomim.com/dunya/suriyede-petrol-rafinerisine-saldiri-girisimi-engellendi-haberi-928403",
@@ -118,41 +124,6 @@
       "link": "https://www.yenisafak.com/ekonomi/altin-fiyatlarinda-beklenmeyen-senaryo-unlu-ekonomist-oran-verdi-4868887",
       "tarih": "2026-11-01T13:44:57.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Çifte enerji hamlesi: Benzinde ÖTV sıfırlandı, elektriğe indirim geldi",
-      "ozet": "Vietnam'da enerji maliyetlerini düşüren iki düzenleme yürürlüğe girdi. Benzindeki özel tüketim vergisi 31 Mart 2027'ye kadar sıfırlanırken, ortalama perakende elektrik tarifesi yüzde 2 indirildi. Hükümet, 1 Kasım'da b...",
-      "link": "https://www.dunya.com/enerji/cifte-enerji-hamlesi-benzinde-otv-sifirlandi-elektrige-indirim-geldi-haberi-846009",
-      "tarih": "2026-11-01T13:16:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Petrolün yükselişi altını nasıl etkileyecek? Ünlü ekonomist açıkladı",
-      "ozet": "Petrol fiyatlarındaki yüzde 10'luk yükselişin altını yüzde 4, gümüşü ise yüzde 8 düşürebileceğini hesaplayan Brooks, olası kayıpların abartılı olabileceğini ve belirsizliğin sona ermesiyle değerli metallerin toparlana...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673272-petrolun-yukselisi-altini-nasil-etkileyecek-unlu-ekonomist-acikladi",
-      "tarih": "2026-11-01T12:00:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Elektrikli araç sahiplerine EPDK uyarısı: Faturalar artabilir",
-      "ozet": "2027 yılında uygulanacak yeni elektrik tarifesi kapsamında belirlenen 3.000 kWh’lik yıllık tüketim limiti, araçlarını evden şarj eden elektrikli otomobil sahiplerinin enerji maliyetlerini yükseltebilir.",
-      "link": "https://www.ekonomim.com/sektorler/otomotiv/elektrikli-arac-sahiplerine-epdk-uyarisi-faturalar-artabilir-haberi-928381",
-      "tarih": "2026-11-01T11:49:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Ünlü ekonomist Brooks'tan analiz: Petrolun yükselişi altın ve gümüşü nasıl etkileyecek?",
-      "ozet": "Ekonomist Robin J. Brooks, İran'la yeniden sıcak çatışma ihtimalinin petrol fiyatlarına 25 doların üzerinde savaş primi olarak yansıdığını belirtti. Petrol fiyatlarındaki yüzde 10'luk yükselişin altını yüzde 4, gümüşü...",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/unlu-ekonomist-brookstan-analiz-petrolun-yukselisi-altin-ve-gumusu-nasil-etkileyecek-haberi-928370",
-      "tarih": "2026-11-01T10:25:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Suudi Arabistan'da 2023'ten bu yana bir ilk: Ekonomi iki çeyrektir küçülüyor",
-      "ozet": "Petrol üretimi ve ihracatını aksatan çatışmalar, Suudi Arabistan ekonomisini üçüncü çeyrekte yüzde 3,8 küçülttü. Petrol sektöründeki yüzde 20,4'lük daralmayı, diğer sektörlerdeki büyüme telafi edemedi. Ülke, 2023'ten ...",
-      "link": "https://www.dunya.com/dunya/suudi-arabistanda-2023ten-bu-yana-bir-ilk-ekonomi-iki-ceyrektir-kuculuyor-haberi-845992",
-      "tarih": "2026-11-01T08:55:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Akaryakıtta ÖTV zammı tabelaya yansıdı: İşte güncel fiyatlar",
@@ -369,13 +340,6 @@
       "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
       "tarih": "2026-10-26T01:00:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
-      "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
-      "tarih": "2026-10-23T13:48:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
