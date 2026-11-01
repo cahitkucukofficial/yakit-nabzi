@@ -1,12 +1,11 @@
 {
-  "guncelleme": "2026-11-01T10:51:12.932Z",
+  "guncelleme": "2026-11-01T17:18:55.056Z",
   "kaynaklar": [
     "EKONOMIM",
+    "YENISAFAK",
     "DUNYA",
     "HABER7",
-    "YENISAFAK",
     "SOZCU",
-    "BIRGUN",
     "BLOOMBERGHT",
     "AA",
     "HABERTURK",
@@ -107,6 +106,41 @@
   },
   "haberler": [
     {
+      "baslik": "Suriye'de petrol rafinerisine saldırı girişimi engellendi",
+      "ozet": "Suriye'de ülkenin ham petrol işleme kapasitesi açısından kritik öneme sahip iki ana rafinerisinden birine yönelik terör saldırısı girişiminin güvenlik güçlerince engellendi.",
+      "link": "https://www.ekonomim.com/dunya/suriyede-petrol-rafinerisine-saldiri-girisimi-engellendi-haberi-928403",
+      "tarih": "2026-11-01T16:35:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Altın fiyatlarında beklenmeyen senaryo: Ünlü Ekonomist oran verdi",
+      "ozet": "Ekonomist Robin J. Brooks, Orta Doğu'daki gerilimin petrol fiyatlarına 25 doların üzerinde risk primi eklediğini belirterek, petroldeki yüzde 10'luk olası bir yükselişin altın ve gümüş üzerindeki muhtemel baskısını ra...",
+      "link": "https://www.yenisafak.com/ekonomi/altin-fiyatlarinda-beklenmeyen-senaryo-unlu-ekonomist-oran-verdi-4868887",
+      "tarih": "2026-11-01T13:44:57.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Çifte enerji hamlesi: Benzinde ÖTV sıfırlandı, elektriğe indirim geldi",
+      "ozet": "Vietnam'da enerji maliyetlerini düşüren iki düzenleme yürürlüğe girdi. Benzindeki özel tüketim vergisi 31 Mart 2027'ye kadar sıfırlanırken, ortalama perakende elektrik tarifesi yüzde 2 indirildi. Hükümet, 1 Kasım'da b...",
+      "link": "https://www.dunya.com/enerji/cifte-enerji-hamlesi-benzinde-otv-sifirlandi-elektrige-indirim-geldi-haberi-846009",
+      "tarih": "2026-11-01T13:16:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Petrolün yükselişi altını nasıl etkileyecek? Ünlü ekonomist açıkladı",
+      "ozet": "Petrol fiyatlarındaki yüzde 10'luk yükselişin altını yüzde 4, gümüşü ise yüzde 8 düşürebileceğini hesaplayan Brooks, olası kayıpların abartılı olabileceğini ve belirsizliğin sona ermesiyle değerli metallerin toparlana...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673272-petrolun-yukselisi-altini-nasil-etkileyecek-unlu-ekonomist-acikladi",
+      "tarih": "2026-11-01T12:00:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Elektrikli araç sahiplerine EPDK uyarısı: Faturalar artabilir",
+      "ozet": "2027 yılında uygulanacak yeni elektrik tarifesi kapsamında belirlenen 3.000 kWh’lik yıllık tüketim limiti, araçlarını evden şarj eden elektrikli otomobil sahiplerinin enerji maliyetlerini yükseltebilir.",
+      "link": "https://www.ekonomim.com/sektorler/otomotiv/elektrikli-arac-sahiplerine-epdk-uyarisi-faturalar-artabilir-haberi-928381",
+      "tarih": "2026-11-01T11:49:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Ünlü ekonomist Brooks'tan analiz: Petrolun yükselişi altın ve gümüşü nasıl etkileyecek?",
       "ozet": "Ekonomist Robin J. Brooks, İran'la yeniden sıcak çatışma ihtimalinin petrol fiyatlarına 25 doların üzerinde savaş primi olarak yansıdığını belirtti. Petrol fiyatlarındaki yüzde 10'luk yükselişin altını yüzde 4, gümüşü...",
       "link": "https://www.ekonomim.com/kuresel-ekonomi/unlu-ekonomist-brookstan-analiz-petrolun-yukselisi-altin-ve-gumusu-nasil-etkileyecek-haberi-928370",
@@ -118,34 +152,6 @@
       "ozet": "Petrol üretimi ve ihracatını aksatan çatışmalar, Suudi Arabistan ekonomisini üçüncü çeyrekte yüzde 3,8 küçülttü. Petrol sektöründeki yüzde 20,4'lük daralmayı, diğer sektörlerdeki büyüme telafi edemedi. Ülke, 2023'ten ...",
       "link": "https://www.dunya.com/dunya/suudi-arabistanda-2023ten-bu-yana-bir-ilk-ekonomi-iki-ceyrektir-kuculuyor-haberi-845992",
       "tarih": "2026-11-01T08:55:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Altın dipte, gümüşte yüzde 9 kayıp! Emtia piyasalarında sert hafta",
-      "ozet": "Emtia piyasalarında haftaya altın ve gümüşteki sert kayıplar damga vurdu. Fed'in yeniden faiz artırabileceğine yönelik beklentiler ve teknoloji hisselerinden yayılan satış baskısıyla altın bir yılın en düşük seviyesin...",
-      "link": "https://www.dunya.com/ekonomi/altin-dipte-gumuste-yuzde-9-kayip-emtia-piyasalarinda-sert-hafta-haberi-845987",
-      "tarih": "2026-11-01T08:03:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Elektrikte fatura desteği sürecek! Yarısı devletten",
-      "ozet": "Devlet, enerjide dış etkenli krizlerin vatandaşlara yansımasını önlemek amacıyla uyguladığı yüzde 50 oranındaki fatura desteğini sürdürürken, EPDK elektrikte kademe sınırını yıllık 3 bin kilovatsaate düşürdü.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673211-elektrikte-fatura-destegi-surecek-yarisi-devletten",
-      "tarih": "2026-11-01T07:45:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Yakıt aldırmayı unutturan 20 otomobil; Benzin ve dizelde daha az yakanı yok!",
-      "ozet": "Akaryakıt fiyatlarıyla inatlaşmayı başaran az yakan çok kaçan 20 fosil yakıt otomobili derledik.",
-      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/yakit-aldirmayi-unutturan-20-otomobil-benzin-ve-dizelde-daha-az-yakani-yok-galeri-928334",
-      "tarih": "2026-11-01T07:19:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Elektrikte 'gizli zam' tepkisi: Yeni sınır yargıya taşınabilir",
-      "ozet": "Elektrikte yıllık tüketim sınırının 3 bin kWh'ye düşürülmesine ENDER'den itiraz geldi. Dernek Başkanı Mahmut Sami Alamur, 1 Ocak 2027'de uygulanacak düzenlemenin milyonlarca tüketiciyi daha yüksek faturalarla karşı ka...",
-      "link": "https://www.dunya.com/enerji/elektrikte-gizli-zam-tepkisi-yeni-sinir-yargiya-tasinabilir-haberi-845984",
-      "tarih": "2026-11-01T06:57:00.000Z",
       "kaynak": "DUNYA"
     },
     {
@@ -168,27 +174,6 @@
       "link": "https://www.sozcu.com.tr/motorine-dev-zam-fiyatlar-tabelaya-sigmadi-p374725",
       "tarih": "2026-11-01T05:23:22.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Benzin ve motorine ÖTV zammı! Akaryakıtta yeni fiyatlar",
-      "ozet": "ÖTV artışıyla benzine 4,15 lira, motorine 3,60 TL zam geldi. Bu zamla birlikte benzin 80 lirayı aşarken, motorinin litre fiyatı ise 100 TL'nin üzerine çıktı.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673170-benzin-ve-motorine-otv-zammi-akaryakitta-yeni-fiyatlar",
-      "tarih": "2026-11-01T05:06:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Tarladan tezgâha gıda fiyatı uçuyor",
-      "ozet": "TZOB verilerine göre, üretici ile market arasındaki fiyat farkı yüzde 999,2 ile en fazla limonda görüldü. Mazot fiyatı bir yılda yüzde 73,4, gübre yüzde 67,7 arttı. Ekim ayında fiyatı en fazla artan ürün domates oldu.",
-      "link": "https://www.birgun.net/haber/tarladan-tezgaha-gida-fiyati-ucuyor-743755",
-      "tarih": "2026-11-01T00:47:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Motorine zam geldi: Fiyatlar tabelaya sığmadı",
-      "ozet": "Isparta'da motorinin litre fiyatı 3 lira 60 kuruşluk zamla 102 lira 80 kuruşa yükseldi. Bir akaryakıt istasyonunda iki haneli fiyat tabelası yeni rakamı gösteremeyince tabelaya '1' etiketi yapıştırıldı. Art arda gelen...",
-      "link": "https://www.birgun.net/haber/motorine-zam-geldi-fiyatlar-tabelaya-sigmadi-743745",
-      "tarih": "2026-10-31T23:48:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Akaryakıtta yeni tarife belli oldu: Benzin ve motorinde fiyatlar güncelleniyor",
@@ -238,13 +223,6 @@
       "link": "https://www.sozcu.com.tr/dogal-gaz-toptan-satis-piyasasinda-teknik-ve-idari-esaslarda-degisiklik-yapildi-p374531",
       "tarih": "2026-10-31T07:48:31.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Doğal gaz toptan satış piyasasında teknik ve idari esaslarda değişiklik yapıldı",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla teknik ve idari esaslarda düzenleme yaptı.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/dogal-gaz-toptan-satis-piyasasinda-teknik-ve-idari-esaslarda-degisiklik-yapildi/4107080",
-      "tarih": "2026-10-31T07:23:13.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
@@ -359,20 +337,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Savaş akaryakıt devlerinin kasasına yaradı: Enerji şirketlerinin milyarlarca dolarlık kazancı ortaya çıktı",
-      "ozet": "İran savaşının küresel enerji arzına vurduğu darbe, dünya genelinde petrol ve doğalgaz fiyatlarını uçururken bu durum akaryakıt şirketlerine yaradı. Tüketiciler artan faturalarla boğuşurken, Shell, TotalEnergies ve Re...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/savas-akaryakit-devlerinin-kasasina-yaradi-enerji-sirketlerinin-milyarlarca-dolarlik-kazanci-ortaya-cikti-4868351",
-      "tarih": "2026-10-30T06:41:31.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Hedef 15 bin varil üretim",
-      "ozet": "Şırnak'taki Gabar sahasında üretim artarken, Diyarbakır'da kaya petrolü için yürütülen çalışmaların ardından gözler şimdi Adıyaman'a çevrildi. Bir dönem petrolün kalelerinden biri olan kentte, yeni keşiflerle günlük ü...",
-      "link": "https://www.yenisafak.com/ekonomi/hedef-15-bin-varil-uretim-4868300",
-      "tarih": "2026-10-30T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Petrol fiyatları geriledi: ABD-İran görüşmeleri için yeni adım",
       "ozet": "ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomatik girişimler, petrol fiyatlarında düşüşe yol açtı. Katar öncülüğündeki arabuluculuk çabalarının bölgedeki arz endişelerini hafifletmesiyle Brent...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-geriledi-abd-iran-gorusmeleri-icin-yeni-adim-2551305",
@@ -384,6 +348,34 @@
       "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
       "tarih": "2026-10-27T12:49:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
+      "ozet": "Akaryakıtta ÖTV kaynaklı yeni zam beklentisi gündeme geldi. Beklenen artışın uygulanması halinde benzin ve motorin fiyatlarının yeni eşikleri aşması beklenirken, zamların pompaya hangi tarihte yansıtılacağına ilişkin ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
+      "tarih": "2026-10-26T09:13:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
+      "ozet": "Altın fiyatlarında satış baskısı sürerken analistler, kısa vadede yeni dip seviyelerinin görülebileceği uyarısında bulunuyor. Petrol fiyatlarındaki yükseliş, enflasyon endişeleri ve Fed’in faiz politikası altını baskı...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
+      "tarih": "2026-10-26T06:57:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
+      "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
+      "tarih": "2026-10-26T01:00:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
+      "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
+      "tarih": "2026-10-23T13:48:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
