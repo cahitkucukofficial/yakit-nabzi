@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-10-31T22:53:24.357Z",
+  "guncelleme": "2026-11-01T02:50:59.096Z",
   "kaynaklar": [
+    "SOZCU",
+    "BIRGUN",
     "EKONOMIM",
     "HABER7",
     "DUNYA",
-    "BIRGUN",
     "YENISAFAK",
-    "SOZCU",
     "BLOOMBERGHT",
     "STAR",
     "AA",
@@ -18,43 +18,10 @@
       "expected": true,
       "direction": "artis",
       "amount": 3.6,
-      "tarih": "2026-10-31",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 3,
-      "tarihAdaylari": [
-        "2026-10-31"
-      ],
-      "dogrulayanKaynakSayisi": 3,
-      "kaynaklar": [
-        {
-          "kaynak": "SOZCU",
-          "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-          "tarih": "2026-10-31"
-        },
-        {
-          "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-          "tarih": "2026-10-31"
-        },
-        {
-          "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
-          "tarih": "2026-10-31"
-        }
-      ],
-      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
-    },
-    "benzin": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 4.15,
       "tarih": "2026-11-01",
       "tarihDurumu": "teyitli",
       "tarihDogrulayanSayisi": 3,
       "tarihAdaylari": [
-        "2026-10-31",
         "2026-11-01"
       ],
       "dogrulayanKaynakSayisi": 3,
@@ -72,7 +39,39 @@
         {
           "kaynak": "YENISAFAK",
           "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
-          "tarih": "2026-10-31"
+          "tarih": "2026-11-01"
+        }
+      ],
+      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
+      "kaynak": "SOZCU",
+      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
+    },
+    "benzin": {
+      "expected": true,
+      "direction": "artis",
+      "amount": 4.15,
+      "tarih": "2026-11-01",
+      "tarihDurumu": "teyitli",
+      "tarihDogrulayanSayisi": 3,
+      "tarihAdaylari": [
+        "2026-11-01"
+      ],
+      "dogrulayanKaynakSayisi": 3,
+      "kaynaklar": [
+        {
+          "kaynak": "SOZCU",
+          "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
+          "tarih": "2026-11-01"
+        },
+        {
+          "kaynak": "CUMHURIYET",
+          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
+          "tarih": "2026-11-01"
+        },
+        {
+          "kaynak": "YENISAFAK",
+          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
+          "tarih": "2026-11-01"
         }
       ],
       "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
@@ -108,6 +107,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Motorine dev zam: Fiyatlar tabelaya sığmadı",
+      "ozet": "Motorinin litresine gelen 3 lira 60 kuruşluk zamla fiyat 99,20 liradan 102,80 liraya yükseldi. İki haneli tabela yeni fi...",
+      "link": "https://www.sozcu.com.tr/motorine-dev-zam-fiyatlar-tabelaya-sigmadi-p374725",
+      "tarih": "2026-11-01T01:01:04.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Tarladan tezgâha gıda fiyatı uçuyor",
+      "ozet": "TZOB verilerine göre, üretici ile market arasındaki fiyat farkı yüzde 999,2 ile en fazla limonda görüldü. Mazot fiyatı bir yılda yüzde 73,4, gübre yüzde 67,7 arttı. Ekim ayında fiyatı en fazla artan ürün domates oldu.",
+      "link": "https://www.birgun.net/haber/tarladan-tezgaha-gida-fiyati-ucuyor-743755",
+      "tarih": "2026-11-01T00:47:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Motorine zam geldi: Fiyatlar tabelaya sığmadı",
+      "ozet": "Isparta'da motorinin litre fiyatı 3 lira 60 kuruşluk zamla 102 lira 80 kuruşa yükseldi. Bir akaryakıt istasyonunda iki haneli fiyat tabelası yeni rakamı gösteremeyince tabelaya '1' etiketi yapıştırıldı. Art arda gelen...",
+      "link": "https://www.birgun.net/haber/motorine-zam-geldi-fiyatlar-tabelaya-sigmadi-743745",
+      "tarih": "2026-10-31T23:48:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "A101 5 KASIM AKTÜEL ÜRÜNLER KATALOĞU YAYINLANDI: İŞTE İNDİRİMLİ ÜRÜNLER (A101 5-11 KASIM)",
       "ozet": "A101 5-11 Kasım aktüel kataloğu yayınlandı, raflarda adeta fırsat şöleni yaşanıyor! Kataloğun öne çıkan yıldızları benzinli motosiklet, elektrikli bisiklet, televizyonlar ve dayanıklı beyaz eşya grupları oluyor. Mutfa...",
@@ -365,27 +385,6 @@
       "ozet": "Akaryakıtta ÖTV kaynaklı yeni zam beklentisi gündeme geldi. Beklenen artışın uygulanması halinde benzin ve motorin fiyatlarının yeni eşikleri aşması beklenirken, zamların pompaya hangi tarihte yansıtılacağına ilişkin ...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
       "tarih": "2026-10-26T09:13:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
-      "ozet": "Altın fiyatlarında satış baskısı sürerken analistler, kısa vadede yeni dip seviyelerinin görülebileceği uyarısında bulunuyor. Petrol fiyatlarındaki yükseliş, enflasyon endişeleri ve Fed’in faiz politikası altını baskı...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
-      "tarih": "2026-10-26T06:57:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
-      "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
-      "tarih": "2026-10-26T01:00:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yılın tüm kazancı eridi! Borsa İstanbul'da güven çöküşü: İşte haftanın son gününde yaşananlar...",
-      "ozet": "Borsa İstanbul'da haftanın son gününde satış baskısı zirveye ulaştı. 10 bin 800 puana kadar inerek yılın tüm kazanımlarını silen BİST 100 endeksi, dipten gelen alımlarla toparlanmaya çalışsa da 40 gündür süren fon sor...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/yilin-tum-kazanci-eridi-borsa-istanbul-da-guven-cokusu-iste-haftanin-son-gununde-yasananlar-2549609",
-      "tarih": "2026-10-23T13:48:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
