@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-11-01T23:11:00.204Z",
+  "guncelleme": "2026-11-02T02:57:57.329Z",
   "kaynaklar": [
     "HABER7",
     "EKONOMIM",
@@ -12,95 +12,13 @@
   ],
   "beklenti": {
     "motorin": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 3.6,
-      "tarih": "2026-11-01",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 3,
-      "tarihAdaylari": [
-        "2026-11-01"
-      ],
-      "dogrulayanKaynakSayisi": 3,
-      "kaynaklar": [
-        {
-          "kaynak": "SOZCU",
-          "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-          "tarih": "2026-11-01"
-        },
-        {
-          "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-          "tarih": "2026-11-01"
-        },
-        {
-          "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
-          "tarih": "2026-11-01"
-        }
-      ],
-      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
+      "expected": false
     },
     "benzin": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 4.15,
-      "tarih": "2026-11-01",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 3,
-      "tarihAdaylari": [
-        "2026-11-01"
-      ],
-      "dogrulayanKaynakSayisi": 3,
-      "kaynaklar": [
-        {
-          "kaynak": "SOZCU",
-          "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-          "tarih": "2026-11-01"
-        },
-        {
-          "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-          "tarih": "2026-11-01"
-        },
-        {
-          "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
-          "tarih": "2026-11-01"
-        }
-      ],
-      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
+      "expected": false
     },
     "lpg": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 9,
-      "tarih": "2026-11-01",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 2,
-      "tarihAdaylari": [
-        "2026-11-01"
-      ],
-      "dogrulayanKaynakSayisi": 2,
-      "kaynaklar": [
-        {
-          "kaynak": "SOZCU",
-          "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-          "tarih": "2026-11-01"
-        },
-        {
-          "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-          "tarih": "2026-11-01"
-        }
-      ],
-      "kaynakBaslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527"
+      "expected": false
     }
   },
   "haberler": [
