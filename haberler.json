@@ -1,14 +1,17 @@
 {
-  "guncelleme": "2026-11-02T02:57:57.329Z",
+  "guncelleme": "2026-11-02T11:45:02.957Z",
   "kaynaklar": [
-    "HABER7",
     "EKONOMIM",
-    "YENISAFAK",
-    "SOZCU",
-    "BLOOMBERGHT",
-    "AA",
     "HABERTURK",
-    "CUMHURIYET"
+    "HABER7",
+    "TRTHABER",
+    "CUMHURIYET",
+    "STAR",
+    "AA",
+    "SOZCU",
+    "BIRGUN",
+    "YENISAFAK",
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -18,23 +21,241 @@
       "expected": false
     },
     "lpg": {
-      "expected": false
+      "expected": true,
+      "direction": "artis",
+      "amount": 9,
+      "tarih": "2026-11-03",
+      "tarihDurumu": "teyitli",
+      "tarihDogrulayanSayisi": 3,
+      "tarihAdaylari": [
+        "2026-11-03"
+      ],
+      "dogrulayanKaynakSayisi": 3,
+      "kaynaklar": [
+        {
+          "kaynak": "HABER7",
+          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673445-otogaz-fiyatlarina-zam-geliyor",
+          "tarih": "2026-11-03"
+        },
+        {
+          "kaynak": "BIRGUN",
+          "kaynakLink": "https://www.birgun.net/haber/akaryakitta-yukselis-serisi-devam-ediyor-otogaza-bu-gece-yarisi-zam-bekleniyor-743971",
+          "tarih": "2026-11-03"
+        },
+        {
+          "kaynak": "YENISAFAK",
+          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-tabelalari-bu-gece-yarisi-yeniden-guncelleniyor-iste-benzin-motorin-ve-otogaz-fiyatlarinda-son-durum-4869032",
+          "tarih": "2026-11-03"
+        }
+      ],
+      "kaynakBaslik": "Otogaz fiyatlarına zam geliyor",
+      "kaynak": "HABER7",
+      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3673445-otogaz-fiyatlarina-zam-geliyor"
     }
   },
   "haberler": [
     {
-      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
-      "ozet": "İran Devrim Muhafızları, Hürmüz Boğazı'nın güneyinde Tahran yönetiminin \"yasak\" ilan ettiği güzergahı kullanmaya çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını açıkladı.",
-      "link": "https://www.haber7.com/guncel/haber/3673362-iran-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti",
-      "tarih": "2026-11-01T21:05:00.000Z",
+      "baslik": "DAX 40 petrol fiyatlarındaki düşüşle yükseldi",
+      "ozet": "Frankfurt'ta DAX 40 endeksi, 30 Ekim'deki satış baskısının ardından bugün %0,3 primle 25.880 seviyesine yükseldi. Orta Doğu'da ateşkes anlaşmasına yönelik beklentilerle petrol fiyatlarında görülen geri çekilme, risk i...",
+      "link": "https://www.ekonomim.com/finans/haberler/dax-40-petrol-fiyatlarindaki-dususle-yukseldi-haberi-928567",
+      "tarih": "2026-11-02T11:08:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD'den LPG alanında Türkiye ile ticareti geliştirme mesajı",
+      "ozet": "Geçtiğimiz hafta sektörün önemli isimlerinin bir araya geldiği Liquid Gas Week 2026 için Türkiye'ye gelen ABD Enerji Bakanlığı Afrika ve Orta Doğu İşleri Ofisi Direktör Yardımcısı Shiyana Gunasekara, Habertürk Enerji ...",
+      "link": "https://www.haberturk.com/ekonomi/abd-den-lpg-alaninda-turkiye-ile-ticareti-gelistirme-mesaji-3924257",
+      "tarih": "2026-11-02T10:35:02.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Altın, gümüş, platin ve paladyum son 2 ayı kayıpla geçirdi",
+      "ozet": "Değerli metaller, yükselen petrol fiyatları, dolara talebin artması, faizlerin uzun süre yüksek seviyelerde kalacağı beklentisi ve küresel büyümeye yönelik endişelerle iki aydır yatırımcısına kaybettiriyor.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673482-altin-gumus-platin-ve-paladyum-son-2-ayi-kayipla-gecirdi",
+      "tarih": "2026-11-02T10:15:00.000Z",
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Suriye'de petrol rafinerisine saldırı girişimi engellendi",
-      "ozet": "Suriye'de ülkenin ham petrol işleme kapasitesi açısından kritik öneme sahip iki ana rafinerisinden birine yönelik terör saldırısı girişiminin güvenlik güçlerince engellendi.",
-      "link": "https://www.ekonomim.com/dunya/suriyede-petrol-rafinerisine-saldiri-girisimi-engellendi-haberi-928403",
-      "tarih": "2026-11-01T16:35:00.000Z",
+      "baslik": "Altın, gümüş, platin ve paladyum son 2 ayı kayıpla geçirdi",
+      "ozet": "Değerli metaller, yükselen petrol fiyatları, dolara talebin artması, faizlerin uzun süre yüksek seviyelerde kalacağı beklentisi ve küresel büyümeye yönelik endişelerle iki aydır yatırımcısına kaybettiriyor.",
+      "link": "https://www.trthaber.com/haber/ekonomi/altin-gumus-platin-ve-paladyum-son-2-ayi-kayipla-gecirdi-961947.html",
+      "tarih": "2026-11-02T10:05:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Ons altın ve gümüşte sert düşüş! İşte değerli metalleri baskılayan 4 temel etken...",
+      "ozet": "Değerli metaller; yüksek petrol fiyatları, faiz beklentileri ve güçlü doların etkisiyle iki aydır düşüşünü sürdürüyor. Ons altın temmuz ayından bu yana ilk kez 4 bin doların altına gerilerken, gümüş ve paladyumda krit...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/ons-altin-ve-gumuste-sert-dusus-iste-degerli-metalleri-baskilayan-4-temel-etken-2552480",
+      "tarih": "2026-11-02T09:57:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Stratejik petrol rezervleri 1982'den beri en düşük seviyede: Benzin fiyatları neden düşmüyor?",
+      "ozet": "Petrol fiyatları, ABD ve İsrail'in İran'a yönelik operasyonlarının ardından yüzde 56 artışla 113 doların üzerine çıktı. ABD'de rekor kıran akaryakıt fiyatlarının, 3 Kasım ara seçimlerinde Donald Trump ve Cumhuriyetçi ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/stratejik-petrol-rezervleri-1982-den-beri-en-dusuk-seviyede-benzin-fiyatlari-neden-dusmuyor-2552471",
+      "tarih": "2026-11-02T09:35:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrol ve doğal gaz keşfinde yeni ortaklık! Koni: Türkiye'ye kapılar sonuna kadar açıldı",
+      "ozet": "Türkiye ile Libya'nın petrol ve doğal gaz arama-çıkarma konusunda koordinasyonu hızlandırması gerektiğini söyleyen Libya Başkanlık Konseyi Başkan Yardımcısı Koni, Temsilciler Meclisinin deniz yetki muhtırasını onaylam...",
+      "link": "https://www.star.com.tr/ekonomi/petrol-ve-dogal-gaz-kesfinde-yeni-ortaklik-koni-turkiyeye-kapilar-sonuna-kadar-acildi-haber-2050667/",
+      "tarih": "2026-11-02T09:32:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "A101 KATALOĞUNDA BU HAFTA YOK YOK: İŞTE YENİ LİSTE! (A101 5-11 KASIM)",
+      "ozet": "A101 5-11 Kasım aktüel ürünler kataloğu evinin ihtiyacını karşılamak isteyenlere zengin seçenekler sunuyor. Mutfaklara zarafet katacak cam ürünleri, pratik küçük ev aletleri ve kış aylarına özel ev tekstili raflardaki...",
+      "link": "https://www.ekonomim.com/foto-galeri/aktuel/a101-katalogunda-bu-hafta-yok-yok-iste-yeni-liste-a101-5-11-kasim-s1-galeri-928536",
+      "tarih": "2026-11-02T09:09:00.000Z",
       "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Rusya'nın Shahed tercihi nedeni değişti?",
+      "ozet": "Rusya'nın 31 Ekim gecesi Ukrayna'ya düzenlediği geniş çaplı İHA saldırısında standart benzinli Shahed modelleri ağırlık kazandı. Ukraynalı askerî uzmanlar, bulutlu hava koşullarının bu tercihte etkili olabileceğini be...",
+      "link": "https://www.ekonomim.com/dunya/rusyanin-shahed-tercihi-nedeni-degisti-haberi-928531",
+      "tarih": "2026-11-02T08:59:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "İran savaşı ABD'de enerji maliyetlerini ve siyasi baskıyı artırıyor",
+      "ozet": "ABD-İran savaşının başlamasından bu yana ABD'de benzin fiyatlarının yaklaşık yüzde 40 artması, ülkeye 160 milyar dolarlık ek yakıt maliyeti getirdi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/iran-savasi-abdde-enerji-maliyetlerini-ve-siyasi-baskiyi-artiriyor/4108461",
+      "tarih": "2026-11-02T08:38:53.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Altın ve gümüş yatırımcısına soğuk duş: 2008'den bu yana ilk kez oldu",
+      "ozet": "Değerli metaller, yükselen petrol fiyatları, dolara talebin artması, faizlerin uzun süre yüksek seviyelerde kalacağı bek...",
+      "link": "https://www.sozcu.com.tr/altin-ve-gumus-yatirimcisina-soguk-dus-2008-den-bu-yana-ilk-kez-oldu-p375159",
+      "tarih": "2026-11-02T08:29:05.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Değerli metallerde sert düşüş: Altın ve gümüş iki aydır kaybettiriyor",
+      "ozet": "Yükselen petrol fiyatları, güçlenen dolar ve faizlerin uzun süre yüksek kalacağı beklentisi, değerli metallerde satış baskısını artırdı. Ekim ayında altın yüzde 6,8, gümüş yüzde 18,8 değer kaybederken platin ve palady...",
+      "link": "https://www.birgun.net/haber/degerli-metallerde-sert-dusus-altin-ve-gumus-iki-aydir-kaybettiriyor-743995",
+      "tarih": "2026-11-02T08:24:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Değerli metaller iki aydır yatırımcısına kaybettiriyor",
+      "ozet": "Değerli metaller, yükselen petrol fiyatları, dolara talebin artması, faizlerin uzun süre yüksek seviyelerde kalacağı beklentisi ve küresel büyümeye yönelik endişelerle iki aydır yatırımcısına kaybettiriyor.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/degerli-metaller-iki-aydir-yatirimcisina-kaybettiriyor/4108445",
+      "tarih": "2026-11-02T08:23:03.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Otogaz fiyatlarına zam geliyor",
+      "ozet": "Otogaz litre fiyatının yarından itibaren 9 lira artması bekleniyor. Zam sonrasında otogazın litresi İstanbul ve İzmir'de 50,2 liraya, Ankara'da 50,26 liraya, doğu illerinde ise 51,97 liraya yükselecek.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3673445-otogaz-fiyatlarina-zam-geliyor",
+      "tarih": "2026-11-02T08:19:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Ortadoğu'da Türkiye ihtimali fiyatları vurdu: İşte petrolün seyrini değiştirecek gelişmeler...",
+      "ozet": "Petrol fiyatlarında jeopolitik düşüş... Cuma günü 118 doları test eden Brent petrol, Trump'ın İran'a yönelik ılımlı mesajları sonrası 109 dolara geriledi. Gözler Türkiye veya Katar'da yapılabilecek olası barış görüşme...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/ortadogu-da-turkiye-ihtimali-fiyatlari-vurdu-iste-petrolun-seyrini-degistirecek-gelismeler-2552425",
+      "tarih": "2026-11-02T08:04:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıtta yükseliş serisi devam ediyor: Otogaza bu gece yarısı zam bekleniyor",
+      "ozet": "Akaryakıta zam yağmuru sürüyor. Otogazın litre fiyatına bu gece yarısından itibaren 9 TL zam beklenirken, benzinin temmuzdan bu yana yüzde 26, motorinin ise yüzde 42 arttığı belirtildi. Zamla otogaz fiyatının 50 TL'yi...",
+      "link": "https://www.birgun.net/haber/akaryakitta-yukselis-serisi-devam-ediyor-otogaza-bu-gece-yarisi-zam-bekleniyor-743971",
+      "tarih": "2026-11-02T07:52:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Brent petrol 109 dolara geriledi: Hürmüz Boğazı iyimserliği piyasaları nasıl etkiledi?",
+      "ozet": "Küresel piyasalar; ABD ara seçimleri, Fed'in olası faiz artışı ve Ortadoğu'daki müzakerelerin gölgesinde yeni haftaya başladı. Brent petrol Hürmüz Boğazı iyimserliğiyle düşerken, Borsa İstanbul ve dolarda gözler ekim ...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-109-dolara-geriledi-hurmuz-bogazi-iyimserligi-piyasalari-nasil-etkiledi-2552399",
+      "tarih": "2026-11-02T07:04:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıt tabelaları bu gece yarısı yeniden güncelleniyor: İşte benzin motorin ve otogaz fiyatlarında son durum",
+      "ozet": "Kasım ayının ilk günlerinde benzin ve motorine yansıyan ÖTV kaynaklı fiyat güncellemelerinin ardından, bir zam haberi de otogaz kullanıcıları için geldi. Sektör kaynaklarından alınan son bilgilere göre, otogaz fiyatla...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-tabelalari-bu-gece-yarisi-yeniden-guncelleniyor-iste-benzin-motorin-ve-otogaz-fiyatlarinda-son-durum-4869032",
+      "tarih": "2026-11-02T06:54:36.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Otogaza dev zam: Litre fiyatında 50 lira barajı aşılıyor",
+      "ozet": "Kış mevsimi öncesi araç sahiplerini üzecek haber geldi. Küresel enerji piyasalarındaki dalgalanmaların faturası bu kez o...",
+      "link": "https://www.sozcu.com.tr/otogaza-dev-zam-litre-fiyatinda-50-lira-baraji-asiliyor-p375080",
+      "tarih": "2026-11-02T06:37:02.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Brent petrolün varili yüzde 6'dan fazla düşüşle 110 doların altına indi",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 109,92 dolardan işlem görüyor.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrolun-varili-yuzde-6dan-fazla-dususle-110-dolarin-altina-indi/4108323",
+      "tarih": "2026-11-02T06:35:36.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Trump'tan Kanada açıklaması: Ticaret anlaşmasına çok yakınız",
+      "ozet": "ABD Başkanı Donald Trump, Kanada ile ticaret anlaşmasına varmaya çok yakın olduklarını açıkladı. Trump, olası anlaşma kapsamında ABD'li çiftçilerin gümrük tarifelerinden muaf tutulacağını ve Keystone XL petrol boru ha...",
+      "link": "https://www.birgun.net/haber/trump-tan-kanada-aciklamasi-ticaret-anlasmasina-cok-yakiniz-743937",
+      "tarih": "2026-11-02T06:17:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Altın yeniden yükselişte: Gram altın ne kadar oldu?",
+      "ozet": "Haftanın ilk işlem gününe yükselişle başlayan gram altın 6 bin 289 liraya, ons altın ise 3 bin 915 dolara yükseldi. ABD-İran hattında anlaşma ihtimalinin petrol fiyatlarını düşürmesi ve piyasalardaki siyasi gelişmeler...",
+      "link": "https://www.birgun.net/haber/altin-yeniden-yukseliste-gram-altin-ne-kadar-oldu-743935",
+      "tarih": "2026-11-02T06:09:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Altın ve gümüşte sert düşüş: Petrol fiyatlarında dikkat çeken gerileme",
+      "ozet": "Küresel piyasalarda yeni haftaya hareketli bir başlangıç yapıldı. Altın ve gümüş fiyatlarında düşüş sürerken Brent petrolün varil fiyatı da geriledi. ABD ile İran arasında diplomatik çözüm ihtimalinin güçlenmesi, ener...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-ve-gumuste-sert-dusus-petrol-fiyatlarinda-dikkat-ceken-gerileme-4869005",
+      "tarih": "2026-11-02T05:13:53.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol fiyatlarında düşüş",
+      "ozet": "ABD Başkanı Donald Trump'ın İran'a yönelik 'diplomasiye daha fazla zaman tanımak istediğine dair' haberlerinin ardından petrol fiyatları düştü",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-dusus-3924209",
+      "tarih": "2026-11-02T05:11:51.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Bakır fiyatlarında üç haftalık gerilemenin ardından yükseliş",
+      "ozet": "Bakır fiyatları, teknoloji hisselerindeki sert düşüşün yatışmasının ve petrol fiyatlarının gerilemesinin küresel büyümeye ilişkin endişeleri hafifletmesiyle bir haftanın en düşük kapanış seviyesinden toparlandı.",
+      "link": "https://www.bloomberght.com/bakir-fiyatlari-bir-haftanin-en-dusuk-seviyesinden-toparlandi-3793011",
+      "tarih": "2026-11-02T05:01:18.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Masadan gelen haber petrolü vurdu: Piyasaların gözü salı gününe çevrildi",
+      "ozet": "İranlı ve Katarlı yetkililerin savaşı sona erdirecek anlaşma için görüşmelerini üçüncü güne taşımasıyla petrol fiyatları...",
+      "link": "https://www.sozcu.com.tr/masadan-gelen-haber-petrolu-vurdu-piyasalarin-gozu-sali-gunune-cevrildi-p375012",
+      "tarih": "2026-11-02T04:16:51.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Goldman, arz riskleri nedeniyle petrol fiyatı tahminlerini yükseltti",
+      "ozet": "Goldman Sachs, arz üzerindeki artan riskler nedeniyle yıl sonu ve 2027 yılına ilişkin petrol fiyatı tahminlerini yükseltti.",
+      "link": "https://www.bloomberght.com/goldman-arz-riskleri-nedeniyle-petrol-fiyati-tahminlerini-yukseltti-3793008",
+      "tarih": "2026-11-02T03:44:30.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrolde diplomasi etkisi: Brent petrol 111 dolara geriledi",
+      "ozet": "Trump'ın İran'a yönelik yeni saldırılar konusunda diplomasiye zaman tanımak istediğine ilişkin haberlerin ardından petrol fiyatları geriledi. Brent petrol 111 dolar, Batı Teksas petrolü ise 102 dolar seviyesine indi.",
+      "link": "https://www.birgun.net/haber/petrolde-diplomasi-etkisi-brent-petrol-111-dolara-geriledi-743924",
+      "tarih": "2026-11-02T03:39:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Petrol fiyatları diplomasi umuduyla düştü",
+      "ozet": "Petrol fiyatları, ABD Başkanı Donald Trump'ın ara seçimlerin ardından İran'a yönelik saldırıları yeniden başlatıp başlatmayacağına karar vermeden önce diplomasiye daha fazla zaman tanımak istediğine dair haberin ardın...",
+      "link": "https://www.bloomberght.com/petrol-fiyatlari-diplomasi-umuduyla-dustu-3793006",
+      "tarih": "2026-11-02T03:12:31.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Altın fiyatlarında beklenmeyen senaryo: Ünlü Ekonomist oran verdi",
@@ -72,60 +293,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Bugün resmileşti: Elektrikte tüketim limitleri değişti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesinin Düzenlenmesi Hakkında Tebliğ'de değişikliğe gitt...",
-      "link": "https://www.sozcu.com.tr/bugun-resmilesti-elektrikte-tuketim-limitleri-degisti-p374585",
-      "tarih": "2026-10-31T10:26:28.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "EPDK meskenlere yönelik elektrik tüketim limitinde değişikliğe gitti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesinin Düzenlenmesi Hakkında Tebliğ'de değişikliğe gitti.",
-      "link": "https://www.bloomberght.com/epdk-meskenlere-yonelik-elektrik-tuketim-limitinde-degisiklige-gitti-3792986",
-      "tarih": "2026-10-31T10:13:52.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "EPDK meskenlere yönelik elektrik tüketim limitinde değişikliğe gitti",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Son Kaynak Tedarik Tarifesinin Düzenlenmesi Hakkında Tebliğ'de değişikliğe gitti.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/epdk-meskenlere-yonelik-elektrik-tuketim-limitinde-degisiklige-gitti/4107173",
-      "tarih": "2026-10-31T09:16:10.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "EPDK'dan toptan doğal gaz piyasasına yeni düzenleme: Ticaret kuralları ve teklif limitleri sil baştan belirlendi",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla teknik ve idari esaslarda düzenleme yaptı.ü",
       "link": "https://www.yenisafak.com/ekonomi/epdkdan-toptan-dogal-gaz-piyasasina-yeni-duzenleme-ticaret-kurallari-ve-teklif-limitleri-sil-bastan-belirlendi-4868626",
       "tarih": "2026-10-31T09:09:20.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Vadeli doğalgaz piyasasında düzenleme",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Vadeli Doğalgaz Piyasası'nda teklif ve işlemlerin iptal edilebileceği durumlara ilişkin düzenleme yaptı.",
-      "link": "https://www.bloomberght.com/vadeli-dogalgaz-piyasasinda-duzenleme-3792983",
-      "tarih": "2026-10-31T08:13:37.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Doğal gaz toptan satış piyasasında teknik ve idari esaslarda değişiklik yapıldı",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla ...",
-      "link": "https://www.sozcu.com.tr/dogal-gaz-toptan-satis-piyasasinda-teknik-ve-idari-esaslarda-degisiklik-yapildi-p374531",
-      "tarih": "2026-10-31T07:48:31.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Yarın benzin ve motorine ÖTV zammı gelecek: Yeni fiyat tablosu ortaya çıktı",
-      "ozet": "Kademeli Özel Tüketim Vergisi (ÖTV) artışı kapsamında 1 Kasım itibarıyla akaryakıt ürünlerinin pompa fiyatlarında artış ...",
-      "link": "https://www.sozcu.com.tr/yarin-benzin-ve-motorine-otv-zammi-gelecek-yeni-fiyat-tablosu-ortaya-cikti-p374527",
-      "tarih": "2026-10-31T07:20:55.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Marketlerin zam şampiyonu belli oldu",
-      "ozet": "TZOB'un ekim ayı raporuna göre, limonda üretici ile market fiyatı arasında 11 katlık fark oluşurken, fiyatı en çok artan ürün domates oldu. Raporda, örtü altı üretime geçişin sebze fiyatlarını yükselttiği, artan yem, ...",
-      "link": "https://www.haberturk.com/ekonomi/tzob-acikladi-ekim-ayinda-marketlerin-zam-sampiyonu-belli-oldu-3923882",
-      "tarih": "2026-10-31T07:11:34.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 31 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -156,108 +328,10 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "BOTAŞ, Kasım ve Aralık ayları için doğalgaz tüketim limitlerini güncelledi",
-      "ozet": "Boru Hatları ile Petrol Taşıma A.Ş. (BOTAŞ), konutlarda uygulanan kademeli doğalgaz tarifesi kapsamında Kasım ve Aralık aylarına ilişkin 81 ildeki tüketim limitlerini güncelledi.",
-      "link": "https://www.bloomberght.com/botas-kasim-ve-aralik-aylari-icin-dogalgaz-tuketim-limitlerini-guncelledi-3792968",
-      "tarih": "2026-10-30T17:35:21.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
       "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD’de faiz artırımı beklentilerinin güçlenmesiyle sert düşüş yaşadı. Ons ve gram altın son ayların en düşük seviyelerine gerilerken, UBS’den gelecek yıl için yükseliş tah...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-son-1-yilin-en-dusuk-seviyesi-gram-altin-6-321-tl-ye-geriledi-2551750",
       "tarih": "2026-10-30T13:51:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzinli motorları rafa kaldırmadı, şimdi rakiplerine satacak",
-      "ozet": "Toyota, benzinli motor teknolojisinden vazgeçmek yerine yeni bir satış hamlesine hazırlanıyor. Japon üretici, geliştirdi...",
-      "link": "https://www.sozcu.com.tr/benzinli-motorlari-rafa-kaldirmadi-simdi-rakiplerine-satacak-p374385",
-      "tarih": "2026-10-30T13:40:40.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Araç sahipleri bu tarihe dikkat: Tabela yeniden değişiyor",
-      "ozet": "Kasım ayının girmesiyle uygulanacak ÖTV artışı, benzin, motorin ve LPG fiyatlarına zam olarak yansıyacak. Sektör kaynaklarından edinilen bilgilere göre benzinin litresine 4,15 TL, motorinin litresine ise 3,60 TL zam y...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-iste-tarih-4868464",
-      "tarih": "2026-10-30T13:27:28.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Elektrik faturalarında yeni dönem: EPDK yeni kararı duyurdu milyonlarca abonenin faturası değişiyor",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), milyonlarca aboneyi yakından ilgilendiren kritik bir karara imza atarak elektrik tüketimindeki sübvansiyon limitini yeniden belirledi. Alınan kararla birlikte, 1 Ocak 2027 tari...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/elektrik-faturalarinda-yeni-donem-epdk-yeni-karari-duyurdu-milyonlarca-abonenin-faturasi-degisiyor-4868462",
-      "tarih": "2026-10-30T13:16:57.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Elektrik faturalarında yeni dönem: 2027'de milyonlarca abone etkilenecek",
-      "ozet": "EPDK, mesken aboneleri için yıllık son kaynak tüketim limitini 2027'de 4 bin kWh'den 3 bin kWh'ye indirdi. Aylık ortalam...",
-      "link": "https://www.sozcu.com.tr/elektrik-faturalarinda-yeni-donem-2027-de-milyonlarca-abone-etkilenecek-p374375",
-      "tarih": "2026-10-30T13:16:13.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Elektrikte sübvansiyon limiti düşürüldü",
-      "ozet": "EPDK, son kaynak tedarik tarifesinde 2025 yılı için 5.000 kWh/yıl, 2026 yılı için 4.000 kWh/yıl olarak belirlenen son kaynak tedarik tarifesini 2027 için 3.000 kWh/yıl olarak belirledi.",
-      "link": "https://www.bloomberght.com/epdk-son-kaynak-tedarik-tarifesinde-limiti-dusurdu-3792931",
-      "tarih": "2026-10-30T12:59:11.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Akaryakıta büyük zam geliyor: Benzin, motorin ve LPG için yeni fiyatlar belli oldu",
-      "ozet": "Kasım ayının başlamasıyla akaryakıt fiyatlarında yeni zam dalgası gündeme geldi. Benzin, motorin ve LPG'de beklenen fiyat artışlarının araç sahiplerinin yanı sıra taşımacılık ve lojistik maliyetlerini de etkilemesi be...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
-      "tarih": "2026-10-30T12:02:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "12 ülke petrol rezervlerini açıyor, piyasaya milyonlarca varil çıkacak",
-      "ozet": "Avrupa Birliği üyesi 12 ülke, küresel enerji piyasalarındaki fiyat baskısını azaltmak için stratejik petrol rezervlerini...",
-      "link": "https://www.sozcu.com.tr/12-ulke-petrol-rezervlerini-aciyor-piyasaya-milyonlarca-varil-cikacak-p374327",
-      "tarih": "2026-10-30T10:51:54.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Yüksek petrol ve doğalgaz fiyatları şirketlere yaradı: Kârlar rekor seviyede",
-      "ozet": "Küresel enerji şirketleri, yükselen petrol ve doğalgaz fiyatları ile rekor rafineri marjlarının etkisiyle kârlarını güçlü biçimde artırdı. Shell, TotalEnergies ve Repsol’un bilançolarında belirgin yükseliş görülürken,...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/yuksek-petrol-ve-dogalgaz-fiyatlari-sirketlere-yaradi-karlar-rekor-seviyede-2551636",
-      "tarih": "2026-10-30T06:54:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatları geriledi: ABD-İran görüşmeleri için yeni adım",
-      "ozet": "ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomatik girişimler, petrol fiyatlarında düşüşe yol açtı. Katar öncülüğündeki arabuluculuk çabalarının bölgedeki arz endişelerini hafifletmesiyle Brent...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-geriledi-abd-iran-gorusmeleri-icin-yeni-adim-2551305",
-      "tarih": "2026-10-29T07:14:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
-      "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
-      "tarih": "2026-10-27T12:49:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta yeni zam yolda: Benzin ve motorinde beklenen artış belli oldu",
-      "ozet": "Akaryakıtta ÖTV kaynaklı yeni zam beklentisi gündeme geldi. Beklenen artışın uygulanması halinde benzin ve motorin fiyatlarının yeni eşikleri aşması beklenirken, zamların pompaya hangi tarihte yansıtılacağına ilişkin ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-yeni-zam-yolda-benzin-ve-motorinde-beklenen-artis-belli-oldu-2550303",
-      "tarih": "2026-10-26T09:13:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın fiyatlarında düşüş sürecek mi? Uzmanlar kritik seviyeyi açıkladı",
-      "ozet": "Altın fiyatlarında satış baskısı sürerken analistler, kısa vadede yeni dip seviyelerinin görülebileceği uyarısında bulunuyor. Petrol fiyatlarındaki yükseliş, enflasyon endişeleri ve Fed’in faiz politikası altını baskı...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-dusus-surecek-mi-uzmanlar-kritik-seviyeyi-acikladi-2550242",
-      "tarih": "2026-10-26T06:57:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Tarımsal girdiler yüzde 30.28 arttı, maliyetler geleceği tehdit ediyor",
-      "ozet": "TÜİK’in Ağustos 2026 verilerine göre tarımsal girdi fiyatları yıllık yüzde 30.28, enerji ve yağlayıcı fiyatları ise yüzde 43.14 arttı. Tarım-Sen Genel Başkanı Umut Kocagöz, mazot, gübre ve işçilik maliyetleri altında ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/tarimsal-girdiler-yuzde-30-28-artti-maliyetler-gelecegi-tehdit-ediyor-2550192",
-      "tarih": "2026-10-26T01:00:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
