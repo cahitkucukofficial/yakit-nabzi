@@ -1,18 +1,18 @@
 {
-  "guncelleme": "2026-11-02T20:56:34.849Z",
+  "guncelleme": "2026-11-03T04:16:38.641Z",
   "kaynaklar": [
     "EKONOMIM",
-    "DUNYA",
+    "BLOOMBERGHT",
     "BIRGUN",
+    "HABERTURK",
+    "DUNYA",
     "HABER7",
     "TRTHABER",
     "SOZCU",
-    "HABERTURK",
     "CUMHURIYET",
     "STAR",
     "AA",
-    "YENISAFAK",
-    "BLOOMBERGHT"
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -51,6 +51,41 @@
   },
   "haberler": [
     {
+      "baslik": "Petrolde sert düşüş durdu! Gözler ABD-İran hattında",
+      "ozet": "Petrol fiyatları, önceki işlem gününde yaşanan yaklaşık yüzde 8'lik sert düşüşün ardından dengelendi. Brent petrol varil başına 105 dolar civarında işlem görürken, ABD tipi ham petrol WTI 97 doların altında seyretti. ...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/petrolde-sert-dusus-durdu-gozler-abd-iran-hattinda-haberi-928690",
+      "tarih": "2026-11-03T04:12:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Petrol, yüzde 8'lik düşüşün ardından yatay seyrediyor",
+      "ozet": "Brent petrol, bir önceki gün yaklaşık yüzde 8'lik düşüşün ardından istikrar kazandı. Ortadoğu'daki savaş dokuzuncu ayına girerken, ABD ve İran barış görüşmelerini sürdürme niyetinde olduklarını belirttiler.",
+      "link": "https://www.bloomberght.com/petrol-yuzde-8lik-dususun-ardindan-yatay-seyrediyor-3793142",
+      "tarih": "2026-11-03T04:00:37.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Zamlar yurttaşın bütçesini vurdu: LGP 50 lirayı aştı",
+      "ozet": "LPG’ye yapılan zam Isparta’da pompa fiyatlarına yansıdı. Bir akaryakıt istasyonunda litresi 41,30 TL’den 50,80 TL’ye yükselen otogaz, yurttaşların tepkisini çekti. Yurttaşlar, art arda gelen akaryakıt zamlarının bütçe...",
+      "link": "https://www.birgun.net/haber/zamlar-yurttasin-butcesini-vurdu-lgp-50-lirayi-asti-744154",
+      "tarih": "2026-11-03T03:38:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "BİM’E KUMTEL CAM SET ÜSTÜ OCAK SİYAH GELİYOR! (BİM 8-14 KASIM)",
+      "ozet": "BİM, 8-14 Kasım aktüel kataloğunda mutfakları yenileyecek pratik bir fırsatı raflara taşıyor. ,Kumtel siyah cam set üstü ocak, 3.990 TL fiyat etiketiyle satışa sunuluyor. Ankastre ve LPG dönüşümüne uygun olan cihaz; e...",
+      "link": "https://www.ekonomim.com/foto-galeri/aktuel/bime-kumtel-cam-set-ustu-ocak-siyah-geliyor-bim-8-14-kasim-s1-galeri-928680",
+      "tarih": "2026-11-02T21:41:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD'den LPG alanında Türkiye ile ticareti geliştirme mesajı",
+      "ozet": "Geçtiğimiz hafta sektörün önemli isimlerinin bir araya geldiği Liquid Gas Week 2026 için Türkiye'ye gelen ABD Enerji Bakanlığı Afrika ve Orta Doğu İşleri Ofisi Direktör Yardımcısı Shiyana Gunasekara, Habertürk Enerji ...",
+      "link": "https://www.haberturk.com/ekonomi/abd-den-lpg-alaninda-turkiye-ile-ticareti-gelistirme-mesaji-3924257",
+      "tarih": "2026-11-02T21:16:34.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
       "baslik": "Avrupa borsalarında petrol etkisi: Günü düşüşle kapattı",
       "ozet": "Haftanın ilk işlem gününü Avrupa borsaları, petrol fiyatlarındaki düşüşün etkisiyle yükselişle kapattı",
       "link": "https://www.ekonomim.com/finans/haberler/borsa/avrupa-borsalarinda-petrol-etkisi-gunu-dususle-kapatti-haberi-928647",
@@ -79,20 +114,6 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "New York borsası yükselişle açıldı",
-      "ozet": "New York borsası, petrol fiyatlarındaki düşüş ve teknoloji hisselerindeki toparlanmanın etkisiyle ABD'de Kongre ara seçimlerinin sonuçlarının yatırımcıların odağında olduğu haftanın ilk işlem gününe yükselişle başladı.",
-      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-yukselisle-acildi-haberi-846148",
-      "tarih": "2026-11-02T15:17:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Mazota indirim gelecek mi, benzin fiyatları düşecek mi?",
-      "ozet": "Brent petrol fiyatları bugün sert düştü. Brent 106 dolara düşerken araç sahipleri de benzin ve mazot fiyatlarına indirim gelip gelmeyeceğini merak ediyor. Sık sık \"Mazota indirim gelecek mi, benzin fiyatları düşecek m...",
-      "link": "https://www.dunya.com/gundem/mazota-indirim-gelecek-mi-benzin-fiyatlari-dusecek-mi-haberi-846145",
-      "tarih": "2026-11-02T14:41:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "İran'dan Hürmüz açıklaması: 9 günde 11 tanker yandı!",
       "ozet": "İran Devrim Muhafızları Ordusu, CENTCOM Komutanı Amiral Brad Cooper'ın Hürmüz Boğazı ziyaretinin ardından geçen 9 günde boğazda 11 petrol tankerinin alev aldığını ve bazılarının battığını duyurdu. Bölgede ABD-İran ger...",
       "link": "https://www.haber7.com/dunya/haber/3673564-irandan-hurmuz-aciklamasi-9-gunde-11-tanker-yandi",
@@ -107,13 +128,6 @@
       "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Hürmüz Boğazı'nda 9 günde 11 petrol tankeri alev aldı",
-      "ozet": "İran Devrim Muhafızları Ordusu, ABD Merkez Kuvvetler Komutanı Amiral Brad Cooper'ın bölgeyi ziyaret etmesinin ardından geçen 9 günde 11 petrol tankerinin alev aldığını, bazılarının ise battığını öne sürdü.",
-      "link": "https://www.dunya.com/dunya/hurmuz-bogazinda-9-gunde-11-petrol-tankeri-alev-aldi-haberi-846141",
-      "tarih": "2026-11-02T13:41:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Altın ve gümüş yatırımcısına soğuk duş: 2008'den bu yana ilk kez oldu",
       "ozet": "Değerli metaller, yükselen petrol fiyatları, dolara talebin artması, faizlerin uzun süre yüksek seviyelerde kalacağı bek...",
       "link": "https://www.sozcu.com.tr/altin-ve-gumus-yatirimcisina-soguk-dus-2008-den-bu-yana-ilk-kez-oldu-p375159",
@@ -126,13 +140,6 @@
       "link": "https://www.sozcu.com.tr/otogaza-dev-zam-litre-fiyatinda-50-lira-baraji-asiliyor-p375080",
       "tarih": "2026-11-02T11:54:30.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "ABD'den LPG alanında Türkiye ile ticareti geliştirme mesajı",
-      "ozet": "Geçtiğimiz hafta sektörün önemli isimlerinin bir araya geldiği Liquid Gas Week 2026 için Türkiye'ye gelen ABD Enerji Bakanlığı Afrika ve Orta Doğu İşleri Ofisi Direktör Yardımcısı Shiyana Gunasekara, Habertürk Enerji ...",
-      "link": "https://www.haberturk.com/ekonomi/abd-den-lpg-alaninda-turkiye-ile-ticareti-gelistirme-mesaji-3924257",
-      "tarih": "2026-11-02T10:35:02.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Ons altın ve gümüşte sert düşüş! İşte değerli metalleri baskılayan 4 temel etken...",
@@ -212,13 +219,6 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "Bakır fiyatlarında üç haftalık gerilemenin ardından yükseliş",
-      "ozet": "Bakır fiyatları, teknoloji hisselerindeki sert düşüşün yatışmasının ve petrol fiyatlarının gerilemesinin küresel büyümeye ilişkin endişeleri hafifletmesiyle bir haftanın en düşük kapanış seviyesinden toparlandı.",
-      "link": "https://www.bloomberght.com/bakir-fiyatlari-bir-haftanin-en-dusuk-seviyesinden-toparlandi-3793011",
-      "tarih": "2026-11-02T05:01:18.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Masadan gelen haber petrolü vurdu: Piyasaların gözü salı gününe çevrildi",
       "ozet": "İranlı ve Katarlı yetkililerin savaşı sona erdirecek anlaşma için görüşmelerini üçüncü güne taşımasıyla petrol fiyatları...",
       "link": "https://www.sozcu.com.tr/masadan-gelen-haber-petrolu-vurdu-piyasalarin-gozu-sali-gunune-cevrildi-p375012",
@@ -247,13 +247,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "EPDK'dan toptan doğal gaz piyasasına yeni düzenleme: Ticaret kuralları ve teklif limitleri sil baştan belirlendi",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), organize toptan doğal gaz satış piyasasında sistem dengesini sağlamak amacıyla teknik ve idari esaslarda düzenleme yaptı.ü",
-      "link": "https://www.yenisafak.com/ekonomi/epdkdan-toptan-dogal-gaz-piyasasina-yeni-duzenleme-ticaret-kurallari-ve-teklif-limitleri-sil-bastan-belirlendi-4868626",
-      "tarih": "2026-10-31T09:09:20.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 31 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-31-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2551883",
@@ -266,13 +259,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-geliyor-motorinin-litresi-100-tl-yi-asacak-2551878",
       "tarih": "2026-10-31T06:20:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "ABD'nin petrol sondaj kulesi sayısı arttı",
-      "ozet": "Petrol sahası hizmetleri şirketi Baker Hughes'un haftalık verileri yayımlandı. Buna göre, ülkedeki petrol sondaj kulesi sayısı 24-30 Ekim haftasında bir önceki haftaya göre 2 artarak 462'ye yükseldi.",
-      "link": "https://www.yenisafak.com/ekonomi/abdnin-petrol-sondaj-kulesi-sayisi-artti-4868575",
-      "tarih": "2026-10-31T06:11:40.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "BOTAŞ, kasım ve aralık ayları için doğal gaz tüketim limitlerini güncelledi",
