@@ -1,11 +1,8 @@
 {
-  "guncelleme": "2026-11-03T15:32:09.883Z",
+  "guncelleme": "2026-11-03T21:19:07.549Z",
   "kaynaklar": [
     "EKONOMIM",
     "SOZCU",
-    "DUNYA",
-    "BIRGUN",
-    "AA",
     "YENISAFAK",
     "CUMHURIYET",
     "BLOOMBERGHT"
@@ -42,24 +39,10 @@
   },
   "haberler": [
     {
-      "baslik": "Senegal'in milyarlarca dolarlık petrol yatırımında Türk imzası",
-      "ozet": "Türk şirketi Yamata, Senegal'in ikinci petrol rafinerisinin inşası ve mevcut tesisin modernizasyonu için önemli bir anlaşmaya imza attı. Toplam büyüklüğü 3,5 milyar dolara ulaşabilecek yatırım kapsamında yıllık 4 mily...",
-      "link": "https://www.ekonomim.com/is-dunyasi/senegalin-milyarlarca-dolarlik-petrol-yatiriminda-turk-imzasi-haberi-928902",
-      "tarih": "2026-11-03T14:59:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Saudi Aramco: Dizel piyasasındaki baskının artması bekleniyor",
-      "ozet": "Saudi Aramco Üst Yöneticisi Emin Hasan en-Nasır, şirketin 3 hafta içinde günlük 12 milyon varil petrol üretim kapasitesine ulaşacağını açıkladı. Küresel petrol piyasalarında günlük yaklaşık 5 milyon varillik arz kaybı...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/saudi-aramco-dizel-piyasasindaki-baskinin-artmasi-bekleniyor-haberi-928877",
-      "tarih": "2026-11-03T13:02:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "A101 EZBER BOZMAYA GELİYOR: İŞTE YENİ AKTÜEL ÜRÜNLER! (A101 5-11 KASIM)",
-      "ozet": "A101, 5-11 Kasım aktüel kataloğuyla yeni haftada geniş bir ürün yelpazesini raflara taşıyor. Kampanya kapsamında benzinli motosiklet, elektrikli bisiklet, televizyonlar ve beyaz eşya çeşitleri cazip fiyatlarla satışa ...",
-      "link": "https://www.ekonomim.com/foto-galeri/aktuel/a101-ezber-bozmaya-geliyor-iste-yeni-aktuel-urunler-a101-5-11-kasim-s1-galeri-928872",
-      "tarih": "2026-11-03T12:30:00.000Z",
+      "baslik": "Trump'ın İsrail açıklaması sonrası petrol düştü, altın toparlandı",
+      "ozet": "ABD Başkanı Donald Trump'ın yıl sonundan itibaren İsrail'e yönelik petrol ödemelerini durduracağını açıklaması, küresel emtia piyasalarında hareketliliğe neden oldu. Açıklamanın ardından petrol fiyatlarında sert düşüş...",
+      "link": "https://www.ekonomim.com/ekonomi/trumpin-israil-aciklamasi-sonrasi-petrol-dustu-altin-toparlandi-haberi-928914",
+      "tarih": "2026-11-03T15:59:00.000Z",
       "kaynak": "EKONOMIM"
     },
     {
@@ -68,41 +51,6 @@
       "link": "https://www.sozcu.com.tr/benzin-ve-dizel-araclarin-hepsini-etkiliyor-suruculerin-90-i-bilmiyor-p375638",
       "tarih": "2026-11-03T12:07:07.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Saudi Aramco'nun net karı yüzde 9,1 arttı",
-      "ozet": "Suudi Arabistan milli petrol şirketi Saudi Aramco'nun yılın üçüncü çeyreğindeki düzeltilmiş net karı, geçen yılın aynı dönemine göre yaklaşık 2,6 milyar dolar artarak 31,2 milyar dolara yükseldi.",
-      "link": "https://www.ekonomim.com/sirketler/saudi-aramconun-net-kari-yuzde-91-artti-haberi-928865",
-      "tarih": "2026-11-03T12:01:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Elektrik dağıtımına “yerli teknoloji” dopingi",
-      "ozet": "EPDK onayıyla Adm ve Gdz Elektrik tarafından hayata geçirilen GridUp Hızlandırma Programı'nda final heyecanı yaşanıyor. Dokuz ay süren programın Bodrum'da düzenlenecek finalinde, elektrik dağıtım sektörüne yönelik yen...",
-      "link": "https://www.dunya.com/sektorler/elektrik-dagitimina-yerli-teknoloji-dopingi-haberi-846284",
-      "tarih": "2026-11-03T11:45:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Tüp fiyatlarında yeni rekor kapıda: \"2 bin TL'lik eşik aralıkta aşılacak\"",
-      "ozet": "Akaryakıt ve LPG fiyatlarındaki artış, mutfak tüplerine de yansıdı. Ankara'da 12 kilogramlık ev tüpü 1900 TL'ye yükselirken, sektör kaynakları aralık ayının başında yeni zam beklendiğini belirterek 2 bin TL sınırının ...",
-      "link": "https://www.birgun.net/haber/tup-fiyatlarinda-yeni-rekor-kapida-2-bin-tl-lik-esik-aralikta-asilacak-744257",
-      "tarih": "2026-11-03T09:36:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "3 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "Akaryakıt fiyatlarındaki son değişiklikler araç sahiplerinin gündeminde yer almaya devam ediyor. 3 Kasım 2026 Salı günü benzin, motorin ve LPG litre fiyatları yeniden araştırılırken otogaza gelen 9 lira 50 kuruşluk za...",
-      "link": "https://www.birgun.net/haber/3-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-744239",
-      "tarih": "2026-11-03T08:40:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Enerji verimliliğiyle 2027'de 4,8 milyon ton petrol eşdeğeri tasarruf sağlanacak",
-      "ozet": "Türkiye'de enerji verimliliği çalışmalarıyla sağlanan enerji tasarrufunun 2027'de bu yıla göre yaklaşık yüzde 23 artarak 4 milyon 840 bin ton petrol eşdeğerine ulaşacağı öngörülüyor.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/enerji-verimliligiyle-2027de-4-8-milyon-ton-petrol-esdegeri-tasarruf-saglanacak/4109468",
-      "tarih": "2026-11-03T08:05:32.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Araç sahipleri dikkat! Gece yarısı zam geldi: Tabelalar sil baştan değişti",
@@ -140,13 +88,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Petrol, yüzde 8'lik düşüşün ardından yatay seyrediyor",
-      "ozet": "Brent petrol, bir önceki gün yaklaşık yüzde 8'lik düşüşün ardından istikrar kazandı. Ortadoğu'daki savaş dokuzuncu ayına girerken, ABD ve İran barış görüşmelerini sürdürme niyetinde olduklarını belirttiler.",
-      "link": "https://www.bloomberght.com/petrol-yuzde-8lik-dususun-ardindan-yatay-seyrediyor-3793142",
-      "tarih": "2026-11-03T04:00:37.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Ons altın ve gümüşte sert düşüş! İşte değerli metalleri baskılayan 4 temel etken...",
       "ozet": "Değerli metaller; yüksek petrol fiyatları, faiz beklentileri ve güçlü doların etkisiyle iki aydır düşüşünü sürdürüyor. Ons altın temmuz ayından bu yana ilk kez 4 bin doların altına gerilerken, gümüş ve paladyumda krit...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/ons-altin-ve-gumuste-sert-dusus-iste-degerli-metalleri-baskilayan-4-temel-etken-2552480",
@@ -179,13 +120,6 @@
       "ozet": "Kasım ayının ilk günlerinde benzin ve motorine yansıyan ÖTV kaynaklı fiyat güncellemelerinin ardından, bir zam haberi de otogaz kullanıcıları için geldi. Sektör kaynaklarından alınan son bilgilere göre, otogaz fiyatla...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-tabelalari-bu-gece-yarisi-yeniden-guncelleniyor-iste-benzin-motorin-ve-otogaz-fiyatlarinda-son-durum-4869032",
       "tarih": "2026-11-02T06:54:36.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Altın ve gümüşte sert düşüş: Petrol fiyatlarında dikkat çeken gerileme",
-      "ozet": "Küresel piyasalarda yeni haftaya hareketli bir başlangıç yapıldı. Altın ve gümüş fiyatlarında düşüş sürerken Brent petrolün varil fiyatı da geriledi. ABD ile İran arasında diplomatik çözüm ihtimalinin güçlenmesi, ener...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-ve-gumuste-sert-dusus-petrol-fiyatlarinda-dikkat-ceken-gerileme-4869005",
-      "tarih": "2026-11-02T05:13:53.000Z",
       "kaynak": "YENISAFAK"
     },
     {
