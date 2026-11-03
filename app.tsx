@@ -1,5 +1,23 @@
 const { useState, useEffect, useMemo, useCallback, useRef } = React;
 
+/* ---------- dil (TR / EN) ----------
+   Cihaz dili Türkçe ise Türkçe, değilse İngilizce. Veri/haber kaynakları Türkçe kalır.
+   t("türkçe", "english") — yazım yerinde iki dilli metin. */
+const LANG_EN = (() => {
+  try {
+    if (typeof window !== "undefined" && window.__YN_LANG__) return window.__YN_LANG__ !== "tr";
+    const l = (typeof navigator !== "undefined" && ((navigator.languages && navigator.languages[0]) || navigator.language)) || "tr";
+    return !/^tr\b/i.test(l);
+  } catch (e) { return false; }
+})();
+const LOC = LANG_EN ? "en-US" : "tr-TR";
+const t = (tr, en) => (LANG_EN ? en : tr);
+// Arama: Türkçe modda eskisi gibi; İngilizce modda ı/ç/ğ/ö/ş/ü harfleri ASCII karşılığıyla eşleşir
+const aramaNorm = (s) => {
+  const x = String(s).toLocaleLowerCase("tr-TR");
+  return LANG_EN ? x.replace(/[ıçğöşü]/g, (c) => ({ "ı": "i", "ç": "c", "ğ": "g", "ö": "o", "ş": "s", "ü": "u" })[c]) : x;
+};
+
 /* =========================================================================
    YAKIT NABZI — Türkiye geneli akaryakıt fiyat değişim takipçisi
    3 sekme: Şehirler (il/ilçe seçimi) · Değişim (günlük takip)
@@ -64,13 +82,13 @@ function round2(n) {
 }
 function fmtTL(n) {
   if (n === null || n === undefined || Number.isNaN(n)) return "—";
-  return n.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  return n.toLocaleString(LOC, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 function fmtDelta(n) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "veri yok";
+  if (n === null || n === undefined || Number.isNaN(n)) return t("veri yok", "no data");
   const v = Math.abs(round2(n));
-  if (v < 0.02) return "sabit";
-  return (n > 0 ? "+" : "−") + v.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  if (v < 0.02) return t("sabit", "flat");
+  return (n > 0 ? "+" : "−") + v.toLocaleString(LOC, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
 /* ---------- "Sonraki Değişim" tarih biçimlendirme ---------- */
@@ -78,6 +96,7 @@ function fmtDelta(n) {
 function fmtBeklentiTarihKisa(isoTarih) {
   if (!isoTarih) return "";
   const [y, m, d] = isoTarih.split("-").map(Number);
+  if (LANG_EN) return new Date(y, m - 1, d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
   return String(d).padStart(2, "0") + "." + String(m).padStart(2, "0") + "." + y;
 }
 
@@ -298,9 +317,9 @@ async function fetchHaberler() {
    döndürdüğü "ulusal" alanından besleniyor (bkz. yukarısı). */
 
 const FUEL_META = {
-  motorin: { label: "Motorin", color: "var(--motorin)" },
-  benzin: { label: "Benzin", color: "var(--benzin)" },
-  lpg: { label: "LPG - Otogaz", color: "var(--lpg)" },
+  motorin: { label: t("Motorin", "Diesel"), color: "var(--motorin)" },
+  benzin: { label: t("Benzin", "Gasoline"), color: "var(--benzin)" },
+  lpg: { label: t("LPG - Otogaz", "LPG - Autogas"), color: "var(--lpg)" },
 };
 
 /* ---------- seçmeli temalar ----------
@@ -322,7 +341,7 @@ const THEMES = {
     },
   },
   defter: {
-    name: "Defter / Ajanda",
+    name: t("Defter / Ajanda", "Notebook / Planner"),
     swatch: ["#3A3226", "#B5673A", "#E3DAC6"],
     vars: {
       "--sayfa": "#F4EFE4", "--panel": "#FDFBF6", "--panel-2": "#EDE6D6", "--panel-3": "#E3DAC6",
@@ -337,7 +356,7 @@ const THEMES = {
     },
   },
   retro: {
-    name: "Pompa Retro",
+    name: t("Pompa Retro", "Pump Retro"),
     swatch: ["#3D2A17", "#E08B22", "#2E6E6E"],
     vars: {
       "--sayfa": "#F2E4C8", "--panel": "#FFF7E6", "--panel-2": "#EAD9B0", "--panel-3": "#DEC98F",
@@ -351,7 +370,7 @@ const THEMES = {
     },
   },
   pastel: {
-    name: "Sade Pastel / Cam",
+    name: t("Sade Pastel / Cam", "Soft Pastel / Glass"),
     swatch: ["#6B6390", "#E8956B", "#6BA9C9"],
     vars: {
       "--sayfa": "#F1E9F2", "--panel": "rgba(255,255,255,0.6)", "--panel-2": "rgba(255,255,255,0.4)", "--panel-3": "rgba(255,255,255,0.75)",
@@ -365,7 +384,7 @@ const THEMES = {
     },
   },
   saha: {
-    name: "Saha / Parke",
+    name: t("Saha / Parke", "Pitch / Parquet"),
     swatch: ["#0F1D3D", "#7E8C76", "#F2C230"],
     vars: {
       "--sayfa": "#DCD3B8", "--panel": "#F3ECD9", "--panel-2": "#DACD9F", "--panel-3": "#CBBB8C",
@@ -386,11 +405,11 @@ const THEME_ORDER = ["ios", "defter", "retro", "pastel", "saha"];
 /* "Ajanda" teması için seçilebilir vurgu rengi — gerçek Defter uygulamasının
    Stil menüsündeki 5 seçeneğe birebir karşılık gelir. */
 const ACCENTS = {
-  terrakota: { name: "Terrakota", hex: "#B5673A" },
-  altin: { name: "Altın", hex: "#B08C2E" },
-  turkuaz: { name: "Turkuaz", hex: "#2E7C7C" },
-  gul: { name: "Gül", hex: "#9C4A57" },
-  adacayi: { name: "Adaçayı", hex: "#4C8C6B" },
+  terrakota: { name: t("Terrakota", "Terracotta"), hex: "#B5673A" },
+  altin: { name: t("Altın", "Gold"), hex: "#B08C2E" },
+  turkuaz: { name: t("Turkuaz", "Turquoise"), hex: "#2E7C7C" },
+  gul: { name: t("Gül", "Rose"), hex: "#9C4A57" },
+  adacayi: { name: t("Adaçayı", "Sage"), hex: "#4C8C6B" },
 };
 const ACCENT_ORDER = ["terrakota", "altin", "turkuaz", "gul", "adacayi"];
 
@@ -627,7 +646,7 @@ function NextChangeCard({ fuelKey, beklenti, gerceklesti }) {
     ? nc.tarihAdaylari.map(fmtBeklentiTarihKisa).join(" / ")
     : fmtBeklentiTarihKisa(nc.tarih);
   const yonRenk = nc.expected ? (nc.direction === "artis" ? "#EE2D3A" : "#2A9421") : null; // zam: Türk bayrağı kırmızısı, indirim: okunaklı canlı yeşil
-  const yonKelime = nc.direction === "artis" ? "Zam" : "İndirim";
+  const yonKelime = nc.direction === "artis" ? t("Zam", "Price increase") : t("İndirim", "Price cut");
   return (
     <div className="next-change-card">
       <div className="next-change-top">
@@ -643,15 +662,15 @@ function NextChangeCard({ fuelKey, beklenti, gerceklesti }) {
         <>
           <div className="next-change-beklenti-row" style={{ color: yonRenk }}>
             {nc.direction === "artis" ? <Icon.chevronUpCircle /> : <Icon.chevronDownCircle />}
-            {yonKelime} beklentisi var!
+            {t(yonKelime + " beklentisi var!", yonKelime + " expected!")}
           </div>
           <div className="next-change-date-row">
             <Icon.clock />
-            {tarihTeyitsiz ? "Tahmini " + yonKelime.toLocaleLowerCase("tr-TR") + " tarihi " : yonKelime + " tarihi "}{tarihMetni}
-            {tarihTeyitsiz && <span className="nc-teyitsiz">{nc.tarihDurumu === "tek-kaynak" ? "tek kaynak" : "kaynaklar ayrışıyor"}</span>}
+            {tarihTeyitsiz ? t("Tahmini " + yonKelime.toLocaleLowerCase("tr-TR") + " tarihi ", "Estimated " + yonKelime.toLowerCase() + " date: ") : t(yonKelime + " tarihi ", yonKelime + " date: ")}{tarihMetni}
+            {tarihTeyitsiz && <span className="nc-teyitsiz">{nc.tarihDurumu === "tek-kaynak" ? t("tek kaynak", "single source") : t("kaynaklar ayrışıyor", "sources disagree")}</span>}
             {cokKaynak && (
               <button className={"nc-kaynak-dugme" + (kaynakAcik ? " acik" : "")} onClick={() => setKaynakAcik(!kaynakAcik)} aria-expanded={kaynakAcik}>
-                {nc.dogrulayanKaynakSayisi} kaynak <Icon.chevronDown className="nc-kaynak-ok" />
+                {nc.dogrulayanKaynakSayisi} {t("kaynak", "sources")} <Icon.chevronDown className="nc-kaynak-ok" />
               </button>
             )}
           </div>
@@ -659,21 +678,21 @@ function NextChangeCard({ fuelKey, beklenti, gerceklesti }) {
             <div className="nc-kaynak-liste">
               {kaynakListesi.map((k) => (
                 <a key={k.kaynak} className="nc-kaynak-satir" href={k.kaynakLink} target="_blank" rel="noopener noreferrer">
-                  <span>{KAYNAK_ADLARI[k.kaynak] || k.kaynak}{k.tarih && <span className="nc-kaynak-tarih"> · {fmtBeklentiTarihKisa(k.tarih)}</span>}</span> <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
+                  <span>{KAYNAK_ADLARI[k.kaynak] || k.kaynak}{k.tarih && <span className="nc-kaynak-tarih"> · {fmtBeklentiTarihKisa(k.tarih)}</span>}</span> <span className="nc-git">{t("Habere git", "Read article")} <Icon.chevronRight className="chev" /></span>
                 </a>
               ))}
             </div>
           )}
           {!cokKaynak && nc.kaynakLink && (
             <a className="next-change-kaynak" href={nc.kaynakLink} target="_blank" rel="noopener noreferrer">
-              Kaynak: {KAYNAK_ADLARI[nc.kaynak] || nc.kaynak || "haber"} <span className="nc-git">Habere git <Icon.chevronRight className="chev" /></span>
+              {t("Kaynak:", "Source:")} {KAYNAK_ADLARI[nc.kaynak] || nc.kaynak || t("haber", "news")} <span className="nc-git">{t("Habere git", "Read article")} <Icon.chevronRight className="chev" /></span>
             </a>
           )}
         </>
       ) : (
         <div className="next-change-status">
           <Icon.info className="nc-info" />
-          Değişim beklenmiyor
+          {t("Değişim beklenmiyor", "No change expected")}
         </div>
       )}
     </div>
@@ -684,14 +703,14 @@ function NextChangeSection({ beklenti, gerceklesti }) {
   const herhangiBeklentiVar = beklenti && FUEL_ORDER.some((k) => aktifBeklenti(beklenti[k], gerceklesti && gerceklesti[k]).expected);
   return (
     <div className="ios-section">
-      <div className="ios-section-header">Sonraki Değişim</div>
+      <div className="ios-section-header">{t("Sonraki Değişim", "Next Change")}</div>
       <div className="next-change-list">
         {FUEL_ORDER.map((k) => <NextChangeCard key={k} fuelKey={k} beklenti={beklenti} gerceklesti={gerceklesti && gerceklesti[k]} />)}
       </div>
       {herhangiBeklentiVar ? (
-        <Uyari baslik="Bu bir tahmindir">Haber kaynaklarından derlenir, EPDK'nin resmi teyidi değildir. Kesin fiyat için istasyon tabelasına bakın.</Uyari>
+        <Uyari baslik={t("Bu bir tahmindir", "This is an estimate")}>{t("Haber kaynaklarından derlenir, EPDK'nin resmi teyidi değildir. Kesin fiyat için istasyon tabelasına bakın.", "Compiled from news sources; not officially confirmed by EPDK (Turkey's energy regulator). Check the station sign for the exact price.")}</Uyari>
       ) : (
-        <div className="ios-section-footer">Fiyatlar günde bir kez, gece yarısından sonra yürürlüğe girer.</div>
+        <div className="ios-section-footer">{t("Fiyatlar günde bir kez, gece yarısından sonra yürürlüğe girer.", "Prices take effect once a day, after midnight.")}</div>
       )}
     </div>
   );
@@ -725,10 +744,10 @@ function FlipNumber({ text }) {
 
 function PulseWidget({ mode, onToggle, nat }) {
   return (
-    <div className="pulse-widget" onClick={onToggle} role="button" aria-label="Bugün / dün karşılaştır">
+    <div className="pulse-widget" onClick={onToggle} role="button" aria-label={t("Bugün / dün karşılaştır", "Compare today / yesterday")}>
       <div className="pulse-top">
-        <span className="pulse-title">Ulusal Nabız</span>
-        <span className="pulse-mode">{mode === "today" ? "Bugün" : "Dün"}</span>
+        <span className="pulse-title">{t("Ulusal Nabız", "National Pulse")}</span>
+        <span className="pulse-mode">{mode === "today" ? t("Bugün", "Today") : t("Dün", "Yesterday")}</span>
       </div>
       <div className="pulse-row">
         {FUEL_ORDER.map((key) => {
@@ -811,8 +830,8 @@ function CityPicker({ open, current, onClose, onSelect }) {
   const [query, setQuery] = useState("");
   useEffect(() => { if (open) setQuery(""); }, [open]);
 
-  const q = query.toLocaleLowerCase("tr-TR");
-  const filtered = ILLER.filter((n) => n.toLocaleLowerCase("tr-TR").includes(q));
+  const q = aramaNorm(query);
+  const filtered = ILLER.filter((n) => aramaNorm(n).includes(q));
 
   // Arama boşken büyükşehirler en üstte sabit kalır, ayrı bölüm oluşturur
   const pinned = query ? [] : BUYUKSEHIRLER.filter((n) => filtered.includes(n));
@@ -828,15 +847,15 @@ function CityPicker({ open, current, onClose, onSelect }) {
     <div className={"sheet-overlay" + (open ? " open" : "")} onClick={onClose}>
       <div className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-grabber" />
-        <div className="sheet-header">Şehir Seçin<SheetKapat onClose={onClose} /></div>
+        <div className="sheet-header">{t("Şehir Seçin", "Select City")}<SheetKapat onClose={onClose} /></div>
         <div className="ios-search">
           <Icon.search />
-          <input placeholder="Şehir ara" value={query} onChange={(e) => setQuery(e.target.value)} />
+          <input placeholder={t("Şehir ara", "Search city")} value={query} onChange={(e) => setQuery(e.target.value)} />
         </div>
         <div className="sheet-list">
           {pinned.length > 0 && (
             <div>
-              <div className="ios-section-header sticky">Büyükşehirler</div>
+              <div className="ios-section-header sticky">{t("Büyükşehirler", "Major Cities")}</div>
               <div className="ios-card">
                 {pinned.map((n) => (
                   <button key={n} className="ios-row" onClick={() => { onSelect(n); onClose(); }}>
@@ -860,7 +879,7 @@ function CityPicker({ open, current, onClose, onSelect }) {
               </div>
             </div>
           ))}
-          {sorted.length === 0 && <div className="empty">Eşleşen şehir yok.</div>}
+          {sorted.length === 0 && <div className="empty">{t("Eşleşen şehir yok.", "No matching city.")}</div>}
         </div>
       </div>
     </div>
@@ -876,8 +895,8 @@ function DistrictCard({ d, favorites, toggleFav, onOpen, showIl }) {
           <span>
             {d.ilce}{showIl && <span className="dim"> · {d.il}</span>}
             {d.kaynak === "il_medyani_tahmini" && (
-              <span className="tahmini-badge" title="EPDK ilçe bazlı veri yayınlamıyor. Bu değer, ildeki EPDK medyan fiyatına dayanan tahminidir.">
-                Tahmini
+              <span className="tahmini-badge" title={t("EPDK ilçe bazlı veri yayınlamıyor. Bu değer, ildeki EPDK medyan fiyatına dayanan tahminidir.", "EPDK does not publish district-level data. This value is an estimate based on the province's median EPDK price.")}>
+                {t("Tahmini", "Estimated")}
               </span>
             )}
           </span>
@@ -905,11 +924,11 @@ function DistrictCard({ d, favorites, toggleFav, onOpen, showIl }) {
 
 function SehirlerView({ allDistricts, selectedIl, setPickerOpen, favorites, toggleFav, onOpenDistrict }) {
   const [query, setQuery] = useState("");
-  const q = query.toLocaleLowerCase("tr-TR").trim();
+  const q = aramaNorm(query).trim();
 
   // Boş arama kutusunda sadece seçili şehrin ilçeleri; arama varsa tüm Türkiye'de ilçe adına göre ara
   const districts = (q
-    ? allDistricts.filter((d) => d.ilce.toLocaleLowerCase("tr-TR").includes(q))
+    ? allDistricts.filter((d) => aramaNorm(d.ilce).includes(q))
     : allDistricts.filter((d) => d.il === selectedIl)
   ).slice().sort((a, b) => a.ilce.localeCompare(b.ilce, "tr"));
 
@@ -917,22 +936,22 @@ function SehirlerView({ allDistricts, selectedIl, setPickerOpen, favorites, togg
     <>
       <IosSection>
         <button className="ios-row" onClick={() => setPickerOpen(true)}>
-          <span className="ios-row-title">Şehir</span>
+          <span className="ios-row-title">{t("Şehir", "City")}</span>
           <span className="ios-row-value">{selectedIl} <Icon.chevronDown /></span>
         </button>
       </IosSection>
       <div className="ios-search district-search">
         <Icon.search />
-        <input placeholder="İlçe ara (tüm Türkiye)" value={query} onChange={(e) => setQuery(e.target.value)} />
+        <input placeholder={t("İlçe ara (tüm Türkiye)", "Search district (all Turkey)")} value={query} onChange={(e) => setQuery(e.target.value)} />
       </div>
       {q && (
         <div className="search-hint">
-          "{query}" için {districts.length} sonuç
+          {t(`"${query}" için ${districts.length} sonuç`, `${districts.length} results for "${query}"`)}
         </div>
       )}
-      {districts.length === 0 && <div className="empty">Eşleşen ilçe yok.</div>}
+      {districts.length === 0 && <div className="empty">{t("Eşleşen ilçe yok.", "No matching district.")}</div>}
       {districts.some((d) => d.kaynak === "il_medyani_tahmini") && (
-        <Uyari baslik="İlçe fiyatları tahminidir" className="ilce-uyari">EPDK ilçe bazında veri yayınlamaz; ilçe fiyatı, ilin medyan fiyatına ilçe adından türetilen ±0,01 TL'lik küçük bir sapma eklenerek hesaplanır. Gerçek ilçe farkı değildir.</Uyari>
+        <Uyari baslik={t("İlçe fiyatları tahminidir", "District prices are estimates")} className="ilce-uyari">{t("EPDK ilçe bazında veri yayınlamaz; ilçe fiyatı, ilin medyan fiyatına ilçe adından türetilen ±0,01 TL'lik küçük bir sapma eklenerek hesaplanır. Gerçek ilçe farkı değildir.", "EPDK does not publish district-level data; a district price is the province's median price plus a tiny (±0.01 TL) offset derived from the district name. It is not a real district difference.")}</Uyari>
       )}
       {districts.map((d) => (
         <DistrictCard key={d.id} d={d} favorites={favorites} toggleFav={toggleFav} onOpen={onOpenDistrict} showIl={!!q} />
@@ -967,7 +986,7 @@ function DistrictSheet({ open, d, favorites, toggleFav, onClose }) {
               </div>
             </IosSection>
 
-            <IosSection header="Yakıt Fiyatları">
+            <IosSection header={t("Yakıt Fiyatları", "Fuel Prices")}>
               {FUEL_ORDER.map((key) => {
                 const f = shown[key], meta = FUEL_META[key];
                 return (
@@ -975,7 +994,7 @@ function DistrictSheet({ open, d, favorites, toggleFav, onClose }) {
                     <div>
                       <div className="fuel-detail-name" style={{ color: meta.color }}>{meta.label}</div>
                       <div className="fuel-detail-price" style={{ color: meta.color }}>{fmtTL(f.today)} ₺</div>
-                      <div className="fuel-detail-yest">Dün: {fmtTL(f.yesterday)} ₺</div>
+                      <div className="fuel-detail-yest">{t("Dün:", "Yesterday:")} {fmtTL(f.yesterday)} ₺</div>
                     </div>
                     <div className="fuel-detail-right">
                       <Sparkline values={f.history} color={meta.color} />
@@ -987,7 +1006,7 @@ function DistrictSheet({ open, d, favorites, toggleFav, onClose }) {
             </IosSection>
 
             {shown.kaynak === "il_medyani_tahmini" && (
-              <Uyari baslik="Bu ilçe fiyatı tahminidir" className="ilce-uyari">İlin medyan fiyatına ±0,01 TL'lik küçük bir sapma eklenerek hesaplanmıştır. Kesin fiyat için istasyona bakın.</Uyari>
+              <Uyari baslik={t("Bu ilçe fiyatı tahminidir", "This district price is an estimate")} className="ilce-uyari">{t("İlin medyan fiyatına ±0,01 TL'lik küçük bir sapma eklenerek hesaplanmıştır. Kesin fiyat için istasyona bakın.", "Calculated as the province's median price plus a tiny (±0.01 TL) offset. Check the station for the exact price.")}</Uyari>
             )}
 
             </div>
@@ -1053,18 +1072,18 @@ function DegisimView({ districts, totemMode, setTotemMode, fuelFilter, setFuelFi
       <PulseWidget mode={totemMode} nat={nat[totemMode]} onToggle={() => setTotemMode((m) => (m === "today" ? "yesterday" : "today"))} />
       <Segmented options={FUEL_ORDER.map((k) => ({ value: k, label: FUEL_META[k].label }))} value={fuelFilter} onChange={setFuelFilter} />
 
-      <IosSection header="Bugün En Çok Zamlananlar">
-        {gainers.length === 0 && <div className="ios-row"><span className="dim">Bugün bu yakıtta zam yok.</span></div>}
+      <IosSection header={t("Bugün En Çok Zamlananlar", "Biggest Increases Today")}>
+        {gainers.length === 0 && <div className="ios-row"><span className="dim">{t("Bugün bu yakıtta zam yok.", "No increase for this fuel today.")}</span></div>}
         {gainers.map((d) => <LeaderRow key={d.id} d={d} fuelKey={fuelFilter} onOpen={onOpenDistrict} />)}
       </IosSection>
 
-      <IosSection header="Bugün En Çok İnenler">
-        {losers.length === 0 && <div className="ios-row"><span className="dim">Bugün bu yakıtta indirim yok.</span></div>}
+      <IosSection header={t("Bugün En Çok İnenler", "Biggest Decreases Today")}>
+        {losers.length === 0 && <div className="ios-row"><span className="dim">{t("Bugün bu yakıtta indirim yok.", "No decrease for this fuel today.")}</span></div>}
         {losers.map((d) => <LeaderRow key={d.id} d={d} fuelKey={fuelFilter} onOpen={onOpenDistrict} />)}
       </IosSection>
 
-      <IosSection header="Takip Ettiklerim">
-        {favList.length === 0 && <div className="ios-row"><span className="dim">Şehirler sekmesinde bir ilçenin yıldızına dokun.</span></div>}
+      <IosSection header={t("Takip Ettiklerim", "Following")}>
+        {favList.length === 0 && <div className="ios-row"><span className="dim">{t("Şehirler sekmesinde bir ilçenin yıldızına dokun.", "Tap a district's star in the Cities tab.")}</span></div>}
         {favList.map((d) => (
           <button className="ios-row takip-row" key={d.id} onClick={() => onOpenDistrict(d)}>
             <div className="ios-row-title">{d.ilce} <span className="dim">· {d.il}</span></div>
@@ -1085,14 +1104,14 @@ function fmtHaberTarih(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (isNaN(d)) return "";
-  return d.toLocaleDateString("tr-TR", { day: "numeric", month: "long" }) + " · " +
-    d.toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" });
+  return d.toLocaleDateString(LOC, LANG_EN ? { month: "long", day: "numeric" } : { day: "numeric", month: "long" }) + " · " +
+    d.toLocaleTimeString(LOC, { hour: "2-digit", minute: "2-digit" });
 }
 
 // iOS tarzı hap (kapsül) kapat düğmesi — tüm alt sayfalarda ortak
 function SheetKapat({ onClose }) {
   return (
-    <button className="sheet-kapat" onClick={onClose} aria-label="Kapat">
+    <button className="sheet-kapat" onClick={onClose} aria-label={t("Kapat", "Close")}>
       <Icon.close width="14" height="14" strokeWidth="2.6" />
     </button>
   );
@@ -1122,13 +1141,13 @@ function VeriDurumu({ guncelleme, cevrimdisi }) {
   const zaman = fmtHaberTarih(guncelleme);
   if (cevrimdisi) {
     return (
-      <Uyari baslik="İnternet yok, kayıtlı fiyatlar gösteriliyor" className="veri-eski">Son güncelleme: {zaman}. İnternet gelince veriler kendiliğinden yenilenir.</Uyari>
+      <Uyari baslik={t("İnternet yok, kayıtlı fiyatlar gösteriliyor", "No internet — showing saved prices")} className="veri-eski">{t("Son güncelleme:", "Last updated:")} {zaman}. {t("İnternet gelince veriler kendiliğinden yenilenir.", "Data refreshes automatically when you're back online.")}</Uyari>
     );
   }
   return eski ? (
-    <Uyari baslik="Fiyat verisi güncel olmayabilir" className="veri-eski">Son güncelleme: {zaman}.</Uyari>
+    <Uyari baslik={t("Fiyat verisi güncel olmayabilir", "Price data may be out of date")} className="veri-eski">{t("Son güncelleme:", "Last updated:")} {zaman}.</Uyari>
   ) : (
-    <div className="veri-durum">Fiyatlar son güncelleme: {zaman}</div>
+    <div className="veri-durum">{t("Fiyatlar son güncelleme:", "Prices last updated:")} {zaman}</div>
   );
 }
 
@@ -1142,7 +1161,7 @@ function HaberCard({ h }) {
           {h.kaynak && <span className="haber-kaynak">{h.kaynak}</span>}
           <span className="haber-tarih">{fmtHaberTarih(h.tarih)}</span>
         </span>
-        <span className="haber-devam">Habere git <Icon.chevronRight className="chev" /></span>
+        <span className="haber-devam">{t("Habere git", "Read article")} <Icon.chevronRight className="chev" /></span>
       </div>
     </a>
   );
@@ -1151,16 +1170,16 @@ function HaberCard({ h }) {
 function HaberlerView({ haberler, guncelleme }) {
   return (
     <>
-      <IosSection header="Petrol ve Akaryakıt Gündemi">
+      <IosSection header={t("Petrol ve Akaryakıt Gündemi", "Oil & Fuel News")}>
         {haberler.length === 0 ? (
-          <div className="empty">Şu anda gösterilecek bir haber yok.</div>
+          <div className="empty">{t("Şu anda gösterilecek bir haber yok.", "No news to show right now.")}</div>
         ) : (
           <div className="haber-list">
             {haberler.map((h) => <HaberCard key={h.id} h={h} />)}
           </div>
         )}
         {guncelleme && (
-          <div className="ios-section-footer">Son güncelleme: {fmtHaberTarih(guncelleme)}. Başlıklar birden fazla ajansın RSS beslemesinden otomatik süzülür; yorum ya da analiz içermez.</div>
+          <div className="ios-section-footer">{t("Son güncelleme:", "Last updated:")} {fmtHaberTarih(guncelleme)}. {t("Başlıklar birden fazla ajansın RSS beslemesinden otomatik süzülür; yorum ya da analiz içermez.", "Headlines are filtered automatically from several news agencies' RSS feeds (in Turkish); no commentary or analysis.")}</div>
         )}
       </IosSection>
     </>
@@ -1170,48 +1189,30 @@ function HaberlerView({ haberler, guncelleme }) {
 function KaynakContent() {
   return (
     <>
-      <IosSection header="Fiyatlar Nereden Geliyor">
+      <IosSection header={t("Fiyatlar Nereden Geliyor", "Where Prices Come From")}>
         <div className="ios-row text-row">
-          Benzin, motorin ve LPG (Otogaz) il fiyatları, EPDK'nin resmi Bayi Satış Fiyatı
-          Bildirim Sistemi'nden (bildirim.epdk.gov.tr) çekilir; o ildeki tüm firmaların
-          bildirdiği fiyatların medyanı kullanılır.
+          {t("Benzin, motorin ve LPG (Otogaz) il fiyatları, EPDK'nin resmi Bayi Satış Fiyatı Bildirim Sistemi'nden (bildirim.epdk.gov.tr) çekilir; o ildeki tüm firmaların bildirdiği fiyatların medyanı kullanılır.", "Province-level gasoline, diesel and LPG (autogas) prices are taken from EPDK's official Dealer Sales Price Notification System (bildirim.epdk.gov.tr); the median of the prices reported by all companies in that province is used.")}
         </div>
         <div className="ios-row text-row">
-          EPDK ilçe bazında ayrı bir bildirim yayınlamıyor. Bu yüzden ilçe fiyatları,
-          ilin medyan fiyatına ilçe adından türetilen çok küçük (±0,01 TL), sabit ve
-          rastgele olmayan bir sapma eklenerek hesaplanır. Bu gerçek bir ilçe farkı
-          değildir — kartlarda "Tahmini" etiketiyle açıkça belirtilir.
+          {t("EPDK ilçe bazında ayrı bir bildirim yayınlamıyor. Bu yüzden ilçe fiyatları, ilin medyan fiyatına ilçe adından türetilen çok küçük (±0,01 TL), sabit ve rastgele olmayan bir sapma eklenerek hesaplanır. Bu gerçek bir ilçe farkı değildir — kartlarda \"Tahmini\" etiketiyle açıkça belirtilir.", "EPDK does not publish a separate notification for each district. So district prices are calculated as the province's median price plus a very small (±0.01 TL), fixed, non-random offset derived from the district name. This is not a real district difference — cards clearly mark it with an \"Estimated\" label.")}
         </div>
       </IosSection>
-      <IosSection header="Veri Sürekliliği">
+      <IosSection header={t("Veri Sürekliliği", "Data Continuity")}>
         <div className="ios-row text-row">
-          Bir il için o günkü veri EPDK'dan hiç çekilemezse, o ilin son bilinen fiyatı
-          korunur; veri aniden kaybolmaz.
+          {t("Bir il için o günkü veri EPDK'dan hiç çekilemezse, o ilin son bilinen fiyatı korunur; veri aniden kaybolmaz.", "If a province's data for the day cannot be retrieved from EPDK at all, the province's last known price is kept; data does not suddenly disappear.")}
         </div>
         <div className="ios-row text-row">
-          Ulusal Nabız sekmesindeki ülke geneli rakam da EPDK'nin resmi günlük
-          "Bayi Satış Fiyatı Bülteni"nden geliyor. EPDK'nin kendi tanımına göre bu,
-          dağıtıcıların İstanbul İli Avrupa Yakası'ndaki bayileri adına beyan ettiği
-          fiyatların ortalaması — 81 ilin düz ortalaması değil, ama sektörde ve
-          basında "ulusal referans fiyat" olarak yaygın kullanılan resmi EPDK
-          rakamı. Bülten o gün çekilemezse, son bilinen değer korunur.
+          {t("Ulusal Nabız sekmesindeki ülke geneli rakam da EPDK'nin resmi günlük \"Bayi Satış Fiyatı Bülteni\"nden geliyor. EPDK'nin kendi tanımına göre bu, dağıtıcıların İstanbul İli Avrupa Yakası'ndaki bayileri adına beyan ettiği fiyatların ortalaması — 81 ilin düz ortalaması değil, ama sektörde ve basında \"ulusal referans fiyat\" olarak yaygın kullanılan resmi EPDK rakamı. Bülten o gün çekilemezse, son bilinen değer korunur.", "The nationwide figure in the National Pulse widget also comes from EPDK's official daily \"Dealer Sales Price Bulletin\". By EPDK's own definition it is the average of the prices distributors declare for their dealers on the European side of Istanbul — not a plain average of the 81 provinces, but the official EPDK figure widely used in the industry and press as the \"national reference price\". If the bulletin cannot be retrieved that day, the last known value is kept.")}
         </div>
       </IosSection>
-      <IosSection header="Nasıl Çalışıyor">
+      <IosSection header={t("Nasıl Çalışıyor", "How It Works")}>
         <div className="ios-row text-row">
-          Uygulama fiyatları istemcide üretmiyor; açılışta tek bir JSON dosyasını
-          (fiyatlar.json) çekip gösteriyor. Bu dosya, GitHub Actions üzerinde otomatik
-          çalışan bir script tarafından günde birkaç kez yeniden üretilip yayınlanıyor;
-          uygulama her açılışta o dosyanın en güncel halini indirir.
+          {t("Uygulama fiyatları istemcide üretmiyor; açılışta tek bir JSON dosyasını (fiyatlar.json) çekip gösteriyor. Bu dosya, GitHub Actions üzerinde otomatik çalışan bir script tarafından günde birkaç kez yeniden üretilip yayınlanıyor; uygulama her açılışta o dosyanın en güncel halini indirir.", "The app does not generate prices on the device; on launch it downloads a single JSON file (fiyatlar.json) and displays it. That file is regenerated and published several times a day by a script running automatically on GitHub Actions; the app downloads the latest version every time it opens.")}
         </div>
       </IosSection>
-      <IosSection header="Neden Gerçek İlçe Verisi Yok">
+      <IosSection header={t("Neden Gerçek İlçe Verisi Yok", "Why There Is No Real District Data")}>
         <div className="ios-row text-row">
-          Türkiye'de hiçbir kaynak (EPDK dahil) ilçe bazında farklı pompa fiyatı
-          yayınlamıyor; dağıtıcı şirketler de kendi sitelerinde il/ilçe bazlı bir fiyat
-          sorgulama sayfası sunmuyor. Gerçekten farklılaşmış ilçe/istasyon verisi ancak
-          kullanıcıların gördükleri fiyatı uygulamaya girmesiyle (topluluk kaynaklı)
-          zamanla oluşabilir — bu, ileride değerlendirilecek ayrı bir özellik.
+          {t("Türkiye'de hiçbir kaynak (EPDK dahil) ilçe bazında farklı pompa fiyatı yayınlamıyor; dağıtıcı şirketler de kendi sitelerinde il/ilçe bazlı bir fiyat sorgulama sayfası sunmuyor. Gerçekten farklılaşmış ilçe/istasyon verisi ancak kullanıcıların gördükleri fiyatı uygulamaya girmesiyle (topluluk kaynaklı) zamanla oluşabilir — bu, ileride değerlendirilecek ayrı bir özellik.", "No source in Turkey (including EPDK) publishes different pump prices by district, and distributor companies don't offer a province/district price lookup on their own sites either. Truly differentiated district/station data could only build up over time if users entered the prices they see (community-sourced) — a separate feature to be considered in the future.")}
         </div>
       </IosSection>
     </>
@@ -1231,7 +1232,7 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent,
     <div className={"sheet-overlay" + (open ? " open" : "")} onClick={onClose}>
       <div className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-grabber" />
-        <div className="sheet-header">Görünüm<SheetKapat onClose={onClose} /></div>
+        <div className="sheet-header">{t("Görünüm", "Appearance")}<SheetKapat onClose={onClose} /></div>
         <div className="sheet-list" ref={listeRef}>
           <div className="ios-card">
             {THEME_ORDER.map((key) => {
@@ -1250,7 +1251,7 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent,
             })}
           </div>
 
-          <div className="ios-section-header sticky">Vurgu Rengi</div>
+          <div className="ios-section-header sticky">{t("Vurgu Rengi", "Accent Color")}</div>
           <div className="ios-card">
             {ACCENT_ORDER.map((key) => {
               const a = ACCENTS[key];
@@ -1267,7 +1268,7 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent,
           </div>
 
           <button className="ios-section-header sticky palet-baslik" onClick={paletiDegistir} aria-expanded={paletAcik}>
-            <span>Serbest Palet</span>
+            <span>{t("Serbest Palet", "Custom Palette")}</span>
             <span className="palet-baslik-sag">
               {!paletAcik && accent === "ozel" && ozelRenk && <span className="accent-dot palet-mini" style={{ background: ozelRenk }} />}
               <Icon.chevronDown className={"palet-ok" + (paletAcik ? " acik" : "")} />
@@ -1285,7 +1286,7 @@ function ThemePicker({ open, current, onClose, onSelect, accent, onSelectAccent,
               })}
             </div>
           </div>}
-          <div className="ios-section-footer">Seçtiğin görünüm bu cihazda kaydedilir.</div>
+          <div className="ios-section-footer">{t("Seçtiğin görünüm bu cihazda kaydedilir.", "Your appearance choice is saved on this device.")}</div>
         </div>
       </div>
     </div>
@@ -1302,13 +1303,13 @@ const LISANS_FONTLAR = [["Anton", "2020 The Anton Project Authors"], ["DM Serif 
 function LisansContent() {
   return (
     <>
-      <IosSection header="Yazılım Bileşenleri (MIT Lisansı)">
+      <IosSection header={t("Yazılım Bileşenleri (MIT Lisansı)", "Software Components (MIT License)")}>
         {LISANS_YAZILIM.map((x) => (
           <div key={x.ad} className="ios-row text-row"><b>{x.ad}</b>{" "}— {x.sahip}</div>
         ))}
         <pre className="lisans-metin">{LISANS_MIT}</pre>
       </IosSection>
-      <IosSection header="Yazı Tipleri (SIL Open Font License 1.1)">
+      <IosSection header={t("Yazı Tipleri (SIL Open Font License 1.1)", "Fonts (SIL Open Font License 1.1)")}>
         {LISANS_FONTLAR.map((x) => (
           <div key={x[0]} className="ios-row text-row"><b>{x[0]}</b>{" "}— © {x[1]}</div>
         ))}
@@ -1323,40 +1324,40 @@ function HakkindaView({ onOpenSub, onDownload, onRate, onFeedback, onShare, show
     <>
       <div className="app-header-card">
         <div className="app-icon"><Icon.pump /></div>
-        <div className="app-name">Yakıt Nabzı</div>
-        <div className="app-tag">Türkiye geneli akaryakıt fiyat değişim takipçisi</div>
-        <div className="app-version">Sürüm 1.0.0</div>
+        <div className="app-name">{t("Yakıt Nabzı", "Fuel Pulse")}</div>
+        <div className="app-tag">{t("Türkiye geneli akaryakıt fiyat değişim takipçisi", "Fuel price change tracker for all of Turkey")}</div>
+        <div className="app-version">{t("Sürüm", "Version")} 1.0.0</div>
       </div>
 
-      <IosSection header="Görünüm">
+      <IosSection header={t("Görünüm", "Appearance")}>
         <SettingsRow
           icon={<Icon.palette />}
           color="var(--aksan)"
-          label="Tema"
+          label={t("Tema", "Theme")}
           trailing={<span className="ios-row-value">{THEMES[theme].name} <Icon.chevronRight className="chev" /></span>}
           onClick={onOpenTheme}
         />
       </IosSection>
 
-      <IosSection header="Topluluk">
-        <SettingsRow icon={<Icon.download />} color="var(--lpg)" label="Uygulamayı İndir" onClick={onDownload} />
-        <SettingsRow icon={<Icon.star filled />} color="var(--benzin)" label="Puan Ver" onClick={onRate} />
-        <SettingsRow icon={<Icon.send />} color="var(--bilgi)" label="Geri Bildirim Gönder" onClick={onFeedback} />
-        <SettingsRow icon={<Icon.share />} color="var(--indirim)" label="Paylaş" onClick={onShare} />
+      <IosSection header={t("Topluluk", "Community")}>
+        <SettingsRow icon={<Icon.download />} color="var(--lpg)" label={t("Uygulamayı İndir", "Download the App")} onClick={onDownload} />
+        <SettingsRow icon={<Icon.star filled />} color="var(--benzin)" label={t("Puan Ver", "Rate the App")} onClick={onRate} />
+        <SettingsRow icon={<Icon.send />} color="var(--bilgi)" label={t("Geri Bildirim Gönder", "Send Feedback")} onClick={onFeedback} />
+        <SettingsRow icon={<Icon.share />} color="var(--indirim)" label={t("Paylaş", "Share")} onClick={onShare} />
       </IosSection>
 
-      <IosSection header="Ayarlar">
-        <SettingsRow icon={<Icon.info />} color="var(--bilgi)" label="Veri Kaynağı" onClick={() => onOpenSub("kaynak")} />
-        <SettingsRow icon={<Icon.lock />} color="var(--notr)" label="Gizlilik İlkesi" onClick={() => window.open(GIZLILIK_URL, "_blank", "noopener")} />
-        <SettingsRow icon={<Icon.news />} color="var(--bilgi)" label="Açık Kaynak Lisansları" onClick={() => onOpenSub("lisans")} />
+      <IosSection header={t("Ayarlar", "Settings")}>
+        <SettingsRow icon={<Icon.info />} color="var(--bilgi)" label={t("Veri Kaynağı", "Data Source")} onClick={() => onOpenSub("kaynak")} />
+        <SettingsRow icon={<Icon.lock />} color="var(--notr)" label={t("Gizlilik İlkesi", "Privacy Policy")} onClick={() => window.open(GIZLILIK_URL, "_blank", "noopener")} />
+        <SettingsRow icon={<Icon.news />} color="var(--bilgi)" label={t("Açık Kaynak Lisansları", "Open Source Licenses")} onClick={() => onOpenSub("lisans")} />
       </IosSection>
 
       <div className="about-footer">
-        Yakıt Nabzı, EPDK veya herhangi bir resmi kurumla bağlantılı değildir.
+        {t("Yakıt Nabzı, EPDK veya herhangi bir resmi kurumla bağlantılı değildir.", "Fuel Pulse is not affiliated with EPDK or any official institution.")}
         <br />
         <a href="https://www.hudhudapps.com" target="_blank" rel="noopener noreferrer">www.hudhudapps.com</a> · <a href="mailto:destek@hudhudapps.com">destek@hudhudapps.com</a>
         <br />
-        Telif hakkı CK © 2026 Tüm hakları saklıdır.
+        {t("Telif hakkı CK © 2026 Tüm hakları saklıdır.", "Copyright CK © 2026 All rights reserved.")}
         <br />
         Hudhud Apps. Ahmet Rauf Küçük
       </div>
@@ -1367,10 +1368,10 @@ function HakkindaView({ onOpenSub, onDownload, onRate, onFeedback, onShare, show
 /* ---------- alt sekme çubuğu ---------- */
 function TabBar({ tab, setTab, haberlerAcik }) {
   const items = [
-    { id: "sehirler", label: "Şehirler", Icon: Icon.pump },
-    { id: "degisim", label: "Değişim", Icon: Icon.trend },
-    { id: "haberler", label: "Haberler", Icon: Icon.news },
-    { id: "hakkinda", label: "Hakkında", Icon: Icon.info },
+    { id: "sehirler", label: t("Şehirler", "Cities"), Icon: Icon.pump },
+    { id: "degisim", label: t("Değişim", "Changes"), Icon: Icon.trend },
+    { id: "haberler", label: t("Haberler", "News"), Icon: Icon.news },
+    { id: "hakkinda", label: t("Hakkında", "About"), Icon: Icon.info },
   ].filter((it) => it.id !== "haberler" || haberlerAcik);
   return (
     <div className="tab-bar">
@@ -1389,8 +1390,8 @@ function Toast({ message }) {
   return message ? <div className="toast">{message}</div> : null;
 }
 
-const TAB_TITLES = { sehirler: "Şehirler", degisim: "Değişim", haberler: "Haberler", hakkinda: "Hakkında" };
-const SUB_TITLES = { kaynak: "Veri Kaynağı", lisans: "Açık Kaynak Lisansları" };
+const TAB_TITLES = { sehirler: t("Şehirler", "Cities"), degisim: t("Değişim", "Changes"), haberler: t("Haberler", "News"), hakkinda: t("Hakkında", "About") };
+const SUB_TITLES = { kaynak: t("Veri Kaynağı", "Data Source"), lisans: t("Açık Kaynak Lisansları", "Open Source Licenses") };
 
 /* ---------- ana uygulama ---------- */
 function App() {
@@ -1510,7 +1511,7 @@ function App() {
 
   const persistFavorites = useCallback(async (set) => {
     try { await window.storage.set("favorites", JSON.stringify([...set]), false); }
-    catch (e) { console.error(e); showToast("Favoriler kaydedilemedi"); }
+    catch (e) { console.error(e); showToast(t("Favoriler kaydedilemedi", "Couldn't save favorites")); }
   }, [showToast]);
   const persistPrefs = useCallback((next) => {
     // Art arda hızlı değişikliklerde her dokunuşta ayrı kayıt isteği göndermemek için
@@ -1560,7 +1561,7 @@ function App() {
     const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent);
     const url = ios ? STORE_URL_IOS : STORE_URL_ANDROID;
     if (url) window.open(ios ? url + "?action=write-review" : url, "_blank", "noopener");
-    else showToast("Mağaza sayfası yayınlanınca burada açılacak.");
+    else showToast(t("Mağaza sayfası yayınlanınca burada açılacak.", "The store page will open here once the app is published."));
   };
 
   // Uygulamayı İndir: mağaza sayfası; adres yoksa Hudhud Apps sitesi
@@ -1572,19 +1573,19 @@ function App() {
 
   // Geri bildirim: üçüncü taraf form yok, doğrudan destek e-postasına
   const handleFeedback = () => {
-    window.location.href = "mailto:" + DESTEK_EPOSTA + "?subject=" + encodeURIComponent("Yakıt Nabzı geri bildirimi");
+    window.location.href = "mailto:" + DESTEK_EPOSTA + "?subject=" + encodeURIComponent(t("Yakıt Nabzı geri bildirimi", "Fuel Pulse feedback"));
   };
 
   const handleShare = async () => {
-    const text = "Yakıt Nabzı — Türkiye geneli akaryakıt fiyat değişim takipçisi";
+    const text = t("Yakıt Nabzı — Türkiye geneli akaryakıt fiyat değişim takipçisi", "Fuel Pulse — fuel price change tracker for all of Turkey");
     try {
       if (navigator.share) {
-        await navigator.share({ title: "Yakıt Nabzı", text });
+        await navigator.share({ title: t("Yakıt Nabzı", "Fuel Pulse"), text });
       } else if (navigator.clipboard) {
         await navigator.clipboard.writeText(text);
-        showToast("Panoya kopyalandı");
+        showToast(t("Panoya kopyalandı", "Copied to clipboard"));
       } else {
-        showToast("Paylaşım bu tarayıcıda desteklenmiyor");
+        showToast(t("Paylaşım bu tarayıcıda desteklenmiyor", "Sharing isn't supported in this browser"));
       }
     } catch (e) { /* kullanıcı paylaşımı iptal etmiş olabilir */ }
   };
@@ -1595,14 +1596,14 @@ function App() {
       body = (
         <div className="fiyat-durum">
           <div className="fiyat-durum-spinner" />
-          <div className="fiyat-durum-text">Güncel fiyatlar yükleniyor…</div>
+          <div className="fiyat-durum-text">{t("Güncel fiyatlar yükleniyor…", "Loading current prices…")}</div>
         </div>
       );
     } else if (fiyatDurum === "hata") {
       body = (
         <div className="fiyat-durum">
-          <div className="fiyat-durum-text">Fiyatlar yüklenemedi. İnternet bağlantınızı kontrol edin.</div>
-          <button className="ios-btn" onClick={loadFiyatlar}>Tekrar dene</button>
+          <div className="fiyat-durum-text">{t("Fiyatlar yüklenemedi. İnternet bağlantınızı kontrol edin.", "Couldn't load prices. Check your internet connection.")}</div>
+          <button className="ios-btn" onClick={loadFiyatlar}>{t("Tekrar dene", "Try again")}</button>
         </div>
       );
     } else if (tab === "sehirler") {
@@ -1633,14 +1634,14 @@ function App() {
       body = (
         <div className="fiyat-durum">
           <div className="fiyat-durum-spinner" />
-          <div className="fiyat-durum-text">Haberler yükleniyor…</div>
+          <div className="fiyat-durum-text">{t("Haberler yükleniyor…", "Loading news…")}</div>
         </div>
       );
     } else if (haberDurum === "hata") {
       body = (
         <div className="fiyat-durum">
-          <div className="fiyat-durum-text">Haberler yüklenemedi. İnternet bağlantınızı kontrol edin.</div>
-          <button className="ios-btn" onClick={loadHaberler}>Tekrar dene</button>
+          <div className="fiyat-durum-text">{t("Haberler yüklenemedi. İnternet bağlantınızı kontrol edin.", "Couldn't load news. Check your internet connection.")}</div>
+          <button className="ios-btn" onClick={loadHaberler}>{t("Tekrar dene", "Try again")}</button>
         </div>
       );
     } else {
@@ -1655,7 +1656,7 @@ function App() {
   }
 
   const showBack = tab === "hakkinda" && aboutSub;
-  const backLabel = "Hakkında";
+  const backLabel = t("Hakkında", "About");
   const backAction = () => setAboutSub(null);
   const titleText = tab === "hakkinda" && aboutSub ? SUB_TITLES[aboutSub] : TAB_TITLES[tab];
   const themeVars = { ...THEMES[theme].vars, "--aksan": accentHex(accent, ozelRenk) };
