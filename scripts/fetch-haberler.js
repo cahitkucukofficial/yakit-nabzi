@@ -274,7 +274,15 @@ function tarihleriBul(metin) {
     }
     // Teyit 2: "30 Ekim itibarıyla ... litre fiyatı / satılan" gibi GÜNCEL FİYAT tarihleri zam tarihi değildir.
     if (/^[^.]{0,40}itibar[ıi]yla/i.test(sonrasi) && /fiyat|satıl|satil|güncel|guncel|litre/i.test(sonrasi.slice(0, 120))) continue;
-    bulunanlar.push({ index: m.index, iso });
+    // "31 Ekim Cumartesi gece yarısından itibaren" = fiyat aslında 1 Kasım 00:00'da değişir → bir gün ileri al
+    // (böylece aynı anı "1 Kasım Pazar" diye yazan kaynaklarla aynı tarihte birleşir)
+    let etkiliIso = iso;
+    if (/^[^.]{0,40}?gece\s*yar[ıi]s[ıi]/i.test(sonrasi)) {
+      const g = new Date(iso + "T00:00:00Z");
+      g.setUTCDate(g.getUTCDate() + 1);
+      etkiliIso = g.toISOString().slice(0, 10);
+    }
+    bulunanlar.push({ index: m.index, iso: etkiliIso });
   }
   const sayisalDeseni = /\b(\d{1,2})[./](\d{1,2})[./](20\d{2})\b/g;
   while ((m = sayisalDeseni.exec(metin)) !== null) {
