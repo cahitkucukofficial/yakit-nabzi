@@ -1,10 +1,14 @@
 {
-  "guncelleme": "2026-11-04T03:35:21.459Z",
+  "guncelleme": "2026-11-04T11:40:03.289Z",
   "kaynaklar": [
-    "BIRGUN",
-    "SOZCU",
+    "HABER7",
     "YENISAFAK",
-    "CUMHURIYET"
+    "CUMHURIYET",
+    "BIRGUN",
+    "HABERTURK",
+    "TRTHABER",
+    "SOZCU",
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -19,11 +23,88 @@
   },
   "haberler": [
     {
-      "baslik": "Petrol aramalarında rekor: Doğa gözden çıkarıldı",
-      "ozet": "Türkiye, COP31 İklim Zirvesi'ne ev sahipliği yapmaya hazırlanırken fosil yakıt arama faaliyetleri hız kesmiyor. Son yedi yılda 465 petrol projesi için ÇED süreci başlatıldı, bunların 377'sine onay verildi. Tek bir pro...",
-      "link": "https://www.birgun.net/haber/petrol-aramalarinda-rekor-doga-gozden-cikarildi-744365",
-      "tarih": "2026-11-04T02:00:00.000Z",
+      "baslik": "Petrol, dolar ve altın için yeni dönem! Piyasaları bekleyen büyük değişim",
+      "ozet": "Ekonomist Cüneyt Paksoy, ABD ara seçimlerinin küresel piyasalara etkisini değerlendirerek petrol, dolar ve altın fiyatlarında belirleyici olacak gelişmeleri ve altında kritik seviyeleri açıkladı.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3674098-petrol-dolar-ve-altin-icin-yeni-donem-piyasalari-bekleyen-buyuk-degisim",
+      "tarih": "2026-11-04T10:50:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Altını olanlar ve borcu olanlar dikkat: Piyasaları sarsacak '7 bin TL' tahmini",
+      "ozet": "ABD ara seçimlerinde Demokratların elde ettiği başarı, küresel piyasalarda kartların yeniden dağıtılmasına yol açtı. Donald Trump'ın seçim yenilgisinin ardından Amerikan tahvil faizlerinde sert bir geri çekilme yaşanı...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/altini-olanlar-ve-borcu-olanlar-dikkat-piyasalari-sarsacak-7-bin-tl-tahmini-herkesi-ters-kose-yapacak-tek-bir-sart-var-4869677",
+      "tarih": "2026-11-04T08:42:26.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrol fiyatlarında 'seçim' ve 'İran' hareketliliği: Brent petrol 104 dolara dayandı",
+      "ozet": "Uluslararası piyasalarda Brent petrolün varil fiyatı, ABD'deki Kongre ara seçimleri, Donald Trump'ın İran açıklamaları ve ABD ham petrol stoklarındaki sürpriz düşüşün etkisiyle 104 dolar sınırına dayandı. WTI ham petr...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlarinda-secim-ve-iran-hareketliligi-brent-petrol-104-dolara-dayandi-2553179",
+      "tarih": "2026-11-04T08:35:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "4 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
+      "ozet": "4 Kasım 2026 güncel akaryakıt fiyatları, araç sahiplerinin en çok araştırdığı başlıklar arasında yer alıyor. Kasım ayının ilk günlerinde benzine, motorine ve LPG'ye gelen yüksek oranlı zamların ardından sürücüler yeni...",
+      "link": "https://www.birgun.net/haber/4-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-744470",
+      "tarih": "2026-11-04T08:08:00.000Z",
       "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Petrol fiyatlarında son durum ne?",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 103,96 dolardan işlem görüyor",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3924806",
+      "tarih": "2026-11-04T07:22:20.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Benzine, mazota ne kadar zam gelecek? 4 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-ne-kadar-zam-gelecek-4-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553123",
+      "tarih": "2026-11-04T06:39:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Brent petrolün varili 103,96 dolardan işlem görüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 103,96 dolardan işlem görüyor.",
+      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-10396-dolardan-islem-goruyor-962176.html",
+      "tarih": "2026-11-04T06:24:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Petrol tepetaklak oldu: Benzin ve motorine indirim beklentisi doğdu",
+      "ozet": "Küresel piyasalarda ham petrol fiyatlarının keskin bir şekilde düşüşe geçmesi akaryakıt piyasasını hareketlendirdi. Fiyatlardaki gerilemeyle birlikte araç sahiplerinde indirim beklentisi oluşurken, benzin ve motorin f...",
+      "link": "https://www.yenisafak.com/ekonomi/petrol-tepetaklak-oldu-benzin-ve-motorine-indirim-beklentisi-dogdu-4869608",
+      "tarih": "2026-11-04T06:21:48.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Ruslar petrol devini satmak için imzayı attı, yeni ortak belli oldu",
+      "ozet": "Rusya'nın yaptırımlar nedeniyle satışa çıkarmak zorunda kaldığı Sırp petrol devinde beklenen imza atıldı. Şirketin çoğun...",
+      "link": "https://www.sozcu.com.tr/ruslar-petrol-devini-satmak-icin-imzayi-atti-yeni-ortak-belli-oldu-p375834",
+      "tarih": "2026-11-04T06:00:47.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Petrol fiyatları sıkıştı: Haftalık kayıp sürüyor",
+      "ozet": "Petrol fiyatları, önceki seansta yaklaşık dört haftanın en düşük seviyesine gerilemesinin ardından sınırlı yükseldi. Bre...",
+      "link": "https://www.sozcu.com.tr/petrol-fiyatlari-sikisti-haftalik-kayip-suruyor-p375826",
+      "tarih": "2026-11-04T05:41:20.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Petrol fiyatları ABD-İran gündemiyle dalgalandı",
+      "ozet": "Petrol fiyatları, piyasa oyuncularının ABD-İran barış görüşmelerinin seyrine ilişkin karışık sinyalleri değerlendirmesiyle iki günlük düşüşün ardından dalgalı bir seyir izledi.",
+      "link": "https://www.bloomberght.com/petrol-fiyatlari-abd-iran-gundemiyle-dalgalandi-3793401",
+      "tarih": "2026-11-04T05:34:18.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Apartmanda oturan herkesi etkileyecek: 1 Ocak'ta yüzde 100'ün üzerinde zam gelecek",
+      "ozet": "Apartman ve sitelerde oturanları ilgilendiren zam göründü. Enerji Piyasası Düzenleme Kurumu’nun (EPDK) yeni düzenlemesiy...",
+      "link": "https://www.sozcu.com.tr/apartmanda-oturan-herkesi-etkileyecek-1-ocak-ta-yuzde-100-un-uzerinde-zam-gelecek-p375807",
+      "tarih": "2026-11-04T04:59:00.000Z",
+      "kaynak": "SOZCU"
     },
     {
       "baslik": "Benzin ve dizel araçların hepsini etkiliyor: Sürücülerin %90’ı bilmiyor",
@@ -33,25 +114,11 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Araç sahipleri dikkat! Gece yarısı zam geldi: Tabelalar sil baştan değişti",
-      "ozet": "Akaryakıt fiyatlarında hareketlilik sürerken otogaz LPG grubuna 3 Kasım Salı günü itibarıyla yaklaşık 9 TL'lik zam yapıldı. Zamlı fiyatlar tabelalara yansırken; İstanbul, Ankara ve İzmir'de benzin, motorin ve LPG fiya...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-lpgye-zam-3-kasim-guncel-akaryakit-fiyatlari-4869325",
-      "tarih": "2026-11-03T06:53:23.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 3 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-3-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2552718",
       "tarih": "2026-11-03T06:51:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Gece yarısı akaryakıta tarihi zam geldi!",
-      "ozet": "Benzine ve motorine yapılan vergi zamlarının ardından şimdi de LPG'ye zam geldi. Yaklaşık 9 liralık zamla birlikte otoga...",
-      "link": "https://www.sozcu.com.tr/gece-yarisi-akaryakita-tarihi-zam-geldi-p375406",
-      "tarih": "2026-11-03T04:36:03.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Ons altın ve gümüşte sert düşüş! İşte değerli metalleri baskılayan 4 temel etken...",
