@@ -1,11 +1,10 @@
 {
-  "guncelleme": "2026-11-03T21:19:07.549Z",
+  "guncelleme": "2026-11-04T03:35:21.459Z",
   "kaynaklar": [
-    "EKONOMIM",
+    "BIRGUN",
     "SOZCU",
     "YENISAFAK",
-    "CUMHURIYET",
-    "BLOOMBERGHT"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -15,35 +14,16 @@
       "expected": false
     },
     "lpg": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 9,
-      "tarih": "2026-11-03",
-      "tarihDurumu": "tek-kaynak",
-      "tarihDogrulayanSayisi": 1,
-      "tarihAdaylari": [
-        "2026-11-03"
-      ],
-      "dogrulayanKaynakSayisi": 1,
-      "kaynaklar": [
-        {
-          "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-tabelalari-bu-gece-yarisi-yeniden-guncelleniyor-iste-benzin-motorin-ve-otogaz-fiyatlarinda-son-durum-4869032",
-          "tarih": "2026-11-03"
-        }
-      ],
-      "kaynakBaslik": "Akaryakıt tabelaları bu gece yarısı yeniden güncelleniyor: İşte benzin motorin ve otogaz fiyatlarında son durum",
-      "kaynak": "YENISAFAK",
-      "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-tabelalari-bu-gece-yarisi-yeniden-guncelleniyor-iste-benzin-motorin-ve-otogaz-fiyatlarinda-son-durum-4869032"
+      "expected": false
     }
   },
   "haberler": [
     {
-      "baslik": "Trump'ın İsrail açıklaması sonrası petrol düştü, altın toparlandı",
-      "ozet": "ABD Başkanı Donald Trump'ın yıl sonundan itibaren İsrail'e yönelik petrol ödemelerini durduracağını açıklaması, küresel emtia piyasalarında hareketliliğe neden oldu. Açıklamanın ardından petrol fiyatlarında sert düşüş...",
-      "link": "https://www.ekonomim.com/ekonomi/trumpin-israil-aciklamasi-sonrasi-petrol-dustu-altin-toparlandi-haberi-928914",
-      "tarih": "2026-11-03T15:59:00.000Z",
-      "kaynak": "EKONOMIM"
+      "baslik": "Petrol aramalarında rekor: Doğa gözden çıkarıldı",
+      "ozet": "Türkiye, COP31 İklim Zirvesi'ne ev sahipliği yapmaya hazırlanırken fosil yakıt arama faaliyetleri hız kesmiyor. Son yedi yılda 465 petrol projesi için ÇED süreci başlatıldı, bunların 377'sine onay verildi. Tek bir pro...",
+      "link": "https://www.birgun.net/haber/petrol-aramalarinda-rekor-doga-gozden-cikarildi-744365",
+      "tarih": "2026-11-04T02:00:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Benzin ve dizel araçların hepsini etkiliyor: Sürücülerin %90’ı bilmiyor",
@@ -65,20 +45,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-3-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2552718",
       "tarih": "2026-11-03T06:51:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Aramco'nun üçüncü çeyrek kârı yüzde 9 arttı",
-      "ozet": "Suudi Aramco, rafinerilerinden elde ettiği kârın artması ve İran'daki savaşın petrol fiyatlarını yukarı çekmesi sonucunda üçüncü çeyrek kârında yüzde 9'luk bir artış kaydetti.",
-      "link": "https://www.bloomberght.com/aramconun-ucuncu-ceyrek-kri-yuzde-9-artti-3793159",
-      "tarih": "2026-11-03T06:37:16.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Merkez bankalarından iki yılın en hızlı altın alımı",
-      "ozet": "Merkez bankaları, yüksek petrol fiyatları ve faiz oranlarının oluşturduğu baskıya rağmen üçüncü çeyrekte 2024'ün sonundan bu yana en hızlı tempoda altın alımı gerçekleştirdi.",
-      "link": "https://www.bloomberght.com/merkez-bankalarindan-iki-yilin-en-hizli-altin-alimi-3793156",
-      "tarih": "2026-11-03T06:26:17.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Gece yarısı akaryakıta tarihi zam geldi!",
@@ -114,13 +80,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-109-dolara-geriledi-hurmuz-bogazi-iyimserligi-piyasalari-nasil-etkiledi-2552399",
       "tarih": "2026-11-02T07:04:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıt tabelaları bu gece yarısı yeniden güncelleniyor: İşte benzin motorin ve otogaz fiyatlarında son durum",
-      "ozet": "Kasım ayının ilk günlerinde benzin ve motorine yansıyan ÖTV kaynaklı fiyat güncellemelerinin ardından, bir zam haberi de otogaz kullanıcıları için geldi. Sektör kaynaklarından alınan son bilgilere göre, otogaz fiyatla...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakit-tabelalari-bu-gece-yarisi-yeniden-guncelleniyor-iste-benzin-motorin-ve-otogaz-fiyatlarinda-son-durum-4869032",
-      "tarih": "2026-11-02T06:54:36.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 31 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
