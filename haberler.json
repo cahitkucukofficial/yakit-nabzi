@@ -1,14 +1,20 @@
 {
-  "guncelleme": "2026-11-04T11:40:03.289Z",
+  "guncelleme": "2026-11-04T18:57:03.174Z",
   "kaynaklar": [
+    "DUNYA",
+    "EKONOMIM",
+    "BLOOMBERGHT",
+    "TRTHABER",
+    "STAR",
+    "AKSAM",
+    "HURRIYET",
     "HABER7",
+    "BIRGUN",
+    "AA",
     "YENISAFAK",
     "CUMHURIYET",
-    "BIRGUN",
     "HABERTURK",
-    "TRTHABER",
-    "SOZCU",
-    "BLOOMBERGHT"
+    "SOZCU"
   ],
   "beklenti": {
     "motorin": {
@@ -23,11 +29,116 @@
   },
   "haberler": [
     {
-      "baslik": "Petrol, dolar ve altın için yeni dönem! Piyasaları bekleyen büyük değişim",
-      "ozet": "Ekonomist Cüneyt Paksoy, ABD ara seçimlerinin küresel piyasalara etkisini değerlendirerek petrol, dolar ve altın fiyatlarında belirleyici olacak gelişmeleri ve altında kritik seviyeleri açıkladı.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3674098-petrol-dolar-ve-altin-icin-yeni-donem-piyasalari-bekleyen-buyuk-degisim",
-      "tarih": "2026-11-04T10:50:00.000Z",
+      "baslik": "Trump seçim yenilgisini değerlendirdi: İran savaşı buna değerdi",
+      "ozet": "ABD Başkanı Donald Trump, ara seçimlerde Cumhuriyetçi Partinin yaşadığı yenilgide İran'la savaşın etkili olduğunu kabul ederek, operasyonun kısa vadede benzin fiyatlarını yükselttiğini ancak İran'ın nükleer silah sahi...",
+      "link": "https://www.dunya.com/dunya/trump-secim-yenilgisini-degerlendirdi-iran-savasi-buna-degerdi-haberi-846468",
+      "tarih": "2026-11-04T18:46:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD seçimleri sonrası petrol piyasasında dengeler değişti",
+      "ozet": "ABD'deki ara seçimlerin ardından belirsizlik petrol piyasalarında sert satışları beraberinde getirirken, Brent petrolün varil fiyatı yaklaşık yüzde 9 düşüşle 94,28 dolara geriledi.",
+      "link": "https://www.ekonomim.com/ekonomi/abd-secimleri-sonrasi-petrol-piyasasinda-dengeler-degisti-haberi-929193",
+      "tarih": "2026-11-04T18:04:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Vance'in \"savaş\" yorumu sonrası petrolde sert düşüş",
+      "ozet": "Brent petrolün varil fiyatı, ABD'deki Kongre ara seçimlerinin ardından yaklaşık yüzde 9 düşüşle 94,28 dolara geriledi.",
+      "link": "https://www.bloomberght.com/vance-in-savas-yorumu-sonrasi-petrolde-sert-dusus-3793551",
+      "tarih": "2026-11-04T18:03:36.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "ABD seçimleri petrolü vurdu: Fiyatlar yüzde 9 geriledi",
+      "ozet": "ABD'deki ara seçimlerin ardından Washington'ın Orta Doğu ve İran politikasına ilişkin belirsizlikler petrol fiyatlarında sert düşüşe yol açtı. Brent petrolün varil fiyatı yaklaşık yüzde 9 gerileyerek 94,28 dolara, Bat...",
+      "link": "https://www.dunya.com/ekonomi/abd-secimleri-petrolu-vurdu-fiyatlar-yuzde-9-geriledi-haberi-846465",
+      "tarih": "2026-11-04T17:53:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı, ABD ara seçimlerinin etkisiyle 94 dolar seviyesine geriledi",
+      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
+      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varil-fiyati-abd-ara-secimlerinin-etkisiyle-94-dolar-seviyesine-geriledi-962263.html",
+      "tarih": "2026-11-04T17:39:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Seçim sonucu piyasayı değiştirdi: Brent petrol fiyatı yüzde 6 düştü",
+      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
+      "link": "https://www.star.com.tr/ekonomi/secim-sonucu-piyasayi-degistirdi-brent-petrol-fiyati-yuzde-6-dustu-haber-2051239/",
+      "tarih": "2026-11-04T17:36:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "ABD seçimleri piyasaları sarstı... Brent petrolde sert düşüş",
+      "ozet": "ABD'deki ara seçimlerin ardından Washington'ın Orta Doğu politikasına ilişkin belirsizlik, petrol fiyatlarını aşağı çekti. Brent petrol yüzde 9, WTI ise yüzde 7,95 geriledi.",
+      "link": "https://www.aksam.com.tr/ekonomi/abd-secimleri-piyasalari-sarsti-brent-petrolde-sert-dusus/haber-1711929",
+      "tarih": "2026-11-04T17:15:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı, 94 dolar seviyesine geriledi",
+      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
+      "link": "https://www.hurriyet.com.tr/gundem/brent-petrolun-varil-fiyati-94-dolar-seviyesine-geriledi-43366242",
+      "tarih": "2026-11-04T17:12:00.000Z",
+      "kaynak": "HURRIYET"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle 97 doların altına geriledi",
+      "ozet": "Brent petrolün ocak vadeli varil fiyatı, ABD'deki ara seçimlerin etkisiyle yaklaşık yüzde 6 düşüşle 97 doların altına geriledi.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3674209-brent-petrolun-varil-fiyati-abddeki-ara-secimlerin-etkisiyle-97-dolarin-altina-geriledi",
+      "tarih": "2026-11-04T17:01:00.000Z",
       "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Brent petrol ocak vadeli varil fiyatı 97 doların altına düştü",
+      "ozet": "Brent petrolün ocak vadeli varil fiyatı, ABD'deki ara seçimlerin etkisiyle yaklaşık yüzde 6 düşüşle 97 doların altına geriledi.",
+      "link": "https://www.birgun.net/haber/brent-petrol-ocak-vadeli-varil-fiyati-97-dolarin-altina-dustu-744618",
+      "tarih": "2026-11-04T16:43:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı, ABD ara seçimlerinin etkisiyle 94 dolar seviyesine geriledi",
+      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrolun-varil-fiyati-abddeki-ara-secimlerin-etkisiyle-97-dolarin-altina-geriledi/4111829",
+      "tarih": "2026-11-04T16:38:00.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "EPDK'nin yeni kararına KESK ESM'den tepki: \"Son 2 ayda tüketime dikkat edilmeli\"",
+      "ozet": "Enerji Sanayi ve Maden Kamu Emekçileri Sendikası (ESM) Genel Merkezi, EPDK’nin kararıyla 1 Ocak 2027’den itibaren yıllık tüketimi 3 bin kilovatsaati aşan konut abonelerinin değişken fiyat tarifesine geçirileceğini bil...",
+      "link": "https://www.birgun.net/haber/epdk-nin-yeni-kararina-kesk-esm-den-tepki-son-2-ayda-tuketime-dikkat-edilmeli-744615",
+      "tarih": "2026-11-04T16:08:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Kanada ihracatı 77,9 milyar dolarla rekora koştu",
+      "ozet": "Kanada'nın mal ihracatı ağustosta %2,5 artarak 77,9 milyar Kanada dolarına yükseldi ve tarihin en yüksek ikinci seviyesini gördü. Toparlanmaya enerji ve rafine petrol sevkiyatları öncülük etti.",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/kanada-ihracati-779-milyar-dolarla-rekora-kostu-haberi-929159",
+      "tarih": "2026-11-04T14:11:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Kazakistan'ın kanıtlanmış petrol rezervleri 785 milyon ton",
+      "ozet": "Kazakistan Ulusal Petrol ve Doğalgaz Şirketi (Kazmunaygaz) Yönetim Kurulu Başkanı Ashat Hasenov, ülkenin teyit edilmiş petrol rezervinin 785 milyon ton olduğunu ve mevcut üretim seviyesinde bu rezervin yaklaşık 45 yıl...",
+      "link": "https://www.haber7.com/dunya/haber/3674155-kazakistanin-kanitlanmis-petrol-rezervleri-785-milyon-ton",
+      "tarih": "2026-11-04T13:37:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "785 milyon tonluk rezerv buldular! Ülkeye 45 yıl yetecek...",
+      "ozet": "Kazakistan Ulusal Petrol ve Doğalgaz Şirketi (Kazmunaygaz) Yönetim Kurulu Başkanı Ashat Hasenov, ülkenin teyit edilmiş petrol rezervinin 785 milyon ton olduğunu ve mevcut üretim seviyesinde bu rezervin yaklaşık 45 yıl...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3674150-785-milyon-tonluk-rezerv-buldular-ulkeye-45-yil-yetecek",
+      "tarih": "2026-11-04T13:17:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Asya ülkesinde petrol sevinci! 785 milyon tonluk rezerv teyit edildi",
+      "ozet": "Kazakistan Ulusal Petrol ve Doğalgaz Şirketi (Kazmunaygaz) Yönetim Kurulu Başkanı Ashat Hasenov, ülkenin teyit edilmiş petrol rezervinin 785 milyon ton olduğunu ve mevcut üretim seviyesinde bu rezervin yaklaşık 45 yıl...",
+      "link": "https://www.star.com.tr/ekonomi/asya-ulkesinde-petrol-sevinci-785-milyon-tonluk-rezerv-teyit-edildi-haber-2051190/",
+      "tarih": "2026-11-04T13:14:00.000Z",
+      "kaynak": "STAR"
     },
     {
       "baslik": "Altını olanlar ve borcu olanlar dikkat: Piyasaları sarsacak '7 bin TL' tahmini",
@@ -44,13 +155,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "4 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "4 Kasım 2026 güncel akaryakıt fiyatları, araç sahiplerinin en çok araştırdığı başlıklar arasında yer alıyor. Kasım ayının ilk günlerinde benzine, motorine ve LPG'ye gelen yüksek oranlı zamların ardından sürücüler yeni...",
-      "link": "https://www.birgun.net/haber/4-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-744470",
-      "tarih": "2026-11-04T08:08:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Petrol fiyatlarında son durum ne?",
       "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 103,96 dolardan işlem görüyor",
       "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3924806",
@@ -63,13 +167,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-ne-kadar-zam-gelecek-4-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553123",
       "tarih": "2026-11-04T06:39:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrolün varili 103,96 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 103,96 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-10396-dolardan-islem-goruyor-962176.html",
-      "tarih": "2026-11-04T06:24:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Petrol tepetaklak oldu: Benzin ve motorine indirim beklentisi doğdu",
