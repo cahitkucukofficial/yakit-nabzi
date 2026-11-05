@@ -1,16 +1,15 @@
 {
-  "guncelleme": "2026-11-05T11:41:16.642Z",
+  "guncelleme": "2026-11-05T19:08:45.550Z",
   "kaynaklar": [
-    "YENISAFAK",
-    "STAR",
     "DUNYA",
-    "EKONOMIM",
-    "BIRGUN",
-    "CUMHURIYET",
-    "SABAH",
-    "SOZCU",
     "AA",
     "TRTHABER",
+    "SOZCU",
+    "YENISAFAK",
+    "STAR",
+    "BIRGUN",
+    "CUMHURIYET",
+    "HABERTURK",
     "BLOOMBERGHT",
     "HURRIYET"
   ],
@@ -41,8 +40,8 @@
       "expected": true,
       "direction": "dusus",
       "amount": 6.08,
-      "tarih": "2026-11-05",
-      "tarihDurumu": "belirsiz",
+      "tarih": "2026-11-06",
+      "tarihDurumu": "teyitli",
       "tarihDogrulayanSayisi": 2,
       "tarihAdaylari": [
         "2026-11-05",
@@ -51,25 +50,60 @@
       "dogrulayanKaynakSayisi": 2,
       "kaynaklar": [
         {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/benzin-fiyatlari-dusuyor-motorine-de-indirim-yolda-744682",
-          "tarih": "2026-11-06"
-        },
-        {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/benzine-indirim-geliyor-tarih-verildi-p376155",
           "tarih": "2026-11-06"
+        },
+        {
+          "kaynak": "BIRGUN",
+          "kaynakLink": "https://www.birgun.net/haber/benzin-fiyatlari-dusuyor-motorine-de-indirim-yolda-744682",
+          "tarih": "2026-11-06"
         }
       ],
-      "kaynakBaslik": "5 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "kaynak": "BIRGUN",
-      "kaynakLink": "https://www.birgun.net/haber/5-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-744703"
+      "kaynakBaslik": "Benzine indirim geliyor: Tarih verildi",
+      "kaynak": "SOZCU",
+      "kaynakLink": "https://www.sozcu.com.tr/benzine-indirim-geliyor-tarih-verildi-p376155"
     },
     "lpg": {
       "expected": false
     }
   },
   "haberler": [
+    {
+      "baslik": "Wall Street'te deprem: Nasdaq yüzde 4'ü aşan kayıp yaşadı",
+      "ozet": "ABD'deki ara seçimlerin ardından yapay zeka sektörüne yönelik düzenleme endişeleri teknoloji hisselerinde sert satışlara yol açarken Nasdaq yüzde 4'ün üzerinde geriledi. Orta Doğu'daki çatışmalar ve Hürmüz Boğazı'nda ...",
+      "link": "https://www.dunya.com/ekonomi/wall-streette-deprem-nasdaq-yuzde-4u-asan-kayip-yasadi-haberi-846613",
+      "tarih": "2026-11-05T18:34:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD borsaları sert düşerken petrol fiyatları yeniden yükselişte",
+      "ozet": "Küresel piyasalarda ABD seçimleri sonrası teknoloji hisseleri öncülüğünde sert satışlar yaşanırken, İran-ABD çatışmalarına dair belirsizlikler ve Hürmüz Boğazı'nda tankerlerin alev aldığı yönündeki açıklamalar petrol ...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abd-borsalari-sert-duserken-petrol-fiyatlari-yeniden-yukseliste/4113333",
+      "tarih": "2026-11-05T17:52:41.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "İran Ordusu: Hürmüz Boğazı'nın doğusunda 2 petrol tankeri deniz mayınlarına çarptı",
+      "ozet": "İran Ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda deniz mayınlarına çarpan 2 petrol tankerinin alev aldığını bildirdi.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinin-dogusunda-2-petrol-tankeri-deniz-mayinlarina-carpti-962359.html",
+      "tarih": "2026-11-05T14:45:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Petrol için çarpıcı tahmin! 2027 sonunda bu seviye görülebilir",
+      "ozet": "Petrol fiyatlarında sert düşüş yaşanırken Almanya merkezli yatırım bankası Berenberg'den dikkat çeken bir tahmin geldi. Banka, ABD ile İran arasında olası bir anlaşmanın Hürmüz Boğazı'nı yeniden açabileceğini belirter...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/petrol-icin-carpici-tahmin-2027-sonunda-bu-seviye-gorulebilir-galeri-846579",
+      "tarih": "2026-11-05T13:45:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Benzine indirim geliyor: Tarih verildi",
+      "ozet": "Küresel petrol piyasalarında yaşanan gerilemeyle birlikte Türkiye'de benzinin litre fiyatında 6 lira 8 kuruş indirim gel...",
+      "link": "https://www.sozcu.com.tr/benzine-indirim-geliyor-tarih-verildi-p376155",
+      "tarih": "2026-11-05T12:01:59.000Z",
+      "kaynak": "SOZCU"
+    },
     {
       "baslik": "Petrol zengini ülkeler belli oldu: Türkiye bakın kaçıncı sırada?",
       "ozet": "Global Firepower, 2026 yılı dünyanın en büyük petrol rezervlerine sahip ülkeler sıralamasını açıkladı. 303 milyar varili aşan rezerviyle zirvede yer alan ülke dikkat çekerken, petrol zengini ülkelerin sıralaması da be...",
@@ -82,34 +116,6 @@
       "ozet": "Milli Enerji 2040 Lasmanı'nda önemli açıklamalarda bulunan Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Enerjide bağımsız Türkiye olarak öne çıkıyoruz. 2040'ta enerjide bağımsız olacağız. Hedefimiz petrol ve...",
       "link": "https://www.star.com.tr/ekonomi/nijerde-ilk-uretim-basliyor-bakan-bayraktardan-altin-mujdesi-haber-2051385/",
       "tarih": "2026-11-05T10:55:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "Borsa günün ilk yarısında negatif seyretti",
-      "ozet": "Borsa İstanbul'da BIST 100 endeksi, günün ilk yarısını yüzde 0,12 düşüşle 11.464,81 puandan tamamladı. Bankacılık ve holding hisseleri yükselirken, madencilik sektörü en fazla kazandıran, kimya, petrol ve plastik sekt...",
-      "link": "https://www.dunya.com/finans/borsa/borsa-gunun-ilk-yarisinda-negatif-seyretti-haberi-846551",
-      "tarih": "2026-11-05T10:10:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Rusya'nın petrol ve gaz gelirleri iki katından fazla arttı",
-      "ozet": "Rusya'nın petrol ve doğal gaz gelirleri, ekimde bir önceki aya göre iki katından fazla artarak​​​​​​​ 971,2 milyar rubleye (yaklaşık 11,9 milyar dolar) yükseldi.",
-      "link": "https://www.ekonomim.com/emtia/rusyanin-petrol-ve-gaz-gelirleri-iki-katindan-fazla-artti-haberi-929363",
-      "tarih": "2026-11-05T09:47:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Rusya'nın petrol ve doğal gaz gelirlerinde sert yükseliş: Ekimde iki katını aştı",
-      "ozet": "Rusya'nın petrol ve doğal gaz gelirleri, ekimde bir önceki aya göre iki katından fazla artarak 971,2 milyar rubleye (11,9 milyar dolar) yükseldi. Ancak yılın ilk 10 ayında enerji gelirleri geçen yılın aynı dönemine gö...",
-      "link": "https://www.dunya.com/ekonomi/rusyanin-petrol-ve-dogal-gaz-gelirlerinde-sert-yukselis-ekimde-iki-katini-asti-haberi-846547",
-      "tarih": "2026-11-05T09:33:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Bakan Bayraktar yeni yol haritasını açıkladı: 2040'ta enerjide bağımsız olacağız",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Enerjide bağımsız Türkiye olarak öne çıkıyoruz. 2040'ta enerjide bağımsız olacağız. Hedefimiz petrol ve doğal gazda üreten Türkiye.\" dedi.",
-      "link": "https://www.star.com.tr/ekonomi/bakan-bayraktar-yeni-yol-haritasini-acikladi-2040ta-enerjide-bagimsiz-olacagiz-haber-2051370/",
-      "tarih": "2026-11-05T09:10:00.000Z",
       "kaynak": "STAR"
     },
     {
@@ -127,27 +133,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Kömür fiyatları geriledi: Ton başına 145 dolara düştü",
-      "ozet": "Kömür fiyatları, ABD ile İran arasındaki gerilimin azalabileceğine yönelik beklentiler ve petrol ile LNG piyasalarındaki sert düşüşün etkisiyle ton başına yaklaşık 145 dolara geriledi. Üç yılın zirvesinden...Devamı iç...",
-      "link": "https://www.sabah.com.tr/ekonomi/komur-fiyatlari-geriledi-ton-basina-145-dolara-dustu-7695446",
-      "tarih": "2026-11-05T07:29:07.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Benzine indirim geliyor: Tarih verildi",
-      "ozet": "Küresel petrol piyasalarında yaşanan gerilemeyle birlikte Türkiye'de benzinin litre fiyatında 6 lira 8 kuruş indirim gel...",
-      "link": "https://www.sozcu.com.tr/benzine-indirim-geliyor-tarih-verildi-p376155",
-      "tarih": "2026-11-05T06:46:27.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Brent petrolün varili 94,07 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 94,07 dolardan işlem görüyor.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrolun-varili-94-07-dolardan-islem-goruyor/4112202",
-      "tarih": "2026-11-05T06:42:28.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Akaryakıta dev indirim geliyor: Depoları doldurmak için saat verildi",
       "ozet": "Uluslararası piyasalarda WTI ham petrolün varil fiyatının 87 doların altına gerilemesi ve Brent petrolün 93 dolar seviyelerine düşmesiyle birlikte yurt içinde akaryakıt fiyatlarında indirim beklentisi oluştu. Sektör k...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-indirim-geliyor-5-kasim-2026-4869955",
@@ -155,11 +140,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Brent petrolün varili 94,07 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 94,07 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9407-dolardan-islem-goruyor-962301.html",
-      "tarih": "2026-11-05T06:39:00.000Z",
-      "kaynak": "TRTHABER"
+      "baslik": "Küresel piyasalarda seçim etkisi",
+      "ozet": "ABD'de Kongre ara seçimlerinin ardından Demokratların elde ettiği başarı, küresel piyasalarda dengeleri değiştirdi. ABD tahvil faizleri ve dolar gerilerken altın ve gümüş yükseldi. Petrol fiyatlarında düşüş görülürken...",
+      "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalara-abd-ara-secimlerinin-etkileri-yansidi-3925042",
+      "tarih": "2026-11-05T06:37:49.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Benzin fiyatları sandığa yansıdı: Trump kaybetti, Wall Street kazandı mı?",
@@ -190,13 +175,6 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "İran: Hürmüz'den geçerken 2 petrol tankeri ve 1 römorkör alev aldı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'ndan geçerken 2 petrol tankerinin ve 1 römorkörün alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuzden-gecerken-2-petrol-tankeri-ve-1-romorkor-alev-aldi-962303.html",
-      "tarih": "2026-11-05T06:24:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Petrolde sert düşüş: Brent 93 dolara geriledi",
       "ozet": "ABD ara seçimlerinde Demokratların kazandığı zaferlerin ardından İran'la savaşın sona erebileceği beklentisi güçlendi. B...",
       "link": "https://www.sozcu.com.tr/petrolde-sert-dusus-brent-93-dolara-geriledi-p376167",
@@ -211,38 +189,10 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "ABD'de petrol verileri açıklandı: Stoklar azaldı",
-      "ozet": "ABD'nin ticari ham petrol stokları, 24-30 Ekim haftasında 900 bin varil azalarak 409,8 milyon varile geriledi. Piyasalarda 1,7 milyon varillik düşüş beklenirken, ülkenin günlük petrol üretimi 14 milyon 3 bin varile yü...",
-      "link": "https://www.birgun.net/haber/abd-de-petrol-verileri-aciklandi-stoklar-azaldi-744674",
-      "tarih": "2026-11-05T05:08:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "ABD seçimleri piyasaları hareketlendirdi: Altın yeniden yükselişe geçti",
-      "ozet": "ABD'de Kongre ara seçimlerinde Demokratların elde ettiği kazanımlar ve İran'la çatışmaların sona erebileceğine yönelik beklentiler altın fiyatlarını yükseltti. Petrol fiyatlarındaki sert düşüş, doların zayıflaması ve ...",
-      "link": "https://www.birgun.net/haber/abd-secimleri-piyasalari-hareketlendirdi-altin-yeniden-yukselise-gecti-744673",
-      "tarih": "2026-11-05T04:50:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Petrol, savaşın sona ereceği umuduyla düşüşünü sürdürüyor",
       "ozet": "Brent petrol, önceki dün yüzde 8'in üzerinde değer kaybettikten sonra düşüşünü sürdürdü. Yatırımcılar, ABD ara seçimlerinde Demokratların ezici zafer kazanmasının Orta Doğu'daki savaşı sona erdirme çabalarını hızlandı...",
       "link": "https://www.bloomberght.com/petrol-savasin-sona-erecegi-umuduyla-dususunu-surduruyor-3793576",
       "tarih": "2026-11-05T03:41:12.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "ABD'den İran petrolünü taşıyan Hintli denizcilik ağına yaptırım",
-      "ozet": "ABD Hazine Bakanlığı, İran'ın yaptırımları aşarak petrol taşımacılığı yapmasına yardımcı olduğu öne sürülen Hindistan merkezli denizcilik ağını yaptırım listesine aldı.",
-      "link": "https://www.bloomberght.com/abd-den-iran-petrolunu-tasiyan-hintli-denizcilik-agina-yaptirim-3793566",
-      "tarih": "2026-11-04T20:05:49.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Vance'in \"savaş\" yorumu sonrası petrolde sert düşüş",
-      "ozet": "Brent petrolün varil fiyatı, ABD'deki Kongre ara seçimlerinin ardından yaklaşık yüzde 9 düşüşle 94,28 dolara geriledi.",
-      "link": "https://www.bloomberght.com/vance-in-savas-yorumu-sonrasi-petrolde-sert-dusus-3793551",
-      "tarih": "2026-11-04T18:03:36.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
@@ -251,13 +201,6 @@
       "link": "https://www.hurriyet.com.tr/gundem/brent-petrolun-varil-fiyati-94-dolar-seviyesine-geriledi-43366242",
       "tarih": "2026-11-04T17:12:00.000Z",
       "kaynak": "HURRIYET"
-    },
-    {
-      "baslik": "Brent petrolün varil fiyatı, ABD ara seçimlerinin etkisiyle 94 dolar seviyesine geriledi",
-      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrolun-varil-fiyati-abddeki-ara-secimlerin-etkisiyle-97-dolarin-altina-geriledi/4111829",
-      "tarih": "2026-11-04T16:38:00.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Petrol fiyatlarında 'seçim' ve 'İran' hareketliliği: Brent petrol 104 dolara dayandı",
@@ -272,13 +215,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-ne-kadar-zam-gelecek-4-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553123",
       "tarih": "2026-11-04T06:39:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Ruslar petrol devini satmak için imzayı attı, yeni ortak belli oldu",
-      "ozet": "Rusya'nın yaptırımlar nedeniyle satışa çıkarmak zorunda kaldığı Sırp petrol devinde beklenen imza atıldı. Şirketin çoğun...",
-      "link": "https://www.sozcu.com.tr/ruslar-petrol-devini-satmak-icin-imzayi-atti-yeni-ortak-belli-oldu-p375834",
-      "tarih": "2026-11-04T06:00:47.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 3 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -348,6 +284,20 @@
       "ozet": "Kasım ayının başlamasıyla akaryakıt fiyatlarında yeni zam dalgası gündeme geldi. Benzin, motorin ve LPG'de beklenen fiyat artışlarının araç sahiplerinin yanı sıra taşımacılık ve lojistik maliyetlerini de etkilemesi be...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-buyuk-zam-geliyor-benzin-motorin-ve-lpg-icin-yeni-fiyatlar-belli-oldu-2551711",
       "tarih": "2026-10-30T12:02:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Yüksek petrol ve doğalgaz fiyatları şirketlere yaradı: Kârlar rekor seviyede",
+      "ozet": "Küresel enerji şirketleri, yükselen petrol ve doğalgaz fiyatları ile rekor rafineri marjlarının etkisiyle kârlarını güçlü biçimde artırdı. Shell, TotalEnergies ve Repsol’un bilançolarında belirgin yükseliş görülürken,...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/yuksek-petrol-ve-dogalgaz-fiyatlari-sirketlere-yaradi-karlar-rekor-seviyede-2551636",
+      "tarih": "2026-10-30T06:54:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrol fiyatları geriledi: ABD-İran görüşmeleri için yeni adım",
+      "ozet": "ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomatik girişimler, petrol fiyatlarında düşüşe yol açtı. Katar öncülüğündeki arabuluculuk çabalarının bölgedeki arz endişelerini hafifletmesiyle Brent...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-geriledi-abd-iran-gorusmeleri-icin-yeni-adim-2551305",
+      "tarih": "2026-10-29T07:14:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
