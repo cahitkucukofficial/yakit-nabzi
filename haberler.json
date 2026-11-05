@@ -1,12 +1,11 @@
 {
-  "guncelleme": "2026-11-04T18:57:03.174Z",
+  "guncelleme": "2026-11-05T00:34:39.002Z",
   "kaynaklar": [
-    "DUNYA",
     "EKONOMIM",
     "BLOOMBERGHT",
+    "DUNYA",
     "TRTHABER",
     "STAR",
-    "AKSAM",
     "HURRIYET",
     "HABER7",
     "BIRGUN",
@@ -29,18 +28,25 @@
   },
   "haberler": [
     {
+      "baslik": "Trump'a mavi dalga çarptı",
+      "ozet": "ABD ara seçimlerinde Demokratlar Kongre'nin iki kanadını da ele geçirerek Trump yönetimine ağır bir fatura çıkardı. İran savaşının tetiklediği enflasyon, rekor benzin fiyatları, gümrük vergileri ve yapay zeka tartışma...",
+      "link": "https://www.ekonomim.com/ekonomi/trumpa-mavi-dalga-carpti-haberi-929207",
+      "tarih": "2026-11-04T21:00:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD'den İran petrolünü taşıyan Hintli denizcilik ağına yaptırım",
+      "ozet": "ABD Hazine Bakanlığı, İran'ın yaptırımları aşarak petrol taşımacılığı yapmasına yardımcı olduğu öne sürülen Hindistan merkezli denizcilik ağını yaptırım listesine aldı.",
+      "link": "https://www.bloomberght.com/abd-den-iran-petrolunu-tasiyan-hintli-denizcilik-agina-yaptirim-3793566",
+      "tarih": "2026-11-04T20:05:49.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Trump seçim yenilgisini değerlendirdi: İran savaşı buna değerdi",
       "ozet": "ABD Başkanı Donald Trump, ara seçimlerde Cumhuriyetçi Partinin yaşadığı yenilgide İran'la savaşın etkili olduğunu kabul ederek, operasyonun kısa vadede benzin fiyatlarını yükselttiğini ancak İran'ın nükleer silah sahi...",
       "link": "https://www.dunya.com/dunya/trump-secim-yenilgisini-degerlendirdi-iran-savasi-buna-degerdi-haberi-846468",
       "tarih": "2026-11-04T18:46:00.000Z",
       "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "ABD seçimleri sonrası petrol piyasasında dengeler değişti",
-      "ozet": "ABD'deki ara seçimlerin ardından belirsizlik petrol piyasalarında sert satışları beraberinde getirirken, Brent petrolün varil fiyatı yaklaşık yüzde 9 düşüşle 94,28 dolara geriledi.",
-      "link": "https://www.ekonomim.com/ekonomi/abd-secimleri-sonrasi-petrol-piyasasinda-dengeler-degisti-haberi-929193",
-      "tarih": "2026-11-04T18:04:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Vance'in \"savaş\" yorumu sonrası petrolde sert düşüş",
@@ -69,13 +75,6 @@
       "link": "https://www.star.com.tr/ekonomi/secim-sonucu-piyasayi-degistirdi-brent-petrol-fiyati-yuzde-6-dustu-haber-2051239/",
       "tarih": "2026-11-04T17:36:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "ABD seçimleri piyasaları sarstı... Brent petrolde sert düşüş",
-      "ozet": "ABD'deki ara seçimlerin ardından Washington'ın Orta Doğu politikasına ilişkin belirsizlik, petrol fiyatlarını aşağı çekti. Brent petrol yüzde 9, WTI ise yüzde 7,95 geriledi.",
-      "link": "https://www.aksam.com.tr/ekonomi/abd-secimleri-piyasalari-sarsti-brent-petrolde-sert-dusus/haber-1711929",
-      "tarih": "2026-11-04T17:15:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "Brent petrolün varil fiyatı, 94 dolar seviyesine geriledi",
@@ -111,27 +110,6 @@
       "link": "https://www.birgun.net/haber/epdk-nin-yeni-kararina-kesk-esm-den-tepki-son-2-ayda-tuketime-dikkat-edilmeli-744615",
       "tarih": "2026-11-04T16:08:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Kanada ihracatı 77,9 milyar dolarla rekora koştu",
-      "ozet": "Kanada'nın mal ihracatı ağustosta %2,5 artarak 77,9 milyar Kanada dolarına yükseldi ve tarihin en yüksek ikinci seviyesini gördü. Toparlanmaya enerji ve rafine petrol sevkiyatları öncülük etti.",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/kanada-ihracati-779-milyar-dolarla-rekora-kostu-haberi-929159",
-      "tarih": "2026-11-04T14:11:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Kazakistan'ın kanıtlanmış petrol rezervleri 785 milyon ton",
-      "ozet": "Kazakistan Ulusal Petrol ve Doğalgaz Şirketi (Kazmunaygaz) Yönetim Kurulu Başkanı Ashat Hasenov, ülkenin teyit edilmiş petrol rezervinin 785 milyon ton olduğunu ve mevcut üretim seviyesinde bu rezervin yaklaşık 45 yıl...",
-      "link": "https://www.haber7.com/dunya/haber/3674155-kazakistanin-kanitlanmis-petrol-rezervleri-785-milyon-ton",
-      "tarih": "2026-11-04T13:37:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "785 milyon tonluk rezerv buldular! Ülkeye 45 yıl yetecek...",
-      "ozet": "Kazakistan Ulusal Petrol ve Doğalgaz Şirketi (Kazmunaygaz) Yönetim Kurulu Başkanı Ashat Hasenov, ülkenin teyit edilmiş petrol rezervinin 785 milyon ton olduğunu ve mevcut üretim seviyesinde bu rezervin yaklaşık 45 yıl...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3674150-785-milyon-tonluk-rezerv-buldular-ulkeye-45-yil-yetecek",
-      "tarih": "2026-11-04T13:17:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Asya ülkesinde petrol sevinci! 785 milyon tonluk rezerv teyit edildi",
@@ -188,13 +166,6 @@
       "link": "https://www.sozcu.com.tr/petrol-fiyatlari-sikisti-haftalik-kayip-suruyor-p375826",
       "tarih": "2026-11-04T05:41:20.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrol fiyatları ABD-İran gündemiyle dalgalandı",
-      "ozet": "Petrol fiyatları, piyasa oyuncularının ABD-İran barış görüşmelerinin seyrine ilişkin karışık sinyalleri değerlendirmesiyle iki günlük düşüşün ardından dalgalı bir seyir izledi.",
-      "link": "https://www.bloomberght.com/petrol-fiyatlari-abd-iran-gundemiyle-dalgalandi-3793401",
-      "tarih": "2026-11-04T05:34:18.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Apartmanda oturan herkesi etkileyecek: 1 Ocak'ta yüzde 100'ün üzerinde zam gelecek",
@@ -292,13 +263,6 @@
       "ozet": "ABD ile İran arasında müzakerelerin yeniden başlamasına yönelik diplomatik girişimler, petrol fiyatlarında düşüşe yol açtı. Katar öncülüğündeki arabuluculuk çabalarının bölgedeki arz endişelerini hafifletmesiyle Brent...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlari-geriledi-abd-iran-gorusmeleri-icin-yeni-adim-2551305",
       "tarih": "2026-10-29T07:14:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıtta kasım zammı riski: Benzinde 6,55 TL, motorinde 6 TL baskı",
-      "ozet": "Kasım ayında akaryakıt fiyatlarında vergi, döviz kuru ve petrol kaynaklı yeni artış riski gündeme geldi. Ekonomist Mahmut Aydoğmuş, bu üç unsurun birlikte hareket etmesi halinde benzin ve motorin fiyatlarında ek baskı...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-kasim-zammi-riski-benzinde-6-55-tl-motorinde-6-tl-baski-2550736",
-      "tarih": "2026-10-27T12:49:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
