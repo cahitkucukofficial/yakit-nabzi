@@ -1,10 +1,11 @@
 {
-  "guncelleme": "2026-11-06T18:36:19.592Z",
+  "guncelleme": "2026-11-06T23:51:12.202Z",
   "kaynaklar": [
-    "SABAH",
-    "DUNYA",
-    "HABER7",
     "BLOOMBERGHT",
+    "DUNYA",
+    "STAR",
+    "SABAH",
+    "HABER7",
     "AA",
     "TRTHABER",
     "YENISAFAK",
@@ -21,20 +22,15 @@
       "amount": 5.47,
       "tarih": "2026-11-07",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 3,
+      "tarihDogrulayanSayisi": 2,
       "tarihAdaylari": [
         "2026-11-07"
       ],
-      "dogrulayanKaynakSayisi": 3,
+      "dogrulayanKaynakSayisi": 2,
       "kaynaklar": [
         {
           "kaynak": "YENISAFAK",
           "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-dev-indirim-bu-gece-yansiyacak-4870310",
-          "tarih": "2026-11-07"
-        },
-        {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/motorinde-tabela-degisiyor-744903",
           "tarih": "2026-11-07"
         },
         {
@@ -55,6 +51,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Trump: İran ile görüşmelerimiz olumlu ilerliyor",
+      "ozet": "ABD Başkanı Donald Trump, İran ile görüşmelerin olumlu ilerlediğini belirterek, Hürmüz Boğazı'nın petrol sevkiyatına açık tutulması konusunda da önemli ilerleme kaydettiklerini açıkladı.",
+      "link": "https://www.bloomberght.com/trump-iran-ile-gorusmelerimiz-olumlu-ilerliyor-3793865",
+      "tarih": "2026-11-06T21:36:16.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Elektrik enerjisinde kaynak yapısı değişiyor: Sanayi doğalgazdan ‘yenilenebilir’e geçiyor",
+      "ozet": "Jeopolitik riskler ve hızlı yükselen petrol fiyatları elektrik enerjisinde yenilenebilir yatırımlarını hızlandırdı. Denizüstü rüzgar ihaleleriyle 3 milyar dolarlık yatırım kapısının aralanabileceğini söyleyen TÜREB Ba...",
+      "link": "https://www.dunya.com/ekonomi/elektrik-enerjisinde-kaynak-yapisi-degisiyor-sanayi-dogalgazdan-yenilenebilire-geciyor-haberi-846738",
+      "tarih": "2026-11-06T21:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Üst düzey toplantıda Türkiye'yi konuştular! Koca bir ülke petrol için nefesini tuttu",
+      "ozet": "Pakistan, yaklaşık 20 yılın ardından açık denizlerde hidrokarbon arama faaliyetlerini yeniden başlatmaya hazırlanırken, Türkiye-Pakistan arasındaki işbirliği kapsamında Oruç Reis sismik araştırma gemisinin 17-20 Kasım...",
+      "link": "https://www.star.com.tr/ekonomi/ust-duzey-toplantida-turkiyeyi-konustular-koca-bir-ulke-petrol-icin-nefesini-tuttu-haber-2051728/",
+      "tarih": "2026-11-06T19:09:00.000Z",
+      "kaynak": "STAR"
+    },
     {
       "baslik": "Bakan Bayraktar'dan enerji bağımsızlığı mesajı: Türkiye açısından stratejik bir hedef",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin doğal gaz, petrol ve nükleer enerji alanlarında attığı adımların temel hedefinin enerji ithalatını azaltmak olduğunu belirterek, \"Bizim...Devamı için t...",
@@ -77,11 +94,11 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Yarın mazot düşecek mi, indirim geldi mi? Benzine indirim var mı, fiyatları düşecek mi?",
-      "ozet": "Brent Petrolde düşüş trendi devam ediyor. 23 Ekim'de 116 doları gören Brent şu an 97 dolardan işlem görürken özellikle araç sahipleri mazota indirim gelip gelmeyeceğini sorguluyor.",
-      "link": "https://www.dunya.com/gundem/yarin-mazot-dusecek-mi-indirim-geldi-mi-benzine-indirim-var-mi-fiyatlari-dusecek-mi-haberi-846682",
-      "tarih": "2026-11-06T14:24:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Bakan Bayraktar: Türkiye, 2040'a geldiği zaman enerjide dışa bağımlılığını bitirmiş bağımsız bir ülke olacak",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Bayraktar \"Türkiye, 2040'a geldiği zaman ihtiyacı olan doğal gaz ve petrolü yurt içi ve yurt dışı üretimiyle tamamıyla karşılayabilecek. Dolayısıyla enerjide dışa bağımlılığını bitirmi...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktar-turkiye-2040a-geldigi-zaman-enerjide-disa-bagimliligini-bitirmis-bagimsiz-bir-ulke-olacak/4114617",
+      "tarih": "2026-11-06T17:01:55.000Z",
+      "kaynak": "AA"
     },
     {
       "baslik": "Avrupa metan kurallarının ertelenmesinde uzlaştı",
@@ -154,20 +171,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Motorinde tabela değişiyor",
-      "ozet": "Motorine bu gece yarısından itibaren geçerli olmak üzere 5 TL 47 kuruş indirim bekleniyor. İndirimin pompaya yansımasıyla motorinin litresi yeniden 100 TL'nin altına düşecek. Benzine ise bugünden geçerli 6 TL 8 kuruş ...",
-      "link": "https://www.birgun.net/haber/motorinde-tabela-degisiyor-744903",
-      "tarih": "2026-11-06T07:08:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "6 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "6 Kasım 2026 güncel akaryakıt fiyatları araç sahipleri tarafından yakından takip ediliyor. Benzine gelen 6 TL indirim sonrasında benzin litre fiyatı İstanbul, Ankara ve İzmir'de yeniden gündeme gelirken motorine bekle...",
-      "link": "https://www.birgun.net/haber/6-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-744902",
-      "tarih": "2026-11-06T07:04:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "\"İran'ın petrol ihracatı sıfıra yakın\"",
       "ozet": "Danışmanlık şirketi FGE NexantECA'ya göre, ABD deniz ablukası altında İran'ın petrol ihracatı neredeyse tamamen tükenmiş durumda. Savaşın sona ermesi için iki taraf arasında yakın zamanda bir anlaşmaya varılma ihtimal...",
       "link": "https://www.bloomberght.com/iran-in-petrol-ihracati-sifira-yakin-3793755",
@@ -215,13 +218,6 @@
       "link": "https://www.sozcu.com.tr/akaryakita-gece-yarisi-tarihi-indirim-geliyor-p376531",
       "tarih": "2026-11-06T05:36:23.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrol, İran belirsizliği nedeniyle artışa devam ediyor",
-      "ozet": "Petrol fiyatları, ABD ara seçimlerinde Demokratların ezici zaferinin tetiklediği keskin satış dalgasının ardından yükselişe geçti. Yatırımcılar Orta Doğu'daki savaşın sona erip ermeyeceği ile ilgili belirsizlikleri de...",
-      "link": "https://www.bloomberght.com/petrol-iran-belirsizligi-nedeniyle-artisa-devam-ediyor-3793730",
-      "tarih": "2026-11-06T04:17:55.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "2040'ta enerjide tam bağımsızlık",
