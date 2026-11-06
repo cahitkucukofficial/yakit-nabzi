@@ -1,13 +1,13 @@
 {
-  "guncelleme": "2026-11-05T19:08:45.550Z",
+  "guncelleme": "2026-11-06T00:35:29.777Z",
   "kaynaklar": [
+    "SOZCU",
+    "AKSAM",
     "DUNYA",
     "AA",
     "TRTHABER",
-    "SOZCU",
     "YENISAFAK",
     "STAR",
-    "BIRGUN",
     "CUMHURIYET",
     "HABERTURK",
     "BLOOMBERGHT",
@@ -15,9 +15,12 @@
   ],
   "beklenti": {
     "motorin": {
+      "expected": false
+    },
+    "benzin": {
       "expected": true,
       "direction": "dusus",
-      "amount": 0.08,
+      "amount": 6.08,
       "tarih": "2026-11-06",
       "tarihDurumu": "tek-kaynak",
       "tarihDogrulayanSayisi": 1,
@@ -27,36 +30,8 @@
       "dogrulayanKaynakSayisi": 1,
       "kaynaklar": [
         {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/benzin-fiyatlari-dusuyor-motorine-de-indirim-yolda-744682",
-          "tarih": "2026-11-06"
-        }
-      ],
-      "kaynakBaslik": "Benzin fiyatları düşüyor: Motorine de indirim yolda",
-      "kaynak": "BIRGUN",
-      "kaynakLink": "https://www.birgun.net/haber/benzin-fiyatlari-dusuyor-motorine-de-indirim-yolda-744682"
-    },
-    "benzin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 6.08,
-      "tarih": "2026-11-06",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 2,
-      "tarihAdaylari": [
-        "2026-11-05",
-        "2026-11-06"
-      ],
-      "dogrulayanKaynakSayisi": 2,
-      "kaynaklar": [
-        {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/benzine-indirim-geliyor-tarih-verildi-p376155",
-          "tarih": "2026-11-06"
-        },
-        {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/benzin-fiyatlari-dusuyor-motorine-de-indirim-yolda-744682",
           "tarih": "2026-11-06"
         }
       ],
@@ -70,11 +45,46 @@
   },
   "haberler": [
     {
-      "baslik": "Wall Street'te deprem: Nasdaq yüzde 4'ü aşan kayıp yaşadı",
-      "ozet": "ABD'deki ara seçimlerin ardından yapay zeka sektörüne yönelik düzenleme endişeleri teknoloji hisselerinde sert satışlara yol açarken Nasdaq yüzde 4'ün üzerinde geriledi. Orta Doğu'daki çatışmalar ve Hürmüz Boğazı'nda ...",
-      "link": "https://www.dunya.com/ekonomi/wall-streette-deprem-nasdaq-yuzde-4u-asan-kayip-yasadi-haberi-846613",
-      "tarih": "2026-11-05T18:34:00.000Z",
+      "baslik": "Benzinin litresine 6 lira indirim",
+      "ozet": "Benzinin litre fiyatına bu gece yapılan 6 lira 8 kuruşluk indirim pompaya yansıdı. İndirim sonrası benzinin litresi İsta...",
+      "link": "https://www.sozcu.com.tr/benzinin-litresine-6-lira-indirim-p376493",
+      "tarih": "2026-11-05T23:17:51.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "ABD'den Küba'ya karşı yeni yaptırım dalgası",
+      "ozet": "ABD Dışişleri Bakanlığı, Küba yönetimine ve ordusuna karşı baskı dalgasının son aşamasında sekiz kuruluş, iki kişi ve beş petrol tankerine yaptırım uyguladı. Dışişleri Bakanı Marco Rubio, rejimin kaynaklarını askeri e...",
+      "link": "https://www.aksam.com.tr/dunya/abdden-kubaya-karsi-yeni-yaptirim-dalgasi/haber-1712304",
+      "tarih": "2026-11-05T22:12:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "ABD borsalarında kara gün: Teknoloji hisseleri sert çakıldı",
+      "ozet": "ABD'de ara seçimlerin ardından yapay zeka yatırımlarına yönelik düzenleme endişeleriyle çip ve veri merkezi şirketlerinin hisselerinde yoğunlaşan satışlar borsaları sarstı. Üç büyük endeks Nisan 2025'ten bu yana en kö...",
+      "link": "https://www.dunya.com/finans/haberler/abd-borsalarinda-kara-gun-teknoloji-hisseleri-sert-cakildi-haberi-846630",
+      "tarih": "2026-11-05T21:56:00.000Z",
       "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Rusya'nın petrol ve gaz gelirleri ekimde iki katından fazla arttı",
+      "ozet": "Rusya'nın petrol ve doğal gaz gelirleri, ekimde bir önceki aya göre iki katından fazla artarak​​​​​​​ 971,2 milyar rubleye (yaklaşık 11,9 milyar dolar) yükseldi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/rusyanin-petrol-ve-gaz-gelirleri-ekimde-iki-katindan-fazla-artti/4113497",
+      "tarih": "2026-11-05T21:27:47.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Avrupa'dan kritik hamle: Petrol stokları devreye giriyor",
+      "ozet": "AB Komisyonu Başkanı Ursula von der Leyen ile IEA Başkanı Fatih Birol, G7 ülkelerinin üzerinde uzlaştığı stratejik petrol stoklarının kullanıma sunulmasına yönelik adımları koordine ediyor. Görüşmede Avrupa'nın enerji...",
+      "link": "https://www.dunya.com/dunya/avrupadan-kritik-hamle-petrol-stoklari-devreye-giriyor-haberi-846621",
+      "tarih": "2026-11-05T20:14:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "AB ve IEA, petrol stoklarının kullanıma yönelik adımları koordine ediyor",
+      "ozet": "Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Uluslararası Enerji Ajansı (IEA) Başkanı Fatih Birol ile G7'nin üzerinde uzlaştığı petrol stoklarının kullanıma sunulmasına yönelik adımları koordine ettikle...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/ab-ve-iea-petrol-stoklarinin-kullanima-yonelik-adimlari-koordine-ediyor/4113440",
+      "tarih": "2026-11-05T19:59:00.000Z",
+      "kaynak": "AA"
     },
     {
       "baslik": "ABD borsaları sert düşerken petrol fiyatları yeniden yükselişte",
@@ -89,13 +99,6 @@
       "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinin-dogusunda-2-petrol-tankeri-deniz-mayinlarina-carpti-962359.html",
       "tarih": "2026-11-05T14:45:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Petrol için çarpıcı tahmin! 2027 sonunda bu seviye görülebilir",
-      "ozet": "Petrol fiyatlarında sert düşüş yaşanırken Almanya merkezli yatırım bankası Berenberg'den dikkat çeken bir tahmin geldi. Banka, ABD ile İran arasında olası bir anlaşmanın Hürmüz Boğazı'nı yeniden açabileceğini belirter...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/petrol-icin-carpici-tahmin-2027-sonunda-bu-seviye-gorulebilir-galeri-846579",
-      "tarih": "2026-11-05T13:45:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Benzine indirim geliyor: Tarih verildi",
@@ -119,13 +122,6 @@
       "kaynak": "STAR"
     },
     {
-      "baslik": "5 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "5 Kasım 2026 güncel akaryakıt fiyatları, benzin, motorin ve LPG kullanan araç sahiplerinin gündeminde. Petrol fiyatlarının son bir ayın en düşük seviyesine gerilemesiyle benzine 6,08 TL indirim beklentisi ortaya çıktı...",
-      "link": "https://www.birgun.net/haber/5-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-744703",
-      "tarih": "2026-11-05T07:46:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Petrol piyasasında 'ara seçim' ve 'İran' etkisi: Fiyatlar sert düştü",
       "ozet": "ABD ara seçimlerinde Demokratların Kongre'de öne geçmesi, İran ile diplomatik çözüm umutlarını artırarak petrol fiyatlarını aşağı çekti. Dün 104 doları gören Brent petrolün varil fiyatı yeni günde 94,07 dolara geriled...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-piyasasinda-ara-secim-ve-iran-etkisi-fiyatlar-sert-dustu-2553510",
@@ -147,13 +143,6 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "Benzin fiyatları sandığa yansıdı: Trump kaybetti, Wall Street kazandı mı?",
-      "ozet": "Amerikalı seçmen 3 Kasım'da sandığa giderken yalnızca siyasi tercihlerini değil, cüzdanındaki hesabı da yanında götürdü. Yüksek benzin fiyatları, hayat pahalılığı ve ekonomik belirsizlikler Cumhuriyetçilere pahalıya m...",
-      "link": "https://www.bloomberght.com/yorum/dr-ali-cinar/3793586-benzin-fiyatlari-sandiga-yansidi-trump-kaybetti-wall-street-kazandi-mi",
-      "tarih": "2026-11-05T06:37:07.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Benzine, mazota ne kadar zam gelecek? 5 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-ne-kadar-zam-gelecek-5-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553480",
@@ -166,13 +155,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/kuresel-piyasalarda-secim-ruzgari-dolar-ve-petrol-dususte-gozler-merkez-bankalarinda-2553475",
       "tarih": "2026-11-05T06:30:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzin fiyatları düşüyor: Motorine de indirim yolda",
-      "ozet": "Petrol fiyatlarının son bir ayın en düşük seviyesine gerilemesinin ardından benzinin litre fiyatına 6 Kasım'dan itibaren 6 lira 8 kuruş indirim yapılması bekleniyor. İndirimin ardından İstanbul'da benzinin litre fiyat...",
-      "link": "https://www.birgun.net/haber/benzin-fiyatlari-dusuyor-motorine-de-indirim-yolda-744682",
-      "tarih": "2026-11-05T06:26:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Petrolde sert düşüş: Brent 93 dolara geriledi",
