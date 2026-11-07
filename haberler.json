@@ -1,8 +1,8 @@
 {
-  "guncelleme": "2026-11-07T17:03:48.718Z",
+  "guncelleme": "2026-11-07T23:09:56.453Z",
   "kaynaklar": [
-    "SOZCU",
     "TRTHABER",
+    "SOZCU",
     "BIRGUN",
     "HABERTURK",
     "BLOOMBERGHT",
@@ -49,6 +49,13 @@
   },
   "haberler": [
     {
+      "baslik": "Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda 2 tankerin mayına çarptığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-962564.html",
+      "tarih": "2026-11-07T22:29:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
       "baslik": "Dizel ve benzinli araçlar için geçerli: Kontağı çevirmeden önce 30 saniye bekleyin",
       "ozet": "Kış sabahları aceleyle basılan marş, motoru ve aküyü sessizce tüketiyor. Otomobil ustasının uyardığı 30 saniyelik bu bas...",
       "link": "https://www.sozcu.com.tr/kontagi-cevirmeden-once-30-saniye-beklemezseniz-faturasi-agir-oluyor-kisin-motoru-bitiren-en-yaygin-p376974",
@@ -82,13 +89,6 @@
       "link": "https://www.bloomberght.com/motorine-indirim-geldi-3793870",
       "tarih": "2026-11-07T07:38:44.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "ABD Başkanı Trump'tan, İran'a saldırıların savaş değil işgal olabileceği yorumu",
-      "ozet": "ABD Başkanı Donald Trump, İran'a saldırıların bir \"savaş\" olmadığını savunarak, \"Belki sadece işgalci konumunda olabiliriz. Çünkü Hürmüz Boğazı bizim kontrolümüzde. Şu anda Hürmüz Boğazı tarihindeki herhangi bir dönem...",
-      "link": "https://www.trthaber.com/haber/dunya/abd-baskani-trumptan-irana-saldirilarin-savas-degil-isgal-olabilecegi-yorumu-962503.html",
-      "tarih": "2026-11-07T07:37:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "EPDK'dan COP31 için özel izin",
