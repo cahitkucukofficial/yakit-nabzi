@@ -1,9 +1,10 @@
 {
-  "guncelleme": "2026-11-07T23:09:56.453Z",
+  "guncelleme": "2026-11-08T02:56:14.744Z",
   "kaynaklar": [
+    "BIRGUN",
+    "HABER7",
     "TRTHABER",
     "SOZCU",
-    "BIRGUN",
     "HABERTURK",
     "BLOOMBERGHT",
     "SABAH",
@@ -14,31 +15,7 @@
   ],
   "beklenti": {
     "motorin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 5.47,
-      "tarih": "2026-11-07",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 2,
-      "tarihAdaylari": [
-        "2026-11-07"
-      ],
-      "dogrulayanKaynakSayisi": 2,
-      "kaynaklar": [
-        {
-          "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-dev-indirim-bu-gece-yansiyacak-4870310",
-          "tarih": "2026-11-07"
-        },
-        {
-          "kaynak": "CUMHURIYET",
-          "kaynakLink": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-mi-gelecek-6-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553822",
-          "tarih": "2026-11-07"
-        }
-      ],
-      "kaynakBaslik": "Akaryakıtta büyük indirim: Bu gece pompaya yansıyacak",
-      "kaynak": "YENISAFAK",
-      "kaynakLink": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-dev-indirim-bu-gece-yansiyacak-4870310"
+      "expected": false
     },
     "benzin": {
       "expected": false
@@ -48,6 +25,20 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Zeytin üreticisi zararına çalışıyor: 'Bu yıl kazanç yok'",
+      "ozet": "Aydın'ın Karacasu ilçesinde artan mazot ve işçilik giderleri karşısında zeytinin kilogramı 20 TL'ye kadar geriledi. Günlük işçi yevmiyesinin 2 bin TL'ye ulaştığını belirten üreticiler, satış gelirlerinin maliyetlerini...",
+      "link": "https://www.birgun.net/haber/zeytin-ureticisi-zararina-calisiyor-bu-yil-kazanc-yok-745203",
+      "tarih": "2026-11-08T00:43:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda 2 tankerin mayına çarptığını duyurdu.",
+      "link": "https://www.haber7.com/dunya/haber/3675092-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti",
+      "tarih": "2026-11-07T23:17:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
       "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda 2 tankerin mayına çarptığını duyurdu.",
@@ -68,13 +59,6 @@
       "link": "https://www.trthaber.com/haber/dunya/hurmuz-bogazinda-bir-petrol-tankeri-mayina-carpti-962526.html",
       "tarih": "2026-11-07T10:31:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Kazançlar maliyetin altında ezildi: Üreticilerin geçim isyanı",
-      "ozet": "Aydın’ın Karacasu ilçesinde zeytin üreticileri, artan işçilik ve mazot maliyetleri ile düşen alım fiyatları karşısında üretim yapamaz hale geldi. Kilogramı 20 TL’ye satılan zeytinden elde edilen gelir, 2 bin TL’ye ula...",
-      "link": "https://www.birgun.net/haber/kazanclar-maliyetin-altinda-ezildi-ureticilerin-gecim-isyani-745102",
-      "tarih": "2026-11-07T08:42:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Motorine indirim geldi",
@@ -145,13 +129,6 @@
       "link": "https://www.bloomberght.com/trump-iran-ile-gorusmelerimiz-olumlu-ilerliyor-3793865",
       "tarih": "2026-11-06T21:36:16.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Bakan Bayraktar: Türkiye, 2040'a geldiği zaman enerjide dışa bağımlılığını bitirmiş bağımsız bir ülke olacak",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Bayraktar \"Türkiye, 2040'a geldiği zaman ihtiyacı olan doğal gaz ve petrolü yurt içi ve yurt dışı üretimiyle tamamıyla karşılayabilecek. Dolayısıyla enerjide dışa bağımlılığını bitirmi...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/bakan-bayraktar-turkiye-2040a-geldigi-zaman-enerjide-disa-bagimliligini-bitirmis-bagimsiz-bir-ulke-olacak/4114617",
-      "tarih": "2026-11-06T17:01:55.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Avrupa metan kurallarının ertelenmesinde uzlaştı",
