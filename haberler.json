@@ -1,15 +1,19 @@
 {
-  "guncelleme": "2026-11-08T02:56:14.744Z",
+  "guncelleme": "2026-11-08T10:49:08.875Z",
   "kaynaklar": [
-    "BIRGUN",
     "HABER7",
-    "TRTHABER",
-    "SOZCU",
+    "EKONOMIM",
     "HABERTURK",
     "BLOOMBERGHT",
+    "AKSAM",
+    "DUNYA",
     "SABAH",
-    "CUMHURIYET",
     "AA",
+    "SOZCU",
+    "BIRGUN",
+    "STAR",
+    "TRTHABER",
+    "CUMHURIYET",
     "YENISAFAK",
     "HURRIYET"
   ],
@@ -25,6 +29,125 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Füzeler sebebiyle Aramco binası hasar gördü",
+      "ozet": "Suudi Arabistan'ın başkenti Riyad'da ulusal petrol ve doğal gaz şirketi Aramco'ya ait idari binanın, füze saldırısı girişiminin ardından düşen enkaz parçaları nedeniyle hasar gördüğü, olayda ölen ya da yaralanan olmad...",
+      "link": "https://www.haber7.com/dunya/haber/3675182-fuzeler-sebebiyle-aramco-binasi-hasar-gordu",
+      "tarih": "2026-11-08T10:24:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Riyad'daki Aramco binasına saldırı: Şarapneller hasara yol açtı",
+      "ozet": "Suudi Arabistan'ın başkenti Riyad'da petrol şirketi Aramco'ya ait bir binanın hedef alınmaya çalışıldığı, saldırı sonucu binaya isabet eden şarapnel parçaları nedeniyle binada sınırlı hasar meydana geldiği bildirildi.",
+      "link": "https://www.ekonomim.com/dunya/riyaddaki-aramco-binasina-saldiri-sarapneller-hasara-yol-acti-haberi-929921",
+      "tarih": "2026-11-08T10:18:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Düşen tahvil faizleri altını destekledi",
+      "ozet": "Emtia piyasalarında tamamlanan haftada ABD'deki Kongre ara seçimlerinin ardından artan güvenli liman talebi ve gerileyen tahvil faizleri değerli metalleri desteklerken Orta Doğu'da gerilimin azalabileceğine yönelik be...",
+      "link": "https://www.haberturk.com/ekonomi/dusen-tahvil-faizleri-altini-destekledi-3925775",
+      "tarih": "2026-11-08T10:05:41.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Suudiler, kritik petrol hattını genişletmeyi planlıyor",
+      "ozet": "Suudi Arabistan'ın milli petrol şirketi Saudi Aramco, Doğu-Batı Petrol Boru Hattı'nın genişletilmesi çalışmalarına başladığını ve 3 haftadan kısa süre içinde günlük 12 milyon varil olan azami üretim kapasitesine ulaşa...",
+      "link": "https://www.bloomberght.com/suudiler-kritik-petrol-hattini-genisletmeyi-planliyor-3793886",
+      "tarih": "2026-11-08T09:35:58.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Riyad'da Aramco alarmı! Petrol devinin binası hedef alındı",
+      "ozet": "Suudi Arabistan'ın başkenti Riyad'da petrol şirketi Aramco'ya ait bir binanın hedef alınmaya çalışıldığı, saldırı sonucu binaya isabet eden şarapnel parçaları nedeniyle binada sınırlı hasar meydana geldiği bildirildi.",
+      "link": "https://www.aksam.com.tr/dunya/riyadda-aramco-alarmi-petrol-devinin-binasi-hedef-alindi/haber-1712853",
+      "tarih": "2026-11-08T09:16:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Suudi Arabistan'ın petrol bölgesinde alarm sona erdi",
+      "ozet": "Suudi Arabistan'ın petrol üretim merkezi Doğu Eyaleti'nde balistik füze tehdidi nedeniyle acil durum alarmı verildi. Suudi Arabistan öncülüğündeki askeri koalisyon, Yemen'deki Husiler tarafından fırlatılan füzenin önl...",
+      "link": "https://www.dunya.com/ekonomi/suudi-arabistanin-petrol-bolgesinde-alarm-sona-erdi-haberi-846853",
+      "tarih": "2026-11-08T08:57:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Emtia piyasalarına ABD seçimleri damgası: Altın yükseldi, petrol düştü",
+      "ozet": "Küresel emtia piyasalarında hafta boyunca ABD ara seçimlerindeki gelişmeler etkili oldu. ABD'deki Kongre ara seçimlerinin ardından artan güvenli liman talebi ve gerileyen tahvil faizleri değerli metalleri...Devamı içi...",
+      "link": "https://www.sabah.com.tr/ekonomi/emtia-piyasalarina-abd-secimleri-damgasi-altin-yukseldi-petrol-dustu-7697463",
+      "tarih": "2026-11-08T08:49:21.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "ABD'nin seçim haftasında altın yükselişe geçerken Brent petrol geriledi",
+      "ozet": "Altının ons fiyatı, çarşamba günü yüzde 3'ün üzerinde yükselirken perşembe günü 22 Ekim'den bu yana en yüksek seviyesini gördü.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abdnin-secim-haftasinda-altin-yukselise-gecerken-brent-petrol-geriledi/4115768",
+      "tarih": "2026-11-08T08:39:42.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "ABD'nin seçim haftasında altın yükselişe geçerken Brent petrol geriledi",
+      "ozet": "Emtia piyasalarında tamamlanan haftada ABD'deki Kongre ara seçimlerinin ardından artan güvenli liman talebi ve gerileyen...",
+      "link": "https://www.sozcu.com.tr/abd-nin-secim-haftasinda-altin-yukselise-gecerken-brent-petrol-geriledi-p377163",
+      "tarih": "2026-11-08T08:24:10.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Altın ve petrolde seçim etkisi: Değerli metaller yükseldi, petrol düştü",
+      "ozet": "ABD'deki ara seçimlerin ardından artan güvenli liman talebi ve gerileyen tahvil faizleri değerli metalleri destekledi. Orta Doğu'da gerilimin azalabileceği beklentisi ise petrol fiyatlarında düşüşe neden oldu. Demokra...",
+      "link": "https://www.ekonomim.com/emtia/altin-ve-petrolde-secim-etkisi-degerli-metaller-yukseldi-petrol-dustu-haberi-929901",
+      "tarih": "2026-11-08T08:23:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD seçimleri emtia piyasalarını sarstı: Altın yükseldi, petrol çakıldı",
+      "ozet": "ABD'deki Kongre ara seçimlerinin ardından küresel emtia piyasalarında sert fiyat hareketleri yaşandı. Güvenli liman talebinin artmasıyla altın üç haftalık düşüş serisini sonlandırarak yüzde 5 değer kazanırken, Brent p...",
+      "link": "https://www.birgun.net/haber/abd-secimleri-emtia-piyasalarini-sarsti-altin-yukseldi-petrol-cakildi-745257",
+      "tarih": "2026-11-08T08:21:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Altın yükseldi, petrol çakıldı! Emtia piyasalarında dengeler değişti",
+      "ozet": "Emtia piyasalarında haftaya sert fiyat hareketleri damga vurdu. ABD'deki ara seçimlerin ardından artan güvenli liman talebiyle altın üç haftalık düşüş serisini sonlandırarak yüzde 5 yükseldi. Orta Doğu'da gerilimin az...",
+      "link": "https://www.dunya.com/finans/haberler/altin-yukseldi-petrol-cakildi-emtia-piyasalarinda-dengeler-degisti-haberi-846850",
+      "tarih": "2026-11-08T08:17:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "TPAO'nun bir ilde petrol arama ruhsat süresi uzatıldı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/tpaonun-bir-ilde-petrol-arama-ruhsat-suresi-uzatildi-7697427",
+      "tarih": "2026-11-08T07:43:04.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "TPAO'nun Mardin'deki petrol arama ruhsat süresi uzatıldı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/tpaonun-mardindeki-petrol-arama-ruhsat-suresi-uzatildi/4115690",
+      "tarih": "2026-11-08T07:15:59.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Bir ilimiz için daha petrol başvurusu! Süre uzatıldı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.",
+      "link": "https://www.star.com.tr/ekonomi/bir-ilimiz-icin-daha-petrol-basvurusu-sure-uzatildi-haber-2052004/",
+      "tarih": "2026-11-08T07:15:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "TPAO'nun Mardin'deki petrol arama ruhsat süresi uzatıldı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.",
+      "link": "https://www.ekonomim.com/ekonomi/tpaonun-mardindeki-petrol-arama-ruhsat-suresi-uzatildi-haberi-929883",
+      "tarih": "2026-11-08T07:13:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Umman Denizi'nde kargo gemisinde yangın: 22 kişi kurtarıldı",
+      "ozet": "Birleşik Arap Emirlikleri (BAE), Umman Denizi'nde seyir halindeyken yangın çıkan kargo gemisindeki 22 mürettebatın kurtarıldığını açıkladı. Kurtarılanların sağlık durumlarının iyi olduğu bildirildi. Bölgede deniz güve...",
+      "link": "https://www.birgun.net/haber/umman-denizi-nde-kargo-gemisinde-yangin-22-kisi-kurtarildi-745229",
+      "tarih": "2026-11-08T04:22:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Zeytin üreticisi zararına çalışıyor: 'Bu yıl kazanç yok'",
       "ozet": "Aydın'ın Karacasu ilçesinde artan mazot ve işçilik giderleri karşısında zeytinin kilogramı 20 TL'ye kadar geriledi. Günlük işçi yevmiyesinin 2 bin TL'ye ulaştığını belirten üreticiler, satış gelirlerinin maliyetlerini...",
@@ -54,13 +177,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Hürmüz Boğazı'nda bir petrol tankeri mayına çarptı",
-      "ozet": "İran Ordusu Deniz Kuvvetleri Komutanlığı, Hürmüz Boğazının doğusunda bir tankerin mayına çarptığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/hurmuz-bogazinda-bir-petrol-tankeri-mayina-carpti-962526.html",
-      "tarih": "2026-11-07T10:31:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Motorine indirim geldi",
       "ozet": "Uluslararası ürün fiyatlarında yaşanan düşüşün ardından motorinin litre fiyatına ortalama 5,40 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı",
       "link": "https://www.haberturk.com/ekonomi/son-dakika-arac-sahipleri-dikkat-motorine-dev-indsrim-geldi-iste-7-kasim-2026-guncel-benzin-motorin-lpg-fiyatlari-3925587",
@@ -82,25 +198,11 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "COP31'de jeneratörler hangi yakıtla çalışacak? EPDK'dan dikkat çeken karar",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Küresel İklim Zirvesi COP31 kapsamında elektrik üretiminde yerli biyodizel kullanılması için özel izin verdi.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/cop31de-jeneratorler-hangi-yakitla-calisacak-epdkdan-dikkat-ceken-karar-7696828",
-      "tarih": "2026-11-07T07:22:12.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Benzine, mazota zam var mı? 7 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-7-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554098",
       "tarih": "2026-11-07T07:10:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "EPDK'den COP31 jeneratörlerinde yerli biyodizel kullanımı için özel izin",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Küresel İklim Zirvesi COP31 kapsamında elektrik üretiminde yerli biyodizel kullanılması için özel izin verdi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/epdkden-cop31-jeneratorlerinde-yerli-biyodizel-kullanimi-icin-ozel-izin/4114907",
-      "tarih": "2026-11-07T07:05:32.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "TPAO’nun petrol arama ruhsatı 2028’e uzatıldı",
@@ -152,13 +254,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Petrol gece yarısı harekete geçti",
-      "ozet": "Brent petrolün varili, gece yarısı 100 doları aştı. Bugün sabah seansında ise 99,28 dolar seviyesinde işlem görüyor.",
-      "link": "https://www.sozcu.com.tr/petrol-gece-yarisi-harekete-gecti-p376605",
-      "tarih": "2026-11-06T07:58:28.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "Benzine, mazota indirim mi gelecek? 6 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-mi-gelecek-6-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553822",
@@ -178,27 +273,6 @@
       "link": "https://www.yenisafak.com/ekonomi/suruculere-gece-yarisi-mujdesi-akaryakitta-dev-indirim-geldi-4870240",
       "tarih": "2026-11-06T05:42:25.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Akaryakıta gece yarısı tarihi indirim geliyor!",
-      "ozet": "Petrol fiyatlarındaki yükseliş ve döviz kurlarındaki hareketlilik akaryakıt fiyatlarını doğrudan etkiliyor. Sektör kayna...",
-      "link": "https://www.sozcu.com.tr/akaryakita-gece-yarisi-tarihi-indirim-geliyor-p376531",
-      "tarih": "2026-11-06T05:36:23.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "2040'ta enerjide tam bağımsızlık",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin enerjide 2040 yol haritasını açıkladı. Bayraktar, “2040'ta enerjide bağımsız olacağız. Petrol ve doğal gaz tüketiminin tamamını yerli imkanlarla karşıl...",
-      "link": "https://www.yenisafak.com/ekonomi/2040ta-enerjide-tam-bagimsizlik-4870209",
-      "tarih": "2026-11-06T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Benzinin litresine 6 lira indirim",
-      "ozet": "Benzinin litre fiyatına bu gece yapılan 6 lira 8 kuruşluk indirim pompaya yansıdı. İndirim sonrası benzinin litresi İsta...",
-      "link": "https://www.sozcu.com.tr/benzinin-litresine-6-lira-indirim-p376493",
-      "tarih": "2026-11-05T23:17:51.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Petrol piyasasında 'ara seçim' ve 'İran' etkisi: Fiyatlar sert düştü",
@@ -233,76 +307,6 @@
       "ozet": "Uluslararası piyasalarda Brent petrolün varil fiyatı, ABD'deki Kongre ara seçimleri, Donald Trump'ın İran açıklamaları ve ABD ham petrol stoklarındaki sürpriz düşüşün etkisiyle 104 dolar sınırına dayandı. WTI ham petr...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-fiyatlarinda-secim-ve-iran-hareketliligi-brent-petrol-104-dolara-dayandi-2553179",
       "tarih": "2026-11-04T08:35:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota ne kadar zam gelecek? 4 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-ne-kadar-zam-gelecek-4-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553123",
-      "tarih": "2026-11-04T06:39:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 3 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-3-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2552718",
-      "tarih": "2026-11-03T06:51:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Ons altın ve gümüşte sert düşüş! İşte değerli metalleri baskılayan 4 temel etken...",
-      "ozet": "Değerli metaller; yüksek petrol fiyatları, faiz beklentileri ve güçlü doların etkisiyle iki aydır düşüşünü sürdürüyor. Ons altın temmuz ayından bu yana ilk kez 4 bin doların altına gerilerken, gümüş ve paladyumda krit...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/ons-altin-ve-gumuste-sert-dusus-iste-degerli-metalleri-baskilayan-4-temel-etken-2552480",
-      "tarih": "2026-11-02T09:57:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Stratejik petrol rezervleri 1982'den beri en düşük seviyede: Benzin fiyatları neden düşmüyor?",
-      "ozet": "Petrol fiyatları, ABD ve İsrail'in İran'a yönelik operasyonlarının ardından yüzde 56 artışla 113 doların üzerine çıktı. ABD'de rekor kıran akaryakıt fiyatlarının, 3 Kasım ara seçimlerinde Donald Trump ve Cumhuriyetçi ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/stratejik-petrol-rezervleri-1982-den-beri-en-dusuk-seviyede-benzin-fiyatlari-neden-dusmuyor-2552471",
-      "tarih": "2026-11-02T09:35:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Ortadoğu'da Türkiye ihtimali fiyatları vurdu: İşte petrolün seyrini değiştirecek gelişmeler...",
-      "ozet": "Petrol fiyatlarında jeopolitik düşüş... Cuma günü 118 doları test eden Brent petrol, Trump'ın İran'a yönelik ılımlı mesajları sonrası 109 dolara geriledi. Gözler Türkiye veya Katar'da yapılabilecek olası barış görüşme...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/ortadogu-da-turkiye-ihtimali-fiyatlari-vurdu-iste-petrolun-seyrini-degistirecek-gelismeler-2552425",
-      "tarih": "2026-11-02T08:04:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrol 109 dolara geriledi: Hürmüz Boğazı iyimserliği piyasaları nasıl etkiledi?",
-      "ozet": "Küresel piyasalar; ABD ara seçimleri, Fed'in olası faiz artışı ve Ortadoğu'daki müzakerelerin gölgesinde yeni haftaya başladı. Brent petrol Hürmüz Boğazı iyimserliğiyle düşerken, Borsa İstanbul ve dolarda gözler ekim ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-109-dolara-geriledi-hurmuz-bogazi-iyimserligi-piyasalari-nasil-etkiledi-2552399",
-      "tarih": "2026-11-02T07:04:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 31 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-31-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2551883",
-      "tarih": "2026-10-31T06:31:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta dev zam geliyor: Motorinin litresi 100 TL'yi aşacak!",
-      "ozet": "Kasımda yürürlüğe girmesi beklenen ÖTV artışı kapsamında benzine 4,15, motorine 3,60 TL zam yapılması bekleniyor. Öngörülen artışlar gerçekleşirse LPG'nin litre fiyatı 50, benzinin litre fiyatı 80, motorinin litre fiy...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-geliyor-motorinin-litresi-100-tl-yi-asacak-2551878",
-      "tarih": "2026-10-31T06:20:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "BOTAŞ, kasım ve aralık ayları için doğal gaz tüketim limitlerini güncelledi",
-      "ozet": "Boru Hatları ile Petrol Taşıma AŞ (BOTAŞ), konutlarda uygulanan kademeli doğal gaz tarifesi kapsamında kasım ve aralık aylarına ilişkin il bazlı tüketim limitlerini güncelledi.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/botas-kasim-ve-aralik-aylari-icin-dogal-gaz-tuketim-limitlerini-guncelledi-2551809",
-      "tarih": "2026-10-30T18:23:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
-      "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD’de faiz artırımı beklentilerinin güçlenmesiyle sert düşüş yaşadı. Ons ve gram altın son ayların en düşük seviyelerine gerilerken, UBS’den gelecek yıl için yükseliş tah...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-son-1-yilin-en-dusuk-seviyesi-gram-altin-6-321-tl-ye-geriledi-2551750",
-      "tarih": "2026-10-30T13:51:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
