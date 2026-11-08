@@ -1,10 +1,9 @@
 {
-  "guncelleme": "2026-11-08T17:17:59.660Z",
+  "guncelleme": "2026-11-08T23:14:28.767Z",
   "kaynaklar": [
-    "TRTHABER",
-    "DUNYA",
-    "HABER7",
     "EKONOMIM",
+    "DUNYA",
+    "TRTHABER",
     "HABERTURK",
     "BLOOMBERGHT",
     "SABAH",
@@ -29,32 +28,25 @@
   },
   "haberler": [
     {
+      "baslik": "TMSF kayyum olarak atanmıştı! 3 şirketin tesisleri 3,2 milyar liraya satışta",
+      "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Hatay ve Giresun'daki LPG depolama tesislerinden oluşan ticari ve iktisadi bütünlüğü 3 milyar 210 milyon lira muhammen bedelle satışa çıkardı.",
+      "link": "https://www.ekonomim.com/ekonomi/tmsf-kayyum-olarak-atanmisti-3-sirketin-tesisleri-32-milyar-liraya-satista-haberi-929994",
+      "tarih": "2026-11-08T21:31:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Hürmüz Boğazı'nda petrol tankeri mayına çarparak alev aldı",
+      "ozet": "İran Ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda, seyir sistemlerini kapatarak izin verilmeyen bölgede hareket ettiği belirtilen bir petrol tankerinin deniz mayınına çarpması sonucu alev aldığını duyurdu.",
+      "link": "https://www.dunya.com/dunya/hurmuz-bogazinda-petrol-tankeri-mayina-carparak-alev-aldi-haberi-846901",
+      "tarih": "2026-11-08T17:39:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "Suudi Arabistan'ın başkenti Riyad'daki Aramco binası saldırı sonrası hasar gördü",
       "ozet": "Suudi Arabistan'ın başkenti Riyad'da petrol şirketi Aramco'ya ait bir binanın hedef alınmaya çalışıldığı, saldırı sonucu binaya isabet eden şarapnel parçaları nedeniyle binada sınırlı hasar meydana geldiği duyuruldu.",
       "link": "https://www.trthaber.com/haber/dunya/suudi-arabistanin-baskenti-riyaddaki-aramco-binasi-saldiri-sonrasi-hasar-gordu-962603.html",
       "tarih": "2026-11-08T13:17:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Hürmüz Boğazı'nda gerilim tırmanıyor: İran'dan mayın uyarısı",
-      "ozet": "İran Devrim Muhafızları Ordusu Sözcüsü Hüseyin Muhibbi, Hürmüz Boğazı'nın tamamen kendi kontrollerinde olduğunu öne sürerek, belirlenen kurallara uymayan gemilerin mayın tehlikesiyle karşı karşıya kalacağını söyledi. ...",
-      "link": "https://www.dunya.com/dunya/hurmuz-bogazinda-gerilim-tirmaniyor-irandan-mayin-uyarisi-haberi-846870",
-      "tarih": "2026-11-08T11:56:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Füzeler sebebiyle Aramco binası hasar gördü",
-      "ozet": "Suudi Arabistan'ın başkenti Riyad'da ulusal petrol ve doğal gaz şirketi Aramco'ya ait idari binanın, füze saldırısı girişiminin ardından düşen enkaz parçaları nedeniyle hasar gördüğü, olayda ölen ya da yaralanan olmad...",
-      "link": "https://www.haber7.com/dunya/haber/3675182-fuzeler-sebebiyle-aramco-binasi-hasar-gordu",
-      "tarih": "2026-11-08T10:24:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Riyad'daki Aramco binasına saldırı: Şarapneller hasara yol açtı",
-      "ozet": "Suudi Arabistan'ın başkenti Riyad'da petrol şirketi Aramco'ya ait bir binanın hedef alınmaya çalışıldığı, saldırı sonucu binaya isabet eden şarapnel parçaları nedeniyle binada sınırlı hasar meydana geldiği bildirildi.",
-      "link": "https://www.ekonomim.com/dunya/riyaddaki-aramco-binasina-saldiri-sarapneller-hasara-yol-acti-haberi-929921",
-      "tarih": "2026-11-08T10:18:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Düşen tahvil faizleri altını destekledi",
@@ -118,20 +110,6 @@
       "link": "https://www.star.com.tr/ekonomi/bir-ilimiz-icin-daha-petrol-basvurusu-sure-uzatildi-haber-2052004/",
       "tarih": "2026-11-08T07:15:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "Umman Denizi'nde kargo gemisinde yangın: 22 kişi kurtarıldı",
-      "ozet": "Birleşik Arap Emirlikleri (BAE), Umman Denizi'nde seyir halindeyken yangın çıkan kargo gemisindeki 22 mürettebatın kurtarıldığını açıkladı. Kurtarılanların sağlık durumlarının iyi olduğu bildirildi. Bölgede deniz güve...",
-      "link": "https://www.birgun.net/haber/umman-denizi-nde-kargo-gemisinde-yangin-22-kisi-kurtarildi-745229",
-      "tarih": "2026-11-08T04:22:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda 2 tankerin mayına çarptığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-962564.html",
-      "tarih": "2026-11-07T22:29:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Dizel ve benzinli araçlar için geçerli: Kontağı çevirmeden önce 30 saniye bekleyin",
@@ -306,6 +284,27 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-31-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2551883",
       "tarih": "2026-10-31T06:31:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıta dev zam geliyor: Motorinin litresi 100 TL'yi aşacak!",
+      "ozet": "Kasımda yürürlüğe girmesi beklenen ÖTV artışı kapsamında benzine 4,15, motorine 3,60 TL zam yapılması bekleniyor. Öngörülen artışlar gerçekleşirse LPG'nin litre fiyatı 50, benzinin litre fiyatı 80, motorinin litre fiy...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-geliyor-motorinin-litresi-100-tl-yi-asacak-2551878",
+      "tarih": "2026-10-31T06:20:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "BOTAŞ, kasım ve aralık ayları için doğal gaz tüketim limitlerini güncelledi",
+      "ozet": "Boru Hatları ile Petrol Taşıma AŞ (BOTAŞ), konutlarda uygulanan kademeli doğal gaz tarifesi kapsamında kasım ve aralık aylarına ilişkin il bazlı tüketim limitlerini güncelledi.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/botas-kasim-ve-aralik-aylari-icin-dogal-gaz-tuketim-limitlerini-guncelledi-2551809",
+      "tarih": "2026-10-30T18:23:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
+      "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD’de faiz artırımı beklentilerinin güçlenmesiyle sert düşüş yaşadı. Ons ve gram altın son ayların en düşük seviyelerine gerilerken, UBS’den gelecek yıl için yükseliş tah...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-son-1-yilin-en-dusuk-seviyesi-gram-altin-6-321-tl-ye-geriledi-2551750",
+      "tarih": "2026-10-30T13:51:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
