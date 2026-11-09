@@ -1,18 +1,17 @@
 {
-  "guncelleme": "2026-11-09T03:17:36.999Z",
+  "guncelleme": "2026-11-09T12:15:01.403Z",
   "kaynaklar": [
-    "DUNYA",
-    "EKONOMIM",
-    "TRTHABER",
-    "HABERTURK",
-    "BLOOMBERGHT",
+    "SOZCU",
     "SABAH",
     "AA",
-    "SOZCU",
+    "HABERTURK",
+    "HABER7",
     "BIRGUN",
-    "STAR",
-    "CUMHURIYET",
+    "EKONOMIM",
+    "BLOOMBERGHT",
+    "TRTHABER",
     "YENISAFAK",
+    "CUMHURIYET",
     "HURRIYET"
   ],
   "beklenti": {
@@ -28,32 +27,172 @@
   },
   "haberler": [
     {
-      "baslik": "Altın 4.100 doları geri aldı: Yükselişin önünde iki kritik engel",
-      "ozet": "Altın, güçlü ABD istihdam verisinin ardından 9 Kasım sabahı yeniden 4.100 doların üzerine çıktı. İran görüşmeleri petrolü aşağı çekerken Fed'in faiz artırma ihtimali yükseldi. Yatırımcılar kritik fiyat bölgelerini ve ...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/altin-4100-dolari-geri-aldi-yukselisin-onunde-iki-kritik-engel-galeri-846910",
-      "tarih": "2026-11-09T02:58:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Benzin istasyonunda kredi kartıyla ödeme yapanlar hapı yuttu",
+      "ozet": "Güvenlik birimlerinin verilerine göre, akaryakıt pompalarına saniyeler içinde yerleştirilen yasa dışı kart kopyalama düz...",
+      "link": "https://www.sozcu.com.tr/benzin-istasyonunda-kredi-kartiyla-odeme-yapanlar-hapi-yuttu-p379465",
+      "tarih": "2026-11-09T11:51:56.000Z",
+      "kaynak": "SOZCU"
     },
     {
-      "baslik": "TMSF kayyum olarak atanmıştı! 3 şirketin tesisleri 3,2 milyar liraya satışta",
-      "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Hatay ve Giresun'daki LPG depolama tesislerinden oluşan ticari ve iktisadi bütünlüğü 3 milyar 210 milyon lira muhammen bedelle satışa çıkardı.",
-      "link": "https://www.ekonomim.com/ekonomi/tmsf-kayyum-olarak-atanmisti-3-sirketin-tesisleri-32-milyar-liraya-satista-haberi-929994",
-      "tarih": "2026-11-08T21:31:00.000Z",
+      "baslik": "Rusya'dan akaryakıt hamlesi: Satışına yeniden sınırlama getirildi",
+      "ozet": "Rusya'da, Ukrayna'nın petrol rafinerilerine yönelik insansız hava aracı (İHA) saldırıları devam ediyor. Moskova, ülkenin çeşitli bölgelerinde benzin ve dizel satışına yeniden sınırlama getirdi.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/rusyadan-akaryakit-hamlesi-satisina-yeniden-sinirlama-getirildi-7698190",
+      "tarih": "2026-11-09T11:43:58.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Rusya'nın çeşitli bölgelerinde akaryakıt satışına yeniden sınırlama getirildi",
+      "ozet": "Rusya'da, Ukrayna'nın petrol rafinerilerine yönelik insansız hava aracı (İHA) saldırıları sürerken ülkenin çeşitli bölgelerinde benzin ve dizel satışına yeniden sınırlama getirildi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/rusyanin-cesitli-bolgelerinde-akaryakit-satisina-yeniden-sinirlama-getirildi/4117250",
+      "tarih": "2026-11-09T11:36:48.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "EPDK'dan elektrik, petrol ve LPG için yeni lisansı kararları",
+      "ozet": "Elektrik, petrol ve LPG piyasalarında yeni lisans başvuruları karara bağlandı. Elektrik piyasasında 39, petrol piyasasında 2, LPG piyasasında 3 lisans verilirken 2 şirkete de şarj ağı işletmeci lisansı...Devamı için t...",
+      "link": "https://www.sabah.com.tr/ekonomi/epdkdan-elektrik-petrol-ve-lpg-icin-yeni-lisansi-kararlari-7698156",
+      "tarih": "2026-11-09T10:12:29.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Aylar önce kayyum atanmıştı: TMSF akaryakıt devinin milyarlık tesislerini satışa çıkardı",
+      "ozet": "TMSF, kayyım olarak atandığı üç şirketin Hatay ve Giresun'daki LPG depolama faaliyetlerine ait mal, hak ve varlıklarını ...",
+      "link": "https://www.sozcu.com.tr/enerji-piyasasini-sallayan-satis-tmsf-3-sirketi-birden-satiyor-p379428",
+      "tarih": "2026-11-09T08:49:00.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "TMSF Pet Gaz'ı satışa çıkardı",
+      "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), kayyum olarak atandığı, Pet Gaz AŞ, Dörtyol Petgaz Terminal AŞ ve Karadeniz LPG Depolama ve Deniz Terminali Ticaret AŞ bünyesindeki LPG depolama tesislerinin oluşturduğu Pet Gaz ...",
+      "link": "https://www.haberturk.com/ekonomi/tmsf-pet-gaz-i-satisa-cikardi-3925948",
+      "tarih": "2026-11-09T08:15:49.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Pet Gaz ve bağlı tesisler satışta: TMSF 3,2 milyar TL'lik mega ihaleyi başlatıyor!",
+      "ozet": "TMSF, kayyumluğundaki Pet Gaz, Dörtyol Petgaz Terminal ve Karadeniz LPG Depolama şirketlerinin LPG tesislerinden oluşan \"Pet Gaz LPG Depolama Tesisleri Ticari ve İktisadi Bütünlüğü\"nü satışa çıkardı.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3675365-pet-gaz-ve-bagli-tesisler-satista-tmsf-32-milyar-tllik-mega-ihaleyi-baslatiyor",
+      "tarih": "2026-11-09T08:02:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "TMSF kayyum olarak atanmıştı: Akaryakıt devine ait 3 şirket satışa çıkarıldı",
+      "ozet": "TMSF, haziran ayında kayyum olarak atandığı Pet Gaz LPG Depolama Tesisleri Ticari ve İktisadi Bütünlüğü'ne ait 3 şirketi satışa çıkardı. Satış için belirlenen muhammen bedel 3,2 milyar lira oldu.",
+      "link": "https://www.birgun.net/haber/tmsf-kayyum-olarak-atanmisti-akaryakit-devine-ait-3-sirket-satisa-cikarildi-745394",
+      "tarih": "2026-11-09T07:59:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "EPDK'den enerji piyasasında 46 yeni lisans kararı",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik, petrol ve LPG piyasalarında faaliyet gösterecek şirketlere toplam 46 lisans verdi. Resmi Gazete'de yayımlanan karara göre bazı şirketlerin lisansları sona erdirilirke...",
+      "link": "https://www.birgun.net/haber/epdk-den-enerji-piyasasinda-46-yeni-lisans-karari-745386",
+      "tarih": "2026-11-09T07:39:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "EPDK, elektrik, petrol ve LPG piyasalarında 46 lisans verdi",
+      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), elektrik, petrol ve LPG piyasalarına yönelik lisans işlemlerini karara bağladı. Kurum, söz konusu piyasalarda faaliyet gösteren şirketlere toplam 46 lisans verirken, 2 şirketin...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/epdk-elektrik-petrol-ve-lpg-piyasalarinda-46-lisans-verdi-haberi-930061",
+      "tarih": "2026-11-09T07:35:00.000Z",
       "kaynak": "EKONOMIM"
     },
     {
-      "baslik": "Hürmüz Boğazı'nda petrol tankeri mayına çarparak alev aldı",
-      "ozet": "İran Ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda, seyir sistemlerini kapatarak izin verilmeyen bölgede hareket ettiği belirtilen bir petrol tankerinin deniz mayınına çarpması sonucu alev aldığını duyurdu.",
-      "link": "https://www.dunya.com/dunya/hurmuz-bogazinda-petrol-tankeri-mayina-carparak-alev-aldi-haberi-846901",
-      "tarih": "2026-11-08T17:39:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "TMSF, Pet Gaz LPG depolama tesislerini satışa çıkardı",
+      "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), kayyum olarak atandığı, Pet Gaz AŞ, Dörtyol Petgaz Terminal AŞ ve Karadeniz LPG Depolama ve Deniz Terminali Ticaret AŞ bünyesindeki LPG depolama tesislerinin oluşturduğu Pet Gaz ...",
+      "link": "https://www.bloomberght.com/tmsf-pet-gaz-lpg-depolama-tesislerini-satisa-cikardi-3793912",
+      "tarih": "2026-11-09T07:03:38.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Suudi Arabistan'ın başkenti Riyad'daki Aramco binası saldırı sonrası hasar gördü",
-      "ozet": "Suudi Arabistan'ın başkenti Riyad'da petrol şirketi Aramco'ya ait bir binanın hedef alınmaya çalışıldığı, saldırı sonucu binaya isabet eden şarapnel parçaları nedeniyle binada sınırlı hasar meydana geldiği duyuruldu.",
-      "link": "https://www.trthaber.com/haber/dunya/suudi-arabistanin-baskenti-riyaddaki-aramco-binasi-saldiri-sonrasi-hasar-gordu-962603.html",
-      "tarih": "2026-11-08T13:17:00.000Z",
+      "baslik": "9 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
+      "ozet": "Haftanın ilk gününde araç sahiplerinin gündeminde yine akaryakıt fiyatları var. Geçtiğimiz hafta benzine 6,08 TL, motorine ise 5,47 TL indirim yapılmasının ardından sürücüler 9 Kasım 2026 Pazartesi günü yeni bir zam v...",
+      "link": "https://www.birgun.net/haber/9-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-745368",
+      "tarih": "2026-11-09T06:51:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Brent petrolün varili 96,89 dolardan işlem görüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 96,89 dolardan işlem görüyor.",
+      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9689-dolardan-islem-goruyor-962644.html",
+      "tarih": "2026-11-09T06:50:00.000Z",
       "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Küresel piyasalar haftaya pozitif başladı",
+      "ozet": "Küresel piyasalar, petrol fiyatlarındaki gerileme ve teknoloji hisselerinde görülen yükselişlerin etkisiyle pozitif seyr...",
+      "link": "https://www.sozcu.com.tr/kuresel-piyasalar-haftaya-pozitif-basladi-p379432",
+      "tarih": "2026-11-09T06:41:53.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Altın piyasasında ibre yukarı döndü: Petroldeki düşüş değerli metallere yaradı",
+      "ozet": "Küresel piyasalarda petrol fiyatlarının gerilemesiyle birlikte altın ve değerli metaller yeni haftaya alev alev başladı. ABD Başkanı Donald Trump'ın açıklamaları enerji piyasasındaki arz endişelerini yatıştırırken, en...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/altin-piyasasinda-ibre-yukari-dondu-petroldeki-dusus-degerli-metallere-yaradi-4870901",
+      "tarih": "2026-11-09T06:40:27.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Altın Fiyatları Haftaya Yükselişle Başladı | 9 Kasım 2026 Pazartesi Güncel Altın Fiyatları",
+      "ozet": "Haftanın ilk işlem gününde altın piyasasında hareketlilik hız kazandı. 9 Kasım 2026 Pazartesi günü ons altın 4 bin 100 dolar seviyesinin üzerine çıkarken gram altın, çeyrek altın, yarım altın ve tam altın fiyatları da...",
+      "link": "https://www.birgun.net/haber/altin-fiyatlari-haftaya-yukselisle-basladi-9-kasim-2026-pazartesi-guncel-altin-fiyatlari-745366",
+      "tarih": "2026-11-09T06:34:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Küresel piyasalar teknoloji hisselerindeki yükselişlerle haftaya pozitif başladı",
+      "ozet": "Küresel piyasalar, petrol fiyatlarındaki gerileme ve teknoloji hisselerinde görülen yükselişlerin etkisiyle pozitif seyrediyor.",
+      "link": "https://www.yenisafak.com/ekonomi/kuresel-piyasalar-teknoloji-hisselerindeki-yukselislerle-haftaya-pozitif-basladi-4870895",
+      "tarih": "2026-11-09T06:27:53.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Küresel piyasalar haftaya pozitif başladı",
+      "ozet": "Küresel piyasalar, petrol fiyatlarındaki gerileme ve teknoloji hisselerinde görülen yükselişlerin etkisiyle pozitif seyrediyor.",
+      "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-haftaya-pozitif-basladi-962640.html",
+      "tarih": "2026-11-09T06:20:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Küresel piyasalar teknoloji hisselerindeki yükselişlerle haftaya pozitif başladı",
+      "ozet": "Küresel piyasalar, petrol fiyatlarındaki gerileme ve teknoloji hisselerinde görülen yükselişlerin etkisiyle pozitif seyrediyor.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-teknoloji-hisselerindeki-yukselislerle-haftaya-pozitif-basladi/4116431",
+      "tarih": "2026-11-09T06:04:17.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Altın fiyatlarında hareketlilik: Gram altın yeniden yükseldi",
+      "ozet": "Altın fiyatları yeni haftaya yükselişle başladı. Ons altın 4 bin 100 doların üzerine çıkarken gram altın 6 bin 645 liraya ulaştı. Petrol fiyatlarındaki gerileme altını desteklerken ABD Merkez Bankası'nın (Fed) faiz ar...",
+      "link": "https://www.birgun.net/haber/altin-fiyatlarinda-hareketlilik-gram-altin-yeniden-yukseldi-745362",
+      "tarih": "2026-11-09T05:43:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Ne benzin ne dizel ne de şarj: İstanbul'dan Kayseri'ye 5 dakikada dolan depoyla gidecek",
+      "ozet": "Ne benzin ne de dizelle çalışan yeni otomobil, hidrojen teknolojisiyle tek depoda 750 kilometreye kadar yol yapabilecek....",
+      "link": "https://www.sozcu.com.tr/ne-benzin-ne-dizel-ne-de-sarj-istanbul-dan-kayseri-ye-5-dakikada-dolan-depoyla-gidecek-p379390",
+      "tarih": "2026-11-09T05:33:22.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Petrol fiyatlarında \"Hürmüz\" düşüşü",
+      "ozet": "Petrol fiyatları, Orta Doğu'daki savaşı sona erdirmek için diplomatik çabalar sürerken, İran'ın Hürmüz Boğazı'yla ilgili taleplerinde taviz verdiği yönündeki teyit edilmemiş haber üzerine düştü.",
+      "link": "https://www.bloomberght.com/petrol-fiyatlarinda-hurmuz-dususu-3793896",
+      "tarih": "2026-11-09T05:06:42.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Altın yeni haftaya pozitif girdi",
+      "ozet": "Altın fiyatları, petrolün düşüşünü sürdürmesi ve Nvidia CEO'su hakkındaki soruşturmanın teknoloji hisselerini baskılamasıyla Cuma günkü kayıplarını telafi ederek yeniden yükseldi.",
+      "link": "https://www.bloomberght.com/altin-yeni-haftaya-pozitif-girdi-3793893",
+      "tarih": "2026-11-09T04:37:52.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Elektrikli otomobilde kâr çıkmazı",
+      "ozet": "Avrupa'da elektrikli otomobillere yönelik talebin beklentilerin üzerinde artması, Alman otomobil üreticilerini yeni bir sorunla karşı karşıya bıraktı. Volkswagen, BMW ve Mercedes-Benz'in elektrikli otomobil satışları ...",
+      "link": "https://www.haberturk.com/ekonomi/elektrikli-otomobil-satislari-artti-alman-ureticiler-kar-baskisiyla-karsilasti-3925841",
+      "tarih": "2026-11-09T04:06:27.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Düşen tahvil faizleri altını destekledi",
@@ -70,81 +209,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Emtia piyasalarına ABD seçimleri damgası: Altın yükseldi, petrol düştü",
-      "ozet": "Küresel emtia piyasalarında hafta boyunca ABD ara seçimlerindeki gelişmeler etkili oldu. ABD'deki Kongre ara seçimlerinin ardından artan güvenli liman talebi ve gerileyen tahvil faizleri değerli metalleri...Devamı içi...",
-      "link": "https://www.sabah.com.tr/ekonomi/emtia-piyasalarina-abd-secimleri-damgasi-altin-yukseldi-petrol-dustu-7697463",
-      "tarih": "2026-11-08T08:49:21.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "ABD'nin seçim haftasında altın yükselişe geçerken Brent petrol geriledi",
-      "ozet": "Altının ons fiyatı, çarşamba günü yüzde 3'ün üzerinde yükselirken perşembe günü 22 Ekim'den bu yana en yüksek seviyesini gördü.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/abdnin-secim-haftasinda-altin-yukselise-gecerken-brent-petrol-geriledi/4115768",
-      "tarih": "2026-11-08T08:39:42.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "ABD'nin seçim haftasında altın yükselişe geçerken Brent petrol geriledi",
       "ozet": "Emtia piyasalarında tamamlanan haftada ABD'deki Kongre ara seçimlerinin ardından artan güvenli liman talebi ve gerileyen...",
       "link": "https://www.sozcu.com.tr/abd-nin-secim-haftasinda-altin-yukselise-gecerken-brent-petrol-geriledi-p377163",
       "tarih": "2026-11-08T08:24:10.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "ABD seçimleri emtia piyasalarını sarstı: Altın yükseldi, petrol çakıldı",
-      "ozet": "ABD'deki Kongre ara seçimlerinin ardından küresel emtia piyasalarında sert fiyat hareketleri yaşandı. Güvenli liman talebinin artmasıyla altın üç haftalık düşüş serisini sonlandırarak yüzde 5 değer kazanırken, Brent p...",
-      "link": "https://www.birgun.net/haber/abd-secimleri-emtia-piyasalarini-sarsti-altin-yukseldi-petrol-cakildi-745257",
-      "tarih": "2026-11-08T08:21:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "TPAO'nun bir ilde petrol arama ruhsat süresi uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/tpaonun-bir-ilde-petrol-arama-ruhsat-suresi-uzatildi-7697427",
-      "tarih": "2026-11-08T07:43:04.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "TPAO'nun Mardin'deki petrol arama ruhsat süresi uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/tpaonun-mardindeki-petrol-arama-ruhsat-suresi-uzatildi/4115690",
-      "tarih": "2026-11-08T07:15:59.000Z",
-      "kaynak": "AA"
-    },
-    {
-      "baslik": "Bir ilimiz için daha petrol başvurusu! Süre uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığının (TPAO) Mardin'de sahip olduğu petrol arama ruhsatının süresi 22 Ekim 2028'e kadar uzatıldı.",
-      "link": "https://www.star.com.tr/ekonomi/bir-ilimiz-icin-daha-petrol-basvurusu-sure-uzatildi-haber-2052004/",
-      "tarih": "2026-11-08T07:15:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "Dizel ve benzinli araçlar için geçerli: Kontağı çevirmeden önce 30 saniye bekleyin",
-      "ozet": "Kış sabahları aceleyle basılan marş, motoru ve aküyü sessizce tüketiyor. Otomobil ustasının uyardığı 30 saniyelik bu bas...",
-      "link": "https://www.sozcu.com.tr/kontagi-cevirmeden-once-30-saniye-beklemezseniz-faturasi-agir-oluyor-kisin-motoru-bitiren-en-yaygin-p376974",
-      "tarih": "2026-11-07T14:00:59.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Motorine indirim geldi",
-      "ozet": "Uluslararası ürün fiyatlarında yaşanan düşüşün ardından motorinin litre fiyatına ortalama 5,40 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı",
-      "link": "https://www.haberturk.com/ekonomi/son-dakika-arac-sahipleri-dikkat-motorine-dev-indsrim-geldi-iste-7-kasim-2026-guncel-benzin-motorin-lpg-fiyatlari-3925587",
-      "tarih": "2026-11-07T08:38:17.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Motorine indirim geldi",
-      "ozet": "Uluslararası ürün fiyatlarında yaşanan düşüşün ardından motorinin litre fiyatına 7 Kasım tarihinden itibaren geçerli olmak üzere 5,44 TL indirim geldi.",
-      "link": "https://www.bloomberght.com/motorine-indirim-geldi-3793870",
-      "tarih": "2026-11-07T07:38:44.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "EPDK'dan COP31 için özel izin",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), Küresel İklim Zirvesi COP31 kapsamında elektrik üretiminde yerli biyodizel kullanılması için özel izin verdi",
-      "link": "https://www.haberturk.com/ekonomi/epdk-dan-cop31-jeneratorlerinde-yerli-biyodizel-kullanimi-icin-ozel-izin-3925571",
-      "tarih": "2026-11-07T07:34:23.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Benzine, mazota zam var mı? 7 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -154,46 +223,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "TPAO’nun petrol arama ruhsatı 2028’e uzatıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı'nın (TPAO) Diyarbakır ve Mardin'de sahip olduğu petrol arama ruhsatının süresi, 24 Kasım 2028'e kadar uzatıldı",
-      "link": "https://www.haberturk.com/ekonomi/resmi-gazete-de-yayimlandi-tpao-nun-diyarbakir-ve-mardin-deki-petrol-arama-ruhsatinin-suresi-uzatildi-3925556",
-      "tarih": "2026-11-07T06:28:18.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Motorin fiyatlarında sert düşüş: Litre fiyatı yeniden kritik eşiğin altında",
       "ozet": "Akaryakıt fiyatlarında yaşanan hareketlilik sürücüleri yakından ilgilendiren yeni bir gelişmeyle devam etti. Benzinin ardından motorine de indirim geldi. Litre başına 5 lira 47 kuruşluk düşüşle birlikte motorin fiyatl...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/motorin-fiyatlarinda-sert-dusus-litre-fiyati-yeniden-kritik-esigin-altinda-4870465",
       "tarih": "2026-11-07T05:59:04.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Motorine gece yarısı indirim geldi: 100 lira eşiği kırıldı",
-      "ozet": "Küresel petrol piyasalarındaki düşüşün ardından motorinin litre satış fiyatına 5,47 TL indirim yapıldı. Gece yarısı yürü...",
-      "link": "https://www.sozcu.com.tr/motorine-gece-yarisi-indirim-geldi-100-lira-esigi-kirildi-p376831",
-      "tarih": "2026-11-07T04:49:22.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Trump: İran ile görüşmelerimiz olumlu ilerliyor",
-      "ozet": "ABD Başkanı Donald Trump, İran ile görüşmelerin olumlu ilerlediğini belirterek, Hürmüz Boğazı'nın petrol sevkiyatına açık tutulması konusunda da önemli ilerleme kaydettiklerini açıkladı.",
-      "link": "https://www.bloomberght.com/trump-iran-ile-gorusmelerimiz-olumlu-ilerliyor-3793865",
-      "tarih": "2026-11-06T21:36:16.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Avrupa metan kurallarının ertelenmesinde uzlaştı",
-      "ozet": "Avrupa Birliği (AB) ülkeleri, Orta Doğu'daki çatışmanın enerji piyasalarında neden olduğu sıkışıklık nedeniyle petrol, doğalgaz ve kömür ithalatına ilişkin metan emisyonu yükümlülüklerinin bir yıl ertelenmesini öngöre...",
-      "link": "https://www.bloomberght.com/avrupa-metan-kurallarinin-ertelenmesinde-uzlasti-3793789",
-      "tarih": "2026-11-06T12:36:22.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Bloomberg: OYAK Libya petrolünün kilit alıcısı haline geldi",
-      "ozet": "Bloomberg'e göre, Ordu Yardımlaşma Kurumu (OYAK), Libya petrolünün temel tüccarlarından biri haline geldi.",
-      "link": "https://www.bloomberght.com/bloomberg-oyak-libya-petrolunun-kilit-alicisi-haline-geldi-3793788",
-      "tarih": "2026-11-06T12:05:08.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Benzine, mazota indirim mi gelecek? 6 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -270,41 +304,6 @@
       "ozet": "Petrol fiyatlarında jeopolitik düşüş... Cuma günü 118 doları test eden Brent petrol, Trump'ın İran'a yönelik ılımlı mesajları sonrası 109 dolara geriledi. Gözler Türkiye veya Katar'da yapılabilecek olası barış görüşme...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/ortadogu-da-turkiye-ihtimali-fiyatlari-vurdu-iste-petrolun-seyrini-degistirecek-gelismeler-2552425",
       "tarih": "2026-11-02T08:04:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrol 109 dolara geriledi: Hürmüz Boğazı iyimserliği piyasaları nasıl etkiledi?",
-      "ozet": "Küresel piyasalar; ABD ara seçimleri, Fed'in olası faiz artışı ve Ortadoğu'daki müzakerelerin gölgesinde yeni haftaya başladı. Brent petrol Hürmüz Boğazı iyimserliğiyle düşerken, Borsa İstanbul ve dolarda gözler ekim ...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/brent-petrol-109-dolara-geriledi-hurmuz-bogazi-iyimserligi-piyasalari-nasil-etkiledi-2552399",
-      "tarih": "2026-11-02T07:04:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta dev zam: Benzine, mazota ne kadar zam gelecek? 31 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-benzine-mazota-ne-kadar-zam-gelecek-31-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2551883",
-      "tarih": "2026-10-31T06:31:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta dev zam geliyor: Motorinin litresi 100 TL'yi aşacak!",
-      "ozet": "Kasımda yürürlüğe girmesi beklenen ÖTV artışı kapsamında benzine 4,15, motorine 3,60 TL zam yapılması bekleniyor. Öngörülen artışlar gerçekleşirse LPG'nin litre fiyatı 50, benzinin litre fiyatı 80, motorinin litre fiy...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-dev-zam-geliyor-motorinin-litresi-100-tl-yi-asacak-2551878",
-      "tarih": "2026-10-31T06:20:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "BOTAŞ, kasım ve aralık ayları için doğal gaz tüketim limitlerini güncelledi",
-      "ozet": "Boru Hatları ile Petrol Taşıma AŞ (BOTAŞ), konutlarda uygulanan kademeli doğal gaz tarifesi kapsamında kasım ve aralık aylarına ilişkin il bazlı tüketim limitlerini güncelledi.",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/botas-kasim-ve-aralik-aylari-icin-dogal-gaz-tuketim-limitlerini-guncelledi-2551809",
-      "tarih": "2026-10-30T18:23:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Altın fiyatlarında son 1 yılın en düşük seviyesi: Gram altın 6.321 TL'ye geriledi",
-      "ozet": "Altın fiyatları, yükselen petrol fiyatları ve ABD’de faiz artırımı beklentilerinin güçlenmesiyle sert düşüş yaşadı. Ons ve gram altın son ayların en düşük seviyelerine gerilerken, UBS’den gelecek yıl için yükseliş tah...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-son-1-yilin-en-dusuk-seviyesi-gram-altin-6-321-tl-ye-geriledi-2551750",
-      "tarih": "2026-10-30T13:51:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
