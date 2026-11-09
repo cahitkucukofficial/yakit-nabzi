@@ -1,8 +1,8 @@
 {
-  "guncelleme": "2026-11-08T23:14:28.767Z",
+  "guncelleme": "2026-11-09T03:17:36.999Z",
   "kaynaklar": [
-    "EKONOMIM",
     "DUNYA",
+    "EKONOMIM",
     "TRTHABER",
     "HABERTURK",
     "BLOOMBERGHT",
@@ -27,6 +27,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Altın 4.100 doları geri aldı: Yükselişin önünde iki kritik engel",
+      "ozet": "Altın, güçlü ABD istihdam verisinin ardından 9 Kasım sabahı yeniden 4.100 doların üzerine çıktı. İran görüşmeleri petrolü aşağı çekerken Fed'in faiz artırma ihtimali yükseldi. Yatırımcılar kritik fiyat bölgelerini ve ...",
+      "link": "https://www.dunya.com/foto-galeri/ekonomi/altin-4100-dolari-geri-aldi-yukselisin-onunde-iki-kritik-engel-galeri-846910",
+      "tarih": "2026-11-09T02:58:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "TMSF kayyum olarak atanmıştı! 3 şirketin tesisleri 3,2 milyar liraya satışta",
       "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Hatay ve Giresun'daki LPG depolama tesislerinden oluşan ticari ve iktisadi bütünlüğü 3 milyar 210 milyon lira muhammen bedelle satışa çıkardı.",
@@ -187,13 +194,6 @@
       "link": "https://www.bloomberght.com/bloomberg-oyak-libya-petrolunun-kilit-alicisi-haline-geldi-3793788",
       "tarih": "2026-11-06T12:05:08.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Akaryakıtta büyük indirim: Bu gece pompaya yansıyacak",
-      "ozet": "Akaryakıt fiyatlarında son günlerde yaşanan artışların ardından indirim haberleri peş peşe geldi. Benzinin litre fiyatına yapılan 6 lira 8 kuruşluk indirimin ardından motorinde de düşüş bekleniyor. İndirimin bu gece y...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-dev-indirim-bu-gece-yansiyacak-4870310",
-      "tarih": "2026-11-06T09:33:25.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Benzine, mazota indirim mi gelecek? 6 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
