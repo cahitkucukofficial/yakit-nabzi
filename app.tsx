@@ -231,7 +231,7 @@ async function veriGetir(url, anahtar) {
 // Uzaktan anahtarlar (GitHub'daki ayarlar.json): bir kaynak şikâyet ederse güncelleme beklemeden kapatılır
 const AYAR_JSON_URL = "https://cahitkucukofficial.github.io/yakit-nabzi/ayarlar.json";
 const VARSAYILAN_AYARLAR = { haberlerAcik: true, beklentiAcik: true };
-// Haber sekmesi: YALNIZCA başlık + kaynak + tarih + "Habere git" bağlantısı gösterilir (özet/metin/görsel yok).
+// Haber sekmesi AÇIK (başlık + özet + kaynak + tarih + "Habere git"). Çıkarılmış kaynaklar: CNNTURK, NTV, MILLIYET (YASAKLI_KAYNAKLAR).
 // Bir yayıncı şikâyet ederse uygulama güncellemesi beklemeden ayarlar.json içindeki "kapaliKaynaklar": ["KOD"] ile
 // o kaynak hem listeden hem tahmin kartından çıkarılır (yalnızca KAPATMA yapılabilir, yeni özellik açılamaz).
 const HABERLER_OZELLIGI = true;
@@ -322,6 +322,7 @@ async function fetchHaberler() {
   const haberler = (!HABERLER_OZELLIGI ? [] : (data.haberler || [])).filter((h) => !YASAKLI_KAYNAKLAR.includes(h.kaynak)).map((h, i) => ({
     id: h.link || String(i),
     baslik: h.baslik,
+    ozet: h.ozet,
     link: h.link,
     tarih: h.tarih,
     kaynak: h.kaynak || null,
@@ -1174,6 +1175,7 @@ function HaberCard({ h }) {
   return (
     <a className="haber-card" href={h.link} target="_blank" rel="noopener noreferrer">
       <div className="haber-baslik">{h.baslik}</div>
+      {h.ozet && <div className="haber-ozet">{h.ozet}</div>}
       <div className="haber-alt">
         <span className="haber-alt-left">
           {h.kaynak && <span className="haber-kaynak">{h.kaynak}</span>}
@@ -1197,7 +1199,7 @@ function HaberlerView({ haberler, guncelleme }) {
           </div>
         )}
         {guncelleme && (
-          <div className="ios-section-footer">{t("Son güncelleme:", "Last updated:")} {fmtHaberTarih(guncelleme)}. {t("Başlıklar ilgili yayıncılara aittir; haber metinleri bu uygulamada yayımlanmaz, “Habere git” kaynağın sitesini açar.", "Headlines belong to their publishers; article text is not republished here, and “Read article” opens the publisher's site.")}</div>
+          <div className="ios-section-footer">{t("Son güncelleme:", "Last updated:")} {fmtHaberTarih(guncelleme)}. {t("Başlıklar birden fazla ajansın RSS beslemesinden otomatik süzülür; yorum ya da analiz içermez.", "Headlines are filtered automatically from several news agencies' RSS feeds (in Turkish); no commentary or analysis.")}</div>
         )}
       </IosSection>
     </>
