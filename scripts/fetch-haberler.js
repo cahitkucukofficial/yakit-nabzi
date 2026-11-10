@@ -16,7 +16,7 @@ const fs = require("fs");
 const path = require("path");
 const Parser = require("rss-parser");
 
-// Kendimizi dürüstçe tanıtıyoruz; bir site botu reddederse (403 vb.) o kaynağı ATLARIZ, engeli aşmaya çalışmayız.
+// Kendimizi dürüstçe tanıtıyoruz; bir site botu reddederse (403 vb.) o kaynak ATLANIR, engel aşılmaya çalışılmaz.
 const DURUST_UA = "YakitNabzi/1.0 (+https://www.hudhudapps.com; destek@hudhudapps.com)";
 const parser = new Parser({
   timeout: 15000,
@@ -38,10 +38,12 @@ const parser = new Parser({
    etkilemiyor. Ilk calistirmanin "Haberleri cek" logunda hangi kaynaklarin
    gercekten calistigini gorup, calismayanlarin adresini tek tek
    duzeltmek/cikarmak gerekecek - bu normal, beklenen bir ilk-tur sureci. */
-// NOT (Kasım 2026): AA (abonelikli dağıtım) ve TRT Haber (kullanım koşulları ticari mobil uygulamayı yasaklıyor) KALDIRILDI.
-// NTV/CNN Türk/Milliyet daha önce kaldırılmıştı. Kalan kaynaklardan yazılı izin YOKTUR; yalnızca "zam/indirim tahmini"
-// için olgusal veri çıkarılır; yayımlanan haber listesi yalnızca başlık+bağlantı içerir, özet/metin YAYIMLANMAZ (bkz. main).
 const KAYNAKLAR = [
+  {
+    kod: "AA",
+    ad: "Anadolu Ajansi",
+    rss: "https://www.aa.com.tr/tr/rss/default?cat=ekonomi",
+  },
   {
     kod: "IHA",
     ad: "Ihlas Haber Ajansi",
@@ -71,6 +73,7 @@ const KAYNAKLAR = [
   { kod: "HABER7", ad: "Haber7", rss: "https://i12.haber7.net/sondakika/newsstand/latest.xml" },
   { kod: "ENSONHABER", ad: "Ensonhaber", rss: "https://www.ensonhaber.com/rss/ensonhaber.xml" },
   { kod: "TAKVIM", ad: "Takvim", rss: "https://www.takvim.com.tr/rss/ekonomi.xml" },
+  { kod: "TRTHABER", ad: "TRT Haber", rss: "https://www.trthaber.com/sondakika.rss" },
 ];
 
 /* Baslik/ozet bu anahtar kelimelerden en az birini icermiyorsa
@@ -184,7 +187,7 @@ const URUN_DESENLERI = {
    sinyal var ama tutar/tarih eksikse, tam makaleyi bir kez cekip orada
    arıyoruz. Istek sayisini sinirliyoruz (TAM_METIN_SINIRI) ki calisma
    suresi kontrolsuz uzamasin. */
-const TAM_METIN_SINIRI = 0;   // 0 = makalenin tamamı HİÇ indirilmez (yayıncı sayfaları kazınmaz)
+const TAM_METIN_SINIRI = 0;   // 0 = yayıncı makale sayfaları indirilmez (yalnızca RSS içeriği kullanılır)
 const TAM_METIN_ZAMAN_ASIMI_MS = 8000;      // tek makale: istek + gövde dahil en fazla 8 sn
 const TAM_METIN_TOPLAM_BUTCE_MS = 90000;    // tüm tam-metin işleri için toplam 90 sn
 const BASLANGIC_ZAMANI = Date.now();
@@ -514,6 +517,7 @@ async function beklentileriBirlestir(haberler) {
       dogrulayanKaynakSayisi: toplamKaynak,
       // Doğrulayan her kaynak: bağlantısı + o kaynağın söylediği tarih (uygulamada "3 kaynak" düğmesine basınca listelenir)
       kaynaklar: Array.from(new Map(enIyiGrup.map((e) => [e.kaynak, { kaynak: e.kaynak, kaynakLink: e.kaynakLink, tarih: e.tarih }])).values()),
+      kaynakBaslik: ornek.kaynakBaslik,
       kaynak: ornek.kaynak,
       kaynakLink: ornek.kaynakLink,
     };
@@ -665,10 +669,8 @@ async function main() {
     try {
       const eskiHam = fs.readFileSync(hedefYol, "utf-8");
       const eski = JSON.parse(eskiHam);
-      if (eski && eski.beklenti) {
-        eski.haberler = (eski.haberler || []).map((h) => ({ baslik: h.baslik, link: h.link, tarih: h.tarih, kaynak: h.kaynak })); // eski özetleri temizle
-        fs.writeFileSync(hedefYol, JSON.stringify(eski, null, 2), "utf-8");
-        console.log("Eski veri korundu (ozetler temizlendi, guncellenmedi).");
+      if (eski.haberler && eski.haberler.length > 0) {
+        console.log("Eski veri korundu: " + eski.haberler.length + " haber (guncellenmedi).");
         return;
       }
     } catch (e) {
@@ -686,12 +688,11 @@ async function main() {
     guncelleme: new Date().toISOString(),
     kaynaklar: Array.from(new Set(haberler.map((h) => h.kaynak))),
     beklenti,
-    // Yalnızca başlık + kaynak + tarih + bağlantı yayımlanır; ÖZET/METİN YAYIMLANMAZ (yayıncıya yönlendirme amaçlı).
-    haberler: haberler.map((h) => ({ baslik: h.baslik, link: h.link, tarih: h.tarih, kaynak: h.kaynak })),
+    haberler: haberler,
   };
 
   fs.writeFileSync(hedefYol, JSON.stringify(cikti, null, 2), "utf-8");
-  console.log("Yazildi: " + hedefYol + " - " + cikti.haberler.length + " baslik (ozet yok), " + cikti.kaynaklar.length + " kaynak.");
+  console.log("Yazildi: " + hedefYol + " - " + haberler.length + " haber, " + cikti.kaynaklar.length + " kaynak.");
 }
 
 // Bekçi: bir şey takılırsa 4 dakikada kendiliğinden çık (unref: kendisi süreci açık tutmaz)
