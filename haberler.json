@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-10T15:22:24.362Z",
+  "guncelleme": "2026-11-10T15:52:47.714Z",
   "kaynaklar": [
+    "AKSAM",
     "HABERTURK",
     "EKONOMIM",
     "CUMHURIYET",
@@ -25,6 +26,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "BAE kara sularında saldırı... Lojistik gemisi hedef alındı",
+      "ozet": "Birleşik Arap Emirlikleri'nin ulusal petrol şirketi ADNOC'a bağlı lojistik firmasına ait bir gemi, ülke kara sularında saldırıya uğradı. Şirket, saldırının niteliği veya hasarın boyutuna dair ayrıntı paylaşmadı.",
+      "link": "https://www.aksam.com.tr/dunya/bae-kara-sularinda-saldiri-lojistik-gemisi-hedef-alindi/haber-1713503",
+      "tarih": "2026-11-10T15:35:00.000Z",
+      "kaynak": "AKSAM"
+    },
     {
       "baslik": "\"Türkiye oyun kurucu olabilir\"",
       "ozet": "Antalya'daki COP31 iklim zirvesinde Bloomberg HT'ye değerlendirmelerde bulunan Sabancı Holding CEO'su Kıvanç Zaimler COP'un artık farkındalıktan uygulamaya geçmesi gerektiğini vurguladı. Zaimler Türkiye'nin insan kayn...",
@@ -66,13 +74,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-cifte-indirim-geliyor-benzin-ve-motorinde-fiyatlar-dusecek-2555028",
       "tarih": "2026-11-10T11:49:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatlarında sert düşüş! Brent ağustostan bu yana ilk kez 90 doların altında",
-      "ozet": "Petrol fiyatları, ABD Başkanı Donald Trump'ın İran'a yönelik yeni saldırıların şu aşamada gerekli olmayabileceğine ilişkin açıklamalarının ardından düşüşünü sürdürdü. Brent petrol, ağustos ayından bu yana ilk kez 90 d...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-fiyatlarinda-sert-dusus-brent-agustostan-bu-yana-ilk-kez-90-dolarin-altinda-haberi-930358",
-      "tarih": "2026-11-10T11:41:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Trump'ın savaş bitti açıklamasının ardından petrol fiyatları ağustos ayından bu yana en düşük seviyeye geriledi",
