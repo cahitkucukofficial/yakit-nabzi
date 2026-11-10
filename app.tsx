@@ -231,10 +231,10 @@ async function veriGetir(url, anahtar) {
 // Uzaktan anahtarlar (GitHub'daki ayarlar.json): bir kaynak şikâyet ederse güncelleme beklemeden kapatılır
 const AYAR_JSON_URL = "https://cahitkucukofficial.github.io/yakit-nabzi/ayarlar.json";
 const VARSAYILAN_AYARLAR = { haberlerAcik: true, beklentiAcik: true };
-// MAĞAZA SÜRÜMÜ: Haber başlıkları sekmesi KAPALI (yayıncı izni/şartları netleşene kadar). Açmak için true yapıp yeni sürümle yayınla.
-// "Sonraki Değişim" kartındaki kaynaklar, uygulama güncellemesi beklemeden ayarlar.json içindeki
-// "kapaliKaynaklar": ["KOD"] ile kapatılabilir (yalnızca KAPATMA yapılabilir, yeni özellik açılamaz).
-const HABERLER_OZELLIGI = false;
+// Haber sekmesi: YALNIZCA başlık + kaynak + tarih + "Habere git" bağlantısı gösterilir (özet/metin/görsel yok).
+// Bir yayıncı şikâyet ederse uygulama güncellemesi beklemeden ayarlar.json içindeki "kapaliKaynaklar": ["KOD"] ile
+// o kaynak hem listeden hem tahmin kartından çıkarılır (yalnızca KAPATMA yapılabilir, yeni özellik açılamaz).
+const HABERLER_OZELLIGI = true;
 const BEKLENTI_OZELLIGI = true; // "Sonraki Değişim": yalnızca olgusal tahmin + kaynak bağlantısı
 
 const FIYAT_JSON_URL = "https://cahitkucukofficial.github.io/yakit-nabzi/fiyatlar.json";
