@@ -40,7 +40,7 @@ const parser = new Parser({
    duzeltmek/cikarmak gerekecek - bu normal, beklenen bir ilk-tur sureci. */
 // NOT (Kasım 2026): AA (abonelikli dağıtım) ve TRT Haber (kullanım koşulları ticari mobil uygulamayı yasaklıyor) KALDIRILDI.
 // NTV/CNN Türk/Milliyet daha önce kaldırılmıştı. Kalan kaynaklardan yazılı izin YOKTUR; yalnızca "zam/indirim tahmini"
-// için olgusal veri çıkarılır, başlık/özet/metin YAYIMLANMAZ (bkz. main).
+// için olgusal veri çıkarılır; yayımlanan haber listesi yalnızca başlık+bağlantı içerir, özet/metin YAYIMLANMAZ (bkz. main).
 const KAYNAKLAR = [
   {
     kod: "IHA",
@@ -666,9 +666,9 @@ async function main() {
       const eskiHam = fs.readFileSync(hedefYol, "utf-8");
       const eski = JSON.parse(eskiHam);
       if (eski && eski.beklenti) {
-        eski.haberler = []; // eski dosyada kalmış başlık/özetleri de temizle
+        eski.haberler = (eski.haberler || []).map((h) => ({ baslik: h.baslik, link: h.link, tarih: h.tarih, kaynak: h.kaynak })); // eski özetleri temizle
         fs.writeFileSync(hedefYol, JSON.stringify(eski, null, 2), "utf-8");
-        console.log("Eski beklenti verisi korundu (haber metinleri temizlendi, guncellenmedi).");
+        console.log("Eski veri korundu (ozetler temizlendi, guncellenmedi).");
         return;
       }
     } catch (e) {
@@ -686,11 +686,12 @@ async function main() {
     guncelleme: new Date().toISOString(),
     kaynaklar: Array.from(new Set(haberler.map((h) => h.kaynak))),
     beklenti,
-    haberler: [], // başlık/özet YAYIMLANMAZ; yalnızca beklenti (olgusal tahmin + kaynak bağlantısı) yazılır
+    // Yalnızca başlık + kaynak + tarih + bağlantı yayımlanır; ÖZET/METİN YAYIMLANMAZ (yayıncıya yönlendirme amaçlı).
+    haberler: haberler.map((h) => ({ baslik: h.baslik, link: h.link, tarih: h.tarih, kaynak: h.kaynak })),
   };
 
   fs.writeFileSync(hedefYol, JSON.stringify(cikti, null, 2), "utf-8");
-  console.log("Yazildi: " + hedefYol + " - haber metni yayimlanmadi; " + cikti.kaynaklar.length + " kaynak tarandi.");
+  console.log("Yazildi: " + hedefYol + " - " + cikti.haberler.length + " baslik (ozet yok), " + cikti.kaynaklar.length + " kaynak.");
 }
 
 // Bekçi: bir şey takılırsa 4 dakikada kendiliğinden çık (unref: kendisi süreci açık tutmaz)
