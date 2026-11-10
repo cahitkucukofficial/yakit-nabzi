@@ -1,17 +1,17 @@
 {
-  "guncelleme": "2026-11-10T15:52:47.714Z",
+  "guncelleme": "2026-11-10T21:30:21.604Z",
   "kaynaklar": [
-    "AKSAM",
-    "HABERTURK",
     "EKONOMIM",
-    "CUMHURIYET",
-    "HABER7",
-    "TRTHABER",
+    "STAR",
+    "DUNYA",
+    "AKSAM",
     "BLOOMBERGHT",
-    "SOZCU",
+    "TRTHABER",
     "AA",
+    "HABERTURK",
+    "CUMHURIYET",
+    "SOZCU",
     "YENISAFAK",
-    "BIRGUN",
     "HURRIYET"
   ],
   "beklenti": {
@@ -27,11 +27,109 @@
   },
   "haberler": [
     {
-      "baslik": "BAE kara sularında saldırı... Lojistik gemisi hedef alındı",
-      "ozet": "Birleşik Arap Emirlikleri'nin ulusal petrol şirketi ADNOC'a bağlı lojistik firmasına ait bir gemi, ülke kara sularında saldırıya uğradı. Şirket, saldırının niteliği veya hasarın boyutuna dair ayrıntı paylaşmadı.",
-      "link": "https://www.aksam.com.tr/dunya/bae-kara-sularinda-saldiri-lojistik-gemisi-hedef-alindi/haber-1713503",
-      "tarih": "2026-11-10T15:35:00.000Z",
+      "baslik": "Artan petrol fiyatı ciroyu büyüttü marketlerin kasası yerinde saydı",
+      "ozet": "",
+      "link": "https://www.ekonomim.com/kose-yazisi/artan-petrol-fiyati-ciroyu-buyuttu-marketlerin-kasasi-yerinde-saydi/930430",
+      "tarih": "2026-11-10T21:00:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD'de benzin fiyatları temmuzdan bu yana ilk kez 4 doların altına indi",
+      "ozet": "ABD genelinde benzin fiyatları, temmuz ayından bu yana ilk kez galon başına 4 dolar seviyesinin altına geriledi. Amerikan Otomobil Birliği (AAA) tarafından paylaşılan verilere göre, ülke genelindeki ortalama benzin fi...",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/abdde-benzin-fiyatlari-temmuzdan-bu-yana-ilk-kez-4-dolarin-altina-indi-haberi-930459",
+      "tarih": "2026-11-10T20:59:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "4 doların altına düştü! ABD'de temmuz ayından bu yana bir ilk",
+      "ozet": "ABD genelinde benzinin ortalama fiyatı galon başına 3,98 dolara gerileyerek, temmuzdan bu yana ilk kez 4 doların altına indi.",
+      "link": "https://www.star.com.tr/ekonomi/4-dolarin-altina-dustu-abdde-temmuz-ayindan-bu-yana-bir-ilk-haber-2052605/",
+      "tarih": "2026-11-10T20:35:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "ExxonMobil 19 yıl sonra Venezuela'ya dönüyor",
+      "ozet": "Venezuela, 2007'de ülkeden ayrılan ABD'li enerji şirketi ExxonMobil'in yeniden petrol sahalarında faaliyet göstermesinin önünü açmak için mutabakat zaptı imzaladı. Milyarlarca varillik petrol rezervine sahip sahaları ...",
+      "link": "https://www.dunya.com/dunya/exxonmobil-19-yil-sonra-venezuelaya-donuyor-haberi-847177",
+      "tarih": "2026-11-10T19:27:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD'de benzin fiyatlarında sert düşüş! Temmuzdan beri ilk kez bu seviyeye indi",
+      "ozet": "ABD genelinde ortalama benzin fiyatı galon başına 3,98 dolara gerileyerek temmuzdan bu yana ilk kez 4 doların altına indi. Trump'ın İran'la gerilimin azalabileceğine dair açıklamaları petrol fiyatları üzerinde baskı o...",
+      "link": "https://www.aksam.com.tr/dunya/abdde-benzin-fiyatlarinda-sert-dusus-temmuzdan-beri-ilk-kez-bu-seviyeye-indi/haber-1713534",
+      "tarih": "2026-11-10T19:18:00.000Z",
       "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Chavez 2007'de kovmuştu: ABD'li petrol devi Venezuela ile anlaştı",
+      "ozet": "Venezuela, 2007'deki ayrılışının ardından ABD'li petrol şirketi ExxonMobil ile ülkeye geri dönüş için mutabakat zaptı imzaladı. Anlaşma, milyarlarca varil rezerve sahip petrol sahalarını kapsıyor.",
+      "link": "https://www.aksam.com.tr/dunya/chavez-2007de-kovmustu-abdli-petrol-devi-venezuela-ile-anlasti/haber-1713532",
+      "tarih": "2026-11-10T19:09:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "ABD'de benzin fiyatları Temmuz'dan bu yana ilk kez 4 doların altına indi",
+      "ozet": "ABD'de ortalama benzin fiyatı, ham petrol fiyatlarındaki düşüş ve mevsimsel talep azalmasının etkisiyle galon başına 3,98 dolara gerileyerek Temmuz ayından bu yana ilk kez 4 doların altına indi.",
+      "link": "https://www.bloomberght.com/abd-de-benzin-fiyatlari-temmuz-dan-bu-yana-ilk-kez-4-dolarin-altina-indi-3794137",
+      "tarih": "2026-11-10T18:56:14.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "ABD'de benzin fiyatları 4 doların altına indi",
+      "ozet": "ABD genelinde ortalama benzin fiyatı, ham petrol fiyatlarındaki gerileme ve mevsimsel talep düşüşünün etkisiyle galon başına 3,98 dolara indi. Fiyatlar, temmuz ayından bu yana ilk kez 4 doların altına gerilerken geçen...",
+      "link": "https://www.dunya.com/dunya/abdde-benzin-fiyatlari-4-dolarin-altina-indi-haberi-847175",
+      "tarih": "2026-11-10T18:47:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD'de benzin fiyatları temmuzdan bu yana ilk kez galon başına 4 doların altına düştü",
+      "ozet": "ABD genelinde benzinin ortalama fiyatı galon başına 3,98 dolara gerileyerek, temmuzdan bu yana ilk kez 4 doların altına indi.",
+      "link": "https://www.trthaber.com/haber/dunya/abdde-benzin-fiyatlari-temmuzdan-bu-yana-ilk-kez-galon-basina-4-dolarin-altina-dustu-962855.html",
+      "tarih": "2026-11-10T18:33:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "ABD'de benzin fiyatları temmuzdan bu yana ilk kez galon başına 4 doların altına düştü",
+      "ozet": "ABD genelinde benzinin ortalama fiyatı galon başına 3,98 dolara gerileyerek, temmuzdan bu yana ilk kez 4 doların altına indi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abdde-benzin-fiyatlari-temmuzdan-bu-yana-ilk-kez-galon-basina-4-dolarin-altina-dustu/4119437",
+      "tarih": "2026-11-10T18:26:56.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda bugün üçüncü petrol tankeri deniz mayınına çarparak patladı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda bugün öğleden sonra izin verilmeyen güzergahı kullanan 3'üncü petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-bugun-ucuncu-petrol-tankeri-deniz-mayinina-carparak-patladi-962853.html",
+      "tarih": "2026-11-10T18:19:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Avrupa borsaları İngiltere hariç yükselişle kapandı",
+      "ozet": "Avrupa borsaları, petrol fiyatlarındaki düşüşün enflasyonist baskıları hafifleteceği beklentisiyle günü İngiltere hariç yükselişle tamamladı.",
+      "link": "https://www.dunya.com/finans/haberler/avrupa-borsalari-ingiltere-haric-yukselisle-kapandi-haberi-847171",
+      "tarih": "2026-11-10T18:09:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Küresel enerji krizi Çin'in elektrikli araç satışlarına yaradı",
+      "ozet": "Orta Doğu'daki savaşın petrol fiyatlarını yükseltmesi, elektrikli ve hibrit araçlara yönelik talebi artırırken Çin'in ihracatına rekor getirdi. Çinli otomotiv şirketleri ekimde yurt dışına 582 bin elektrikli ve hibrit...",
+      "link": "https://www.dunya.com/sektorler/otomotiv/kuresel-enerji-krizi-cinin-elektrikli-arac-satislarina-yaradi-haberi-847163",
+      "tarih": "2026-11-10T17:34:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Çin'in elektrikli araç ihracatı Ekim'de rekor kırdı",
+      "ozet": "Çin'in elektrikli ve hibrit araç ihracatı, Orta Doğu'daki savaşın petrol fiyatlarını yükseltmesiyle artan talebin etkisiyle Ekim'de yıllık yüzde 144,7 artarak 582 bin adetle rekor seviyeye ulaştı.",
+      "link": "https://www.bloomberght.com/cin-in-elektrikli-arac-ihracati-ekim-de-rekor-kirdi-3794130",
+      "tarih": "2026-11-10T17:07:53.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Çin'in elektrikli araç ihracatı ekimde rekor seviyeye çıktı",
+      "ozet": "Çin'in elektrikli araç ihracatı, Orta Doğu'daki savaşın petrol fiyatlarında artışa yol açmasının​​​​​​​ etkisiyle rekor seviyelere ulaştı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/cinin-elektrikli-arac-ihracati-ekimde-rekor-seviyeye-cikti/4119284",
+      "tarih": "2026-11-10T16:27:16.000Z",
+      "kaynak": "AA"
     },
     {
       "baslik": "\"Türkiye oyun kurucu olabilir\"",
@@ -39,13 +137,6 @@
       "link": "https://www.haberturk.com/ekonomi/sabanci-holding-ceo-su-zaimler-turkiye-oyun-kurucu-olabilir-3926302",
       "tarih": "2026-11-10T12:45:00.000Z",
       "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Euroda yükseliş mi, düşüş mü? İki dev bankadan farklı tahminler",
-      "ozet": "Euro Bölgesi'nde enerji fiyatlarındaki düşüş ve siyasi belirsizlikler, euronun geleceğine ilişkin beklentileri ayrıştırdı. MUFG Bank, petrol fiyatlarındaki gerilemenin euroyu destekleyebileceğini belirtirken, UniCredi...",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/euroda-yukselis-mi-dusus-mu-iki-dev-bankadan-farkli-tahminler-haberi-930369",
-      "tarih": "2026-11-10T12:32:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Brent petrol 90 doların altına indi",
@@ -62,32 +153,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Trump'ın \"savaş bitti\" açıklaması sonrası petrol fiyatları sert düştü",
-      "ozet": "ABD Başkanı Donald Trump'ın İran ile savaşın \"fiilen bittiğini\" ifade etmesinin ardından piyasaların rahatlamasıyla petrol fiyatları ağustos sonundan bu yana en düşük seviyeye geriledi, hisse senedi piyasaları ise yük...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3675689-trumpin-savas-bitti-aciklamasi-sonrasi-petrol-fiyatlari-sert-dustu",
-      "tarih": "2026-11-10T11:59:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Akaryakıta çifte indirim geliyor: Benzin ve motorinde fiyatlar düşecek",
       "ozet": "Petrol fiyatlarındaki gerilemenin ardından benzin ve motorinde indirim beklentisi oluştu. Nihai tutarlar henüz kesinleşmezken, küresel piyasalardaki hareketin pompaya nasıl yansıyacağı yakından izleniyor.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-cifte-indirim-geliyor-benzin-ve-motorinde-fiyatlar-dusecek-2555028",
       "tarih": "2026-11-10T11:49:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Trump'ın savaş bitti açıklamasının ardından petrol fiyatları ağustos ayından bu yana en düşük seviyeye geriledi",
-      "ozet": "ABD Başkanı Donald Trump'ın İran ile savaşın \"fiilen bittiğini\" ifade etmesinin ardından piyasaların rahatlamasıyla petrol fiyatları ağustos sonundan bu yana en düşük seviyeye geriledi, hisse senedi piyasaları ise yük...",
-      "link": "https://www.trthaber.com/haber/dunya/trumpin-savas-bitti-aciklamasinin-ardindan-petrol-fiyatlari-agustos-ayindan-bu-yana-en-dusuk-seviyeye-geriledi-962811.html",
-      "tarih": "2026-11-10T11:39:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "İran: Hürmüz Boğazı'nda biri mayına çarpan 2 petrol tankerinde yangın çıktı",
-      "ozet": "İran Devrim Muhafızları Ordusu Donanması, Hürmüz Boğazı'nda, \"izin verilmeyen bölgede\" hareket eden 2 petrol tankerinden birinin deniz mayınına çarpması sonucu alev aldığını, diğerinde ise meydana gelen bir kaza sonra...",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-biri-mayina-carpan-2-petrol-tankerinde-yangin-cikti-962807.html",
-      "tarih": "2026-11-10T11:10:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "EPDK Başkanı Yılmaz: Doğalgaz ve elektrikte enerji borsamız büyük tecrübe kazandı",
@@ -104,13 +174,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Brent petrol, ABD-İran geriliminin azalacağı beklentisiyle 90 doların altına indi",
-      "ozet": "Brent petrolün ocak vadeli varil fiyatı, ABD ile İran arasındaki gerilimin azalacağına yönelik beklentinin etkisiyle 90 doların altına geriledi",
-      "link": "https://www.aa.com.tr/tr/ekonomi/brent-petrol-abd-iran-geriliminin-azalacagi-beklentisiyle-90-dolarin-altina-indi/4118412",
-      "tarih": "2026-11-10T08:55:38.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "ABD'de benzin fiyatları psikolojik seviyenin altına düştü",
       "ozet": "ABD'de benzin fiyatları Temmuz ayından bu yana ilk kez galon başına 4 doların altına düştü. Ancak fiyatlar mevsimsel bazda hâlâ oldukça yüksek seviyelerde seyrediyor.",
       "link": "https://www.bloomberght.com/abd-de-benzin-fiyatlari-psikolojik-seviyenin-altina-dustu-3794052",
@@ -123,27 +186,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/brent-petrol-10-haftanin-dibini-gordu-gozler-akaryakit-tabelalarina-cevrildi-benzin-ve-motorine-indirim-gelecek-mi-4871194",
       "tarih": "2026-11-10T08:27:09.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "10 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "10 Kasım 2026 benzin, motorin ve LPG fiyatları, yeni haftada araç sahiplerinin en çok araştırdığı başlıklar arasında yer alıyor. Sürücüler güne başlarken mazot fiyatlarına zam gelip gelmediğini, benzinde indirim yapıl...",
-      "link": "https://www.birgun.net/haber/10-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-745570",
-      "tarih": "2026-11-10T07:51:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Akaryakıtta tabela değişiyor: Benzin ve motorine indirim gündemde",
-      "ozet": "Trump’ın İran’a yönelik saldırıları erteleyeceğini açıklamasıyla Brent petrol ve akaryakıt ürünlerinin küresel piyasalardaki fiyatları geriledi. Sektör kaynakları, benzine perşembe, motorine cumartesi günü indirim gel...",
-      "link": "https://www.birgun.net/haber/akaryakitta-tabela-degisiyor-benzin-ve-motorine-indirim-gundemde-745563",
-      "tarih": "2026-11-10T07:37:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Elektrikte destek sınırı düşürülmüştü: Konut faturalarında yüzde 96 artış uyarısı",
-      "ozet": "EPDK'nin konutlarda devlet destekli elektrik tarifesinden yararlanma sınırını yıllık 4 bin kilovatsaatten 3 bin kilovatsaate düşürmesi faturaları katlayacak. Eski EPDK Denetim Dairesi Başkanı Mehmet İbiş, uygulamayla ...",
-      "link": "https://www.birgun.net/haber/elektrikte-destek-siniri-dusurulmustu-konut-faturalarinda-yuzde-96-artis-uyarisi-745562",
-      "tarih": "2026-11-10T07:34:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Akaryakıtta tabelaları değiştirecek gelişme yaşanıyor",
@@ -165,13 +207,6 @@
       "link": "https://www.sozcu.com.tr/dolar-kazanimlarini-geri-verdi-piyasalar-abd-enflasyonunu-bekliyor-p379735",
       "tarih": "2026-11-10T05:24:01.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrol 90 doların altını gördü",
-      "ozet": "Petrol fiyatları, ABD Başkanı Donald Trump'ın İran'a yönelik yeni saldırıların gerekli olmayacağını söylemesinin ardından Ağustos ayından bu yana en düşük kapanışını gerçekleştirerek gerilemesini sürdürdü.",
-      "link": "https://www.bloomberght.com/petrol-90-dolarin-altini-gordu-3794026",
-      "tarih": "2026-11-10T05:21:20.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Petrol düştükçe düştü",
