@@ -1,10 +1,9 @@
 {
-  "guncelleme": "2026-11-10T21:30:21.604Z",
+  "guncelleme": "2026-11-11T03:25:45.805Z",
   "kaynaklar": [
     "EKONOMIM",
     "STAR",
     "DUNYA",
-    "AKSAM",
     "BLOOMBERGHT",
     "TRTHABER",
     "AA",
@@ -26,6 +25,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "ExxonMobil, 2007'de ayrıldığı Venezuela'ya geri dönmek üzere mutabakat imzaladı",
+      "ozet": "Venezuela, 2007 yılındaki ayrılışının ardından Güney Amerika ülkesine \"geri dönüşü\" amacıyla ABD'li petrol şirketi ExxonMobil ile bir mutabakat zaptı imzaladı.",
+      "link": "https://www.ekonomim.com/ekonomi/exxonmobil-2007de-ayrildigi-venezuelaya-geri-donmek-uzere-mutabakat-imzaladi-haberi-930463",
+      "tarih": "2026-11-10T21:28:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
     {
       "baslik": "Artan petrol fiyatı ciroyu büyüttü marketlerin kasası yerinde saydı",
       "ozet": "",
@@ -53,20 +59,6 @@
       "link": "https://www.dunya.com/dunya/exxonmobil-19-yil-sonra-venezuelaya-donuyor-haberi-847177",
       "tarih": "2026-11-10T19:27:00.000Z",
       "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "ABD'de benzin fiyatlarında sert düşüş! Temmuzdan beri ilk kez bu seviyeye indi",
-      "ozet": "ABD genelinde ortalama benzin fiyatı galon başına 3,98 dolara gerileyerek temmuzdan bu yana ilk kez 4 doların altına indi. Trump'ın İran'la gerilimin azalabileceğine dair açıklamaları petrol fiyatları üzerinde baskı o...",
-      "link": "https://www.aksam.com.tr/dunya/abdde-benzin-fiyatlarinda-sert-dusus-temmuzdan-beri-ilk-kez-bu-seviyeye-indi/haber-1713534",
-      "tarih": "2026-11-10T19:18:00.000Z",
-      "kaynak": "AKSAM"
-    },
-    {
-      "baslik": "Chavez 2007'de kovmuştu: ABD'li petrol devi Venezuela ile anlaştı",
-      "ozet": "Venezuela, 2007'deki ayrılışının ardından ABD'li petrol şirketi ExxonMobil ile ülkeye geri dönüş için mutabakat zaptı imzaladı. Anlaşma, milyarlarca varil rezerve sahip petrol sahalarını kapsıyor.",
-      "link": "https://www.aksam.com.tr/dunya/chavez-2007de-kovmustu-abdli-petrol-devi-venezuela-ile-anlasti/haber-1713532",
-      "tarih": "2026-11-10T19:09:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "ABD'de benzin fiyatları Temmuz'dan bu yana ilk kez 4 doların altına indi",
