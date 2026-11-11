@@ -1,16 +1,17 @@
 {
-  "guncelleme": "2026-11-11T11:30:20.580Z",
+  "guncelleme": "2026-11-11T18:55:54.696Z",
   "kaynaklar": [
-    "STAR",
     "HABER7",
-    "SOZCU",
+    "SABAH",
+    "BLOOMBERGHT",
+    "EKONOMIM",
+    "DUNYA",
     "AA",
+    "SOZCU",
     "CUMHURIYET",
     "HABERTURK",
-    "TRTHABER",
     "BIRGUN",
     "YENISAFAK",
-    "BLOOMBERGHT",
     "HURRIYET"
   ],
   "beklenti": {
@@ -26,18 +27,67 @@
   },
   "haberler": [
     {
-      "baslik": "Türkiye için yeni hedef açıklandı! Emisyon ticaretinde merkez olacak",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Türkiye'nin emisyon ticaretinde önemli bir merkez haline gelmesi için gerekli düzenlemeleri yaptığını ve teknolojik altyapı çalışmalarını ilgili kurumlar...",
-      "link": "https://www.star.com.tr/ekonomi/turkiye-icin-yeni-hedef-aciklandi-emisyon-ticaretinde-merkez-olacak-haber-2052688/",
-      "tarih": "2026-11-11T08:24:00.000Z",
-      "kaynak": "STAR"
+      "baslik": "Tayland açıklarında kaza: Petrol tankeri alabora oldu",
+      "ozet": "Tayland'ın Chon Buri bölgesi açıklarında 'Venus 14' adlı petrol tankeri alabora oldu. Kaybolan 6 kişilik mürettebatı arama çalışmaları sürerken, yetkililer muhtemel bir petrol sızıntısına karşı acil önlem alındığını b...",
+      "link": "https://www.haber7.com/dunya/haber/3676012-tayland-aciklarinda-kaza-petrol-tankeri-alabora-oldu",
+      "tarih": "2026-11-11T13:53:00.000Z",
+      "kaynak": "HABER7"
     },
     {
-      "baslik": "Merkez Bankası'nın önünde 600 baz puanlık alan: Gözler Enflasyon Raporu'nda!",
-      "ozet": "Gedik Yatırım Danışmanlığı Müdür Yardımcısı Onur Can Bal, Merkez Bankası'nın aralık ayı faiz kararına ilişkin beklentisini açıklarken, petrol fiyatlarındaki düşüşün Borsa İstanbul'da yeni yükselişlerin önünü açabilece...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3675890-merkez-bankasinin-onunde-600-baz-puanlik-alan-gozler-enflasyon-raporunda",
-      "tarih": "2026-11-11T08:11:00.000Z",
-      "kaynak": "HABER7"
+      "baslik": "OPEC petrol üretimi verilerini açıkladı",
+      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, artış gösterdi. En fazla üretim yapan ülke Suudi Arabistan oldu.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/opecin-gunluk-ham-petrol-uretimi-ekimde-2-milyon-varile-yakin-artti-7699614",
+      "tarih": "2026-11-11T13:16:42.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "OPEC'in günlük ham petrol üretiminde 2 milyon varillik artış",
+      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, Ekim'de önceki aya göre 1 milyon 965 bin varil artarak 27 milyon 164 bin varile yükseldi.",
+      "link": "https://www.bloomberght.com/opec-in-gunluk-ham-petrol-uretiminde-2-milyon-varillik-artis-3794224",
+      "tarih": "2026-11-11T13:16:25.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "OPEC’in ham petrol üretiminde ekimde dikkat çeken artış",
+      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, ekimde önceki aya göre 1 milyon 965 bin varil artarak 27 milyon 164 bin varile yükseldi.",
+      "link": "https://www.ekonomim.com/sektorler/enerji/opecin-ham-petrol-uretiminde-ekimde-dikkat-ceken-artis-haberi-930643",
+      "tarih": "2026-11-11T13:11:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Petrol üretiminde dikkat çeken yükseliş! OPEC yeni rakamları açıkladı",
+      "ozet": "OPEC'in günlük ham petrol üretimi ekim ayında yaklaşık 2 milyon varil artarak 27,2 milyon varile ulaştı. Suudi Arabistan üretim artışında başı çekerken İran, Nijerya ve Kongo'da düşüş kaydedildi. OPEC+ grubunun toplam...",
+      "link": "https://www.dunya.com/enerji/petrol-uretiminde-dikkat-ceken-yukselis-opec-yeni-rakamlari-acikladi-haberi-847287",
+      "tarih": "2026-11-11T13:11:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "OPEC'in günlük ham petrol üretimi ekimde 2 milyon varile yakın arttı",
+      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, ekimde önceki aya göre 1 milyon 965 bin varil artarak 27 milyon 164 bin varile yükseldi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/opecin-gunluk-ham-petrol-uretimi-ekimde-2-milyon-varile-yakin-artti/4120732",
+      "tarih": "2026-11-11T13:10:50.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Karadeniz'de 39 yıl sonra bir ilk! Balıkçılar bolluğa rağmen dertli",
+      "ozet": "Karadeniz'de bu sezon yaşanan palamut bolluğu, fiyatların düşmesiyle vatandaşın yüzünü güldürürken balıkçıları zor durumda bıraktı. Son yılların en bereketli av dönemlerinden biri yaşanmasına rağmen artan mazot, buz v...",
+      "link": "https://www.dunya.com/gundem/karadenizde-39-yil-sonra-bir-ilk-balikcilar-bolluga-ragmen-dertli-haberi-847286",
+      "tarih": "2026-11-11T13:01:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD korumasında Hürmüz Boğazı'ndan geçmeye çalışan iki tanker mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu, ABD savaş uçaklarının korumasında boğazdan geçmeye çalışan iki petrol tankerinin deniz mayınlarına çarparak alev aldığını ve terk edildiğini bildirdi.",
+      "link": "https://www.ekonomim.com/dunya/abd-korumasinda-hurmuz-bogazindan-gecmeye-calisan-iki-tanker-mayina-carpti-haberi-930632",
+      "tarih": "2026-11-11T12:30:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Benzin ve motorine indirim geleceği tarih açıklandı",
+      "ozet": "Küresel petrol piyasasındaki hareketlilik ve döviz kurlarındaki değişim akaryakıt fiyatlarını etkilemeyi sürdürüyor. Sek...",
+      "link": "https://www.sozcu.com.tr/benzin-ve-motorine-indirim-gelecegi-tarih-aciklandi-p380141",
+      "tarih": "2026-11-11T12:02:55.000Z",
+      "kaynak": "SOZCU"
     },
     {
       "baslik": "İçten yanmalı motorlar için karar verildi",
@@ -45,13 +95,6 @@
       "link": "https://www.sozcu.com.tr/icten-yanmali-motorlar-icin-karar-verildi-p380222",
       "tarih": "2026-11-11T08:06:02.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Türkiye, emisyon ticaretinde önemli bir merkez olmayı hedefliyor",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK) Başkanı Mustafa Yılmaz, Türkiye'nin emisyon ticaretinde önemli bir merkez haline gelmesi için gerekli düzenlemeleri yaptığını ve teknolojik altyapı çalışmalarını ilgili kurumlar...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/turkiye-emisyon-ticaretinde-onemli-bir-merkez-olmayi-hedefliyor/4119807",
-      "tarih": "2026-11-11T08:04:28.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Benzine, mazota indirim var mı? 11 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -68,13 +111,6 @@
       "kaynak": "HABERTURK"
     },
     {
-      "baslik": "İran: Hürmüz Boğazı'nda bir tanker deniz mayınına çarparak alev aldı",
-      "ozet": "İran Ordusu, Hürmüz Boğazının doğusunda bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-deniz-mayinina-carparak-alev-aldi-962900.html",
-      "tarih": "2026-11-11T07:20:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Brent petrol 92 dolara tutunuyor",
       "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,58 dolardan işlem görüyor.",
       "link": "https://www.sozcu.com.tr/brent-petrol-92-dolara-tutunuyor-p380192",
@@ -89,39 +125,11 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "Gram altın ne kadar oldu?",
-      "ozet": "Gram altın yeni güne yükselişle başlayarak 6 bin 651 liraya çıkarken, ons altın dolar endeksindeki gerilemeyle 4 bin 54 dolarda işlem görüyor. ABD’de enflasyon ve Fed’in faiz politikası beklentileri piyasaların odağın...",
-      "link": "https://www.haberturk.com/ekonomi/altin-yukselise-gecti-3926452",
-      "tarih": "2026-11-11T07:10:13.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Benzin ve motorine indirim geleceği tarih açıklandı",
-      "ozet": "Küresel petrol piyasasındaki hareketlilik ve döviz kurlarındaki değişim akaryakıt fiyatlarını etkilemeyi sürdürüyor. Sek...",
-      "link": "https://www.sozcu.com.tr/benzin-ve-motorine-indirim-gelecegi-tarih-aciklandi-p380141",
-      "tarih": "2026-11-11T06:56:46.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "Akaryakıtta çifte indirim rüzgarı: Petroldeki çakılma pompaya yansıyacak",
       "ozet": "Küresel piyasalarda Brent petrol fiyatlarının aşağı yönlü seyri, araç sahiplerinin yüzünü güldürmeye devam ediyor. Geçtiğimiz hafta pompa fiyatlarına yansıyan indirim kararlarının ardından, sektör kaynaklarından benzi...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-cifte-indirim-ruzgari-petroldeki-cakilma-pompaya-yansiyacak-iste-il-il-guncel-motorin-ve-benzin-fiyatlari-4871431",
       "tarih": "2026-11-11T06:49:47.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "EIA petrol fiyat tahminini yükseltti",
-      "ozet": "ABD Enerji Enformasyon İdaresi (EIA), küresel petrol stoklarındaki düşüş ve Orta Doğu'daki çatışmaların arz ve taşımacılık üzerindeki etkileri nedeniyle petrol fiyatı tahminlerini üst üste dördüncü ayda da yukarı yönl...",
-      "link": "https://www.haberturk.com/ekonomi/eia-petrol-fiyati-tahminlerini-ust-uste-dorduncu-ayda-da-yukseltti-3926440",
-      "tarih": "2026-11-11T06:48:11.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Brent petrolün varili 92,58 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,58 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9258-dolardan-islem-goruyor-962894.html",
-      "tarih": "2026-11-11T06:46:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "EIA petrol fiyatı tahminlerini bir kez daha yükseltti",
@@ -149,20 +157,6 @@
       "ozet": "Petrol fiyatları iki günlük düşüşün ardından ABD-İran savaşına yönelik beklentiler dolayısıyla ılımlı bir şekilde yükseldi.",
       "link": "https://www.bloomberght.com/petrolde-asagi-yonlu-seyre-ara-3794145",
       "tarih": "2026-11-11T05:28:19.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "ABD'de benzin fiyatları Temmuz'dan bu yana ilk kez 4 doların altına indi",
-      "ozet": "ABD'de ortalama benzin fiyatı, ham petrol fiyatlarındaki düşüş ve mevsimsel talep azalmasının etkisiyle galon başına 3,98 dolara gerileyerek Temmuz ayından bu yana ilk kez 4 doların altına indi.",
-      "link": "https://www.bloomberght.com/abd-de-benzin-fiyatlari-temmuz-dan-bu-yana-ilk-kez-4-dolarin-altina-indi-3794137",
-      "tarih": "2026-11-10T18:56:14.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Çin'in elektrikli araç ihracatı Ekim'de rekor kırdı",
-      "ozet": "Çin'in elektrikli ve hibrit araç ihracatı, Orta Doğu'daki savaşın petrol fiyatlarını yükseltmesiyle artan talebin etkisiyle Ekim'de yıllık yüzde 144,7 artarak 582 bin adetle rekor seviyeye ulaştı.",
-      "link": "https://www.bloomberght.com/cin-in-elektrikli-arac-ihracati-ekim-de-rekor-kirdi-3794130",
-      "tarih": "2026-11-10T17:07:53.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
@@ -206,20 +200,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-10-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554915",
       "tarih": "2026-11-10T06:44:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dolar kazanımlarını geri verdi: Piyasalar ABD enflasyonunu bekliyor",
-      "ozet": "Petrol fiyatlarındaki düşüş ve hisse senetlerindeki yükselişle riskli varlıklara yönelen yatırımcılar, doların kazanımla...",
-      "link": "https://www.sozcu.com.tr/dolar-kazanimlarini-geri-verdi-piyasalar-abd-enflasyonunu-bekliyor-p379735",
-      "tarih": "2026-11-10T05:24:01.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrol düştükçe düştü",
-      "ozet": "Trump’ın İran’a yönelik yeni saldırıları şimdilik ertelemeyi planladığını açıklamasının ardından Brent petrolün varili 9...",
-      "link": "https://www.sozcu.com.tr/petrol-dustukce-dustu-p379733",
-      "tarih": "2026-11-10T05:10:47.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Benzine, mazota zam var mı? 7 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
