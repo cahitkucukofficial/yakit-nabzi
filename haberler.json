@@ -1,16 +1,14 @@
 {
-  "guncelleme": "2026-11-11T18:55:54.696Z",
+  "guncelleme": "2026-11-12T01:42:59.126Z",
   "kaynaklar": [
     "HABER7",
+    "BIRGUN",
     "SABAH",
     "BLOOMBERGHT",
-    "EKONOMIM",
-    "DUNYA",
     "AA",
     "SOZCU",
     "CUMHURIYET",
     "HABERTURK",
-    "BIRGUN",
     "YENISAFAK",
     "HURRIYET"
   ],
@@ -27,11 +25,18 @@
   },
   "haberler": [
     {
-      "baslik": "Tayland açıklarında kaza: Petrol tankeri alabora oldu",
-      "ozet": "Tayland'ın Chon Buri bölgesi açıklarında 'Venus 14' adlı petrol tankeri alabora oldu. Kaybolan 6 kişilik mürettebatı arama çalışmaları sürerken, yetkililer muhtemel bir petrol sızıntısına karşı acil önlem alındığını b...",
-      "link": "https://www.haber7.com/dunya/haber/3676012-tayland-aciklarinda-kaza-petrol-tankeri-alabora-oldu",
-      "tarih": "2026-11-11T13:53:00.000Z",
+      "baslik": "Son dakika: Akaryakıta indirim geldi! Bu geceden itibaren fiyatlar değişti...",
+      "ozet": "Son dakika haberi... Akaryakıt ürünlerinden benzinin litre fiyatına 12 Kasım Perşembe gününden itibaren geçerli olmak üzere 3,54 lira indirim uygulandı. Motorine de 14 Kasım'da 4 TL'nin üzerinde indirim gelmesi beklen...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3676121-son-dakika-akaryakita-indirim-geldi-bu-geceden-itibaren-fiyatlar-degisti",
+      "tarih": "2026-11-11T21:45:00.000Z",
       "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Husiler duyurdu: Suudi Arabistan'daki Kral Halid Havalimanı ile petrol tesisi hedef alındı",
+      "ozet": "Husilerin askeri sözcüsü Yahya Seri, yaptığı yazılı açıklamada, seyir füzeleri ve insansız hava araçlarıyla Suudi Arabistan'a saldırılar düzenlediklerini belirtti.",
+      "link": "https://www.birgun.net/haber/husiler-duyurdu-suudi-arabistan-daki-kral-halid-havalimani-ile-petrol-tesisi-hedef-alindi-745921",
+      "tarih": "2026-11-11T20:12:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "OPEC petrol üretimi verilerini açıkladı",
@@ -48,39 +53,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "OPEC’in ham petrol üretiminde ekimde dikkat çeken artış",
-      "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, ekimde önceki aya göre 1 milyon 965 bin varil artarak 27 milyon 164 bin varile yükseldi.",
-      "link": "https://www.ekonomim.com/sektorler/enerji/opecin-ham-petrol-uretiminde-ekimde-dikkat-ceken-artis-haberi-930643",
-      "tarih": "2026-11-11T13:11:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Petrol üretiminde dikkat çeken yükseliş! OPEC yeni rakamları açıkladı",
-      "ozet": "OPEC'in günlük ham petrol üretimi ekim ayında yaklaşık 2 milyon varil artarak 27,2 milyon varile ulaştı. Suudi Arabistan üretim artışında başı çekerken İran, Nijerya ve Kongo'da düşüş kaydedildi. OPEC+ grubunun toplam...",
-      "link": "https://www.dunya.com/enerji/petrol-uretiminde-dikkat-ceken-yukselis-opec-yeni-rakamlari-acikladi-haberi-847287",
-      "tarih": "2026-11-11T13:11:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "OPEC'in günlük ham petrol üretimi ekimde 2 milyon varile yakın arttı",
       "ozet": "Petrol İhraç Eden Ülkeler Örgütünün (OPEC) günlük ham petrol üretimi, ekimde önceki aya göre 1 milyon 965 bin varil artarak 27 milyon 164 bin varile yükseldi.",
       "link": "https://www.aa.com.tr/tr/ekonomi/opecin-gunluk-ham-petrol-uretimi-ekimde-2-milyon-varile-yakin-artti/4120732",
       "tarih": "2026-11-11T13:10:50.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Karadeniz'de 39 yıl sonra bir ilk! Balıkçılar bolluğa rağmen dertli",
-      "ozet": "Karadeniz'de bu sezon yaşanan palamut bolluğu, fiyatların düşmesiyle vatandaşın yüzünü güldürürken balıkçıları zor durumda bıraktı. Son yılların en bereketli av dönemlerinden biri yaşanmasına rağmen artan mazot, buz v...",
-      "link": "https://www.dunya.com/gundem/karadenizde-39-yil-sonra-bir-ilk-balikcilar-bolluga-ragmen-dertli-haberi-847286",
-      "tarih": "2026-11-11T13:01:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "ABD korumasında Hürmüz Boğazı'ndan geçmeye çalışan iki tanker mayına çarptı",
-      "ozet": "İran Devrim Muhafızları Ordusu, ABD savaş uçaklarının korumasında boğazdan geçmeye çalışan iki petrol tankerinin deniz mayınlarına çarparak alev aldığını ve terk edildiğini bildirdi.",
-      "link": "https://www.ekonomim.com/dunya/abd-korumasinda-hurmuz-bogazindan-gecmeye-calisan-iki-tanker-mayina-carpti-haberi-930632",
-      "tarih": "2026-11-11T12:30:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Benzin ve motorine indirim geleceği tarih açıklandı",
