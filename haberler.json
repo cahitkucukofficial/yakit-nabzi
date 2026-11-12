@@ -1,17 +1,13 @@
 {
-  "guncelleme": "2026-11-12T11:56:50.590Z",
+  "guncelleme": "2026-11-12T19:22:31.658Z",
   "kaynaklar": [
-    "STAR",
-    "DUNYA",
+    "TRTHABER",
     "EKONOMIM",
-    "HABER7",
     "BIRGUN",
     "CUMHURIYET",
-    "TRTHABER",
     "BLOOMBERGHT",
     "YENISAFAK",
     "SOZCU",
-    "HABERTURK",
     "HURRIYET"
   ],
   "beklenti": {
@@ -27,39 +23,25 @@
   },
   "haberler": [
     {
-      "baslik": "AB'den Rus petrolüne yeni yaptırım hazırlığı! Hedefte rafineriler ve gölge filo ağı var",
-      "ozet": "Avrupa Birliği Komisyonunun Finansal Hizmetlerden Sorumlu Üyesi Maria Luis Albuquerque, AB dışişleri bakanlarının 16 Haziran'da Rusya'nın petrol rafinerilerini ve gölge filo ekosistemini hedef alan yeni yaptırımları k...",
-      "link": "https://www.star.com.tr/ekonomi/abden-rus-petrolune-yeni-yaptirim-hazirligi-hedefte-rafineriler-ve-golge-filo-agi-var-haber-2052968/",
-      "tarih": "2026-11-12T10:35:00.000Z",
-      "kaynak": "STAR"
+      "baslik": "İran Ordusu: Hürmüz Boğazı'nda 2 petrol tankeri deniz mayınına çarparak alev aldı",
+      "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda 2 petrol tankerinin deniz mayınına çarpması sonucu alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-963094.html",
+      "tarih": "2026-11-12T15:01:00.000Z",
+      "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Hürmüz'de 4 milyon varillik tanker alarmı: İran'dan iki gemide patlama iddiası",
-      "ozet": "İran, Hürmüz Boğazı'nda 4 milyon varilden fazla petrol taşıdığını öne sürdüğü iki süpertankerde patlama ve yangın çıktığını açıkladı. Gemilerin kimliği ve mayın iddiası doğrulanamadı. Yeni açıklama, sevkiyat ve sigort...",
-      "link": "https://www.dunya.com/gundem/hurmuzde-4-milyon-varillik-tanker-alarmi-irandan-iki-gemide-patlama-iddiasi-haberi-847388",
-      "tarih": "2026-11-12T10:08:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Motorine indirim var mı, gelecek mi? Benzin fiyatları düşecek mi?",
-      "ozet": "23 Ekim'den bu yana Brent ptrol yaklaşık yüzde 20 düştü. Son günlerde sert düşen fiyatlar sonrası vatandaşlar her gün \"Motorine indirim var mı, gelecek mi\", \"Benzin fiyatları düşecek mi\" sorusunu yöneltiyor.",
-      "link": "https://www.dunya.com/ekonomi/motorine-indirim-var-mi-gelecek-mi-benzin-fiyatlari-dusecek-mi-haberi-847385",
-      "tarih": "2026-11-12T09:47:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Avrupa borsaları İspanya hariç pozitif seyrediyor",
-      "ozet": "Avrupa borsaları, şirketlerden gelen olumlu finansal sonuçlar ve petrol fiyatlarındaki gerilemenin desteğiyle İspanya hariç pozitif seyrediyor.",
-      "link": "https://www.ekonomim.com/finans/haberler/borsa/avrupa-borsalari-ispanya-haric-pozitif-seyrediyor-haberi-930811",
-      "tarih": "2026-11-12T09:27:00.000Z",
+      "baslik": "Nvidia krizi Wall Street'i sarstı: Teknoloji hisseleri geriledi, dolar yükseldi",
+      "ozet": "Küresel finans piyasalarında Nvidia CEO'su Jensen Huang'ın geleceğine ilişkin gelişmeler, ABD'de beklentilerin üzerinde gelen enflasyon verileri ve yükselen faiz beklentileri satış baskısını artırdı. Asya teknoloji hi...",
+      "link": "https://www.ekonomim.com/dunya/nvidia-krizi-wall-streeti-sarsti-teknoloji-hisseleri-geriledi-dolar-yukseldi-haberi-930892",
+      "tarih": "2026-11-12T14:45:00.000Z",
       "kaynak": "EKONOMIM"
     },
     {
-      "baslik": "Altında ibre tersine dönebilir! Uzmandan 2027 için yükseliş tahmini",
-      "ozet": "Marbaş Menkul Değerler Genel Müdür Yardımcısı Soner Kuru, ABD enflasyonunun altını baskıladığını belirterek petrol fiyatlarındaki düşüşle 2027'nin ilk yarısında yükseliş beklediğini söyledi.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3676235-altinda-ibre-tersine-donebilir-uzmandan-2027-icin-yukselis-tahmini",
-      "tarih": "2026-11-12T09:27:00.000Z",
-      "kaynak": "HABER7"
+      "baslik": "Trump'ın İran açıklaması piyasaları sarstı: Petrol yükseldi altın geriledi",
+      "ozet": "Trump’ın İran’la anlaşma yapmaya ihtiyaç duymadıklarını açıklaması petrol fiyatlarını yukarı taşıyarak ABD tipi ham petrolde gün içindeki kayıpların telafi edilmesini sağladı. Doların değer kazanması ise ons altın fiy...",
+      "link": "https://www.ekonomim.com/finans/haberler/trumpin-iran-aciklamasi-petrolu-yukseltti-altin-dolar-baskisiyla-geriledi-haberi-930885",
+      "tarih": "2026-11-12T13:45:00.000Z",
+      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Hürmüz Boğazı’nda iki süper tankerde patlama ve yangın",
@@ -74,13 +56,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-12-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2555546",
       "tarih": "2026-11-12T06:58:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrolün varili 92,70 dolardan işlem görüyor",
-      "ozet": "Dün 94,73 dolara kadar yükselen Brent petrolün ocak vadeli varil fiyatı, günü 92,76 dolardan tamamladı.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9270-dolardan-islem-goruyor-963012.html",
-      "tarih": "2026-11-12T06:38:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Benzine indirim geldi",
@@ -118,27 +93,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Benzine indirim geldi",
-      "ozet": "Uluslararası ürün fiyatlarında yaşanan düşüşün ardından benzinin litre fiyatına ortalama 3,40 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı",
-      "link": "https://www.haberturk.com/ekonomi/son-dakika-arac-sahipleri-dikkat-benzine-dev-indirim-geldi-iste-12-kasim-2026-guncel-benzin-motorin-lpg-fiyatlari-3926696",
-      "tarih": "2026-11-12T04:22:55.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Husiler duyurdu: Suudi Arabistan'daki Kral Halid Havalimanı ile petrol tesisi hedef alındı",
-      "ozet": "Husilerin askeri sözcüsü Yahya Seri, yaptığı yazılı açıklamada, seyir füzeleri ve insansız hava araçlarıyla Suudi Arabistan'a saldırılar düzenlediklerini belirtti.",
-      "link": "https://www.birgun.net/haber/husiler-duyurdu-suudi-arabistan-daki-kral-halid-havalimani-ile-petrol-tesisi-hedef-alindi-745921",
-      "tarih": "2026-11-11T20:12:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Benzin ve motorine indirim geleceği tarih açıklandı",
-      "ozet": "Küresel petrol piyasasındaki hareketlilik ve döviz kurlarındaki değişim akaryakıt fiyatlarını etkilemeyi sürdürüyor. Sek...",
-      "link": "https://www.sozcu.com.tr/benzin-ve-motorine-indirim-gelecegi-tarih-aciklandi-p380141",
-      "tarih": "2026-11-11T12:02:55.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "İçten yanmalı motorlar için karar verildi",
       "ozet": "Elektrikli otomobillere geçiş hız kazanırken benzinli ve dizel motorların geleceği yeniden gündeme geldi. Mercedes-Benz,...",
       "link": "https://www.sozcu.com.tr/icten-yanmali-motorlar-icin-karar-verildi-p380222",
@@ -158,13 +112,6 @@
       "link": "https://www.sozcu.com.tr/brent-petrol-92-dolara-tutunuyor-p380192",
       "tarih": "2026-11-11T07:17:55.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Akaryakıtta çifte indirim rüzgarı: Petroldeki çakılma pompaya yansıyacak",
-      "ozet": "Küresel piyasalarda Brent petrol fiyatlarının aşağı yönlü seyri, araç sahiplerinin yüzünü güldürmeye devam ediyor. Geçtiğimiz hafta pompa fiyatlarına yansıyan indirim kararlarının ardından, sektör kaynaklarından benzi...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-cifte-indirim-ruzgari-petroldeki-cakilma-pompaya-yansiyacak-iste-il-il-guncel-motorin-ve-benzin-fiyatlari-4871431",
-      "tarih": "2026-11-11T06:49:47.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Petrolde tahminler yükselmeye devam ediyor",
