@@ -1,11 +1,13 @@
 {
-  "guncelleme": "2026-11-12T19:22:31.658Z",
+  "guncelleme": "2026-11-13T00:46:02.572Z",
   "kaynaklar": [
-    "TRTHABER",
     "EKONOMIM",
+    "DUNYA",
+    "SABAH",
+    "HABER7",
+    "TRTHABER",
     "BIRGUN",
     "CUMHURIYET",
-    "BLOOMBERGHT",
     "YENISAFAK",
     "SOZCU",
     "HURRIYET"
@@ -23,25 +25,39 @@
   },
   "haberler": [
     {
+      "baslik": "New York borsası düşüşle kapandı",
+      "ozet": "New York borsası, Nvidia hisselerindeki değer kaybı ve petrol fiyatlarındaki artış sonrasında günü düşüşle tamamladı.",
+      "link": "https://www.ekonomim.com/finans/haberler/borsa/new-york-borsasi-dususle-kapandi-haberi-930959",
+      "tarih": "2026-11-12T22:15:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "New York borsası düşüşle kapandı",
+      "ozet": "New York borsası, Nvidia hisselerindeki değer kaybı ve petrol fiyatlarındaki artış sonrasında günü düşüşle tamamladı.",
+      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-kapandi-haberi-847466",
+      "tarih": "2026-11-12T21:59:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "T.C. PATNOS 4. ASLİYE HUKUK MAHKEMESİ",
+      "ozet": "T.C. PATNOS 4. ASLİYE HUKUK MAHKEMESİ KAMULAŞTIRMA İLANI Dosya Esas No : 2026/148 Esas Kamulaştırmayı Yapan İdare : BOTAŞ (Boru Hatları İle Petrol Taşıma A.Ş.) Davalılar...Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/resmi-ilan/2026/11/12/tc-patnos-4-asliye-hukuk-mahkemesi",
+      "tarih": "2026-11-12T21:01:17.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Husiler resmen duyurdu: Suudi Arabistan'ın kritik noktalarına füzeli saldırı!",
+      "ozet": "Yemen'deki İran destekli Husiler, Suudi Arabistan'daki petrol tesisleri ve askeri noktalara insansız hava araçları (İHA) ve balistik füzelerle 4 saldırı düzenlediklerini belirtti.",
+      "link": "https://www.haber7.com/dunya/haber/3676401-husiler-resmen-duyurdu-suudi-arabistanin-kritik-noktalarina-fuzeli-saldiri",
+      "tarih": "2026-11-12T19:51:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
       "baslik": "İran Ordusu: Hürmüz Boğazı'nda 2 petrol tankeri deniz mayınına çarparak alev aldı",
       "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda 2 petrol tankerinin deniz mayınına çarpması sonucu alev aldığını duyurdu.",
       "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-963094.html",
       "tarih": "2026-11-12T15:01:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Nvidia krizi Wall Street'i sarstı: Teknoloji hisseleri geriledi, dolar yükseldi",
-      "ozet": "Küresel finans piyasalarında Nvidia CEO'su Jensen Huang'ın geleceğine ilişkin gelişmeler, ABD'de beklentilerin üzerinde gelen enflasyon verileri ve yükselen faiz beklentileri satış baskısını artırdı. Asya teknoloji hi...",
-      "link": "https://www.ekonomim.com/dunya/nvidia-krizi-wall-streeti-sarsti-teknoloji-hisseleri-geriledi-dolar-yukseldi-haberi-930892",
-      "tarih": "2026-11-12T14:45:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Trump'ın İran açıklaması piyasaları sarstı: Petrol yükseldi altın geriledi",
-      "ozet": "Trump’ın İran’la anlaşma yapmaya ihtiyaç duymadıklarını açıklaması petrol fiyatlarını yukarı taşıyarak ABD tipi ham petrolde gün içindeki kayıpların telafi edilmesini sağladı. Doların değer kazanması ise ons altın fiy...",
-      "link": "https://www.ekonomim.com/finans/haberler/trumpin-iran-aciklamasi-petrolu-yukseltti-altin-dolar-baskisiyla-geriledi-haberi-930885",
-      "tarih": "2026-11-12T13:45:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Hürmüz Boğazı’nda iki süper tankerde patlama ve yangın",
@@ -56,20 +72,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-12-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2555546",
       "tarih": "2026-11-12T06:58:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine indirim geldi",
-      "ozet": "Uluslararası ürün fiyatlarında yaşanan gerilemenin ardından benzinin litre fiyatına 12 Kasım tarihinden itibaren geçerli olmak üzere 3,48 TL indirim geldi.",
-      "link": "https://www.bloomberght.com/benzine-indirim-geldi-3794274",
-      "tarih": "2026-11-12T06:36:12.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrolde iki ayın en düşük seviyesi",
-      "ozet": "Petrol fiyatları, Orta Doğu'daki petrol üretiminin artması ve İran ile ABD arasındaki çatışmaların sakin seyretmesiyle son iki ayın en düşük seviyesine geriledi.",
-      "link": "https://www.bloomberght.com/petrolde-iki-ayin-en-dusuk-seviyesi-3794261",
-      "tarih": "2026-11-12T05:49:37.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Akaryakıtta indirim sevinci: Benzin fiyatları gece yarısı değişti işte 12 Kasım güncel pompa fiyatları",
