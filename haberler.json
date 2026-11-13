@@ -1,15 +1,17 @@
 {
-  "guncelleme": "2026-11-13T00:46:02.572Z",
+  "guncelleme": "2026-11-13T11:39:34.748Z",
   "kaynaklar": [
-    "EKONOMIM",
+    "SOZCU",
+    "AKSAM",
     "DUNYA",
-    "SABAH",
     "HABER7",
+    "BLOOMBERGHT",
     "TRTHABER",
-    "BIRGUN",
+    "EKONOMIM",
+    "AA",
     "CUMHURIYET",
     "YENISAFAK",
-    "SOZCU",
+    "BIRGUN",
     "HURRIYET"
   ],
   "beklenti": {
@@ -17,7 +19,26 @@
       "expected": false
     },
     "benzin": {
-      "expected": false
+      "expected": true,
+      "direction": "dusus",
+      "amount": 3.54,
+      "tarih": "2026-11-14",
+      "tarihDurumu": "tek-kaynak",
+      "tarihDogrulayanSayisi": 1,
+      "tarihAdaylari": [
+        "2026-11-14"
+      ],
+      "dogrulayanKaynakSayisi": 1,
+      "kaynaklar": [
+        {
+          "kaynak": "YENISAFAK",
+          "kaynakLink": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032",
+          "tarih": "2026-11-14"
+        }
+      ],
+      "kaynakBaslik": "Akaryakıta bir indirim daha geliyor: Tarih netleşti tabelalar değişiyor",
+      "kaynak": "YENISAFAK",
+      "kaynakLink": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032"
     },
     "lpg": {
       "expected": false
@@ -25,46 +46,130 @@
   },
   "haberler": [
     {
-      "baslik": "New York borsası düşüşle kapandı",
-      "ozet": "New York borsası, Nvidia hisselerindeki değer kaybı ve petrol fiyatlarındaki artış sonrasında günü düşüşle tamamladı.",
-      "link": "https://www.ekonomim.com/finans/haberler/borsa/new-york-borsasi-dususle-kapandi-haberi-930959",
-      "tarih": "2026-11-12T22:15:00.000Z",
-      "kaynak": "EKONOMIM"
+      "baslik": "Motorine 4 lira indirim mi gelecek?",
+      "ozet": "Akaryakıt piyasasında benzin fiyatlarındaki düşüşün ardından motorin grubu için de indirim yapılacağına dair iddialar gü...",
+      "link": "https://www.sozcu.com.tr/motorine-4-lira-indirim-mi-gelecek-p380963",
+      "tarih": "2026-11-13T11:19:33.000Z",
+      "kaynak": "SOZCU"
     },
     {
-      "baslik": "New York borsası düşüşle kapandı",
-      "ozet": "New York borsası, Nvidia hisselerindeki değer kaybı ve petrol fiyatlarındaki artış sonrasında günü düşüşle tamamladı.",
-      "link": "https://www.dunya.com/finans/haberler/new-york-borsasi-dususle-kapandi-haberi-847466",
-      "tarih": "2026-11-12T21:59:00.000Z",
+      "baslik": "Motorine indirim ne zaman, saat kaçta gelecek?",
+      "ozet": "Akaryakıt fiyatlarında araç sahiplerini yakından ilgilendiren yeni bir gelişme yaşandı. Benzine yapılan indirimin ardından bu kez motorin fiyatlarında düşüş beklentisi gündeme geldi. Sektör kaynaklarından gelen bilgil...",
+      "link": "https://www.aksam.com.tr/trend/motorine-indirim-ne-zaman-saat-kacta-gelecek/haber-1714367",
+      "tarih": "2026-11-13T11:11:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Petrol yüzde 32 ucuzladı, motorin savaş öncesinden yüzde 77 pahalı",
+      "ozet": "Petrol fiyatları ekim zirvesinden yüzde 32 gerilerken Avrupa'da motorin yalnızca yüzde 11 ucuzladı. Uluslararası Enerji Ajansına göre motorin savaş öncesine kıyasla yüzde 77 pahalı; arz fazlasına rağmen rafine yakıt s...",
+      "link": "https://www.dunya.com/enerji/petrol-yuzde-32-ucuzladi-motorin-savas-oncesinden-yuzde-77-pahali-haberi-847529",
+      "tarih": "2026-11-13T10:50:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "T.C. PATNOS 4. ASLİYE HUKUK MAHKEMESİ",
-      "ozet": "T.C. PATNOS 4. ASLİYE HUKUK MAHKEMESİ KAMULAŞTIRMA İLANI Dosya Esas No : 2026/148 Esas Kamulaştırmayı Yapan İdare : BOTAŞ (Boru Hatları İle Petrol Taşıma A.Ş.) Davalılar...Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/resmi-ilan/2026/11/12/tc-patnos-4-asliye-hukuk-mahkemesi",
-      "tarih": "2026-11-12T21:01:17.000Z",
-      "kaynak": "SABAH"
-    },
-    {
-      "baslik": "Husiler resmen duyurdu: Suudi Arabistan'ın kritik noktalarına füzeli saldırı!",
-      "ozet": "Yemen'deki İran destekli Husiler, Suudi Arabistan'daki petrol tesisleri ve askeri noktalara insansız hava araçları (İHA) ve balistik füzelerle 4 saldırı düzenlediklerini belirtti.",
-      "link": "https://www.haber7.com/dunya/haber/3676401-husiler-resmen-duyurdu-suudi-arabistanin-kritik-noktalarina-fuzeli-saldiri",
-      "tarih": "2026-11-12T19:51:00.000Z",
+      "baslik": "Küresel petrol arzı 2027’de günlük 108,1 milyon varile çıkacak",
+      "ozet": "IEA’ya göre küresel petrol arzı, Körfez ülkelerinin ihracatındaki artışın etkisiyle ekimde günlük 2,3 milyon varil yükselerek 105,36 milyon varile ulaştı. İşte detaylar...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3676544-kuresel-petrol-arzi-2027de-gunluk-1081-milyon-varile-cikacak",
+      "tarih": "2026-11-13T10:38:00.000Z",
       "kaynak": "HABER7"
     },
     {
-      "baslik": "İran Ordusu: Hürmüz Boğazı'nda 2 petrol tankeri deniz mayınına çarparak alev aldı",
-      "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda 2 petrol tankerinin deniz mayınına çarpması sonucu alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-963094.html",
-      "tarih": "2026-11-12T15:01:00.000Z",
+      "baslik": "Ekim'de küresel petrol arzında artış",
+      "ozet": "Uluslararası Enerji Ajansı (UEA), Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının Ekim'de önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon 360 bin varile yükseldiğini bildirdi.",
+      "link": "https://www.bloomberght.com/ekim-de-kuresel-petrol-arzinda-artis-3794572",
+      "tarih": "2026-11-13T09:14:50.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Küresel petrol arzı ekimde arttı",
+      "ozet": "Uluslararası Enerji Ajansı IEA, Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının ekimde önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon 360 bin varile yükseldiğini bildirdi.",
+      "link": "https://www.trthaber.com/haber/ekonomi/kuresel-petrol-arzi-ekimde-artti-963171.html",
+      "tarih": "2026-11-13T09:09:00.000Z",
       "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Hürmüz Boğazı’nda iki süper tankerde patlama ve yangın",
-      "ozet": "İran Devrim Muhafızları, dün gece, 4 milyon varilden fazla petrol taşıyan iki süper tankerin, Hürmüz Boğazı’ndan \"uyarılara rağmen\" geçmeye çalışırken kaza yaptığını ve her iki tankerde de patlama ve yangın çıktığını ...",
-      "link": "https://www.birgun.net/haber/hurmuz-bogazinda-iki-super-tankerde-patlama-ve-yangin-745985",
-      "tarih": "2026-11-12T07:56:00.000Z",
+      "baslik": "IEA’dan petrol arzı tahmini: Küresel petrol arzı 2027’de günlük 108,1 milyon varile çıkacak",
+      "ozet": "IEA’ya göre küresel petrol arzı, Körfez ülkelerinin ihracatındaki artışın etkisiyle ekimde günlük 2,3 milyon varil yükselerek 105,36 milyon varile ulaştı. Ayrıca IEA, küresel petrol arzının bu yıl günlük 101,6 milyon ...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/iea-duyurdu-kuresel-petrol-arzinda-ekim-ayinda-rekor-artis-haberi-931044",
+      "tarih": "2026-11-13T09:07:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Küresel petrol arzı ekimde günlük 2,3 milyon varil arttı",
+      "ozet": "Uluslararası Enerji Ajansı (IEA), Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının ekimde önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon 360 bin varile yükseldiğini bildirdi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-petrol-arzi-ekimde-gunluk-2-3-milyon-varil-artti/4123813",
+      "tarih": "2026-11-13T09:03:29.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Motorin fiyatlarına 4 TL'lik indirim yolda: Tarih belli oldu",
+      "ozet": "Küresel petrol fiyatlarındaki gerileme, akaryakıt pompalarında indirim beklentisini güçlendirdi. Benzinin ardından motorin fiyatlarında da cumartesi gününden itibaren yeni bir düşüş yaşanması bekleniyor.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-4-tl-lik-indirim-yolda-tarih-belli-oldu-2555849",
+      "tarih": "2026-11-13T08:58:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Şeker fiyatları enerji ve taşımacılık maliyetlerindeki artışın etkisiyle yükselişini üçüncü aya taşıdı",
+      "ozet": "Şeker fiyatları, petrol fiyatları ile sigorta ve taşımacılık maliyetlerindeki artışların etkisiyle ekimde yükselişini üçüncü ayına taşıdı.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/seker-fiyatlari-enerji-ve-tasimacilik-maliyetlerindeki-artisin-etkisiyle-yukselisini-ucuncu-aya-tasidi/4123728",
+      "tarih": "2026-11-13T08:04:37.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 13 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-13-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2555825",
+      "tarih": "2026-11-13T07:35:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı 96,27 dolara yükseldi",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda yaklaşık yüzde 0,47 artışla 96,27 dolara yükseldi. Orta Doğu'daki jeopolitik riskler ve ABD stoklarındaki artış fiyatları etkiliyor.",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-9627-dolara-yukseldi-4872041",
+      "tarih": "2026-11-13T06:59:51.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Brent petrolün varili 96,27 dolardan işlem görüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 96,27 dolardan işlem görüyor.",
+      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9627-dolardan-islem-goruyor-963152.html",
+      "tarih": "2026-11-13T06:50:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "13 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
+      "ozet": "13 Kasım 2026 Cuma günü akaryakıt fiyatlarında yaşanan gelişmeler araç sahiplerinin gündeminde. Benzinin litre fiyatına yapılan 3,54 TL'lik indirimin ardından gözler motorin fiyatlarına çevrildi. Brent petrol fiyatlar...",
+      "link": "https://www.birgun.net/haber/13-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-746167",
+      "tarih": "2026-11-13T06:44:00.000Z",
       "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Akaryakıta bir indirim daha geliyor: Tarih netleşti tabelalar değişiyor",
+      "ozet": "Brent petrolün 92 doların altına gerilemesiyle benzinde yapılan 3,54 TL'lik indirimin ardından gözler motorine çevrildi. 14 Kasım Cumartesi günü pompaya yansıyacak yeni indirim öncesi İstanbul, Ankara ve İzmir'deki gü...",
+      "link": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032",
+      "tarih": "2026-11-13T06:33:12.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "ABD'deki ticari ham petrol stokları 5 milyon varile yakın arttı",
+      "ozet": "ABD Enerji Enformasyon İdaresi (EIA), geçen hafta ticari ham petrol stoklarının önceki haftaya göre yaklaşık 4 milyon 700 bin varil artarak 414 milyon 400 bin varile ulaştığını bildirdi. Piyasa beklentisi stokların ya...",
+      "link": "https://www.yenisafak.com/ekonomi/abdde-ham-petrol-stoklari-4-milyon-700-bin-varil-artti-4872008",
+      "tarih": "2026-11-13T05:49:32.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Petrolde Trump gerginliği sürüyor",
+      "ozet": "Petrol fiyatları, ABD Başkanı Donald Trump'ın İran ile bir anlaşmadan vazgeçebileceklerini açıklaması ve Orta Doğu enerji arzını sarsan savaşı bitirecek diplomatik çaba umutlarını zayıflatmasının ardından kazançlarını...",
+      "link": "https://www.bloomberght.com/petrolde-trump-gerginligi-suruyor-3794519",
+      "tarih": "2026-11-13T05:21:23.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Küresel piyasalarda yeniden petrol gündemi",
+      "ozet": "Nvidia'daki gelişmelerin ardından Wall Street borsaları gerilerken, Trump'ın İran'la bir anlaşmaya ihtiyaç duymadıklarını söylemesiyle yükselen petrol fiyatları ABD tahvil getirilerini yukarı çekti.",
+      "link": "https://www.bloomberght.com/kuresel-piyasalarda-yeniden-petrol-gundemi-3794518",
+      "tarih": "2026-11-13T04:58:40.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Benzine, mazota indirim var mı? 12 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -74,53 +179,11 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Akaryakıtta indirim sevinci: Benzin fiyatları gece yarısı değişti işte 12 Kasım güncel pompa fiyatları",
-      "ozet": "Uluslararası petrol piyasalarında yaşanan gelişmeler akaryakıt fiyatlarına indirim olarak yansıdı. ABD ile İran arasındaki barış görüşmelerinde ilerleme sağlanması ve Hürmüz Boğazı'ndan petrol sevkiyatının hız kazanma...",
-      "link": "https://www.yenisafak.com/ekonomi/akaryakitta-indirim-sevinci-benzin-fiyatlari-gece-yarisi-degisti-iste-12-kasim-guncel-pompa-fiyatlari-4871690",
-      "tarih": "2026-11-12T05:44:35.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Benzine indirim geldi: Fiyatlar pompaya yansıdı",
-      "ozet": "Petrol fiyatları, Ortadoğu'daki barış görüşmeleri ve Rusya-Ukrayna savaşında ilerleme sağlanabileceğine yönelik beklentilerle geriledi. Brent petrolün varil fiyatı 91,45 dolara düşerken benzine yapılan 3 lira 40 kuruş...",
-      "link": "https://www.birgun.net/haber/benzine-indirim-geldi-fiyatlar-pompaya-yansidi-745947",
-      "tarih": "2026-11-12T04:44:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Akaryakıt tabelaları değişti: Benzine indirim geldi",
-      "ozet": "Küresel piyasalarda yaşanan gelişmeler akaryakıt fiyatlarını etkiledi. Petrol fiyatlarındaki gerilemenin ardından pompad...",
-      "link": "https://www.sozcu.com.tr/akaryakit-tabelalari-degisti-benzine-indirim-geldi-p380488",
-      "tarih": "2026-11-12T04:35:21.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "İçten yanmalı motorlar için karar verildi",
-      "ozet": "Elektrikli otomobillere geçiş hız kazanırken benzinli ve dizel motorların geleceği yeniden gündeme geldi. Mercedes-Benz,...",
-      "link": "https://www.sozcu.com.tr/icten-yanmali-motorlar-icin-karar-verildi-p380222",
-      "tarih": "2026-11-11T08:06:02.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "Benzine, mazota indirim var mı? 11 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-11-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2555280",
       "tarih": "2026-11-11T07:44:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrol 92 dolara tutunuyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,58 dolardan işlem görüyor.",
-      "link": "https://www.sozcu.com.tr/brent-petrol-92-dolara-tutunuyor-p380192",
-      "tarih": "2026-11-11T07:17:55.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrolde tahminler yükselmeye devam ediyor",
-      "ozet": "ABD Enerji Enformasyon İdaresi (EIA), küresel petrol stoklarındaki düşüş ve Orta Doğu'daki çatışmaların arz ve taşımacıl...",
-      "link": "https://www.sozcu.com.tr/petrolde-tahminler-yukselmeye-devam-ediyor-p380166",
-      "tarih": "2026-11-11T06:33:47.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Elektrik faturalarında yüzde 96 zam hesabı: 2027'de yeni dönem başlıyor",
@@ -155,27 +218,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-mi-gelecek-6-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553822",
       "tarih": "2026-11-06T06:36:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol piyasasında 'ara seçim' ve 'İran' etkisi: Fiyatlar sert düştü",
-      "ozet": "ABD ara seçimlerinde Demokratların Kongre'de öne geçmesi, İran ile diplomatik çözüm umutlarını artırarak petrol fiyatlarını aşağı çekti. Dün 104 doları gören Brent petrolün varil fiyatı yeni günde 94,07 dolara geriled...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/petrol-piyasasinda-ara-secim-ve-iran-etkisi-fiyatlar-sert-dustu-2553510",
-      "tarih": "2026-11-05T07:32:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota ne kadar zam gelecek? 5 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-ne-kadar-zam-gelecek-5-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553480",
-      "tarih": "2026-11-05T06:35:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Küresel piyasalarda seçim rüzgârı: Dolar ve petrol düşüşte, gözler merkez bankalarında",
-      "ozet": "ABD ara seçimlerinde Demokratların Kongre'de elde ettiği başarı piyasalardaki siyasi belirsizliği azaltarak risk iştahını artırdı. Dolar endeksinin son 5 haftanın en düşük seviyesine inmesiyle altının onsu 4.137 dolar...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/kuresel-piyasalarda-secim-ruzgari-dolar-ve-petrol-dususte-gozler-merkez-bankalarinda-2553475",
-      "tarih": "2026-11-05T06:30:00.000Z",
       "kaynak": "CUMHURIYET"
     },
     {
