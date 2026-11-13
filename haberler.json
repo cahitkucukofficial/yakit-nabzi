@@ -1,13 +1,10 @@
 {
-  "guncelleme": "2026-11-13T11:39:34.748Z",
+  "guncelleme": "2026-11-13T18:51:32.472Z",
   "kaynaklar": [
+    "EKONOMIM",
     "SOZCU",
-    "AKSAM",
-    "DUNYA",
-    "HABER7",
     "BLOOMBERGHT",
     "TRTHABER",
-    "EKONOMIM",
     "AA",
     "CUMHURIYET",
     "YENISAFAK",
@@ -46,32 +43,25 @@
   },
   "haberler": [
     {
+      "baslik": "Petrol yüzde 32 ucuzladı, motorin savaş öncesinden yüzde 77 pahalı",
+      "ozet": "Küresel petrol fiyatları beş haftada yüzde 32 gerileyerek 136 dolardan 93 dolara kadar indi. Ancak ham petroldeki sert düşüş motorin fiyatlarına aynı ölçüde yansımadı. Uluslararası Enerji Ajansının 13 Kasım tarihli ra...",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/petrol-yuzde-32-ucuzladi-motorin-savas-oncesinden-yuzde-77-pahali-haberi-931099",
+      "tarih": "2026-11-13T12:51:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "IEA'dan 2027 tahmini: Petrolde arz artışı talebi aşacak",
+      "ozet": "Uluslararası Enerji Ajansı, 2027'de küresel petrol arzının günlük yaklaşık 6,5 milyon varil, talebin ise 2 milyon varil ...",
+      "link": "https://www.sozcu.com.tr/ieadan-2027-tahmini-petrolde-arz-artisi-talebi-asacak-p381075",
+      "tarih": "2026-11-13T12:46:32.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
       "baslik": "Motorine 4 lira indirim mi gelecek?",
       "ozet": "Akaryakıt piyasasında benzin fiyatlarındaki düşüşün ardından motorin grubu için de indirim yapılacağına dair iddialar gü...",
       "link": "https://www.sozcu.com.tr/motorine-4-lira-indirim-mi-gelecek-p380963",
       "tarih": "2026-11-13T11:19:33.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Motorine indirim ne zaman, saat kaçta gelecek?",
-      "ozet": "Akaryakıt fiyatlarında araç sahiplerini yakından ilgilendiren yeni bir gelişme yaşandı. Benzine yapılan indirimin ardından bu kez motorin fiyatlarında düşüş beklentisi gündeme geldi. Sektör kaynaklarından gelen bilgil...",
-      "link": "https://www.aksam.com.tr/trend/motorine-indirim-ne-zaman-saat-kacta-gelecek/haber-1714367",
-      "tarih": "2026-11-13T11:11:00.000Z",
-      "kaynak": "AKSAM"
-    },
-    {
-      "baslik": "Petrol yüzde 32 ucuzladı, motorin savaş öncesinden yüzde 77 pahalı",
-      "ozet": "Petrol fiyatları ekim zirvesinden yüzde 32 gerilerken Avrupa'da motorin yalnızca yüzde 11 ucuzladı. Uluslararası Enerji Ajansına göre motorin savaş öncesine kıyasla yüzde 77 pahalı; arz fazlasına rağmen rafine yakıt s...",
-      "link": "https://www.dunya.com/enerji/petrol-yuzde-32-ucuzladi-motorin-savas-oncesinden-yuzde-77-pahali-haberi-847529",
-      "tarih": "2026-11-13T10:50:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Küresel petrol arzı 2027’de günlük 108,1 milyon varile çıkacak",
-      "ozet": "IEA’ya göre küresel petrol arzı, Körfez ülkelerinin ihracatındaki artışın etkisiyle ekimde günlük 2,3 milyon varil yükselerek 105,36 milyon varile ulaştı. İşte detaylar...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3676544-kuresel-petrol-arzi-2027de-gunluk-1081-milyon-varile-cikacak",
-      "tarih": "2026-11-13T10:38:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Ekim'de küresel petrol arzında artış",
@@ -86,13 +76,6 @@
       "link": "https://www.trthaber.com/haber/ekonomi/kuresel-petrol-arzi-ekimde-artti-963171.html",
       "tarih": "2026-11-13T09:09:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "IEA’dan petrol arzı tahmini: Küresel petrol arzı 2027’de günlük 108,1 milyon varile çıkacak",
-      "ozet": "IEA’ya göre küresel petrol arzı, Körfez ülkelerinin ihracatındaki artışın etkisiyle ekimde günlük 2,3 milyon varil yükselerek 105,36 milyon varile ulaştı. Ayrıca IEA, küresel petrol arzının bu yıl günlük 101,6 milyon ...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/iea-duyurdu-kuresel-petrol-arzinda-ekim-ayinda-rekor-artis-haberi-931044",
-      "tarih": "2026-11-13T09:07:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Küresel petrol arzı ekimde günlük 2,3 milyon varil arttı",
@@ -130,13 +113,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Brent petrolün varili 96,27 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 96,27 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9627-dolardan-islem-goruyor-963152.html",
-      "tarih": "2026-11-13T06:50:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "13 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
       "ozet": "13 Kasım 2026 Cuma günü akaryakıt fiyatlarında yaşanan gelişmeler araç sahiplerinin gündeminde. Benzinin litre fiyatına yapılan 3,54 TL'lik indirimin ardından gözler motorin fiyatlarına çevrildi. Brent petrol fiyatlar...",
       "link": "https://www.birgun.net/haber/13-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-746167",
@@ -162,13 +138,6 @@
       "ozet": "Petrol fiyatları, ABD Başkanı Donald Trump'ın İran ile bir anlaşmadan vazgeçebileceklerini açıklaması ve Orta Doğu enerji arzını sarsan savaşı bitirecek diplomatik çaba umutlarını zayıflatmasının ardından kazançlarını...",
       "link": "https://www.bloomberght.com/petrolde-trump-gerginligi-suruyor-3794519",
       "tarih": "2026-11-13T05:21:23.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Küresel piyasalarda yeniden petrol gündemi",
-      "ozet": "Nvidia'daki gelişmelerin ardından Wall Street borsaları gerilerken, Trump'ın İran'la bir anlaşmaya ihtiyaç duymadıklarını söylemesiyle yükselen petrol fiyatları ABD tahvil getirilerini yukarı çekti.",
-      "link": "https://www.bloomberght.com/kuresel-piyasalarda-yeniden-petrol-gundemi-3794518",
-      "tarih": "2026-11-13T04:58:40.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
@@ -211,13 +180,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-7-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554098",
       "tarih": "2026-11-07T07:10:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota indirim mi gelecek? 6 Ekim Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-mi-gelecek-6-ekim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2553822",
-      "tarih": "2026-11-06T06:36:00.000Z",
       "kaynak": "CUMHURIYET"
     },
     {
