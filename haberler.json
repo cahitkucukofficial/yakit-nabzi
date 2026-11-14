@@ -1,12 +1,16 @@
 {
-  "guncelleme": "2026-11-14T00:31:27.044Z",
+  "guncelleme": "2026-11-14T11:01:33.640Z",
   "kaynaklar": [
+    "EKONOMIM",
+    "HABER7",
+    "DUNYA",
+    "TRTHABER",
+    "AA",
+    "YENISAFAK",
     "SOZCU",
     "BLOOMBERGHT",
-    "AA",
     "CUMHURIYET",
-    "YENISAFAK",
-    "BIRGUN"
+    "HURRIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -40,6 +44,69 @@
   },
   "haberler": [
     {
+      "baslik": "Hürmüz'deki kriz sonrası 3 ülkeden ortak petrol rezervi hamlesi: Hedef 2027",
+      "ozet": "Güneydoğu Asya Ülkeleri Birliği (ASEAN) üyeleri, olası enerji krizlerine karşı ortak petrol rezervi sistemi oluşturmak için harekete geçti. Japonya'nın desteğiyle hayata geçirilmesi planlanan sistem kapsamında Endonez...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/hurmuzdeki-kriz-sonrasi-3-ulkeden-ortak-petrol-rezervi-hamlesi-hedef-2027-haberi-931247",
+      "tarih": "2026-11-14T10:58:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "İran duyurdu: İzinsiz geçmeye çalışmışlardı...Hürmüz'de 2 mayın patlaması daha!",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz'den izinsiz geçmeye çalışan ve biri süper tanker olan 2 petrol tankerinin deniz mayınlarına çarparak infilak ettiğini duyurdu. Gemilerde yangın çıkarken DMO denizcilik şirketleri...",
+      "link": "https://www.haber7.com/dunya/haber/3676860-iran-duyurdu-izinsiz-gecmeye-calismislardihurmuzde-2-mayin-patlamasi-daha",
+      "tarih": "2026-11-14T10:57:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Pluxee yemek kartı Petrol Ofisi marketlerinde kullanıma açıldı",
+      "ozet": "Çalışan deneyimi ve yan haklar dünyasının lideri Pluxee, Türkiye akaryakıt pazarının geleneksel lideri Petrol Ofisi Grubu ile yeni bir iş birliğine imza attı. İş birliği kapsamında Pluxee yemek kartı kullanıcıları, Pe...",
+      "link": "https://www.ekonomim.com/sirketler/pluxee-yemek-karti-petrol-ofisi-marketlerinde-kullanima-acildi-haberi-931238",
+      "tarih": "2026-11-14T09:49:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Küresel piyasalarda gözler yeni haftaya çevrildi! İşte takip edilecek gelişmeler",
+      "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın üst yöneticisi (CEO) Jensen Huang'ın istifasına karşın şirket kaynaklı endişelerin küresel yapay zeka sektörüne etkilerinin sınırlı olabileceğine yönelik tahminler ve...",
+      "link": "https://www.dunya.com/finans/haberler/kuresel-piyasalarda-gozler-yeni-haftaya-cevrildi-iste-takip-edilecek-gelismeler-haberi-847597",
+      "tarih": "2026-11-14T08:36:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Piyasalarda yeni hafta hareketli geçecek: İşte takip edilecek gelişmeler",
+      "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/piyasalarda-yeni-hafta-hareketli-gececek-iste-takip-edilecek-gelismeler-haberi-931225",
+      "tarih": "2026-11-14T08:25:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Küresel piyasalarda alış ağırlıklı seyrin ardından gözler yeni haftaya çevrildi",
+      "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın üst yöneticisi CEO Jensen Huang'ın istifasına karşın şirket kaynaklı endişelerin küresel yapay zeka sektörüne etkilerinin sınırlı olabileceğine yönelik tahminler ve p...",
+      "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-alis-agirlikli-seyrin-ardindan-gozler-yeni-haftaya-cevrildi-963250.html",
+      "tarih": "2026-11-14T08:25:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
+      "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi/4124938",
+      "tarih": "2026-11-14T08:14:36.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "İran: Hürmüz Boğazı'nda bir tanker mayına çarparak alev aldı",
+      "ozet": "İran ordusu, Hürmüz Boğazının doğusunda bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-mayina-carparak-alev-aldi-963247.html",
+      "tarih": "2026-11-14T07:37:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "ABD'de petrol sondaj kulesi sayısı bir önceki haftaya göre sabit kaldı",
+      "ozet": "Petrol sahası hizmetleri şirketi Baker Hughes'un haftalık verilerine göre ABD'deki petrol sondaj kulesi sayısı 7-13 Kasım tarihlerinde bir önceki haftaya göre sabit kalarak 463 oldu.",
+      "link": "https://www.yenisafak.com/ekonomi/abdde-petrol-sondaj-kulesi-sayisi-463te-sabit-kaldi-4872356",
+      "tarih": "2026-11-14T06:41:22.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
       "baslik": "IEA'dan 2027 tahmini: Petrolde arz artışı talebi aşacak",
       "ozet": "Uluslararası Enerji Ajansı, 2027'de küresel petrol arzının günlük yaklaşık 6,5 milyon varil, talebin ise 2 milyon varil ...",
       "link": "https://www.sozcu.com.tr/ieadan-2027-tahmini-petrolde-arz-artisi-talebi-asacak-p381075",
@@ -61,25 +128,11 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Küresel petrol arzı ekimde günlük 2,3 milyon varil arttı",
-      "ozet": "Uluslararası Enerji Ajansı (IEA), Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının ekimde önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon 360 bin varile yükseldiğini bildirdi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-petrol-arzi-ekimde-gunluk-2-3-milyon-varil-artti/4123813",
-      "tarih": "2026-11-13T09:03:29.000Z",
-      "kaynak": "AA"
-    },
-    {
       "baslik": "Motorin fiyatlarına 4 TL'lik indirim yolda: Tarih belli oldu",
       "ozet": "Küresel petrol fiyatlarındaki gerileme, akaryakıt pompalarında indirim beklentisini güçlendirdi. Benzinin ardından motorin fiyatlarında da cumartesi gününden itibaren yeni bir düşüş yaşanması bekleniyor.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-4-tl-lik-indirim-yolda-tarih-belli-oldu-2555849",
       "tarih": "2026-11-13T08:58:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Şeker fiyatları enerji ve taşımacılık maliyetlerindeki artışın etkisiyle yükselişini üçüncü aya taşıdı",
-      "ozet": "Şeker fiyatları, petrol fiyatları ile sigorta ve taşımacılık maliyetlerindeki artışların etkisiyle ekimde yükselişini üçüncü ayına taşıdı.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/seker-fiyatlari-enerji-ve-tasimacilik-maliyetlerindeki-artisin-etkisiyle-yukselisini-ucuncu-aya-tasidi/4123728",
-      "tarih": "2026-11-13T08:04:37.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Benzine, mazota indirim var mı? 13 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
@@ -96,24 +149,10 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "13 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "13 Kasım 2026 Cuma günü akaryakıt fiyatlarında yaşanan gelişmeler araç sahiplerinin gündeminde. Benzinin litre fiyatına yapılan 3,54 TL'lik indirimin ardından gözler motorin fiyatlarına çevrildi. Brent petrol fiyatlar...",
-      "link": "https://www.birgun.net/haber/13-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-746167",
-      "tarih": "2026-11-13T06:44:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Akaryakıta bir indirim daha geliyor: Tarih netleşti tabelalar değişiyor",
       "ozet": "Brent petrolün 92 doların altına gerilemesiyle benzinde yapılan 3,54 TL'lik indirimin ardından gözler motorine çevrildi. 14 Kasım Cumartesi günü pompaya yansıyacak yeni indirim öncesi İstanbul, Ankara ve İzmir'deki gü...",
       "link": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032",
       "tarih": "2026-11-13T06:33:12.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "ABD'deki ticari ham petrol stokları 5 milyon varile yakın arttı",
-      "ozet": "ABD Enerji Enformasyon İdaresi (EIA), geçen hafta ticari ham petrol stoklarının önceki haftaya göre yaklaşık 4 milyon 700 bin varil artarak 414 milyon 400 bin varile ulaştığını bildirdi. Piyasa beklentisi stokların ya...",
-      "link": "https://www.yenisafak.com/ekonomi/abdde-ham-petrol-stoklari-4-milyon-700-bin-varil-artti-4872008",
-      "tarih": "2026-11-13T05:49:32.000Z",
       "kaynak": "YENISAFAK"
     },
     {
@@ -157,6 +196,13 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-7-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554098",
       "tarih": "2026-11-07T07:10:00.000Z",
       "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı, 94 dolar seviyesine geriledi",
+      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
+      "link": "https://www.hurriyet.com.tr/gundem/brent-petrolun-varil-fiyati-94-dolar-seviyesine-geriledi-43366242",
+      "tarih": "2026-11-04T17:12:00.000Z",
+      "kaynak": "HURRIYET"
     }
   ]
 }
