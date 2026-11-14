@@ -1,15 +1,12 @@
 {
-  "guncelleme": "2026-11-13T18:51:32.472Z",
+  "guncelleme": "2026-11-14T00:31:27.044Z",
   "kaynaklar": [
-    "EKONOMIM",
     "SOZCU",
     "BLOOMBERGHT",
-    "TRTHABER",
     "AA",
     "CUMHURIYET",
     "YENISAFAK",
-    "BIRGUN",
-    "HURRIYET"
+    "BIRGUN"
   ],
   "beklenti": {
     "motorin": {
@@ -43,13 +40,6 @@
   },
   "haberler": [
     {
-      "baslik": "Petrol yüzde 32 ucuzladı, motorin savaş öncesinden yüzde 77 pahalı",
-      "ozet": "Küresel petrol fiyatları beş haftada yüzde 32 gerileyerek 136 dolardan 93 dolara kadar indi. Ancak ham petroldeki sert düşüş motorin fiyatlarına aynı ölçüde yansımadı. Uluslararası Enerji Ajansının 13 Kasım tarihli ra...",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/petrol-yuzde-32-ucuzladi-motorin-savas-oncesinden-yuzde-77-pahali-haberi-931099",
-      "tarih": "2026-11-13T12:51:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "IEA'dan 2027 tahmini: Petrolde arz artışı talebi aşacak",
       "ozet": "Uluslararası Enerji Ajansı, 2027'de küresel petrol arzının günlük yaklaşık 6,5 milyon varil, talebin ise 2 milyon varil ...",
       "link": "https://www.sozcu.com.tr/ieadan-2027-tahmini-petrolde-arz-artisi-talebi-asacak-p381075",
@@ -69,13 +59,6 @@
       "link": "https://www.bloomberght.com/ekim-de-kuresel-petrol-arzinda-artis-3794572",
       "tarih": "2026-11-13T09:14:50.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Küresel petrol arzı ekimde arttı",
-      "ozet": "Uluslararası Enerji Ajansı IEA, Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının ekimde önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon 360 bin varile yükseldiğini bildirdi.",
-      "link": "https://www.trthaber.com/haber/ekonomi/kuresel-petrol-arzi-ekimde-artti-963171.html",
-      "tarih": "2026-11-13T09:09:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Küresel petrol arzı ekimde günlük 2,3 milyon varil arttı",
@@ -134,13 +117,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Petrolde Trump gerginliği sürüyor",
-      "ozet": "Petrol fiyatları, ABD Başkanı Donald Trump'ın İran ile bir anlaşmadan vazgeçebileceklerini açıklaması ve Orta Doğu enerji arzını sarsan savaşı bitirecek diplomatik çaba umutlarını zayıflatmasının ardından kazançlarını...",
-      "link": "https://www.bloomberght.com/petrolde-trump-gerginligi-suruyor-3794519",
-      "tarih": "2026-11-13T05:21:23.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Benzine, mazota indirim var mı? 12 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-12-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2555546",
@@ -181,13 +157,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-7-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554098",
       "tarih": "2026-11-07T07:10:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrolün varil fiyatı, 94 dolar seviyesine geriledi",
-      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
-      "link": "https://www.hurriyet.com.tr/gundem/brent-petrolun-varil-fiyati-94-dolar-seviyesine-geriledi-43366242",
-      "tarih": "2026-11-04T17:12:00.000Z",
-      "kaynak": "HURRIYET"
     }
   ]
 }
