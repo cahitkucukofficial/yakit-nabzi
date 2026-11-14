@@ -1,15 +1,13 @@
 {
-  "guncelleme": "2026-11-14T17:24:05.263Z",
+  "guncelleme": "2026-11-14T23:27:39.053Z",
   "kaynaklar": [
+    "EKONOMIM",
     "HABER7",
     "TRTHABER",
-    "EKONOMIM",
-    "DUNYA",
     "HABERTURK",
     "AA",
     "YENISAFAK",
     "SOZCU",
-    "BLOOMBERGHT",
     "CUMHURIYET"
   ],
   "beklenti": {
@@ -25,6 +23,13 @@
   },
   "haberler": [
     {
+      "baslik": "Irak'ta petrol kaçakçılığı soruşturmasında 5 üst düzey güvenlik yetkilisi görevden alındı",
+      "ozet": "Irak Başbakanı Ali ez-Zeydi, Babil vilayetindeki Curf es-Sahar bölgesinde petrol kaçakçılığına ilişkin yürütülen soruşturma kapsamında 5 üst düzey güvenlik yetkilisini görevden aldı.",
+      "link": "https://www.ekonomim.com/dunya/irakta-petrol-kacakciligi-sorusturmasinda-5-ust-duzey-guvenlik-yetkilisi-gorevden-alindi-haberi-931313",
+      "tarih": "2026-11-14T19:41:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
       "ozet": "Piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yoğun veri...",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3676905-kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi",
@@ -39,32 +44,11 @@
       "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Petrol arzı toparlanıyor ama fiyatlar neden düşmüyor?",
-      "ozet": "İran ile yaşanan çatışmanın küresel enerji piyasalarında yarattığı belirsizlik sürerken, Orta Doğu'dan petrol arzındaki daralma hafiflemeye başladı. Ancak sevkiyatların kademeli olarak toparlanmasına rağmen petrol fiy...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-arzi-toparlaniyor-ama-fiyatlar-neden-dusmuyor-haberi-931262",
-      "tarih": "2026-11-14T12:12:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Hürmüz krizi Katar ekonomisini vurdu: Bütçe açığı tahminlerin 2,5 katına çıktı",
-      "ozet": "ABD ile İran arasındaki çatışmaların ardından Hürmüz Boğazı'nda yaşanan kriz, Katar ekonomisine ağır darbe vurdu. Enerji sevkiyatlarının aksamasıyla ülkenin petrol ve doğal gaz gelirleri üçüncü çeyrekte yüzde 75,2 ger...",
-      "link": "https://www.dunya.com/ekonomi/hurmuz-krizi-katar-ekonomisini-vurdu-butce-acigi-tahminlerin-25-katina-cikti-haberi-847611",
-      "tarih": "2026-11-14T11:29:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Piyasalar yoğun veri gündemine odaklandı",
       "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
       "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi-3927338",
       "tarih": "2026-11-14T11:15:36.000Z",
       "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "İran duyurdu: İzinsiz geçmeye çalışmışlardı...Hürmüz'de 2 mayın patlaması daha!",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz'den izinsiz geçmeye çalışan ve biri süper tanker olan 2 petrol tankerinin deniz mayınlarına çarparak infilak ettiğini duyurdu. Gemilerde yangın çıkarken DMO denizcilik şirketleri...",
-      "link": "https://www.haber7.com/dunya/haber/3676860-iran-duyurdu-izinsiz-gecmeye-calismislardihurmuzde-2-mayin-patlamasi-daha",
-      "tarih": "2026-11-14T10:57:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
@@ -93,13 +77,6 @@
       "link": "https://www.sozcu.com.tr/motorine-4-lira-indirim-mi-gelecek-p380963",
       "tarih": "2026-11-13T11:19:33.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Ekim'de küresel petrol arzında artış",
-      "ozet": "Uluslararası Enerji Ajansı (UEA), Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının Ekim'de önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon 360 bin varile yükseldiğini bildirdi.",
-      "link": "https://www.bloomberght.com/ekim-de-kuresel-petrol-arzinda-artis-3794572",
-      "tarih": "2026-11-13T09:14:50.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Motorin fiyatlarına 4 TL'lik indirim yolda: Tarih belli oldu",
