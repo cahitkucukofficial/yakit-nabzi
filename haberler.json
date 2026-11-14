@@ -1,42 +1,23 @@
 {
-  "guncelleme": "2026-11-14T11:01:33.640Z",
+  "guncelleme": "2026-11-14T17:24:05.263Z",
   "kaynaklar": [
-    "EKONOMIM",
     "HABER7",
-    "DUNYA",
     "TRTHABER",
+    "EKONOMIM",
+    "DUNYA",
+    "HABERTURK",
     "AA",
     "YENISAFAK",
     "SOZCU",
     "BLOOMBERGHT",
-    "CUMHURIYET",
-    "HURRIYET"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
       "expected": false
     },
     "benzin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 3.54,
-      "tarih": "2026-11-14",
-      "tarihDurumu": "tek-kaynak",
-      "tarihDogrulayanSayisi": 1,
-      "tarihAdaylari": [
-        "2026-11-14"
-      ],
-      "dogrulayanKaynakSayisi": 1,
-      "kaynaklar": [
-        {
-          "kaynak": "YENISAFAK",
-          "kaynakLink": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032",
-          "tarih": "2026-11-14"
-        }
-      ],
-      "kaynakBaslik": "Akaryakıta bir indirim daha geliyor: Tarih netleşti tabelalar değişiyor",
-      "kaynak": "YENISAFAK",
-      "kaynakLink": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032"
+      "expected": false
     },
     "lpg": {
       "expected": false
@@ -44,11 +25,39 @@
   },
   "haberler": [
     {
-      "baslik": "Hürmüz'deki kriz sonrası 3 ülkeden ortak petrol rezervi hamlesi: Hedef 2027",
-      "ozet": "Güneydoğu Asya Ülkeleri Birliği (ASEAN) üyeleri, olası enerji krizlerine karşı ortak petrol rezervi sistemi oluşturmak için harekete geçti. Japonya'nın desteğiyle hayata geçirilmesi planlanan sistem kapsamında Endonez...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/hurmuzdeki-kriz-sonrasi-3-ulkeden-ortak-petrol-rezervi-hamlesi-hedef-2027-haberi-931247",
-      "tarih": "2026-11-14T10:58:00.000Z",
+      "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
+      "ozet": "Piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yoğun veri...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3676905-kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi",
+      "tarih": "2026-11-14T14:15:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "İran: Hürmüz Boğazı'nda bir tanker daha mayına çarparak alev aldı",
+      "ozet": "İran ordusu, Hürmüz Boğazının doğusunda bir petrol tankerinin daha deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-daha-mayina-carparak-alev-aldi-963277.html",
+      "tarih": "2026-11-14T12:31:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Petrol arzı toparlanıyor ama fiyatlar neden düşmüyor?",
+      "ozet": "İran ile yaşanan çatışmanın küresel enerji piyasalarında yarattığı belirsizlik sürerken, Orta Doğu'dan petrol arzındaki daralma hafiflemeye başladı. Ancak sevkiyatların kademeli olarak toparlanmasına rağmen petrol fiy...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-arzi-toparlaniyor-ama-fiyatlar-neden-dusmuyor-haberi-931262",
+      "tarih": "2026-11-14T12:12:00.000Z",
       "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Hürmüz krizi Katar ekonomisini vurdu: Bütçe açığı tahminlerin 2,5 katına çıktı",
+      "ozet": "ABD ile İran arasındaki çatışmaların ardından Hürmüz Boğazı'nda yaşanan kriz, Katar ekonomisine ağır darbe vurdu. Enerji sevkiyatlarının aksamasıyla ülkenin petrol ve doğal gaz gelirleri üçüncü çeyrekte yüzde 75,2 ger...",
+      "link": "https://www.dunya.com/ekonomi/hurmuz-krizi-katar-ekonomisini-vurdu-butce-acigi-tahminlerin-25-katina-cikti-haberi-847611",
+      "tarih": "2026-11-14T11:29:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Piyasalar yoğun veri gündemine odaklandı",
+      "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
+      "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi-3927338",
+      "tarih": "2026-11-14T11:15:36.000Z",
+      "kaynak": "HABERTURK"
     },
     {
       "baslik": "İran duyurdu: İzinsiz geçmeye çalışmışlardı...Hürmüz'de 2 mayın patlaması daha!",
@@ -58,46 +67,11 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Pluxee yemek kartı Petrol Ofisi marketlerinde kullanıma açıldı",
-      "ozet": "Çalışan deneyimi ve yan haklar dünyasının lideri Pluxee, Türkiye akaryakıt pazarının geleneksel lideri Petrol Ofisi Grubu ile yeni bir iş birliğine imza attı. İş birliği kapsamında Pluxee yemek kartı kullanıcıları, Pe...",
-      "link": "https://www.ekonomim.com/sirketler/pluxee-yemek-karti-petrol-ofisi-marketlerinde-kullanima-acildi-haberi-931238",
-      "tarih": "2026-11-14T09:49:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Küresel piyasalarda gözler yeni haftaya çevrildi! İşte takip edilecek gelişmeler",
-      "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın üst yöneticisi (CEO) Jensen Huang'ın istifasına karşın şirket kaynaklı endişelerin küresel yapay zeka sektörüne etkilerinin sınırlı olabileceğine yönelik tahminler ve...",
-      "link": "https://www.dunya.com/finans/haberler/kuresel-piyasalarda-gozler-yeni-haftaya-cevrildi-iste-takip-edilecek-gelismeler-haberi-847597",
-      "tarih": "2026-11-14T08:36:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Piyasalarda yeni hafta hareketli geçecek: İşte takip edilecek gelişmeler",
-      "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/piyasalarda-yeni-hafta-hareketli-gececek-iste-takip-edilecek-gelismeler-haberi-931225",
-      "tarih": "2026-11-14T08:25:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Küresel piyasalarda alış ağırlıklı seyrin ardından gözler yeni haftaya çevrildi",
-      "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın üst yöneticisi CEO Jensen Huang'ın istifasına karşın şirket kaynaklı endişelerin küresel yapay zeka sektörüne etkilerinin sınırlı olabileceğine yönelik tahminler ve p...",
-      "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-alis-agirlikli-seyrin-ardindan-gozler-yeni-haftaya-cevrildi-963250.html",
-      "tarih": "2026-11-14T08:25:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
       "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
       "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi/4124938",
       "tarih": "2026-11-14T08:14:36.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "İran: Hürmüz Boğazı'nda bir tanker mayına çarparak alev aldı",
-      "ozet": "İran ordusu, Hürmüz Boğazının doğusunda bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-mayina-carparak-alev-aldi-963247.html",
-      "tarih": "2026-11-14T07:37:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "ABD'de petrol sondaj kulesi sayısı bir önceki haftaya göre sabit kaldı",
@@ -142,20 +116,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Brent petrolün varil fiyatı 96,27 dolara yükseldi",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda yaklaşık yüzde 0,47 artışla 96,27 dolara yükseldi. Orta Doğu'daki jeopolitik riskler ve ABD stoklarındaki artış fiyatları etkiliyor.",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-9627-dolara-yukseldi-4872041",
-      "tarih": "2026-11-13T06:59:51.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Akaryakıta bir indirim daha geliyor: Tarih netleşti tabelalar değişiyor",
-      "ozet": "Brent petrolün 92 doların altına gerilemesiyle benzinde yapılan 3,54 TL'lik indirimin ardından gözler motorine çevrildi. 14 Kasım Cumartesi günü pompaya yansıyacak yeni indirim öncesi İstanbul, Ankara ve İzmir'deki gü...",
-      "link": "https://www.yenisafak.com/ekonomi/akaryakita-bir-indirim-mujdesi-daha-tarih-netlesti-tabelalar-degisiyor-4872032",
-      "tarih": "2026-11-13T06:33:12.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Benzine, mazota indirim var mı? 12 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-12-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2555546",
@@ -196,13 +156,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-7-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554098",
       "tarih": "2026-11-07T07:10:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrolün varil fiyatı, 94 dolar seviyesine geriledi",
-      "ozet": "Brent petrolün varil fiyatı, ABD'deki ara seçimlerin etkisiyle uluslararası vadeli piyasalarda yaklaşık yüzde 9 düşüşle 94,28 dolar seviyesine geriledi.",
-      "link": "https://www.hurriyet.com.tr/gundem/brent-petrolun-varil-fiyati-94-dolar-seviyesine-geriledi-43366242",
-      "tarih": "2026-11-04T17:12:00.000Z",
-      "kaynak": "HURRIYET"
     }
   ]
 }
