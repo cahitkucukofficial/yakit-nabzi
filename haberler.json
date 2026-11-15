@@ -1,13 +1,14 @@
 {
-  "guncelleme": "2026-11-15T11:35:56.524Z",
+  "guncelleme": "2026-11-15T18:04:12.444Z",
   "kaynaklar": [
-    "HABERTURK",
-    "CUMHURIYET",
-    "DUNYA",
+    "HABER7",
+    "EKONOMIM",
     "BIRGUN",
+    "CUMHURIYET",
     "TRTHABER",
-    "YENISAFAK",
-    "SOZCU"
+    "SOZCU",
+    "HABERTURK",
+    "YENISAFAK"
   ],
   "beklenti": {
     "motorin": {
@@ -22,6 +23,69 @@
   },
   "haberler": [
     {
+      "baslik": "AB'den Akdeniz'de Rusya bağlantılı gemiye operasyon: Hava indirme anlarını paylaştı",
+      "ozet": "AB güçleri, Rusya'nın gölge filosuna ait olduğu değerlendirilen MV Midag adlı petrol tankerine Akdeniz'de operasyon düzenledi. Kaja Kallas, hava indirme operasyonuna ait fotoğrafları paylaştı.",
+      "link": "https://www.haber7.com/dunya/haber/3677140-abden-akdenizde-rusya-baglantili-gemiye-operasyon-hava-indirme-anlarini-paylasti",
+      "tarih": "2026-11-15T17:07:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Petrol tankerinin yolcu gemisine çarptığı kazanın kayıtları ortaya çıktı",
+      "ozet": "ABD’nin New Orleans kentinde bir tankerin limandaki bir yolcu gemisine çarparak yan yatıp batmasına neden olduğu kazaya ilişkin Otomatik Tanımlama Sistemi (AIS) kayıtları ortaya çıktı.",
+      "link": "https://www.ekonomim.com/dunya/petrol-tankerinin-yolcu-gemisine-carptigi-kazanin-kayitlari-ortaya-cikti-haberi-931418",
+      "tarih": "2026-11-15T16:23:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "İran: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
+      "ozet": "Hürmüz'de ‘izinsiz’ geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığı bildirildi.",
+      "link": "https://www.birgun.net/haber/iran-hurmuz-bogazi-nda-2-petrol-tankeri-mayina-carpti-746578",
+      "tarih": "2026-11-15T16:16:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Emtia piyasalarında bu hafta ne oldu? Altın, gümüş, petrol ve tarım ürünlerinde son tablo",
+      "ozet": "ABD enflasyon verileri, Fed yetkililerinin faiz mesajları ve USDA'nın tarımsal arz raporları emtia fiyatlarında dalgalanmaya neden oldu. Altın, gümüş, bakır ve Brent petrolün gerilediği haftada pamuk, mısır ve soya fa...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/emtia-piyasalarinda-bu-hafta-ne-oldu-altin-gumus-petrol-ve-tarim-urunlerinde-son-tablo-2556378",
+      "tarih": "2026-11-15T14:58:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı, 1'i battı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda ‘izinsiz’ geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını duyurdu.",
+      "link": "https://www.haber7.com/3sayfa/haber/3677119-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-1i-batti",
+      "tarih": "2026-11-15T14:31:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "İran: Hürmüz Boğazı'nda deniz mayınlarına çarpan 2 petrol tankerinden biri battı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın güneyinde \"izinsiz\" geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını, tankerlerden birinin battığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-deniz-mayinlarina-carpan-2-petrol-tankerinden-biri-batti-963352.html",
+      "tarih": "2026-11-15T13:56:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "İran duyurdu: Hürmüz'deki mayınlara çarpan 2 tankerden 1'i battı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın güneyinde \"izinsiz\" geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını, tankerlerden birinin battığını duyurdu.",
+      "link": "https://www.birgun.net/haber/iran-duyurdu-hurmuz-deki-mayinlara-carpan-2-tankerden-1-i-batti-746571",
+      "tarih": "2026-11-15T13:53:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "İran duyurdu: Hürmüz Boğazı'nda mayınlara çarpan 2 petrol tankerinden biri battı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı’nın güneyinde izinsiz güzergâhtan geçmeye çalışan iki petrol tankerinin deniz mayınlarına çarparak patladığını ve alev aldığını duyurdu.",
+      "link": "https://www.ekonomim.com/dunya/iran-duyurdu-hurmuz-bogazinda-mayinlara-carpan-2-petrol-tankerinden-biri-batti-haberi-931405",
+      "tarih": "2026-11-15T13:49:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD'de motorin iki ay sonra 6 doların altına indi",
+      "ozet": "ABD genelinde motorinin galon başına ortalama perakende fiyatı 5,998 dolara geriledi. Eylülde 6,519 dolarla rekor kıran ...",
+      "link": "https://www.sozcu.com.tr/abdde-motorin-iki-ay-sonra-6-dolarin-altina-indi-p381581",
+      "tarih": "2026-11-15T12:48:59.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
       "baslik": "Petrol arzındaki toparlanma Brent fiyatlarını aşağı çekti",
       "ozet": "Emtia piyasalarında tamamlanan haftada ABD'de enflasyonun seyrine ilişkin endişeler ve güçlenen faiz artırım beklentileri metalleri baskılarken tarımsal üretim ve stok tahminlerindeki değişiklikler ise bu ürünlerdeki ...",
       "link": "https://www.haberturk.com/ekonomi/petrol-arzindaki-toparlanma-brent-fiyatlarini-asagi-cekti-3927484",
@@ -34,13 +98,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-15-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556253",
       "tarih": "2026-11-15T07:06:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dizel fiyatlarında sert dönüş: 6,52 dolarlık zirveden geriledi",
-      "ozet": "ABD'de dizel fiyatları, iki ayı aşkın sürenin ardından ilk kez galon başına 6 doların altına geriledi. Brent petrolün son iki haftada yüzde 18,5 değer kaybetmesi ve mevsimsel talebin zayıflaması fiyatlardaki düşüşü de...",
-      "link": "https://www.dunya.com/ekonomi/dizel-fiyatlarinda-sert-donus-652-dolarlik-zirveden-geriledi-haberi-847656",
-      "tarih": "2026-11-15T06:31:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "İran’da işçi servisi devrildi: Yaşamını yitirenlerin sayısı 12’ye yükseldi",
