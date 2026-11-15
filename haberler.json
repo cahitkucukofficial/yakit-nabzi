@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-14T23:27:39.053Z",
+  "guncelleme": "2026-11-15T03:27:08.236Z",
   "kaynaklar": [
+    "BIRGUN",
     "EKONOMIM",
     "HABER7",
     "TRTHABER",
@@ -22,6 +23,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "İran'da servis otobüsü devrildi: 10 kişi hayatını kaybetti, 12 kişi yaralandı",
+      "ozet": "lam eyaletindeki işçileri taşıyan bir servis otobüsü bölgede bulunan petrol kuyularının yakınlarında devrildi. İlk belirlemelere göre kazada 10 kişi yaşamını yitirdi, 12 kişi yaralandı.",
+      "link": "https://www.birgun.net/haber/iran-da-servis-otobusu-devrildi-10-kisi-hayatini-kaybetti-12-kisi-yaralandi-746492",
+      "tarih": "2026-11-14T20:06:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Irak'ta petrol kaçakçılığı soruşturmasında 5 üst düzey güvenlik yetkilisi görevden alındı",
       "ozet": "Irak Başbakanı Ali ez-Zeydi, Babil vilayetindeki Curf es-Sahar bölgesinde petrol kaçakçılığına ilişkin yürütülen soruşturma kapsamında 5 üst düzey güvenlik yetkilisini görevden aldı.",
