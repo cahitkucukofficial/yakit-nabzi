@@ -1,9 +1,10 @@
 {
-  "guncelleme": "2026-11-15T18:04:12.444Z",
+  "guncelleme": "2026-11-15T23:37:19.306Z",
   "kaynaklar": [
+    "BIRGUN",
+    "DUNYA",
     "HABER7",
     "EKONOMIM",
-    "BIRGUN",
     "CUMHURIYET",
     "TRTHABER",
     "SOZCU",
@@ -22,6 +23,48 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Husiler: Suudi Arabistan'da havalimanı, finans merkezi ve petrol tesislerini hedef aldık",
+      "ozet": "Husilerin Askeri Sözcüsü Yahya Seri, Riyad'daki Kral Halid Uluslararası Havalimanı ile finans merkezini 2 balistik füze, \"Petroline\" olarak da bilinen Doğu-Batı boru hattı üzerindeki 5 ve 6 numaralı petrol pompa istas...",
+      "link": "https://www.birgun.net/haber/husiler-suudi-arabistan-da-havalimani-finans-merkezi-ve-petrol-tesislerini-hedef-aldik-746622",
+      "tarih": "2026-11-15T21:17:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Kamyon daha az yol yaptı, ticarette motorin tüketimi düştü",
+      "ozet": "Ekonomideki maliyet ve finansman baskısı, ticari taşımacılığın hareketliliğine ve işletmelerin yakıt tüketimine de yansıdı. TÜİK verilerine göre, 2024'te kamyonların yıllık ortalama kat ettiği mesafe yüzde 7,7 azalırk...",
+      "link": "https://www.dunya.com/sektorler/otomotiv/kamyon-daha-az-yol-yapti-ticarette-motorin-tuketimi-dustu-haberi-847704",
+      "tarih": "2026-11-15T21:00:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Husiler Mekke Medine ve Yemen'deki havalimanı petrol tesisi ve askeri kampa saldırdı",
+      "ozet": "Yemen'de İran destekli Husiler, Mekke, Medine ve Yemen'de kritik bölgeleri hedef aldı. Suudi Arabistan'da iki petrol tesisi, bir havalimanı ve finans merkezini hedef aldıklarını duyuran Husiler, Yemen'de askeri kampa ...",
+      "link": "https://www.haber7.com/dunya/haber/3677168-husiler-mekke-medine-ve-yemendeki-havalimani-petrol-tesisi-ve-askeri-kampa-saldirdi",
+      "tarih": "2026-11-15T20:54:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Hürmüz Boğazı'nda petrol tankeri mayına çarparak alev aldı",
+      "ozet": "İran Ordusu, Hürmüz Boğazı'nın doğusunda izinsiz geçiş yapmaya çalıştığını öne sürdüğü bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.ekonomim.com/dunya/hurmuz-bogazinda-petrol-tankeri-mayina-carparak-alev-aldi-haberi-931445",
+      "tarih": "2026-11-15T20:35:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Irak'ta Kataib Hizbullah'a bir haftalık süre: Başbakan Zeydi'den askeri müdahale uyarısı",
+      "ozet": "Irak Başbakanı Ali Zeydi, petrol kaçakçılığı iddialarının gündeme geldiği Curf el-Sahr bölgesinin kontrolünü devlete devretmesi için Kataib Hizbullah'a bir hafta süre verdi.",
+      "link": "https://www.haber7.com/dunya/haber/3677166-irakta-kataib-hizbullaha-bir-haftalik-sure-basbakan-zeydiden-askeri-mudahale-uyarisi",
+      "tarih": "2026-11-15T20:34:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "İran Ordusu: Hürmüz Boğazı'nda bir petrol tankeri deniz mayınına çarparak alev aldı",
+      "ozet": "İran Ordusu, Hürmüz Boğazı'nın doğusunda \"izinsiz\" geçiş güzergahından ilerlemeye çalışan petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.haber7.com/dunya/haber/3677165-iran-ordusu-hurmuz-bogazinda-bir-petrol-tankeri-deniz-mayinina-carparak-alev-aldi",
+      "tarih": "2026-11-15T20:32:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "AB'den Akdeniz'de Rusya bağlantılı gemiye operasyon: Hava indirme anlarını paylaştı",
       "ozet": "AB güçleri, Rusya'nın gölge filosuna ait olduğu değerlendirilen MV Midag adlı petrol tankerine Akdeniz'de operasyon düzenledi. Kaja Kallas, hava indirme operasyonuna ait fotoğrafları paylaştı.",
@@ -70,13 +113,6 @@
       "link": "https://www.birgun.net/haber/iran-duyurdu-hurmuz-deki-mayinlara-carpan-2-tankerden-1-i-batti-746571",
       "tarih": "2026-11-15T13:53:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "İran duyurdu: Hürmüz Boğazı'nda mayınlara çarpan 2 petrol tankerinden biri battı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı’nın güneyinde izinsiz güzergâhtan geçmeye çalışan iki petrol tankerinin deniz mayınlarına çarparak patladığını ve alev aldığını duyurdu.",
-      "link": "https://www.ekonomim.com/dunya/iran-duyurdu-hurmuz-bogazinda-mayinlara-carpan-2-petrol-tankerinden-biri-batti-haberi-931405",
-      "tarih": "2026-11-15T13:49:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "ABD'de motorin iki ay sonra 6 doların altına indi",
