@@ -1,15 +1,13 @@
 {
-  "guncelleme": "2026-11-15T03:27:08.236Z",
+  "guncelleme": "2026-11-15T11:35:56.524Z",
   "kaynaklar": [
-    "BIRGUN",
-    "EKONOMIM",
-    "HABER7",
-    "TRTHABER",
     "HABERTURK",
-    "AA",
+    "CUMHURIYET",
+    "DUNYA",
+    "BIRGUN",
+    "TRTHABER",
     "YENISAFAK",
-    "SOZCU",
-    "CUMHURIYET"
+    "SOZCU"
   ],
   "beklenti": {
     "motorin": {
@@ -24,6 +22,41 @@
   },
   "haberler": [
     {
+      "baslik": "Petrol arzındaki toparlanma Brent fiyatlarını aşağı çekti",
+      "ozet": "Emtia piyasalarında tamamlanan haftada ABD'de enflasyonun seyrine ilişkin endişeler ve güçlenen faiz artırım beklentileri metalleri baskılarken tarımsal üretim ve stok tahminlerindeki değişiklikler ise bu ürünlerdeki ...",
+      "link": "https://www.haberturk.com/ekonomi/petrol-arzindaki-toparlanma-brent-fiyatlarini-asagi-cekti-3927484",
+      "tarih": "2026-11-15T09:18:53.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 15 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-15-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556253",
+      "tarih": "2026-11-15T07:06:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Dizel fiyatlarında sert dönüş: 6,52 dolarlık zirveden geriledi",
+      "ozet": "ABD'de dizel fiyatları, iki ayı aşkın sürenin ardından ilk kez galon başına 6 doların altına geriledi. Brent petrolün son iki haftada yüzde 18,5 değer kaybetmesi ve mevsimsel talebin zayıflaması fiyatlardaki düşüşü de...",
+      "link": "https://www.dunya.com/ekonomi/dizel-fiyatlarinda-sert-donus-652-dolarlik-zirveden-geriledi-haberi-847656",
+      "tarih": "2026-11-15T06:31:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "İran’da işçi servisi devrildi: Yaşamını yitirenlerin sayısı 12’ye yükseldi",
+      "ozet": "İran’ın İlam eyaletinde işçileri taşıyan servis otobüsü, petrol kuyularının yakınında devrildi. Deşt-i Abbas’tan Murmuri’ye giden otobüsteki 11 kişi yaşamını yitirdi, 19 kişi yaralandı. Kazayla ilgili inceleme başlatı...",
+      "link": "https://www.birgun.net/haber/iranda-isci-servisi-devrildi-yasamini-yitirenlerin-sayisi-12ye-yukseldi-746531",
+      "tarih": "2026-11-15T05:43:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarparak alev aldı",
+      "ozet": "İran Devrim Muhafızları Ordusu Deniz Kuvvetleri, Hürmüz Boğazının güneyinde gece saatlerinde 2 petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carparak-alev-aldi-963317.html",
+      "tarih": "2026-11-15T03:43:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
       "baslik": "İran'da servis otobüsü devrildi: 10 kişi hayatını kaybetti, 12 kişi yaralandı",
       "ozet": "lam eyaletindeki işçileri taşıyan bir servis otobüsü bölgede bulunan petrol kuyularının yakınlarında devrildi. İlk belirlemelere göre kazada 10 kişi yaşamını yitirdi, 12 kişi yaralandı.",
       "link": "https://www.birgun.net/haber/iran-da-servis-otobusu-devrildi-10-kisi-hayatini-kaybetti-12-kisi-yaralandi-746492",
@@ -31,39 +64,11 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "Irak'ta petrol kaçakçılığı soruşturmasında 5 üst düzey güvenlik yetkilisi görevden alındı",
-      "ozet": "Irak Başbakanı Ali ez-Zeydi, Babil vilayetindeki Curf es-Sahar bölgesinde petrol kaçakçılığına ilişkin yürütülen soruşturma kapsamında 5 üst düzey güvenlik yetkilisini görevden aldı.",
-      "link": "https://www.ekonomim.com/dunya/irakta-petrol-kacakciligi-sorusturmasinda-5-ust-duzey-guvenlik-yetkilisi-gorevden-alindi-haberi-931313",
-      "tarih": "2026-11-14T19:41:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
-      "ozet": "Piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yoğun veri...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3676905-kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi",
-      "tarih": "2026-11-14T14:15:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "İran: Hürmüz Boğazı'nda bir tanker daha mayına çarparak alev aldı",
-      "ozet": "İran ordusu, Hürmüz Boğazının doğusunda bir petrol tankerinin daha deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-daha-mayina-carparak-alev-aldi-963277.html",
-      "tarih": "2026-11-14T12:31:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Piyasalar yoğun veri gündemine odaklandı",
       "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
       "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi-3927338",
       "tarih": "2026-11-14T11:15:36.000Z",
       "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Küresel piyasalar gelecek hafta yoğun veri gündemine odaklandı",
-      "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi/4124938",
-      "tarih": "2026-11-14T08:14:36.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "ABD'de petrol sondaj kulesi sayısı bir önceki haftaya göre sabit kaldı",
