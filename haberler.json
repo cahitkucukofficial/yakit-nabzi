@@ -1,15 +1,15 @@
 {
-  "guncelleme": "2026-11-16T03:27:29.267Z",
+  "guncelleme": "2026-11-16T12:09:23.843Z",
   "kaynaklar": [
     "DUNYA",
-    "BIRGUN",
     "HABER7",
     "EKONOMIM",
+    "YENISAFAK",
     "CUMHURIYET",
     "TRTHABER",
+    "BLOOMBERGHT",
     "SOZCU",
-    "HABERTURK",
-    "YENISAFAK"
+    "BIRGUN"
   ],
   "beklenti": {
     "motorin": {
@@ -24,11 +24,88 @@
   },
   "haberler": [
     {
-      "baslik": "Hürmüz'de tanker alarmına rağmen petrol düştü: ABD'den sevkiyat hamlesi",
-      "ozet": "Hürmüz Boğazı'nda tanker güvenliğine ilişkin endişeler sürerken Brent petrol haftaya düşüşle başladı. Küresel arzın son çeyrekte talebi günlük 1,7 milyon varil aşacağı tahmini, jeopolitik risklerin fiyatlar üzerindeki...",
-      "link": "https://www.dunya.com/enerji/hurmuzde-tanker-alarmina-ragmen-petrol-dustu-abdden-sevkiyat-hamlesi-haberi-847719",
-      "tarih": "2026-11-16T03:20:00.000Z",
+      "baslik": "Romanya'da saldırıya uğrayan tanker Yeşilköy açıklarında",
+      "ozet": "Yunan bayraklı \"EVIAPETROL V\" isimli tanker, Romanya'nın Sulina limanı açıklarında seyir halindeyken kimliği belirsiz bir saldırıya uğradı. Saldırı sonucu gemide çıkan yangın mürettebatın müdahalesiyle söndürülürken, ...",
+      "link": "https://www.dunya.com/video-galeri/gundem/romanyada-saldiriya-ugrayan-tanker-yesilkoy-aciklarinda-video-847790",
+      "tarih": "2026-11-16T10:51:00.000Z",
       "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Kerem Kazaz, üst üste 3. kez Türkiye ralli şampiyonu oldu",
+      "ozet": "Red Bull sporcusu Kerem Kazaz, Petrol Ofisi Maxima 2026 Türkiye Ralli Şampiyonası’nın İstanbul'da düzenlenen sezon finalinin ardından üst üste üçüncü kez Türkiye Ralli Şampiyonu oldu",
+      "link": "https://spor.haber7.com/diger-branslar/haber/3677286-kerem-kazaz-ust-uste-3-kez-turkiye-ralli-sampiyonu-oldu",
+      "tarih": "2026-11-16T09:46:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Petrolü tükenecek ülkeler açıklandı! Hangi ülkenin kaç yıllık petrolü kaldı?",
+      "ozet": "Petrolü en çok yetecek ve en hızlı tükenecek ülkeler açıklandı. Küresel enerji piyasalarında sarsıntıların yaşandığı son günlerde ülkelerin petrole olan takibi de sıkılaşmış durumda...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3677283-petrolu-tukenecek-ulkeler-aciklandi-hangi-ulkenin-kac-yillik-petrolu-kaldi",
+      "tarih": "2026-11-16T09:43:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Çin'in petrol rotası değişti, İran'ın boşluğunu indirimli Irak doldurdu",
+      "ozet": "ABD'nin deniz ablukası nedeniyle İran'dan petrol sevkiyatının sekteye uğraması, Çin'in bağımsız rafinerilerini alternatif kaynaklara yöneltirken; lojistik riskleri üstlenen alıcılara sunduğu yüksek indirimlerle Irak, ...",
+      "link": "https://www.ekonomim.com/dunya/cinin-petrol-rotasi-degisti-iranin-boslugunu-indirimli-irak-doldurdu-haberi-931519",
+      "tarih": "2026-11-16T08:41:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Araç sahiplerine indirim müjdesi kapıda: Brent petrol 94 doların altına geriledi",
+      "ozet": "Küresel piyasalarda petrol fiyatlarındaki geri çekilme hız kazandı. Uluslararası Enerji Ajansı'nın günlük 2 milyon varillik arz fazlası öngörüsü ile ABD ve İran cephesinden gelen yumuşama mesajlarının ardından Brent p...",
+      "link": "https://www.yenisafak.com/ekonomi/akaryakita-indirim-gelecek-mi-benzin-motorin-lpgde-guncel-fiyatlar-4872934",
+      "tarih": "2026-11-16T08:14:49.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Trafikte en çok hangi marka araç tercih edildi? Ekim verileri açıklandı",
+      "ozet": "Türkiye’de trafiğe kaydı yapılan taşıt sayısı ekim ayında hem aylık hem de yıllık bazda geriledi. Otomobil kayıtlarında düşüş yaşanırken, yeni otomobil tercihlerinde benzinli ve hibrit araçlar öne çıktı.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/trafikte-en-cok-hangi-marka-arac-tercih-edildi-ekim-verileri-aciklandi-2556500",
+      "tarih": "2026-11-16T07:18:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 16 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-16-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556481",
+      "tarih": "2026-11-16T06:43:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Brent petrolün varili 96,13 dolardan işlem görüyor",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 96,13 dolardan işlem görüyor.",
+      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9613-dolardan-islem-goruyor-963390.html",
+      "tarih": "2026-11-16T06:41:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Goldman Sachs'tan petrolde \"oldukça büyük\" arz fazlası için uyarı",
+      "ozet": "Goldman Sachs, gelecek yıl petrol piyasasının fiyatları aşağı çekecek \"oldukça büyük bir fazlalık\" ile karşı karşıya kalacağını belirtti.",
+      "link": "https://www.bloomberght.com/goldman-sachs-tan-petrolde-oldukca-buyuk-arz-fazlasi-icin-uyari-3794707",
+      "tarih": "2026-11-16T06:37:34.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "İran petrolü kesilince Çinli rafinerilerin rotası Irak'a döndü",
+      "ozet": "ABD'nin deniz ablukası nedeniyle İran'dan petrol sevkiyatının büyük ölçüde durması, Çin'in bağımsız rafinerilerini Irak ...",
+      "link": "https://www.sozcu.com.tr/iran-petrolu-kesilince-cinli-rafinerilerin-rotasi-iraka-dondu-p381738",
+      "tarih": "2026-11-16T05:31:16.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "16 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
+      "ozet": "Yeni haftanın başlamasıyla birlikte 16 Kasım 2026 benzin, motorin ve LPG fiyatları yeniden araç sahiplerinin gündemine geldi. Global piyasalardaki dalgalanmalar, döviz kurundaki hareketlilik ve ÖTV zamları nedeniyle s...",
+      "link": "https://www.birgun.net/haber/16-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-746644",
+      "tarih": "2026-11-16T05:21:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "İran petrolü kesilince Çinli rafineriler Irak'a yöneldi",
+      "ozet": "ABD'nin deniz ablukası nedeniyle İran'dan petrol sevkiyatının büyük ölçüde kesilmesi, Çin'in bağımsız rafinerilerini alternatif tedarikçilere yöneltti. Irak, indirimli petrol fiyatlarıyla öne çıkarken uluslararası ene...",
+      "link": "https://www.bloomberght.com/iran-petrolu-kesilince-cinli-rafineriler-irak-a-yoneldi-3794686",
+      "tarih": "2026-11-16T05:09:28.000Z",
+      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Husiler: Suudi Arabistan'da havalimanı, finans merkezi ve petrol tesislerini hedef aldık",
@@ -36,55 +113,6 @@
       "link": "https://www.birgun.net/haber/husiler-suudi-arabistan-da-havalimani-finans-merkezi-ve-petrol-tesislerini-hedef-aldik-746622",
       "tarih": "2026-11-15T21:17:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Kamyon daha az yol yaptı, ticarette motorin tüketimi düştü",
-      "ozet": "Ekonomideki maliyet ve finansman baskısı, ticari taşımacılığın hareketliliğine ve işletmelerin yakıt tüketimine de yansıdı. TÜİK verilerine göre, 2024'te kamyonların yıllık ortalama kat ettiği mesafe yüzde 7,7 azalırk...",
-      "link": "https://www.dunya.com/sektorler/otomotiv/kamyon-daha-az-yol-yapti-ticarette-motorin-tuketimi-dustu-haberi-847704",
-      "tarih": "2026-11-15T21:00:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Husiler Mekke Medine ve Yemen'deki havalimanı petrol tesisi ve askeri kampa saldırdı",
-      "ozet": "Yemen'de İran destekli Husiler, Mekke, Medine ve Yemen'de kritik bölgeleri hedef aldı. Suudi Arabistan'da iki petrol tesisi, bir havalimanı ve finans merkezini hedef aldıklarını duyuran Husiler, Yemen'de askeri kampa ...",
-      "link": "https://www.haber7.com/dunya/haber/3677168-husiler-mekke-medine-ve-yemendeki-havalimani-petrol-tesisi-ve-askeri-kampa-saldirdi",
-      "tarih": "2026-11-15T20:54:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Hürmüz Boğazı'nda petrol tankeri mayına çarparak alev aldı",
-      "ozet": "İran Ordusu, Hürmüz Boğazı'nın doğusunda izinsiz geçiş yapmaya çalıştığını öne sürdüğü bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.ekonomim.com/dunya/hurmuz-bogazinda-petrol-tankeri-mayina-carparak-alev-aldi-haberi-931445",
-      "tarih": "2026-11-15T20:35:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Irak'ta Kataib Hizbullah'a bir haftalık süre: Başbakan Zeydi'den askeri müdahale uyarısı",
-      "ozet": "Irak Başbakanı Ali Zeydi, petrol kaçakçılığı iddialarının gündeme geldiği Curf el-Sahr bölgesinin kontrolünü devlete devretmesi için Kataib Hizbullah'a bir hafta süre verdi.",
-      "link": "https://www.haber7.com/dunya/haber/3677166-irakta-kataib-hizbullaha-bir-haftalik-sure-basbakan-zeydiden-askeri-mudahale-uyarisi",
-      "tarih": "2026-11-15T20:34:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "İran Ordusu: Hürmüz Boğazı'nda bir petrol tankeri deniz mayınına çarparak alev aldı",
-      "ozet": "İran Ordusu, Hürmüz Boğazı'nın doğusunda \"izinsiz\" geçiş güzergahından ilerlemeye çalışan petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.haber7.com/dunya/haber/3677165-iran-ordusu-hurmuz-bogazinda-bir-petrol-tankeri-deniz-mayinina-carparak-alev-aldi",
-      "tarih": "2026-11-15T20:32:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "AB'den Akdeniz'de Rusya bağlantılı gemiye operasyon: Hava indirme anlarını paylaştı",
-      "ozet": "AB güçleri, Rusya'nın gölge filosuna ait olduğu değerlendirilen MV Midag adlı petrol tankerine Akdeniz'de operasyon düzenledi. Kaja Kallas, hava indirme operasyonuna ait fotoğrafları paylaştı.",
-      "link": "https://www.haber7.com/dunya/haber/3677140-abden-akdenizde-rusya-baglantili-gemiye-operasyon-hava-indirme-anlarini-paylasti",
-      "tarih": "2026-11-15T17:07:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Petrol tankerinin yolcu gemisine çarptığı kazanın kayıtları ortaya çıktı",
-      "ozet": "ABD’nin New Orleans kentinde bir tankerin limandaki bir yolcu gemisine çarparak yan yatıp batmasına neden olduğu kazaya ilişkin Otomatik Tanımlama Sistemi (AIS) kayıtları ortaya çıktı.",
-      "link": "https://www.ekonomim.com/dunya/petrol-tankerinin-yolcu-gemisine-carptigi-kazanin-kayitlari-ortaya-cikti-haberi-931418",
-      "tarih": "2026-11-15T16:23:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "İran: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
@@ -101,20 +129,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı, 1'i battı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda ‘izinsiz’ geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını duyurdu.",
-      "link": "https://www.haber7.com/3sayfa/haber/3677119-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-1i-batti",
-      "tarih": "2026-11-15T14:31:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "İran: Hürmüz Boğazı'nda deniz mayınlarına çarpan 2 petrol tankerinden biri battı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın güneyinde \"izinsiz\" geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını, tankerlerden birinin battığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-deniz-mayinlarina-carpan-2-petrol-tankerinden-biri-batti-963352.html",
-      "tarih": "2026-11-15T13:56:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "İran duyurdu: Hürmüz'deki mayınlara çarpan 2 tankerden 1'i battı",
       "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın güneyinde \"izinsiz\" geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını, tankerlerden birinin battığını duyurdu.",
       "link": "https://www.birgun.net/haber/iran-duyurdu-hurmuz-deki-mayinlara-carpan-2-tankerden-1-i-batti-746571",
@@ -129,60 +143,11 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Petrol arzındaki toparlanma Brent fiyatlarını aşağı çekti",
-      "ozet": "Emtia piyasalarında tamamlanan haftada ABD'de enflasyonun seyrine ilişkin endişeler ve güçlenen faiz artırım beklentileri metalleri baskılarken tarımsal üretim ve stok tahminlerindeki değişiklikler ise bu ürünlerdeki ...",
-      "link": "https://www.haberturk.com/ekonomi/petrol-arzindaki-toparlanma-brent-fiyatlarini-asagi-cekti-3927484",
-      "tarih": "2026-11-15T09:18:53.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Benzine, mazota indirim var mı? 15 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-15-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556253",
       "tarih": "2026-11-15T07:06:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "İran’da işçi servisi devrildi: Yaşamını yitirenlerin sayısı 12’ye yükseldi",
-      "ozet": "İran’ın İlam eyaletinde işçileri taşıyan servis otobüsü, petrol kuyularının yakınında devrildi. Deşt-i Abbas’tan Murmuri’ye giden otobüsteki 11 kişi yaşamını yitirdi, 19 kişi yaralandı. Kazayla ilgili inceleme başlatı...",
-      "link": "https://www.birgun.net/haber/iranda-isci-servisi-devrildi-yasamini-yitirenlerin-sayisi-12ye-yukseldi-746531",
-      "tarih": "2026-11-15T05:43:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "İran'da servis otobüsü devrildi: 10 kişi hayatını kaybetti, 12 kişi yaralandı",
-      "ozet": "lam eyaletindeki işçileri taşıyan bir servis otobüsü bölgede bulunan petrol kuyularının yakınlarında devrildi. İlk belirlemelere göre kazada 10 kişi yaşamını yitirdi, 12 kişi yaralandı.",
-      "link": "https://www.birgun.net/haber/iran-da-servis-otobusu-devrildi-10-kisi-hayatini-kaybetti-12-kisi-yaralandi-746492",
-      "tarih": "2026-11-14T20:06:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Piyasalar yoğun veri gündemine odaklandı",
-      "ozet": "Küresel piyasalar, Nvidia CEO’su Jensen Huang’ın istifasına ilişkin endişelerin sınırlı kalabileceği beklentisi ve petrol fiyatlarındaki düşüşün etkisiyle haftayı alış ağırlıklı tamamlarken, gözler gelecek haftanın yo...",
-      "link": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-gelecek-hafta-yogun-veri-gundemine-odaklandi-3927338",
-      "tarih": "2026-11-14T11:15:36.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "ABD'de petrol sondaj kulesi sayısı bir önceki haftaya göre sabit kaldı",
-      "ozet": "Petrol sahası hizmetleri şirketi Baker Hughes'un haftalık verilerine göre ABD'deki petrol sondaj kulesi sayısı 7-13 Kasım tarihlerinde bir önceki haftaya göre sabit kalarak 463 oldu.",
-      "link": "https://www.yenisafak.com/ekonomi/abdde-petrol-sondaj-kulesi-sayisi-463te-sabit-kaldi-4872356",
-      "tarih": "2026-11-14T06:41:22.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "IEA'dan 2027 tahmini: Petrolde arz artışı talebi aşacak",
-      "ozet": "Uluslararası Enerji Ajansı, 2027'de küresel petrol arzının günlük yaklaşık 6,5 milyon varil, talebin ise 2 milyon varil ...",
-      "link": "https://www.sozcu.com.tr/ieadan-2027-tahmini-petrolde-arz-artisi-talebi-asacak-p381075",
-      "tarih": "2026-11-13T12:46:32.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Motorine 4 lira indirim mi gelecek?",
-      "ozet": "Akaryakıt piyasasında benzin fiyatlarındaki düşüşün ardından motorin grubu için de indirim yapılacağına dair iddialar gü...",
-      "link": "https://www.sozcu.com.tr/motorine-4-lira-indirim-mi-gelecek-p380963",
-      "tarih": "2026-11-13T11:19:33.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Motorin fiyatlarına 4 TL'lik indirim yolda: Tarih belli oldu",
@@ -231,13 +196,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-10-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554915",
       "tarih": "2026-11-10T06:44:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota zam var mı? 7 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-7-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554098",
-      "tarih": "2026-11-07T07:10:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
