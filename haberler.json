@@ -1,8 +1,8 @@
 {
-  "guncelleme": "2026-11-15T23:37:19.306Z",
+  "guncelleme": "2026-11-16T03:27:29.267Z",
   "kaynaklar": [
-    "BIRGUN",
     "DUNYA",
+    "BIRGUN",
     "HABER7",
     "EKONOMIM",
     "CUMHURIYET",
@@ -23,6 +23,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Hürmüz'de tanker alarmına rağmen petrol düştü: ABD'den sevkiyat hamlesi",
+      "ozet": "Hürmüz Boğazı'nda tanker güvenliğine ilişkin endişeler sürerken Brent petrol haftaya düşüşle başladı. Küresel arzın son çeyrekte talebi günlük 1,7 milyon varil aşacağı tahmini, jeopolitik risklerin fiyatlar üzerindeki...",
+      "link": "https://www.dunya.com/enerji/hurmuzde-tanker-alarmina-ragmen-petrol-dustu-abdden-sevkiyat-hamlesi-haberi-847719",
+      "tarih": "2026-11-16T03:20:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Husiler: Suudi Arabistan'da havalimanı, finans merkezi ve petrol tesislerini hedef aldık",
       "ozet": "Husilerin Askeri Sözcüsü Yahya Seri, Riyad'daki Kral Halid Uluslararası Havalimanı ile finans merkezini 2 balistik füze, \"Petroline\" olarak da bilinen Doğu-Batı boru hattı üzerindeki 5 ve 6 numaralı petrol pompa istas...",
@@ -141,13 +148,6 @@
       "link": "https://www.birgun.net/haber/iranda-isci-servisi-devrildi-yasamini-yitirenlerin-sayisi-12ye-yukseldi-746531",
       "tarih": "2026-11-15T05:43:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarparak alev aldı",
-      "ozet": "İran Devrim Muhafızları Ordusu Deniz Kuvvetleri, Hürmüz Boğazının güneyinde gece saatlerinde 2 petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carparak-alev-aldi-963317.html",
-      "tarih": "2026-11-15T03:43:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "İran'da servis otobüsü devrildi: 10 kişi hayatını kaybetti, 12 kişi yaralandı",
