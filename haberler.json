@@ -1,13 +1,10 @@
 {
-  "guncelleme": "2026-11-16T12:09:23.843Z",
+  "guncelleme": "2026-11-16T23:53:04.923Z",
   "kaynaklar": [
-    "DUNYA",
-    "HABER7",
     "EKONOMIM",
+    "TRTHABER",
     "YENISAFAK",
     "CUMHURIYET",
-    "TRTHABER",
-    "BLOOMBERGHT",
     "SOZCU",
     "BIRGUN"
   ],
@@ -24,32 +21,18 @@
   },
   "haberler": [
     {
-      "baslik": "Romanya'da saldırıya uğrayan tanker Yeşilköy açıklarında",
-      "ozet": "Yunan bayraklı \"EVIAPETROL V\" isimli tanker, Romanya'nın Sulina limanı açıklarında seyir halindeyken kimliği belirsiz bir saldırıya uğradı. Saldırı sonucu gemide çıkan yangın mürettebatın müdahalesiyle söndürülürken, ...",
-      "link": "https://www.dunya.com/video-galeri/gundem/romanyada-saldiriya-ugrayan-tanker-yesilkoy-aciklarinda-video-847790",
-      "tarih": "2026-11-16T10:51:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Kerem Kazaz, üst üste 3. kez Türkiye ralli şampiyonu oldu",
-      "ozet": "Red Bull sporcusu Kerem Kazaz, Petrol Ofisi Maxima 2026 Türkiye Ralli Şampiyonası’nın İstanbul'da düzenlenen sezon finalinin ardından üst üste üçüncü kez Türkiye Ralli Şampiyonu oldu",
-      "link": "https://spor.haber7.com/diger-branslar/haber/3677286-kerem-kazaz-ust-uste-3-kez-turkiye-ralli-sampiyonu-oldu",
-      "tarih": "2026-11-16T09:46:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Petrolü tükenecek ülkeler açıklandı! Hangi ülkenin kaç yıllık petrolü kaldı?",
-      "ozet": "Petrolü en çok yetecek ve en hızlı tükenecek ülkeler açıklandı. Küresel enerji piyasalarında sarsıntıların yaşandığı son günlerde ülkelerin petrole olan takibi de sıkılaşmış durumda...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3677283-petrolu-tukenecek-ulkeler-aciklandi-hangi-ulkenin-kac-yillik-petrolu-kaldi",
-      "tarih": "2026-11-16T09:43:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Çin'in petrol rotası değişti, İran'ın boşluğunu indirimli Irak doldurdu",
-      "ozet": "ABD'nin deniz ablukası nedeniyle İran'dan petrol sevkiyatının sekteye uğraması, Çin'in bağımsız rafinerilerini alternatif kaynaklara yöneltirken; lojistik riskleri üstlenen alıcılara sunduğu yüksek indirimlerle Irak, ...",
-      "link": "https://www.ekonomim.com/dunya/cinin-petrol-rotasi-degisti-iranin-boslugunu-indirimli-irak-doldurdu-haberi-931519",
-      "tarih": "2026-11-16T08:41:00.000Z",
+      "baslik": "Hindistan dizel ve havacılık yakıtında ihracat vergilerini artırdı",
+      "ozet": "Hindistan, Pazartesi günü dizel ve havacılık türbin yakıtı üzerindeki ihracat vergilerini artırdı. Benzin ihracatındaki mevcut vergi oranı ise aynı kaldı.",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/hindistan-dizel-ve-havacilik-yakitinda-ihracat-vergilerini-artirdi-haberi-931641",
+      "tarih": "2026-11-16T22:30:00.000Z",
       "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "İran Ordusu: Hürmüz Boğazı'nda bir petrol tankeri daha mayına çarparak alev aldı",
+      "ozet": "İran Ordusu, Hürmüz Boğazı'nın doğusunda bir petrol tankerinin daha mayına çarparak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-bir-petrol-tankeri-daha-mayina-carparak-alev-aldi-963464.html",
+      "tarih": "2026-11-16T20:45:00.000Z",
+      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Araç sahiplerine indirim müjdesi kapıda: Brent petrol 94 doların altına geriledi",
@@ -73,20 +56,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Brent petrolün varili 96,13 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 96,13 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9613-dolardan-islem-goruyor-963390.html",
-      "tarih": "2026-11-16T06:41:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Goldman Sachs'tan petrolde \"oldukça büyük\" arz fazlası için uyarı",
-      "ozet": "Goldman Sachs, gelecek yıl petrol piyasasının fiyatları aşağı çekecek \"oldukça büyük bir fazlalık\" ile karşı karşıya kalacağını belirtti.",
-      "link": "https://www.bloomberght.com/goldman-sachs-tan-petrolde-oldukca-buyuk-arz-fazlasi-icin-uyari-3794707",
-      "tarih": "2026-11-16T06:37:34.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "İran petrolü kesilince Çinli rafinerilerin rotası Irak'a döndü",
       "ozet": "ABD'nin deniz ablukası nedeniyle İran'dan petrol sevkiyatının büyük ölçüde durması, Çin'in bağımsız rafinerilerini Irak ...",
       "link": "https://www.sozcu.com.tr/iran-petrolu-kesilince-cinli-rafinerilerin-rotasi-iraka-dondu-p381738",
@@ -101,39 +70,11 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "İran petrolü kesilince Çinli rafineriler Irak'a yöneldi",
-      "ozet": "ABD'nin deniz ablukası nedeniyle İran'dan petrol sevkiyatının büyük ölçüde kesilmesi, Çin'in bağımsız rafinerilerini alternatif tedarikçilere yöneltti. Irak, indirimli petrol fiyatlarıyla öne çıkarken uluslararası ene...",
-      "link": "https://www.bloomberght.com/iran-petrolu-kesilince-cinli-rafineriler-irak-a-yoneldi-3794686",
-      "tarih": "2026-11-16T05:09:28.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Husiler: Suudi Arabistan'da havalimanı, finans merkezi ve petrol tesislerini hedef aldık",
-      "ozet": "Husilerin Askeri Sözcüsü Yahya Seri, Riyad'daki Kral Halid Uluslararası Havalimanı ile finans merkezini 2 balistik füze, \"Petroline\" olarak da bilinen Doğu-Batı boru hattı üzerindeki 5 ve 6 numaralı petrol pompa istas...",
-      "link": "https://www.birgun.net/haber/husiler-suudi-arabistan-da-havalimani-finans-merkezi-ve-petrol-tesislerini-hedef-aldik-746622",
-      "tarih": "2026-11-15T21:17:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "İran: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
-      "ozet": "Hürmüz'de ‘izinsiz’ geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığı bildirildi.",
-      "link": "https://www.birgun.net/haber/iran-hurmuz-bogazi-nda-2-petrol-tankeri-mayina-carpti-746578",
-      "tarih": "2026-11-15T16:16:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Emtia piyasalarında bu hafta ne oldu? Altın, gümüş, petrol ve tarım ürünlerinde son tablo",
       "ozet": "ABD enflasyon verileri, Fed yetkililerinin faiz mesajları ve USDA'nın tarımsal arz raporları emtia fiyatlarında dalgalanmaya neden oldu. Altın, gümüş, bakır ve Brent petrolün gerilediği haftada pamuk, mısır ve soya fa...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/emtia-piyasalarinda-bu-hafta-ne-oldu-altin-gumus-petrol-ve-tarim-urunlerinde-son-tablo-2556378",
       "tarih": "2026-11-15T14:58:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "İran duyurdu: Hürmüz'deki mayınlara çarpan 2 tankerden 1'i battı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın güneyinde \"izinsiz\" geçiş güzergahından ilerlemeye çalışan 2 petrol tankerinin deniz mayınlarına çarparak alev aldığını, tankerlerden birinin battığını duyurdu.",
-      "link": "https://www.birgun.net/haber/iran-duyurdu-hurmuz-deki-mayinlara-carpan-2-tankerden-1-i-batti-746571",
-      "tarih": "2026-11-15T13:53:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "ABD'de motorin iki ay sonra 6 doların altına indi",
