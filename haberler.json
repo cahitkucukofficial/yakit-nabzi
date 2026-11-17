@@ -1,9 +1,10 @@
 {
-  "guncelleme": "2026-11-16T23:53:04.923Z",
+  "guncelleme": "2026-11-17T05:26:52.713Z",
   "kaynaklar": [
     "EKONOMIM",
-    "TRTHABER",
+    "DUNYA",
     "YENISAFAK",
+    "TRTHABER",
     "CUMHURIYET",
     "SOZCU",
     "BIRGUN"
@@ -20,6 +21,48 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Petrol fiyatlarında sert düşüş: Brent bir haftanın dibinde",
+      "ozet": "Petrol piyasasında arz fazlası beklentisi, Ortadoğu'daki jeopolitik risklerin önüne geçti. Bölgeden petrol sevkiyatının yeniden hız kazanması ve Körfez'deki tansiyonun kısmen düşmesiyle Brent petrolün varil fiyatı 91 ...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-fiyatlarinda-sert-dusus-brent-bir-haftanin-dibinde-haberi-931661",
+      "tarih": "2026-11-17T05:16:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarında son durum: İşte 17 Kasım 2026 güncel benzin, motorin ve LPG fiyatları",
+      "ozet": "Brent petrol fiyatlarındaki hareketlilik, döviz kurundaki dalgalanmalar ve vergi artışları, akaryakıt fiyatları üzerinde doğrudan etkili oluyor. Bu gelişmeler, vatandaşların “Benzin ne kadar oldu?”, “Motorin litre fiy...",
+      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/akaryakit-fiyatlarinda-son-durum-iste-17-kasim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-galeri-931653",
+      "tarih": "2026-11-17T04:40:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (17 Kasım 2026)",
+      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. 17 Kasım 2026 benzin, motorin (mazot) fiyatları ne kadar, güncel akaryakıt fiyatları kaç ...",
+      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-17-kasim-2026-haberi-847864",
+      "tarih": "2026-11-17T04:32:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Chevron 5 milyar dolarlık petrol anlaşmasına yaklaştı",
+      "ozet": "Chevron’un, Blackstone destekli Beacon Offshore ile Meksika Körfezi’ndeki petrol varlıklarına yönelik yaklaşık 5 milyar dolarlık satın alma görüşmelerinde öne geçtiği bildirildi. Ancak taraflar henüz bağlayıcı bir anl...",
+      "link": "https://www.dunya.com/ekonomik-veriler/chevron-5-milyar-dolarlik-petrol-anlasmasina-yaklasti-haberi-847865",
+      "tarih": "2026-11-17T04:30:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD'nin petrol rezervi 44 yılın dibinde: Brent 92 dolara geriledi",
+      "ozet": "ABD'nin stratejik petrol rezervi 276,4 milyon varile inerek Ağustos 1982'den bu yana en düşük seviyeyi gördü. Brent petrol 92 dolara gerilerken Orta Doğu'da toparlanan ihracat arz fazlası beklentisini güçlendiriyor. G...",
+      "link": "https://www.dunya.com/ekonomi/abdnin-petrol-rezervi-44-yilin-dibinde-brent-92-dolara-geriledi-haberi-847858",
+      "tarih": "2026-11-17T03:33:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Gabar'dan dünya ligine",
+      "ozet": "Gabar'da günlük 100 bin varil petrol üretimi hedeflenirken, Türkiye genelinde üretimin 2027'de 180 bin varile ulaşması öngörülüyor. Bu seviyeye erişilmesi halinde Türkiye, dünya petrol üretiminde 36'ncı sıraya kadar y...",
+      "link": "https://www.yenisafak.com/ekonomi/gabardan-dunya-ligine-4873226",
+      "tarih": "2026-11-17T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
     {
       "baslik": "Hindistan dizel ve havacılık yakıtında ihracat vergilerini artırdı",
       "ozet": "Hindistan, Pazartesi günü dizel ve havacılık türbin yakıtı üzerindeki ihracat vergilerini artırdı. Benzin ihracatındaki mevcut vergi oranı ise aynı kaldı.",
