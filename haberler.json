@@ -1,13 +1,15 @@
 {
-  "guncelleme": "2026-11-17T05:26:52.713Z",
+  "guncelleme": "2026-11-17T17:08:54.111Z",
   "kaynaklar": [
-    "EKONOMIM",
-    "DUNYA",
-    "YENISAFAK",
-    "TRTHABER",
+    "HABER7",
     "CUMHURIYET",
-    "SOZCU",
-    "BIRGUN"
+    "YENISAFAK",
+    "BIRGUN",
+    "STAR",
+    "BLOOMBERGHT",
+    "AA",
+    "HABERTURK",
+    "SOZCU"
   ],
   "beklenti": {
     "motorin": {
@@ -22,66 +24,87 @@
   },
   "haberler": [
     {
-      "baslik": "Petrol fiyatlarında sert düşüş: Brent bir haftanın dibinde",
-      "ozet": "Petrol piyasasında arz fazlası beklentisi, Ortadoğu'daki jeopolitik risklerin önüne geçti. Bölgeden petrol sevkiyatının yeniden hız kazanması ve Körfez'deki tansiyonun kısmen düşmesiyle Brent petrolün varil fiyatı 91 ...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-fiyatlarinda-sert-dusus-brent-bir-haftanin-dibinde-haberi-931661",
-      "tarih": "2026-11-17T05:16:00.000Z",
-      "kaynak": "EKONOMIM"
+      "baslik": "11 ilde 95 milyonluk vurgun! Yapay zekalı plan deşifre oldu, şebeke çökertildi!",
+      "ozet": "Mardin merkezli 11 ilde düzenlenen operasyonda, devlet büyüklerinin yapay zekayla oluşturulmuş görsellerini kullanarak petrol, borsa ve Baykar yatırımı vaadiyle vatandaşları dolandıran şebeke deşifre edildi.",
+      "link": "https://www.haber7.com/guncel/haber/3677700-11-ilde-95-milyonluk-vurgun-yapay-zekali-plan-desifre-oldu-sebeke-cokertildi",
+      "tarih": "2026-11-17T15:44:00.000Z",
+      "kaynak": "HABER7"
     },
     {
-      "baslik": "Akaryakıt fiyatlarında son durum: İşte 17 Kasım 2026 güncel benzin, motorin ve LPG fiyatları",
-      "ozet": "Brent petrol fiyatlarındaki hareketlilik, döviz kurundaki dalgalanmalar ve vergi artışları, akaryakıt fiyatları üzerinde doğrudan etkili oluyor. Bu gelişmeler, vatandaşların “Benzin ne kadar oldu?”, “Motorin litre fiy...",
-      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/akaryakit-fiyatlarinda-son-durum-iste-17-kasim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-galeri-931653",
-      "tarih": "2026-11-17T04:40:00.000Z",
-      "kaynak": "EKONOMIM"
+      "baslik": "Kerkük-Ceyhan petrol boru hattı 12 yıl sonra açıldı: Türkiye'ye günlük 500 bin varil hedefi",
+      "ozet": "Hürmüz Boğazı'ndaki kriz, Irak'ın petrol ihracatında Türkiye güzergâhını yeniden öne çıkardı. Yıllardır kapalı olan Kerkük-Ceyhan boru hattı yeniden devreye alınırken, Bağdat yönetimi petrol sevkiyatında Türkiye üzeri...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/kerkuk-ceyhan-petrol-boru-hatti-12-yil-sonra-acildi-turkiye-ye-gunluk-500-bin-varil-hedefi-2556891",
+      "tarih": "2026-11-17T11:58:00.000Z",
+      "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (17 Kasım 2026)",
-      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. 17 Kasım 2026 benzin, motorin (mazot) fiyatları ne kadar, güncel akaryakıt fiyatları kaç ...",
-      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-17-kasim-2026-haberi-847864",
-      "tarih": "2026-11-17T04:32:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Japonya Başbakanı Takaiçi'den Asya için enerji ajansı önerisi",
+      "ozet": "Japonya Başbakanı Takaiçi Sanae, ASEAN Zirvesi marjında düzenlenen toplantıda, bölge ülkelerinin petrol krizleriyle başa çıkabilmesi için Uluslararası Enerji Ajansı (IEA) benzeri bir Asya enerji ajansı önerisinde bulu...",
+      "link": "https://www.yenisafak.com/dunya/japonyadan-asya-enerji-ajansi-onerisi-iea-benzeri-yapi-4873489",
+      "tarih": "2026-11-17T11:40:50.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Chevron 5 milyar dolarlık petrol anlaşmasına yaklaştı",
-      "ozet": "Chevron’un, Blackstone destekli Beacon Offshore ile Meksika Körfezi’ndeki petrol varlıklarına yönelik yaklaşık 5 milyar dolarlık satın alma görüşmelerinde öne geçtiği bildirildi. Ancak taraflar henüz bağlayıcı bir anl...",
-      "link": "https://www.dunya.com/ekonomik-veriler/chevron-5-milyar-dolarlik-petrol-anlasmasina-yaklasti-haberi-847865",
-      "tarih": "2026-11-17T04:30:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Irak Petrol Bakanı duyurdu: 12 yıl sonra Kerkük-Ceyhan boru hattında petrol akışı başladı",
+      "ozet": "Irak Petrol Bakanı Basim Muhammed Hudayyir, Irak-Türkiye petrol boru hattı üzerinden ham petrol sevkiyatının yeniden başladığını duyurdu. Kerkük-Ceyhan hattından petrol ihracatının başlangıçta günlük 120 bin varil kap...",
+      "link": "https://www.birgun.net/haber/irak-petrol-bakani-duyurdu-12-yil-sonra-kerkuk-ceyhan-boru-hattinda-petrol-akisi-basladi-746930",
+      "tarih": "2026-11-17T11:24:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
-      "baslik": "ABD'nin petrol rezervi 44 yılın dibinde: Brent 92 dolara geriledi",
-      "ozet": "ABD'nin stratejik petrol rezervi 276,4 milyon varile inerek Ağustos 1982'den bu yana en düşük seviyeyi gördü. Brent petrol 92 dolara gerilerken Orta Doğu'da toparlanan ihracat arz fazlası beklentisini güçlendiriyor. G...",
-      "link": "https://www.dunya.com/ekonomi/abdnin-petrol-rezervi-44-yilin-dibinde-brent-92-dolara-geriledi-haberi-847858",
-      "tarih": "2026-11-17T03:33:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Komşu duyurdu! Türkiye'ye yeniden petrol akmaya başladı",
+      "ozet": "Irak Petrol Bakanı Basim Muhammed Hudayyır, Irak-Türkiye arasındaki \"eski boru hattı üzerinden ham petrol sevkiyatına yeniden başlandığını\" açıkladı. İhracat kapasitesinin kademeli olarak artırılacağını aktaran Hudayy...",
+      "link": "https://www.star.com.tr/ekonomi/komsu-duyurdu-turkiyeye-yeniden-petrol-akmaya-basladi-haber-2054005/",
+      "tarih": "2026-11-17T11:05:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Irak-Türkiye eski boru hattında ham petrol sevkiyatına yeniden başlandı",
+      "ozet": "Irak Petrol Bakanı Basim Muhammed Hudayyır, Irak-Türkiye arasındaki eski boru hattı üzerinden ilk aşamada günlük 120 bin varil ham petrolün ihraç edileceğini belirtti. Günlük taşıma miktarının 500 bin varile çıkarılma...",
+      "link": "https://www.yenisafak.com/ekonomi/irak-turkiye-boru-hattinda-ham-petrol-sevkiyati-basladi-4873460",
+      "tarih": "2026-11-17T10:51:56.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Irak: Türkiye'ye eski boru hattından ham petrol sevkiyatı başladı",
+      "ozet": "Irak Petrol Bakanı Basim Muhammed Hudayyır, Irak-Türkiye arasındaki \"eski boru hattı üzerinden ham petrol sevkiyatına yeniden başlandığını\" açıkladı.",
+      "link": "https://www.bloomberght.com/irak-turkiyeye-eski-boru-hattindan-ham-petrol-sevkiyati-basladi-3794867",
+      "tarih": "2026-11-17T10:40:35.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Rusya, yaptırımların gölgesinde buzları eriyen Arktik'ten rekor miktarda petrol taşıdı",
+      "ozet": "Rusya'nın Kuzey Deniz Yolu üzerinden Asya'ya petrol sevkiyatı, yaptırımlar ve geleneksel rotalardaki güvenlik sorunları nedeniyle bu yıl rekor kırdı. Küresel ısınmayla Arktik'te buz örtüsünün azalması, bölgenin enerji...",
+      "link": "https://www.aa.com.tr/tr/ekonomi/rusya-yaptirimlarin-golgesinde-buzlari-eriyen-arktikten-rekor-miktarda-petrol-tasidi/4127395",
+      "tarih": "2026-11-17T08:07:01.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Brent petrol 92,05 dolara geriledi",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,05 dolardan işlem görüyor. Cuma günü 96,77 dolara kadar yükselen Brent petrolün ocak vadeli varil fiyatı, günü 92,44 dolardan tamamladı",
+      "link": "https://www.haberturk.com/ekonomi/brent-petrol-92-05-dolara-geriledi-3927881",
+      "tarih": "2026-11-17T07:20:07.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "FIFA’nın iklim taahhütleri tartışıldı",
+      "ozet": "Beş kuruluş, Dünya Kupası’nı genişleten ve Suudi petrol şirketi Aramco’yla sponsorluk anlaşması imzalayan FIFA’nın iklim taahhütleriyle çeliştiğini savundu. Kuruluşlar, Birleşmiş Milletler’den FIFA’nın Sporda İklim Ey...",
+      "link": "https://www.birgun.net/haber/fifanin-iklim-taahhutleri-tartisildi-746852",
+      "tarih": "2026-11-17T07:20:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Brent petrolün varil fiyatı arz fazlası beklentisiyle 92,05 dolara geriledi",
+      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,05 dolardan işlem görüyor. Orta Doğu'dan petrol ihracatının toparlanması, küresel arz fazlası beklentilerini güçlendirdi.",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrolun-varili-9205-dolara-geriledi-4873316",
+      "tarih": "2026-11-17T06:49:01.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Gabar'dan dünya ligine",
       "ozet": "Gabar'da günlük 100 bin varil petrol üretimi hedeflenirken, Türkiye genelinde üretimin 2027'de 180 bin varile ulaşması öngörülüyor. Bu seviyeye erişilmesi halinde Türkiye, dünya petrol üretiminde 36'ncı sıraya kadar y...",
       "link": "https://www.yenisafak.com/ekonomi/gabardan-dunya-ligine-4873226",
       "tarih": "2026-11-17T01:00:00.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Hindistan dizel ve havacılık yakıtında ihracat vergilerini artırdı",
-      "ozet": "Hindistan, Pazartesi günü dizel ve havacılık türbin yakıtı üzerindeki ihracat vergilerini artırdı. Benzin ihracatındaki mevcut vergi oranı ise aynı kaldı.",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/hindistan-dizel-ve-havacilik-yakitinda-ihracat-vergilerini-artirdi-haberi-931641",
-      "tarih": "2026-11-16T22:30:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "İran Ordusu: Hürmüz Boğazı'nda bir petrol tankeri daha mayına çarparak alev aldı",
-      "ozet": "İran Ordusu, Hürmüz Boğazı'nın doğusunda bir petrol tankerinin daha mayına çarparak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-bir-petrol-tankeri-daha-mayina-carparak-alev-aldi-963464.html",
-      "tarih": "2026-11-16T20:45:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Araç sahiplerine indirim müjdesi kapıda: Brent petrol 94 doların altına geriledi",
-      "ozet": "Küresel piyasalarda petrol fiyatlarındaki geri çekilme hız kazandı. Uluslararası Enerji Ajansı'nın günlük 2 milyon varillik arz fazlası öngörüsü ile ABD ve İran cephesinden gelen yumuşama mesajlarının ardından Brent p...",
-      "link": "https://www.yenisafak.com/ekonomi/akaryakita-indirim-gelecek-mi-benzin-motorin-lpgde-guncel-fiyatlar-4872934",
-      "tarih": "2026-11-16T08:14:49.000Z",
       "kaynak": "YENISAFAK"
     },
     {
@@ -104,13 +127,6 @@
       "link": "https://www.sozcu.com.tr/iran-petrolu-kesilince-cinli-rafinerilerin-rotasi-iraka-dondu-p381738",
       "tarih": "2026-11-16T05:31:16.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "16 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "Yeni haftanın başlamasıyla birlikte 16 Kasım 2026 benzin, motorin ve LPG fiyatları yeniden araç sahiplerinin gündemine geldi. Global piyasalardaki dalgalanmalar, döviz kurundaki hareketlilik ve ÖTV zamları nedeniyle s...",
-      "link": "https://www.birgun.net/haber/16-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-746644",
-      "tarih": "2026-11-16T05:21:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Emtia piyasalarında bu hafta ne oldu? Altın, gümüş, petrol ve tarım ürünlerinde son tablo",
@@ -173,13 +189,6 @@
       "ozet": "Petrol fiyatlarındaki gerilemenin ardından benzin ve motorinde indirim beklentisi oluştu. Nihai tutarlar henüz kesinleşmezken, küresel piyasalardaki hareketin pompaya nasıl yansıyacağı yakından izleniyor.",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakita-cifte-indirim-geliyor-benzin-ve-motorinde-fiyatlar-dusecek-2555028",
       "tarih": "2026-11-10T11:49:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota zam var mı? 10 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-zam-var-mi-10-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2554915",
-      "tarih": "2026-11-10T06:44:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
