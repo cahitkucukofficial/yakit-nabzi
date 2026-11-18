@@ -1,16 +1,14 @@
 {
-  "guncelleme": "2026-11-18T12:22:57.436Z",
+  "guncelleme": "2026-11-18T22:44:11.467Z",
   "kaynaklar": [
-    "SABAH",
+    "AKSAM",
+    "HABER7",
     "AA",
     "YENISAFAK",
-    "DUNYA",
-    "HABER7",
-    "EKONOMIM",
+    "HABERTURK",
+    "BIRGUN",
     "CUMHURIYET",
     "SOZCU",
-    "BIRGUN",
-    "TRTHABER",
     "BLOOMBERGHT"
   ],
   "beklenti": {
@@ -26,11 +24,53 @@
   },
   "haberler": [
     {
-      "baslik": "Altın ve gümüşte sert düşüş! Değerli metallerde kayıplar derinleşiyor",
-      "ozet": "Altının ve gümüşün onsu, yüksek petrol fiyatlarının faiz oranlarında artışa ve dolarda güçlenmeye yol açmasıyla bir yılın en düşük seviyelerinde seyrediyor.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/altin-ve-gumuste-sert-dusus-degerli-metallerde-kayiplar-derinlesiyor-7704401",
-      "tarih": "2026-11-18T12:20:22.000Z",
-      "kaynak": "SABAH"
+      "baslik": "Hürmüz Boğazı'nda 3 tanker daha \"mayına çarptı\"",
+      "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgede ilerleyen 3 petrol tankerinin deniz mayınlarına çarparak alev aldığını ve hareket edemez hale geldiğini açıkladı.",
+      "link": "https://www.aksam.com.tr/dunya/hurmuz-bogazinda-3-tanker-daha-mayina-carpti/haber-1715649",
+      "tarih": "2026-11-18T20:36:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Sıcak su ararken servet buldular! Yerin altından 427 milyon ton petrol çıktı",
+      "ozet": "Çin’in Henan eyaletine bağlı Sanmenxia bölgesinde, sıcak su kaynaklarına ulaşmak için yapılan sondaj çalışmaları sırasında petrol izlerine rastlandı. Yerin altından tam tamına 427 milyon ton petrol çıktı.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678015-sicak-su-ararken-servet-buldular-yerin-altindan-427-milyon-ton-petrol-cikti",
+      "tarih": "2026-11-18T19:15:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Fosil yakıt kullanımını sonlandırmak için uluslararası girişime katılan ülke sayısı 30'a çıktı",
+      "ozet": "Dünyada petrol, gaz ve kömürün kullanımını aşamalı olarak sona erdirmek amacıyla uluslararası bir girişim olan Fosil Yakıt Anlaşması'na imza atan ülke sayısı 30'a yükseldi.",
+      "link": "https://www.aa.com.tr/tr/ekonomi/fosil-yakit-kullanimini-sonlandirmak-icin-uluslararasi-girisime-katilan-ulke-sayisi-30a-cikti/4129496",
+      "tarih": "2026-11-18T14:37:48.000Z",
+      "kaynak": "AA"
+    },
+    {
+      "baslik": "Altının ons fiyatı son bir yılın en düşük seviyesine geriledi",
+      "ozet": "Yüksek seyreden petrol fiyatlarının tetiklediği enflasyon endişeleri ve FED’in faiz artıracağı sinyalleri altın fiyatlarını düşürdü. Ons altın 3 bin 742 dolara gerilerken gram altın 6 bin 100 lira civarında seyrediyor.",
+      "link": "https://www.yenisafak.com/ekonomi/ons-altin-son-bir-yilin-en-dusuk-seviyesinde-4874041",
+      "tarih": "2026-11-18T14:25:36.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Altın ve gümüş yatırımcısına çifte darbe! Kayıplar derinleşti, kritik seviyeler görüldü",
+      "ozet": "Yüksek petrol fiyatlarının faiz oranlarında artışa ve dolarda güçlenmeye yol açmasıyla ons altın 3 bin 757,5 dolar, ons gümüş ise 45,6 dolarla son bir yılın en düşük seviyelerini gördü.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3677960-altin-ve-gumus-yatirimcisina-cifte-darbe-kayiplar-derinlesti-kritik-seviyeler-goruldu",
+      "tarih": "2026-11-18T13:58:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Altının ve gümüşün onsu son bir yılın dibine demir attı",
+      "ozet": "Altının ve gümüşün onsu, yüksek petrol fiyatlarının faiz oranlarında artışa ve dolarda güçlenmeye yol açmasıyla bir yılın en düşük seviyelerinde seyrediyor",
+      "link": "https://www.haberturk.com/ekonomi/altinin-ve-gumusun-onsu-son-bir-yilin-dibine-demir-atti-3928269",
+      "tarih": "2026-11-18T12:56:56.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Altın ve gümüşte tarihi kayıp: Son bir yılın dibini gördüler",
+      "ozet": "Yüksek petrol fiyatlarının faiz artışı beklentilerini güçlendirmesi ve doları desteklemesi, değerli metaller üzerindeki satış baskısını artırdı. Altının onsu 3 bin 757 dolara, gümüşün onsu ise 45,6 dolara gerileyerek ...",
+      "link": "https://www.birgun.net/haber/altin-ve-gumuste-tarihi-kayip-son-bir-yilin-dibini-gorduler-747133",
+      "tarih": "2026-11-18T12:08:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Altının ve gümüşün onsu son bir yılın dibine demir attı",
@@ -45,27 +85,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-indirim-orani-sizdi-tabelalar-yeniden-degisecek-iste-guncel-benzin-ve-motorin-fiyatlari-4873945",
       "tarih": "2026-11-18T10:50:25.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Bankacılık devinden 2027 tahminleri! Altın, gümüş ve petrol...",
-      "ozet": "İsviçreli bankacılık devi UBS, 2027 yılına ilişkin küresel ekonomi ve finans piyasaları tahminlerini açıkladı. Altının ons fiyatı için 5 bin dolar, gümüş için 65 dolar hedefi paylaşan banka, Brent petrol ve borsa ende...",
-      "link": "https://www.dunya.com/foto-galeri/ekonomi/bankacilik-devinden-2027-tahminleri-altin-gumus-ve-petrol-galeri-848079",
-      "tarih": "2026-11-18T09:52:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Hürmüz Boğazı kapatıldı: Rota ihlali yapan 3 tanker mayına çarptı!",
-      "ozet": "Küresel enerji nakil hatlarının kalbi konumundaki Hürmüz Boğazı'nda tansiyon en üst seviyeye çıktı. İran Devrim Muhafızları Ordusu, sabah saatlerinden bu yana rota ihlali yaptığı belirtilen 3 petrol tankerinin mayına ...",
-      "link": "https://www.haber7.com/dunya/haber/3677865-hurmuz-bogazi-kapatildi-rota-ihlali-yapan-3-tanker-mayina-carpti",
-      "tarih": "2026-11-18T09:41:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Çiftçinin ödeme gücü yok, sulama birlikleri tahsilatta acele ediyor",
-      "ozet": "Mazot, gübre, yem ve işçilik maliyetlerindeki artışa karşılık ürünlerinden beklediği geliri elde edemeyen üreticiler, biriken borçlarını ödemekte zorlanıyor. Ekonomik darboğazdaki Adanalı çiftçiyi zorlayan son gelişme...",
-      "link": "https://www.ekonomim.com/ekonomi/ciftcinin-odeme-gucu-yok-sulama-birlikleri-tahsilatta-acele-ediyor-haberi-931985",
-      "tarih": "2026-11-18T09:31:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Akaryakıtta yeni indirim beklentisi: Motorin için iki tarih öne çıktı",
@@ -110,13 +129,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Brent petrolün varili 91,71 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 91,71 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/ekonomi/brent-petrolun-varili-9171-dolardan-islem-goruyor-963654.html",
-      "tarih": "2026-11-18T07:12:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Motorin fiyatlarında indirim beklentisi: Gözler cuma gününde",
       "ozet": "Küresel piyasalarda motorinin ton fiyatı son 3 ayın en düşük seviyesine gerileyerek 1200 doların altına indi. Sektör kaynakları, düşüşün sürmesi halinde cuma günü motorine 3-4 lira veya üzerinde indirim yapılabileceği...",
       "link": "https://www.birgun.net/haber/motorin-fiyatlarinda-indirim-beklentisi-gozler-cuma-gununde-747057",
@@ -150,13 +162,6 @@
       "link": "https://www.bloomberght.com/petrolde-arz-baskisi-3794938",
       "tarih": "2026-11-18T05:23:35.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Husiler'den açıklama: Doğu-Batı petrol boru hattını hedef aldık",
-      "ozet": "Suudi Arabistan'ın başkenti Riyad'ın batı kesiminde yer alan Doğu-Batı petrol boru hattının 9 numaralı pompalama istasyonunu 3 İHA ile hedef aldıklarını aktaran Seri, aynı hattın 8 numaralı pompalama istasyonuna da 2 ...",
-      "link": "https://www.birgun.net/haber/husiler-den-aciklama-dogu-bati-petrol-boru-hattini-hedef-aldik-746992",
-      "tarih": "2026-11-17T19:42:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Kerkük-Ceyhan petrol boru hattı 12 yıl sonra açıldı: Türkiye'ye günlük 500 bin varil hedefi",
