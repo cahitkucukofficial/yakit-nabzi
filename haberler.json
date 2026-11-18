@@ -1,13 +1,14 @@
 {
-  "guncelleme": "2026-11-17T17:08:54.111Z",
+  "guncelleme": "2026-11-18T01:54:49.194Z",
   "kaynaklar": [
+    "EKONOMIM",
+    "AKSAM",
+    "BIRGUN",
     "HABER7",
     "CUMHURIYET",
     "YENISAFAK",
-    "BIRGUN",
     "STAR",
     "BLOOMBERGHT",
-    "AA",
     "HABERTURK",
     "SOZCU"
   ],
@@ -23,6 +24,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Irak Bakanlar Kurulu, Türkiye'ye uzanan petrol boru hattının geliştirilmesine yönelik tavsiyeyi onayladı",
+      "ozet": "Irak Bakanlar Kurulunun, Bağdat yönetiminin 12 yıl aradan sonra Türkiye'ye uzanan boru hattından ham petrol sevkiyatının yeniden başladığını duyurmasının ardından, söz konusu boru hattının düzenlenmesine yönelik tavsi...",
+      "link": "https://www.ekonomim.com/ekonomi/irak-bakanlar-kurulu-turkiyeye-uzanan-petrol-boru-hattinin-gelistirilmesine-yonelik-tavsiyeyi-onayladi-haberi-931863",
+      "tarih": "2026-11-17T20:25:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Ankara-Bağdat hattında tarihi petrol adımı! Günde 500 bin varile çıkacak",
+      "ozet": "Irak Bakanlar Kurulu, Bağdat yönetiminin 12 yıl aradan sonra Türkiye'ye uzanan boru hattından ham petrol sevkiyatını yeniden başlattığını duyurmasının ardından hattın düzenlenmesine yönelik tavsiyeyi onayladı. Sevkiya...",
+      "link": "https://www.aksam.com.tr/guncel/ankara-bagdat-hattinda-tarihi-petrol-adimi-gunde-500-bin-varile-cikacak/haber-1715381",
+      "tarih": "2026-11-17T20:17:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Husiler'den açıklama: Doğu-Batı petrol boru hattını hedef aldık",
+      "ozet": "Suudi Arabistan'ın başkenti Riyad'ın batı kesiminde yer alan Doğu-Batı petrol boru hattının 9 numaralı pompalama istasyonunu 3 İHA ile hedef aldıklarını aktaran Seri, aynı hattın 8 numaralı pompalama istasyonuna da 2 ...",
+      "link": "https://www.birgun.net/haber/husiler-den-aciklama-dogu-bati-petrol-boru-hattini-hedef-aldik-746992",
+      "tarih": "2026-11-17T19:42:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "11 ilde 95 milyonluk vurgun! Yapay zekalı plan deşifre oldu, şebeke çökertildi!",
       "ozet": "Mardin merkezli 11 ilde düzenlenen operasyonda, devlet büyüklerinin yapay zekayla oluşturulmuş görsellerini kullanarak petrol, borsa ve Baykar yatırımı vaadiyle vatandaşları dolandıran şebeke deşifre edildi.",
@@ -71,13 +93,6 @@
       "link": "https://www.bloomberght.com/irak-turkiyeye-eski-boru-hattindan-ham-petrol-sevkiyati-basladi-3794867",
       "tarih": "2026-11-17T10:40:35.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Rusya, yaptırımların gölgesinde buzları eriyen Arktik'ten rekor miktarda petrol taşıdı",
-      "ozet": "Rusya'nın Kuzey Deniz Yolu üzerinden Asya'ya petrol sevkiyatı, yaptırımlar ve geleneksel rotalardaki güvenlik sorunları nedeniyle bu yıl rekor kırdı. Küresel ısınmayla Arktik'te buz örtüsünün azalması, bölgenin enerji...",
-      "link": "https://www.aa.com.tr/tr/ekonomi/rusya-yaptirimlarin-golgesinde-buzlari-eriyen-arktikten-rekor-miktarda-petrol-tasidi/4127395",
-      "tarih": "2026-11-17T08:07:01.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Brent petrol 92,05 dolara geriledi",
