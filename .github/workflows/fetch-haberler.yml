@@ -2,7 +2,7 @@ name: Haberleri Güncelle
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # günde 6 kez (UTC saatine göre)
+    - cron: "0 * * * *"   # saatte bir (günde 24 kez)
   workflow_dispatch: {}       # Actions sekmesinden elle çalıştırmaya izin ver
 
 permissions:
