@@ -239,8 +239,8 @@ async function tamMetniCek(url) {
    (a) bir urun, (b) zam/indirim yonu, (c) "bekleniyor" gibi gelecek ifadesi,
    (d) bugunden sonraki bir tarih varsa aday sayilir; gecmis-zaman cumleleri ve
    fiyat SEVIYESI (orn. "Ankara'da 91,13 liraya") atlanir. */
-const BEKLENTI_IFADESI = /bekleniyor|beklentisi|beklenen|bekleyen|gelecek|yapılacak|olacak|öngörülüyor|geliyor|gelebilir|yolda|gündemde|gundemde|kesinleşirse|kesinlesirse/i;
-const BEKLENTI_KAPISI = /bekle|geliyor|yolda|gelecek|yapılacak|olacak|gündem|gundem|tarih belli|tabela|öngörül|kesinleş|kesinles|müjde|mujde/i;
+const BEKLENTI_IFADESI = /bekleniyor|beklentisi|beklenen|bekleyen|gelecek|yapılacak|olacak|öngörülüyor|geliyor|gelebilir|yolda|gündemde|gundemde|kesinleşirse|kesinlesirse|gece yarısı|gece yarisi|yarın|yarin|tabelalar/i;
+const BEKLENTI_KAPISI = /bekle|geliyor|yolda|gelecek|yapılacak|olacak|gündem|gundem|tarih belli|tabela|gece yar|yarın|yarin|öngörül|kesinleş|kesinles|müjde|mujde/i;
 const YON_KAPISI = /indirim|\bzam|zamm|artış|artis|artacak|yükselecek|yukselecek|düşüş|dusus|düşecek|dusecek/i;
 const GECMIS_ZAMAN = /uygulan(?:dı|di|ırken|irken|mıştı|mistı|mıştır)|yapıldı|yapildi|yapılmıştı|yapilmisti|gerçekleşti|gerceklesti|geldi\b|oldu\b|edildi/i;
 const MAKS_DEGISIM_TL = 25; // yakit fiyat SEVIYELERI (28+ TL) tutar sanilmasin
@@ -322,7 +322,7 @@ function tutarlariBul(metin) {
   const bulunan = [];
   let m;
   // "4 lira 27 kuruş(luk)" / "4 TL 27 kuruş"
-  const liraKurus = /(\d{1,2})\s*(?:TL|lira)\s*(\d{1,2})\s*kuruş(?:luk)?/gi;
+  const liraKurus = /(\d{1,2})\s*(?:TL|lira)\s*(\d{1,2})\s*kuru[şs]?(?:luk)?/gi;
   while ((m = liraKurus.exec(metin)) !== null) {
     bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseInt(m[1], 10) + parseInt(m[2], 10) / 100 });
   }
@@ -332,12 +332,12 @@ function tutarlariBul(metin) {
     bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseFloat(m[1].replace(",", ".")) });
   }
   // "65 kuruş(luk)"
-  const kurus = /(\d{1,3})\s*kuruş(?:luk)?/gi;
+  const kurus = /(\d{1,3})\s*kuru[şs]?(?:luk)?/gi;
   while ((m = kurus.exec(metin)) !== null) {
     bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseInt(m[1], 10) / 100 });
   }
   // "2 lira" (tam sayı; "2 lira 50 kuruş" yukarıda zaten yakalandı)
-  const tam = /(?<![\d.,])(\d{1,2})\s*(?:TL|lira)(?!\s*\d{1,2}\s*kuruş)/gi;
+  const tam = /(?<![\d.,])(\d{1,2})\s*(?:TL|lira)(?!\s*\d{1,2}\s*kuru)/gi;
   while ((m = tam.exec(metin)) !== null) {
     bulunan.push({ bas: m.index, son: m.index + m[0].length, tutar: parseInt(m[1], 10) });
   }
@@ -351,7 +351,28 @@ function tutarlariBul(metin) {
   return sonuc;
 }
 
-function adaylariCikar(metin) {
+// "bu gece yarısı / yarın / Cuma günü" gibi göreli tarih ifadelerini, HABERİN yayın gününe göre çöz.
+// (Haber Türkiye saatiyle bugün yayımlandıysa "bu gece yarısı" = ertesi gün.)
+function goreliTarihBul(pencere, haberTarihi) {
+  const ref = haberTarihi ? new Date(haberTarihi) : new Date();
+  if (Number.isNaN(ref.getTime())) return null;
+  const trGun = new Date(ref.getTime() + 3 * 60 * 60 * 1000); // UTC -> TR (UTC+3)
+  const bas = Date.UTC(trGun.getUTCFullYear(), trGun.getUTCMonth(), trGun.getUTCDate());
+  const iso = (ms) => new Date(ms).toISOString().slice(0, 10);
+  const GUN = 24 * 60 * 60 * 1000;
+  if (/bu\s+gece(?:\s+yar[ıi]s[ıi])?|gece\s+yar[ıi]s[ıi]|yar[ıi]n\b/i.test(pencere)) return iso(bas + GUN);
+  const gunler = { pazar: 0, pazartesi: 1, "salı": 2, sali: 2, "çarşamba": 3, carsamba: 3, "perşembe": 4, persembe: 4, cuma: 5, cumartesi: 6 };
+  const g = /(pazartesi|salı|sali|çarşamba|carsamba|perşembe|persembe|cumartesi|cuma|pazar)(?![a-zçğıöşü]*\s*günkü)/i.exec(pencere);
+  if (g) {
+    const hedef = gunler[g[1].toLocaleLowerCase("tr-TR")];
+    let fark = (hedef - trGun.getUTCDay() + 7) % 7;
+    if (fark === 0) fark = 7;
+    return iso(bas + fark * GUN);
+  }
+  return null;
+}
+
+function adaylariCikar(metin, haberTarihi) {
   const sonuc = [];
   const tarihler = tarihleriBul(metin);
   for (const ta of tutarlariBul(metin)) {
@@ -365,6 +386,8 @@ function adaylariCikar(metin) {
     const oncesi = metin.slice(Math.max(0, bas - 22), bas);
     if (/['’](?:da|de|ta|te)\s*$/i.test(oncesi) || /:\s*$/.test(oncesi)) continue;
 
+    // Tutardan hemen önce "geçtiğimiz hafta ... yapılan 3,54 TL'lik düşüş" gibi GEÇMİŞE ait anlatım -> beklenti değil.
+    if (/ge[çc]ti[ğg]imiz|ge[çc]en\s+(?:hafta|g[üu]n|ay)|ge[çc]mi[şs]|yapılan|yapilan|yansıyan|yansiyan|uygulanan|gerçekleşen|gerceklesen/i.test(metin.slice(Math.max(0, bas - 70), bas))) continue;
     // Gecmis zaman ("2,22 TL indirim uygulanirken/yapildi") -> zaten gerceklesmis.
     const hemenSonra = metin.slice(son, son + 70);
     if (GECMIS_ZAMAN.test(hemenSonra)) continue;
@@ -397,6 +420,10 @@ function adaylariCikar(metin) {
       const uzaklik = Math.abs(t.index - bas);
       if (!secilen || uzaklik < secilen.uzaklik) secilen = { iso: t.iso, uzaklik };
     }
+    if (!secilen) {
+      const gorece = goreliTarihBul(metin.slice(Math.max(0, bas - 120), son + 120), haberTarihi);
+      if (gorece && !tarihGecmisMi(gorece)) secilen = { iso: gorece, uzaklik: 0 };
+    }
     // Tarih bulunamazsa aday tarihsiz (null) olarak tutulur; ancak baska bir
     // kaynakta AYNI urun+yon+tutarla tarihli bir aday varsa birlestirme
     // asamasinda tarihi oradan alir, yoksa elenir (tarih UYDURULMAZ).
@@ -420,7 +447,7 @@ async function beklentiCikarBirHaberden(haber) {
   const etiket = (c) => ({ ...c, kaynakBaslik: haber.baslik, kaynakLink: haber.link, kaynak: haber.kaynak });
 
   // 1) Once sadece baslik+ozetten dene; TARIHLI aday varsa tamam.
-  let adaylar = adaylariCikar(ozetMetin);
+  let adaylar = adaylariCikar(ozetMetin, haber.tarih);
   // Özet "..." ile kesilmişse ve metinde geçen bir ürün (ör. LPG) için aday bulunamadıysa,
   // o ürünün cümlesi kesilen kısımda olabilir: tam makaleye de bak.
   const gecenUrunler = Object.keys(URUN_DESENLERI).filter((u) => URUN_DESENLERI[u].some((d) => d.test(ozetMetin)));
@@ -434,7 +461,7 @@ async function beklentiCikarBirHaberden(haber) {
     tamMetinKullanilan++;
     const tamMetin = await tamMetniCek(haber.link);
     if (tamMetin) {
-      const a2 = adaylariCikar(ozetMetin + " " + tamMetin);
+      const a2 = adaylariCikar(ozetMetin + " " + tamMetin, haber.tarih);
       if (a2.some((a) => a.tarih)) return a2.map(etiket);
       if (a2.length) yedek = a2;
     }
