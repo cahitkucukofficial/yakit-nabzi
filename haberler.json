@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-11-19T12:34:37.554Z",
+  "guncelleme": "2026-11-19T13:04:00.322Z",
   "kaynaklar": [
     "AKSAM",
     "TRTHABER",
@@ -7,7 +7,6 @@
     "DUNYA",
     "HABERTURK",
     "CUMHURIYET",
-    "EKONOMIM",
     "HABER7",
     "YENISAFAK",
     "BLOOMBERGHT",
@@ -17,7 +16,26 @@
   ],
   "beklenti": {
     "motorin": {
-      "expected": false
+      "expected": true,
+      "direction": "dusus",
+      "amount": 6.58,
+      "tarih": "2026-11-20",
+      "tarihDurumu": "tek-kaynak",
+      "tarihDogrulayanSayisi": 1,
+      "tarihAdaylari": [
+        "2026-11-20"
+      ],
+      "dogrulayanKaynakSayisi": 1,
+      "kaynaklar": [
+        {
+          "kaynak": "SOZCU",
+          "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-p382580",
+          "tarih": "2026-11-20"
+        }
+      ],
+      "kaynakBaslik": "Motorine dev indirim!",
+      "kaynak": "SOZCU",
+      "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-p382580"
     },
     "benzin": {
       "expected": false
@@ -27,6 +45,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Hürmüz düğümüne Türkiye çözümü: Komşu petrol rotasını çizdi",
+      "ozet": "Komşu ülke Irak, Hürmüz Boğazı'nda yaşanan güvenlik krizi nedeniyle petrol ihracatında alternatif güzergâhlara yöneldi. Bağdat yönetimi, Kerkük-Ceyhan hattını yeniden devreye alarak günlük sevkiyatı 500 bin varile çık...",
+      "link": "https://www.aksam.com.tr/dunya/hurmuz-dugumune-turkiye-cozumu-komsu-petrol-rotasini-cizdi/haber-1715819",
+      "tarih": "2026-11-19T12:53:00.000Z",
+      "kaynak": "AKSAM"
+    },
     {
       "baslik": "Kıtalar arası petrol ve doğal arayışı! Yüzen Türk kalesi menzile vardı",
       "ozet": "Somali'deki ilk kıtalar arası görevinin ardından Pakistan'a ulaşan yerli ve milli Oruç Reis Sismik Araştırma Gemisi, bu kez Pakistan kara sularında petrol ve doğal gaz arayacak. Türkiye'nin enerji filosundaki gemi, ik...",
@@ -89,13 +114,6 @@
       "link": "https://www.dunya.com/gundem/rusyanin-petrol-depolarina-iha-saldirisi-buyuk-yangin-son-anda-onlendi-haberi-848192",
       "tarih": "2026-11-19T09:39:00.000Z",
       "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Goldman Sachs petrol, faiz ve borsalar için 2027 beklentilerini açıkladı",
-      "ozet": "ABD'li yatırım bankası Goldman Sachs, 2027 yılına ilişkin küresel ekonomi beklentilerini açıkladı. Dünya ekonomisinde büyümenin sürmesini bekleyen banka, yapay zeka yatırımlarının 1,8 trilyon dolara ulaşacağını öngörü...",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/goldman-sachs-petrol-faiz-ve-borsalar-icin-2027-beklentilerini-acikladi-haberi-932213",
-      "tarih": "2026-11-19T09:33:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "AB, fosil yakıt ithalatına ilişkin metan kurallarını iki yıl erteliyor",
