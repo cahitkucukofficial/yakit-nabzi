@@ -1,15 +1,16 @@
 {
-  "guncelleme": "2026-11-18T22:44:11.467Z",
+  "guncelleme": "2026-11-19T04:44:57.579Z",
   "kaynaklar": [
+    "EKONOMIM",
     "AKSAM",
+    "DUNYA",
+    "SOZCU",
+    "YENISAFAK",
     "HABER7",
     "AA",
-    "YENISAFAK",
     "HABERTURK",
     "BIRGUN",
-    "CUMHURIYET",
-    "SOZCU",
-    "BLOOMBERGHT"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -24,11 +25,53 @@
   },
   "haberler": [
     {
-      "baslik": "Hürmüz Boğazı'nda 3 tanker daha \"mayına çarptı\"",
-      "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgede ilerleyen 3 petrol tankerinin deniz mayınlarına çarparak alev aldığını ve hareket edemez hale geldiğini açıkladı.",
-      "link": "https://www.aksam.com.tr/dunya/hurmuz-bogazinda-3-tanker-daha-mayina-carpti/haber-1715649",
-      "tarih": "2026-11-18T20:36:00.000Z",
+      "baslik": "Akaryakıta indirim bekleniyor: İşte 19 Kasım 2026 güncel benzin, motorin ve LPG fiyatları",
+      "ozet": "Brent petrol fiyatlarındaki hareketlilik, döviz kurundaki dalgalanmalar ve vergi artışları, akaryakıt fiyatları üzerinde doğrudan etkili oluyor. Bu gelişmeler, vatandaşların “Benzin ne kadar oldu?”, “Motorin litre fiy...",
+      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/akaryakita-indirim-bekleniyor-iste-19-kasim-2026-guncel-benzin-motorin-ve-lpg-fiyatlari-galeri-932121",
+      "tarih": "2026-11-19T04:40:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Hürmüz'de tanker, Kuveyt'te ABD üssü vurdular",
+      "ozet": "Birleşik Arap Emirlikleri (BAE) merkezli petrol şirketi ADNOC, şirkete ait tankerlerden birinin Hürmüz Boğazı'ndan geçişi sırasında saldırıya uğradığını açıkladı.",
+      "link": "https://www.aksam.com.tr/guncel/hurmuzde-tanker-kuveytte-abd-ussu-vurdular/haber-1715684",
+      "tarih": "2026-11-19T04:35:00.000Z",
       "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Petrol piyasasında temkinli bekleyiş: Piyasalar zirveye odaklandı",
+      "ozet": "Petrol fiyatları, küresel arzın güçlenmesine yönelik beklentiler ve Orta Doğu'daki jeopolitik riskler arasında yön arayışını sürdürüyor. ABD'de faiz politikası ve artan petrol stokları fiyatlar üzerinde baskı oluşturu...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-piyasasinda-temkinli-bekleyis-piyasalar-zirveye-odaklandi-haberi-932120",
+      "tarih": "2026-11-19T04:30:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (19 Kasım 2026)",
+      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. 19 Kasım 2026 benzin, motorin (mazot) fiyatları ne kadar, güncel akaryakıt fiyatları kaç ...",
+      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-19-kasim-2026-haberi-848147",
+      "tarih": "2026-11-19T04:25:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "ABD'den İran petrolüne açık denizde yeni abluka: Tankerlere el koyma uyarısı",
+      "ozet": "ABD, İran’a uyguladığı deniz ablukasını açık denizdeki gemiden gemiye yük aktarmalarına genişletti. İran limanlarından yüklenen petrolü devralan tankerler, İran kıyılarına yaklaşmasalar bile durdurulabilecek. Hürmüz’d...",
+      "link": "https://www.dunya.com/enerji/abdden-iran-petrolune-acik-denizde-yeni-abluka-tankerlere-el-koyma-uyarisi-haberi-848143",
+      "tarih": "2026-11-19T04:05:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Motorine dev indirim!",
+      "ozet": "Brent petrolün 90 doların altına gerilemesi akaryakıt piyasasını hareketlendirdi. Motorinin litre fiyatına cuma gününden...",
+      "link": "https://www.sozcu.com.tr/motorine-dev-indirim-p382580",
+      "tarih": "2026-11-19T01:44:37.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Faiz baskısı altını eritti",
+      "ozet": "Altın fiyatları, yüksek petrol fiyatlarının faiz oranlarında artışa ve dolarda güçlenmeye yol açmasıyla bir yılın en düşük seviyelerinde seyrediyor. Ons fiyatı Eylül 2025'ten bu yana en düşük seviyeyi gördü. Altının g...",
+      "link": "https://www.yenisafak.com/ekonomi/faiz-baskisi-altini-eritti-4874126",
+      "tarih": "2026-11-19T01:00:00.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Sıcak su ararken servet buldular! Yerin altından 427 milyon ton petrol çıktı",
@@ -50,13 +93,6 @@
       "link": "https://www.yenisafak.com/ekonomi/ons-altin-son-bir-yilin-en-dusuk-seviyesinde-4874041",
       "tarih": "2026-11-18T14:25:36.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Altın ve gümüş yatırımcısına çifte darbe! Kayıplar derinleşti, kritik seviyeler görüldü",
-      "ozet": "Yüksek petrol fiyatlarının faiz oranlarında artışa ve dolarda güçlenmeye yol açmasıyla ons altın 3 bin 757,5 dolar, ons gümüş ise 45,6 dolarla son bir yılın en düşük seviyelerini gördü.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3677960-altin-ve-gumus-yatirimcisina-cifte-darbe-kayiplar-derinlesti-kritik-seviyeler-goruldu",
-      "tarih": "2026-11-18T13:58:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Altının ve gümüşün onsu son bir yılın dibine demir attı",
@@ -136,13 +172,6 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "18 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "18 Kasım 2026 Çarşamba güncel akaryakıt fiyatları, araç sahiplerinin en çok araştırdığı konular arasında yer alıyor. Brent petrol fiyatları, döviz kurundaki dalgalanmalar ve ÖTV artışları nedeniyle benzin, motorin ve ...",
-      "link": "https://www.birgun.net/haber/18-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-747044",
-      "tarih": "2026-11-18T06:28:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Benzine, mazota indirim, zam var mı? 18 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-18-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557103",
@@ -155,13 +184,6 @@
       "link": "https://www.sozcu.com.tr/abd-stoklari-petrolu-dusurdu-hurmuz-riski-kayiplari-sinirladi-p382334",
       "tarih": "2026-11-18T05:29:21.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrolde arz baskısı",
-      "ozet": "Petrol fiyatları Orta Doğu'daki çatışmalara rağmen artan arz ve ABD stoklarıyla geriledi.",
-      "link": "https://www.bloomberght.com/petrolde-arz-baskisi-3794938",
-      "tarih": "2026-11-18T05:23:35.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Kerkük-Ceyhan petrol boru hattı 12 yıl sonra açıldı: Türkiye'ye günlük 500 bin varil hedefi",
