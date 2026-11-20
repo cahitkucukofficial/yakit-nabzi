@@ -708,6 +708,34 @@ async function main() {
   }
 
   const beklenti = await beklentileriBirlestir(haberler);
+
+  /* Gerçekleşmiş indirim/zam hâlâ "bekleniyor" görünmesin: EPDK fiyat geçmişinde son günlerde
+     aynı yönde ve bu tutara yakın bir değişim zaten olduysa beklenti gerçekleşmiş sayılır.
+     (örnek: gece yarısı gelen 6,50 TL motorin indirimi aynı haberde geçen "21 Kasım benzin" tarihiyle
+     yanlışlıkla gelecek beklentisi sanılıyordu) */
+  try {
+    const fiyat = JSON.parse(fs.readFileSync(path.join(path.dirname(hedefYol), "fiyatlar.json"), "utf-8"));
+    const satirlar = (fiyat.ilceler || []).filter((x) => x.il === "Ankara" || x.il === "İstanbul");
+    for (const urun of ["motorin", "benzin", "lpg"]) {
+      const b = beklenti[urun];
+      if (!b || !b.expected) continue;
+      const gec = (satirlar.find((x) => x[urun] && Array.isArray(x[urun].history)) || {})[urun];
+      const h = gec && gec.history;
+      if (!h || h.length < 2) continue;
+      const son = h.slice(-6);
+      for (let i = 1; i < son.length; i++) {
+        const fark = son[i] - son[i - 1];
+        const yonAyni = (b.direction === "dusus" && fark < 0) || (b.direction === "artis" && fark > 0);
+        if (yonAyni && Math.abs(Math.abs(fark) - b.amount) <= Math.max(0.5, b.amount * 0.12)) {
+          console.log("[beklenti] " + urun + " beklentisi zaten gerceklesmis (EPDK gecmisinde " + fark.toFixed(2) + " TL degisim) -> kaldirildi");
+          beklenti[urun] = { expected: false };
+          break;
+        }
+      }
+    }
+  } catch (e) {
+    console.error("[uyari] gerceklesen-beklenti kontrolu atlandi: " + e.message);
+  }
   console.log("[beklenti] " + Object.entries(beklenti).map(([u, v]) => v.expected ? (u + ": " + (v.direction === "dusus" ? "-" : "+") + v.amount + " @" + v.tarih + " [" + v.tarihDurumu + ", tarihi " + v.tarihDogrulayanSayisi + " kaynak soyluyor; adaylar: " + (v.tarihAdaylari || []).join("/") + "] (" + v.dogrulayanKaynakSayisi + " kaynak)") : (u + ": yok")).join(" | ") + " | tam makale istegi: " + tamMetinKullanilan);
   saglikKontroluYap(haberler); // sessiz caprazdogrulama - sadece log, JSON'a yazilmiyor
 
