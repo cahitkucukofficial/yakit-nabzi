@@ -1,42 +1,19 @@
 {
-  "guncelleme": "2026-11-20T09:52:25.424Z",
+  "guncelleme": "2026-11-20T16:21:13.838Z",
   "kaynaklar": [
+    "HABER7",
     "DUNYA",
-    "AKSAM",
-    "AA",
+    "TRTHABER",
     "BIRGUN",
-    "CUMHURIYET",
     "SOZCU",
     "YENISAFAK",
-    "TRTHABER",
-    "EKONOMIM",
+    "CUMHURIYET",
     "BLOOMBERGHT",
-    "STAR",
-    "HABER7",
     "HABERTURK"
   ],
   "beklenti": {
     "motorin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 6.5,
-      "tarih": "2026-11-21",
-      "tarihDurumu": "tek-kaynak",
-      "tarihDogrulayanSayisi": 1,
-      "tarihAdaylari": [
-        "2026-11-21"
-      ],
-      "dogrulayanKaynakSayisi": 1,
-      "kaynaklar": [
-        {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/20-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-747427",
-          "tarih": "2026-11-21"
-        }
-      ],
-      "kaynakBaslik": "20 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "kaynak": "BIRGUN",
-      "kaynakLink": "https://www.birgun.net/haber/20-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-747427"
+      "expected": false
     },
     "benzin": {
       "expected": true,
@@ -66,25 +43,53 @@
   },
   "haberler": [
     {
-      "baslik": "Almanya'da üretici fiyatlarında 2023'ten bu yana en sert artış",
-      "ozet": "Almanya'da üretici fiyatları ekimde yıllık yüzde 8,1 yükselerek Şubat 2023'ten bu yana en hızlı artışı kaydetti. Enerji fiyatları yüzde 18,7 artarken petrol ürünleri ve sanayi girdilerinde yükseliş dikkat çekti. Gıdad...",
-      "link": "https://www.dunya.com/ekonomik-veriler/almanyada-uretici-fiyatlarinda-2023ten-bu-yana-en-sert-artis-haberi-848301",
-      "tarih": "2026-11-20T09:29:00.000Z",
+      "baslik": "Önce motorine sonra benzine indirim! Araç sahiplerine müjde",
+      "ozet": "Akaryakıt fiyatlarında düşüş sürüyor. Motorine yapılan indirimin ardından bu kez de benzin fiyatlarında indirim bekleniyor. İşte detaylar...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678332-once-motorine-sonra-benzine-indirim-arac-sahiplerine-mujde",
+      "tarih": "2026-11-20T14:34:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "UBS'den petrol fiyatları için uyarı: Düşüş aşırıya kaçmış olabilir",
+      "ozet": "UBS, Brent petrol fiyatlarında ekim sonundan bu yana yaşanan yaklaşık 20 dolarlık düşüşün aşırıya kaçmış olabileceği uyarısında bulundu. Orta Doğu'daki arz risklerine ve küresel petrol stoklarındaki azalmaya dikkat çe...",
+      "link": "https://www.dunya.com/ekonomi/ubsden-petrol-fiyatlari-icin-uyari-dusus-asiriya-kacmis-olabilir-haberi-848323",
+      "tarih": "2026-11-20T13:12:00.000Z",
       "kaynak": "DUNYA"
     },
     {
-      "baslik": "Türkiye'den sınır ötesinde petrol avı: Sondaj için tarih verildi",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Oruç Reis Sismik Araştırma Gemisi'nin Pakistan'da 670 kilometrekarelik alanda yaklaşık iki ay boyunca 3 boyutlu sismik veri toplama çalışması gerçekleştireceğini, ...",
-      "link": "https://www.aksam.com.tr/ekonomi/turkiyeden-sinir-otesinde-petrol-avi-sondaj-icin-tarih-verildi/haber-1716004",
-      "tarih": "2026-11-20T08:29:00.000Z",
-      "kaynak": "AKSAM"
+      "baslik": "Rusya'da benzin ve motorin satışına sınırlama genişliyor",
+      "ozet": "Ukrayna'nın petrol rafinerilerine yönelik İHA saldırılarının sürdüğü Rusya'da akaryakıt satışına getirilen kısıtlamalar genişletildi. Sivastopol, Tomsk ve Penza'da benzin ve motorin satışına litre sınırı uygulanırken ...",
+      "link": "https://www.dunya.com/ekonomi/rusyada-benzin-ve-motorin-satisina-sinirlama-genisliyor-haberi-848318",
+      "tarih": "2026-11-20T12:37:00.000Z",
+      "kaynak": "DUNYA"
     },
     {
-      "baslik": "Panama'dan petrol üretiminin sınırlandırılması ve enerji dönüşümünün desteklenmesi çağrısı",
-      "ozet": "Panama Çevre Bakanı Juan Carlos Navarro, COP31'de büyük petrol üreticisi ve tüketicisi ülkelere petrol üretimini mevcut seviyelerde tutma ve küresel enerji dönüşümüne finansman desteği sağlama çağrısında bulundu.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/panamadan-petrol-uretiminin-sinirlandirilmasi-ve-enerji-donusumunun-desteklenmesi-cagrisi/4131825",
-      "tarih": "2026-11-20T08:15:30.000Z",
-      "kaynak": "AA"
+      "baslik": "İran Dışişleri Bakanı Arakçi: ABDnin deniz ablukasının kırılması gerekiyor",
+      "ozet": "İran Dışişleri Bakanı Abbas Arakçi, İran petrolünün ihracatı için ABD ordusunun uyguladığı deniz ablukasının kırılması gerektiğini söyledi.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-disisleri-bakani-arakci-abdnin-deniz-ablukasinin-kirilmasi-gerekiyor-963972.html",
+      "tarih": "2026-11-20T11:57:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Ukrayna'nın İHA saldırıları sonrası: Rusya'da akaryakıt satışına yeniden sınırlama",
+      "ozet": "Ukrayna'nın Rusya'daki petrol rafinerilerine yönelik İHA saldırılarının ardından Sivastopol, Tomsk ve Penza'da akaryakıt satışına yeniden kısıtlama getirildi. Benzin ve motorin satışına litre sınırı uygulanırken, bazı...",
+      "link": "https://www.birgun.net/haber/ukrayna-nin-iha-saldirilari-sonrasi-rusya-da-akaryakit-satisina-yeniden-sinirlama-747474",
+      "tarih": "2026-11-20T11:23:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Rusya'da akaryakıt satışına yönelik kısıtlamalar genişliyor",
+      "ozet": "Rusya'da Ukrayna'nın ülkedeki petrol rafinerilerine yönelik insansız hava aracı (İHA) saldırıları sürerken, Sivastopol, ...",
+      "link": "https://www.sozcu.com.tr/rusya-da-akaryakit-satisina-yonelik-kisitlamalar-genisliyor-p383053",
+      "tarih": "2026-11-20T11:22:54.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Kasım ayının en ucuz otomobilleri belli oldu: Benzinli, dizel, hibrit ve elektrikli modeller tek tek sıralandı",
+      "ozet": "Kasım 2026 en ucuz sıfır otomobil fiyatları, yeni araç satın almak isteyenlerin gündeminde öne çıktı. Türkiye otomobil pazarında benzinli, dizel, elektrikli, hibrit, hafif hibrit, şarj edilebilir hibrit ve LPG'li mode...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/kasim-ayinin-en-ucuz-otomobilleri-belli-oldu-benzinli-dizel-hibrit-ve-elektrikli-modeller-tek-tek-siralandi-4874831",
+      "tarih": "2026-11-20T11:18:34.000Z",
+      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Benzin fiyatlarının hesaplanmasında değişiklik",
@@ -122,32 +127,11 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "İsrail basınına göre Netanyahu, İran'a yeni saldırılar için Trump'a baskı yapmaya devam ediyor",
-      "ozet": "İsrail Başbakanı Binyamin Netanyahu'nun İran'a yönelik yeni bir ortak askeri operasyon için ABD Başkanı Donald Trump'a baskı yaptığı, Washington yönetiminin ise Körfez ülkelerinin itirazları, misilleme riski ve petrol...",
-      "link": "https://www.trthaber.com/haber/dunya/israil-basinina-gore-netanyahu-irana-yeni-saldirilar-icin-trumpa-baski-yapmaya-devam-ediyor-963927.html",
-      "tarih": "2026-11-20T06:57:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "EPDK, benzin yoğunluğu hesaplamasında esas alınan değeri düşürdü",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanıla...",
       "link": "https://www.sozcu.com.tr/epdk-benzin-yogunlugu-hesaplamasinda-esas-alinan-degeri-dusurdu-p382970",
       "tarih": "2026-11-20T06:55:39.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "EPDK, benzin yoğunluğu hesaplamasında esas alınan değeri düşürdü",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanılan yoğunluk değerinde değişikliğe gitti.",
-      "link": "https://www.ekonomim.com/ekonomi/epdk-benzin-yogunlugu-hesaplamasinda-esas-alinan-degeri-dusurdu-haberi-932371",
-      "tarih": "2026-11-20T06:53:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Benzin yoğunluğu hesaplamasında esas alınan değer düşürüldü",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu EPDK, rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanılan yoğunluk değerinde değişikliğe gitti.",
-      "link": "https://www.trthaber.com/haber/ekonomi/benzin-yogunlugu-hesaplamasinda-esas-alinan-deger-dusuruldu-963924.html",
-      "tarih": "2026-11-20T06:51:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "EPDK'dan benzin yoğunluğu düzenlemesi",
@@ -164,13 +148,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Akaryakıt fiyatlarında yeni dönem! EPDK benzinin hesaplama formülünü değiştirdi",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında esas alınan yoğunluk değerini 0,775'ten 0,755 ton/metreküpe düşürdü; karar Resmi Gazete'de yayımlandı.",
-      "link": "https://www.star.com.tr/ekonomi/akaryakit-fiyatlarinda-yeni-donem-epdk-benzinin-hesaplama-formulunu-degistirdi-haber-2054546/",
-      "tarih": "2026-11-20T06:46:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Akaryakıtta düşüş sürüyor: Benzinde indirim beklentisi",
       "ozet": "Motorine yapılan 6 lira 58 kuruşluk indirimin ardından benzinde de indirim bekleniyor. Sektör kaynakları, benzinin litre fiyatında bu gece yarısından itibaren 1 lira 86 kuruş düşüş öngörüldüğünü bildirdi.",
       "link": "https://www.birgun.net/haber/akaryakitta-dusus-suruyor-benzinde-indirim-beklentisi-747409",
@@ -178,39 +155,11 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "EPDK, benzin yoğunluğu hesaplamasında esas alınan değeri düşürdü",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanılan yoğunluk değerinde değişikliğe gitti.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678350-epdk-benzin-yogunlugu-hesaplamasinda-esas-alinan-degeri-dusurdu",
-      "tarih": "2026-11-20T06:43:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Brent petrolün varili 92,55 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,55 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9255-dolardan-islem-goruyor-963922.html",
-      "tarih": "2026-11-20T06:43:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Benzine, mazota indirim, zam var mı? 20 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
       "tarih": "2026-11-20T06:26:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Brent petrolün varili 92,55 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 92,55 dolardan işlem görüyor.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678352-brent-petrolun-varili-9255-dolardan-islem-goruyor",
-      "tarih": "2026-11-20T06:15:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Önce motorin sonra benzin! Akaryakıta indirim geliyor",
-      "ozet": "Akaryakıt fiyatlarında düşüş sürüyor. Motorine yapılan indirimin ardından bu kez benzinde fiyat indirimi bekleniyor. İşte detaylar...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678332-once-motorin-sonra-benzin-akaryakita-indirim-geliyor",
-      "tarih": "2026-11-20T06:12:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Motorine bugün benzine yarın indirim: İşte 20 Kasım güncel benzin motorin ve LPG fiyatları",
@@ -248,13 +197,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Motorine büyük indirim! İşte yeni benzin, motorin ve LPG fiyatları",
-      "ozet": "Brent petroldeki dalgalanmanın ardından motorinin litre fiyatına ortalama 6,50 lira indirim geldi. Bugün pompaya yansıyan indirimle birlikte motorin İstanbul'da 88,80 liraya, Ankara'da ise 89,90 liraya gerileyerek 90 ...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678322-motorine-buyuk-indirim-iste-yeni-benzin-motorin-ve-lpg-fiyatlari",
-      "tarih": "2026-11-20T04:38:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Motorine indirim geldi",
       "ozet": "Motorinin litre fiyatına ortalama 6,50 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı. Böylelikle İstanbul ve Ankara'da motorin litre fiyatı 90 TL'nin altına düştü",
       "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-dev-indirim-geldi-iste-guncel-20-kasim-2026-motorin-benzin-ve-lpg-fiyatlari-3928661",
@@ -283,25 +225,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Avrupa'da elektrikli otomobil rekoru",
-      "ozet": "Avrupa'da tamamen elektrikli otomobil satışları, ekim ayında geçen yılın aynı dönemine göre yüzde 60'ın üzerinde arttı. Yüksek petrol fiyatları, devlet teşvikleri ve uygun fiyatlı modellerin yaygınlaşmasıyla elektrikl...",
-      "link": "https://www.haberturk.com/ekonomi/avrupa-da-elektrikli-otomobil-satislari-yuzde-60-artti-3928487",
-      "tarih": "2026-11-19T09:59:40.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
       "baslik": "Goldman Sachs’tan 2027 tahminleri: Petrol 132 dolara çıkabilir",
       "ozet": "Goldman Sachs, 2027’de küresel büyümenin sürmesini beklerken enerji fiyatları, yüksek borçlanma maliyetleri ve yapay zekâ yatırımlarındaki olası yavaşlamayı temel riskler arasında gösterdi. Banka, özellikle Batı Asya’...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-2027-tahminleri-petrol-132-dolara-cikabilir-2557536",
       "tarih": "2026-11-19T09:49:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Yağmur hızır gibi yetişti",
-      "ozet": "ABD-İran savaşı nedeniyle petrol fiyatlarının yüzde 60 artışla 120 dolara kadar çıkması net enerji ithalatçısı olan Türkiye'nin enerji faturasını şişiriyor. Bu yıl yağmurun bol yağması artan yenilenebilir enerji üreti...",
-      "link": "https://www.haberturk.com/ekonomi/yagmur-yagdi-gunes-ve-ruzgar-artti-ayda-1-milyar-dolar-kurtardik-3928295",
-      "tarih": "2026-11-19T08:44:34.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Dolar/TL'de yükseliş sürüyor: Endeks 19 ayın zirvesine yakın",
@@ -339,11 +267,60 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Motorine dev indirim!",
-      "ozet": "Küresel piyasalarda benzin ve motorinin ton fiyatı düşüyor. Bu düşüşe bağlı olarak motorine, bu gece yarısı 6 TL 58 kuru...",
-      "link": "https://www.sozcu.com.tr/motorine-dev-indirim-p382580",
-      "tarih": "2026-11-19T06:12:57.000Z",
+      "baslik": "ABD'nin ticari ham petrol stokları 3,4 milyon varil arttı",
+      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 3 milyon 400 bin varil arttı.",
+      "link": "https://www.sozcu.com.tr/abd-nin-ticari-ham-petrol-stoklari-3-4-milyon-varil-artti-p382616",
+      "tarih": "2026-11-19T05:42:36.000Z",
       "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Akaryakıtta yeni indirim beklentisi: Motorin için iki tarih öne çıktı",
+      "ozet": "Benzindeki indirimin ardından gözler motorin fiyatlarına çevrildi. Küresel petrol piyasalarındaki düşüşün sürmesiyle motorin için de indirim beklentisi güçlenirken, pompa fiyatlarında değişiklik için bu hafta işaret e...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-yeni-indirim-beklentisi-motorin-icin-iki-tarih-one-cikti-2557170",
+      "tarih": "2026-11-18T08:38:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim, zam var mı? 18 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-18-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557103",
+      "tarih": "2026-11-18T06:06:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Kerkük-Ceyhan petrol boru hattı 12 yıl sonra açıldı: Türkiye'ye günlük 500 bin varil hedefi",
+      "ozet": "Hürmüz Boğazı'ndaki kriz, Irak'ın petrol ihracatında Türkiye güzergâhını yeniden öne çıkardı. Yıllardır kapalı olan Kerkük-Ceyhan boru hattı yeniden devreye alınırken, Bağdat yönetimi petrol sevkiyatında Türkiye üzeri...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/kerkuk-ceyhan-petrol-boru-hatti-12-yil-sonra-acildi-turkiye-ye-gunluk-500-bin-varil-hedefi-2556891",
+      "tarih": "2026-11-17T11:58:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Trafikte en çok hangi marka araç tercih edildi? Ekim verileri açıklandı",
+      "ozet": "Türkiye’de trafiğe kaydı yapılan taşıt sayısı ekim ayında hem aylık hem de yıllık bazda geriledi. Otomobil kayıtlarında düşüş yaşanırken, yeni otomobil tercihlerinde benzinli ve hibrit araçlar öne çıktı.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/trafikte-en-cok-hangi-marka-arac-tercih-edildi-ekim-verileri-aciklandi-2556500",
+      "tarih": "2026-11-16T07:18:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 16 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-16-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556481",
+      "tarih": "2026-11-16T06:43:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Emtia piyasalarında bu hafta ne oldu? Altın, gümüş, petrol ve tarım ürünlerinde son tablo",
+      "ozet": "ABD enflasyon verileri, Fed yetkililerinin faiz mesajları ve USDA'nın tarımsal arz raporları emtia fiyatlarında dalgalanmaya neden oldu. Altın, gümüş, bakır ve Brent petrolün gerilediği haftada pamuk, mısır ve soya fa...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/emtia-piyasalarinda-bu-hafta-ne-oldu-altin-gumus-petrol-ve-tarim-urunlerinde-son-tablo-2556378",
+      "tarih": "2026-11-15T14:58:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 15 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-15-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556253",
+      "tarih": "2026-11-15T07:06:00.000Z",
+      "kaynak": "CUMHURIYET"
     }
   ]
 }
