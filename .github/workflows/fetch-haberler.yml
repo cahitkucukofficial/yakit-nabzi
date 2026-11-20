@@ -26,6 +26,8 @@ jobs:
 
       - name: Haberleri çek
         run: node scripts/fetch-haberler.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Değişiklik varsa commit'le ve push'la
         run: |
