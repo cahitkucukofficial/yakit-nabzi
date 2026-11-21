@@ -2,7 +2,7 @@ name: EPDK Fiyatlarini Guncelle
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # gunde 8 kez
+    - cron: "1 21 * * *"   # gunde 1 kez, 00:01 (TR)
   workflow_dispatch: {}       # Actions sekmesinden elle calistirmaya izin ver
 
 permissions:
