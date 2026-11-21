@@ -1,17 +1,15 @@
 {
-  "guncelleme": "2026-11-20T18:27:11.278Z",
+  "guncelleme": "2026-11-21T00:42:18.436Z",
   "kaynaklar": [
+    "DUNYA",
     "STAR",
     "HABER7",
     "TRTHABER",
-    "AKSAM",
     "YENISAFAK",
-    "DUNYA",
     "BIRGUN",
     "SOZCU",
     "CUMHURIYET",
-    "BLOOMBERGHT",
-    "HABERTURK"
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -45,6 +43,13 @@
   },
   "haberler": [
     {
+      "baslik": "Trump, Çin zirvesinin ardından konuştu: İran’la anlaşmayı reddettim",
+      "ozet": "ABD Başkanı Donald Trump, Çin’deki üçlü zirvenin ardından düzenlediği ilk basın toplantısında, petrol fiyatlarının İran’la yapılacak bir anlaşmaya bağlı olduğunu söyledi. Trump, zirvede petrol ve akaryakıt üretimini a...",
+      "link": "https://www.dunya.com/dunya/trump-cin-zirvesinin-ardindan-konustu-iranla-anlasmayi-reddettim-haberi-848345",
+      "tarih": "2026-11-20T19:13:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
       "baslik": "Türkiye'ye kapılar ardına kadar açıldı! Asya devi petrol ve doğal gaz için yeni fırsatlar peşinde",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, resmi ziyaret kapsamında bulunduğu Pakistan'ın başkenti İslamabad'da Pakistan Başbakanı Şahbaz Şerif ile bir araya geldi. Pakistan'ın Türkiye'nin tecrübesinden ve ...",
       "link": "https://www.star.com.tr/ekonomi/turkiyeye-kapilar-ardina-kadar-acildi-asya-devi-petrol-ve-dogal-gaz-icin-yeni-firsatlar-pesinde-haber-2054677/",
@@ -66,13 +71,6 @@
       "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Trump: Petrol fiyatları İran'la nasıl anlaşacağımıza bağlı",
-      "ozet": "ABD Başkanı Donald Trump, \"Petrol fiyatları İran ile anlaşmaya da bağlı fakat İran, benim kabul edebileceğim bir anlaşma istemiyor. Ben gerçek bir anlaşma yapmak istiyorum\" dedi.",
-      "link": "https://www.aksam.com.tr/dunya/trump-petrol-fiyatlari-iranla-nasil-anlasacagimiza-bagli/haber-1716106",
-      "tarih": "2026-11-20T17:40:00.000Z",
-      "kaynak": "AKSAM"
-    },
-    {
       "baslik": "Oruç Reis Pakistan'da petrol ve doğal gaz arayacak",
       "ozet": "Türkiye ile Pakistan arasında enerji alanında yeni bir dönem başlıyor. Türk araştırma gemisi Oruç Reis, Pakistan'ın Sindh ve Makran açıklarında iki ay boyunca petrol ve doğal gaz aramak için 3 boyutlu sismik araştırma...",
       "link": "https://www.yenisafak.com/ekonomi/oruc-reis-pakistanda-petrol-ve-dogal-gaz-arayacak-4874959",
@@ -80,39 +78,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "İran Devrim Muhafızları duyurdu: Hürmüz Boğazı'nda bir petrol tankeri mayına çarparak alev aldı",
-      "ozet": "İran Devrim Muhafızları, Hürmüz Boğazı'nda bir petrol tankerinin mayına çarparak alev aldığını duyurdu.",
-      "link": "https://www.aksam.com.tr/dunya/iran-devrim-muhafizlari-duyurdu-hurmuz-bogazinda-bir-petrol-tankeri-mayina-carparak-alev-aldi/haber-1716101",
-      "tarih": "2026-11-20T16:43:00.000Z",
-      "kaynak": "AKSAM"
-    },
-    {
       "baslik": "Önce motorine sonra benzine indirim! Araç sahiplerine müjde",
       "ozet": "Akaryakıt fiyatlarında düşüş sürüyor. Motorine yapılan indirimin ardından bu kez de benzin fiyatlarında indirim bekleniyor. İşte detaylar...",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3678332-once-motorine-sonra-benzine-indirim-arac-sahiplerine-mujde",
       "tarih": "2026-11-20T14:34:00.000Z",
       "kaynak": "HABER7"
-    },
-    {
-      "baslik": "UBS'den petrol fiyatları için uyarı: Düşüş aşırıya kaçmış olabilir",
-      "ozet": "UBS, Brent petrol fiyatlarında ekim sonundan bu yana yaşanan yaklaşık 20 dolarlık düşüşün aşırıya kaçmış olabileceği uyarısında bulundu. Orta Doğu'daki arz risklerine ve küresel petrol stoklarındaki azalmaya dikkat çe...",
-      "link": "https://www.dunya.com/ekonomi/ubsden-petrol-fiyatlari-icin-uyari-dusus-asiriya-kacmis-olabilir-haberi-848323",
-      "tarih": "2026-11-20T13:12:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Rusya'da benzin ve motorin satışına sınırlama genişliyor",
-      "ozet": "Ukrayna'nın petrol rafinerilerine yönelik İHA saldırılarının sürdüğü Rusya'da akaryakıt satışına getirilen kısıtlamalar genişletildi. Sivastopol, Tomsk ve Penza'da benzin ve motorin satışına litre sınırı uygulanırken ...",
-      "link": "https://www.dunya.com/ekonomi/rusyada-benzin-ve-motorin-satisina-sinirlama-genisliyor-haberi-848318",
-      "tarih": "2026-11-20T12:37:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "İran Dışişleri Bakanı Arakçi: ABDnin deniz ablukasının kırılması gerekiyor",
-      "ozet": "İran Dışişleri Bakanı Abbas Arakçi, İran petrolünün ihracatı için ABD ordusunun uyguladığı deniz ablukasının kırılması gerektiğini söyledi.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-disisleri-bakani-arakci-abdnin-deniz-ablukasinin-kirilmasi-gerekiyor-963972.html",
-      "tarih": "2026-11-20T11:57:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Ukrayna'nın İHA saldırıları sonrası: Rusya'da akaryakıt satışına yeniden sınırlama",
@@ -241,20 +211,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Motorine indirim geldi",
-      "ozet": "Motorinin litre fiyatına ortalama 6,50 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı. Böylelikle İstanbul ve Ankara'da motorin litre fiyatı 90 TL'nin altına düştü",
-      "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-dev-indirim-geldi-iste-guncel-20-kasim-2026-motorin-benzin-ve-lpg-fiyatlari-3928661",
-      "tarih": "2026-11-20T04:20:48.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Emekçiler 29 Kasım'da Kartal'da buluşuyor: Talep de eylemler de ortak",
-      "ozet": "Geçim sıkıntısına ve hak kayıplarına karşı 29 Kasım'da İstanbul Kartal Meydanı'nda düzenlenecek mitinge Gebze Sendikalar Birliği de katılacak. Konfederasyonlara bütçe ve emek sorunlarına karşı birlikte hareket etme ça...",
-      "link": "https://www.birgun.net/haber/emekciler-29-kasim-da-kartal-da-bulusuyor-talep-de-eylemler-de-ortak-747345",
-      "tarih": "2026-11-20T02:00:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "750 bin varil hedefine adım adım",
       "ozet": "Irak merkezi yönetiminin 12 yıldır kullanılmayan Kuzey Petrol Boru Hattı'nı yeniden devreye almasıyla, Türkiye'ye yönelik ham petrol sevkiyatının artırılmasının önü açıldı. Günlük 120 bin varille başlayan sevkiyatın k...",
       "link": "https://www.yenisafak.com/ekonomi/750-bin-varil-hedefine-adim-adim-4874582",
@@ -311,17 +267,52 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "ABD'nin ticari ham petrol stokları 3,4 milyon varil arttı",
-      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 3 milyon 400 bin varil arttı.",
-      "link": "https://www.sozcu.com.tr/abd-nin-ticari-ham-petrol-stoklari-3-4-milyon-varil-artti-p382616",
-      "tarih": "2026-11-19T05:42:36.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "Akaryakıtta yeni indirim beklentisi: Motorin için iki tarih öne çıktı",
       "ozet": "Benzindeki indirimin ardından gözler motorin fiyatlarına çevrildi. Küresel petrol piyasalarındaki düşüşün sürmesiyle motorin için de indirim beklentisi güçlenirken, pompa fiyatlarında değişiklik için bu hafta işaret e...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-yeni-indirim-beklentisi-motorin-icin-iki-tarih-one-cikti-2557170",
       "tarih": "2026-11-18T08:38:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim, zam var mı? 18 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-18-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557103",
+      "tarih": "2026-11-18T06:06:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Kerkük-Ceyhan petrol boru hattı 12 yıl sonra açıldı: Türkiye'ye günlük 500 bin varil hedefi",
+      "ozet": "Hürmüz Boğazı'ndaki kriz, Irak'ın petrol ihracatında Türkiye güzergâhını yeniden öne çıkardı. Yıllardır kapalı olan Kerkük-Ceyhan boru hattı yeniden devreye alınırken, Bağdat yönetimi petrol sevkiyatında Türkiye üzeri...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/kerkuk-ceyhan-petrol-boru-hatti-12-yil-sonra-acildi-turkiye-ye-gunluk-500-bin-varil-hedefi-2556891",
+      "tarih": "2026-11-17T11:58:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Trafikte en çok hangi marka araç tercih edildi? Ekim verileri açıklandı",
+      "ozet": "Türkiye’de trafiğe kaydı yapılan taşıt sayısı ekim ayında hem aylık hem de yıllık bazda geriledi. Otomobil kayıtlarında düşüş yaşanırken, yeni otomobil tercihlerinde benzinli ve hibrit araçlar öne çıktı.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/trafikte-en-cok-hangi-marka-arac-tercih-edildi-ekim-verileri-aciklandi-2556500",
+      "tarih": "2026-11-16T07:18:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 16 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-16-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556481",
+      "tarih": "2026-11-16T06:43:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Emtia piyasalarında bu hafta ne oldu? Altın, gümüş, petrol ve tarım ürünlerinde son tablo",
+      "ozet": "ABD enflasyon verileri, Fed yetkililerinin faiz mesajları ve USDA'nın tarımsal arz raporları emtia fiyatlarında dalgalanmaya neden oldu. Altın, gümüş, bakır ve Brent petrolün gerilediği haftada pamuk, mısır ve soya fa...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/emtia-piyasalarinda-bu-hafta-ne-oldu-altin-gumus-petrol-ve-tarim-urunlerinde-son-tablo-2556378",
+      "tarih": "2026-11-15T14:58:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim var mı? 15 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-15-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556253",
+      "tarih": "2026-11-15T07:06:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
