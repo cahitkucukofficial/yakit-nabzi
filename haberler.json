@@ -1,10 +1,8 @@
 {
-  "guncelleme": "2026-11-21T14:50:17.471Z",
+  "guncelleme": "2026-11-21T20:58:14.384Z",
   "kaynaklar": [
-    "ENSONHABER",
     "TRTHABER",
     "CUMHURIYET",
-    "DUNYA",
     "YENISAFAK",
     "SABAH",
     "BIRGUN",
@@ -26,27 +24,6 @@
   },
   "haberler": [
     {
-      "baslik": "ABD'den İran petrol ticaretinde rol oynayan 4 kişiye yaptırım",
-      "ozet": "ABD Hazine Bakanlığı, İran'ın yurt dışındaki petrol satışlarının gerçekleştirilmesi ve bu satışlardan elde edilen gelirlerin tahsil edilmesinde rol oynayan 4 İran vatandaşının yaptırım listesine eklendiğini açıkladı.",
-      "link": "https://www.ensonhaber.com/abdden-iran-petrol-ticaretinde-rol-oynayan-4-kisiye-yaptirim-h1584434",
-      "tarih": "2026-11-21T14:10:45.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "Alparslan Bayraktar, Irak Devlet Bakanı Ağaoğlu ile enerji iş birliği fırsatlarını görüştü",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Irak Devlet Bakanı ve Irak Türkmen Cephesi Başkanı Mehmet Seman Ağaoğlu ile görüşmesinde, Türkiye Petrolleri'nin Kerkük sahalarındaki payı çerçevesinde yeni iş bir...",
-      "link": "https://www.ensonhaber.com/alparslan-bayraktar-irak-devlet-bakani-agaoglu-ile-enerji-is-birligi-firsatlarini-gorustu-h1584427",
-      "tarih": "2026-11-21T13:53:24.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "İran: Hürmüz Boğazı'nın doğusunda mayına çarpan tankerler alev aldı",
-      "ozet": "İran donanması, Hürmüz Boğazı'nın doğusunda seyreden ve kuralları ihlal eden iki petrol tankerinin deniz mayınlarına çarptıktan sonra alev aldığını duyurdu.",
-      "link": "https://www.ensonhaber.com/iran-hurmuz-bogazinin-dogusunda-mayina-carpan-tankerler-alev-aldi-h1584406",
-      "tarih": "2026-11-21T13:06:48.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
       "baslik": "İran Devrim Muhafızları Ordusu: Hürmüz Boğazı'nın doğusunda bir petrol tankeri mayına çarparak alev aldı",
       "ozet": "İran Devrim Muhafızları Ordusu Deniz Kuvvetleri Komutanlığı, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgede ilerleyen bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
       "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-ordusu-hurmuz-bogazinin-dogusunda-bir-petrol-tankeri-mayina-carparak-alev-aldi-964065.html",
@@ -59,13 +36,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-de-tuketici-guveni-3-ayin-zirvesinde-benzin-rahatlatti-yapay-zeka-calkantisi-varlikli-kesimi-vurdu-2558076",
       "tarih": "2026-11-21T11:14:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Hürmüz'de gemi trafiği sert düştü: Petrol sevkiyatında saldırı baskısı büyüyor",
-      "ozet": "Hürmüz Boğazı'nda haftalık gemi geçişi 308'den 263'e gerileyerek yüzde 15 azaldı. İngiliz denizcilik makamları yedi günde altı saldırı kaydetti. Savaş öncesine göre trafik yüzde 65 düşük; petrol sevkiyatındaki risk bü...",
-      "link": "https://www.dunya.com/gundem/hurmuzde-gemi-trafigi-sert-dustu-petrol-sevkiyatinda-saldiri-baskisi-buyuyor-haberi-848390",
-      "tarih": "2026-11-21T09:21:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "TOGG'un ardından yeni yerli otomobil müjdesi geldi: Hem benzin hem de hibrit model olacak",
