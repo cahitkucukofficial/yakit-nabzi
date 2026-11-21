@@ -49,8 +49,14 @@ jobs:
           git rm -f --ignore-unmatch debug-*.png >/dev/null 2>&1 || true
           git add fiyatlar.json
           git diff --cached --quiet || git commit -m "EPDK fiyat guncellemesi"
-          git pull --rebase origin main
-          git push
+          # fiyatlar.json bu isin urettigi dosya: baska bir islem (haber isi,
+          # elle yukleme) araya girip cakisma cikarsa bizim uretimimizi esas al.
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase -X theirs origin/main && git push && break
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
 
       - name: Veri tazeligini kontrol et, gerekirse uyari Issue'su ac
         # always(): script yukarida throw etse ("ne petrol ne LPG cekilebildi")
