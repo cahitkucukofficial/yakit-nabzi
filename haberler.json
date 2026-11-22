@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-11-22T11:46:15.537Z",
+  "guncelleme": "2026-11-22T19:53:58.495Z",
   "kaynaklar": [
-    "AKSAM",
-    "DUNYA",
     "EKONOMIM",
+    "TRTHABER",
+    "HABER7",
     "BIRGUN",
     "CUMHURIYET",
     "YENISAFAK",
@@ -24,25 +24,39 @@
   },
   "haberler": [
     {
-      "baslik": "Kardeş ülkede petrol sevinci... Oruç Reis göreve başladı",
-      "ozet": "Türkiye'nin yerli ve millî imkânlarla geliştirdiği Oruç Reis Sismik Araştırma Gemisi, ikinci yurt dışı görevi için Pakistan açıklarında petrol ve doğal gaz arama çalışmalarına başladı. Somali'deki ilk kıtalararası gör...",
-      "link": "https://www.aksam.com.tr/ekonomi/kardes-ulkede-petrol-sevinci-oruc-reis-goreve-basladi/haber-1716457",
-      "tarih": "2026-11-22T10:30:00.000Z",
-      "kaynak": "AKSAM"
-    },
-    {
-      "baslik": "Altın, gümüş, bakır ve petrol... Emtia piyasalarında sert düşüşün nedeni ne?",
-      "ozet": "Fed'in faiz artırım beklentileri ve güçlenen dolar, emtia piyasalarında sert satışlara yol açtı. Haftalık bazda altın yüzde 8,9, gümüş yüzde 15,4 değer kaybederek 34 haftanın en sert düşüşünü yaşadı. Her iki değerli m...",
-      "link": "https://www.dunya.com/ekonomi/altin-gumus-bakir-ve-petrol-emtia-piyasalarinda-sert-dususun-nedeni-ne-haberi-848452",
-      "tarih": "2026-11-22T08:08:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "2027'de piyasaları ne bekliyor? 25 yabancı kurumdan kritik tahminler",
-      "ozet": "Küresel yatırım kuruluşlarının 2027 tahminlerinde büyümenin yapay zekâ yatırımlarıyla desteklenmesi, Fed'de faizin yılın başında zirve yapması bekleniyor. Tahvillerin yüksek getirileriyle yeniden koruma aracı olarak ö...",
-      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/2027de-piyasalari-ne-bekliyor-25-yabanci-kurumdan-kritik-tahminler-galeri-932663",
-      "tarih": "2026-11-22T07:03:00.000Z",
+      "baslik": "İran ordusu: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarparak alev aldı",
+      "ozet": "İran ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgeye girdiği belirtilen 2 petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.ekonomim.com/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-mayina-carparak-alev-aldi-haberi-932723",
+      "tarih": "2026-11-22T16:52:00.000Z",
       "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "İran ordusu: Hürmüz Boğazı'nda 2 tanker mayına çarparak alev aldı",
+      "ozet": "İran ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgeye girdiği belirtilen 2 petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-tanker-mayina-carparak-alev-aldi-964149.html",
+      "tarih": "2026-11-22T16:50:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Son dakika: Hürmüz Boğazı'nda mayına çarpan 2 petrol tankeri alev aldı",
+      "ozet": "İran ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgeye girdiği belirtilen 2 petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.haber7.com/dunya/haber/3679013-son-dakika-hurmuz-bogazinda-mayina-carpan-2-petrol-tankeri-alev-aldi",
+      "tarih": "2026-11-22T16:49:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Batman Petrolspor, Muğlaspor’u ilk yarıda bulduğu gollerle devirdi",
+      "ozet": "1. Lig’in 15. haftasında Muğlaspor’u 2-0 mağlup eden Batman Petrolspor, puanını 27’ye yükselterek dördüncü sıraya yerleşti. Ev sahibi ekibin gollerini Gökhan Altıparmak ve penaltıdan Pedrinho kaydetti.",
+      "link": "https://www.birgun.net/haber/batman-petrolspor-muglasporu-ilk-yarida-buldugu-gollerle-devirdi-747814",
+      "tarih": "2026-11-22T12:30:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "İkinci el otomobilde LPG ve dizel öne çıktı! Alıcılar artık bu detaylara bakıyor",
+      "ozet": "İkinci el otomobil piyasasında yaşanan durgunluk alım satım işlemlerini yavaşlatırken, birikimlerini altında değerlendiren vatandaşlar fiyatlardaki gerilemenin ardından araç alımını ertelemeye başladı.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678957-ikinci-el-otomobilde-lpg-ve-dizel-one-cikti-alicilar-artik-bu-detaylara-bakiyor",
+      "tarih": "2026-11-22T11:51:00.000Z",
+      "kaynak": "HABER7"
     },
     {
       "baslik": "Fon vurgununda 108 kişilik tedbir listesi: Ahmet Şık kritik isimlere dikkat çekti",
@@ -203,13 +217,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-var-mi-16-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2556481",
       "tarih": "2026-11-16T06:43:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Emtia piyasalarında bu hafta ne oldu? Altın, gümüş, petrol ve tarım ürünlerinde son tablo",
-      "ozet": "ABD enflasyon verileri, Fed yetkililerinin faiz mesajları ve USDA'nın tarımsal arz raporları emtia fiyatlarında dalgalanmaya neden oldu. Altın, gümüş, bakır ve Brent petrolün gerilediği haftada pamuk, mısır ve soya fa...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/emtia-piyasalarinda-bu-hafta-ne-oldu-altin-gumus-petrol-ve-tarim-urunlerinde-son-tablo-2556378",
-      "tarih": "2026-11-15T14:58:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
