@@ -2,7 +2,7 @@ name: EPDK Fiyatlarini Guncelle
 
 on:
   schedule:
-    - cron: "1 21 * * *"   # gunde 1 kez, 00:01 (TR)
+    - cron: "40 20 * * *"   # gunde 1 kez, 23:40 (TR); GitHub gecikse de 00:00-01:00 arasi calisir
   workflow_dispatch: {}       # Actions sekmesinden elle calistirmaya izin ver
 
 permissions:
