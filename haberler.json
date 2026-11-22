@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-11-22T01:28:24.734Z",
+  "guncelleme": "2026-11-22T11:46:15.537Z",
   "kaynaklar": [
-    "TRTHABER",
+    "AKSAM",
+    "DUNYA",
+    "EKONOMIM",
+    "BIRGUN",
     "CUMHURIYET",
     "YENISAFAK",
-    "SABAH",
-    "BIRGUN",
-    "STAR",
     "HABERTURK",
     "SOZCU",
     "BLOOMBERGHT"
@@ -24,11 +24,32 @@
   },
   "haberler": [
     {
-      "baslik": "İran Devrim Muhafızları Ordusu: Hürmüz Boğazı'nın doğusunda bir petrol tankeri mayına çarparak alev aldı",
-      "ozet": "İran Devrim Muhafızları Ordusu Deniz Kuvvetleri Komutanlığı, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgede ilerleyen bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-ordusu-hurmuz-bogazinin-dogusunda-bir-petrol-tankeri-mayina-carparak-alev-aldi-964065.html",
-      "tarih": "2026-11-21T11:20:00.000Z",
-      "kaynak": "TRTHABER"
+      "baslik": "Kardeş ülkede petrol sevinci... Oruç Reis göreve başladı",
+      "ozet": "Türkiye'nin yerli ve millî imkânlarla geliştirdiği Oruç Reis Sismik Araştırma Gemisi, ikinci yurt dışı görevi için Pakistan açıklarında petrol ve doğal gaz arama çalışmalarına başladı. Somali'deki ilk kıtalararası gör...",
+      "link": "https://www.aksam.com.tr/ekonomi/kardes-ulkede-petrol-sevinci-oruc-reis-goreve-basladi/haber-1716457",
+      "tarih": "2026-11-22T10:30:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Altın, gümüş, bakır ve petrol... Emtia piyasalarında sert düşüşün nedeni ne?",
+      "ozet": "Fed'in faiz artırım beklentileri ve güçlenen dolar, emtia piyasalarında sert satışlara yol açtı. Haftalık bazda altın yüzde 8,9, gümüş yüzde 15,4 değer kaybederek 34 haftanın en sert düşüşünü yaşadı. Her iki değerli m...",
+      "link": "https://www.dunya.com/ekonomi/altin-gumus-bakir-ve-petrol-emtia-piyasalarinda-sert-dususun-nedeni-ne-haberi-848452",
+      "tarih": "2026-11-22T08:08:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "2027'de piyasaları ne bekliyor? 25 yabancı kurumdan kritik tahminler",
+      "ozet": "Küresel yatırım kuruluşlarının 2027 tahminlerinde büyümenin yapay zekâ yatırımlarıyla desteklenmesi, Fed'de faizin yılın başında zirve yapması bekleniyor. Tahvillerin yüksek getirileriyle yeniden koruma aracı olarak ö...",
+      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/2027de-piyasalari-ne-bekliyor-25-yabanci-kurumdan-kritik-tahminler-galeri-932663",
+      "tarih": "2026-11-22T07:03:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Fon vurgununda 108 kişilik tedbir listesi: Ahmet Şık kritik isimlere dikkat çekti",
+      "ozet": "İstanbul Cumhuriyet Başsavcılığının fon soruşturması kapsamında mal varlıklarına tedbir uygulanmasını istediği 108 kişilik listeye ilişkin yeni ayrıntılar ortaya çıktı. TİP İstanbul Milletvekili Ahmet Şık, listede esk...",
+      "link": "https://www.birgun.net/haber/fon-vurgununda-108-kisilik-tedbir-listesi-ahmet-sik-kritik-isimlere-dikkat-cekti-747738",
+      "tarih": "2026-11-22T05:49:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "ABD’de tüketici güveni 3 ayın zirvesinde: Benzin rahatlattı, yapay zeka çalkantısı varlıklı kesimi vurdu",
@@ -45,32 +66,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Türkiye'nin sondaj filosuna 129 milyon litrelik yakıt ihalesi",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı (TPAO), sondaj ve sismik araştırma gemileri ile Osman Gazi Yüzer Üretim Tesisi'nin 2027'de akaryakıt ihtiyacına yönelik toplam 129 milyon 800 bin litre akaryakıt alımı...Devamı için...",
-      "link": "https://www.sabah.com.tr/ekonomi/turkiyenin-sondaj-filosuna-129-milyon-litrelik-yakit-ihalesi-7706278",
-      "tarih": "2026-11-21T07:28:18.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "Akaryakıtta peş peşe indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
       "ozet": "Akaryakıtta indirim rüzgarı devam ediyor. Geçtiğimiz günlerde motorine yapılan indirimin ardından bu kez benzinin litre fiyatında 2 lira 95 kuruşluk düşüş yaşandı. Gece yarısından itibaren pompaya yansıyan yeni fiyatl...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-pes-pese-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4875092",
       "tarih": "2026-11-21T07:18:55.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "21 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "21 Kasım 2026 Cumartesi günü güncel akaryakıt fiyatları araç sahiplerinin en çok araştırdığı konular arasında yer aldı. Küresel petrol fiyatlarındaki düşüşün ardından motorine 6 lira 58 kuruş, benzine ise 1 lira 86 ku...",
-      "link": "https://www.birgun.net/haber/21-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-747594",
-      "tarih": "2026-11-21T07:17:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "TPAO'dan 2027 için dev enerji hamlesi! 7 gemi için düğmeye basıldı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı (TPAO), sondaj ve sismik araştırma gemileri ile Osman Gazi Yüzer Üretim Tesisi'nin 2027'de akaryakıt ihtiyacına yönelik toplam 129 milyon 800 bin litre akaryakıt alımı için ihale dü...",
-      "link": "https://www.star.com.tr/ekonomi/tpaodan-2027-icin-dev-enerji-hamlesi-7-gemi-icin-dugmeye-basildi-haber-2054760/",
-      "tarih": "2026-11-21T07:16:00.000Z",
-      "kaynak": "STAR"
     },
     {
       "baslik": "TPAO, 2027 akaryakıt ihtiyacı için 129 milyon 800 bin litrelik ihale yapacak",
@@ -92,13 +92,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-21-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2558016",
       "tarih": "2026-11-21T07:03:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine gece yarısı indirimi: Litre fiyatı 70 liranın altına geriledi",
-      "ozet": "Petrol fiyatlarındaki gerileme ve stok artışı akaryakıta indirim olarak yansıdı. Motorine gelen 6,50 liralık indirimin ardından benzinin litre fiyatı da 2,95 TL düştü. Benzin İstanbul'da 68,35, Ankara'da 69,25, İzmir'...",
-      "link": "https://www.birgun.net/haber/benzine-gece-yarisi-indirimi-litre-fiyati-70-liranin-altina-geriledi-747580",
-      "tarih": "2026-11-21T06:32:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Oruç Reis Pakistan'da petrol ve doğal gaz arayacak",
@@ -129,20 +122,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Benzin 70 liranın altına düşecek",
-      "ozet": "Benzin fiyatlarında beklenen indirim için tarih belli oldu. Araç sahiplerini sevindirecek gelişmeyle birlikte bazı şehir...",
-      "link": "https://www.sozcu.com.tr/benzin-70-liranin-altina-dusecek-p382930",
-      "tarih": "2026-11-20T08:02:13.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "EPDK, benzin yoğunluğu hesaplamasında esas alınan değeri düşürdü",
-      "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanıla...",
-      "link": "https://www.sozcu.com.tr/epdk-benzin-yogunlugu-hesaplamasinda-esas-alinan-degeri-dusurdu-p382970",
-      "tarih": "2026-11-20T06:55:39.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "EPDK'dan benzin yoğunluğu düzenlemesi",
       "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanılan yoğunluk değerinde değişikliğe gitti.",
       "link": "https://www.bloomberght.com/epdk-dan-benzin-yogunlugu-duzenlemesi-3795242",
@@ -155,13 +134,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
       "tarih": "2026-11-20T06:26:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine gece yarısı indirim geldi",
-      "ozet": "Küresel petrol piyasalarındaki geri çekilme akaryakıt tabelalarına indirim olarak yansıdı. Gece yarısı itibarıyla motori...",
-      "link": "https://www.sozcu.com.tr/motorine-gece-yarisi-indirim-geldi-p382903",
-      "tarih": "2026-11-20T05:21:14.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Goldman Sachs’tan 2027 tahminleri: Petrol 132 dolara çıkabilir",
