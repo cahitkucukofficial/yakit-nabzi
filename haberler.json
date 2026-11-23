@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-11-22T19:53:58.495Z",
+  "guncelleme": "2026-11-23T01:53:13.897Z",
   "kaynaklar": [
     "EKONOMIM",
     "TRTHABER",
@@ -23,6 +23,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "2027 yılında yeni kur şampiyonları sahneye çıkıyor",
+      "ozet": "■ Petrol fiyatlarında yaşanan yükselişin getirdiği enflasyon baskıları doları güçlendiriyor. Para piyasaları 2027 yılına doların hakimiyetinde giriyor. Ancak tahminler, merkez bankalarının politikalarının izleneceği g...",
+      "link": "https://www.ekonomim.com/finans/haberler/dolar/kur-ligi-2027de-oyun-degisebilir-haberi-932741",
+      "tarih": "2026-11-22T20:59:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
     {
       "baslik": "İran ordusu: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarparak alev aldı",
       "ozet": "İran ordusu Deniz Kuvvetleri, Hürmüz Boğazı'nın doğusunda izin verilmeyen bölgeye girdiği belirtilen 2 petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
@@ -50,13 +57,6 @@
       "link": "https://www.birgun.net/haber/batman-petrolspor-muglasporu-ilk-yarida-buldugu-gollerle-devirdi-747814",
       "tarih": "2026-11-22T12:30:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "İkinci el otomobilde LPG ve dizel öne çıktı! Alıcılar artık bu detaylara bakıyor",
-      "ozet": "İkinci el otomobil piyasasında yaşanan durgunluk alım satım işlemlerini yavaşlatırken, birikimlerini altında değerlendiren vatandaşlar fiyatlardaki gerilemenin ardından araç alımını ertelemeye başladı.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3678957-ikinci-el-otomobilde-lpg-ve-dizel-one-cikti-alicilar-artik-bu-detaylara-bakiyor",
-      "tarih": "2026-11-22T11:51:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Fon vurgununda 108 kişilik tedbir listesi: Ahmet Şık kritik isimlere dikkat çekti",
@@ -120,13 +120,6 @@
       "link": "https://www.sozcu.com.tr/rusya-da-akaryakit-satisina-yonelik-kisitlamalar-genisliyor-p383053",
       "tarih": "2026-11-20T11:22:54.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Kasım ayının en ucuz otomobilleri belli oldu: Benzinli, dizel, hibrit ve elektrikli modeller tek tek sıralandı",
-      "ozet": "Kasım 2026 en ucuz sıfır otomobil fiyatları, yeni araç satın almak isteyenlerin gündeminde öne çıktı. Türkiye otomobil pazarında benzinli, dizel, elektrikli, hibrit, hafif hibrit, şarj edilebilir hibrit ve LPG'li mode...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/kasim-ayinin-en-ucuz-otomobilleri-belli-oldu-benzinli-dizel-hibrit-ve-elektrikli-modeller-tek-tek-siralandi-4874831",
-      "tarih": "2026-11-20T11:18:34.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Benzinde hesap değişti, indirim kapıda: Gözler 21 Kasım’da",
