@@ -1,17 +1,17 @@
 {
-  "guncelleme": "2026-11-24T02:27:12.548Z",
+  "guncelleme": "2026-11-24T14:04:11.946Z",
   "kaynaklar": [
     "EKONOMIM",
-    "AKSAM",
-    "TRTHABER",
-    "HABERTURK",
-    "BLOOMBERGHT",
-    "HABER7",
-    "YENISAFAK",
-    "SABAH",
+    "CUMHURIYET",
     "SOZCU",
+    "STAR",
+    "YENISAFAK",
+    "DUNYA",
+    "HABER7",
+    "TRTHABER",
     "BIRGUN",
-    "CUMHURIYET"
+    "BLOOMBERGHT",
+    "HABERTURK"
   ],
   "beklenti": {
     "motorin": {
@@ -26,25 +26,116 @@
   },
   "haberler": [
     {
-      "baslik": "Bakan Bayraktar: Havza madenciliği uygulamalarıyla maden ihtisas bölgeleri oluşturacağız",
-      "ozet": "Plan Bütçe Komisyonu’na sunum yapan Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, havza madenciliği uygulamalarıyla maden ihtisas bölgeleri oluşturulacağını söyledi. Bayraktar “Bugün nasıl Gabar’ı petrolle, Fi...",
-      "link": "https://www.ekonomim.com/ekonomi/bakan-bayraktar-havza-madenciligi-uygulamalariyla-maden-ihtisas-bolgeleri-olusturacagiz-haberi-932948",
-      "tarih": "2026-11-23T22:13:00.000Z",
+      "baslik": "Benzin ve motorine ÖTV zammı bekleniyor: Tarih belli oldu",
+      "ozet": "Sektör kaynaklarından edinilen bilgilere göre, uluslararası piyasalardaki fiyat düşüşünün etkisiyle perşembe günü benzin ve motorinde indirim yapılması bekleniyor. Ancak 1 Aralık'ta ÖTV tutarlarında yapılması öngörüle...",
+      "link": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-otv-zammi-bekleniyor-tarih-belli-oldu-haberi-933112",
+      "tarih": "2026-11-24T13:08:00.000Z",
       "kaynak": "EKONOMIM"
     },
     {
-      "baslik": "İran Devrim Muhafızları duyurdu: Hürmüz Boğazı'nda 3 petrol tankerinde patlama meydana geldi",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda izin verilmeyen güzergahları kullanan 3 petrol tankerinin deniz mayınlarına çarparak alev aldığını duyurdu. Gemilerin ABD ordusunun hava koruması altında olduğu belirt...",
-      "link": "https://www.aksam.com.tr/dunya/iran-devrim-muhafizlari-duyurdu-hurmuz-bogazinda-3-petrol-tankerinde-patlama-meydana-geldi/haber-1716822",
-      "tarih": "2026-11-23T21:32:00.000Z",
-      "kaynak": "AKSAM"
+      "baslik": "Akaryakıtta önce indirim sonra zam yolda: Benzin ve motorin fiyatları yeniden değişiyor",
+      "ozet": "Akaryakıt fiyatlarında sürücüleri önce indirim, ardından zam bekliyor. Küresel piyasalardaki gelişmelerle vergi düzenlemesinin peş peşe etkili olacağı fiyat değişimlerinde, pompaya yansıyacak yeni tutarlar merak konus...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-once-indirim-sonra-zam-yolda-benzin-ve-motorin-fiyatlari-yeniden-degisiyor-2558996",
+      "tarih": "2026-11-24T12:50:00.000Z",
+      "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Hürmüz Boğazı'nda 3 petrol tankerinde patlama",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda izin verilmeyen güzergahları kullanan 3 petrol tankerinin deniz mayınlarına çarpması sonucu patlayarak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/hurmuz-bogazinda-3-petrol-tankerinde-patlama-964239.html",
-      "tarih": "2026-11-23T21:09:00.000Z",
+      "baslik": "Petrolde 3 ayın en düşük seviyesi: Fiyatlar 90 doların altına indi",
+      "ozet": "Küresel arzın toparlanması ve arz fazlası beklentisiyle Brent petrolün varil fiyatı 88,97 dolara, WTI ise 79,94 dolara g...",
+      "link": "https://www.sozcu.com.tr/petrolde-3-ayin-en-dusuk-seviyesi-fiyatlar-90-dolarin-altina-indi-p383884",
+      "tarih": "2026-11-24T12:48:30.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Komşuda petrol ve sınır kapıları gerilimi! Barzani: Hiçbir şekilde kabul edilemez",
+      "ozet": "IKBY Başbakanı Mesrur Barzani, Irak hükümetinin bölgedeki sınır kapıları ve petrol sahalarının kontrolünü merkezi yönetime devretmeye yönelik çalışmalarını şaşırtıcı bulduğunu belirterek bu girişimin kabul edilemeyece...",
+      "link": "https://www.star.com.tr/ekonomi/komsuda-petrol-ve-sinir-kapilari-gerilimi-barzani-hicbir-sekilde-kabul-edilemez-haber-2055433/",
+      "tarih": "2026-11-24T12:44:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "1.6 milyon TL altında fiyatla geliyor: Egea sonrası Fiat yeni ikilisini duyurdu",
+      "ozet": "Fiat'ın merakla beklenen yeni SUV modellerinin Türkiye satış fiyatları açıklandı. Benzinli ve hibrit motor seçenekleriyle otomobil tutkunlarının karşısına çıkmaya hazırlanan yeni modeller, 1 milyon 599 bin TL'lik lans...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/16-milyon-tl-altinda-fiyatla-geliyor-egea-sonrasi-fiat-yeni-ikilisini-duyurdu-4876079",
+      "tarih": "2026-11-24T11:59:24.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Rusya'dan yeni bütçe stratejisi: Petrol fiyatı varsayımı düşürülüyor",
+      "ozet": "Rusya Maliye Bakan Yardımcısı Vladimir Kolıçev, ülke bütçesinin 2027 itibarıyla ekonomik şoklara uyum sürecini tamamlayacağını açıkladı. Rusya'nın gelecek yılki bütçesinde 5,4 trilyon ruble açık öngörülürken petrol fi...",
+      "link": "https://www.dunya.com/ekonomi/rusyadan-yeni-butce-stratejisi-petrol-fiyati-varsayimi-dusuruluyor-haberi-848716",
+      "tarih": "2026-11-24T11:32:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Irak'ta petrol kaçakçılığı soruşturması: 2 üst düzey yönetici görevden alındı",
+      "ozet": "Irak Başbakanı Ali ez-Zeydi, petrol kaçakçılığı soruşturması kapsamında Kerkük Operasyonlar Komutanı ve Polis Müdürü'nü görevden alırken, Sınır Kapıları Kurumu Başkanı ile bazı güvenlik ve petrol yetkililerini de göre...",
+      "link": "https://www.haber7.com/dunya/haber/3679463-irakta-petrol-kacakciligi-sorusturmasi-2-ust-duzey-yonetici-gorevden-alindi",
+      "tarih": "2026-11-24T11:22:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Akaryakıta yine zam geliyor: Tabelalar bir kez daha değişecek",
+      "ozet": "Gelen indirimlerin ardından benzine ve motorine zam yolu göründü. 1 Aralık'tan itibaren hem benzine hem de motorine ÖTV ...",
+      "link": "https://www.sozcu.com.tr/akaryakita-yine-zam-geliyor-tabelalar-bir-kez-daha-degisecek-p383993",
+      "tarih": "2026-11-24T09:24:30.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "İran: Hürmüz'de 2 petrol tankerinde yangın çıktı",
+      "ozet": "İran Ordusu, Hürmüz Boğazı'nda takip sistemlerini kapatarak \"yasaklı bölgeye\" giren 2 petrol tankerinin deniz mayınlarına çarpması sonucu patlayarak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuzde-2-petrol-tankerinde-yangin-cikti-964304.html",
+      "tarih": "2026-11-24T09:10:00.000Z",
       "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Hürmüz Boğazı krizi, milyarlarca dolarlık kayba yol açtı",
+      "ozet": "Hürmüz Boğazı'ndaki kriz, Körfez ülkelerinin petrol ve doğal gaz sevkiyatını aksatarak enerji gelirlerinde milyarlarca d...",
+      "link": "https://www.sozcu.com.tr/hurmuz-bogazi-krizi-milyarlarca-dolarlik-kayba-yol-acti-p383983",
+      "tarih": "2026-11-24T08:52:43.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Akaryakıtta indirim rüzgarı: Petrolde pandemi sonrası en sert düşüş görüldü",
+      "ozet": "Küresel enerji piyasalarında aşağı yönlü ivme hızlanırken, Brent petrolün varil fiyatı 24 Kasım işlemlerinde 86,25 dolara kadar çekilerek 27 Ağustos'tan bu yana en düşük seviyesini gördü. Kasım ayındaki toplam değer k...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-indirim-ruzgari-petrolde-pandemi-sonrasi-en-sert-dusus-goruldu-4875985",
+      "tarih": "2026-11-24T08:09:53.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "24 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
+      "ozet": "24 Kasım 2026 güncel akaryakıt fiyatları araç sahiplerinin gündemindeki yerini koruyor. Brent petrol fiyatlarındaki düşüşün ardından benzin fiyatlarında gerileme yaşanırken İstanbul Avrupa Yakası'nda benzinin litre fi...",
+      "link": "https://www.birgun.net/haber/24-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-748121",
+      "tarih": "2026-11-24T07:47:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Brent petrolün varili 86,15 dolara geriledi: Libya'da boru hattı açıldı",
+      "ozet": "Brent petrolün varil fiyatı, bugün saat 09.44 itibarıyla kapanışa göre yaklaşık yüzde 0,61 azalarak 86,15 dolara geriledi. Düşüşte küresel arz fazlası beklentileri ve Libya'da Sharara petrol boru hattının yeniden açıl...",
+      "link": "https://www.yenisafak.com/ekonomi/brent-petrol-8615-dolara-geriledi-arz-fazlasi-etkili-4875946",
+      "tarih": "2026-11-24T06:54:14.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 24 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
+      "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 24 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-24-kasim-2026-sali-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2558813",
+      "tarih": "2026-11-24T06:34:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrolde jeopolitik iyimserlik",
+      "ozet": "Petrol fiyatları, ABD-İran savaşını sona erdirmeye yönelik diplomatik çabaların yarattığı temkinli iyimserlikle önceki gün yüzde 3'ten fazla değer kaybetmesinin ardından düşüşünü sürdürdü.",
+      "link": "https://www.bloomberght.com/petrolde-jeopolitik-iyimserlik-3795503",
+      "tarih": "2026-11-24T05:40:40.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Elektrikli araç sayısı 500 bini aştı, şarj noktası 50 bine dayandı",
+      "ozet": "Türkiye'de elektrikli araç pazarı büyümeye devam ediyor. EPDK'nin Ekim 2026 verilerine göre elektrikli araç sayısı 506 b...",
+      "link": "https://www.sozcu.com.tr/elektrikli-arac-sayisi-500-bini-asti-sarj-noktasi-50-bine-dayandi-p383860",
+      "tarih": "2026-11-24T03:08:21.000Z",
+      "kaynak": "SOZCU"
     },
     {
       "baslik": "Bakan Bayraktar'dan 'Sakarya Gaz Sahası' açıklaması",
@@ -61,20 +152,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Kerkük petrolünde Türkiye dönemi: 443 milyon dolarlık gelir kapısı açılıyor",
-      "ozet": "Kerkük petrolünün Türkiye üzerinden taşınması, BOTAŞ'a yıllık 443 milyon doları aşan brüt gelir potansiyeli sunarken TPAO'ya üretim ortaklığı ve Ceyhan'a enerji ticareti fırsatı getiriyor.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679270-kerkuk-petrolunde-turkiye-donemi-443-milyon-dolarlik-gelir-kapisi-aciliyor",
-      "tarih": "2026-11-23T16:51:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "BofA'dan altın ve petrol tahmini! Dev banka 2027 için rakam verdi",
-      "ozet": "BofA, Brent petrolün varil fiyatının 2027 yılında ortalama 80 dolar öngörürken altının ons fiyatının 5 bin doların üzerine çıkacağı yönündeki beklentisini korudu.",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/bofadan-altin-ve-petrol-tahmini-dev-banka-2027-icin-rakam-verdi-haberi-932912",
-      "tarih": "2026-11-23T16:49:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "Bakan Bayraktar Nijer'de altın üretimi için tarih verdi: Yıllık hedef 100 ton",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye Büyük Millet Meclisi’nde (TBMM) bakanlığının bütçe sunumunu gerçekleştirdi. Madencilik ve enerji bağımsızlığı alanındaki güncel verileri paylaşan Bayraktar...",
       "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktar-nijerde-altin-uretimi-icin-tarih-verdi-yillik-hedef-100-ton-4875687",
@@ -82,45 +159,10 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Bakan Bayraktar'dan doğal gaz açıklaması: Tüm ilçelere ulaşacak",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, TBMM Plan ve Bütçe Komisyonu'nda Bakanlığının 2027 yılı bütçesine ilişkin sunum yaptı. Nükleer enerji, petrol ve elektrikli araçlara yönelik hedefleri...Devamı içi...",
-      "link": "https://www.sabah.com.tr/ekonomi/son-dakika-bakan-bayraktardan-dogal-gaz-aciklamasi-tum-ilcelere-ulasacak-7707581",
-      "tarih": "2026-11-23T08:44:00.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "1.200 kilometre menzilli araç piyasaya çıktı: 100 kilometre hıza 5 saniyede çıkıyor",
       "ozet": "Çinli otomotiv devi Chery, benzinli motorun birleşimiyle toplam 1.200 kilometre menzil sunan yeni SUV modeli V25’i resme...",
       "link": "https://www.sozcu.com.tr/1-200-kilometre-menzilli-arac-piyasaya-cikti-100-kilometre-hiza-5-saniyede-cikiyor-p383671",
       "tarih": "2026-11-23T08:00:57.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "23 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "Haftanın ilk gününde araç sahipleri benzin, motorin ve LPG fiyatlarını araştırmaya başladı. 23 Kasım 2026 Pazartesi günü itibarıyla İstanbul, Ankara ve İzmir'deki güncel akaryakıt fiyatları belli oldu. Benzinin litre ...",
-      "link": "https://www.birgun.net/haber/23-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-747914",
-      "tarih": "2026-11-23T07:41:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Petrol fiyatları 90 doların altında",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 89,96 dolardan işlem görüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlari-90-dolarin-altinda-3929332",
-      "tarih": "2026-11-23T06:41:50.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Petrol, arz bolluğunun gerginlikleri dengelemesiyle dalgalı seyrediyor",
-      "ozet": "Petrol fiyatları, güçlü ham petrol ihracatı işaretlerine karşılık Orta Doğu'da tırmanan gerginliğin birbirini dengelemesiyle dalgalı seyrediyor.",
-      "link": "https://www.bloomberght.com/petrol-arz-bollugu-ve-gerginlikler-arasinda-dalgali-seyrediyor-3795391",
-      "tarih": "2026-11-23T06:16:28.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Ortadoğu ihtimaller petrolü 92 doların üzerinde tuttu",
-      "ozet": "Brent petrolün varil fiyatı, Ortadoğu'da gerilimin tırmanabileceği endişesiyle 92,59 dolara yükseldi. Basra Körfezi'nden...",
-      "link": "https://www.sozcu.com.tr/ortadogu-ihtimaller-petrolu-92-dolarin-uzerinde-tuttu-p383566",
-      "tarih": "2026-11-23T04:51:39.000Z",
       "kaynak": "SOZCU"
     },
     {
@@ -198,13 +240,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-18-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557103",
       "tarih": "2026-11-18T06:06:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Kerkük-Ceyhan petrol boru hattı 12 yıl sonra açıldı: Türkiye'ye günlük 500 bin varil hedefi",
-      "ozet": "Hürmüz Boğazı'ndaki kriz, Irak'ın petrol ihracatında Türkiye güzergâhını yeniden öne çıkardı. Yıllardır kapalı olan Kerkük-Ceyhan boru hattı yeniden devreye alınırken, Bağdat yönetimi petrol sevkiyatında Türkiye üzeri...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/kerkuk-ceyhan-petrol-boru-hatti-12-yil-sonra-acildi-turkiye-ye-gunluk-500-bin-varil-hedefi-2556891",
-      "tarih": "2026-11-17T11:58:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
