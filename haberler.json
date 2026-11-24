@@ -1,17 +1,13 @@
 {
-  "guncelleme": "2026-11-24T14:04:11.946Z",
+  "guncelleme": "2026-11-24T23:59:13.424Z",
   "kaynaklar": [
     "EKONOMIM",
     "CUMHURIYET",
     "SOZCU",
     "STAR",
     "YENISAFAK",
-    "DUNYA",
-    "HABER7",
-    "TRTHABER",
     "BIRGUN",
-    "BLOOMBERGHT",
-    "HABERTURK"
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -26,10 +22,10 @@
   },
   "haberler": [
     {
-      "baslik": "Benzin ve motorine ÖTV zammı bekleniyor: Tarih belli oldu",
-      "ozet": "Sektör kaynaklarından edinilen bilgilere göre, uluslararası piyasalardaki fiyat düşüşünün etkisiyle perşembe günü benzin ve motorinde indirim yapılması bekleniyor. Ancak 1 Aralık'ta ÖTV tutarlarında yapılması öngörüle...",
-      "link": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-otv-zammi-bekleniyor-tarih-belli-oldu-haberi-933112",
-      "tarih": "2026-11-24T13:08:00.000Z",
+      "baslik": "Enerji ve Tabii Kaynaklar Bakanı Bayraktar: Yılda 13 milyar $ cebimizde kalacak",
+      "ozet": "Gabar'da günlük petrol üretiminin 84 bin varile ulaştığını belirten Enerji Bakanı Alparslan Bayraktar, Sakarya Gaz Sahası’nda yıllık toplam doğalgaz üretiminin 7.5 milyar metreküpü bulacağını açıkladı.",
+      "link": "https://www.ekonomim.com/sektorler/enerji/enerji-ve-tabii-kaynaklar-bakani-bayraktar-yilda-13-milyar-cebimizde-kalacak-haberi-933171",
+      "tarih": "2026-11-24T21:31:00.000Z",
       "kaynak": "EKONOMIM"
     },
     {
@@ -61,32 +57,11 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "Rusya'dan yeni bütçe stratejisi: Petrol fiyatı varsayımı düşürülüyor",
-      "ozet": "Rusya Maliye Bakan Yardımcısı Vladimir Kolıçev, ülke bütçesinin 2027 itibarıyla ekonomik şoklara uyum sürecini tamamlayacağını açıkladı. Rusya'nın gelecek yılki bütçesinde 5,4 trilyon ruble açık öngörülürken petrol fi...",
-      "link": "https://www.dunya.com/ekonomi/rusyadan-yeni-butce-stratejisi-petrol-fiyati-varsayimi-dusuruluyor-haberi-848716",
-      "tarih": "2026-11-24T11:32:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Irak'ta petrol kaçakçılığı soruşturması: 2 üst düzey yönetici görevden alındı",
-      "ozet": "Irak Başbakanı Ali ez-Zeydi, petrol kaçakçılığı soruşturması kapsamında Kerkük Operasyonlar Komutanı ve Polis Müdürü'nü görevden alırken, Sınır Kapıları Kurumu Başkanı ile bazı güvenlik ve petrol yetkililerini de göre...",
-      "link": "https://www.haber7.com/dunya/haber/3679463-irakta-petrol-kacakciligi-sorusturmasi-2-ust-duzey-yonetici-gorevden-alindi",
-      "tarih": "2026-11-24T11:22:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Akaryakıta yine zam geliyor: Tabelalar bir kez daha değişecek",
       "ozet": "Gelen indirimlerin ardından benzine ve motorine zam yolu göründü. 1 Aralık'tan itibaren hem benzine hem de motorine ÖTV ...",
       "link": "https://www.sozcu.com.tr/akaryakita-yine-zam-geliyor-tabelalar-bir-kez-daha-degisecek-p383993",
       "tarih": "2026-11-24T09:24:30.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "İran: Hürmüz'de 2 petrol tankerinde yangın çıktı",
-      "ozet": "İran Ordusu, Hürmüz Boğazı'nda takip sistemlerini kapatarak \"yasaklı bölgeye\" giren 2 petrol tankerinin deniz mayınlarına çarpması sonucu patlayarak alev aldığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuzde-2-petrol-tankerinde-yangin-cikti-964304.html",
-      "tarih": "2026-11-24T09:10:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Hürmüz Boğazı krizi, milyarlarca dolarlık kayba yol açtı",
@@ -136,20 +111,6 @@
       "link": "https://www.sozcu.com.tr/elektrikli-arac-sayisi-500-bini-asti-sarj-noktasi-50-bine-dayandi-p383860",
       "tarih": "2026-11-24T03:08:21.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Bakan Bayraktar'dan 'Sakarya Gaz Sahası' açıklaması",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Sakarya Gaz Sahası'nda ikinci fazın yıl sonuna kadar devreye alınmasıyla yıllık 7,5 milyar metreküp üretime ulaşılacağını, doğal gaz ile petrol üretiminden yıllık ...",
-      "link": "https://www.haberturk.com/ekonomi/bakan-bayraktar-dan-sakarya-gaz-sahasi-aciklamasi-3929576",
-      "tarih": "2026-11-23T21:00:09.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "İran'dan halka enerji tasarrufu çağrısı",
-      "ozet": "İran Petrol Bakan Vekili Hamid Boverd, yüksek enerji tüketimine dikkati çekerek halktan dizel yakıt başta olmak üzere enerji kullanımını azaltmasını istedi.",
-      "link": "https://www.bloomberght.com/iran-dan-halka-enerji-tasarrufu-cagrisi-3795490",
-      "tarih": "2026-11-23T18:21:36.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Bakan Bayraktar Nijer'de altın üretimi için tarih verdi: Yıllık hedef 100 ton",
