@@ -1,15 +1,16 @@
 {
-  "guncelleme": "2026-11-23T13:25:28.838Z",
+  "guncelleme": "2026-11-24T02:27:12.548Z",
   "kaynaklar": [
-    "DUNYA",
-    "ENSONHABER",
+    "EKONOMIM",
+    "AKSAM",
+    "TRTHABER",
+    "HABERTURK",
+    "BLOOMBERGHT",
+    "HABER7",
     "YENISAFAK",
     "SABAH",
     "SOZCU",
     "BIRGUN",
-    "TRTHABER",
-    "HABERTURK",
-    "BLOOMBERGHT",
     "CUMHURIYET"
   ],
   "beklenti": {
@@ -25,32 +26,53 @@
   },
   "haberler": [
     {
-      "baslik": "Oruç Reis, Pakistan açıklarında sismik araştırmalara başladı",
-      "ozet": "Somali'deki ilk kıtalararası görevini tamamlayan Oruç Reis Sismik Araştırma Gemisi, ikinci yurt dışı görevi kapsamında Pakistan açıklarında çalışmalara başladı. Yerli ve milli imkanlarla geliştirilen gemi, 18 günlük y...",
-      "link": "https://www.dunya.com/gundem/oruc-reis-pakistan-aciklarinda-sismik-arastirmalara-basladi-haberi-848590",
-      "tarih": "2026-11-23T12:21:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Bakan Bayraktar: Havza madenciliği uygulamalarıyla maden ihtisas bölgeleri oluşturacağız",
+      "ozet": "Plan Bütçe Komisyonu’na sunum yapan Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, havza madenciliği uygulamalarıyla maden ihtisas bölgeleri oluşturulacağını söyledi. Bayraktar “Bugün nasıl Gabar’ı petrolle, Fi...",
+      "link": "https://www.ekonomim.com/ekonomi/bakan-bayraktar-havza-madenciligi-uygulamalariyla-maden-ihtisas-bolgeleri-olusturacagiz-haberi-932948",
+      "tarih": "2026-11-23T22:13:00.000Z",
+      "kaynak": "EKONOMIM"
     },
     {
-      "baslik": "Libya'da petrol üretiminde günlük 350 bin varil kayıp uyarısı",
-      "ozet": "Libya Ulusal Petrol Kurumu, Sharara petrol sahasından gelen ham petrol boru hattındaki bir vananın kapatılması sonucu günlük yaklaşık 350 bin varillik üretim kaybı yaşanabileceği uyarısında bulundu.",
-      "link": "https://www.ensonhaber.com/libyada-petrol-uretiminde-gunluk-350-bin-varil-kayip-uyarisi-h1584984",
-      "tarih": "2026-11-23T11:39:51.000Z",
-      "kaynak": "ENSONHABER"
+      "baslik": "İran Devrim Muhafızları duyurdu: Hürmüz Boğazı'nda 3 petrol tankerinde patlama meydana geldi",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda izin verilmeyen güzergahları kullanan 3 petrol tankerinin deniz mayınlarına çarparak alev aldığını duyurdu. Gemilerin ABD ordusunun hava koruması altında olduğu belirt...",
+      "link": "https://www.aksam.com.tr/dunya/iran-devrim-muhafizlari-duyurdu-hurmuz-bogazinda-3-petrol-tankerinde-patlama-meydana-geldi/haber-1716822",
+      "tarih": "2026-11-23T21:32:00.000Z",
+      "kaynak": "AKSAM"
     },
     {
-      "baslik": "Alparslan Bayraktar: Gabar'da günlük petrol üretimimiz 84 bin varili aştı",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Gabar'da günlük petrol üretiminin 84 bin varili aştığını ve iki yeni sahada 135 milyon varil rezerv keşfedildiğini açıkladı. Bayraktar, 2027'de günlük üretimi 160 ...",
-      "link": "https://www.ensonhaber.com/alparslan-bayraktar-gabarda-gunluk-petrol-uretimimiz-84-bin-varili-asti-h1584975",
-      "tarih": "2026-11-23T11:24:30.000Z",
-      "kaynak": "ENSONHABER"
+      "baslik": "Hürmüz Boğazı'nda 3 petrol tankerinde patlama",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda izin verilmeyen güzergahları kullanan 3 petrol tankerinin deniz mayınlarına çarpması sonucu patlayarak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/hurmuz-bogazinda-3-petrol-tankerinde-patlama-964239.html",
+      "tarih": "2026-11-23T21:09:00.000Z",
+      "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Rus petrol ihracatında çifte darbe: 10'dan fazla tankerin yüklemesi gecikti",
-      "ozet": "Rusya’nın Baltık ve Karadeniz’deki petrol sevkiyatları, fırtınalar ve İHA saldırısı riskinin gölgesinde aksıyor. Kasımın ilk yarısında 10’dan fazla tankerin yüklemesi gecikirken, Karadeniz’deki önemli terminalde petro...",
-      "link": "https://www.dunya.com/gundem/rus-petrol-ihracatinda-cifte-darbe-10dan-fazla-tankerin-yuklemesi-gecikti-haberi-848580",
-      "tarih": "2026-11-23T11:07:00.000Z",
-      "kaynak": "DUNYA"
+      "baslik": "Bakan Bayraktar'dan 'Sakarya Gaz Sahası' açıklaması",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Sakarya Gaz Sahası'nda ikinci fazın yıl sonuna kadar devreye alınmasıyla yıllık 7,5 milyar metreküp üretime ulaşılacağını, doğal gaz ile petrol üretiminden yıllık ...",
+      "link": "https://www.haberturk.com/ekonomi/bakan-bayraktar-dan-sakarya-gaz-sahasi-aciklamasi-3929576",
+      "tarih": "2026-11-23T21:00:09.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "İran'dan halka enerji tasarrufu çağrısı",
+      "ozet": "İran Petrol Bakan Vekili Hamid Boverd, yüksek enerji tüketimine dikkati çekerek halktan dizel yakıt başta olmak üzere enerji kullanımını azaltmasını istedi.",
+      "link": "https://www.bloomberght.com/iran-dan-halka-enerji-tasarrufu-cagrisi-3795490",
+      "tarih": "2026-11-23T18:21:36.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Kerkük petrolünde Türkiye dönemi: 443 milyon dolarlık gelir kapısı açılıyor",
+      "ozet": "Kerkük petrolünün Türkiye üzerinden taşınması, BOTAŞ'a yıllık 443 milyon doları aşan brüt gelir potansiyeli sunarken TPAO'ya üretim ortaklığı ve Ceyhan'a enerji ticareti fırsatı getiriyor.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679270-kerkuk-petrolunde-turkiye-donemi-443-milyon-dolarlik-gelir-kapisi-aciliyor",
+      "tarih": "2026-11-23T16:51:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "BofA'dan altın ve petrol tahmini! Dev banka 2027 için rakam verdi",
+      "ozet": "BofA, Brent petrolün varil fiyatının 2027 yılında ortalama 80 dolar öngörürken altının ons fiyatının 5 bin doların üzerine çıkacağı yönündeki beklentisini korudu.",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/bofadan-altin-ve-petrol-tahmini-dev-banka-2027-icin-rakam-verdi-haberi-932912",
+      "tarih": "2026-11-23T16:49:00.000Z",
+      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Bakan Bayraktar Nijer'de altın üretimi için tarih verdi: Yıllık hedef 100 ton",
@@ -81,13 +103,6 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "Brent petrolün varili 89,96 dolardan işlem görüyor",
-      "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 89,96 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/ekonomi/brent-petrolun-varili-8996-dolardan-islem-goruyor-964180.html",
-      "tarih": "2026-11-23T06:46:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Petrol fiyatları 90 doların altında",
       "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 89,96 dolardan işlem görüyor",
       "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlari-90-dolarin-altinda-3929332",
@@ -109,39 +124,11 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Petrol projelerine karşı halk ayakta: Kolombiya'da direniş büyüyor",
-      "ozet": "Kolombiya’da 10 yılı aşkın toplumsal mücadeleyle hidrolik kırılma projelerinin önü kesildi. Halk oylamalarıyla projelere karşı irade ortaya koyan hareketler, sağın iktidara gelmesiyle yeniden mücadele alanına döndü. C...",
-      "link": "https://www.birgun.net/haber/petrol-projelerine-karsi-halk-ayakta-kolombiya-da-direnis-buyuyor-747853",
-      "tarih": "2026-11-23T02:00:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "ABD’de tüketici güveni 3 ayın zirvesinde: Benzin rahatlattı, yapay zeka çalkantısı varlıklı kesimi vurdu",
       "ozet": "Seçim sonrası iş koşullarındaki iyileşme ve enflasyon beklentilerindeki gerileme ABD’de tüketici güvenini 51,5 puana taşıdı. Ancak endeks, İran gerilimi öncesindeki şubat ayı seviyelerinin yüzde 9 altında kalmayı sürd...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-de-tuketici-guveni-3-ayin-zirvesinde-benzin-rahatlatti-yapay-zeka-calkantisi-varlikli-kesimi-vurdu-2558076",
       "tarih": "2026-11-21T11:14:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "TOGG'un ardından yeni yerli otomobil müjdesi geldi: Hem benzin hem de hibrit model olacak",
-      "ozet": "Türkiye'nin yerli otomobil hamlesinde Togg'un ardından yeni bir proje daha gündeme geldi. Tamamen yerli sermaye hedefiyle geliştirilen HABAŞ'ın yeni otomobili için çalışmalar sürerken, gözler modelin tanıtılacağı tari...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/toggun-ardindan-yeni-yerli-otomobil-mujdesi-geldi-hem-benzin-hem-de-hibrit-model-olacak-4875097",
-      "tarih": "2026-11-21T07:34:35.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Akaryakıtta peş peşe indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
-      "ozet": "Akaryakıtta indirim rüzgarı devam ediyor. Geçtiğimiz günlerde motorine yapılan indirimin ardından bu kez benzinin litre fiyatında 2 lira 95 kuruşluk düşüş yaşandı. Gece yarısından itibaren pompaya yansıyan yeni fiyatl...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-pes-pese-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4875092",
-      "tarih": "2026-11-21T07:18:55.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "TPAO, 2027 akaryakıt ihtiyacı için 129 milyon 800 bin litrelik ihale yapacak",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı (TPAO), sondaj ve sismik araştırma gemileri ile Osman Gazi Yüzer Üretim Tesisi'nin 2027'de akaryakıt ihtiyacına yönelik toplam 129 milyon 800 bin litre akaryakıt alımı için ihale dü...",
-      "link": "https://www.yenisafak.com/ekonomi/tpao-1298-milyon-litre-akaryakit-ihalesi-yapacak-4875089",
-      "tarih": "2026-11-21T07:11:48.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Benzine, mazota indirim, zam var mı? 21 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
