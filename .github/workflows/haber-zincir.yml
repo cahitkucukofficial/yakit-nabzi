@@ -56,8 +56,12 @@ jobs:
       - name: Zinciri yeniden başlat
         if: always()
         run: |
-          curl -sS -f -X POST \
-            -H "Authorization: Bearer ${{ github.token }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/haber-zincir.yml/dispatches" \
-            -d '{"ref":"main"}'
+          for i in 1 2 3 4 5 6; do
+            if curl -sS -f -X POST \
+              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/haber-zincir.yml/dispatches" \
+              -d '{"ref":"main"}'; then exit 0; fi
+            echo "yeniden baslatma denemesi $i basarisiz, bekleniyor"; sleep $((i*20))
+          done
+          exit 1
