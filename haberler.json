@@ -1,10 +1,9 @@
 {
-  "guncelleme": "2026-11-25T09:23:47.318Z",
+  "guncelleme": "2026-11-25T10:18:58.909Z",
   "kaynaklar": [
     "EKONOMIM",
     "BIRGUN",
     "CUMHURIYET",
-    "ENSONHABER",
     "HABER7",
     "TRTHABER",
     "YENISAFAK",
@@ -58,6 +57,13 @@
   },
   "haberler": [
     {
+      "baslik": "Avrupa borsaları pozitif seyrediyor",
+      "ozet": "Avrupa borsaları teknoloji sektörüne ilişkin endişelere karşın petrol fiyatlarındaki gerilemeyle otomobil ve lüks tüketim şirketlerinin hisselerindeki yükselişten kaynaklı etkilerle pozitif seyrediyor.",
+      "link": "https://www.ekonomim.com/finans/haberler/borsa/avrupa-borsalari-pozitif-seyrediyor-haberi-933290",
+      "tarih": "2026-11-25T09:33:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Yüksek navlun fiyatları tankerlerin rotasını değiştirdi",
       "ozet": "Hürmüz Boğazı'ndan petrol sevkiyatının savaş öncesi seviyelere dönmesi, ham petrol tankerlerine olan talebi artırdı.",
       "link": "https://www.ekonomim.com/ekonomi/yuksek-navlun-geliri-tankerleri-ham-petrol-tasimaya-yoneltti-haberi-933287",
@@ -84,13 +90,6 @@
       "link": "https://www.ekonomim.com/sehirler/ciftciler-devletten-10-maddelik-destek-talebinde-bulundu-haberi-933262",
       "tarih": "2026-11-25T07:49:00.000Z",
       "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Körfez'de enerji dengesi değişti: İran'ın gelirleri yüzde 75 eridi",
-      "ozet": "Hürmüz Boğazı'nda yaşanan kriz, petrol ve doğalgaz sevkiyatını sekteye uğratarak bölge ülkelerinin enerji gelirlerinde milyarlarca dolarlık kayba yol açtı. İran'ın petrol ve doğalgaz gelirlerindeki düşüş dikkati çeker...",
-      "link": "https://www.ensonhaber.com/korfezde-enerji-dengesi-degisti-iranin-gelirleri-yuzde-75-eridi-h1585450",
-      "tarih": "2026-11-25T07:28:21.000Z",
-      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "Motorine indirim tarihi belli oldu: Fiyatlar ne kadar olacak?",
@@ -161,13 +160,6 @@
       "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-iki-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-964391.html",
       "tarih": "2026-11-25T05:51:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Körfez'de sıcak saatler... Devrim Muhafızları duyurdu: İki petrol tankeri alev aldı",
-      "ozet": "Son dakika haberi... İran Devrim Muhafızları Ordusu, \"Hürmüz Boğazı'nda iki petrol tankeri deniz mayınına çarparak alev aldı\" açıklamasında bulundu.",
-      "link": "https://www.haber7.com/dunya/haber/3679601-korfezde-sicak-saatler-devrim-muhafizlari-duyurdu-iki-petrol-tankeri-alev-aldi",
-      "tarih": "2026-11-25T05:25:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Petrolde arz iyimserliği",
