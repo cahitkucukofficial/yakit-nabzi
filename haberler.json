@@ -1,16 +1,15 @@
 {
-  "guncelleme": "2026-11-25T07:33:28.779Z",
+  "guncelleme": "2026-11-25T08:28:36.617Z",
   "kaynaklar": [
+    "EKONOMIM",
     "ENSONHABER",
     "CUMHURIYET",
     "HABER7",
     "TRTHABER",
-    "AKSAM",
-    "EKONOMIM",
+    "BIRGUN",
     "YENISAFAK",
     "SOZCU",
     "DUNYA",
-    "BIRGUN",
     "BLOOMBERGHT",
     "STAR"
   ],
@@ -21,11 +20,11 @@
       "amount": 4.32,
       "tarih": "2026-11-26",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 4,
+      "tarihDogrulayanSayisi": 3,
       "tarihAdaylari": [
         "2026-11-26"
       ],
-      "dogrulayanKaynakSayisi": 4,
+      "dogrulayanKaynakSayisi": 3,
       "kaynaklar": [
         {
           "kaynak": "SOZCU",
@@ -35,11 +34,6 @@
         {
           "kaynak": "ENSONHABER",
           "kaynakLink": "https://www.ensonhaber.com/motorine-indirim-yolda-91629-h1585422",
-          "tarih": "2026-11-26"
-        },
-        {
-          "kaynak": "EKONOMIM",
-          "kaynakLink": "https://www.ekonomim.com/ekonomi/motorine-buyuk-indirim-geliyor-yeni-fiyatlar-ne-kadar-olacak-haberi-933204",
           "tarih": "2026-11-26"
         },
         {
@@ -70,6 +64,13 @@
   },
   "haberler": [
     {
+      "baslik": "Çiftçiler devletten 10 maddelik destek talebinde bulundu",
+      "ozet": "Adana Çiftçiler Birliği Başkanı Mutlu Doğru, Türkiye’nin çevresindeki savaşların etkisiyle mazot ve gübre maliyetlerinin yükseldiğini belirterek, yeni sezonda ekim yapmak isteyen üreticilere devlet desteği verilmesini...",
+      "link": "https://www.ekonomim.com/sehirler/ciftciler-devletten-10-maddelik-destek-talebinde-bulundu-haberi-933262",
+      "tarih": "2026-11-25T07:49:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Körfez'de enerji dengesi değişti: İran'ın gelirleri yüzde 75 eridi",
       "ozet": "Hürmüz Boğazı'nda yaşanan kriz, petrol ve doğalgaz sevkiyatını sekteye uğratarak bölge ülkelerinin enerji gelirlerinde milyarlarca dolarlık kayba yol açtı. İran'ın petrol ve doğalgaz gelirlerindeki düşüş dikkati çeker...",
       "link": "https://www.ensonhaber.com/korfezde-enerji-dengesi-degisti-iranin-gelirleri-yuzde-75-eridi-h1585450",
@@ -98,18 +99,18 @@
       "kaynak": "TRTHABER"
     },
     {
+      "baslik": "Irak'ta siyasi gerilim: Bağdat ve Erbil'e çağrı",
+      "ozet": "Irak Yüksek Yargı Konseyi, Bağdat ile IKBY arasında petrol ihracatı, sınır kapıları ve petrol sahalarının yönetimi konusunda yaşanan gerilimin ardından merkezi hükümet, IKBY yönetimi ve tüm siyasi güçlere 2005 Anayasa...",
+      "link": "https://www.birgun.net/haber/irak-ta-siyasi-gerilim-bagdat-ve-erbil-e-cagri-748322",
+      "tarih": "2026-11-25T07:15:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
       "baslik": "Husiler'den son dakika açıklaması: Petrol tesisi ve Ekonomi Şehri'ni hedef aldık!",
       "ozet": "Son dakika haberi: Yemen'deki Husiler, \"Suudi Arabistan'ın doğusundaki Ras Tanura Petrol Rafinerisi ile Riyad'daki Kral Abdullah Ekonomi Şehri'ni hedef aldık\" dedi.",
       "link": "https://www.haber7.com/dunya/haber/3679651-husilerden-son-dakika-aciklamasi-petrol-tesisi-ve-ekonomi-sehrini-hedef-aldik",
       "tarih": "2026-11-25T07:13:00.000Z",
       "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Suudi Arabistan'a çifte saldırı: Petrol ve ekonomi merkezleri vuruldu",
-      "ozet": "Yemen'deki Husiler, Suudi Arabistan'ın doğusundaki Ras Tanura Petrol Rafinerisi ile Riyad'daki Kral Abdullah Ekonomi Şehri'ni hedef aldıklarını duyurdu.",
-      "link": "https://www.aksam.com.tr/dunya/suudi-arabistana-cifte-saldiri-petrol-ve-ekonomi-merkezleri-vuruldu/haber-1717216",
-      "tarih": "2026-11-25T07:11:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "Soya yağı fiyatları şubattan bu yana en düşük seviyede",
@@ -152,13 +153,6 @@
       "link": "https://www.dunya.com/ekonomi/petroldeki-dusus-tahminleri-degistirmedi-iki-gelisme-terse-dondurebilir-haberi-848793",
       "tarih": "2026-11-25T06:17:00.000Z",
       "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Motorine büyük indirim geliyor: Yeni fiyatlar ne kadar olacak?",
-      "ozet": "Küresel petrol piyasasında yaşanan gerileme akaryakıt fiyatlarına indirim olarak yansıyor. Petrol arzındaki artışın etkisiyle motorinin litre fiyatında 4,32 liralık düşüş bekleniyor. İndirim, yarından itibaren pompa f...",
-      "link": "https://www.ekonomim.com/ekonomi/motorine-buyuk-indirim-geliyor-yeni-fiyatlar-ne-kadar-olacak-haberi-933204",
-      "tarih": "2026-11-25T06:11:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Motorine indirim geliyor",
@@ -273,13 +267,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Elektrikli araç sayısı 500 bini aştı, şarj noktası 50 bine dayandı",
-      "ozet": "Türkiye'de elektrikli araç pazarı büyümeye devam ediyor. EPDK'nin Ekim 2026 verilerine göre elektrikli araç sayısı 506 b...",
-      "link": "https://www.sozcu.com.tr/elektrikli-arac-sayisi-500-bini-asti-sarj-noktasi-50-bine-dayandi-p383860",
-      "tarih": "2026-11-24T03:08:21.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "Bakan Bayraktar Nijer'de altın üretimi için tarih verdi: Yıllık hedef 100 ton",
       "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye Büyük Millet Meclisi’nde (TBMM) bakanlığının bütçe sunumunu gerçekleştirdi. Madencilik ve enerji bağımsızlığı alanındaki güncel verileri paylaşan Bayraktar...",
       "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktar-nijerde-altin-uretimi-icin-tarih-verdi-yillik-hedef-100-ton-4875687",
@@ -347,6 +334,13 @@
       "ozet": "Motorin fiyatlarında yeni bir indirim beklentisi oluştu. Cuma gününden itibaren pompaya yansıması beklenen indirimin tutarı henüz netleşmezken, büyükşehirlerde akaryakıt fiyatları yüksek seviyelerde seyretmeye devam e...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarinda-dusus-beklentisi-gozler-o-tarihte-2557456",
       "tarih": "2026-11-19T06:41:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Akaryakıtta yeni indirim beklentisi: Motorin için iki tarih öne çıktı",
+      "ozet": "Benzindeki indirimin ardından gözler motorin fiyatlarına çevrildi. Küresel petrol piyasalarındaki düşüşün sürmesiyle motorin için de indirim beklentisi güçlenirken, pompa fiyatlarında değişiklik için bu hafta işaret e...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-yeni-indirim-beklentisi-motorin-icin-iki-tarih-one-cikti-2557170",
+      "tarih": "2026-11-18T08:38:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
