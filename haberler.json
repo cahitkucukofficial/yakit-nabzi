@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-11-25T21:05:30.664Z",
+  "guncelleme": "2026-11-25T22:00:35.538Z",
   "kaynaklar": [
     "ENSONHABER",
     "HABER7",
@@ -17,29 +17,24 @@
     "motorin": {
       "expected": true,
       "direction": "dusus",
-      "amount": 4.32,
+      "amount": 4,
       "tarih": "2026-11-26",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 2,
+      "tarihDurumu": "tek-kaynak",
+      "tarihDogrulayanSayisi": 1,
       "tarihAdaylari": [
         "2026-11-26"
       ],
-      "dogrulayanKaynakSayisi": 2,
+      "dogrulayanKaynakSayisi": 1,
       "kaynaklar": [
         {
-          "kaynak": "SOZCU",
-          "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-geliyor-tabelalar-yeniden-degisecek-p384215",
-          "tarih": "2026-11-26"
-        },
-        {
-          "kaynak": "BIRGUN",
-          "kaynakLink": "https://www.birgun.net/haber/motorine-indirim-geliyor-748305",
+          "kaynak": "HABER7",
+          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu",
           "tarih": "2026-11-26"
         }
       ],
-      "kaynakBaslik": "Motorine dev indirim geliyor: Tabelalar yeniden değişecek",
-      "kaynak": "SOZCU",
-      "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-geliyor-tabelalar-yeniden-degisecek-p384215"
+      "kaynakBaslik": "Motorine bir büyük indirim daha! Tarih belli oldu...",
+      "kaynak": "HABER7",
+      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu"
     },
     "benzin": {
       "expected": false
@@ -199,13 +194,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Motorine indirim geliyor",
-      "ozet": "Petrol fiyatlarında yaşanan gerileme akaryakıt fiyatlarına yansıyor. Motorinin litre fiyatına 26 Kasım'dan itibaren 4 lira 32 kuruş indirim yapılması bekleniyor. İndirimin ardından İstanbul, Ankara ve İzmir'de geçerli...",
-      "link": "https://www.birgun.net/haber/motorine-indirim-geliyor-748305",
-      "tarih": "2026-11-25T06:07:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
       "baslik": "Petrolde arz iyimserliği",
       "ozet": "Petrol fiyatları, ham petrol arzının arttığına yönelik sinyallerin Hürmüz Boğazı çevresinde gemilere düzenlenen saldırıların tırmanışını gölgede bırakmasıyla düşüşe geçti.",
       "link": "https://www.bloomberght.com/petrolde-arz-iyimserligi-3795598",
@@ -218,13 +206,6 @@
       "link": "https://www.sozcu.com.tr/petrolde-dusus-suruyor-barclaysten-korkutan-tahmin-geldi-p384167",
       "tarih": "2026-11-25T05:00:27.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "25 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
-      "ozet": "25 Kasım 2026 güncel akaryakıt fiyatları, benzin, motorin ve LPG kullanan milyonlarca araç sahibinin gündeminde yer alıyor. Geçtiğimiz hafta motorine yaklaşık 6,50 TL, benzine ise 2,90 TL indirim yapılmasının ardından...",
-      "link": "https://www.birgun.net/haber/25-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-748299",
-      "tarih": "2026-11-25T04:32:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Akaryakıtta önce indirim sonra zam yolda: Benzin ve motorin fiyatları yeniden değişiyor",
