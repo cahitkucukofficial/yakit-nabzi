@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-25T11:14:05.622Z",
+  "guncelleme": "2026-11-25T12:09:19.489Z",
   "kaynaklar": [
+    "AKSAM",
     "DUNYA",
     "HABER7",
     "EKONOMIM",
@@ -57,6 +58,13 @@
   },
   "haberler": [
     {
+      "baslik": "Motorine indirim geldi mi, ne zaman gelecek? 25 Kasım 2026 motorin fiyatları",
+      "ozet": "Küresel petrol fiyatlarındaki düşüşün ardından motorin fiyatlarında yeni indirim beklentisi oluştu. Henüz pompaya yansımayan fiyat düzenlemesinin gece yarısından itibaren uygulanması beklenirken, motorinin litre fiyat...",
+      "link": "https://www.aksam.com.tr/trend/motorine-indirim-geldi-mi-ne-zaman-gelecek-25-kasim-2026-motorin-fiyatlari/haber-1717323",
+      "tarih": "2026-11-25T11:50:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
       "baslik": "Mazota indirim geldi mi, gelecek mi? Benzine indirim var mı? Akaryakıt fiyatları düşecek mi?",
       "ozet": "Brent petrol bugün de düşüşte... Art arda gelen düşüşler sonrası mazota indirim gelip gelmediği merak ediliyor. Binlerce kişi \"Mazota indirim geldi mi, gelecek mi\", \"Benzine indirim var mı\" diye soruyor.",
       "link": "https://www.dunya.com/gundem/mazota-indirim-geldi-mi-gelecek-mi-benzine-indirim-var-mi-akaryakit-fiyatlari-dusecek-mi-haberi-848830",
@@ -106,13 +114,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Hürmüz'de mayına çarptı...İran: İzinsiz geçen petrol tankeri alev aldı",
-      "ozet": "Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın doğusunda \"izinsiz güzergahı\" kullanan ve takip sistemleri kapalı iki petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu. İran mürettebatları ABD'nin yönlendir...",
-      "link": "https://www.haber7.com/dunya/haber/3679653-hurmuzde-mayina-carptiiran-izinsiz-gecen-petrol-tankeri-alev-aldi",
-      "tarih": "2026-11-25T07:19:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Petrol fiyatlarında geri çekilme sürüyor",
       "ozet": "Brent petrolün varili, ABD stoklarındaki artış ve küresel petrol arzının talebi aşacağına yönelik beklentilerin etkisiyle 87,88 dolara geriledi.",
       "link": "https://www.trthaber.com/haber/ekonomi/petrol-fiyatlarinda-geri-cekilme-suruyor-964401.html",
@@ -125,13 +126,6 @@
       "link": "https://www.birgun.net/haber/irak-ta-siyasi-gerilim-bagdat-ve-erbil-e-cagri-748322",
       "tarih": "2026-11-25T07:15:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Husiler'den son dakika açıklaması: Petrol tesisi ve Ekonomi Şehri'ni hedef aldık!",
-      "ozet": "Son dakika haberi: Yemen'deki Husiler, \"Suudi Arabistan'ın doğusundaki Ras Tanura Petrol Rafinerisi ile Riyad'daki Kral Abdullah Ekonomi Şehri'ni hedef aldık\" dedi.",
-      "link": "https://www.haber7.com/dunya/haber/3679651-husilerden-son-dakika-aciklamasi-petrol-tesisi-ve-ekonomi-sehrini-hedef-aldik",
-      "tarih": "2026-11-25T07:13:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Akaryakıta çifte indirim geliyor",
