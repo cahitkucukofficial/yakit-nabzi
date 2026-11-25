@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-11-25T18:15:38.037Z",
+  "guncelleme": "2026-11-25T19:10:47.163Z",
   "kaynaklar": [
-    "HABER7",
     "AKSAM",
     "BLOOMBERGHT",
+    "HABER7",
     "YENISAFAK",
     "TRTHABER",
     "DUNYA",
@@ -58,18 +58,25 @@
   },
   "haberler": [
     {
+      "baslik": "Mısır'da tanker yangını: 30 kişi hayatını kaybetti, 15 kişi yaralandı",
+      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol ürünleri taşıyan bir tankerde nedeni henüz belirlenemeyen şekilde çıkan yangında ilk belirlemelere göre 30 kişi yaşamını yitirdi, 15 kişi yaralandı.",
+      "link": "https://www.aksam.com.tr/dunya/misirda-tanker-yangini-30-kisi-hayatini-kaybetti-15-kisi-yaralandi/haber-1717441",
+      "tarih": "2026-11-25T19:06:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "ABD öncülüğündeki konsorsiyum, Lukoil International'ı satın alıyor",
+      "ozet": "ABD öncülüğündeki bir konsorsiyum, Lukoil'in Rusya dışındaki petrol ve doğalgaz varlıklarını bünyesinde bulunduran Lukoil International'ı hisse takasıyla satın almak üzere anlaşmaya vardı. İşlemin tamamlanması, OFAC'ı...",
+      "link": "https://www.bloomberght.com/abd-onculugundeki-konsorsiyum-lukoil-international-i-satin-aliyor-3795684",
+      "tarih": "2026-11-25T18:57:47.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Osmanlı arşivinden 120 yıllık petrol sırrı: Erzurum'un bilinmeyen ticaret geçmişi",
       "ozet": "Şehir Araştırmacısı Özdemir’in ortaya çıkardığı 1906 tarihli Osmanlı belgesi, Erzurum’da petrol ticareti yapıldığını gösterdi. Rus tüccar Ravidof’un faaliyetleri, Bakü petrollerinin Anadolu’ya taşınıp taşınmadığı soru...",
       "link": "https://www.haber7.com/guncel/haber/3679852-osmanli-arsivinden-120-yillik-petrol-sirri-erzurumun-bilinmeyen-ticaret-gecmisi",
       "tarih": "2026-11-25T17:34:00.000Z",
       "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Bağdat'tan Erbil'e sınır ve petrol freni: Federal hükümetin yetkisi artırıldı",
-      "ozet": "Irak Federal Yüksek Mahkemesi, Başbakan Ali Zeydi'nin IKBY'deki sınır güvenliği ve petrol sahalarına yönelik kararlarının dayanağını oluşturan anayasal yetkileri yorumlayarak federal hükümetin yetkilerini teyit etti. ...",
-      "link": "https://www.aksam.com.tr/dunya/bagdattan-erbile-sinir-ve-petrol-freni-federal-hukumetin-yetkisi-artirildi/haber-1717414",
-      "tarih": "2026-11-25T16:35:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "BoE/Bailey: Enflasyon beklenenden düşük seviyede zirve yapabilir",
