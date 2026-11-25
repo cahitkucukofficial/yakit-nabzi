@@ -1,16 +1,17 @@
 {
-  "guncelleme": "2026-11-25T13:59:35.717Z",
+  "guncelleme": "2026-11-25T14:54:44.192Z",
   "kaynaklar": [
-    "ENSONHABER",
+    "TRTHABER",
     "AKSAM",
+    "HABER7",
+    "BLOOMBERGHT",
+    "YENISAFAK",
+    "ENSONHABER",
     "DUNYA",
     "AA",
-    "HABER7",
     "BIRGUN",
     "CUMHURIYET",
-    "YENISAFAK",
-    "SOZCU",
-    "BLOOMBERGHT"
+    "SOZCU"
   ],
   "beklenti": {
     "motorin": {
@@ -58,18 +59,60 @@
   },
   "haberler": [
     {
+      "baslik": "İran ordusu: Hürmüz Boğazı'nda bir petrol tankeri deniz mayınına çarparak alev aldı",
+      "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda \"izinsiz güzergahı\" kullanan bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-bir-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-964459.html",
+      "tarih": "2026-11-25T14:46:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Hürmüz'de mayın tuzağı: Petrol tankeri alevlere teslim oldu",
+      "ozet": "İran ordusu, Hürmüz Boğazı'nın doğusunda \"izinsiz güzergahı\" kullanan bir petrol tankerinin deniz mayınına çarparak alev aldığını duyurdu.",
+      "link": "https://www.aksam.com.tr/dunya/hurmuzde-mayin-tuzagi-petrol-tankeri-alevlere-teslim-oldu/haber-1717388",
+      "tarih": "2026-11-25T14:43:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Motorine bir büyük indirim daha! Tarih belli oldu...",
+      "ozet": "Motorin fiyatlarında beklenen indirim araç sahiplerini sevindirecek. 26 Kasım'dan itibaren pompaya yansıması beklenen indirimle motorinin litre fiyatında 4 lirayı aşan düşüş öngörülüyor.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu",
+      "tarih": "2026-11-25T14:43:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Petrol ve yük gemilerine siber saldırıların ardında İran şüphesi",
+      "ozet": "ABD'li yetkililer, son haftalarda petrol ve yük gemilerini hedef alan yaklaşık 50 kadar siber saldırının arkasında İranlı bilgisayar korsanlarının olabileceğinden şüpheleniyor. Petrol, sıvılaştırılmış gaz ve diğer pat...",
+      "link": "https://www.bloomberght.com/petrol-ve-yuk-gemilerine-siber-saldirilarin-ardinda-iran-suphesi-3795660",
+      "tarih": "2026-11-25T14:17:33.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Rusya'da benzin ihracatı yasağı uzayacak mı? Novak karar için tarih verdi",
+      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, Ukrayna'nın İHA saldırıları sonrası onarıma alınan petrol rafinerileri nedeniyle akaryakıt arzında sıkıntı yaşandığını ve açığın ithalatla kapatıldığını açıkladı. Novak, benz...",
+      "link": "https://www.aksam.com.tr/dunya/rusyada-benzin-ihracati-yasagi-uzayacak-mi-novak-karar-icin-tarih-verdi/haber-1717375",
+      "tarih": "2026-11-25T14:09:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "TOGG sonrası yeni yerli otomobil geliyor: Benzin ve hibrit modelleri olacak",
+      "ozet": "Türkiye'nin yerli otomobil hamlesinde Togg'un ardından yeni bir proje daha gündeme geldi. Tamamen yerli sermaye hedefiyle geliştirilen HABAŞ'ın yeni otomobili için çalışmalar sürerken, gözler modelin tanıtılacağı tari...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-geliyor-benzin-ve-hibrit-modelleri-olacak-4875097",
+      "tarih": "2026-11-25T14:03:00.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Rusya'da rafinerilerdeki onarımlar nedeniyle akaryakıt piyasasında sıkıntı yaşanıyor",
+      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, petrol rafinerilerindeki onarım çalışmaları nedeniyle ülkenin akaryakıt piyasasında sıkıntı yaşandığını söyledi.",
+      "link": "https://www.trthaber.com/haber/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor-964452.html",
+      "tarih": "2026-11-25T13:51:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
       "baslik": "Rafineri onarımları Rusya'yı akaryakıt ithalatına yöneltti",
       "ozet": "Rusya Başbakan Yardımcısı Novak, Moskova'da yaptığı açıklamada, bazı rafinerilerdeki onarım nedeniyle yaşanan akaryakıt arz açığının ithalatla giderilmeye çalışıldığını söyledi. Novak, benzin ihracatındaki kısıtlamala...",
       "link": "https://www.ensonhaber.com/rafineri-onarimlari-rusyayi-akaryakit-ithalatina-yoneltti-h1585565",
       "tarih": "2026-11-25T13:49:36.000Z",
       "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "Ukrayna: Rusya'da askeri hava üssüne saldırılar düzenledik",
-      "ozet": "Ukrayna ordusu, Rusya'da \"Savasleyka\" askeri hava üssü ve iki farklı petrol rafinerisine saldırılar düzenlediğini bildirdi.",
-      "link": "https://www.aksam.com.tr/dunya/ukrayna-rusyada-askeri-hava-ussune-saldirilar-duzenledik/haber-1717364",
-      "tarih": "2026-11-25T13:28:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "Rusya’da akaryakıt arzı sıkıştı, benzin ihracatı için karar aralıkta",
@@ -84,13 +127,6 @@
       "link": "https://www.aa.com.tr/tr/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor/4137454",
       "tarih": "2026-11-25T12:41:23.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Mazota indirim geldi mi, gelecek mi? Benzine indirim var mı? Akaryakıt fiyatları düşecek mi?",
-      "ozet": "Brent petrol bugün de düşüşte... Art arda gelen düşüşler sonrası mazota indirim gelip gelmediği merak ediliyor. Binlerce kişi \"Mazota indirim geldi mi, gelecek mi\", \"Benzine indirim var mı\" diye soruyor.",
-      "link": "https://www.dunya.com/gundem/mazota-indirim-geldi-mi-gelecek-mi-benzine-indirim-var-mi-akaryakit-fiyatlari-dusecek-mi-haberi-848830",
-      "tarih": "2026-11-25T10:33:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Kalkınma Yolu'nda ezber bozan formül! Demir yolu inşaatı petrol karşılığı yapılacak",
