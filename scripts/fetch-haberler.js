@@ -579,6 +579,51 @@ async function claudeBeklenti(haberler) {
   return sonuc;
 }
 
+/* ---------- "gundem": tutar/tarih cikarilamasa bile haberlerde zam/indirim gundemde mi? ----------
+   Kesin beklenti (tutar + tarih) bulunamayan urunler icin, son ~30 saatteki haberlerin BASLIK+OZET'inde
+   "yolda/geliyor/bekleniyor" gibi gelecek ifadesi + zam/indirim yonu varsa haberin yalnizca basligi ve
+   baglantisi uygulamaya yazilir (tutar/tarih uydurulmaz, makale indirilmez). Gunluk "fiyatlar ne kadar /
+   indirim var mi" listeleme basliklari ve gerceklesmis degisiklikler elenir. */
+const GUNDEM_SIYAH = /var m[ıi]\??|ne kadar|ka[çc] ?TL|g[üu]ncel (?:akaryak[ıi]t|yak[ıi]t)|fiyatlar[ıi] ne/i;
+const DUSUS_KELIME = /indirim|d[üu][şs][üu][şs]|d[üu][şs]ecek|geriley|ucuzl/i;
+const ARTIS_KELIME = /\bzam|zamm|art[ıi][şs]|artacak|y[üu]kselecek/i;
+function gundemCikar(haberler, fiyatVerisi) {
+  const sonuc = {};
+  const simdi = Date.now();
+  const guncelleme = fiyatVerisi && fiyatVerisi.guncelleme ? new Date(fiyatVerisi.guncelleme).getTime() : 0;
+  const satirlar = fiyatVerisi ? (fiyatVerisi.ilceler || []).filter((x) => x.il === "Ankara" || x.il === "İstanbul") : [];
+  for (const urun of Object.keys(URUN_DESENLERI)) {
+    const gec = (satirlar.find((x) => x[urun] && Array.isArray(x[urun].history)) || {})[urun];
+    const h = gec && gec.history;
+    const sonFark = h && h.length >= 2 ? h[h.length - 1] - h[h.length - 2] : 0;
+    const adaylar = haberler
+      .filter((n) => n.tarih && simdi - new Date(n.tarih).getTime() < 30 * 3600 * 1000)
+      .filter((n) => {
+        const metin = (n.baslik || "") + " " + (n.ozet || "");
+        if (!URUN_DESENLERI[urun].some((d) => d.test(metin))) return false;
+        if (GUNDEM_SIYAH.test(n.baslik || "")) return false;
+        if (!YON_KAPISI.test(metin) || !BEKLENTI_KAPISI.test(metin)) return false;
+        if (GECMIS_ZAMAN.test(n.baslik || "")) return false;
+        return true;
+      })
+      .sort((a, b) => new Date(b.tarih) - new Date(a.tarih));
+    for (const n of adaylar) {
+      const baslik = n.baslik || "";
+      const metin = baslik + " " + (n.ozet || "");
+      const bd = DUSUS_KELIME.test(baslik), ba = ARTIS_KELIME.test(baslik);
+      let yon;
+      if (bd !== ba) yon = bd ? "dusus" : "artis"; // baslik tek yonlu: onu esas al
+      else { const md = DUSUS_KELIME.test(metin), ma = ARTIS_KELIME.test(metin); yon = md && !ma ? "dusus" : ma && !md ? "artis" : "belirsiz"; }
+      // Haber, fiyatlara zaten yansimis bir degisimden ONCE yazildiysa (EPDK'da son gunde ayni yonde belirgin degisim) eleme
+      const haberZamani = new Date(n.tarih).getTime();
+      if (guncelleme && haberZamani < guncelleme && ((yon === "dusus" && sonFark <= -0.3) || (yon === "artis" && sonFark >= 0.3))) continue;
+      sonuc[urun] = { yon, baslik, link: n.link, kaynak: n.kaynak, tarih: n.tarih };
+      break;
+    }
+  }
+  return sonuc;
+}
+
 async function beklentileriBirlestir(haberler) {
   const adaylar = { motorin: [], benzin: [], lpg: [] };
   for (const h of haberler) {
@@ -843,11 +888,21 @@ async function main() {
   }
   console.log("[beklenti] " + Object.entries(beklenti).map(([u, v]) => v.expected ? (u + ": " + (v.direction === "dusus" ? "-" : "+") + v.amount + " @" + v.tarih + " [" + v.tarihDurumu + ", tarihi " + v.tarihDogrulayanSayisi + " kaynak soyluyor; adaylar: " + (v.tarihAdaylari || []).join("/") + "] (" + v.dogrulayanKaynakSayisi + " kaynak)") : (u + ": yok")).join(" | ") + " | tam makale istegi: " + tamMetinKullanilan);
   saglikKontroluYap(haberler); // sessiz caprazdogrulama - sadece log, JSON'a yazilmiyor
+  // Kesin beklentisi olmayan urunler icin "gundemde" ipucu (yalniz baslik + baglanti)
+  let gundem = {};
+  try {
+    let fv = null;
+    try { fv = JSON.parse(fs.readFileSync(path.join(path.dirname(hedefYol), "fiyatlar.json"), "utf-8")); } catch (e) { /* fiyat dosyasi yoksa elemeyi atla */ }
+    const g = gundemCikar(haberler, fv);
+    for (const u of Object.keys(g)) if (!(beklenti[u] && beklenti[u].expected)) gundem[u] = g[u];
+  } catch (e) { console.error("[uyari] gundem hesaplanamadi: " + e.message); gundem = {}; }
+  console.log("[gundem] " + (Object.keys(gundem).length ? Object.entries(gundem).map(([u, v]) => u + ": " + v.yon + " (" + v.kaynak + ")").join(" | ") : "yok"));
 
   const cikti = {
     guncelleme: new Date().toISOString(),
     kaynaklar: Array.from(new Set(haberler.map((h) => h.kaynak))),
     beklenti,
+    gundem,
     haberler: haberler,
   };
 
