@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-11-25T08:28:36.617Z",
+  "guncelleme": "2026-11-25T08:57:06.294Z",
   "kaynaklar": [
+    "CUMHURIYET",
     "EKONOMIM",
     "ENSONHABER",
-    "CUMHURIYET",
     "HABER7",
     "TRTHABER",
     "BIRGUN",
@@ -20,20 +20,15 @@
       "amount": 4.32,
       "tarih": "2026-11-26",
       "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 3,
+      "tarihDogrulayanSayisi": 2,
       "tarihAdaylari": [
         "2026-11-26"
       ],
-      "dogrulayanKaynakSayisi": 3,
+      "dogrulayanKaynakSayisi": 2,
       "kaynaklar": [
         {
           "kaynak": "SOZCU",
           "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-geliyor-tabelalar-yeniden-degisecek-p384215",
-          "tarih": "2026-11-26"
-        },
-        {
-          "kaynak": "ENSONHABER",
-          "kaynakLink": "https://www.ensonhaber.com/motorine-indirim-yolda-91629-h1585422",
           "tarih": "2026-11-26"
         },
         {
@@ -63,6 +58,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
+      "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Çarşamba İstanbul, Ankara, İzmir güncel akaryakıt fiyatla...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-25-kasim-2026-sali-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2559261",
+      "tarih": "2026-11-25T08:43:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
     {
       "baslik": "Çiftçiler devletten 10 maddelik destek talebinde bulundu",
       "ozet": "Adana Çiftçiler Birliği Başkanı Mutlu Doğru, Türkiye’nin çevresindeki savaşların etkisiyle mazot ve gübre maliyetlerinin yükseldiğini belirterek, yeni sezonda ekim yapmak isteyen üreticilere devlet desteği verilmesini...",
@@ -113,13 +115,6 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Soya yağı fiyatları şubattan bu yana en düşük seviyede",
-      "ozet": "Chicago piyasasında soya yağı vadeli işlem fiyatları, artan işleme faaliyetlerinin arzı yükseltmesi ve ham petrol fiyatlarındaki düşüşün etkisiyle şubat ayından bu yana en düşük seviyeyi gördü.",
-      "link": "https://www.ekonomim.com/emtia/soya-yagi-fiyatlari-subattan-bu-yana-en-dusuk-seviyede-haberi-933223",
-      "tarih": "2026-11-25T06:46:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "Akaryakıta çifte indirim geliyor",
       "ozet": "Küresel petrol fiyatlarındaki gerilemenin ardından akaryakıt tabelaları değişiyor. Motorin ve benzinin litre fiyatına yarından itibaren geçerli olmak üzere indirim yapılacak. Beklenen indirim sonrası benzin ve motorin...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-cifte-indirim-geliyor-4876288",
@@ -141,13 +136,6 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Motorine indirim yolda",
-      "ozet": "Motorinin litresine yarından itibaren geçerli olmak üzere 4.32 lira indirim yapılacak. Motorin İstanbul'da 84,58 liraya, Ankara'da 85,68 liraya, İzmir'de 85,88 liraya, doğu illerinde ise 87,38 liraya gerileyecek.",
-      "link": "https://www.ensonhaber.com/motorine-indirim-yolda-91629-h1585422",
-      "tarih": "2026-11-25T06:26:13.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
       "baslik": "Petroldeki düşüş tahminleri değiştirmedi: İki gelişme terse döndürebilir",
       "ozet": "Petroldeki son düşüşü küresel piyasalardaki satış dalgasına bağlayan Barclays, Brent için 2026’da varil başına 100 dolar, 2027’de ise 85 dolar tahminini korudu. Bankaya göre yatırımcıların düşüş beklentisiyle açtıklar...",
       "link": "https://www.dunya.com/ekonomi/petroldeki-dusus-tahminleri-degistirmedi-iki-gelisme-terse-dondurebilir-haberi-848793",
@@ -160,13 +148,6 @@
       "link": "https://www.birgun.net/haber/motorine-indirim-geliyor-748305",
       "tarih": "2026-11-25T06:07:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Motorine büyük indirim geliyor: 4,32 TL düşüş bekleniyor",
-      "ozet": "Akaryakıt fiyatlarında yeni bir değişiklik bekleniyor. Sektör kaynaklarından edinilen bilgilere göre, motorinin litre fiyatına 26 Kasım Perşembe gününden itibaren geçerli olmak üzere 4,32 TL indirim yapılması öngörülü...",
-      "link": "https://www.dunya.com/ekonomi/motorine-buyuk-indirim-geliyor-432-tl-dusus-bekleniyor-haberi-848788",
-      "tarih": "2026-11-25T05:53:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "İran: Hürmüz Boğazı'nda iki petrol tankeri deniz mayınına çarparak alev aldı",
@@ -334,13 +315,6 @@
       "ozet": "Motorin fiyatlarında yeni bir indirim beklentisi oluştu. Cuma gününden itibaren pompaya yansıması beklenen indirimin tutarı henüz netleşmezken, büyükşehirlerde akaryakıt fiyatları yüksek seviyelerde seyretmeye devam e...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarinda-dusus-beklentisi-gozler-o-tarihte-2557456",
       "tarih": "2026-11-19T06:41:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıtta yeni indirim beklentisi: Motorin için iki tarih öne çıktı",
-      "ozet": "Benzindeki indirimin ardından gözler motorin fiyatlarına çevrildi. Küresel petrol piyasalarındaki düşüşün sürmesiyle motorin için de indirim beklentisi güçlenirken, pompa fiyatlarında değişiklik için bu hafta işaret e...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-yeni-indirim-beklentisi-motorin-icin-iki-tarih-one-cikti-2557170",
-      "tarih": "2026-11-18T08:38:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
