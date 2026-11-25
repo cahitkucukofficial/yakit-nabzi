@@ -1,11 +1,11 @@
 {
-  "guncelleme": "2026-11-25T19:10:47.163Z",
+  "guncelleme": "2026-11-25T19:29:48.817Z",
   "kaynaklar": [
     "AKSAM",
     "BLOOMBERGHT",
+    "TRTHABER",
     "HABER7",
     "YENISAFAK",
-    "TRTHABER",
     "DUNYA",
     "AA",
     "BIRGUN",
@@ -70,6 +70,13 @@
       "link": "https://www.bloomberght.com/abd-onculugundeki-konsorsiyum-lukoil-international-i-satin-aliyor-3795684",
       "tarih": "2026-11-25T18:57:47.000Z",
       "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Mısır'da yakıt tankerinde çıkan yangında 30 kişi hayatını kaybetti",
+      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol ürünleri taşıyan bir tankerde nedeni henüz belirlenemeyen şekilde çıkan yangında ilk belirlemelere göre 30 kişi yaşamını yitirdi, 15 kişi yaralandı.",
+      "link": "https://www.trthaber.com/haber/dunya/misirda-yakit-tankerinde-cikan-yanginda-30-kisi-hayatini-kaybetti-964474.html",
+      "tarih": "2026-11-25T18:50:00.000Z",
+      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Osmanlı arşivinden 120 yıllık petrol sırrı: Erzurum'un bilinmeyen ticaret geçmişi",
@@ -230,13 +237,6 @@
       "ozet": "Küresel enerji piyasalarında aşağı yönlü ivme hızlanırken, Brent petrolün varil fiyatı 24 Kasım işlemlerinde 86,25 dolara kadar çekilerek 27 Ağustos'tan bu yana en düşük seviyesini gördü. Kasım ayındaki toplam değer k...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakitta-indirim-ruzgari-petrolde-pandemi-sonrasi-en-sert-dusus-goruldu-4875985",
       "tarih": "2026-11-24T08:09:53.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Brent petrolün varili 86,15 dolara geriledi: Libya'da boru hattı açıldı",
-      "ozet": "Brent petrolün varil fiyatı, bugün saat 09.44 itibarıyla kapanışa göre yaklaşık yüzde 0,61 azalarak 86,15 dolara geriledi. Düşüşte küresel arz fazlası beklentileri ve Libya'da Sharara petrol boru hattının yeniden açıl...",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrol-8615-dolara-geriledi-arz-fazlasi-etkili-4875946",
-      "tarih": "2026-11-24T06:54:14.000Z",
       "kaynak": "YENISAFAK"
     },
     {
