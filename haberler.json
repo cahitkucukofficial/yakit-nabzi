@@ -1,9 +1,9 @@
 {
-  "guncelleme": "2026-11-25T17:20:32.437Z",
+  "guncelleme": "2026-11-25T18:15:38.037Z",
   "kaynaklar": [
+    "HABER7",
     "AKSAM",
     "BLOOMBERGHT",
-    "HABER7",
     "YENISAFAK",
     "TRTHABER",
     "DUNYA",
@@ -57,6 +57,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Osmanlı arşivinden 120 yıllık petrol sırrı: Erzurum'un bilinmeyen ticaret geçmişi",
+      "ozet": "Şehir Araştırmacısı Özdemir’in ortaya çıkardığı 1906 tarihli Osmanlı belgesi, Erzurum’da petrol ticareti yapıldığını gösterdi. Rus tüccar Ravidof’un faaliyetleri, Bakü petrollerinin Anadolu’ya taşınıp taşınmadığı soru...",
+      "link": "https://www.haber7.com/guncel/haber/3679852-osmanli-arsivinden-120-yillik-petrol-sirri-erzurumun-bilinmeyen-ticaret-gecmisi",
+      "tarih": "2026-11-25T17:34:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "Bağdat'tan Erbil'e sınır ve petrol freni: Federal hükümetin yetkisi artırıldı",
       "ozet": "Irak Federal Yüksek Mahkemesi, Başbakan Ali Zeydi'nin IKBY'deki sınır güvenliği ve petrol sahalarına yönelik kararlarının dayanağını oluşturan anayasal yetkileri yorumlayarak federal hükümetin yetkilerini teyit etti. ...",
