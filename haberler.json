@@ -1,15 +1,15 @@
 {
-  "guncelleme": "2026-11-25T10:18:58.909Z",
+  "guncelleme": "2026-11-25T11:14:05.622Z",
   "kaynaklar": [
+    "DUNYA",
+    "HABER7",
     "EKONOMIM",
     "BIRGUN",
     "CUMHURIYET",
-    "HABER7",
     "TRTHABER",
     "YENISAFAK",
     "SOZCU",
-    "BLOOMBERGHT",
-    "STAR"
+    "BLOOMBERGHT"
   ],
   "beklenti": {
     "motorin": {
@@ -57,6 +57,20 @@
   },
   "haberler": [
     {
+      "baslik": "Mazota indirim geldi mi, gelecek mi? Benzine indirim var mı? Akaryakıt fiyatları düşecek mi?",
+      "ozet": "Brent petrol bugün de düşüşte... Art arda gelen düşüşler sonrası mazota indirim gelip gelmediği merak ediliyor. Binlerce kişi \"Mazota indirim geldi mi, gelecek mi\", \"Benzine indirim var mı\" diye soruyor.",
+      "link": "https://www.dunya.com/gundem/mazota-indirim-geldi-mi-gelecek-mi-benzine-indirim-var-mi-akaryakit-fiyatlari-dusecek-mi-haberi-848830",
+      "tarih": "2026-11-25T10:33:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Kalkınma Yolu'nda ezber bozan formül! Demir yolu inşaatı petrol karşılığı yapılacak",
+      "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Bağdat'taki ITL Irak Expo 2026'da, Kalkınma Yolu Projesi kapsamında Irak ile petrol karşılığı demir yolu inşasını içeren yeni finansman mekanizması hedeflediklerini açı...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679716-kalkinma-yolunda-ezber-bozan-formul-demir-yolu-insaati-petrol-karsiligi-yapilacak",
+      "tarih": "2026-11-25T10:20:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
       "baslik": "Avrupa borsaları pozitif seyrediyor",
       "ozet": "Avrupa borsaları teknoloji sektörüne ilişkin endişelere karşın petrol fiyatlarındaki gerilemeyle otomobil ve lüks tüketim şirketlerinin hisselerindeki yükselişten kaynaklı etkilerle pozitif seyrediyor.",
       "link": "https://www.ekonomim.com/finans/haberler/borsa/avrupa-borsalari-pozitif-seyrediyor-haberi-933290",
@@ -83,13 +97,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-25-kasim-2026-sali-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2559261",
       "tarih": "2026-11-25T08:43:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Çiftçiler devletten 10 maddelik destek talebinde bulundu",
-      "ozet": "Adana Çiftçiler Birliği Başkanı Mutlu Doğru, Türkiye’nin çevresindeki savaşların etkisiyle mazot ve gübre maliyetlerinin yükseldiğini belirterek, yeni sezonda ekim yapmak isteyen üreticilere devlet desteği verilmesini...",
-      "link": "https://www.ekonomim.com/sehirler/ciftciler-devletten-10-maddelik-destek-talebinde-bulundu-haberi-933262",
-      "tarih": "2026-11-25T07:49:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Motorine indirim tarihi belli oldu: Fiyatlar ne kadar olacak?",
@@ -141,13 +148,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Motorine bir büyük indirim daha! Tarih belli oldu...",
-      "ozet": "Motorin fiyatlarında beklenen indirim araç sahiplerini sevindirecek. 26 Kasım'dan itibaren pompaya yansıması beklenen indirimle motorinin litre fiyatında 4 lirayı aşan düşüş öngörülüyor.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu",
-      "tarih": "2026-11-25T06:27:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Motorine indirim geliyor",
       "ozet": "Petrol fiyatlarında yaşanan gerileme akaryakıt fiyatlarına yansıyor. Motorinin litre fiyatına 26 Kasım'dan itibaren 4 lira 32 kuruş indirim yapılması bekleniyor. İndirimin ardından İstanbul, Ankara ve İzmir'de geçerli...",
       "link": "https://www.birgun.net/haber/motorine-indirim-geliyor-748305",
@@ -188,20 +188,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-once-indirim-sonra-zam-yolda-benzin-ve-motorin-fiyatlari-yeniden-degisiyor-2558996",
       "tarih": "2026-11-24T12:50:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrolde 3 ayın en düşük seviyesi: Fiyatlar 90 doların altına indi",
-      "ozet": "Küresel arzın toparlanması ve arz fazlası beklentisiyle Brent petrolün varil fiyatı 88,97 dolara, WTI ise 79,94 dolara g...",
-      "link": "https://www.sozcu.com.tr/petrolde-3-ayin-en-dusuk-seviyesi-fiyatlar-90-dolarin-altina-indi-p383884",
-      "tarih": "2026-11-24T12:48:30.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Komşuda petrol ve sınır kapıları gerilimi! Barzani: Hiçbir şekilde kabul edilemez",
-      "ozet": "IKBY Başbakanı Mesrur Barzani, Irak hükümetinin bölgedeki sınır kapıları ve petrol sahalarının kontrolünü merkezi yönetime devretmeye yönelik çalışmalarını şaşırtıcı bulduğunu belirterek bu girişimin kabul edilemeyece...",
-      "link": "https://www.star.com.tr/ekonomi/komsuda-petrol-ve-sinir-kapilari-gerilimi-barzani-hicbir-sekilde-kabul-edilemez-haber-2055433/",
-      "tarih": "2026-11-24T12:44:00.000Z",
-      "kaynak": "STAR"
     },
     {
       "baslik": "1.6 milyon TL altında fiyatla geliyor: Egea sonrası Fiat yeni ikilisini duyurdu",
