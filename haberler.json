@@ -1,13 +1,13 @@
 {
-  "guncelleme": "2026-11-25T13:04:24.021Z",
+  "guncelleme": "2026-11-25T13:59:35.717Z",
   "kaynaklar": [
+    "ENSONHABER",
+    "AKSAM",
     "DUNYA",
     "AA",
-    "AKSAM",
     "HABER7",
     "BIRGUN",
     "CUMHURIYET",
-    "TRTHABER",
     "YENISAFAK",
     "SOZCU",
     "BLOOMBERGHT"
@@ -58,6 +58,20 @@
   },
   "haberler": [
     {
+      "baslik": "Rafineri onarımları Rusya'yı akaryakıt ithalatına yöneltti",
+      "ozet": "Rusya Başbakan Yardımcısı Novak, Moskova'da yaptığı açıklamada, bazı rafinerilerdeki onarım nedeniyle yaşanan akaryakıt arz açığının ithalatla giderilmeye çalışıldığını söyledi. Novak, benzin ihracatındaki kısıtlamala...",
+      "link": "https://www.ensonhaber.com/rafineri-onarimlari-rusyayi-akaryakit-ithalatina-yoneltti-h1585565",
+      "tarih": "2026-11-25T13:49:36.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "Ukrayna: Rusya'da askeri hava üssüne saldırılar düzenledik",
+      "ozet": "Ukrayna ordusu, Rusya'da \"Savasleyka\" askeri hava üssü ve iki farklı petrol rafinerisine saldırılar düzenlediğini bildirdi.",
+      "link": "https://www.aksam.com.tr/dunya/ukrayna-rusyada-askeri-hava-ussune-saldirilar-duzenledik/haber-1717364",
+      "tarih": "2026-11-25T13:28:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
       "baslik": "Rusya’da akaryakıt arzı sıkıştı, benzin ihracatı için karar aralıkta",
       "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, rafinerilerde süren onarımlar nedeniyle iç piyasada oluşan akaryakıt açığının ithalatla kapatıldığını söyledi. 31 Ocak 2027’ye kadar yürürlükte olan benzin ihracatı yasağının...",
       "link": "https://www.dunya.com/enerji/rusyada-akaryakit-arzi-sikisti-benzin-ihracati-icin-karar-aralikta-haberi-848852",
@@ -70,13 +84,6 @@
       "link": "https://www.aa.com.tr/tr/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor/4137454",
       "tarih": "2026-11-25T12:41:23.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Bağdat'tan IKBY'ye yetki sınırı! Petrol ve sınır kapılarında yeni dönem",
-      "ozet": "Irak Federal Yüksek Mahkemesi, federal hükümetin, Irak Kürt Bölgesel Yönetimi (IKBY) tarafından yönetilen alanlar da dahil olmak üzere Irak'ın komşu ülkelerle olan tüm sınırlarında federal silahlı kuvvetleri konuşland...",
-      "link": "https://www.aksam.com.tr/dunya/bagdattan-ikbyye-yetki-siniri-petrol-ve-sinir-kapilarinda-yeni-donem/haber-1717333",
-      "tarih": "2026-11-25T12:13:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "Mazota indirim geldi mi, gelecek mi? Benzine indirim var mı? Akaryakıt fiyatları düşecek mi?",
@@ -112,13 +119,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-tarihi-belli-oldu-fiyatlar-ne-kadar-olacak-2559213",
       "tarih": "2026-11-25T07:27:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatlarında geri çekilme sürüyor",
-      "ozet": "Brent petrolün varili, ABD stoklarındaki artış ve küresel petrol arzının talebi aşacağına yönelik beklentilerin etkisiyle 87,88 dolara geriledi.",
-      "link": "https://www.trthaber.com/haber/ekonomi/petrol-fiyatlarinda-geri-cekilme-suruyor-964401.html",
-      "tarih": "2026-11-25T07:17:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Irak'ta siyasi gerilim: Bağdat ve Erbil'e çağrı",
