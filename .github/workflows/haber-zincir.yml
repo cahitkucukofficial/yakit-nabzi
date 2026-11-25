@@ -2,6 +2,7 @@ name: Haber Zinciri
 
 # Amaç: GitHub'ın zamanlanmış işleri geciktirip atlaması yüzünden haberler saatlerce eskimesin.
 # Bu iş: haber işini hemen çalıştırır, ~55 dk bekler, sonra KENDİNİ yeniden başlatır (saatlik zincir).
+# Ayrıca her gece tam 00:01'de (TR, 21:01 UTC) EPDK fiyat işini tetikler (bekleme süresi buna göre kısalır).
 # 3 saatlik zamanlayıcı yedektir: zincir kopmuşsa onu yeniden başlatır. Eşzamanlılık grubu sayesinde
 # aynı anda en fazla bir zincir çalışır (fazlası beklemede tek yer tutar), yani zincirler çoğalmaz.
 on:
@@ -25,14 +26,32 @@ jobs:
       - name: Haber işini çalıştır
         continue-on-error: true
         run: |
+          # 00:01 (TR) = 21:01 UTC: EPDK işi tam o anda başlar; haber işi ile aynı anda push yarışına girmesin
+          H=$(date -u +%H%M)
+          if [ "$H" -ge 2101 ] && [ "$H" -le 2110 ]; then sleep 240; fi
           curl -sS -f -X POST \
             -H "Authorization: Bearer ${{ github.token }}" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/fetch-haberler.yml/dispatches" \
             -d '{"ref":"main"}'
 
-      - name: Bir saate yakın bekle
-        run: sleep 3300
+      - name: Bekle (gece 00:01 TR gelirse EPDK işini tam o anda başlat)
+        run: |
+          NOW=$(date +%s)
+          T=$(date -u -d "today 21:01:05" +%s)
+          [ "$NOW" -ge "$T" ] && T=$((T + 86400))
+          WAIT=$((T - NOW))
+          if [ "$WAIT" -le 3300 ]; then
+            echo "00:01 (TR) icin $WAIT sn bekleniyor, sonra EPDK isi baslatilacak"
+            sleep "$WAIT"
+            curl -sS -f -X POST \
+              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/fetch-epdk-fiyat.yml/dispatches" \
+              -d '{"ref":"main"}' || echo "EPDK tetikleme basarisiz"
+          else
+            sleep 3300
+          fi
 
       - name: Zinciri yeniden başlat
         if: always()
