@@ -1,15 +1,14 @@
 {
-  "guncelleme": "2026-11-25T08:57:06.294Z",
+  "guncelleme": "2026-11-25T09:23:47.318Z",
   "kaynaklar": [
-    "CUMHURIYET",
     "EKONOMIM",
+    "BIRGUN",
+    "CUMHURIYET",
     "ENSONHABER",
     "HABER7",
     "TRTHABER",
-    "BIRGUN",
     "YENISAFAK",
     "SOZCU",
-    "DUNYA",
     "BLOOMBERGHT",
     "STAR"
   ],
@@ -58,6 +57,20 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Yüksek navlun fiyatları tankerlerin rotasını değiştirdi",
+      "ozet": "Hürmüz Boğazı'ndan petrol sevkiyatının savaş öncesi seviyelere dönmesi, ham petrol tankerlerine olan talebi artırdı.",
+      "link": "https://www.ekonomim.com/ekonomi/yuksek-navlun-geliri-tankerleri-ham-petrol-tasimaya-yoneltti-haberi-933287",
+      "tarih": "2026-11-25T09:13:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Elektrik faturasında dağıtım bedelinin bilançosu: Şirketlerin yatırımı da getirisi de tarifeye yansıyor",
+      "ozet": "Elektrik faturalarında dağıtım bedelinin payı büyürken şirketlerin hangi giderlerinin yurttaşa yansıtıldığı yeniden gündeme geldi. EPDK mevzuatına göre şirketlerin yatırım harcamalarının yanı sıra yatırımlar üzerinden...",
+      "link": "https://www.birgun.net/haber/elektrik-faturasinda-dagitim-bedelinin-bilancosu-sirketlerin-yatirimi-da-getirisi-de-tarifeye-yansiyor-748362",
+      "tarih": "2026-11-25T08:50:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
       "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Çarşamba İstanbul, Ankara, İzmir güncel akaryakıt fiyatla...",
@@ -134,13 +147,6 @@
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu",
       "tarih": "2026-11-25T06:27:00.000Z",
       "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Petroldeki düşüş tahminleri değiştirmedi: İki gelişme terse döndürebilir",
-      "ozet": "Petroldeki son düşüşü küresel piyasalardaki satış dalgasına bağlayan Barclays, Brent için 2026’da varil başına 100 dolar, 2027’de ise 85 dolar tahminini korudu. Bankaya göre yatırımcıların düşüş beklentisiyle açtıklar...",
-      "link": "https://www.dunya.com/ekonomi/petroldeki-dusus-tahminleri-degistirmedi-iki-gelisme-terse-dondurebilir-haberi-848793",
-      "tarih": "2026-11-25T06:17:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Motorine indirim geliyor",
@@ -246,13 +252,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-24-kasim-2026-sali-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2558813",
       "tarih": "2026-11-24T06:34:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Bakan Bayraktar Nijer'de altın üretimi için tarih verdi: Yıllık hedef 100 ton",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye Büyük Millet Meclisi’nde (TBMM) bakanlığının bütçe sunumunu gerçekleştirdi. Madencilik ve enerji bağımsızlığı alanındaki güncel verileri paylaşan Bayraktar...",
-      "link": "https://www.yenisafak.com/ekonomi/bakan-bayraktar-nijerde-altin-uretimi-icin-tarih-verdi-yillik-hedef-100-ton-4875687",
-      "tarih": "2026-11-23T10:18:33.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "ABD’de tüketici güveni 3 ayın zirvesinde: Benzin rahatlattı, yapay zeka çalkantısı varlıklı kesimi vurdu",
