@@ -1,0 +1,44 @@
+name: Haber Zinciri
+
+# Amaç: GitHub'ın zamanlanmış işleri geciktirip atlaması yüzünden haberler saatlerce eskimesin.
+# Bu iş: haber işini hemen çalıştırır, ~55 dk bekler, sonra KENDİNİ yeniden başlatır (saatlik zincir).
+# 3 saatlik zamanlayıcı yedektir: zincir kopmuşsa onu yeniden başlatır. Eşzamanlılık grubu sayesinde
+# aynı anda en fazla bir zincir çalışır (fazlası beklemede tek yer tutar), yani zincirler çoğalmaz.
+on:
+  schedule:
+    - cron: "10 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  actions: write            # haber işini ve kendini tetikleyebilmek için
+  contents: read
+
+concurrency:
+  group: haber-zincir
+  cancel-in-progress: false
+
+jobs:
+  zincir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - name: Haber işini çalıştır
+        continue-on-error: true
+        run: |
+          curl -sS -f -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/fetch-haberler.yml/dispatches" \
+            -d '{"ref":"main"}'
+
+      - name: Bir saate yakın bekle
+        run: sleep 3300
+
+      - name: Zinciri yeniden başlat
+        if: always()
+        run: |
+          curl -sS -f -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/haber-zincir.yml/dispatches" \
+            -d '{"ref":"main"}'

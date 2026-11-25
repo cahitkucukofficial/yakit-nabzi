@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write            # bot'un commit/push yapabilmesi için gerekli
 
+# Aynı anda iki çalışma (zamanlayıcı + zincir) çakışıp push'ta hata vermesin: sırayla çalışsınlar
+concurrency:
+  group: haber-guncelle
+  cancel-in-progress: false
+
 jobs:
   guncelle:
     runs-on: ubuntu-latest
