@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-25T16:25:30.575Z",
+  "guncelleme": "2026-11-25T17:20:32.437Z",
   "kaynaklar": [
+    "AKSAM",
     "BLOOMBERGHT",
     "HABER7",
     "YENISAFAK",
@@ -56,6 +57,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Bağdat'tan Erbil'e sınır ve petrol freni: Federal hükümetin yetkisi artırıldı",
+      "ozet": "Irak Federal Yüksek Mahkemesi, Başbakan Ali Zeydi'nin IKBY'deki sınır güvenliği ve petrol sahalarına yönelik kararlarının dayanağını oluşturan anayasal yetkileri yorumlayarak federal hükümetin yetkilerini teyit etti. ...",
+      "link": "https://www.aksam.com.tr/dunya/bagdattan-erbile-sinir-ve-petrol-freni-federal-hukumetin-yetkisi-artirildi/haber-1717414",
+      "tarih": "2026-11-25T16:35:00.000Z",
+      "kaynak": "AKSAM"
+    },
     {
       "baslik": "BoE/Bailey: Enflasyon beklenenden düşük seviyede zirve yapabilir",
       "ozet": "İngiltere Merkez Bankası Başkanı Andrew Bailey, petrol ve doğalgaz fiyatları mevcut seviyelerinde kalırsa enflasyonun tahmin edilenden daha düşük bir seviyede zirve yapabileceğini söyledi.",
