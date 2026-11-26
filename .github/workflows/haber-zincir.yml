@@ -35,23 +35,33 @@ jobs:
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/fetch-haberler.yml/dispatches" \
             -d '{"ref":"main"}'
 
-      - name: Bekle (gece 00:01 TR gelirse EPDK işini tam o anda başlat)
+      - name: Bekle (gece 00:01 TR'den ~06:00 TR'ye kadar yarım saatte bir EPDK işini tetikle)
         run: |
-          NOW=$(date +%s)
-          T=$(date -u -d "today 21:01:05" +%s)
-          [ "$NOW" -ge "$T" ] && T=$((T + 86400))
-          WAIT=$((T - NOW))
-          if [ "$WAIT" -le 3300 ]; then
-            echo "00:01 (TR) icin $WAIT sn bekleniyor, sonra EPDK isi baslatilacak"
-            sleep "$WAIT"
+          # EPDK yeni gün fiyatı dağıtıcı bildirimlerinden sonra (saatler sonra) yayımlanıyor; bu yüzden
+          # 21:01 UTC'den 03:00 UTC'ye kadar her 25 dk'da bir EPDK işi tetiklenir (değişmezse commit atmaz).
+          dispatch() {
             curl -sS -f -X POST \
               -H "Authorization: Bearer ${{ github.token }}" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${{ github.repository }}/actions/workflows/fetch-epdk-fiyat.yml/dispatches" \
               -d '{"ref":"main"}' || echo "EPDK tetikleme basarisiz"
-          else
-            sleep 3300
-          fi
+          }
+          in_window() { local h; h=$(date -u -d "@$1" +%H%M | sed 's/^0*//'); h=${h:-0}; [ "$h" -ge 2101 ] || [ "$h" -lt 300 ]; }
+          END=$(( $(date +%s) + 3300 ))
+          T=$(date -u -d "today 21:01:05" +%s)
+          [ "$(date +%s)" -ge "$T" ] && T=$((T + 86400))
+          while true; do
+            NOW=$(date +%s)
+            if in_window "$NOW" && in_window $((NOW + 1500)); then NEXT=$((NOW + 1500)); else NEXT=$T; fi
+            if [ "$NEXT" -gt "$END" ]; then
+              [ "$END" -gt "$NOW" ] && sleep $((END - NOW))
+              break
+            fi
+            echo "EPDK tetigi icin $((NEXT - NOW)) sn bekleniyor"
+            sleep $((NEXT - NOW))
+            dispatch
+            [ "$NEXT" -eq "$T" ] && T=$((T + 86400))
+          done
 
       - name: Zinciri yeniden başlat
         if: always()
