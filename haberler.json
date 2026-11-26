@@ -1,13 +1,12 @@
 {
-  "guncelleme": "2026-11-26T15:28:10.691Z",
+  "guncelleme": "2026-11-26T16:23:20.159Z",
   "kaynaklar": [
-    "TRTHABER",
     "AKSAM",
+    "TRTHABER",
     "STAR",
     "EKONOMIM",
     "BLOOMBERGHT",
     "BIRGUN",
-    "HABER7",
     "HABERTURK",
     "YENISAFAK",
     "CUMHURIYET",
@@ -26,6 +25,13 @@
   },
   "gundem": {},
   "haberler": [
+    {
+      "baslik": "Zeydi'den petrol kaçakçılığı uyarısı: \"Kürtleri kişisel çıkarlarına alet etmeye çalışıyorlar\"",
+      "ozet": "Irak Başbakanı Ali ez-Zeydi, Irak ordusunun Irak Kürt Bölgesel Yönetimi'ndeki (IKBY) kentlerde değil, sınır bölgelerinde konuşlanacağını bildirdi.",
+      "link": "https://www.aksam.com.tr/dunya/zeydiden-petrol-kacakciligi-uyarisi-kurtleri-kisisel-cikarlarina-alet-etmeye-calisiyorlar/haber-1717747",
+      "tarih": "2026-11-26T15:35:00.000Z",
+      "kaynak": "AKSAM"
+    },
     {
       "baslik": "Arap Koalisyonu: Suudi Arabistandaki Cazan Petrol Rafinerisi Husilerin saldırısına uğradı",
       "ozet": "Yemen'de meşru hükümeti destekleyen Suudi Arabistan öncülüğündeki Arap Koalisyonu, Suudi Arabistan'ın güneybatısında yer alan Cazan Petrol Rafinerisi'nin Yemen'deki İran destekli Husilerin saldırısına uğradığını bildi...",
@@ -62,13 +68,6 @@
       "kaynak": "STAR"
     },
     {
-      "baslik": "OPEC+ 2027 planını masaya yatırıyor: Üretim kotası değişecek mi?",
-      "ozet": "OPEC+ ülkelerinin, İran savaşının petrol piyasalarında yarattığı belirsizlikler nedeniyle mevcut üretim kotasını Ocak 2027'ye kadar sürdürmeyi değerlendirdiği bildirildi. Suudi Arabistan liderliğindeki ittifakın, 2027...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/opec-2027-planini-masaya-yatiriyor-uretim-kotasi-degisecek-mi-haberi-933621",
-      "tarih": "2026-11-26T12:10:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "Tayland'da bir petrol tesisinde patlama meydana geldi",
       "ozet": "Tayland'ın başkenti Bangkok'ta büyük bir petrol tesisinde patlama meydana geldi; 4'ü ağır, 7 kişi yaralandı.",
       "link": "https://www.trthaber.com/haber/dunya/taylandda-bir-petrol-tesisinde-patlama-meydana-geldi-964545.html",
@@ -95,13 +94,6 @@
       "link": "https://www.birgun.net/haber/misir-da-petrol-yuklu-tankerde-yangin-can-kaybi-31-e-yaralananlarin-sayisi-21-e-yukseldi-748619",
       "tarih": "2026-11-26T10:10:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Bangkok'ta petrol tesisinde patlama",
-      "ozet": "Tayland'ın başkenti Bangkok'ta büyük bir petrol tesisinde patlama meydana geldiği bildirildi. Patlamada 4'ü ağır, 7 kişinin yaralandığı bildirildi.",
-      "link": "https://www.haber7.com/dunya/haber/3680006-bangkokta-petrol-tesisinde-patlama",
-      "tarih": "2026-11-26T09:22:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Petrol fiyatlarında son durum ne?",
