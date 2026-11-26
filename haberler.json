@@ -1,11 +1,12 @@
 {
-  "guncelleme": "2026-11-26T03:41:06.140Z",
+  "guncelleme": "2026-11-26T04:26:33.757Z",
   "kaynaklar": [
+    "AKSAM",
+    "DUNYA",
     "TRTHABER",
     "BIRGUN",
     "ENSONHABER",
     "HABER7",
-    "DUNYA",
     "BLOOMBERGHT",
     "YENISAFAK",
     "AA",
@@ -24,6 +25,13 @@
     }
   },
   "gundem": {
+    "motorin": {
+      "yon": "dusus",
+      "baslik": "Akaryakıta çifte indirim geliyor",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-cifte-indirim-geliyor-4876288",
+      "kaynak": "YENISAFAK",
+      "tarih": "2026-11-25T06:36:33.000Z"
+    },
     "benzin": {
       "yon": "dusus",
       "baslik": "Akaryakıta çifte indirim geliyor",
@@ -33,6 +41,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Irak'ta petrol restleşmesi",
+      "ozet": "Bağdat'ın petrol sahaları ve sınır kapılarını devralma hamlesi Erbil'le askeri gerilime yol açarken, Irak Yüksek Mahkemesi sınır ve enerji kaynaklarında tüm denetim yetkisini merkezi yönetime verdi.",
+      "link": "https://www.aksam.com.tr/dunya/irakta-petrol-restlesmesi/haber-1717478",
+      "tarih": "2026-11-26T04:01:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Rus petrol devinin 11 ülkedeki varlıkları için ABD öncülüğünde anlaşma",
+      "ozet": "Rus petrol şirketi Lukoil'in uluslararası enerji varlıklarının devri için ABD öncülüğündeki yatırımcı konsorsiyumu anlaşmaya vardı. Günlük 350 bin varil petrol eşdeğeri üretime sahip varlıkların devrinde ABD hükümeti ...",
+      "link": "https://www.dunya.com/ekonomi/rus-petrol-devinin-11-ulkedeki-varliklari-icin-abd-onculugunde-anlasma-haberi-848903",
+      "tarih": "2026-11-26T03:55:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Hürmüz'de saldırılar yeniden arttı: Petrol arzında toparlanma tehlikede",
+      "ozet": "Hürmüz Boğazı'nda tankerlere ve Suudi Arabistan'ın enerji tesislerine yönelik yeni saldırılar, petrol sevkiyatındaki toparlanmayı tehdit ediyor. Brent petrol 94 doların üzerinde seyrederken gözler pazar günkü OPEC+ to...",
+      "link": "https://www.dunya.com/ekonomi/hurmuzde-saldirilar-yeniden-artti-petrol-arzinda-toparlanma-tehlikede-haberi-848902",
+      "tarih": "2026-11-26T03:41:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Mısır'da tanker yangınında can kaybı 31'e yükseldi",
       "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, yaralananların sayısı ise 21'e çıktı.",
