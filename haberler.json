@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-11-26T08:07:05.152Z",
+  "guncelleme": "2026-11-26T09:02:10.730Z",
   "kaynaklar": [
-    "HABERTURK",
+    "AKSAM",
     "HABER7",
+    "HABERTURK",
     "DUNYA",
     "YENISAFAK",
     "EKONOMIM",
-    "ENSONHABER",
     "TRTHABER",
     "CUMHURIYET",
     "BLOOMBERGHT",
@@ -49,6 +49,20 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Bangkok'ta \"Evlerinizi boşaltın\" uyarısı! Petrol tesisinde şiddetli patlama",
+      "ozet": "Tayland'ın başkenti Bangkok'un güneydoğusunda bulunan Bangchak petrol tesisinde şiddetli bir patlama meydana geldi. Gökyüzüne yoğun siyah dumanların yükseldiği olayda ilk belirlemelere göre can kaybı yaşanmazken, yere...",
+      "link": "https://www.aksam.com.tr/dunya/bangkokta-evlerinizi-bosaltin-uyarisi-petrol-tesisinde-siddetli-patlama/haber-1717588",
+      "tarih": "2026-11-26T08:56:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Altın ve dolarda dengeleri değiştirecek gelişme: Kritik tahmin!",
+      "ozet": "Marbaş Menkul Değerler Genel Müdür Yardımcısı Soner Kuru, petrol fiyatlarındaki düşüşün altın ve euro/dolar paritesine yükseliş alanı açabileceğini söyledi.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679994-altin-ve-dolarda-dengeleri-degistirecek-gelisme-kritik-tahmin",
+      "tarih": "2026-11-26T08:34:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "Petrol fiyatlarında son durum ne?",
       "ozet": "Brent petrolün ocak vadeli varil fiyatı, uluslararası piyasalarda 95,06 dolardan işlem görüyor",
@@ -93,13 +107,6 @@
     },
     {
       "baslik": "Brent petrolün varili 95,06 dolardan işlem görüyor",
-      "ozet": "Brent petrolün ocak vadeli varil fiyatı, bugün uluslararası piyasalarda önceki kapanışa göre yüzde 0,47 yükseldi. Husilerin Suudi Arabistan'daki rafineriye saldırı iddiası ve Hürmüz Boğazı'ndaki mayın olayları, arz en...",
-      "link": "https://www.ensonhaber.com/brent-petrolun-varili-9506-dolardan-islem-goruyor-h1585739",
-      "tarih": "2026-11-26T06:54:48.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "Brent petrolün varili 95,06 dolardan işlem görüyor",
       "ozet": "Brent petrolün ocak vadeli varil fiyatı, uluslararası piyasalarda 95,06 dolardan işlem görüyor.",
       "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9506-dolardan-islem-goruyor-964500.html",
       "tarih": "2026-11-26T06:47:00.000Z",
@@ -114,7 +121,7 @@
     },
     {
       "baslik": "Motorine indirim geldi! Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 26 Kasım 2026 Perşembe İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
-      "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 26 Kasım 2026 Çarşamba İstanbul, Ankara, İzmir güncel akaryakıt fiyatla...",
+      "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 26 Kasım 2026 Perşembe İstanbul, Ankara, İzmir güncel akaryakıt fiyatla...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-geldi-benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-26-kasim-2026-persembe-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2559520",
       "tarih": "2026-11-26T06:19:00.000Z",
       "kaynak": "CUMHURIYET"
@@ -125,20 +132,6 @@
       "link": "https://www.bloomberght.com/petrolde-yeniden-jeopolitik-gerginlik-3795710",
       "tarih": "2026-11-26T06:13:33.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrol stokları beklentileri karşılamadı: ABD'den yeni üretim tahmini",
-      "ozet": "ABD'nin ticari ham petrol stokları geçen hafta 1 milyon 100 bin varil artarak piyasa beklentilerinin altında bir yükseliş kaydetti. Stratejik petrol rezervlerinde düşüş, benzin stoklarında ise artış görüldü. Ülkenin p...",
-      "link": "https://www.dunya.com/enerji/petrol-stoklari-beklentileri-karsilamadi-abdden-yeni-uretim-tahmini-haberi-848923",
-      "tarih": "2026-11-26T06:13:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "ABD ticari petrol stokları piyasa tahminlerinin gerisinde kaldı",
-      "ozet": "ABD Enerji Enformasyon İdaresi raporuna göre 14-20 Kasım haftasında ticari ham petrol stokları 1,1 milyon varillik yükselişle 418,9 milyon varile çıkarken, stratejik rezervler 2,9 milyon varil eksildi ve günlük üretim...",
-      "link": "https://www.ekonomim.com/kuresel-ekonomi/abd-ticari-petrol-stoklari-piyasa-tahminlerinin-gerisinde-kaldi-haberi-933504",
-      "tarih": "2026-11-26T06:12:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "4 haftalık seri bitti! Petrol fiyatları 95 doları aştı",
@@ -327,6 +320,13 @@
       "ozet": "EPDK, benzin fiyatlarının hesaplanmasında kullanılan yoğunluk değerini değiştirirken motorin için mevcut uygulamayı korudu. Düzenlemenin ardından sektör kaynakları, benzinde hafta sonundan itibaren yeni bir indirim be...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzinde-hesap-degisti-indirim-kapida-gozler-21-kasim-da-2557795",
       "tarih": "2026-11-20T08:11:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Benzine, mazota indirim, zam var mı? 20 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
+      "tarih": "2026-11-20T06:26:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
