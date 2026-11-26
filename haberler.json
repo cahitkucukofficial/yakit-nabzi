@@ -1,7 +1,8 @@
 {
-  "guncelleme": "2026-11-26T12:56:11.942Z",
+  "guncelleme": "2026-11-26T13:37:54.031Z",
   "kaynaklar": [
     "STAR",
+    "AKSAM",
     "ENSONHABER",
     "EKONOMIM",
     "TRTHABER",
@@ -27,11 +28,18 @@
   "gundem": {},
   "haberler": [
     {
-      "baslik": "5 yıllık anlaşma! Türkiye'den Avrupa ile enerji ortaklığı",
-      "ozet": "Türkiye, enerji alanındaki uluslararası iş birliklerine bir yenisini daha ekledi. İstanbul'da Türkiye Petrolleri Anonim Ortaklığı (TPAO), Avusturya merkezli OMV ve Romanya merkezli OMV Petrom arasında imzalanan 5 yıll...",
-      "link": "https://www.star.com.tr/ekonomi/5-yillik-anlasma-turkiyeden-avrupa-ile-enerji-ortakligi-haber-2055930/",
-      "tarih": "2026-11-26T12:50:00.000Z",
+      "baslik": "Türkiye elini güçlendiriyor! Türk petrol devi Avrupa ile el sıkıştı",
+      "ozet": "Türkiye, enerji alanındaki uluslararası iş birliklerine bir yenisini daha ekledi. İstanbul'da Türkiye Petrolleri Anonim Ortaklığı (TPAO), Avusturya merkezli OMV ve Romanya merkezli OMV Petrom arasında 5 yıllık mutabak...",
+      "link": "https://www.star.com.tr/ekonomi/turkiye-elini-guclendiriyor-turk-petrol-devi-avrupa-ile-el-sikisti-haber-2055930/",
+      "tarih": "2026-11-26T13:05:00.000Z",
       "kaynak": "STAR"
+    },
+    {
+      "baslik": "Petrolde sınırları aşıyoruz! Türk devi Avrupa'nın iki şirketiyle el sıkıştı",
+      "ozet": "Türkiye Petrolleri Anonim Ortaklığı (TPAO), Avrupa'nın enerji devleri Avusturya merkezli OMV ve Romanya merkezli OMV Petrom ile beş yıllık mutabakat zaptına imza attı. Anlaşma kapsamında Türkiye ve Karadeniz başta olm...",
+      "link": "https://www.aksam.com.tr/ekonomi/petrolde-sinirlari-asiyoruz-turk-devi-avrupanin-iki-sirketiyle-el-sikisti/haber-1717694",
+      "tarih": "2026-11-26T13:04:00.000Z",
+      "kaynak": "AKSAM"
     },
     {
       "baslik": "Erbil’de Irak hükümetinin kararları protesto edildi",
@@ -102,13 +110,6 @@
       "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3930229",
       "tarih": "2026-11-26T07:45:43.000Z",
       "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Mısır'daki tanker faciasında patlama anı kamerada: 31 ölü, 21 yaralı!",
-      "ozet": "Mısır'ın Giza kentinde petrol ürünleri taşıyan tankerde meydana gelen ve 31 kişinin hayatını kaybettiği, 21 kişinin yaralandığı feci yangının patlama anı görüntüleri ortaya çıktı.",
-      "link": "https://www.haber7.com/dunya/haber/3679965-misirdaki-tanker-faciasinda-patlama-ani-kamerada-31-olu-21-yarali",
-      "tarih": "2026-11-26T07:32:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
@@ -195,13 +196,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Petrol ve yük gemilerine siber saldırıların ardında İran şüphesi",
-      "ozet": "ABD'li yetkililer, son haftalarda petrol ve yük gemilerini hedef alan yaklaşık 50 kadar siber saldırının arkasında İranlı bilgisayar korsanlarının olabileceğinden şüpheleniyor. Petrol, sıvılaştırılmış gaz ve diğer pat...",
-      "link": "https://www.bloomberght.com/petrol-ve-yuk-gemilerine-siber-saldirilarin-ardinda-iran-suphesi-3795660",
-      "tarih": "2026-11-25T14:17:33.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "TOGG sonrası yeni yerli otomobil geliyor: Benzin ve hibrit modelleri olacak",
       "ozet": "Türkiye'nin yerli otomobil hamlesinde Togg'un ardından yeni bir proje daha gündeme geldi. Tamamen yerli sermaye hedefiyle geliştirilen HABAŞ'ın yeni otomobili için çalışmalar sürerken, gözler modelin tanıtılacağı tari...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-geliyor-benzin-ve-hibrit-modelleri-olacak-4875097",
@@ -221,13 +215,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-tarihi-belli-oldu-fiyatlar-ne-kadar-olacak-2559213",
       "tarih": "2026-11-25T07:27:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta çifte indirim geliyor",
-      "ozet": "Küresel petrol fiyatlarındaki gerilemenin ardından akaryakıt tabelaları değişiyor. Motorin ve benzinin litre fiyatına yarından itibaren geçerli olmak üzere indirim yapılacak. Beklenen indirim sonrası benzin ve motorin...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-cifte-indirim-geliyor-4876288",
-      "tarih": "2026-11-25T06:36:33.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Motorine dev indirim geliyor: Tabelalar yeniden değişecek",
