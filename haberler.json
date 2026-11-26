@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-26T20:03:51.364Z",
+  "guncelleme": "2026-11-26T20:58:57.168Z",
   "kaynaklar": [
+    "HABER7",
     "TRTHABER",
     "STAR",
     "EKONOMIM",
@@ -24,6 +25,13 @@
   },
   "gundem": {},
   "haberler": [
+    {
+      "baslik": "Venezuela'nın en büyük petrol rafinerisinde yangın! İşçiler tahliye edildi",
+      "ozet": "Venezuela'nın en büyük petrol rafinerisi Amuay'da çıkan yangın paniğe neden oldu. İşçiler tahliye edilirken alevler yaralanma yaşanmadan kontrol altına alındı. Yangının yakıt dağıtımını etkilemediği açıklandı.",
+      "link": "https://www.haber7.com/dunya/haber/3680160-venezuelanin-en-buyuk-petrol-rafinerisinde-yangin-isciler-tahliye-edildi",
+      "tarih": "2026-11-26T20:22:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "Suudi Arabistan'daki Cazan Petrol Rafinerisi'ne saldırıda 1 işçi hayatını kaybetti",
       "ozet": "Suudi Arabistan'ın güneybatısındaki Cazan bölgesinde bulunan petrol rafinerisine düzenlenen saldırıda bir işçi hayatını kaybetti, birkaç kişi yaralandı.",
