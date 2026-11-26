@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-11-26T21:54:06.717Z",
+  "guncelleme": "2026-11-26T22:49:15.166Z",
   "kaynaklar": [
     "HABER7",
     "TRTHABER",
@@ -13,7 +13,26 @@
   ],
   "beklenti": {
     "motorin": {
-      "expected": false
+      "expected": true,
+      "direction": "dusus",
+      "amount": 4.32,
+      "tarih": "2026-11-26",
+      "tarihDurumu": "tek-kaynak",
+      "tarihDogrulayanSayisi": 1,
+      "tarihAdaylari": [
+        "2026-11-26"
+      ],
+      "dogrulayanKaynakSayisi": 1,
+      "kaynaklar": [
+        {
+          "kaynak": "SOZCU",
+          "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-geliyor-tabelalar-yeniden-degisecek-p384215",
+          "tarih": "2026-11-26"
+        }
+      ],
+      "kaynakBaslik": "Motorine dev indirim geliyor: Tabelalar yeniden değişecek",
+      "kaynak": "SOZCU",
+      "kaynakLink": "https://www.sozcu.com.tr/motorine-dev-indirim-geliyor-tabelalar-yeniden-degisecek-p384215"
     },
     "benzin": {
       "expected": false
