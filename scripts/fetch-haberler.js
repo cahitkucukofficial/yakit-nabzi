@@ -584,6 +584,7 @@ async function claudeBeklenti(haberler) {
    "yolda/geliyor/bekleniyor" gibi gelecek ifadesi + zam/indirim yonu varsa haberin yalnizca basligi ve
    baglantisi uygulamaya yazilir (tutar/tarih uydurulmaz, makale indirilmez). Gunluk "fiyatlar ne kadar /
    indirim var mi" listeleme basliklari ve gerceklesmis degisiklikler elenir. */
+const GUNDEM_YANSIDI = /yans[ıi]d[ıi]|yans[ıi]yor|yans[ıi]t[ıi]ld[ıi]|tabela de[ğg]i[şs]ti|ge[çc]erli oldu|y[üu]r[üu]rl[üu][ğg]e girdi|ba[şs]lad[ıi]/i;
 const GUNDEM_SIYAH = /var m[ıi]\??|ne kadar|ka[çc] ?TL|g[üu]ncel (?:akaryak[ıi]t|yak[ıi]t)|fiyatlar[ıi] ne/i;
 const DUSUS_KELIME = /indirim|d[üu][şs][üu][şs]|d[üu][şs]ecek|geriley|ucuzl/i;
 const ARTIS_KELIME = /\bzam|zamm|art[ıi][şs]|artacak|y[üu]kselecek/i;
@@ -595,13 +596,15 @@ function gundemCikar(haberler, fiyatVerisi) {
   for (const urun of Object.keys(URUN_DESENLERI)) {
     const gec = (satirlar.find((x) => x[urun] && Array.isArray(x[urun].history)) || {})[urun];
     const h = gec && gec.history;
-    const sonFark = h && h.length >= 2 ? h[h.length - 1] - h[h.length - 2] : 0;
+    // son 3 gunun en belirgin degisimi (gunun fiyati bir gun once degismis olabilir)
+    let sonFark = 0;
+    if (h && h.length >= 2) for (let i = h.length - 1; i >= Math.max(1, h.length - 3); i--) { const f = h[i] - h[i - 1]; if (Math.abs(f) > Math.abs(sonFark)) sonFark = f; }
     const adaylar = haberler
       .filter((n) => n.tarih && simdi - new Date(n.tarih).getTime() < 30 * 3600 * 1000)
       .filter((n) => {
         const metin = (n.baslik || "") + " " + (n.ozet || "");
         if (!URUN_DESENLERI[urun].some((d) => d.test(metin))) return false;
-        if (GUNDEM_SIYAH.test(n.baslik || "")) return false;
+        if (GUNDEM_SIYAH.test(n.baslik || "") || GUNDEM_YANSIDI.test(n.baslik || "")) return false; // gerceklesmis degisiklik
         if (!YON_KAPISI.test(metin) || !BEKLENTI_KAPISI.test(metin)) return false;
         if (GECMIS_ZAMAN.test(n.baslik || "")) return false;
         return true;
