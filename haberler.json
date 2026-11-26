@@ -1,15 +1,15 @@
 {
-  "guncelleme": "2026-11-26T09:57:23.365Z",
+  "guncelleme": "2026-11-26T10:52:28.650Z",
   "kaynaklar": [
+    "TRTHABER",
+    "AKSAM",
     "HABER7",
     "HABERTURK",
     "YENISAFAK",
-    "TRTHABER",
     "CUMHURIYET",
     "BLOOMBERGHT",
     "SOZCU",
-    "BIRGUN",
-    "AA"
+    "BIRGUN"
   ],
   "beklenti": {
     "motorin": {
@@ -47,8 +47,22 @@
   },
   "haberler": [
     {
+      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda mayına çarpan 2 petrol tankerinde yangın çıktı",
+      "ozet": "",
+      "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-mayina-carpan-2-petrol-tankerinde-yangin-cikti-964534.html",
+      "tarih": "2026-11-26T10:17:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Hürmüz'de mayınlı tuzak: 2 petrol tankeri alevlere teslim oldu",
+      "ozet": "İran Devrim Muhafızları, Hürmüz Boğazı'nda mayına çarpan 2 petrol tankerinde yangın çıktığını bildirdi.",
+      "link": "https://www.aksam.com.tr/dunya/hurmuzde-mayinli-tuzak-2-petrol-tankeri-alevlere-teslim-oldu/haber-1717620",
+      "tarih": "2026-11-26T10:13:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
       "baslik": "Bangkok'ta petrol tesisinde patlama",
-      "ozet": "Tayland'ın başkenti Bangkok'ta büyük bir petrol tesisinde patlama meydana geldiği bildirildi.",
+      "ozet": "Tayland'ın başkenti Bangkok'ta büyük bir petrol tesisinde patlama meydana geldiği bildirildi. Patlamada 4'ü ağır, 7 kişinin yaralandığı bildirildi.",
       "link": "https://www.haber7.com/dunya/haber/3680006-bangkokta-petrol-tesisinde-patlama",
       "tarih": "2026-11-26T09:22:00.000Z",
       "kaynak": "HABER7"
@@ -108,13 +122,6 @@
       "link": "https://www.bloomberght.com/petrolde-yeniden-jeopolitik-gerginlik-3795710",
       "tarih": "2026-11-26T06:13:33.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "4 haftalık seri bitti! Petrol fiyatları 95 doları aştı",
-      "ozet": "Yemen'deki Husilerin Suudi Arabistan'ın Ras Tanura rafinerisine yönelik saldırı açıklaması ve Hürmüz Boğazı'nda tankerlerin deniz mayınlarına çarptığı haberleri brent petrol fiyatlarını yükseltti.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679907-4-haftalik-seri-bitti-petrol-fiyatlari-95-dolari-asti",
-      "tarih": "2026-11-26T05:36:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Motorine indirim geldi",
@@ -192,13 +199,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-geliyor-benzin-ve-hibrit-modelleri-olacak-4875097",
       "tarih": "2026-11-25T14:03:00.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Rusya'da rafinerilerdeki onarımlar nedeniyle akaryakıt piyasasında sıkıntı yaşanıyor",
-      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, petrol rafinerilerindeki onarım çalışmaları nedeniyle ülkenin akaryakıt piyasasında sıkıntı yaşandığını söyledi.",
-      "link": "https://www.aa.com.tr/tr/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor/4137454",
-      "tarih": "2026-11-25T12:41:23.000Z",
-      "kaynak": "AA"
     },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
