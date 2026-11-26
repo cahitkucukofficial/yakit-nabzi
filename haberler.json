@@ -1,17 +1,19 @@
 {
-  "guncelleme": "2026-11-26T04:26:33.757Z",
+  "guncelleme": "2026-11-26T05:21:40.575Z",
   "kaynaklar": [
+    "HABER7",
+    "EKONOMIM",
+    "HABERTURK",
     "AKSAM",
+    "SOZCU",
     "DUNYA",
     "TRTHABER",
     "BIRGUN",
     "ENSONHABER",
-    "HABER7",
     "BLOOMBERGHT",
     "YENISAFAK",
     "AA",
-    "CUMHURIYET",
-    "SOZCU"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -42,11 +44,60 @@
   },
   "haberler": [
     {
-      "baslik": "Irak'ta petrol restleşmesi",
-      "ozet": "Bağdat'ın petrol sahaları ve sınır kapılarını devralma hamlesi Erbil'le askeri gerilime yol açarken, Irak Yüksek Mahkemesi sınır ve enerji kaynaklarında tüm denetim yetkisini merkezi yönetime verdi.",
-      "link": "https://www.aksam.com.tr/dunya/irakta-petrol-restlesmesi/haber-1717478",
-      "tarih": "2026-11-26T04:01:00.000Z",
+      "baslik": "Akaryakıta indirim geldi! Bir depoda 545 TL fark edecek",
+      "ozet": "Petrol fiyatlarındaki düşüş akaryakıt tabelalarına indirim olarak yansıdı. Motorinin litre fiyatına yapılan 4 lira 32 kuruşluk son indirimle birlikte son bir haftadaki toplam düşüş 10 lira 90 kuruşa ulaştı.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679902-akaryakita-indirim-geldi-bir-depoda-545-tl-fark-edecek",
+      "tarih": "2026-11-26T05:15:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Petrol fiyatlarında 4 haftalık düşüş sona erdi! Brent 95 doları aştı",
+      "ozet": "Küresel petrol piyasalarında dört haftadır devam eden düşüş serisi sona erdi. Yemen'deki Husilerin Suudi Arabistan'ın önemli petrol tesislerinden Ras Tanura Rafinerisi'ne yönelik saldırı açıklaması ve Hürmüz Boğazı'nd...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/petrol-fiyatlarinda-4-haftalik-dusus-sona-erdi-brent-95-dolari-asti-haberi-933489",
+      "tarih": "2026-11-26T05:14:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Motorine bir indirim daha geldi, tabela değişti: İşte 26 Kasım güncel akaryakıt fiyatları",
+      "ozet": "Petrol fiyatlarındaki düşüş akaryakıt tabelalarına indirim olarak yansıdı. Motorinin litre fiyatına yapılan 4 lira 32 kuruşluk son indirimle birlikte son bir haftadaki toplam düşüş 10 lira 90 kuruşa ulaştı. Benzin fiy...",
+      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/motorine-bir-indirim-daha-geldi-tabela-degisti-iste-26-kasim-guncel-akaryakit-fiyatlari-galeri-933488",
+      "tarih": "2026-11-26T05:04:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Motorine indirim geldi",
+      "ozet": "Motorinin litre fiyatına ortalama 4,30 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı. Böylelikle tüm şehirlerde motorin litre fiyatı 90 TL'nin altına düştü",
+      "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-buyuk-indirim-geldi-iste-26-kasim-persembe-guncel-motorin-benzin-lpg-fiyatlari-3930198",
+      "tarih": "2026-11-26T04:59:22.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Küresel piyasalarda düşüş dalgası",
+      "ozet": "Altın, gümüş, petrol ve Bitcoin'de düşüş eğilimi derinleşiyor. Faiz beklentileri ve riskten kaçış değerli metallerle kripto varlıkları baskılarken, petrolde arz fazlası fiyatları aşağı çekiyor. Uzun vadeli beklentiler...",
+      "link": "https://www.aksam.com.tr/ekonomi/kuresel-piyasalarda-dusus-dalgasi/haber-1717498",
+      "tarih": "2026-11-26T04:54:00.000Z",
       "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Petrolde tehlike çanları çalıyor: Pazar günü dananın kuyruğu kopacak",
+      "ozet": "Hürmüz Boğazı’nda üç gemiye daha saldırı düzenlendiği bildirilirken Husiler, Suudi Arabistan’daki rafineri ve limanları ...",
+      "link": "https://www.sozcu.com.tr/petrolde-tehlike-canlari-caliyor-pazar-gunu-dananin-kuyrugu-kopacak-p384469",
+      "tarih": "2026-11-26T04:46:09.000Z",
+      "kaynak": "SOZCU"
+    },
+    {
+      "baslik": "Mısır'da tanker yangını faciasında can kaybı 31'e yükseldi",
+      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, yaralananların sayısı ise 21'e çıktı.",
+      "link": "https://www.haber7.com/guncel/haber/3679897-misirda-tanker-yangini-faciasinda-can-kaybi-31e-yukseldi",
+      "tarih": "2026-11-26T04:34:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Akaryakıta büyük indirim geldi: Tabelalar bir kez daha değişti",
+      "ozet": "Motorinin litre fiyatına bugün itibarıyla 4 lira 32 kuruş indirim geldi. Bir haftalık toplam indirim 10 lira 90 kuruşa u...",
+      "link": "https://www.sozcu.com.tr/akaryakita-buyuk-indirim-geldi-tabelalar-bir-kez-daha-degisti-p384465",
+      "tarih": "2026-11-26T04:25:38.000Z",
+      "kaynak": "SOZCU"
     },
     {
       "baslik": "Rus petrol devinin 11 ülkedeki varlıkları için ABD öncülüğünde anlaşma",
@@ -70,6 +121,13 @@
       "kaynak": "TRTHABER"
     },
     {
+      "baslik": "Motorine indirim geldi: Yeni fiyatlar belli oldu",
+      "ozet": "Akaryakıt fiyatlarında petrol piyasasındaki düşüşün etkisiyle yeni bir değişiklik yaşandı. Motorinin litre fiyatına 4,32 liralık indirim uygulanırken İstanbul, Ankara ve İzmir'de güncel pompa fiyatları da değişti.",
+      "link": "https://www.birgun.net/haber/motorine-indirim-geldi-yeni-fiyatlar-belli-oldu-748529",
+      "tarih": "2026-11-26T02:05:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
       "baslik": "Bağdat-Erbil gerilimi sürüyor: Bağdat yetkileri kaldırdı, Erbil'de iç anlaşmazlık çözülemedi",
       "ozet": "Irak Başbakanı Ali Zeydi, Erbil’in sınır kapıları ve petrol sahalarındaki yetkilerini kaldırdı. Irak Kürt Bölgesel Yönetimi Başbakanı Mesrur Barzani ise Bağdat’ın kararlarının varılan mutabakatla çeliştiğini ifade ett...",
       "link": "https://www.birgun.net/haber/bagdat-erbil-gerilimi-suruyor-bagdat-yetkileri-kaldirdi-erbil-de-ic-anlasmazlik-cozulemedi-748512",
@@ -89,13 +147,6 @@
       "link": "https://www.haber7.com/dunya/haber/3679872-misirda-tanker-yangini-faciasi-30-kisi-hayatini-kaybetti",
       "tarih": "2026-11-25T20:04:00.000Z",
       "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Irak'ta orduya Kerkük dahil tüm vilayetlerde konuşlanma talimatı",
-      "ozet": "Irak Başbakanı Ali ez-Zeydi, Kerkük dahil ülkenin tüm vilayetlerinde askeri birliklerin konuşlandırılması ve belirlenen bölgelerin kontrol altına alınması talimatını verdi. Savunma Bakanlığı, petrol kaçakçılığında kul...",
-      "link": "https://www.dunya.com/dunya/irakta-orduya-kerkuk-dahil-tum-vilayetlerde-konuslanma-talimati-haberi-848893",
-      "tarih": "2026-11-25T19:56:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "ABD öncülüğündeki konsorsiyum, Lukoil International'ı satın alıyor",
@@ -231,13 +282,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Hürmüz Boğazı krizi, milyarlarca dolarlık kayba yol açtı",
-      "ozet": "Hürmüz Boğazı'ndaki kriz, Körfez ülkelerinin petrol ve doğal gaz sevkiyatını aksatarak enerji gelirlerinde milyarlarca d...",
-      "link": "https://www.sozcu.com.tr/hurmuz-bogazi-krizi-milyarlarca-dolarlik-kayba-yol-acti-p383983",
-      "tarih": "2026-11-24T08:52:43.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 24 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
       "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 24 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-24-kasim-2026-sali-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2558813",
@@ -277,34 +321,6 @@
       "ozet": "Goldman Sachs, 2027’de küresel büyümenin sürmesini beklerken enerji fiyatları, yüksek borçlanma maliyetleri ve yapay zekâ yatırımlarındaki olası yavaşlamayı temel riskler arasında gösterdi. Banka, özellikle Batı Asya’...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-2027-tahminleri-petrol-132-dolara-cikabilir-2557536",
       "tarih": "2026-11-19T09:49:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Dolar/TL'de yükseliş sürüyor: Endeks 19 ayın zirvesine yakın",
-      "ozet": "Dolar/TL yeni güne sınırlı yükselişle başlarken küresel piyasalarda Fed'in faiz sinyalleri ABD Doları'nı destekledi. Jeopolitik risk algısındaki değişim ve petrol fiyatlarındaki gerileme ise döviz ve enerji piyasaları...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/dolar-tl-de-yukselis-suruyor-endeks-19-ayin-zirvesine-yakin-2557507",
-      "tarih": "2026-11-19T08:26:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "2027’de altının yönü ne olacak? JP Morgan kritik ayrımı açıkladı",
-      "ozet": "JP Morgan, 2027 görünümünde altın ve tahvil piyasalarının seyrinde faizlerin neden yükseldiğinin belirleyici olacağını vurguladı. Raporda Batı Asya'da gerilimin yeniden tırmanması halinde petrol fiyatlarında sert yüks...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/2027-de-altinin-yonu-ne-olacak-jp-morgan-kritik-ayrimi-acikladi-2557498",
-      "tarih": "2026-11-19T08:12:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota indirim, zam var mı? 19 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-19-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557466",
-      "tarih": "2026-11-19T06:53:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorin fiyatlarında düşüş beklentisi: Gözler o tarihte...",
-      "ozet": "Motorin fiyatlarında yeni bir indirim beklentisi oluştu. Cuma gününden itibaren pompaya yansıması beklenen indirimin tutarı henüz netleşmezken, büyükşehirlerde akaryakıt fiyatları yüksek seviyelerde seyretmeye devam e...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarinda-dusus-beklentisi-gozler-o-tarihte-2557456",
-      "tarih": "2026-11-19T06:41:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
