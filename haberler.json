@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-26T12:42:44.891Z",
+  "guncelleme": "2026-11-26T12:56:11.942Z",
   "kaynaklar": [
+    "STAR",
     "ENSONHABER",
     "EKONOMIM",
     "TRTHABER",
@@ -23,30 +24,15 @@
       "expected": false
     }
   },
-  "gundem": {
-    "motorin": {
-      "yon": "dusus",
-      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
-      "kaynak": "YENISAFAK",
-      "tarih": "2026-11-26T07:03:21.000Z"
-    },
-    "benzin": {
-      "yon": "dusus",
-      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
-      "kaynak": "YENISAFAK",
-      "tarih": "2026-11-26T07:03:21.000Z"
-    },
-    "lpg": {
-      "yon": "dusus",
-      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
-      "kaynak": "YENISAFAK",
-      "tarih": "2026-11-26T07:03:21.000Z"
-    }
-  },
+  "gundem": {},
   "haberler": [
+    {
+      "baslik": "5 yıllık anlaşma! Türkiye'den Avrupa ile enerji ortaklığı",
+      "ozet": "Türkiye, enerji alanındaki uluslararası iş birliklerine bir yenisini daha ekledi. İstanbul'da Türkiye Petrolleri Anonim Ortaklığı (TPAO), Avusturya merkezli OMV ve Romanya merkezli OMV Petrom arasında imzalanan 5 yıll...",
+      "link": "https://www.star.com.tr/ekonomi/5-yillik-anlasma-turkiyeden-avrupa-ile-enerji-ortakligi-haber-2055930/",
+      "tarih": "2026-11-26T12:50:00.000Z",
+      "kaynak": "STAR"
+    },
     {
       "baslik": "Erbil’de Irak hükümetinin kararları protesto edildi",
       "ozet": "Irak Federal Yüksek Mahkemesi, Başbakan Ali ez-Zeydi’nin IKBY’deki sınır kapıları, petrol ve doğal gaz faaliyetleri üzerindeki merkezi yetkilerini anayasal olarak onayladı. Kararın ve Zeydi’nin petrol kaçakçılığına yö...",
@@ -130,13 +116,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
       "tarih": "2026-11-26T07:03:21.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Brent petrolün varili 95,06 dolardan işlem görüyor",
-      "ozet": "Brent petrolün ocak vadeli varil fiyatı, uluslararası piyasalarda 95,06 dolardan işlem görüyor.",
-      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9506-dolardan-islem-goruyor-964500.html",
-      "tarih": "2026-11-26T06:47:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Motorin fiyatlarına indirim geldi: Akaryakıtta gözler şimdi benzinde",
