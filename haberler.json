@@ -1,10 +1,10 @@
 {
-  "guncelleme": "2026-11-26T14:33:02.100Z",
+  "guncelleme": "2026-11-26T15:28:10.691Z",
   "kaynaklar": [
-    "STAR",
-    "ENSONHABER",
-    "EKONOMIM",
     "TRTHABER",
+    "AKSAM",
+    "STAR",
+    "EKONOMIM",
     "BLOOMBERGHT",
     "BIRGUN",
     "HABER7",
@@ -27,25 +27,39 @@
   "gundem": {},
   "haberler": [
     {
+      "baslik": "Arap Koalisyonu: Suudi Arabistandaki Cazan Petrol Rafinerisi Husilerin saldırısına uğradı",
+      "ozet": "Yemen'de meşru hükümeti destekleyen Suudi Arabistan öncülüğündeki Arap Koalisyonu, Suudi Arabistan'ın güneybatısında yer alan Cazan Petrol Rafinerisi'nin Yemen'deki İran destekli Husilerin saldırısına uğradığını bildi...",
+      "link": "https://www.trthaber.com/haber/dunya/arap-koalisyonu-suudi-arabistandaki-cazan-petrol-rafinerisi-husilerin-saldirisina-ugradi-964571.html",
+      "tarih": "2026-11-26T15:17:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Arap Koalisyonu duyurdu: Husiler petrol rafinerisine saldırdı",
+      "ozet": "Yemen'de meşru hükümeti destekleyen Suudi Arabistan öncülüğündeki Arap Koalisyonu, Suudi Arabistan'ın güneybatısında yer alan Cazan Petrol Rafinerisi'nin Yemen'deki İran destekli Husilerin saldırısına uğradığını bildi...",
+      "link": "https://www.aksam.com.tr/dunya/arap-koalisyonu-duyurdu-husiler-petrol-rafinerisine-saldirdi/haber-1717738",
+      "tarih": "2026-11-26T15:06:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Kerkük-Ceyhan boru hattı tek alternatifleri! Hürmüz krizi sonrası Türkiye, Körfez'in petrol devinin radarında",
+      "ozet": "Kerkük-Ceyhan boru hattının Kerkük'ten Basra'ya kadar uzatılmasına ilişkin Irak'a sunulan teklife değinen Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Bunu şimdi Kuveyt'e de söyledik. Sayın Cumhurbaşkanımız ...",
+      "link": "https://www.star.com.tr/ekonomi/kerkuk-ceyhan-boru-hatti-tek-alternatifleri-hurmuz-krizi-sonrasi-turkiye-korfezin-petrol-d-haber-2055972/",
+      "tarih": "2026-11-26T15:05:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "ABD'li milyarder Lukoil'in 11 ülkedeki enerji varlıklarını satın alıyor",
+      "ozet": "ABD merkezli Eldridge'in liderliğindeki yatırımcı konsorsiyumu, Rus petrol şirketi Lukoil'in uluslararası enerji varlıklarını satın almak üzere anlaşmaya vardı. 11 ülkede faaliyet gösteren ve günlük yaklaşık 350 bin v...",
+      "link": "https://www.ekonomim.com/dunya/abdli-milyarder-lukoilin-11-ulkedeki-enerji-varliklarini-satin-aliyor-haberi-933668",
+      "tarih": "2026-11-26T14:53:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Türkiye elini güçlendiriyor! Türk petrol devi Avrupa ile el sıkıştı",
       "ozet": "Türkiye, enerji alanındaki uluslararası iş birliklerine bir yenisini daha ekledi. İstanbul'da Türkiye Petrolleri Anonim Ortaklığı (TPAO), Avusturya merkezli OMV ve Romanya merkezli OMV Petrom arasında 5 yıllık mutabak...",
       "link": "https://www.star.com.tr/ekonomi/turkiye-elini-guclendiriyor-turk-petrol-devi-avrupa-ile-el-sikisti-haber-2055930/",
       "tarih": "2026-11-26T13:05:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "Erbil’de Irak hükümetinin kararları protesto edildi",
-      "ozet": "Irak Federal Yüksek Mahkemesi, Başbakan Ali ez-Zeydi’nin IKBY’deki sınır kapıları, petrol ve doğal gaz faaliyetleri üzerindeki merkezi yetkilerini anayasal olarak onayladı. Kararın ve Zeydi’nin petrol kaçakçılığına yö...",
-      "link": "https://www.ensonhaber.com/erbilde-irak-hukumetinin-kararlari-protesto-edildi-h1585890",
-      "tarih": "2026-11-26T12:38:50.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "TPAO, Chevron ile Gine Bissau'da iki deniz sahasında ortaklık kurdu",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye Petrolleri Anonim Ortaklığı'nın, ABD'li enerji şirketi Chevron ile Gine Bissau'da iki deniz sahasında petrol aramak için ortaklık anlaşması imzaladığını aç...",
-      "link": "https://www.ensonhaber.com/tpao-chevron-ile-gine-bissauda-iki-deniz-sahasinda-ortaklik-kurdu-h1585886",
-      "tarih": "2026-11-26T12:26:07.000Z",
-      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "OPEC+ 2027 planını masaya yatırıyor: Üretim kotası değişecek mi?",
@@ -87,13 +101,6 @@
       "ozet": "Tayland'ın başkenti Bangkok'ta büyük bir petrol tesisinde patlama meydana geldiği bildirildi. Patlamada 4'ü ağır, 7 kişinin yaralandığı bildirildi.",
       "link": "https://www.haber7.com/dunya/haber/3680006-bangkokta-petrol-tesisinde-patlama",
       "tarih": "2026-11-26T09:22:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Altın ve dolarda dengeleri değiştirecek gelişme: Kritik tahmin!",
-      "ozet": "Marbaş Menkul Değerler Genel Müdür Yardımcısı Soner Kuru, petrol fiyatlarındaki düşüşün altın ve euro/dolar paritesine yükseliş alanı açabileceğini söyledi.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679994-altin-ve-dolarda-dengeleri-degistirecek-gelisme-kritik-tahmin",
-      "tarih": "2026-11-26T08:34:00.000Z",
       "kaynak": "HABER7"
     },
     {
