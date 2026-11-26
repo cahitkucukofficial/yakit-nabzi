@@ -1,12 +1,9 @@
 {
-  "guncelleme": "2026-11-26T09:02:10.730Z",
+  "guncelleme": "2026-11-26T09:57:23.365Z",
   "kaynaklar": [
-    "AKSAM",
     "HABER7",
     "HABERTURK",
-    "DUNYA",
     "YENISAFAK",
-    "EKONOMIM",
     "TRTHABER",
     "CUMHURIYET",
     "BLOOMBERGHT",
@@ -28,33 +25,33 @@
   "gundem": {
     "motorin": {
       "yon": "dusus",
-      "baslik": "Akaryakıtta tabela değişti: İndirim pompaya yansıdı",
-      "link": "https://www.dunya.com/ekonomi/akaryakitta-tabela-degisti-indirim-pompaya-yansidi-haberi-848931",
-      "kaynak": "DUNYA",
-      "tarih": "2026-11-26T07:15:00.000Z"
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
+      "kaynak": "YENISAFAK",
+      "tarih": "2026-11-26T07:03:21.000Z"
     },
     "benzin": {
       "yon": "dusus",
-      "baslik": "Akaryakıtta tabela değişti: İndirim pompaya yansıdı",
-      "link": "https://www.dunya.com/ekonomi/akaryakitta-tabela-degisti-indirim-pompaya-yansidi-haberi-848931",
-      "kaynak": "DUNYA",
-      "tarih": "2026-11-26T07:15:00.000Z"
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
+      "kaynak": "YENISAFAK",
+      "tarih": "2026-11-26T07:03:21.000Z"
     },
     "lpg": {
       "yon": "dusus",
-      "baslik": "Akaryakıtta tabela değişti: İndirim pompaya yansıdı",
-      "link": "https://www.dunya.com/ekonomi/akaryakitta-tabela-degisti-indirim-pompaya-yansidi-haberi-848931",
-      "kaynak": "DUNYA",
-      "tarih": "2026-11-26T07:15:00.000Z"
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
+      "kaynak": "YENISAFAK",
+      "tarih": "2026-11-26T07:03:21.000Z"
     }
   },
   "haberler": [
     {
-      "baslik": "Bangkok'ta \"Evlerinizi boşaltın\" uyarısı! Petrol tesisinde şiddetli patlama",
-      "ozet": "Tayland'ın başkenti Bangkok'un güneydoğusunda bulunan Bangchak petrol tesisinde şiddetli bir patlama meydana geldi. Gökyüzüne yoğun siyah dumanların yükseldiği olayda ilk belirlemelere göre can kaybı yaşanmazken, yere...",
-      "link": "https://www.aksam.com.tr/dunya/bangkokta-evlerinizi-bosaltin-uyarisi-petrol-tesisinde-siddetli-patlama/haber-1717588",
-      "tarih": "2026-11-26T08:56:00.000Z",
-      "kaynak": "AKSAM"
+      "baslik": "Bangkok'ta petrol tesisinde patlama",
+      "ozet": "Tayland'ın başkenti Bangkok'ta büyük bir petrol tesisinde patlama meydana geldiği bildirildi.",
+      "link": "https://www.haber7.com/dunya/haber/3680006-bangkokta-petrol-tesisinde-patlama",
+      "tarih": "2026-11-26T09:22:00.000Z",
+      "kaynak": "HABER7"
     },
     {
       "baslik": "Altın ve dolarda dengeleri değiştirecek gelişme: Kritik tahmin!",
@@ -78,32 +75,11 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Akaryakıtta tabela değişti: İndirim pompaya yansıdı",
-      "ozet": "Motorinin litre fiyatı gece yarısından itibaren 4,32 TL düştü. Benzin ve LPG fiyatları sabit kalırken, indirimin ardından İstanbul, Ankara ve İzmir’de pompa fiyatları yeniden şekillendi.",
-      "link": "https://www.dunya.com/ekonomi/akaryakitta-tabela-degisti-indirim-pompaya-yansidi-haberi-848931",
-      "tarih": "2026-11-26T07:15:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Rus petrol devi Lukoil'den uluslararası pazara dönüş mesajı",
-      "ozet": "ABD yaptırımları nedeniyle Rusya dışındaki enerji varlıklarının satış sürecini yürüten Lukoil, uluslararası pazara dönmeyi umuyor. Şirketin kurucusu Vagit Alekperov, Rusya'daki projelere yıllık yaklaşık 10 milyar dola...",
-      "link": "https://www.dunya.com/ekonomi/rus-petrol-devi-lukoilden-uluslararasi-pazara-donus-mesaji-haberi-848934",
-      "tarih": "2026-11-26T07:05:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
       "ozet": "Akaryakıt fiyatlarında indirim rüzgarı sürüyor. Küresel petrol fiyatlarındaki gerilemenin ardından motorinin litre fiyatına 4 lira 32 kuruş indirim geldi. Gece yarısından itibaren pompaya yansıyan düşüş sonrası araç s...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
       "tarih": "2026-11-26T07:03:21.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Mısır'da korkunç kaza: Petrol yüklü tanker yandı, 31 kişi hayatını kaybetti",
-      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü bir tankerde çıkan yangın büyük bir faciaya yol açtı. El-Verrak bölgesindeki çevre yolunda meydana gelen olayda hayatını kaybedenlerin sayısı 31'e, y...",
-      "link": "https://www.ekonomim.com/dunya/misirda-korkunc-kaza-petrol-yuklu-tanker-yandi-31-kisi-hayatini-kaybetti-haberi-933521",
-      "tarih": "2026-11-26T06:57:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Brent petrolün varili 95,06 dolardan işlem görüyor",
@@ -148,13 +124,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Akaryakıta indirim geldi! Bir depoda 545 TL fark edecek",
-      "ozet": "Petrol fiyatlarındaki düşüş akaryakıt tabelalarına indirim olarak yansıdı. Motorinin litre fiyatına yapılan 4 lira 32 kuruşluk son indirimle birlikte son bir haftadaki toplam düşüş 10 lira 90 kuruşa ulaştı.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679902-akaryakita-indirim-geldi-bir-depoda-545-tl-fark-edecek",
-      "tarih": "2026-11-26T05:15:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Motorine indirim geldi",
       "ozet": "Motorinin litre fiyatına ortalama 4,30 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı. Böylelikle tüm şehirlerde motorin litre fiyatı 90 TL'nin altına düştü",
       "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-buyuk-indirim-geldi-iste-26-kasim-persembe-guncel-motorin-benzin-lpg-fiyatlari-3930198",
@@ -167,13 +136,6 @@
       "link": "https://www.sozcu.com.tr/petrolde-tehlike-canlari-caliyor-pazar-gunu-dananin-kuyrugu-kopacak-p384469",
       "tarih": "2026-11-26T04:46:09.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Mısır'da tanker yangını faciasında can kaybı 31'e yükseldi",
-      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, yaralananların sayısı ise 21'e çıktı.",
-      "link": "https://www.haber7.com/guncel/haber/3679897-misirda-tanker-yangini-faciasinda-can-kaybi-31e-yukseldi",
-      "tarih": "2026-11-26T04:34:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Akaryakıta büyük indirim geldi: Tabelalar bir kez daha değişti",
@@ -211,13 +173,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Mısır'da yakıt tankerinde çıkan yangında 30 kişi hayatını kaybetti",
-      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol ürünleri taşıyan bir tankerde nedeni henüz belirlenemeyen şekilde çıkan yangında ilk belirlemelere göre 30 kişi yaşamını yitirdi, 15 kişi yaralandı.",
-      "link": "https://www.trthaber.com/haber/dunya/misirda-yakit-tankerinde-cikan-yanginda-30-kisi-hayatini-kaybetti-964474.html",
-      "tarih": "2026-11-25T18:50:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "BoE/Bailey: Enflasyon beklenenden düşük seviyede zirve yapabilir",
       "ozet": "İngiltere Merkez Bankası Başkanı Andrew Bailey, petrol ve doğalgaz fiyatları mevcut seviyelerinde kalırsa enflasyonun tahmin edilenden daha düşük bir seviyede zirve yapabileceğini söyledi.",
       "link": "https://www.bloomberght.com/boebailey-enflasyon-beklenenden-dusuk-seviyede-zirve-yapabilir-3795675",
@@ -244,13 +199,6 @@
       "link": "https://www.aa.com.tr/tr/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor/4137454",
       "tarih": "2026-11-25T12:41:23.000Z",
       "kaynak": "AA"
-    },
-    {
-      "baslik": "Elektrik faturasında dağıtım bedelinin bilançosu: Şirketlerin yatırımı da getirisi de tarifeye yansıyor",
-      "ozet": "Elektrik faturalarında dağıtım bedelinin payı büyürken şirketlerin hangi giderlerinin yurttaşa yansıtıldığı yeniden gündeme geldi. EPDK mevzuatına göre şirketlerin yatırım harcamalarının yanı sıra yatırımlar üzerinden...",
-      "link": "https://www.birgun.net/haber/elektrik-faturasinda-dagitim-bedelinin-bilancosu-sirketlerin-yatirimi-da-getirisi-de-tarifeye-yansiyor-748362",
-      "tarih": "2026-11-25T08:50:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
@@ -327,6 +275,13 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
       "tarih": "2026-11-20T06:26:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Goldman Sachs’tan 2027 tahminleri: Petrol 132 dolara çıkabilir",
+      "ozet": "Goldman Sachs, 2027’de küresel büyümenin sürmesini beklerken enerji fiyatları, yüksek borçlanma maliyetleri ve yapay zekâ yatırımlarındaki olası yavaşlamayı temel riskler arasında gösterdi. Banka, özellikle Batı Asya’...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-2027-tahminleri-petrol-132-dolara-cikabilir-2557536",
+      "tarih": "2026-11-19T09:49:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
