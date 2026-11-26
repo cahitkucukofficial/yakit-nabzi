@@ -1,8 +1,7 @@
 {
-  "guncelleme": "2026-11-26T13:37:54.031Z",
+  "guncelleme": "2026-11-26T14:33:02.100Z",
   "kaynaklar": [
     "STAR",
-    "AKSAM",
     "ENSONHABER",
     "EKONOMIM",
     "TRTHABER",
@@ -33,13 +32,6 @@
       "link": "https://www.star.com.tr/ekonomi/turkiye-elini-guclendiriyor-turk-petrol-devi-avrupa-ile-el-sikisti-haber-2055930/",
       "tarih": "2026-11-26T13:05:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "Petrolde sınırları aşıyoruz! Türk devi Avrupa'nın iki şirketiyle el sıkıştı",
-      "ozet": "Türkiye Petrolleri Anonim Ortaklığı (TPAO), Avrupa'nın enerji devleri Avusturya merkezli OMV ve Romanya merkezli OMV Petrom ile beş yıllık mutabakat zaptına imza attı. Anlaşma kapsamında Türkiye ve Karadeniz başta olm...",
-      "link": "https://www.aksam.com.tr/ekonomi/petrolde-sinirlari-asiyoruz-turk-devi-avrupanin-iki-sirketiyle-el-sikisti/haber-1717694",
-      "tarih": "2026-11-26T13:04:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "Erbil’de Irak hükümetinin kararları protesto edildi",
@@ -189,13 +181,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "BoE/Bailey: Enflasyon beklenenden düşük seviyede zirve yapabilir",
-      "ozet": "İngiltere Merkez Bankası Başkanı Andrew Bailey, petrol ve doğalgaz fiyatları mevcut seviyelerinde kalırsa enflasyonun tahmin edilenden daha düşük bir seviyede zirve yapabileceğini söyledi.",
-      "link": "https://www.bloomberght.com/boebailey-enflasyon-beklenenden-dusuk-seviyede-zirve-yapabilir-3795675",
-      "tarih": "2026-11-25T16:08:59.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "TOGG sonrası yeni yerli otomobil geliyor: Benzin ve hibrit modelleri olacak",
       "ozet": "Türkiye'nin yerli otomobil hamlesinde Togg'un ardından yeni bir proje daha gündeme geldi. Tamamen yerli sermaye hedefiyle geliştirilen HABAŞ'ın yeni otomobili için çalışmalar sürerken, gözler modelin tanıtılacağı tari...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-geliyor-benzin-ve-hibrit-modelleri-olacak-4875097",
@@ -263,13 +248,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
       "tarih": "2026-11-20T06:26:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Goldman Sachs’tan 2027 tahminleri: Petrol 132 dolara çıkabilir",
-      "ozet": "Goldman Sachs, 2027’de küresel büyümenin sürmesini beklerken enerji fiyatları, yüksek borçlanma maliyetleri ve yapay zekâ yatırımlarındaki olası yavaşlamayı temel riskler arasında gösterdi. Banka, özellikle Batı Asya’...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-2027-tahminleri-petrol-132-dolara-cikabilir-2557536",
-      "tarih": "2026-11-19T09:49:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
