@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-26T01:41:09.090Z",
+  "guncelleme": "2026-11-26T02:36:16.215Z",
   "kaynaklar": [
+    "BIRGUN",
     "ENSONHABER",
     "HABER7",
     "DUNYA",
@@ -8,7 +9,6 @@
     "TRTHABER",
     "YENISAFAK",
     "AA",
-    "BIRGUN",
     "CUMHURIYET",
     "SOZCU"
   ],
@@ -52,6 +52,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Bağdat-Erbil gerilimi sürüyor: Bağdat yetkileri kaldırdı, Erbil'de iç anlaşmazlık çözülemedi",
+      "ozet": "Irak Başbakanı Ali Zeydi, Erbil’in sınır kapıları ve petrol sahalarındaki yetkilerini kaldırdı. Irak Kürt Bölgesel Yönetimi Başbakanı Mesrur Barzani ise Bağdat’ın kararlarının varılan mutabakatla çeliştiğini ifade ett...",
+      "link": "https://www.birgun.net/haber/bagdat-erbil-gerilimi-suruyor-bagdat-yetkileri-kaldirdi-erbil-de-ic-anlasmazlik-cozulemedi-748512",
+      "tarih": "2026-11-26T02:00:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Mısır’da petrol ürünleri taşıyan tankerde yangın: 31 ölü",
       "ozet": "Mısır’ın Gize vilayetinde petrol ürünleri taşıyan tankerde çıkan yangın sonucu 31 kişi hayatını kaybetti, 21 kişi yaralandı.",
