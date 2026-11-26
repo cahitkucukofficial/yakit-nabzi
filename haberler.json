@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-11-26T02:36:16.215Z",
+  "guncelleme": "2026-11-26T03:31:26.106Z",
   "kaynaklar": [
+    "TRTHABER",
     "BIRGUN",
     "ENSONHABER",
     "HABER7",
     "DUNYA",
     "BLOOMBERGHT",
-    "TRTHABER",
     "YENISAFAK",
     "AA",
     "CUMHURIYET",
@@ -14,26 +14,7 @@
   ],
   "beklenti": {
     "motorin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 4,
-      "tarih": "2026-11-26",
-      "tarihDurumu": "tek-kaynak",
-      "tarihDogrulayanSayisi": 1,
-      "tarihAdaylari": [
-        "2026-11-26"
-      ],
-      "dogrulayanKaynakSayisi": 1,
-      "kaynaklar": [
-        {
-          "kaynak": "HABER7",
-          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu",
-          "tarih": "2026-11-26"
-        }
-      ],
-      "kaynakBaslik": "Motorine bir büyük indirim daha! Tarih belli oldu...",
-      "kaynak": "HABER7",
-      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu"
+      "expected": false
     },
     "benzin": {
       "expected": false
@@ -52,6 +33,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Mısır'da tanker yangınında can kaybı 31'e yükseldi",
+      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, yaralananların sayısı ise 21'e çıktı.",
+      "link": "https://www.trthaber.com/haber/dunya/misirda-tanker-yangininda-can-kaybi-31e-yukseldi-964489.html",
+      "tarih": "2026-11-26T03:21:00.000Z",
+      "kaynak": "TRTHABER"
+    },
     {
       "baslik": "Bağdat-Erbil gerilimi sürüyor: Bağdat yetkileri kaldırdı, Erbil'de iç anlaşmazlık çözülemedi",
       "ozet": "Irak Başbakanı Ali Zeydi, Erbil’in sınır kapıları ve petrol sahalarındaki yetkilerini kaldırdı. Irak Kürt Bölgesel Yönetimi Başbakanı Mesrur Barzani ise Bağdat’ın kararlarının varılan mutabakatla çeliştiğini ifade ett...",
@@ -163,13 +151,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-tarihi-belli-oldu-fiyatlar-ne-kadar-olacak-2559213",
       "tarih": "2026-11-25T07:27:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Irak'ta siyasi gerilim: Bağdat ve Erbil'e çağrı",
-      "ozet": "Irak Yüksek Yargı Konseyi, Bağdat ile IKBY arasında petrol ihracatı, sınır kapıları ve petrol sahalarının yönetimi konusunda yaşanan gerilimin ardından merkezi hükümet, IKBY yönetimi ve tüm siyasi güçlere 2005 Anayasa...",
-      "link": "https://www.birgun.net/haber/irak-ta-siyasi-gerilim-bagdat-ve-erbil-e-cagri-748322",
-      "tarih": "2026-11-25T07:15:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Akaryakıta çifte indirim geliyor",
