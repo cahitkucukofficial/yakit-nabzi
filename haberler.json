@@ -1,19 +1,18 @@
 {
-  "guncelleme": "2026-11-26T06:16:48.055Z",
+  "guncelleme": "2026-11-26T07:11:58.507Z",
   "kaynaklar": [
-    "EKONOMIM",
-    "SABAH",
-    "HABER7",
-    "ENSONHABER",
-    "BLOOMBERGHT",
-    "HABERTURK",
-    "SOZCU",
-    "DUNYA",
-    "TRTHABER",
-    "BIRGUN",
     "YENISAFAK",
-    "AA",
-    "CUMHURIYET"
+    "EKONOMIM",
+    "HABERTURK",
+    "ENSONHABER",
+    "TRTHABER",
+    "CUMHURIYET",
+    "BLOOMBERGHT",
+    "DUNYA",
+    "HABER7",
+    "SOZCU",
+    "BIRGUN",
+    "AA"
   ],
   "beklenti": {
     "motorin": {
@@ -29,20 +28,90 @@
   "gundem": {
     "motorin": {
       "yon": "dusus",
-      "baslik": "Akaryakıta çifte indirim geliyor",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-cifte-indirim-geliyor-4876288",
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
       "kaynak": "YENISAFAK",
-      "tarih": "2026-11-25T06:36:33.000Z"
+      "tarih": "2026-11-26T07:03:21.000Z"
     },
     "benzin": {
       "yon": "dusus",
-      "baslik": "Akaryakıta çifte indirim geliyor",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-cifte-indirim-geliyor-4876288",
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
       "kaynak": "YENISAFAK",
-      "tarih": "2026-11-25T06:36:33.000Z"
+      "tarih": "2026-11-26T07:03:21.000Z"
+    },
+    "lpg": {
+      "yon": "dusus",
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
+      "kaynak": "YENISAFAK",
+      "tarih": "2026-11-26T07:03:21.000Z"
     }
   },
   "haberler": [
+    {
+      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
+      "ozet": "Akaryakıt fiyatlarında indirim rüzgarı sürüyor. Küresel petrol fiyatlarındaki gerilemenin ardından motorinin litre fiyatına 4 lira 32 kuruş indirim geldi. Gece yarısından itibaren pompaya yansıyan düşüş sonrası araç s...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
+      "tarih": "2026-11-26T07:03:21.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Mısır'da korkunç kaza: Petrol yüklü tanker yandı, 31 kişi hayatını kaybetti",
+      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü bir tankerde çıkan yangın büyük bir faciaya yol açtı. El-Verrak bölgesindeki çevre yolunda meydana gelen olayda hayatını kaybedenlerin sayısı 31'e, y...",
+      "link": "https://www.ekonomim.com/dunya/misirda-korkunc-kaza-petrol-yuklu-tanker-yandi-31-kisi-hayatini-kaybetti-haberi-933521",
+      "tarih": "2026-11-26T06:57:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Petrol fiyatlarında son durum ne?",
+      "ozet": "Brent petrolün ocak vadeli varil fiyatı, uluslararası piyasalarda 95,06 dolardan işlem görüyor",
+      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3930229",
+      "tarih": "2026-11-26T06:56:04.000Z",
+      "kaynak": "HABERTURK"
+    },
+    {
+      "baslik": "Brent petrolün varili 95,06 dolardan işlem görüyor",
+      "ozet": "Brent petrolün ocak vadeli varil fiyatı, bugün uluslararası piyasalarda önceki kapanışa göre yüzde 0,47 yükseldi. Husilerin Suudi Arabistan'daki rafineriye saldırı iddiası ve Hürmüz Boğazı'ndaki mayın olayları, arz en...",
+      "link": "https://www.ensonhaber.com/brent-petrolun-varili-9506-dolardan-islem-goruyor-h1585739",
+      "tarih": "2026-11-26T06:54:48.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "Brent petrolün varili 95,06 dolardan işlem görüyor",
+      "ozet": "Brent petrolün ocak vadeli varil fiyatı, uluslararası piyasalarda 95,06 dolardan işlem görüyor.",
+      "link": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9506-dolardan-islem-goruyor-964500.html",
+      "tarih": "2026-11-26T06:47:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Motorin fiyatlarına indirim geldi: Akaryakıtta gözler şimdi benzinde",
+      "ozet": "Akaryakıt fiyatlarında peş peşe indirimler yaşanırken benzin için de yeni bir düşüş beklentisi oluştu. Küresel petrol piyasalarındaki gelişmelerin pompaya yansımasıyla sürücüleri önümüzdeki günlerde yeni fiyat değişik...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorin-fiyatlarina-indirim-geldi-akaryakitta-gozler-simdi-benzinde-2559526",
+      "tarih": "2026-11-26T06:35:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Motorine indirim geldi! Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 26 Kasım 2026 Perşembe İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
+      "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 26 Kasım 2026 Çarşamba İstanbul, Ankara, İzmir güncel akaryakıt fiyatla...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-geldi-benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-26-kasim-2026-persembe-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2559520",
+      "tarih": "2026-11-26T06:19:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "Petrolde yeniden jeopolitik gerginlik",
+      "ozet": "Petrol fiyatları, Orta Doğu'da devam eden çatışmaların bölgedeki ham petrol ihracatındaki toparlanmayı sekteye uğratma tehdidi oluşturmasıyla kazançlarını genişletti.",
+      "link": "https://www.bloomberght.com/petrolde-yeniden-jeopolitik-gerginlik-3795710",
+      "tarih": "2026-11-26T06:13:33.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Petrol stokları beklentileri karşılamadı: ABD'den yeni üretim tahmini",
+      "ozet": "ABD'nin ticari ham petrol stokları geçen hafta 1 milyon 100 bin varil artarak piyasa beklentilerinin altında bir yükseliş kaydetti. Stratejik petrol rezervlerinde düşüş, benzin stoklarında ise artış görüldü. Ülkenin p...",
+      "link": "https://www.dunya.com/enerji/petrol-stoklari-beklentileri-karsilamadi-abdden-yeni-uretim-tahmini-haberi-848923",
+      "tarih": "2026-11-26T06:13:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "ABD ticari petrol stokları piyasa tahminlerinin gerisinde kaldı",
       "ozet": "ABD Enerji Enformasyon İdaresi raporuna göre 14-20 Kasım haftasında ticari ham petrol stokları 1,1 milyon varillik yükselişle 418,9 milyon varile çıkarken, stratejik rezervler 2,9 milyon varil eksildi ve günlük üretim...",
@@ -51,25 +120,11 @@
       "kaynak": "EKONOMIM"
     },
     {
-      "baslik": "ABD'nin ticari ham petrol stokları arttı",
-      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 100 bin varil arttı.Devamı için tıklayınız",
-      "link": "https://www.sabah.com.tr/ekonomi/abdnin-ticari-ham-petrol-stoklari-artti-7709634",
-      "tarih": "2026-11-26T06:08:09.000Z",
-      "kaynak": "SABAH"
-    },
-    {
       "baslik": "4 haftalık seri bitti! Petrol fiyatları 95 doları aştı",
       "ozet": "Yemen'deki Husilerin Suudi Arabistan'ın Ras Tanura rafinerisine yönelik saldırı açıklaması ve Hürmüz Boğazı'nda tankerlerin deniz mayınlarına çarptığı haberleri brent petrol fiyatlarını yükseltti.",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3679907-4-haftalik-seri-bitti-petrol-fiyatlari-95-dolari-asti",
       "tarih": "2026-11-26T05:36:00.000Z",
       "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Motorin fiyatlarında 4,32 lira düşüş: Pompaya yansıdı",
-      "ozet": "ABD ile İran arasındaki gerilimin azalmasıyla küresel piyasalarda petrol arz fazlası oluştu. Bu gelişmenin ardından motorinin litre fiyatına 4,32 liralık indirim gelirken güncel pompa fiyatları, İstanbul'da 84,60 lira...",
-      "link": "https://www.ensonhaber.com/motorin-fiyatlarinda-432-lira-dusus-pompaya-yansidi-h1585686",
-      "tarih": "2026-11-26T05:25:21.000Z",
-      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "Motorine indirim geldi",
@@ -128,20 +183,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Rus petrol devinin 11 ülkedeki varlıkları için ABD öncülüğünde anlaşma",
-      "ozet": "Rus petrol şirketi Lukoil'in uluslararası enerji varlıklarının devri için ABD öncülüğündeki yatırımcı konsorsiyumu anlaşmaya vardı. Günlük 350 bin varil petrol eşdeğeri üretime sahip varlıkların devrinde ABD hükümeti ...",
-      "link": "https://www.dunya.com/ekonomi/rus-petrol-devinin-11-ulkedeki-varliklari-icin-abd-onculugunde-anlasma-haberi-848903",
-      "tarih": "2026-11-26T03:55:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Hürmüz'de saldırılar yeniden arttı: Petrol arzında toparlanma tehlikede",
-      "ozet": "Hürmüz Boğazı'nda tankerlere ve Suudi Arabistan'ın enerji tesislerine yönelik yeni saldırılar, petrol sevkiyatındaki toparlanmayı tehdit ediyor. Brent petrol 94 doların üzerinde seyrederken gözler pazar günkü OPEC+ to...",
-      "link": "https://www.dunya.com/ekonomi/hurmuzde-saldirilar-yeniden-artti-petrol-arzinda-toparlanma-tehlikede-haberi-848902",
-      "tarih": "2026-11-26T03:41:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Mısır'da tanker yangınında can kaybı 31'e yükseldi",
       "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, yaralananların sayısı ise 21'e çıktı.",
       "link": "https://www.trthaber.com/haber/dunya/misirda-tanker-yangininda-can-kaybi-31e-yukseldi-964489.html",
@@ -163,16 +204,9 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "Mısır’da petrol ürünleri taşıyan tankerde yangın: 31 ölü",
-      "ozet": "Mısır’ın Gize vilayetinde petrol ürünleri taşıyan tankerde çıkan yangın sonucu 31 kişi hayatını kaybetti, 21 kişi yaralandı.",
-      "link": "https://www.ensonhaber.com/misirda-petrol-urunleri-tasiyan-tankerde-yangin-30-olu-h1585653",
-      "tarih": "2026-11-26T00:35:39.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "Mısır'da tanker yangını faciası: 30 kişi hayatını kaybetti",
+      "baslik": "Mısır'da tanker yangını faciası: Çok sayıda can kaybı var",
       "ozet": "Mısır'ın Giza kentinde petrol ürünleri taşıyan tankerde çıkan yangında ilk belirlemelere göre 30 kişi öldü, 15 kişi yaralandı. Yangın sivil savunma ekiplerince kontrol altına alındı.",
-      "link": "https://www.haber7.com/dunya/haber/3679872-misirda-tanker-yangini-faciasi-30-kisi-hayatini-kaybetti",
+      "link": "https://www.haber7.com/dunya/haber/3679872-misirda-tanker-yangini-faciasi-cok-sayida-can-kaybi-var",
       "tarih": "2026-11-25T20:04:00.000Z",
       "kaynak": "HABER7"
     },
@@ -189,13 +223,6 @@
       "link": "https://www.trthaber.com/haber/dunya/misirda-yakit-tankerinde-cikan-yanginda-30-kisi-hayatini-kaybetti-964474.html",
       "tarih": "2026-11-25T18:50:00.000Z",
       "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Osmanlı arşivinden 120 yıllık petrol sırrı: Erzurum'un bilinmeyen ticaret geçmişi",
-      "ozet": "Şehir Araştırmacısı Özdemir’in ortaya çıkardığı 1906 tarihli Osmanlı belgesi, Erzurum’da petrol ticareti yapıldığını gösterdi. Rus tüccar Ravidof’un faaliyetleri, Bakü petrollerinin Anadolu’ya taşınıp taşınmadığı soru...",
-      "link": "https://www.haber7.com/guncel/haber/3679852-osmanli-arsivinden-120-yillik-petrol-sirri-erzurumun-bilinmeyen-ticaret-gecmisi",
-      "tarih": "2026-11-25T17:34:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "BoE/Bailey: Enflasyon beklenenden düşük seviyede zirve yapabilir",
@@ -217,13 +244,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/togg-sonrasi-yeni-yerli-otomobil-geliyor-benzin-ve-hibrit-modelleri-olacak-4875097",
       "tarih": "2026-11-25T14:03:00.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Rusya'da rafinerilerdeki onarımlar nedeniyle akaryakıt piyasasında sıkıntı yaşanıyor",
-      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, petrol rafinerilerindeki onarım çalışmaları nedeniyle ülkenin akaryakıt piyasasında sıkıntı yaşandığını söyledi.",
-      "link": "https://www.trthaber.com/haber/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor-964452.html",
-      "tarih": "2026-11-25T13:51:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Rusya'da rafinerilerdeki onarımlar nedeniyle akaryakıt piyasasında sıkıntı yaşanıyor",
@@ -268,13 +288,6 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Petrolde arz iyimserliği",
-      "ozet": "Petrol fiyatları, ham petrol arzının arttığına yönelik sinyallerin Hürmüz Boğazı çevresinde gemilere düzenlenen saldırıların tırmanışını gölgede bırakmasıyla düşüşe geçti.",
-      "link": "https://www.bloomberght.com/petrolde-arz-iyimserligi-3795598",
-      "tarih": "2026-11-25T05:22:13.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Petrolde düşüş sürüyor: Barclays'ten korkutan tahmin geldi",
       "ozet": "Brent petrol 90,05 dolara, ABD ham petrolü 80,70 dolara gerilerken 2027’ye yönelik arz fazlası beklentileri fiyatları ba...",
       "link": "https://www.sozcu.com.tr/petrolde-dusus-suruyor-barclaysten-korkutan-tahmin-geldi-p384167",
@@ -287,13 +300,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/akaryakitta-once-indirim-sonra-zam-yolda-benzin-ve-motorin-fiyatlari-yeniden-degisiyor-2558996",
       "tarih": "2026-11-24T12:50:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Akaryakıta yine zam geliyor: Tabelalar bir kez daha değişecek",
-      "ozet": "Gelen indirimlerin ardından benzine ve motorine zam yolu göründü. 1 Aralık'tan itibaren hem benzine hem de motorine ÖTV ...",
-      "link": "https://www.sozcu.com.tr/akaryakita-yine-zam-geliyor-tabelalar-bir-kez-daha-degisecek-p383993",
-      "tarih": "2026-11-24T09:24:30.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 24 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
