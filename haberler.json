@@ -1,16 +1,16 @@
 {
-  "guncelleme": "2026-11-26T05:21:40.575Z",
+  "guncelleme": "2026-11-26T06:16:48.055Z",
   "kaynaklar": [
-    "HABER7",
     "EKONOMIM",
+    "SABAH",
+    "HABER7",
+    "ENSONHABER",
+    "BLOOMBERGHT",
     "HABERTURK",
-    "AKSAM",
     "SOZCU",
     "DUNYA",
     "TRTHABER",
     "BIRGUN",
-    "ENSONHABER",
-    "BLOOMBERGHT",
     "YENISAFAK",
     "AA",
     "CUMHURIYET"
@@ -44,6 +44,41 @@
   },
   "haberler": [
     {
+      "baslik": "ABD ticari petrol stokları piyasa tahminlerinin gerisinde kaldı",
+      "ozet": "ABD Enerji Enformasyon İdaresi raporuna göre 14-20 Kasım haftasında ticari ham petrol stokları 1,1 milyon varillik yükselişle 418,9 milyon varile çıkarken, stratejik rezervler 2,9 milyon varil eksildi ve günlük üretim...",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/abd-ticari-petrol-stoklari-piyasa-tahminlerinin-gerisinde-kaldi-haberi-933504",
+      "tarih": "2026-11-26T06:12:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "ABD'nin ticari ham petrol stokları arttı",
+      "ozet": "ABD'nin ticari ham petrol stokları, geçen hafta önceki haftaya göre yaklaşık 1 milyon 100 bin varil arttı.Devamı için tıklayınız",
+      "link": "https://www.sabah.com.tr/ekonomi/abdnin-ticari-ham-petrol-stoklari-artti-7709634",
+      "tarih": "2026-11-26T06:08:09.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "4 haftalık seri bitti! Petrol fiyatları 95 doları aştı",
+      "ozet": "Yemen'deki Husilerin Suudi Arabistan'ın Ras Tanura rafinerisine yönelik saldırı açıklaması ve Hürmüz Boğazı'nda tankerlerin deniz mayınlarına çarptığı haberleri brent petrol fiyatlarını yükseltti.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679907-4-haftalik-seri-bitti-petrol-fiyatlari-95-dolari-asti",
+      "tarih": "2026-11-26T05:36:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Motorin fiyatlarında 4,32 lira düşüş: Pompaya yansıdı",
+      "ozet": "ABD ile İran arasındaki gerilimin azalmasıyla küresel piyasalarda petrol arz fazlası oluştu. Bu gelişmenin ardından motorinin litre fiyatına 4,32 liralık indirim gelirken güncel pompa fiyatları, İstanbul'da 84,60 lira...",
+      "link": "https://www.ensonhaber.com/motorin-fiyatlarinda-432-lira-dusus-pompaya-yansidi-h1585686",
+      "tarih": "2026-11-26T05:25:21.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "Motorine indirim geldi",
+      "ozet": "Motorinin litre fiyatına 26 Kasım tarihinden itibaren geçerli olmak üzere 4,30 TL indirim geldi.",
+      "link": "https://www.bloomberght.com/motorine-indirim-geldi-3795704",
+      "tarih": "2026-11-26T05:19:36.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "Akaryakıta indirim geldi! Bir depoda 545 TL fark edecek",
       "ozet": "Petrol fiyatlarındaki düşüş akaryakıt tabelalarına indirim olarak yansıdı. Motorinin litre fiyatına yapılan 4 lira 32 kuruşluk son indirimle birlikte son bir haftadaki toplam düşüş 10 lira 90 kuruşa ulaştı.",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3679902-akaryakita-indirim-geldi-bir-depoda-545-tl-fark-edecek",
@@ -70,13 +105,6 @@
       "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-buyuk-indirim-geldi-iste-26-kasim-persembe-guncel-motorin-benzin-lpg-fiyatlari-3930198",
       "tarih": "2026-11-26T04:59:22.000Z",
       "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Küresel piyasalarda düşüş dalgası",
-      "ozet": "Altın, gümüş, petrol ve Bitcoin'de düşüş eğilimi derinleşiyor. Faiz beklentileri ve riskten kaçış değerli metallerle kripto varlıkları baskılarken, petrolde arz fazlası fiyatları aşağı çekiyor. Uzun vadeli beklentiler...",
-      "link": "https://www.aksam.com.tr/ekonomi/kuresel-piyasalarda-dusus-dalgasi/haber-1717498",
-      "tarih": "2026-11-26T04:54:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "Petrolde tehlike çanları çalıyor: Pazar günü dananın kuyruğu kopacak",
@@ -177,13 +205,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Motorine bir büyük indirim daha! Tarih belli oldu...",
-      "ozet": "Motorin fiyatlarında beklenen indirim araç sahiplerini sevindirecek. 26 Kasım'dan itibaren pompaya yansıması beklenen indirimle motorinin litre fiyatında 4 lirayı aşan düşüş öngörülüyor.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3679623-motorine-bir-buyuk-indirim-daha-tarih-belli-oldu",
-      "tarih": "2026-11-25T14:43:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Petrol ve yük gemilerine siber saldırıların ardında İran şüphesi",
       "ozet": "ABD'li yetkililer, son haftalarda petrol ve yük gemilerini hedef alan yaklaşık 50 kadar siber saldırının arkasında İranlı bilgisayar korsanlarının olabileceğinden şüpheleniyor. Petrol, sıvılaştırılmış gaz ve diğer pat...",
       "link": "https://www.bloomberght.com/petrol-ve-yuk-gemilerine-siber-saldirilarin-ardinda-iran-suphesi-3795660",
@@ -268,13 +289,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "1.6 milyon TL altında fiyatla geliyor: Egea sonrası Fiat yeni ikilisini duyurdu",
-      "ozet": "Fiat'ın merakla beklenen yeni SUV modellerinin Türkiye satış fiyatları açıklandı. Benzinli ve hibrit motor seçenekleriyle otomobil tutkunlarının karşısına çıkmaya hazırlanan yeni modeller, 1 milyon 599 bin TL'lik lans...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/16-milyon-tl-altinda-fiyatla-geliyor-egea-sonrasi-fiat-yeni-ikilisini-duyurdu-4876079",
-      "tarih": "2026-11-24T11:59:24.000Z",
-      "kaynak": "YENISAFAK"
-    },
-    {
       "baslik": "Akaryakıta yine zam geliyor: Tabelalar bir kez daha değişecek",
       "ozet": "Gelen indirimlerin ardından benzine ve motorine zam yolu göründü. 1 Aralık'tan itibaren hem benzine hem de motorine ÖTV ...",
       "link": "https://www.sozcu.com.tr/akaryakita-yine-zam-geliyor-tabelalar-bir-kez-daha-degisecek-p383993",
@@ -307,20 +321,6 @@
       "ozet": "EPDK, benzin fiyatlarının hesaplanmasında kullanılan yoğunluk değerini değiştirirken motorin için mevcut uygulamayı korudu. Düzenlemenin ardından sektör kaynakları, benzinde hafta sonundan itibaren yeni bir indirim be...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzinde-hesap-degisti-indirim-kapida-gozler-21-kasim-da-2557795",
       "tarih": "2026-11-20T08:11:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota indirim, zam var mı? 20 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
-      "tarih": "2026-11-20T06:26:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Goldman Sachs’tan 2027 tahminleri: Petrol 132 dolara çıkabilir",
-      "ozet": "Goldman Sachs, 2027’de küresel büyümenin sürmesini beklerken enerji fiyatları, yüksek borçlanma maliyetleri ve yapay zekâ yatırımlarındaki olası yavaşlamayı temel riskler arasında gösterdi. Banka, özellikle Batı Asya’...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/goldman-sachs-tan-2027-tahminleri-petrol-132-dolara-cikabilir-2557536",
-      "tarih": "2026-11-19T09:49:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
