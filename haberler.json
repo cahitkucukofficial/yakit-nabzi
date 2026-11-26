@@ -1,15 +1,14 @@
 {
-  "guncelleme": "2026-11-26T10:52:28.650Z",
+  "guncelleme": "2026-11-26T11:47:36.720Z",
   "kaynaklar": [
+    "BLOOMBERGHT",
     "TRTHABER",
-    "AKSAM",
+    "BIRGUN",
     "HABER7",
     "HABERTURK",
     "YENISAFAK",
     "CUMHURIYET",
-    "BLOOMBERGHT",
-    "SOZCU",
-    "BIRGUN"
+    "SOZCU"
   ],
   "beklenti": {
     "motorin": {
@@ -47,6 +46,13 @@
   },
   "haberler": [
     {
+      "baslik": "OPEC+, mevcut petrol kota düzeyini korumayı değerlendiriyor",
+      "ozet": "OPEC+'nın İran savaşının etkisi gibi belirsizliklerle mücadele edilirken mevcut petrol üretim kotasını Ocak ayına kadar uzatmayı değerlendirdiği bildirildi.",
+      "link": "https://www.bloomberght.com/opec-mevcut-petrol-kota-duzeyini-korumayi-degerlendiriyor-3795744",
+      "tarih": "2026-11-26T11:27:39.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
       "baslik": "İran Devrim Muhafızları: Hürmüz Boğazı'nda mayına çarpan 2 petrol tankerinde yangın çıktı",
       "ozet": "",
       "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-mayina-carpan-2-petrol-tankerinde-yangin-cikti-964534.html",
@@ -54,11 +60,11 @@
       "kaynak": "TRTHABER"
     },
     {
-      "baslik": "Hürmüz'de mayınlı tuzak: 2 petrol tankeri alevlere teslim oldu",
-      "ozet": "İran Devrim Muhafızları, Hürmüz Boğazı'nda mayına çarpan 2 petrol tankerinde yangın çıktığını bildirdi.",
-      "link": "https://www.aksam.com.tr/dunya/hurmuzde-mayinli-tuzak-2-petrol-tankeri-alevlere-teslim-oldu/haber-1717620",
-      "tarih": "2026-11-26T10:13:00.000Z",
-      "kaynak": "AKSAM"
+      "baslik": "Mısır'da petrol yüklü tankerde yangın: Can kaybı 31'e, yaralananların sayısı 21'e yükseldi",
+      "ozet": "Mısır'ın başkenti Kahire'nin batısında petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, faciada yaralananların sayısı 21'e yükseldi.",
+      "link": "https://www.birgun.net/haber/misir-da-petrol-yuklu-tankerde-yangin-can-kaybi-31-e-yaralananlarin-sayisi-21-e-yukseldi-748619",
+      "tarih": "2026-11-26T10:10:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Bangkok'ta petrol tesisinde patlama",
@@ -150,13 +156,6 @@
       "link": "https://www.sozcu.com.tr/akaryakita-buyuk-indirim-geldi-tabelalar-bir-kez-daha-degisti-p384465",
       "tarih": "2026-11-26T04:25:38.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Mısır'da tanker yangınında can kaybı 31'e yükseldi",
-      "ozet": "Mısır'ın başkenti Kahire'nin batısındaki Giza kentinde petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, yaralananların sayısı ise 21'e çıktı.",
-      "link": "https://www.trthaber.com/haber/dunya/misirda-tanker-yangininda-can-kaybi-31e-yukseldi-964489.html",
-      "tarih": "2026-11-26T03:21:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Motorine indirim geldi: Yeni fiyatlar belli oldu",
