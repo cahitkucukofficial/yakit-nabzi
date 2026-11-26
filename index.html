@@ -221,7 +221,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         .app-root[data-mod="koyu"] .ios-switch .knob{ background:#F2F2F7; }
         .mod-satir{ display:flex; gap:4px; padding:3px; margin:2px 0 12px; border-radius:var(--radius-ctrl,8px); background:var(--panel-3); }
         .mod-btn{ flex:1; border:none; background:transparent; color:var(--metin); font-family:var(--font-body); font-size:14px; font-weight:600; padding:8px 0; border-radius:var(--radius-ctrl,8px); cursor:pointer; }
-        .mod-btn.secili{ background:var(--panel); box-shadow:0 1px 3px rgba(0,0,0,0.18); font-weight:700; }
+        .mod-btn.secili{ background:color-mix(in srgb, var(--aksan) 22%, transparent); color:var(--aksan); -webkit-backdrop-filter:blur(8px) saturate(140%); backdrop-filter:blur(8px) saturate(140%); box-shadow:inset 0 0 0 1.5px color-mix(in srgb, var(--aksan) 55%, transparent), 0 1px 4px rgba(0,0,0,0.10); font-weight:700; }
         .app-root[data-mod="koyu"] .mod-btn.secili{ background:var(--aksan); color:#111; }
 
         .ios-switch{ width:48px; height:29px; border-radius:15px; background:var(--panel-3); border:none; position:relative; cursor:pointer; padding:0; flex-shrink:0; transition:background .2s; }
