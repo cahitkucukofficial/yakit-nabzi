@@ -1,12 +1,11 @@
 {
-  "guncelleme": "2026-11-27T13:31:25.401Z",
+  "guncelleme": "2026-11-27T14:26:31.936Z",
   "kaynaklar": [
+    "EKONOMIM",
     "YENISAFAK",
     "SABAH",
     "TRTHABER",
     "STAR",
-    "AKSAM",
-    "EKONOMIM",
     "BLOOMBERGHT",
     "CUMHURIYET",
     "BIRGUN",
@@ -41,6 +40,13 @@
   },
   "haberler": [
     {
+      "baslik": "Irak hükümeti 17 yılda 100 milyar dolarlık petrol kaçakçılığı yapıldığını duyurdu",
+      "ozet": "Irak Hükümet Sözcüsü Haydar el-Abbudi, 2008 ile 2025 yılları arasında Irak Kürt Bölgesel Yönetimi (IKBY) üzerinden yürütülen yasa dışı petrol sevkiyatları nedeniyle ülke ekonomisinin yaklaşık 100 milyar dolar zarara u...",
+      "link": "https://www.ekonomim.com/dunya/irak-hukumeti-17-yilda-100-milyar-dolarlik-petrol-kacakciligi-yapildigini-duyurdu-haberi-933893",
+      "tarih": "2026-11-27T14:14:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
       "baslik": "Benzin ve motorinde 'zam' alarmı: Tarih belli oldu",
       "ozet": "Akaryakıt sektörü kaynaklarına göre, benzin ve motorine ÖTV zammı yapılması bekleniyor. Düzenlemeyle benzinin litre fiyatına 4 lira 15 kuruş, motorinin litre fiyatına ise 3 lira 60 kuruş artış yansıyacağı tahmin edily...",
       "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-benzin-motorin-lpgde-guncel-fiyatlar-4877195",
@@ -67,13 +73,6 @@
       "link": "https://www.star.com.tr/ekonomi/12-yillik-ara-sona-eriyor-gunde-500-bin-varil-petrol-akacak-haber-2056139/",
       "tarih": "2026-11-27T12:08:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "12 yıllık bekleyiş sona eriyor: Komşu Türkiye'ye petrol vanalarını açıyor",
-      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başladı. Söz konusu hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesi...",
-      "link": "https://www.aksam.com.tr/dunya/12-yillik-bekleyis-sona-eriyor-komsu-turkiyeye-petrol-vanalarini-aciyor/haber-1717924",
-      "tarih": "2026-11-27T12:07:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "12 yıldır kapalıydı, Irak Türkiye'ye uzanan petrol hattını yeniden açıyor",
