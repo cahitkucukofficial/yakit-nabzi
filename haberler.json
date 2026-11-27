@@ -1,6 +1,8 @@
 {
-  "guncelleme": "2026-11-27T04:20:03.842Z",
+  "guncelleme": "2026-11-27T05:15:13.425Z",
   "kaynaklar": [
+    "EKONOMIM",
+    "SOZCU",
     "DUNYA",
     "HABER7",
     "TRTHABER",
@@ -9,8 +11,7 @@
     "BIRGUN",
     "HABERTURK",
     "YENISAFAK",
-    "CUMHURIYET",
-    "SOZCU"
+    "CUMHURIYET"
   ],
   "beklenti": {
     "motorin": {
@@ -25,6 +26,20 @@
   },
   "gundem": {},
   "haberler": [
+    {
+      "baslik": "Petrolde 100 dolar alarmı! Ortadoğu'daki saldırılar fiyatları yükseltti: Gözler OPEC+ toplantısında",
+      "ozet": "Petrol fiyatları, Ortadoğu'daki enerji tesisleri ve tankerleri hedef alan saldırıların küresel arz endişelerini artırmasıyla ayın en yüksek seviyelerine yakın seyrediyor. Dört haftalık düşüş serisinin ardından ilk haf...",
+      "link": "https://www.ekonomim.com/sektorler/enerji/petrolde-100-dolar-alarmi-ortadogudaki-saldirilar-fiyatlari-yukseltti-gozler-opec-toplantisinda-haberi-933738",
+      "tarih": "2026-11-27T05:07:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Petrol dört haftalık düşüş serisini bitirmeye hazırlanıyor",
+      "ozet": "Ortadoğu'da enerji tesisleri ve tankerlere yönelik saldırılar arz risklerini artırırken, Brent ve WTI dört haftalık düşü...",
+      "link": "https://www.sozcu.com.tr/petrol-dort-haftalik-dusus-serisini-bitirmeye-hazirlaniyor-p384778",
+      "tarih": "2026-11-27T04:56:55.000Z",
+      "kaynak": "SOZCU"
+    },
     {
       "baslik": "Petrol fiyatları yeniden yükselişte: Gözler pazar günkü üretim kararına çevrildi",
       "ozet": "Orta Doğu'da enerji tesislerine yönelik saldırılar ve petrol arzına ilişkin endişeler fiyatları destekliyor. Brent petrol 92 doları aşarken piyasalar OPEC+ ülkelerinin 29 Kasım'da gerçekleştireceği kritik üretim topla...",
@@ -110,13 +125,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Petrolde yeniden jeopolitik gerginlik",
-      "ozet": "Petrol fiyatları, Orta Doğu'da devam eden çatışmaların bölgedeki ham petrol ihracatındaki toparlanmayı sekteye uğratma tehdidi oluşturmasıyla kazançlarını genişletti.",
-      "link": "https://www.bloomberght.com/petrolde-yeniden-jeopolitik-gerginlik-3795710",
-      "tarih": "2026-11-26T06:13:33.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Motorine indirim geldi",
       "ozet": "Motorinin litre fiyatına ortalama 4,30 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı. Böylelikle tüm şehirlerde motorin litre fiyatı 90 TL'nin altına düştü",
       "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-buyuk-indirim-geldi-iste-26-kasim-persembe-guncel-motorin-benzin-lpg-fiyatlari-3930198",
@@ -171,13 +179,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-tarihi-belli-oldu-fiyatlar-ne-kadar-olacak-2559213",
       "tarih": "2026-11-25T07:27:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine dev indirim geliyor: Tabelalar yeniden değişecek",
-      "ozet": "Motorinin litre fiyatına 26 Kasım Perşembe gününden itibaren 4,32 lira indirim yapılacak. Yeni fiyat İstanbul'da 84,58 l...",
-      "link": "https://www.sozcu.com.tr/motorine-dev-indirim-geliyor-tabelalar-yeniden-degisecek-p384215",
-      "tarih": "2026-11-25T06:27:31.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Akaryakıtta önce indirim sonra zam yolda: Benzin ve motorin fiyatları yeniden değişiyor",
