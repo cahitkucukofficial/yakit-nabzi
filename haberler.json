@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-11-27T09:50:56.342Z",
+  "guncelleme": "2026-11-27T10:46:01.642Z",
   "kaynaklar": [
     "ENSONHABER",
+    "CUMHURIYET",
     "EKONOMIM",
     "BIRGUN",
     "STAR",
     "HABER7",
     "YENISAFAK",
     "SOZCU",
-    "CUMHURIYET",
     "BLOOMBERGHT",
     "HABERTURK"
   ],
@@ -17,26 +17,7 @@
       "expected": false
     },
     "benzin": {
-      "expected": true,
-      "direction": "artis",
-      "amount": 4.15,
-      "tarih": "2026-12-01",
-      "tarihDurumu": "tek-kaynak",
-      "tarihDogrulayanSayisi": 1,
-      "tarihAdaylari": [
-        "2026-12-01"
-      ],
-      "dogrulayanKaynakSayisi": 1,
-      "kaynaklar": [
-        {
-          "kaynak": "EKONOMIM",
-          "kaynakLink": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-buyuk-zam-geliyor-tarih-belli-oldu-haberi-933794",
-          "tarih": "2026-12-01"
-        }
-      ],
-      "kaynakBaslik": "Benzin ve motorine büyük zam geliyor: Tarih belli oldu",
-      "kaynak": "EKONOMIM",
-      "kaynakLink": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-buyuk-zam-geliyor-tarih-belli-oldu-haberi-933794"
+      "expected": false
     },
     "lpg": {
       "expected": false
@@ -45,13 +26,34 @@
   "gundem": {
     "motorin": {
       "yon": "artis",
-      "baslik": "Gözler 1 Aralık'ta: Elektrik ve doğalgazda yeni tarife, akaryakıta rekor zam!",
-      "link": "https://www.birgun.net/haber/gozler-1-aralik-ta-elektrik-ve-dogalgazda-yeni-tarife-akaryakita-rekor-zam-748736",
-      "kaynak": "BIRGUN",
-      "tarih": "2026-11-27T07:41:00.000Z"
+      "baslik": "Benzin ve motorine dev zam yolda: Tabelalar 1 Aralık'ta değişecek",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
+      "kaynak": "CUMHURIYET",
+      "tarih": "2026-11-27T10:03:00.000Z"
+    },
+    "benzin": {
+      "yon": "artis",
+      "baslik": "Benzin ve motorine dev zam yolda: Tabelalar 1 Aralık'ta değişecek",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
+      "kaynak": "CUMHURIYET",
+      "tarih": "2026-11-27T10:03:00.000Z"
     }
   },
   "haberler": [
+    {
+      "baslik": "Malatya'da yüzde 56 görme engelli vatandaş hurda malzemelerden bahçe işlerinde kullanmak için araç üretti",
+      "ozet": "Malatya'da yüzde 56 görme engelli Serdar Gedikli, bahçe işlerinde kullanmak için hurda malzemelerden araç üretti. Bu araçla traktörün yaktığı mazotun 3'te 1'ine işlerini görebildiğini belirten Gedikli, devlet desteği ...",
+      "link": "https://www.ensonhaber.com/malatyada-yuzde-56-gorme-engelli-vatandas-hurda-malzemelerden-bahce-islerinde-kullanmak-ic-h1586151",
+      "tarih": "2026-11-27T10:05:22.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "Benzin ve motorine dev zam yolda: Tabelalar 1 Aralık'ta değişecek",
+      "ozet": "Akaryakıt fiyatlarında indirimlerin ardından bu kez vergi artışıyla yeni zam dönemi başlıyor. 1 Aralık'ta pompaya yansıması beklenen ÖTV düzenlemesi, benzin ve motorin fiyatlarını yeniden yükseltecek.",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
+      "tarih": "2026-11-27T10:03:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
     {
       "baslik": "İran: ABD'nin el koyduğu iki petrol tankerini geri aldık",
       "ozet": "İran Ordusu Deniz Kuvvetleri Komutanı Tuğamiral Şehram İrani, ABD'nin el koyduğu İran'a ait iki petrol tankerinin, ABD askerlerinin uyuduğu sırada düzenlenen operasyonla geri alındığını öne sürdü.",
@@ -79,13 +81,6 @@
       "link": "https://www.star.com.tr/ekonomi/turkiye-iki-deniz-sahasina-ortak-oldu-yeni-donemin-basladigi-ulke-icin-sinyal-verildi-haber-2056082/",
       "tarih": "2026-11-27T08:14:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "Benzin ve motorine büyük zam geliyor: Tarih belli oldu",
-      "ozet": "Sektör kaynaklarına göre, 1 Aralık'ta benzin ve motorine ÖTV zammı yapılması bekleniyor. Düzenlemeyle benzinin litre fiyatına 4 TL 15 kuruş, motorinin litre fiyatına ise 3 TL 60 kuruş artış yansıyacağı tahmin ediliyor...",
-      "link": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-buyuk-zam-geliyor-tarih-belli-oldu-haberi-933794",
-      "tarih": "2026-11-27T08:05:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Gözler 1 Aralık'ta: Elektrik ve doğalgazda yeni tarife, akaryakıta rekor zam!",
@@ -211,13 +206,6 @@
       "ozet": "Hürmüz Boğazı’nda üç gemiye daha saldırı düzenlendiği bildirilirken Husiler, Suudi Arabistan’daki rafineri ve limanları ...",
       "link": "https://www.sozcu.com.tr/petrolde-tehlike-canlari-caliyor-pazar-gunu-dananin-kuyrugu-kopacak-p384469",
       "tarih": "2026-11-26T04:46:09.000Z",
-      "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Akaryakıta büyük indirim geldi: Tabelalar bir kez daha değişti",
-      "ozet": "Motorinin litre fiyatına bugün itibarıyla 4 lira 32 kuruş indirim geldi. Bir haftalık toplam indirim 10 lira 90 kuruşa u...",
-      "link": "https://www.sozcu.com.tr/akaryakita-buyuk-indirim-geldi-tabelalar-bir-kez-daha-degisti-p384465",
-      "tarih": "2026-11-26T04:25:38.000Z",
       "kaynak": "SOZCU"
     },
     {
