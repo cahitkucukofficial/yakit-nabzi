@@ -1,14 +1,15 @@
 {
-  "guncelleme": "2026-11-27T11:41:10.815Z",
+  "guncelleme": "2026-11-27T12:36:15.625Z",
   "kaynaklar": [
-    "BLOOMBERGHT",
     "STAR",
+    "AKSAM",
+    "EKONOMIM",
+    "TRTHABER",
+    "BLOOMBERGHT",
     "SABAH",
     "ENSONHABER",
     "CUMHURIYET",
-    "EKONOMIM",
     "BIRGUN",
-    "HABER7",
     "YENISAFAK",
     "SOZCU"
   ],
@@ -40,6 +41,48 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "12 yıllık ara sona eriyor! Günde 500 bin varil petrol akacak",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
+      "link": "https://www.star.com.tr/ekonomi/12-yillik-ara-sona-eriyor-gunde-500-bin-varil-petrol-akacak-haber-2056139/",
+      "tarih": "2026-11-27T12:08:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "12 yıllık bekleyiş sona eriyor: Komşu Türkiye'ye petrol vanalarını açıyor",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başladı. Söz konusu hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesi...",
+      "link": "https://www.aksam.com.tr/dunya/12-yillik-bekleyis-sona-eriyor-komsu-turkiyeye-petrol-vanalarini-aciyor/haber-1717924",
+      "tarih": "2026-11-27T12:07:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "12 yıldır kapalıydı, Irak Türkiye'ye uzanan petrol hattını yeniden açıyor",
+      "ozet": "Irak, 12 yıldır kullanılmayan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başladı. Kerkük'teki IT1 pompa istasyonunun açılmasıyla başlatılan süreçte hattın ilk etapta günlük 300 b...",
+      "link": "https://www.ekonomim.com/ekonomi/12-yildir-kapaliydi-irak-turkiyeye-uzanan-petrol-hattini-yeniden-aciyor-haberi-933861",
+      "tarih": "2026-11-27T12:06:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Hürmüz'de görünmez tehdit! Petrol tankeri havaya uçtu",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın doğusunda bir petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
+      "link": "https://www.aksam.com.tr/dunya/hurmuzde-gorunmez-tehdit-petrol-tankeri-havaya-uctu/haber-1717923",
+      "tarih": "2026-11-27T11:52:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "İran Devrim Muhafızları: Hürmüz Boğazında 1 petrol tankeri mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazının doğusunda bir petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-1-petrol-tankeri-mayina-carpti-964655.html",
+      "tarih": "2026-11-27T11:50:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Irak, 12 yıldır kapalı Türkiye petrol boru hattını açmaya hazırlanıyor",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
+      "link": "https://www.bloomberght.com/irak-12-yildir-kapali-turkiye-petrol-boru-hattini-acmaya-hazirlaniyor-3795960",
+      "tarih": "2026-11-27T11:42:54.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
     {
       "baslik": "Irak: IKBY üzerinden petrol kaçakçılığının ülkeye maliyeti yaklaşık 100 milyar dolar",
       "ozet": "Irak Hükümet Sözcüsü Haydar el-Abbudi, 2008-2025 yıllarında Irak Kürt Bölgesel Yönetimi (IKBY) üzerinden gerçekleştirilen petrol kaçakçılığı nedeniyle ülkenin yaklaşık 100 milyar dolar zarara uğradığını belirtti.",
@@ -90,13 +133,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "Petrolde düşüş derinleşecek mi? Standard Chartered'dan yeni analiz",
-      "ozet": "İngiliz bankacılık devi Standard Chartered, petrol fiyatlarında son dönemde yaşanan düşüşün beklenen arz fazlasının önemli bir bölümünü fiyatladığını belirtti. Banka, fiyatların daha da gerilemesi için stok artışların...",
-      "link": "https://www.ekonomim.com/ekonomi/petrolde-dusus-derinlesecek-mi-standard-chartereddan-yeni-analiz-haberi-933813",
-      "tarih": "2026-11-27T09:02:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "27 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
       "ozet": "27 Kasım 2026 güncel akaryakıt fiyatları araç sahipleri tarafından yakından takip ediliyor. Benzin, motorin ve LPG fiyatlarında son durum merak edilirken motorinin litre fiyatına yapılan 4,30 TL'lik indirim dikkat çek...",
       "link": "https://www.birgun.net/haber/27-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-748749",
@@ -109,13 +145,6 @@
       "link": "https://www.birgun.net/haber/gozler-1-aralik-ta-elektrik-ve-dogalgazda-yeni-tarife-akaryakita-rekor-zam-748736",
       "tarih": "2026-11-27T07:41:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Brent petrol fiyatı 100 dolara yaklaştı!",
-      "ozet": "Brent petrolün ocak vadeli varili, uluslararası piyasalarda 97,27 dolardan işlem görüyor.",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3680243-brent-petrol-fiyati-100-dolara-yaklasti",
-      "tarih": "2026-11-27T07:18:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Rusya jet yakıtı ihracatı yasağını 2027'ye uzattı",
