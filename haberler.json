@@ -1,16 +1,15 @@
 {
-  "guncelleme": "2026-11-27T12:54:04.978Z",
+  "guncelleme": "2026-11-27T13:31:25.401Z",
   "kaynaklar": [
+    "YENISAFAK",
+    "SABAH",
     "TRTHABER",
     "STAR",
     "AKSAM",
     "EKONOMIM",
     "BLOOMBERGHT",
-    "SABAH",
-    "ENSONHABER",
     "CUMHURIYET",
     "BIRGUN",
-    "YENISAFAK",
     "SOZCU"
   ],
   "beklenti": {
@@ -42,6 +41,20 @@
   },
   "haberler": [
     {
+      "baslik": "Benzin ve motorinde 'zam' alarmı: Tarih belli oldu",
+      "ozet": "Akaryakıt sektörü kaynaklarına göre, benzin ve motorine ÖTV zammı yapılması bekleniyor. Düzenlemeyle benzinin litre fiyatına 4 lira 15 kuruş, motorinin litre fiyatına ise 3 lira 60 kuruş artış yansıyacağı tahmin edily...",
+      "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-benzin-motorin-lpgde-guncel-fiyatlar-4877195",
+      "tarih": "2026-11-27T13:20:26.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
+      "baslik": "Türkiye'ye komşudan petrol akacak! 12 yıldır kapalı olan eski hat yeniden açılıyor",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden devreye almak için çalışmalara başladı. Hattın ilk aşamada günlük 300 bin varil, sonraki aşamada ise 500 bin varil petrol taşıması...Devamı içi...",
+      "link": "https://www.sabah.com.tr/ekonomi/turkiyeye-komsudan-petrol-akacak-12-yildir-kapali-olan-eski-hat-yeniden-aciliyor-7710572",
+      "tarih": "2026-11-27T12:59:59.000Z",
+      "kaynak": "SABAH"
+    },
+    {
       "baslik": "IrakTürkiye petrol boru hattı yeniden faaliyete geçecek",
       "ozet": "Irak, 12 yıldır kapalı olan eski IrakTürkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşmas...",
       "link": "https://www.trthaber.com/haber/ekonomi/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-gececek-964663.html",
@@ -68,13 +81,6 @@
       "link": "https://www.ekonomim.com/ekonomi/12-yildir-kapaliydi-irak-turkiyeye-uzanan-petrol-hattini-yeniden-aciyor-haberi-933861",
       "tarih": "2026-11-27T12:06:00.000Z",
       "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Hürmüz'de görünmez tehdit! Petrol tankeri havaya uçtu",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın doğusunda bir petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
-      "link": "https://www.aksam.com.tr/dunya/hurmuzde-gorunmez-tehdit-petrol-tankeri-havaya-uctu/haber-1717923",
-      "tarih": "2026-11-27T11:52:00.000Z",
-      "kaynak": "AKSAM"
     },
     {
       "baslik": "İran Devrim Muhafızları: Hürmüz Boğazında 1 petrol tankeri mayına çarptı",
@@ -117,13 +123,6 @@
       "link": "https://www.bloomberght.com/gazprom-ve-botas-dogalgaz-sozlesmesini-3-yil-uzatti-3795954",
       "tarih": "2026-11-27T10:51:37.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Trump: Irak Başbakanı Zeydi’nin devlet otoritesini kurma çabalarını destekliyorum",
-      "ozet": "ABD Başkanı Donald Trump, Bağdat ile Erbil arasında petrol sahaları ve sınır kapılarının denetimine ilişkin gerilimin yükseldiği dönemde Irak Başbakanı Ali el-Zeydi'nin yolsuzluk ve petrol kaçakçılığıyla mücadele adım...",
-      "link": "https://www.ensonhaber.com/donald-trump-irak-basbakaninin-devlet-otoritesini-koruma-cabasini-destekliyorum-h1586157",
-      "tarih": "2026-11-27T10:30:01.000Z",
-      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "Benzin ve motorine dev zam yolda: Tabelalar 1 Aralık'ta değişecek",
@@ -194,20 +193,6 @@
       "link": "https://www.sozcu.com.tr/petrol-dort-haftalik-dusus-serisini-bitirmeye-hazirlaniyor-p384778",
       "tarih": "2026-11-27T04:56:55.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Mısır'da petrol yüklü tankerde yangın: Can kaybı 31'e, yaralananların sayısı 21'e yükseldi",
-      "ozet": "Mısır'ın başkenti Kahire'nin batısında petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, faciada yaralananların sayısı 21'e yükseldi.",
-      "link": "https://www.birgun.net/haber/misir-da-petrol-yuklu-tankerde-yangin-can-kaybi-31-e-yaralananlarin-sayisi-21-e-yukseldi-748619",
-      "tarih": "2026-11-26T10:10:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
-      "ozet": "Akaryakıt fiyatlarında indirim rüzgarı sürüyor. Küresel petrol fiyatlarındaki gerilemenin ardından motorinin litre fiyatına 4 lira 32 kuruş indirim geldi. Gece yarısından itibaren pompaya yansıyan düşüş sonrası araç s...",
-      "link": "https://www.yenisafak.com/galeri/ekonomi/akaryakita-buyuk-indirim-pompaya-yansidi-gece-yarisi-tabela-degisti-iste-guncel-benzin-motorin-ve-lpg-fiyatlari-4876661",
-      "tarih": "2026-11-26T07:03:21.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Motorin fiyatlarına indirim geldi: Akaryakıtta gözler şimdi benzinde",
