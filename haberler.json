@@ -1,10 +1,10 @@
 {
-  "guncelleme": "2026-11-27T08:55:46.697Z",
+  "guncelleme": "2026-11-27T09:50:56.342Z",
   "kaynaklar": [
-    "AKSAM",
-    "STAR",
+    "ENSONHABER",
     "EKONOMIM",
     "BIRGUN",
+    "STAR",
     "HABER7",
     "YENISAFAK",
     "SOZCU",
@@ -53,11 +53,25 @@
   },
   "haberler": [
     {
-      "baslik": "Önce Gine-Bissau şimdi Libya! Türkiye petrolde kolları sıvadı",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Chevron ile imzalanan anlaşma kapsamında Türkiye'nin Gine-Bissau açıklarındaki iki deniz sahasına ortak olduğunu açıkladı. Bayraktar, Libya'dan da benzer müjdeli h...",
-      "link": "https://www.aksam.com.tr/ekonomi/once-gine-bissau-simdi-libya-turkiye-petrolde-kollari-sivadi/haber-1717880",
-      "tarih": "2026-11-27T08:25:00.000Z",
-      "kaynak": "AKSAM"
+      "baslik": "İran: ABD'nin el koyduğu iki petrol tankerini geri aldık",
+      "ozet": "İran Ordusu Deniz Kuvvetleri Komutanı Tuğamiral Şehram İrani, ABD'nin el koyduğu İran'a ait iki petrol tankerinin, ABD askerlerinin uyuduğu sırada düzenlenen operasyonla geri alındığını öne sürdü.",
+      "link": "https://www.ensonhaber.com/iran-abdnin-el-koydugu-iki-petrol-tankerini-geri-aldik-h1586131",
+      "tarih": "2026-11-27T09:17:48.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "Petrolde düşüş derinleşecek mi? Standard Chartered'dan yeni analiz",
+      "ozet": "İngiliz bankacılık devi Standard Chartered, petrol fiyatlarında son dönemde yaşanan düşüşün beklenen arz fazlasının önemli bir bölümünü fiyatladığını belirtti. Banka, fiyatların daha da gerilemesi için stok artışların...",
+      "link": "https://www.ekonomim.com/ekonomi/petrolde-dusus-derinlesecek-mi-standard-chartereddan-yeni-analiz-haberi-933813",
+      "tarih": "2026-11-27T09:02:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "27 Kasım 2026 Benzin, Motorin, LPG Fiyatları: İndirim veya Zam Var mı? Güncel Akaryakıt Fiyatları",
+      "ozet": "27 Kasım 2026 güncel akaryakıt fiyatları araç sahipleri tarafından yakından takip ediliyor. Benzin, motorin ve LPG fiyatlarında son durum merak edilirken motorinin litre fiyatına yapılan 4,30 TL'lik indirim dikkat çek...",
+      "link": "https://www.birgun.net/haber/27-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-748749",
+      "tarih": "2026-11-27T08:29:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Türkiye iki deniz sahasına ortak oldu! Yeni dönemin başladığı ülke için sinyal verildi",
@@ -137,13 +151,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "LPG'li araç sahipleri dikkat! Şartlar açıklandı! Milyonlarca kişiyi ilgilendiren düzenleme",
-      "ozet": "Mevzuata göre LPG ve CNG yakıt sistemli araçlar kapalı otoparklara giremiyor. Ancak TS 9881 standardını ve itfaiye onayını sağlayan alışveriş merkezi kapalı otoparkları için özel izin uygulanıyor.",
-      "link": "https://www.haber7.com/otomobil/haber/3680193-lpgli-arac-sahipleri-dikkat-sartlar-aciklandi-milyonlarca-kisiyi-ilgilendiren-duzenleme",
-      "tarih": "2026-11-27T05:46:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Küresel piyasalarda risk iştahı toparlanıyor",
       "ozet": "Orta Doğu'da enerji altyapısı ve tankerlere yönelik saldırıların ihracatı aksatabileceği endişesi petrol fiyatlarını desteklerken, Brent bu ayın ilk haftalık yükselişine yöneldi.",
       "link": "https://www.bloomberght.com/kuresel-piyasalarda-risk-istahi-toparlaniyor-3795881",
@@ -165,32 +172,11 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Kerkük-Ceyhan boru hattı tek alternatifleri! Hürmüz krizi sonrası Türkiye, Körfez'in petrol devinin radarında",
-      "ozet": "Kerkük-Ceyhan boru hattının Kerkük'ten Basra'ya kadar uzatılmasına ilişkin Irak'a sunulan teklife değinen Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, \"Bunu şimdi Kuveyt'e de söyledik. Sayın Cumhurbaşkanımız ...",
-      "link": "https://www.star.com.tr/ekonomi/kerkuk-ceyhan-boru-hatti-tek-alternatifleri-hurmuz-krizi-sonrasi-turkiye-korfezin-petrol-d-haber-2055972/",
-      "tarih": "2026-11-26T15:05:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
-      "baslik": "OPEC+, mevcut petrol kota düzeyini korumayı değerlendiriyor",
-      "ozet": "OPEC+'nın İran savaşının etkisi gibi belirsizliklerle mücadele edilirken mevcut petrol üretim kotasını Ocak ayına kadar uzatmayı değerlendirdiği bildirildi.",
-      "link": "https://www.bloomberght.com/opec-mevcut-petrol-kota-duzeyini-korumayi-degerlendiriyor-3795744",
-      "tarih": "2026-11-26T11:27:39.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
       "baslik": "Mısır'da petrol yüklü tankerde yangın: Can kaybı 31'e, yaralananların sayısı 21'e yükseldi",
       "ozet": "Mısır'ın başkenti Kahire'nin batısında petrol yüklü tankerde çıkan yangında yaşamını yitirenlerin sayısı 31'e, faciada yaralananların sayısı 21'e yükseldi.",
       "link": "https://www.birgun.net/haber/misir-da-petrol-yuklu-tankerde-yangin-can-kaybi-31-e-yaralananlarin-sayisi-21-e-yukseldi-748619",
       "tarih": "2026-11-26T10:10:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Petrol fiyatlarında son durum ne?",
-      "ozet": "Brent petrolün ocak vadeli varil fiyatı, uluslararası piyasalarda 95,06 dolardan işlem görüyor",
-      "link": "https://www.haberturk.com/ekonomi/petrol-fiyatlarinda-son-durum-ne-3930229",
-      "tarih": "2026-11-26T07:45:43.000Z",
-      "kaynak": "HABERTURK"
     },
     {
       "baslik": "Akaryakıta büyük indirim pompaya yansıdı: Gece yarısı tabela değişti İşte güncel benzin motorin ve LPG fiyatları",
@@ -233,13 +219,6 @@
       "link": "https://www.sozcu.com.tr/akaryakita-buyuk-indirim-geldi-tabelalar-bir-kez-daha-degisti-p384465",
       "tarih": "2026-11-26T04:25:38.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Motorine indirim geldi: Yeni fiyatlar belli oldu",
-      "ozet": "Akaryakıt fiyatlarında petrol piyasasındaki düşüşün etkisiyle yeni bir değişiklik yaşandı. Motorinin litre fiyatına 4,32 liralık indirim uygulanırken İstanbul, Ankara ve İzmir'de güncel pompa fiyatları da değişti.",
-      "link": "https://www.birgun.net/haber/motorine-indirim-geldi-yeni-fiyatlar-belli-oldu-748529",
-      "tarih": "2026-11-26T02:05:00.000Z",
-      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
@@ -288,13 +267,6 @@
       "ozet": "EPDK, benzin fiyatlarının hesaplanmasında kullanılan yoğunluk değerini değiştirirken motorin için mevcut uygulamayı korudu. Düzenlemenin ardından sektör kaynakları, benzinde hafta sonundan itibaren yeni bir indirim be...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzinde-hesap-degisti-indirim-kapida-gozler-21-kasim-da-2557795",
       "tarih": "2026-11-20T08:11:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota indirim, zam var mı? 20 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-20-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2557765",
-      "tarih": "2026-11-20T06:26:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
