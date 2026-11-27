@@ -1,7 +1,8 @@
 {
-  "guncelleme": "2026-11-27T07:05:30.238Z",
+  "guncelleme": "2026-11-27T08:00:38.353Z",
   "kaynaklar": [
     "HABER7",
+    "BIRGUN",
     "YENISAFAK",
     "ENSONHABER",
     "SOZCU",
@@ -11,7 +12,6 @@
     "EKONOMIM",
     "TRTHABER",
     "STAR",
-    "BIRGUN",
     "HABERTURK"
   ],
   "beklenti": {
@@ -52,11 +52,25 @@
   "gundem": {},
   "haberler": [
     {
+      "baslik": "Brent petrol fiyatı 100 dolara yaklaştı!",
+      "ozet": "Brent petrolün ocak vadeli varili, uluslararası piyasalarda 97,27 dolardan işlem görüyor.",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3680243-brent-petrol-fiyati-100-dolara-yaklasti",
+      "tarih": "2026-11-27T07:18:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
       "baslik": "Cazan'daki petrol rafinerisine saldırı: 1 işçi hayatını kaybetti",
       "ozet": "Suudi Arabistan'ın güneybatısındaki Cazan bölgesinde bulunan petrol rafinerisine düzenlenen saldırıda bir işçi hayatını kaybetti, birkaç kişi yaralandı.",
       "link": "https://www.haber7.com/dunya/haber/3680230-cazandaki-petrol-rafinerisine-saldiri-1-isci-hayatini-kaybetti",
       "tarih": "2026-11-27T07:01:00.000Z",
       "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Rusya jet yakıtı ihracatı yasağını 2027'ye uzattı",
+      "ozet": "Rusya hükümeti, iç piyasada akaryakıt arzını güvence altına almak amacıyla jet yakıtı ihracatına yönelik yasağın süresini 31 Mart 2027'ye kadar uzattı. Yeni karar 1 Aralık'ta yürürlüğe girerken hükümetler arası anlaşm...",
+      "link": "https://www.birgun.net/haber/rusya-jet-yakiti-ihracati-yasagini-2027-ye-uzatti-748727",
+      "tarih": "2026-11-27T07:00:00.000Z",
+      "kaynak": "BIRGUN"
     },
     {
       "baslik": "Petrol fiyatlarında yükseliş: Hürmüz'deki saldırıları piyasaları hareketlendirdi",
@@ -136,13 +150,6 @@
       "kaynak": "BLOOMBERGHT"
     },
     {
-      "baslik": "Petrolde 100 dolar alarmı! Ortadoğu'daki saldırılar fiyatları yükseltti: Gözler OPEC+ toplantısında",
-      "ozet": "Petrol fiyatları, Ortadoğu'daki enerji tesisleri ve tankerleri hedef alan saldırıların küresel arz endişelerini artırmasıyla ayın en yüksek seviyelerine yakın seyrediyor. Dört haftalık düşüş serisinin ardından ilk haf...",
-      "link": "https://www.ekonomim.com/sektorler/enerji/petrolde-100-dolar-alarmi-ortadogudaki-saldirilar-fiyatlari-yukseltti-gozler-opec-toplantisinda-haberi-933738",
-      "tarih": "2026-11-27T05:07:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
       "baslik": "Petrol dört haftalık düşüş serisini bitirmeye hazırlanıyor",
       "ozet": "Ortadoğu'da enerji tesisleri ve tankerlere yönelik saldırılar arz risklerini artırırken, Brent ve WTI dört haftalık düşü...",
       "link": "https://www.sozcu.com.tr/petrol-dort-haftalik-dusus-serisini-bitirmeye-hazirlaniyor-p384778",
@@ -150,24 +157,10 @@
       "kaynak": "SOZCU"
     },
     {
-      "baslik": "Venezuela'nın en büyük petrol rafinerisinde yangın! İşçiler tahliye edildi",
-      "ozet": "Venezuela'nın en büyük petrol rafinerisi Amuay'da çıkan yangın paniğe neden oldu. İşçiler tahliye edilirken alevler yaralanma yaşanmadan kontrol altına alındı. Yangının yakıt dağıtımını etkilemediği açıklandı.",
-      "link": "https://www.haber7.com/dunya/haber/3680160-venezuelanin-en-buyuk-petrol-rafinerisinde-yangin-isciler-tahliye-edildi",
-      "tarih": "2026-11-26T20:22:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
       "baslik": "Suudi Arabistan'daki Cazan Petrol Rafinerisi'ne saldırıda 1 işçi hayatını kaybetti",
       "ozet": "Suudi Arabistan'ın güneybatısındaki Cazan bölgesinde bulunan petrol rafinerisine düzenlenen saldırıda bir işçi hayatını kaybetti, birkaç kişi yaralandı.",
       "link": "https://www.trthaber.com/haber/dunya/suudi-arabistandaki-cazan-petrol-rafinerisine-saldirida-1-isci-hayatini-kaybetti-964584.html",
       "tarih": "2026-11-26T18:27:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
-      "baslik": "Arap Koalisyonu: Suudi Arabistandaki Cazan Petrol Rafinerisi Husilerin saldırısına uğradı",
-      "ozet": "Yemen'de meşru hükümeti destekleyen Suudi Arabistan öncülüğündeki Arap Koalisyonu, Suudi Arabistan'ın güneybatısında yer alan Cazan Petrol Rafinerisi'nin Yemen'deki İran destekli Husilerin saldırısına uğradığını bildi...",
-      "link": "https://www.trthaber.com/haber/dunya/arap-koalisyonu-suudi-arabistandaki-cazan-petrol-rafinerisi-husilerin-saldirisina-ugradi-964571.html",
-      "tarih": "2026-11-26T15:17:00.000Z",
       "kaynak": "TRTHABER"
     },
     {
@@ -245,13 +238,6 @@
       "ozet": "Akaryakıt fiyatlarında petrol piyasasındaki düşüşün etkisiyle yeni bir değişiklik yaşandı. Motorinin litre fiyatına 4,32 liralık indirim uygulanırken İstanbul, Ankara ve İzmir'de güncel pompa fiyatları da değişti.",
       "link": "https://www.birgun.net/haber/motorine-indirim-geldi-yeni-fiyatlar-belli-oldu-748529",
       "tarih": "2026-11-26T02:05:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Bağdat-Erbil gerilimi sürüyor: Bağdat yetkileri kaldırdı, Erbil'de iç anlaşmazlık çözülemedi",
-      "ozet": "Irak Başbakanı Ali Zeydi, Erbil’in sınır kapıları ve petrol sahalarındaki yetkilerini kaldırdı. Irak Kürt Bölgesel Yönetimi Başbakanı Mesrur Barzani ise Bağdat’ın kararlarının varılan mutabakatla çeliştiğini ifade ett...",
-      "link": "https://www.birgun.net/haber/bagdat-erbil-gerilimi-suruyor-bagdat-yetkileri-kaldirdi-erbil-de-ic-anlasmazlik-cozulemedi-748512",
-      "tarih": "2026-11-26T02:00:00.000Z",
       "kaynak": "BIRGUN"
     },
     {
