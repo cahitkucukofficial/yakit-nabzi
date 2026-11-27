@@ -1,8 +1,10 @@
 {
-  "guncelleme": "2026-11-27T16:16:47.090Z",
+  "guncelleme": "2026-11-27T17:11:55.193Z",
   "kaynaklar": [
-    "EKONOMIM",
+    "AKSAM",
+    "ENSONHABER",
     "YENISAFAK",
+    "EKONOMIM",
     "SABAH",
     "TRTHABER",
     "STAR",
@@ -40,6 +42,27 @@
   },
   "haberler": [
     {
+      "baslik": "Kahire'de tanker yangınında ölenler için cenaze töreni düzenlendi",
+      "ozet": "Giza'nın Verrak bölgesinde petrol yüklü tankerin devrilmesiyle çıkan yangında hayatını kaybedenlerden bazıları Ezher Camisi'nde son yolculuğuna uğurlandı.",
+      "link": "https://www.aksam.com.tr/dunya/kahirede-tanker-yangininda-olenler-icin-cenaze-toreni-duzenlendi/haber-1717977",
+      "tarih": "2026-11-27T17:04:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Irak-Türkiye petrol boru hattı yeniden faaliyete geçecek",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
+      "link": "https://www.ensonhaber.com/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-gececek-h1586254",
+      "tarih": "2026-11-27T17:00:15.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "12 yıldır kapalıydı: Türkiye'ye petrol sağlayacak hat yeniden faaliyete geçiyor",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başladı. Hattın ilk aşamada günlük 300 bin, daha sonra 500 bin varil petrol taşıması hedefleniyor.",
+      "link": "https://www.yenisafak.com/ekonomi/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-geciyor-4877239",
+      "tarih": "2026-11-27T16:36:38.000Z",
+      "kaynak": "YENISAFAK"
+    },
+    {
       "baslik": "Irak hükümeti 17 yılda 100 milyar dolarlık petrol kaçakçılığı yapıldığını duyurdu",
       "ozet": "Irak Hükümet Sözcüsü Haydar el-Abbudi, 2008 ile 2025 yılları arasında Irak Kürt Bölgesel Yönetimi (IKBY) üzerinden yürütülen yasa dışı petrol sevkiyatları nedeniyle ülke ekonomisinin yaklaşık 100 milyar dolar zarara u...",
       "link": "https://www.ekonomim.com/dunya/irak-hukumeti-17-yilda-100-milyar-dolarlik-petrol-kacakciligi-yapildigini-duyurdu-haberi-933893",
@@ -73,13 +96,6 @@
       "link": "https://www.star.com.tr/ekonomi/12-yillik-ara-sona-eriyor-gunde-500-bin-varil-petrol-akacak-haber-2056139/",
       "tarih": "2026-11-27T12:08:00.000Z",
       "kaynak": "STAR"
-    },
-    {
-      "baslik": "12 yıldır kapalıydı, Irak Türkiye'ye uzanan petrol hattını yeniden açıyor",
-      "ozet": "Irak, 12 yıldır kullanılmayan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başladı. Kerkük'teki IT1 pompa istasyonunun açılmasıyla başlatılan süreçte hattın ilk etapta günlük 300 b...",
-      "link": "https://www.ekonomim.com/ekonomi/12-yildir-kapaliydi-irak-turkiyeye-uzanan-petrol-hattini-yeniden-aciyor-haberi-933861",
-      "tarih": "2026-11-27T12:06:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "İran Devrim Muhafızları: Hürmüz Boğazında 1 petrol tankeri mayına çarptı",
