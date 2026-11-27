@@ -1,61 +1,97 @@
 {
-  "guncelleme": "2026-11-27T08:00:38.353Z",
+  "guncelleme": "2026-11-27T08:55:46.697Z",
   "kaynaklar": [
-    "HABER7",
+    "AKSAM",
+    "STAR",
+    "EKONOMIM",
     "BIRGUN",
+    "HABER7",
     "YENISAFAK",
-    "ENSONHABER",
     "SOZCU",
     "CUMHURIYET",
-    "DUNYA",
     "BLOOMBERGHT",
-    "EKONOMIM",
-    "TRTHABER",
-    "STAR",
     "HABERTURK"
   ],
   "beklenti": {
     "motorin": {
-      "expected": true,
-      "direction": "dusus",
-      "amount": 4.32,
-      "tarih": "2026-11-27",
-      "tarihDurumu": "teyitli",
-      "tarihDogrulayanSayisi": 2,
-      "tarihAdaylari": [
-        "2026-11-27"
-      ],
-      "dogrulayanKaynakSayisi": 2,
-      "kaynaklar": [
-        {
-          "kaynak": "HABER7",
-          "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3680220-motorine-indirim-geldi-gozler-artik-benzin-fiyatlarinda",
-          "tarih": "2026-11-27"
-        },
-        {
-          "kaynak": "EKONOMIM",
-          "kaynakLink": "https://www.ekonomim.com/foto-galeri/ekonomi/motorin-ucuzladi-gozler-benzinde-iste-27-kasim-2026-guncel-akaryakit-fiyatlari-galeri-933739",
-          "tarih": "2026-11-27"
-        }
-      ],
-      "kaynakBaslik": "Motorine indirim geldi! Gözler artık benzin fiyatlarında",
-      "kaynak": "HABER7",
-      "kaynakLink": "https://ekonomi.haber7.com/ekonomi/haber/3680220-motorine-indirim-geldi-gozler-artik-benzin-fiyatlarinda"
+      "expected": false
     },
     "benzin": {
-      "expected": false
+      "expected": true,
+      "direction": "artis",
+      "amount": 4.15,
+      "tarih": "2026-12-01",
+      "tarihDurumu": "tek-kaynak",
+      "tarihDogrulayanSayisi": 1,
+      "tarihAdaylari": [
+        "2026-12-01"
+      ],
+      "dogrulayanKaynakSayisi": 1,
+      "kaynaklar": [
+        {
+          "kaynak": "EKONOMIM",
+          "kaynakLink": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-buyuk-zam-geliyor-tarih-belli-oldu-haberi-933794",
+          "tarih": "2026-12-01"
+        }
+      ],
+      "kaynakBaslik": "Benzin ve motorine büyük zam geliyor: Tarih belli oldu",
+      "kaynak": "EKONOMIM",
+      "kaynakLink": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-buyuk-zam-geliyor-tarih-belli-oldu-haberi-933794"
     },
     "lpg": {
       "expected": false
     }
   },
-  "gundem": {},
+  "gundem": {
+    "motorin": {
+      "yon": "artis",
+      "baslik": "Gözler 1 Aralık'ta: Elektrik ve doğalgazda yeni tarife, akaryakıta rekor zam!",
+      "link": "https://www.birgun.net/haber/gozler-1-aralik-ta-elektrik-ve-dogalgazda-yeni-tarife-akaryakita-rekor-zam-748736",
+      "kaynak": "BIRGUN",
+      "tarih": "2026-11-27T07:41:00.000Z"
+    }
+  },
   "haberler": [
+    {
+      "baslik": "Önce Gine-Bissau şimdi Libya! Türkiye petrolde kolları sıvadı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Chevron ile imzalanan anlaşma kapsamında Türkiye'nin Gine-Bissau açıklarındaki iki deniz sahasına ortak olduğunu açıkladı. Bayraktar, Libya'dan da benzer müjdeli h...",
+      "link": "https://www.aksam.com.tr/ekonomi/once-gine-bissau-simdi-libya-turkiye-petrolde-kollari-sivadi/haber-1717880",
+      "tarih": "2026-11-27T08:25:00.000Z",
+      "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Türkiye iki deniz sahasına ortak oldu! Yeni dönemin başladığı ülke için sinyal verildi",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin Chevron ile imzalanan anlaşma kapsamında Afrika'nın batısında yer alan Gine-Bissau'da iki deniz sahasına ortak olduğunu belirterek, \"Libya'dan da böyle...",
+      "link": "https://www.star.com.tr/ekonomi/turkiye-iki-deniz-sahasina-ortak-oldu-yeni-donemin-basladigi-ulke-icin-sinyal-verildi-haber-2056082/",
+      "tarih": "2026-11-27T08:14:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Benzin ve motorine büyük zam geliyor: Tarih belli oldu",
+      "ozet": "Sektör kaynaklarına göre, 1 Aralık'ta benzin ve motorine ÖTV zammı yapılması bekleniyor. Düzenlemeyle benzinin litre fiyatına 4 TL 15 kuruş, motorinin litre fiyatına ise 3 TL 60 kuruş artış yansıyacağı tahmin ediliyor...",
+      "link": "https://www.ekonomim.com/ekonomi/benzin-ve-motorine-buyuk-zam-geliyor-tarih-belli-oldu-haberi-933794",
+      "tarih": "2026-11-27T08:05:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Gözler 1 Aralık'ta: Elektrik ve doğalgazda yeni tarife, akaryakıta rekor zam!",
+      "ozet": "1 Aralık itibarıyla akaryakıtta ÖTV düzenlemesiyle benzin ve motorine rekor zam bekleniyor. Motorin fiyatı, yeni haftada yapılacak zamla yeniden 90 TL'ye dayanacak. Milyonlarca abonenin merakla beklediği elektrik ve d...",
+      "link": "https://www.birgun.net/haber/gozler-1-aralik-ta-elektrik-ve-dogalgazda-yeni-tarife-akaryakita-rekor-zam-748736",
+      "tarih": "2026-11-27T07:41:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Brent petrol fiyatı 100 dolara yaklaştı!",
       "ozet": "Brent petrolün ocak vadeli varili, uluslararası piyasalarda 97,27 dolardan işlem görüyor.",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3680243-brent-petrol-fiyati-100-dolara-yaklasti",
       "tarih": "2026-11-27T07:18:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Trump: İran bunu yaparsa soykırım yaşanır",
+      "ozet": "Trump, İran'ın Avrupa'ya ulaşabilecek füzelere sahip olduğunu ve bunları kullanırsa \"nükleer bir felakete\" yol açabileceğini iddia etti. Orta Doğu'da petrol aramadıklarını ve İsrail'i korumak için orada olduklarını sö...",
+      "link": "https://www.haber7.com/dunya/haber/3680231-trump-iran-bunu-yaparsa-soykirim-yasanir",
+      "tarih": "2026-11-27T07:04:00.000Z",
       "kaynak": "HABER7"
     },
     {
@@ -80,13 +116,6 @@
       "kaynak": "YENISAFAK"
     },
     {
-      "baslik": "AVM otoparklarında LPG'li araç düzenlemesi: 2028'de yürürlüğe girecek",
-      "ozet": "Resmî Gazete'de yayımlanan yeni yangın yönetmeliğiyle teknik şartları sağlayan AVM kapalı otoparklarına LPG'li araçların girişine izin verildi. 1 Ocak 2028'de yürürlüğe girecek düzenlemeye göre TSE belgesi ve itfaiye ...",
-      "link": "https://www.ensonhaber.com/avm-kapali-otoparklarinda-lpgli-arac-yasagi-belirli-sartlarla-kalkiyor-h1586064",
-      "tarih": "2026-11-27T06:42:50.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
       "baslik": "Petrolde düşüş sürer mi? Bankacılık devi koşulları sıraladı",
       "ozet": "Standard Chartered, petrol fiyatlarındaki gerilemenin beklenen arz fazlasının önemli bölümünü şimdiden yansıttığını beli...",
       "link": "https://www.sozcu.com.tr/petrolde-dusus-surer-mi-bankacilik-devi-kosullari-siraladi-p384812",
@@ -108,13 +137,6 @@
       "kaynak": "CUMHURIYET"
     },
     {
-      "baslik": "İsrail’e petrol sevkiyatının kritik durağı Gürcistan: İlk tanıyan ülkelerden",
-      "ozet": "Beşiktaş maçı sonrası çıkan olaylar, Gürcistan’ın İsrail ile yakın ilişkilerini hatırlattı. Gürcistan’ın bağımsızlığını tanıyan 4’üncü ülke olan İsrail’e petrol sevkiyatının da yarısından fazlası Gürcistan üzerinden t...",
-      "link": "https://www.ensonhaber.com/israile-petrol-sevkiyatinin-kritik-duragi-gurcistan-ilk-taniyan-ulkelerden-h1586054",
-      "tarih": "2026-11-27T06:21:21.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
       "baslik": "LPG'li araç sahipleri dikkat! Şartlar açıklandı! Milyonlarca kişiyi ilgilendiren düzenleme",
       "ozet": "Mevzuata göre LPG ve CNG yakıt sistemli araçlar kapalı otoparklara giremiyor. Ancak TS 9881 standardını ve itfaiye onayını sağlayan alışveriş merkezi kapalı otoparkları için özel izin uygulanıyor.",
       "link": "https://www.haber7.com/otomobil/haber/3680193-lpgli-arac-sahipleri-dikkat-sartlar-aciklandi-milyonlarca-kisiyi-ilgilendiren-duzenleme",
@@ -122,25 +144,11 @@
       "kaynak": "HABER7"
     },
     {
-      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (27 Kasım 2026)",
-      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. Motorinin litre fiyatına ortalama 4,30 TL indirim yapıldı. Bugün itibarıyla pompaya yansı...",
-      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-27-kasim-2026-haberi-849043",
-      "tarih": "2026-11-27T05:39:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
       "baslik": "Küresel piyasalarda risk iştahı toparlanıyor",
       "ozet": "Orta Doğu'da enerji altyapısı ve tankerlere yönelik saldırıların ihracatı aksatabileceği endişesi petrol fiyatlarını desteklerken, Brent bu ayın ilk haftalık yükselişine yöneldi.",
       "link": "https://www.bloomberght.com/kuresel-piyasalarda-risk-istahi-toparlaniyor-3795881",
       "tarih": "2026-11-27T05:38:41.000Z",
       "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Motorin ucuzladı, gözler benzinde! İşte 27 Kasım 2026 güncel akaryakıt fiyatları",
-      "ozet": "Motorine gelen 4,32 TL'lik indirimin ardından akaryakıt fiyatlarında gözler benzine çevrildi. Benzin litre fiyatına indirim beklentisi gündeme gelirken, araç sahipleri İstanbul, Ankara ve İzmir'de güncel benzin ve mot...",
-      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/motorin-ucuzladi-gozler-benzinde-iste-27-kasim-2026-guncel-akaryakit-fiyatlari-galeri-933739",
-      "tarih": "2026-11-27T05:27:00.000Z",
-      "kaynak": "EKONOMIM"
     },
     {
       "baslik": "Petrolde jeopolitik gerilim sürüyor",
@@ -155,13 +163,6 @@
       "link": "https://www.sozcu.com.tr/petrol-dort-haftalik-dusus-serisini-bitirmeye-hazirlaniyor-p384778",
       "tarih": "2026-11-27T04:56:55.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Suudi Arabistan'daki Cazan Petrol Rafinerisi'ne saldırıda 1 işçi hayatını kaybetti",
-      "ozet": "Suudi Arabistan'ın güneybatısındaki Cazan bölgesinde bulunan petrol rafinerisine düzenlenen saldırıda bir işçi hayatını kaybetti, birkaç kişi yaralandı.",
-      "link": "https://www.trthaber.com/haber/dunya/suudi-arabistandaki-cazan-petrol-rafinerisine-saldirida-1-isci-hayatini-kaybetti-964584.html",
-      "tarih": "2026-11-26T18:27:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Kerkük-Ceyhan boru hattı tek alternatifleri! Hürmüz krizi sonrası Türkiye, Körfez'in petrol devinin radarında",
