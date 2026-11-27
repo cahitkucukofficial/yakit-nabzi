@@ -1,10 +1,10 @@
 {
-  "guncelleme": "2026-11-27T12:36:15.625Z",
+  "guncelleme": "2026-11-27T12:54:04.978Z",
   "kaynaklar": [
+    "TRTHABER",
     "STAR",
     "AKSAM",
     "EKONOMIM",
-    "TRTHABER",
     "BLOOMBERGHT",
     "SABAH",
     "ENSONHABER",
@@ -41,6 +41,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "IrakTürkiye petrol boru hattı yeniden faaliyete geçecek",
+      "ozet": "Irak, 12 yıldır kapalı olan eski IrakTürkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşmas...",
+      "link": "https://www.trthaber.com/haber/ekonomi/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-gececek-964663.html",
+      "tarih": "2026-11-27T12:38:00.000Z",
+      "kaynak": "TRTHABER"
+    },
     {
       "baslik": "12 yıllık ara sona eriyor! Günde 500 bin varil petrol akacak",
       "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
@@ -116,13 +123,6 @@
       "ozet": "ABD Başkanı Donald Trump, Bağdat ile Erbil arasında petrol sahaları ve sınır kapılarının denetimine ilişkin gerilimin yükseldiği dönemde Irak Başbakanı Ali el-Zeydi'nin yolsuzluk ve petrol kaçakçılığıyla mücadele adım...",
       "link": "https://www.ensonhaber.com/donald-trump-irak-basbakaninin-devlet-otoritesini-koruma-cabasini-destekliyorum-h1586157",
       "tarih": "2026-11-27T10:30:01.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
-      "baslik": "Malatya'da yüzde 56 görme engelli vatandaş hurda malzemelerden bahçe işlerinde kullanmak için araç üretti",
-      "ozet": "Malatya'da yüzde 56 görme engelli Serdar Gedikli, bahçe işlerinde kullanmak için hurda malzemelerden araç üretti. Bu araçla traktörün yaktığı mazotun 3'te 1'ine işlerini görebildiğini belirten Gedikli, devlet desteği ...",
-      "link": "https://www.ensonhaber.com/malatyada-yuzde-56-gorme-engelli-vatandas-hurda-malzemelerden-bahce-islerinde-kullanmak-ic-h1586151",
-      "tarih": "2026-11-27T10:05:22.000Z",
       "kaynak": "ENSONHABER"
     },
     {
@@ -263,13 +263,6 @@
       "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-21-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2558016",
       "tarih": "2026-11-21T07:03:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzinde hesap değişti, indirim kapıda: Gözler 21 Kasım’da",
-      "ozet": "EPDK, benzin fiyatlarının hesaplanmasında kullanılan yoğunluk değerini değiştirirken motorin için mevcut uygulamayı korudu. Düzenlemenin ardından sektör kaynakları, benzinde hafta sonundan itibaren yeni bir indirim be...",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzinde-hesap-degisti-indirim-kapida-gozler-21-kasim-da-2557795",
-      "tarih": "2026-11-20T08:11:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
