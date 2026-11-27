@@ -1,16 +1,16 @@
 {
-  "guncelleme": "2026-11-27T10:46:01.642Z",
+  "guncelleme": "2026-11-27T11:41:10.815Z",
   "kaynaklar": [
+    "BLOOMBERGHT",
+    "STAR",
+    "SABAH",
     "ENSONHABER",
     "CUMHURIYET",
     "EKONOMIM",
     "BIRGUN",
-    "STAR",
     "HABER7",
     "YENISAFAK",
-    "SOZCU",
-    "BLOOMBERGHT",
-    "HABERTURK"
+    "SOZCU"
   ],
   "beklenti": {
     "motorin": {
@@ -41,6 +41,41 @@
   },
   "haberler": [
     {
+      "baslik": "Irak: IKBY üzerinden petrol kaçakçılığının ülkeye maliyeti yaklaşık 100 milyar dolar",
+      "ozet": "Irak Hükümet Sözcüsü Haydar el-Abbudi, 2008-2025 yıllarında Irak Kürt Bölgesel Yönetimi (IKBY) üzerinden gerçekleştirilen petrol kaçakçılığı nedeniyle ülkenin yaklaşık 100 milyar dolar zarara uğradığını belirtti.",
+      "link": "https://www.bloomberght.com/irak-ikby-uzerinden-petrol-kacakciliginin-ulkeye-maliyeti-yaklasik-100-milyar-dolar-3795956",
+      "tarih": "2026-11-27T11:04:06.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Rusya duyurdu: Gazprom ve BOTAŞ arasındaki sözleşme uzatıldı",
+      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, Rus enerji şirketi Gazprom ile Boru Hatları ile Petrol Taşıma AŞ'nin (BOTAŞ) Türkiye'ye doğal gaz sevkiyatına yönelik sözleşmeyi mevcut koşullarla 3 yıl uzattığını açıkladı.",
+      "link": "https://www.star.com.tr/ekonomi/rusya-duyurdu-gazprom-ve-botas-arasindaki-sozlesme-uzatildi-haber-2056129/",
+      "tarih": "2026-11-27T10:57:00.000Z",
+      "kaynak": "STAR"
+    },
+    {
+      "baslik": "Gazprom ve BOTAŞ'tan doğal gaz anlaşması! Türkiye'ye sevkiyat 3 yıl daha sürecek",
+      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, Rus enerji şirketi Gazprom ile Boru Hatları ile Petrol Taşıma AŞ'nin (BOTAŞ) Türkiye'ye doğal gaz sevkiyatına yönelik sözleşmeyi mevcut koşullarla 3 yıl uzattığını...Devamı i...",
+      "link": "https://www.sabah.com.tr/ekonomi/gazprom-ve-botastan-dogal-gaz-anlasmasi-turkiyeye-sevkiyat-3-yil-daha-surecek-7710491",
+      "tarih": "2026-11-27T10:52:37.000Z",
+      "kaynak": "SABAH"
+    },
+    {
+      "baslik": "Gazprom ve BOTAŞ doğalgaz sözleşmesini 3 yıl uzattı",
+      "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, Rus enerji şirketi Gazprom ile Boru Hatları ile Petrol Taşıma AŞ'nin (BOTAŞ) Türkiye'ye doğalgaz sevkiyatına yönelik sözleşmeyi mevcut koşullarla 3 yıl uzattığını açıkladı.",
+      "link": "https://www.bloomberght.com/gazprom-ve-botas-dogalgaz-sozlesmesini-3-yil-uzatti-3795954",
+      "tarih": "2026-11-27T10:51:37.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Trump: Irak Başbakanı Zeydi’nin devlet otoritesini kurma çabalarını destekliyorum",
+      "ozet": "ABD Başkanı Donald Trump, Bağdat ile Erbil arasında petrol sahaları ve sınır kapılarının denetimine ilişkin gerilimin yükseldiği dönemde Irak Başbakanı Ali el-Zeydi'nin yolsuzluk ve petrol kaçakçılığıyla mücadele adım...",
+      "link": "https://www.ensonhaber.com/donald-trump-irak-basbakaninin-devlet-otoritesini-koruma-cabasini-destekliyorum-h1586157",
+      "tarih": "2026-11-27T10:30:01.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
       "baslik": "Malatya'da yüzde 56 görme engelli vatandaş hurda malzemelerden bahçe işlerinde kullanmak için araç üretti",
       "ozet": "Malatya'da yüzde 56 görme engelli Serdar Gedikli, bahçe işlerinde kullanmak için hurda malzemelerden araç üretti. Bu araçla traktörün yaktığı mazotun 3'te 1'ine işlerini görebildiğini belirten Gedikli, devlet desteği ...",
       "link": "https://www.ensonhaber.com/malatyada-yuzde-56-gorme-engelli-vatandas-hurda-malzemelerden-bahce-islerinde-kullanmak-ic-h1586151",
@@ -53,13 +88,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
       "tarih": "2026-11-27T10:03:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "İran: ABD'nin el koyduğu iki petrol tankerini geri aldık",
-      "ozet": "İran Ordusu Deniz Kuvvetleri Komutanı Tuğamiral Şehram İrani, ABD'nin el koyduğu İran'a ait iki petrol tankerinin, ABD askerlerinin uyuduğu sırada düzenlenen operasyonla geri alındığını öne sürdü.",
-      "link": "https://www.ensonhaber.com/iran-abdnin-el-koydugu-iki-petrol-tankerini-geri-aldik-h1586131",
-      "tarih": "2026-11-27T09:17:48.000Z",
-      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "Petrolde düşüş derinleşecek mi? Standard Chartered'dan yeni analiz",
@@ -76,13 +104,6 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "Türkiye iki deniz sahasına ortak oldu! Yeni dönemin başladığı ülke için sinyal verildi",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin Chevron ile imzalanan anlaşma kapsamında Afrika'nın batısında yer alan Gine-Bissau'da iki deniz sahasına ortak olduğunu belirterek, \"Libya'dan da böyle...",
-      "link": "https://www.star.com.tr/ekonomi/turkiye-iki-deniz-sahasina-ortak-oldu-yeni-donemin-basladigi-ulke-icin-sinyal-verildi-haber-2056082/",
-      "tarih": "2026-11-27T08:14:00.000Z",
-      "kaynak": "STAR"
-    },
-    {
       "baslik": "Gözler 1 Aralık'ta: Elektrik ve doğalgazda yeni tarife, akaryakıta rekor zam!",
       "ozet": "1 Aralık itibarıyla akaryakıtta ÖTV düzenlemesiyle benzin ve motorine rekor zam bekleniyor. Motorin fiyatı, yeni haftada yapılacak zamla yeniden 90 TL'ye dayanacak. Milyonlarca abonenin merakla beklediği elektrik ve d...",
       "link": "https://www.birgun.net/haber/gozler-1-aralik-ta-elektrik-ve-dogalgazda-yeni-tarife-akaryakita-rekor-zam-748736",
@@ -94,20 +115,6 @@
       "ozet": "Brent petrolün ocak vadeli varili, uluslararası piyasalarda 97,27 dolardan işlem görüyor.",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3680243-brent-petrol-fiyati-100-dolara-yaklasti",
       "tarih": "2026-11-27T07:18:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Trump: İran bunu yaparsa soykırım yaşanır",
-      "ozet": "Trump, İran'ın Avrupa'ya ulaşabilecek füzelere sahip olduğunu ve bunları kullanırsa \"nükleer bir felakete\" yol açabileceğini iddia etti. Orta Doğu'da petrol aramadıklarını ve İsrail'i korumak için orada olduklarını sö...",
-      "link": "https://www.haber7.com/dunya/haber/3680231-trump-iran-bunu-yaparsa-soykirim-yasanir",
-      "tarih": "2026-11-27T07:04:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "Cazan'daki petrol rafinerisine saldırı: 1 işçi hayatını kaybetti",
-      "ozet": "Suudi Arabistan'ın güneybatısındaki Cazan bölgesinde bulunan petrol rafinerisine düzenlenen saldırıda bir işçi hayatını kaybetti, birkaç kişi yaralandı.",
-      "link": "https://www.haber7.com/dunya/haber/3680230-cazandaki-petrol-rafinerisine-saldiri-1-isci-hayatini-kaybetti",
-      "tarih": "2026-11-27T07:01:00.000Z",
       "kaynak": "HABER7"
     },
     {
@@ -130,13 +137,6 @@
       "link": "https://www.sozcu.com.tr/petrolde-dusus-surer-mi-bankacilik-devi-kosullari-siraladi-p384812",
       "tarih": "2026-11-27T06:39:32.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Motorine indirim geldi! Gözler artık benzin fiyatlarında",
-      "ozet": "Motorine gelen 4,32 TL'lik indirimin ardından akaryakıt fiyatlarında gözler benzine çevrildi. Benzin litre fiyatına indirim beklentisi gündeme gelirken, araç sahipleri güncel benzin ve motorin fiyatlarını araştırmaya ...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3680220-motorine-indirim-geldi-gozler-artik-benzin-fiyatlarinda",
-      "tarih": "2026-11-27T06:35:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 27 Kasım 2027 Perşembe İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
@@ -193,20 +193,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/motorine-indirim-geldi-benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-26-kasim-2026-persembe-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2559520",
       "tarih": "2026-11-26T06:19:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Motorine indirim geldi",
-      "ozet": "Motorinin litre fiyatına ortalama 4,30 TL indirim geldi. İndirimli fiyatlar bugün itibarıyla pompaya yansıdı. Böylelikle tüm şehirlerde motorin litre fiyatı 90 TL'nin altına düştü",
-      "link": "https://www.haberturk.com/ekonomi/son-dakika-motorine-buyuk-indirim-geldi-iste-26-kasim-persembe-guncel-motorin-benzin-lpg-fiyatlari-3930198",
-      "tarih": "2026-11-26T04:59:22.000Z",
-      "kaynak": "HABERTURK"
-    },
-    {
-      "baslik": "Petrolde tehlike çanları çalıyor: Pazar günü dananın kuyruğu kopacak",
-      "ozet": "Hürmüz Boğazı’nda üç gemiye daha saldırı düzenlendiği bildirilirken Husiler, Suudi Arabistan’daki rafineri ve limanları ...",
-      "link": "https://www.sozcu.com.tr/petrolde-tehlike-canlari-caliyor-pazar-gunu-dananin-kuyrugu-kopacak-p384469",
-      "tarih": "2026-11-26T04:46:09.000Z",
-      "kaynak": "SOZCU"
     },
     {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 25 Kasım 2026 Salı İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
