@@ -1,13 +1,13 @@
 {
-  "guncelleme": "2026-11-27T05:15:13.425Z",
+  "guncelleme": "2026-11-27T06:10:20.518Z",
   "kaynaklar": [
+    "HABER7",
+    "DUNYA",
+    "BLOOMBERGHT",
     "EKONOMIM",
     "SOZCU",
-    "DUNYA",
-    "HABER7",
     "TRTHABER",
     "STAR",
-    "BLOOMBERGHT",
     "BIRGUN",
     "HABERTURK",
     "YENISAFAK",
@@ -15,7 +15,26 @@
   ],
   "beklenti": {
     "motorin": {
-      "expected": false
+      "expected": true,
+      "direction": "dusus",
+      "amount": 4.32,
+      "tarih": "2026-11-27",
+      "tarihDurumu": "tek-kaynak",
+      "tarihDogrulayanSayisi": 1,
+      "tarihAdaylari": [
+        "2026-11-27"
+      ],
+      "dogrulayanKaynakSayisi": 1,
+      "kaynaklar": [
+        {
+          "kaynak": "EKONOMIM",
+          "kaynakLink": "https://www.ekonomim.com/foto-galeri/ekonomi/motorin-ucuzladi-gozler-benzinde-iste-27-kasim-2026-guncel-akaryakit-fiyatlari-galeri-933739",
+          "tarih": "2026-11-27"
+        }
+      ],
+      "kaynakBaslik": "Motorin ucuzladı, gözler benzinde! İşte 27 Kasım 2026 güncel akaryakıt fiyatları",
+      "kaynak": "EKONOMIM",
+      "kaynakLink": "https://www.ekonomim.com/foto-galeri/ekonomi/motorin-ucuzladi-gozler-benzinde-iste-27-kasim-2026-guncel-akaryakit-fiyatlari-galeri-933739"
     },
     "benzin": {
       "expected": false
@@ -26,6 +45,41 @@
   },
   "gundem": {},
   "haberler": [
+    {
+      "baslik": "LPG'li araç sahipleri dikkat! Şartlar açıklandı! Milyonlarca kişiyi ilgilendiren düzenleme",
+      "ozet": "Mevzuata göre LPG ve CNG yakıt sistemli araçlar kapalı otoparklara giremiyor. Ancak TS 9881 standardını ve itfaiye onayını sağlayan alışveriş merkezi kapalı otoparkları için özel izin uygulanıyor.",
+      "link": "https://www.haber7.com/otomobil/haber/3680193-lpgli-arac-sahipleri-dikkat-sartlar-aciklandi-milyonlarca-kisiyi-ilgilendiren-duzenleme",
+      "tarih": "2026-11-27T05:46:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (27 Kasım 2026)",
+      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. Motorinin litre fiyatına ortalama 4,30 TL indirim yapıldı. Bugün itibarıyla pompaya yansı...",
+      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-27-kasim-2026-haberi-849043",
+      "tarih": "2026-11-27T05:39:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Küresel piyasalarda risk iştahı toparlanıyor",
+      "ozet": "Orta Doğu'da enerji altyapısı ve tankerlere yönelik saldırıların ihracatı aksatabileceği endişesi petrol fiyatlarını desteklerken, Brent bu ayın ilk haftalık yükselişine yöneldi.",
+      "link": "https://www.bloomberght.com/kuresel-piyasalarda-risk-istahi-toparlaniyor-3795881",
+      "tarih": "2026-11-27T05:38:41.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
+    {
+      "baslik": "Motorin ucuzladı, gözler benzinde! İşte 27 Kasım 2026 güncel akaryakıt fiyatları",
+      "ozet": "Motorine gelen 4,32 TL'lik indirimin ardından akaryakıt fiyatlarında gözler benzine çevrildi. Benzin litre fiyatına indirim beklentisi gündeme gelirken, araç sahipleri İstanbul, Ankara ve İzmir'de güncel benzin ve mot...",
+      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/motorin-ucuzladi-gozler-benzinde-iste-27-kasim-2026-guncel-akaryakit-fiyatlari-galeri-933739",
+      "tarih": "2026-11-27T05:27:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Petrolde jeopolitik gerilim sürüyor",
+      "ozet": "Petrol fiyatları, Orta Doğu'da enerji altyapısına ve tankerlere yönelik saldırıların çatışmaların tırmanarak ihracatı aksatabileceğine dair endişeleri artırmasıyla bu ayki ilk haftalık kazancını kaydetme yoluna girdi.",
+      "link": "https://www.bloomberght.com/petrolde-jeopolitik-gerilim-suruyor-3795874",
+      "tarih": "2026-11-27T05:22:35.000Z",
+      "kaynak": "BLOOMBERGHT"
+    },
     {
       "baslik": "Petrolde 100 dolar alarmı! Ortadoğu'daki saldırılar fiyatları yükseltti: Gözler OPEC+ toplantısında",
       "ozet": "Petrol fiyatları, Ortadoğu'daki enerji tesisleri ve tankerleri hedef alan saldırıların küresel arz endişelerini artırmasıyla ayın en yüksek seviyelerine yakın seyrediyor. Dört haftalık düşüş serisinin ardından ilk haf...",
@@ -39,13 +93,6 @@
       "link": "https://www.sozcu.com.tr/petrol-dort-haftalik-dusus-serisini-bitirmeye-hazirlaniyor-p384778",
       "tarih": "2026-11-27T04:56:55.000Z",
       "kaynak": "SOZCU"
-    },
-    {
-      "baslik": "Petrol fiyatları yeniden yükselişte: Gözler pazar günkü üretim kararına çevrildi",
-      "ozet": "Orta Doğu'da enerji tesislerine yönelik saldırılar ve petrol arzına ilişkin endişeler fiyatları destekliyor. Brent petrol 92 doları aşarken piyasalar OPEC+ ülkelerinin 29 Kasım'da gerçekleştireceği kritik üretim topla...",
-      "link": "https://www.dunya.com/ekonomi/petrol-fiyatlari-yeniden-yukseliste-gozler-pazar-gunku-uretim-kararina-cevrildi-haberi-849024",
-      "tarih": "2026-11-27T03:25:00.000Z",
-      "kaynak": "DUNYA"
     },
     {
       "baslik": "Venezuela'nın en büyük petrol rafinerisinde yangın! İşçiler tahliye edildi",
