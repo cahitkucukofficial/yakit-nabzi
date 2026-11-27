@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-27T03:24:57.472Z",
+  "guncelleme": "2026-11-27T04:20:03.842Z",
   "kaynaklar": [
+    "DUNYA",
     "HABER7",
     "TRTHABER",
     "STAR",
@@ -24,6 +25,13 @@
   },
   "gundem": {},
   "haberler": [
+    {
+      "baslik": "Petrol fiyatları yeniden yükselişte: Gözler pazar günkü üretim kararına çevrildi",
+      "ozet": "Orta Doğu'da enerji tesislerine yönelik saldırılar ve petrol arzına ilişkin endişeler fiyatları destekliyor. Brent petrol 92 doları aşarken piyasalar OPEC+ ülkelerinin 29 Kasım'da gerçekleştireceği kritik üretim topla...",
+      "link": "https://www.dunya.com/ekonomi/petrol-fiyatlari-yeniden-yukseliste-gozler-pazar-gunku-uretim-kararina-cevrildi-haberi-849024",
+      "tarih": "2026-11-27T03:25:00.000Z",
+      "kaynak": "DUNYA"
+    },
     {
       "baslik": "Venezuela'nın en büyük petrol rafinerisinde yangın! İşçiler tahliye edildi",
       "ozet": "Venezuela'nın en büyük petrol rafinerisi Amuay'da çıkan yangın paniğe neden oldu. İşçiler tahliye edilirken alevler yaralanma yaşanmadan kontrol altına alındı. Yangının yakıt dağıtımını etkilemediği açıklandı.",
@@ -106,13 +114,6 @@
       "ozet": "Petrol fiyatları, Orta Doğu'da devam eden çatışmaların bölgedeki ham petrol ihracatındaki toparlanmayı sekteye uğratma tehdidi oluşturmasıyla kazançlarını genişletti.",
       "link": "https://www.bloomberght.com/petrolde-yeniden-jeopolitik-gerginlik-3795710",
       "tarih": "2026-11-26T06:13:33.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Motorine indirim geldi",
-      "ozet": "Motorinin litre fiyatına 26 Kasım tarihinden itibaren geçerli olmak üzere 4,30 TL indirim geldi.",
-      "link": "https://www.bloomberght.com/motorine-indirim-geldi-3795704",
-      "tarih": "2026-11-26T05:19:36.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
