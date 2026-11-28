@@ -1,12 +1,13 @@
 {
-  "guncelleme": "2026-11-28T11:34:39.262Z",
+  "guncelleme": "2026-11-28T12:29:45.075Z",
   "kaynaklar": [
     "BIRGUN",
+    "DUNYA",
+    "HABERTURK",
     "HABER7",
     "TRTHABER",
     "CUMHURIYET",
     "YENISAFAK",
-    "SABAH",
     "STAR",
     "BLOOMBERGHT",
     "SOZCU"
@@ -39,6 +40,27 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Muğlaspor-Mardin 1969 Spor maçı ne zaman, saat kaçta, hangi kanalda? Maç yayın bilgileri",
+      "ozet": "Muğlaspor-Mardin 1969 Spor maçı, Trendyol 1. Lig'in 16. haftasında futbolseverlerin merakla beklediği karşılaşmalar arasında yer alıyor. Geçtiğimiz hafta Batman Petrolspor'a mağlup olan Muğlaspor, taraftarı önünde kaz...",
+      "link": "https://www.birgun.net/haber/muglaspor-mardin-1969-spor-maci-ne-zaman-saat-kacta-hangi-kanalda-mac-yayin-bilgileri-748947",
+      "tarih": "2026-11-28T12:28:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
+      "baslik": "Petrol devinden tarihi hamle: Afrika borsalarında dengeler değişiyor",
+      "ozet": "Nijeryalı milyarder Aliko Dangote'nin kurduğu dünyanın en büyük petrol rafinerilerinden Dangote Rafinerisi, 47 milyar dolarlık tahmini piyasa değeriyle Afrika'nın en büyük borsa listelemesine hazırlanıyor. Halka arza ...",
+      "link": "https://www.dunya.com/ekonomi/petrol-devinden-tarihi-hamle-afrika-borsalarinda-dengeler-degisiyor-haberi-849184",
+      "tarih": "2026-11-28T12:17:00.000Z",
+      "kaynak": "DUNYA"
+    },
+    {
+      "baslik": "Borsa, altın, dolar ve petrolde hareketli hafta",
+      "ozet": "Fed'e ilişkin parasal sıkılaşma beklentileriyle Eylül 2025'ten bu yana ilk defa 3 bin 500 doların altına inen altının onsu daha sonra gelen tepki alımlarıyla haftayı yüzde 2,5 artışla 3 bin 654 dolardan tamamladı. Hür...",
+      "link": "https://www.haberturk.com/ekonomi/borsa-altin-dolar-ve-petrolde-hareketli-hafta-3930828",
+      "tarih": "2026-11-28T11:35:38.000Z",
+      "kaynak": "HABERTURK"
+    },
     {
       "baslik": "Bandırmaspor-Batman Petrolspor maçı ne zaman, saat kaçta, hangi kanalda? Maç yayın bilgileri",
       "ozet": "Bandırmaspor-Batman Petrolspor maçı için heyecanlı bekleyiş başladı. Trendyol 1. Lig'in 16. haftasında oynanacak mücadelede iki ekip, 28 Kasım 2026 Cumartesi günü Bandırma 17 Eylül Stadyumu'nda karşı karşıya gelecek. ...",
@@ -94,13 +116,6 @@
       "link": "https://www.yenisafak.com/galeri/ekonomi/son-dakika-akaryakita-zam-geliyor-benzin-motorin-lpgde-guncel-fiyatlar-4877195",
       "tarih": "2026-11-27T13:20:26.000Z",
       "kaynak": "YENISAFAK"
-    },
-    {
-      "baslik": "Türkiye'ye komşudan petrol akacak! 12 yıldır kapalı olan eski hat yeniden açılıyor",
-      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden devreye almak için çalışmalara başladı. Hattın ilk aşamada günlük 300 bin varil, sonraki aşamada ise 500 bin varil petrol taşıması...Devamı içi...",
-      "link": "https://www.sabah.com.tr/ekonomi/turkiyeye-komsudan-petrol-akacak-12-yildir-kapali-olan-eski-hat-yeniden-aciliyor-7710572",
-      "tarih": "2026-11-27T12:59:59.000Z",
-      "kaynak": "SABAH"
     },
     {
       "baslik": "12 yıllık ara sona eriyor! Günde 500 bin varil petrol akacak",
