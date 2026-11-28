@@ -1,11 +1,11 @@
 {
-  "guncelleme": "2026-11-28T15:15:10.139Z",
+  "guncelleme": "2026-11-28T16:10:12.978Z",
   "kaynaklar": [
+    "HABER7",
     "BIRGUN",
     "ENSONHABER",
     "DUNYA",
     "HABERTURK",
-    "HABER7",
     "TRTHABER",
     "CUMHURIYET",
     "YENISAFAK",
@@ -23,23 +23,15 @@
       "expected": false
     }
   },
-  "gundem": {
-    "motorin": {
-      "yon": "artis",
-      "baslik": "Benzin ve motorine dev zam yolda: Tabelalar 1 Aralık'ta değişecek",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
-      "kaynak": "CUMHURIYET",
-      "tarih": "2026-11-27T10:03:00.000Z"
-    },
-    "benzin": {
-      "yon": "artis",
-      "baslik": "Benzin ve motorine dev zam yolda: Tabelalar 1 Aralık'ta değişecek",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
-      "kaynak": "CUMHURIYET",
-      "tarih": "2026-11-27T10:03:00.000Z"
-    }
-  },
+  "gundem": {},
   "haberler": [
+    {
+      "baslik": "Gaziantepli çiftçilere 5 yılda yüzde yüz hibe 21.5 milyon litre mazot dağıtıldı",
+      "ozet": "Gaziantep Büyükşehir Belediyesi, 2026 yılı mazot desteklerini Gaziantep Büyükşehir Belediye Başkanı Fatma Şahin’in katıldığı törenle başlattı. Üreticilerden büyük beğeni toplayan mazot desteğinin yeni dönem dağıtımlar...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3680634-gaziantepli-ciftcilere-5-yilda-yuzde-yuz-hibe-215-milyon-litre-mazot-dagitildi",
+      "tarih": "2026-11-28T16:01:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "Batman Petrolspor, Bandırmaspor deplasmanında dört golle kazandı",
       "ozet": "Batman Petrolspor, deplasmanda Bandırmaspor’u 4-1 mağlup ederek puanını 30’a yükseltti. Konuk ekipte Gökhan Altıparmak iki gol atarken, Bandırmaspor karşılaşmayı 10 kişi tamamladı.",
@@ -81,20 +73,6 @@
       "link": "https://www.birgun.net/haber/bandirmaspor-batman-petrolspor-maci-ne-zaman-saat-kacta-hangi-kanalda-mac-yayin-bilgileri-748938",
       "tarih": "2026-11-28T09:06:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Irak, 12 yıldır kapalı Türkiye petrol boru hattını açmaya hazırlanıyor",
-      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
-      "link": "https://ekonomi.haber7.com/ekonomi/haber/3680539-irak-12-yildir-kapali-turkiye-petrol-boru-hattini-acmaya-hazirlaniyor",
-      "tarih": "2026-11-28T08:35:00.000Z",
-      "kaynak": "HABER7"
-    },
-    {
-      "baslik": "İran'dan Hürmüz açıklaması: 2 petrol tankeri daha patladı!",
-      "ozet": "Devrim Muhafızları Ordusu, biri Umman kıyısında diğeri Hürmüz Boğazı'nın doğusunda izinsiz geçiş yapmaya çalışan 2 petrol tankerinin mayınlara çarparak patladığını ve yangın çıktığını açıkladı. Bölgede vurulan gemi sa...",
-      "link": "https://www.haber7.com/dunya/haber/3680528-irandan-hurmuz-aciklamasi-2-petrol-tankeri-daha-patladi",
-      "tarih": "2026-11-28T08:12:00.000Z",
-      "kaynak": "HABER7"
     },
     {
       "baslik": "İran: Hürmüz Boğazı ve Umman kıyıları yakınlarında 2 petrol tankeri deniz mayınına çarptı",
