@@ -1,12 +1,11 @@
 {
-  "guncelleme": "2026-11-28T08:49:16.190Z",
+  "guncelleme": "2026-11-28T09:44:24.695Z",
   "kaynaklar": [
+    "BIRGUN",
     "HABER7",
     "TRTHABER",
     "CUMHURIYET",
     "DUNYA",
-    "EKONOMIM",
-    "BIRGUN",
     "YENISAFAK",
     "SABAH",
     "STAR",
@@ -42,6 +41,13 @@
   },
   "haberler": [
     {
+      "baslik": "Bandırmaspor-Batman Petrolspor maçı ne zaman, saat kaçta, hangi kanalda? Maç yayın bilgileri",
+      "ozet": "Bandırmaspor-Batman Petrolspor maçı için heyecanlı bekleyiş başladı. Trendyol 1. Lig'in 16. haftasında oynanacak mücadelede iki ekip, 28 Kasım 2026 Cumartesi günü Bandırma 17 Eylül Stadyumu'nda karşı karşıya gelecek. ...",
+      "link": "https://www.birgun.net/haber/bandirmaspor-batman-petrolspor-maci-ne-zaman-saat-kacta-hangi-kanalda-mac-yayin-bilgileri-748938",
+      "tarih": "2026-11-28T09:06:00.000Z",
+      "kaynak": "BIRGUN"
+    },
+    {
       "baslik": "Irak, 12 yıldır kapalı Türkiye petrol boru hattını açmaya hazırlanıyor",
       "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3680539-irak-12-yildir-kapali-turkiye-petrol-boru-hattini-acmaya-hazirlaniyor",
@@ -74,20 +80,6 @@
       "ozet": "İran, Hürmüz Boğazı'nda tek taraflı olarak belirlediği geçiş kurallarına uymadığını öne sürdüğü 260'tan fazla gemiyi listeye aldı. Römorkörlerin de listeye eklenmesi, küresel enerji taşımacılığında güvenlik ve maliyet...",
       "link": "https://www.dunya.com/gundem/iranin-hurmuz-listesindeki-gemi-sayisi-260i-asti-petrol-tasimaciliginda-yeni-risk-haberi-849154",
       "tarih": "2026-11-28T05:47:00.000Z",
-      "kaynak": "DUNYA"
-    },
-    {
-      "baslik": "Benzin, motorin ve LPG fiyatları değişti mi? İşte 28 Kasım 2026 güncel akaryakıt fiyatları",
-      "ozet": "28 Kasım 2026 Cumartesi günü benzin, motorin (mazot) ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Döviz kuru, Brent petrol fiyatları ve vergi düzenlemelerindeki değişimler akaryakıt tabelalarına...",
-      "link": "https://www.ekonomim.com/foto-galeri/ekonomi/benzin-motorin-ve-lpg-fiyatlari-degisti-mi-iste-28-kasim-2026-guncel-akaryakit-fiyatlari-galeri-933943",
-      "tarih": "2026-11-28T05:33:00.000Z",
-      "kaynak": "EKONOMIM"
-    },
-    {
-      "baslik": "Akaryakıt fiyatlarında son durum! Benzin, motorin ve LPG'ye zam, indirim var mı? (28 Kasım 2026)",
-      "ozet": "Döviz kuru ve petrol fiyatlarındaki hareketlilik ile vergilere yapılan zamlar akaryakıt fiyatlarını da etkilemeye devam ediyor. 28 Kasım 2026 benzin, motorin (mazot) fiyatları ne kadar, güncel akaryakıt fiyatları kaç ...",
-      "link": "https://www.dunya.com/enerji/akaryakit-fiyatlarinda-son-durum-benzin-motorin-ve-lpgye-zam-indirim-var-mi-28-kasim-2026-haberi-849150",
-      "tarih": "2026-11-28T04:55:00.000Z",
       "kaynak": "DUNYA"
     },
     {
@@ -165,20 +157,6 @@
       "ozet": "27 Kasım 2026 güncel akaryakıt fiyatları araç sahipleri tarafından yakından takip ediliyor. Benzin, motorin ve LPG fiyatlarında son durum merak edilirken motorinin litre fiyatına yapılan 4,30 TL'lik indirim dikkat çek...",
       "link": "https://www.birgun.net/haber/27-kasim-2026-benzin-motorin-lpg-fiyatlari-indirim-veya-zam-var-mi-guncel-akaryakit-fiyatlari-748749",
       "tarih": "2026-11-27T08:29:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Gözler 1 Aralık'ta: Elektrik ve doğalgazda yeni tarife, akaryakıta rekor zam!",
-      "ozet": "1 Aralık itibarıyla akaryakıtta ÖTV düzenlemesiyle benzin ve motorine rekor zam bekleniyor. Motorin fiyatı, yeni haftada yapılacak zamla yeniden 90 TL'ye dayanacak. Milyonlarca abonenin merakla beklediği elektrik ve d...",
-      "link": "https://www.birgun.net/haber/gozler-1-aralik-ta-elektrik-ve-dogalgazda-yeni-tarife-akaryakita-rekor-zam-748736",
-      "tarih": "2026-11-27T07:41:00.000Z",
-      "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Rusya jet yakıtı ihracatı yasağını 2027'ye uzattı",
-      "ozet": "Rusya hükümeti, iç piyasada akaryakıt arzını güvence altına almak amacıyla jet yakıtı ihracatına yönelik yasağın süresini 31 Mart 2027'ye kadar uzattı. Yeni karar 1 Aralık'ta yürürlüğe girerken hükümetler arası anlaşm...",
-      "link": "https://www.birgun.net/haber/rusya-jet-yakiti-ihracati-yasagini-2027-ye-uzatti-748727",
-      "tarih": "2026-11-27T07:00:00.000Z",
       "kaynak": "BIRGUN"
     },
     {
