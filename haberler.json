@@ -1,8 +1,9 @@
 {
-  "guncelleme": "2026-11-28T06:59:00.212Z",
+  "guncelleme": "2026-11-28T07:54:07.600Z",
   "kaynaklar": [
     "TRTHABER",
     "CUMHURIYET",
+    "ENSONHABER",
     "DUNYA",
     "EKONOMIM",
     "BIRGUN",
@@ -53,6 +54,13 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-28-kasim-2028-cumartesirtesi-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2560100",
       "tarih": "2026-11-28T06:27:00.000Z",
       "kaynak": "CUMHURIYET"
+    },
+    {
+      "baslik": "İran: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nda iki petrol tankerinin mayına çarptığını açıkladı.",
+      "link": "https://www.ensonhaber.com/iran-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-59730-h1586309",
+      "tarih": "2026-11-28T06:19:11.000Z",
+      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "İran'ın Hürmüz listesindeki gemi sayısı 260'ı aştı: Petrol taşımacılığında yeni risk",
