@@ -1,8 +1,8 @@
 {
-  "guncelleme": "2026-11-28T13:24:56.078Z",
+  "guncelleme": "2026-11-28T14:20:01.977Z",
   "kaynaklar": [
-    "ENSONHABER",
     "BIRGUN",
+    "ENSONHABER",
     "DUNYA",
     "HABERTURK",
     "HABER7",
@@ -41,6 +41,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Batman Petrolspor, Bandırmaspor deplasmanında dört golle kazandı",
+      "ozet": "Batman Petrolspor, deplasmanda Bandırmaspor’u 4-1 mağlup ederek puanını 30’a yükseltti. Konuk ekipte Gökhan Altıparmak iki gol atarken, Bandırmaspor karşılaşmayı 10 kişi tamamladı.",
+      "link": "https://www.birgun.net/haber/batman-petrolspor-bandirmaspor-deplasmaninda-dort-golle-kazandi-748983",
+      "tarih": "2026-11-28T13:01:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Batman Petrolspor taraftarlarının gol sevinci gündem oldu",
       "ozet": "1. Lig'in 16. haftasında deplasmanda Bandırmaspor'u 4-1 yenen Batman Petrolspor'da taraftarların yaptığı gol sevinci gündem oldu.",
