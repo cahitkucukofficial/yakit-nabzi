@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-28T08:14:23.485Z",
+  "guncelleme": "2026-11-28T08:49:16.190Z",
   "kaynaklar": [
+    "HABER7",
     "TRTHABER",
     "CUMHURIYET",
     "DUNYA",
@@ -40,6 +41,20 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Irak, 12 yıldır kapalı Türkiye petrol boru hattını açmaya hazırlanıyor",
+      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
+      "link": "https://ekonomi.haber7.com/ekonomi/haber/3680539-irak-12-yildir-kapali-turkiye-petrol-boru-hattini-acmaya-hazirlaniyor",
+      "tarih": "2026-11-28T08:35:00.000Z",
+      "kaynak": "HABER7"
+    },
+    {
+      "baslik": "İran'dan Hürmüz açıklaması: 2 petrol tankeri daha patladı!",
+      "ozet": "Devrim Muhafızları Ordusu, biri Umman kıyısında diğeri Hürmüz Boğazı'nın doğusunda izinsiz geçiş yapmaya çalışan 2 petrol tankerinin mayınlara çarparak patladığını ve yangın çıktığını açıkladı. Bölgede vurulan gemi sa...",
+      "link": "https://www.haber7.com/dunya/haber/3680528-irandan-hurmuz-aciklamasi-2-petrol-tankeri-daha-patladi",
+      "tarih": "2026-11-28T08:12:00.000Z",
+      "kaynak": "HABER7"
+    },
     {
       "baslik": "İran: Hürmüz Boğazı ve Umman kıyıları yakınlarında 2 petrol tankeri deniz mayınına çarptı",
       "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın doğusunda ve Umman kıyıları yakınlarında 2 petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
@@ -186,13 +201,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-27-kasim-2027-persembe-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2559823",
       "tarih": "2026-11-27T06:32:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Küresel piyasalarda risk iştahı toparlanıyor",
-      "ozet": "Orta Doğu'da enerji altyapısı ve tankerlere yönelik saldırıların ihracatı aksatabileceği endişesi petrol fiyatlarını desteklerken, Brent bu ayın ilk haftalık yükselişine yöneldi.",
-      "link": "https://www.bloomberght.com/kuresel-piyasalarda-risk-istahi-toparlaniyor-3795881",
-      "tarih": "2026-11-27T05:38:41.000Z",
-      "kaynak": "BLOOMBERGHT"
     },
     {
       "baslik": "Petrol dört haftalık düşüş serisini bitirmeye hazırlanıyor",
