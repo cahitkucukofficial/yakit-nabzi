@@ -1,10 +1,10 @@
 {
-  "guncelleme": "2026-11-28T20:45:56.763Z",
+  "guncelleme": "2026-11-28T21:41:02.827Z",
   "kaynaklar": [
     "AKSAM",
+    "TRTHABER",
     "ENSONHABER",
     "EKONOMIM",
-    "TRTHABER",
     "HABER7",
     "BIRGUN",
     "DUNYA",
@@ -28,11 +28,18 @@
   "gundem": {},
   "haberler": [
     {
-      "baslik": "Terörün gölgesinden petrolün merkezine! Gabar'da üretim 85 bin varile ulaştı",
-      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Gabar'da günde 85 bin varil petrol üretildiğini belirterek bu rakamın 2027'de 100 bin varilin üzerine çıkacağını söyledi. Bayraktar, Akkuyu, yenilenebilir enerji v...",
-      "link": "https://www.aksam.com.tr/guncel/terorun-golgesinden-petrolun-merkezine-gabarda-uretim-85-bin-varile-ulasti/haber-1718188",
-      "tarih": "2026-11-28T18:13:00.000Z",
+      "baslik": "Husiler, son 48 saatte Suudi Arabistan'a 5 saldırı düzenlediklerini duyurdu",
+      "ozet": "Yemen'deki Husiler, son 48 saat içinde Suudi Arabistan'da başkent Riyad'daki Kral Halid Uluslararası Havalimanı, radar sistemleri, petrol rafinerisi, gaz tesisi ve elektrik santrallerini hedef alan 5 saldırı düzenledi...",
+      "link": "https://www.aksam.com.tr/dunya/husiler-son-48-saatte-suudi-arabistana-5-saldiri-duzenlediklerini-duyurdu/haber-1718213",
+      "tarih": "2026-11-28T21:35:00.000Z",
       "kaynak": "AKSAM"
+    },
+    {
+      "baslik": "Husiler, son 48 saatte Suudi Arabistan'a 5 saldırı düzenlediklerini duyurdu",
+      "ozet": "Yemen'deki Husiler, son 48 saat içinde Suudi Arabistan'da başkent Riyad'daki Kral Halid Uluslararası Havalimanı, radar sistemleri, petrol rafinerisi, gaz tesisi ve elektrik santrallerini hedef alan 5 saldırı düzenledi...",
+      "link": "https://www.trthaber.com/haber/dunya/husiler-son-48-saatte-suudi-arabistana-5-saldiri-duzenlediklerini-duyurdu-964767.html",
+      "tarih": "2026-11-28T21:33:00.000Z",
+      "kaynak": "TRTHABER"
     },
     {
       "baslik": "Alparslan Bayraktar: Gabar'da 2027'de günlük 100 bin varilin üzerine çıkacağız",
@@ -98,13 +105,6 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "İran: Hürmüz Boğazı ve Umman kıyıları yakınlarında 2 petrol tankeri deniz mayınına çarptı",
-      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın doğusunda ve Umman kıyıları yakınlarında 2 petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
-      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazi-ve-umman-kiyilari-yakinlarinda-2-petrol-tankeri-deniz-mayinina-carpti-964716.html",
-      "tarih": "2026-11-28T06:32:00.000Z",
-      "kaynak": "TRTHABER"
-    },
-    {
       "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 28 Kasım 2028 Cumartesirtesi İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
       "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 28 Kasım 2028 Cumartesi İstanbul, Ankara, İzmir güncel akaryakıt fiyatl...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-28-kasim-2028-cumartesirtesi-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2560100",
@@ -159,13 +159,6 @@
       "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-ve-motorine-dev-zam-yolda-tabelalar-1-aralik-ta-degisecek-2559899",
       "tarih": "2026-11-27T10:03:00.000Z",
       "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Petrol fiyatlarında yükseliş: Hürmüz'deki saldırıları piyasaları hareketlendirdi",
-      "ozet": "Brent petrolün ocak vadeli varili 97,27 dolardan işlem görüyor. Hürmüz Boğazı'ndaki tanker saldırıları ve Suudi Arabistan'ın enerji altyapısının hedef alınması, Orta Doğu'dan petrol arzına ilişkin endişeleri artırdı.",
-      "link": "https://www.yenisafak.com/ekonomi/brent-petrol-9727-dolardan-islem-goruyor-4877024",
-      "tarih": "2026-11-27T06:54:28.000Z",
-      "kaynak": "YENISAFAK"
     },
     {
       "baslik": "Petrolde düşüş sürer mi? Bankacılık devi koşulları sıraladı",
