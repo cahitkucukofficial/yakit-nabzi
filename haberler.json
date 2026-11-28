@@ -1,12 +1,13 @@
 {
-  "guncelleme": "2026-11-28T16:10:12.978Z",
+  "guncelleme": "2026-11-28T17:05:22.457Z",
   "kaynaklar": [
+    "ENSONHABER",
+    "EKONOMIM",
+    "TRTHABER",
     "HABER7",
     "BIRGUN",
-    "ENSONHABER",
     "DUNYA",
     "HABERTURK",
-    "TRTHABER",
     "CUMHURIYET",
     "YENISAFAK",
     "BLOOMBERGHT",
@@ -26,6 +27,27 @@
   "gundem": {},
   "haberler": [
     {
+      "baslik": "Alparslan Bayraktar: Gabar'da 2027'de günlük 100 bin varilin üzerine çıkacağız",
+      "ozet": "Gabar'da mevcut günlük petrol üretim miktarının günlük 85 bin varil olduğunu ifade eden Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, 2027'de günlük 100 bin varilin üzerinde petrol üreteceklerini söyledi.",
+      "link": "https://www.ensonhaber.com/alparslan-bayraktar-gabarda-2027de-gunluk-100-bin-varilin-uzerine-cikacagiz-h1586491",
+      "tarih": "2026-11-28T16:59:58.000Z",
+      "kaynak": "ENSONHABER"
+    },
+    {
+      "baslik": "Petrol devi Dangote Rafinerisi rekor değerleme ile halka arz oluyor",
+      "ozet": "Nijeryalı Dangote Petrol Rafinerisi, yaklaşık 47 milyar dolarlık değerlemeyle Afrika tarihinin en büyük halka arzına hazırlanıyor. 120 ülkeden yatırımcının katıldığı süreçte hisse talebi satışa sunulan miktarı aşarken...",
+      "link": "https://www.ekonomim.com/kuresel-ekonomi/petrol-devi-dangote-rafinerisi-rekor-degerleme-ile-halka-arz-oluyor-haberi-934053",
+      "tarih": "2026-11-28T16:21:00.000Z",
+      "kaynak": "EKONOMIM"
+    },
+    {
+      "baslik": "Bakan Bayraktar: Osman Gazi Yüzer Üretim Platformu'nu birkaç gün içerisinde devreye alacağız",
+      "ozet": "Gabar'da 2027'de günlük 100 bin varilin üzerinde petrol üreteceklerini belirten Bakan Bayraktar, \"Osman Gazi Yüzer Üretim Platformu'nu birkaç gün içerisinde, aralık ayı içerisinde Karadeniz'de ilk gazı yakmak suretiyl...",
+      "link": "https://www.trthaber.com/haber/ekonomi/bakan-bayraktar-osman-gazi-yuzer-uretim-platformunu-birkac-gun-icerisinde-devreye-alacagiz-964753.html",
+      "tarih": "2026-11-28T16:13:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
       "baslik": "Gaziantepli çiftçilere 5 yılda yüzde yüz hibe 21.5 milyon litre mazot dağıtıldı",
       "ozet": "Gaziantep Büyükşehir Belediyesi, 2026 yılı mazot desteklerini Gaziantep Büyükşehir Belediye Başkanı Fatma Şahin’in katıldığı törenle başlattı. Üreticilerden büyük beğeni toplayan mazot desteğinin yeni dönem dağıtımlar...",
       "link": "https://ekonomi.haber7.com/ekonomi/haber/3680634-gaziantepli-ciftcilere-5-yilda-yuzde-yuz-hibe-215-milyon-litre-mazot-dagitildi",
@@ -38,13 +60,6 @@
       "link": "https://www.birgun.net/haber/batman-petrolspor-bandirmaspor-deplasmaninda-dort-golle-kazandi-748983",
       "tarih": "2026-11-28T13:01:00.000Z",
       "kaynak": "BIRGUN"
-    },
-    {
-      "baslik": "Batman Petrolspor taraftarlarının gol sevinci gündem oldu",
-      "ozet": "1. Lig'in 16. haftasında deplasmanda Bandırmaspor'u 4-1 yenen Batman Petrolspor'da taraftarların yaptığı gol sevinci gündem oldu.",
-      "link": "https://www.ensonhaber.com/batman-petrolspor-taraftarlarinin-gol-sevinci-gundem-oldu-h1586439",
-      "tarih": "2026-11-28T12:56:45.000Z",
-      "kaynak": "ENSONHABER"
     },
     {
       "baslik": "Muğlaspor-Mardin 1969 Spor maçı ne zaman, saat kaçta, hangi kanalda? Maç yayın bilgileri",
@@ -212,13 +227,6 @@
       "ozet": "Seçim sonrası iş koşullarındaki iyileşme ve enflasyon beklentilerindeki gerileme ABD’de tüketici güvenini 51,5 puana taşıdı. Ancak endeks, İran gerilimi öncesindeki şubat ayı seviyelerinin yüzde 9 altında kalmayı sürd...",
       "link": "https://www.cumhuriyet.com.tr/ekonomi/abd-de-tuketici-guveni-3-ayin-zirvesinde-benzin-rahatlatti-yapay-zeka-calkantisi-varlikli-kesimi-vurdu-2558076",
       "tarih": "2026-11-21T11:14:00.000Z",
-      "kaynak": "CUMHURIYET"
-    },
-    {
-      "baslik": "Benzine, mazota indirim, zam var mı? 21 Kasım Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "ozet": "Küresel piyasalardaki dalgalanma, döviz kurundaki oynaklık ve art arda gelen ÖTV zamları, akaryakıt fiyatlarını etkilemeye devam ediyor. Peki, Akaryakıt fiyatları ne kadar? Güncel yakıt fiyatları kaç TL?",
-      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzine-mazota-indirim-zam-var-mi-21-kasim-akaryakit-fiyatlari-ne-kadar-guncel-yakit-fiyatlari-kac-tl-2558016",
-      "tarih": "2026-11-21T07:03:00.000Z",
       "kaynak": "CUMHURIYET"
     }
   ]
