@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-28T01:28:12.538Z",
+  "guncelleme": "2026-11-28T02:23:21.338Z",
   "kaynaklar": [
+    "BIRGUN",
     "ENSONHABER",
     "YENISAFAK",
     "EKONOMIM",
@@ -9,7 +10,6 @@
     "STAR",
     "BLOOMBERGHT",
     "CUMHURIYET",
-    "BIRGUN",
     "SOZCU"
   ],
   "beklenti": {
@@ -40,6 +40,13 @@
     }
   },
   "haberler": [
+    {
+      "baslik": "Trump onaylı hamle Irak'ta fay hatlarını oynattı: Bağdat ve Erbil karşı karşıya",
+      "ozet": "Washington’ın merkezi otorite stratejisi Irak’ta dengeleri sarstı. Bağdat’ın ABD desteğiyle petrol sahaları ve sınır kapılarını devralma hamlesi Erbil ile ipleri gererken, Dr. Uzun Teker krizin arkasında ABD’nin İran’...",
+      "link": "https://www.birgun.net/haber/trump-onayli-hamle-irak-ta-fay-hatlarini-oynatti-bagdat-ve-erbil-karsi-karsiya-748902",
+      "tarih": "2026-11-28T02:00:00.000Z",
+      "kaynak": "BIRGUN"
+    },
     {
       "baslik": "Irak-Türkiye petrol boru hattı yeniden faaliyete geçecek",
       "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
