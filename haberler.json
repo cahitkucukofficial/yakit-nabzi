@@ -1,16 +1,15 @@
 {
-  "guncelleme": "2026-11-28T06:03:49.922Z",
+  "guncelleme": "2026-11-28T06:59:00.212Z",
   "kaynaklar": [
+    "TRTHABER",
+    "CUMHURIYET",
     "DUNYA",
     "EKONOMIM",
     "BIRGUN",
-    "ENSONHABER",
     "YENISAFAK",
     "SABAH",
-    "TRTHABER",
     "STAR",
     "BLOOMBERGHT",
-    "CUMHURIYET",
     "SOZCU"
   ],
   "beklenti": {
@@ -42,6 +41,20 @@
   },
   "haberler": [
     {
+      "baslik": "İran: Hürmüz Boğazı ve Umman kıyıları yakınlarında 2 petrol tankeri deniz mayınına çarptı",
+      "ozet": "İran Devrim Muhafızları Ordusu, Hürmüz Boğazı'nın doğusunda ve Umman kıyıları yakınlarında 2 petrol tankerinin deniz mayınına çarparak patladığını duyurdu.",
+      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazi-ve-umman-kiyilari-yakinlarinda-2-petrol-tankeri-deniz-mayinina-carpti-964716.html",
+      "tarih": "2026-11-28T06:32:00.000Z",
+      "kaynak": "TRTHABER"
+    },
+    {
+      "baslik": "Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 28 Kasım 2028 Cumartesirtesi İstanbul, Ankara, İzmir güncel akaryakıt fiyatları",
+      "ozet": "Benzin, motorin ve LPG fiyatları araç sahipleri tarafından yakından takip ediliyor. Peki, Benzin, motorin ve LPG fiyatları ne kadar oldu, kaç TL? 28 Kasım 2028 Cumartesi İstanbul, Ankara, İzmir güncel akaryakıt fiyatl...",
+      "link": "https://www.cumhuriyet.com.tr/ekonomi/benzin-motorin-ve-lpg-fiyatlari-ne-kadar-oldu-kac-tl-28-kasim-2028-cumartesirtesi-istanbul-ankara-izmir-guncel-akaryakit-fiyatlari-2560100",
+      "tarih": "2026-11-28T06:27:00.000Z",
+      "kaynak": "CUMHURIYET"
+    },
+    {
       "baslik": "İran'ın Hürmüz listesindeki gemi sayısı 260'ı aştı: Petrol taşımacılığında yeni risk",
       "ozet": "İran, Hürmüz Boğazı'nda tek taraflı olarak belirlediği geçiş kurallarına uymadığını öne sürdüğü 260'tan fazla gemiyi listeye aldı. Römorkörlerin de listeye eklenmesi, küresel enerji taşımacılığında güvenlik ve maliyet...",
       "link": "https://www.dunya.com/gundem/iranin-hurmuz-listesindeki-gemi-sayisi-260i-asti-petrol-tasimaciliginda-yeni-risk-haberi-849154",
@@ -70,13 +83,6 @@
       "kaynak": "BIRGUN"
     },
     {
-      "baslik": "Irak-Türkiye petrol boru hattı yeniden faaliyete geçecek",
-      "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşma...",
-      "link": "https://www.ensonhaber.com/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-gececek-h1586254",
-      "tarih": "2026-11-27T17:00:15.000Z",
-      "kaynak": "ENSONHABER"
-    },
-    {
       "baslik": "12 yıldır kapalıydı: Türkiye'ye petrol sağlayacak hat yeniden faaliyete geçiyor",
       "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başladı. Hattın ilk aşamada günlük 300 bin, daha sonra 500 bin varil petrol taşıması hedefleniyor.",
       "link": "https://www.yenisafak.com/ekonomi/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-geciyor-4877239",
@@ -96,13 +102,6 @@
       "link": "https://www.sabah.com.tr/ekonomi/turkiyeye-komsudan-petrol-akacak-12-yildir-kapali-olan-eski-hat-yeniden-aciliyor-7710572",
       "tarih": "2026-11-27T12:59:59.000Z",
       "kaynak": "SABAH"
-    },
-    {
-      "baslik": "IrakTürkiye petrol boru hattı yeniden faaliyete geçecek",
-      "ozet": "Irak, 12 yıldır kapalı olan eski IrakTürkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin varil petrol taşıma kapasitesine ulaşmas...",
-      "link": "https://www.trthaber.com/haber/ekonomi/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-gececek-964663.html",
-      "tarih": "2026-11-27T12:38:00.000Z",
-      "kaynak": "TRTHABER"
     },
     {
       "baslik": "12 yıllık ara sona eriyor! Günde 500 bin varil petrol akacak",
@@ -193,13 +192,6 @@
       "ozet": "Orta Doğu'da enerji altyapısı ve tankerlere yönelik saldırıların ihracatı aksatabileceği endişesi petrol fiyatlarını desteklerken, Brent bu ayın ilk haftalık yükselişine yöneldi.",
       "link": "https://www.bloomberght.com/kuresel-piyasalarda-risk-istahi-toparlaniyor-3795881",
       "tarih": "2026-11-27T05:38:41.000Z",
-      "kaynak": "BLOOMBERGHT"
-    },
-    {
-      "baslik": "Petrolde jeopolitik gerilim sürüyor",
-      "ozet": "Petrol fiyatları, Orta Doğu'da enerji altyapısına ve tankerlere yönelik saldırıların çatışmaların tırmanarak ihracatı aksatabileceğine dair endişeleri artırmasıyla bu ayki ilk haftalık kazancını kaydetme yoluna girdi.",
-      "link": "https://www.bloomberght.com/petrolde-jeopolitik-gerilim-suruyor-3795874",
-      "tarih": "2026-11-27T05:22:35.000Z",
       "kaynak": "BLOOMBERGHT"
     },
     {
