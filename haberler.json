@@ -1,6 +1,7 @@
 {
-  "guncelleme": "2026-11-28T18:00:31.423Z",
+  "guncelleme": "2026-11-28T18:55:39.756Z",
   "kaynaklar": [
+    "AKSAM",
     "ENSONHABER",
     "EKONOMIM",
     "TRTHABER",
@@ -26,6 +27,13 @@
   },
   "gundem": {},
   "haberler": [
+    {
+      "baslik": "Terörün gölgesinden petrolün merkezine! Gabar'da üretim 85 bin varile ulaştı",
+      "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Gabar'da günde 85 bin varil petrol üretildiğini belirterek bu rakamın 2027'de 100 bin varilin üzerine çıkacağını söyledi. Bayraktar, Akkuyu, yenilenebilir enerji v...",
+      "link": "https://www.aksam.com.tr/guncel/terorun-golgesinden-petrolun-merkezine-gabarda-uretim-85-bin-varile-ulasti/haber-1718188",
+      "tarih": "2026-11-28T18:13:00.000Z",
+      "kaynak": "AKSAM"
+    },
     {
       "baslik": "Alparslan Bayraktar: Gabar'da 2027'de günlük 100 bin varilin üzerine çıkacağız",
       "ozet": "Gabar'da mevcut günlük petrol üretim miktarının günlük 85 bin varil olduğunu ifade eden Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, 2027'de günlük 100 bin varilin üzerinde petrol üreteceklerini söyledi.",
